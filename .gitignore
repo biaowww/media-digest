@@ -5,3 +5,4 @@ scraper/tmdb_api_key.txt
 __pycache__/
 *.pyc
 .pytest_cache/
+scraper/logs/

@@ -63,8 +63,8 @@
     const r = await fetch('../shows/index.json');
     const { shows } = await r.json();
     $app.replaceChildren(
-      h('h1', {}, '压缩观看路线'),
-      h('p', { class: 'muted small' }, '长剧集，不跳集也不全看：骨架必看 + 桥接摘要。'),
+      h('h1', {}, '追剧路线', h('small', { class: 'muted', style: 'font-size:13px;font-weight:400;margin-left:8px' }, 'media-digest')),
+      h('p', { class: 'muted small' }, '把几十集的长剧压成一条路线：必看的集全速看，跳过的集读摘要，进度记在手机里。'),
       h('div', { class: 'list' }, shows.map(s => h('a', { class: 'card', href: '?show=' + encodeURIComponent(s.slug) },
         h('img', { src: s.cover || '', alt: '' }),
         h('div', {}, h('h3', {}, s.title_cn || s.title), h('div', { class: 'muted small' }, [s.title_cn ? s.title : null, s.year, s.total_eps + ' 集'].filter(Boolean).join(' · ')),
@@ -82,7 +82,7 @@
     const meta = show.meta, about = show.about || {}, intro = show.intro || {};
     const eps = show.episodes || [], route = show.route || [];
     const byN = new Map(eps.map(e => [e.n, e]));
-    document.title = (meta.title_cn || meta.title) + ' · 压缩观看路线';
+    document.title = (meta.title_cn || meta.title) + ' · 追剧路线';
 
     const K_DONE = `md:${slug}:done`, K_KPI = `md:${slug}:kpi`, K_DET = `md:${slug}:detrend`;
     let done = new Set(store.get(K_DONE, []));

@@ -52,6 +52,16 @@ py -m http.server 8765      # 然后开 http://localhost:8765/site/?show=monster
 
 `route` 允许为空——只有 `episodes` 时页面照样渲染（评分曲线 + 全集列表 + 进度）。`intro` 缺项时页面回退到 `about`（并打"自动抓取"标）。
 
+## 无人值守构建（默认路径）
+
+```bash
+py scraper/build.py            # 扫 Drive 内容目录：新剧按 route.json 的 meta.ids 抓客观数据 → 全部 sync → 有变更就 commit + push
+py scraper/build.py --refresh  # 所有剧重抓评分（建议每周）
+run_build.bat                  # 同上，双击即可；计划任务 media-digest-build 每天 09:30 调它（StartWhenAvailable）
+```
+
+日志 `scraper/logs/build.log`。某部剧校验不过只跳过它，不影响其余。写内容的会话**不需要任何人通知本机**。
+
 ## 内容更新回路（Drive → 仓库）
 
 内容不在仓库里写。**Drive 是唯一真相，仓库的 `shows/<slug>.json` 是 build 产物，不手改。** 每部剧的 `route.json`（含 `intro` 块）由各 Claude 会话写到 Drive：
