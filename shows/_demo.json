@@ -13,13 +13,14 @@
     "title_native": "MONSTER",
     "year": 2004,
     "total_eps": 74,
-    "primary_kpi": "composite",
+    "primary_kpi": "imdb",
     "updated": "2026-09-13"
   },
   "about": {
     "cover": "https://lain.bgm.tv/pic/cover/l/e4/dd/1959_W3w23.jpg",
     "synopsis": {
-      "zh": "1986年，一名头部被子弹击中的重伤少年送到西德・杜塞尔多夫医院中。日本外科医生天马忽视院长的命令，以他天才般的手术技术的拯救了那位少年。\r\n\r\n实行共产主义的世界为了推倒西德而进行着异常的阴谋。捷克斯洛伐克秘密警察法兰斯·波纳帕达等人，教育孩童们成为送往资本主义各国的战斗员，在这过程中诞生了约翰这个怪物。约翰心中的怪物越变越大，进而开始杀害周遭的人。就像是法兰兹·波纳帕达的绘本《没有名字的怪物》里的主角怪物，附身于人身上而逐渐吃掉身边的人。\r\n\r\n数年后、1995年，几年不见的约翰已长成巨大的怪物、一点也不犹豫地杀掉天马的病人。在体内有什么东西爆开了似的天马、因而追缉著怪物约翰。天马医生是否能阻止约翰的杀戮呢？刺激约翰的绘本《没有名字的怪物》到底是什么呢？为什么约翰要一直杀人？故事就在柏林墙倒塌后的德国与捷克展开。"
+      "zh": "1986年，一名头部被子弹击中的重伤少年送到西德・杜塞尔多夫医院中。日本外科医生天马忽视院长的命令，以他天才般的手术技术的拯救了那位少年。\r\n\r\n实行共产主义的世界为了推倒西德而进行着异常的阴谋。捷克斯洛伐克秘密警察法兰斯·波纳帕达等人，教育孩童们成为送往资本主义各国的战斗员，在这过程中诞生了约翰这个怪物。约翰心中的怪物越变越大，进而开始杀害周遭的人。就像是法兰兹·波纳帕达的绘本《没有名字的怪物》里的主角怪物，附身于人身上而逐渐吃掉身边的人。\r\n\r\n数年后、1995年，几年不见的约翰已长成巨大的怪物、一点也不犹豫地杀掉天马的病人。在体内有什么东西爆开了似的天马、因而追缉著怪物约翰。天马医生是否能阻止约翰的杀戮呢？刺激约翰的绘本《没有名字的怪物》到底是什么呢？为什么约翰要一直杀人？故事就在柏林墙倒塌后的德国与捷克展开。",
+      "en": "Dr. Kenzou Tenma, an elite neurosurgeon recently engaged to his hospital director's daughter, is well on his way to ascending the hospital hierarchy. That is until one night, a seemingly small event changes Dr. Tenma's life forever. While preparing to perform surgery on someone, he gets a call from the hospital director telling him to switch patients and instead perform life-saving brain surgery on a famous performer. His fellow doctors, fiancée, and the hospital director applaud his accomplishment; but because of the switch, a poor immigrant worker is dead, causing Dr. Tenma to have a crisis of conscience.\n\nSo when a similar situation arises, Dr. Tenma stands his ground and chooses to perform surgery on the young boy Johan Liebert instead of the town's mayor. Unfortunately, this choice leads to serious ramifications for Dr. Tenma—losing his social standing being one of them. However, with the mysterious death of the director and two other doctors, Dr. Tenma's position is restored. With no evidence to convict him, he is released and goes on to attain the position of hospital director. \n\nNine years later when Dr. Tenma saves the life of a criminal, his past comes back to haunt him—once again, he comes face to face with the monster he operated on. He must now embark on a quest of pursuit to make amends for the havoc spread by the one he saved."
     },
     "scores": {
       "bangumi": {
@@ -30,12 +31,18 @@
       "imdb": {
         "score": 8.8,
         "votes": 75216
+      },
+      "mal": {
+        "score": 8.89,
+        "votes": 518695,
+        "rank": 27
       }
     },
     "links": {
       "bangumi": "https://bgm.tv/subject/1959",
       "imdb": "https://www.imdb.com/title/tt0434706/",
-      "wiki": "https://en.wikipedia.org/wiki/List_of_Monster_episodes"
+      "wiki": "https://en.wikipedia.org/wiki/List_of_Monster_episodes",
+      "mal": "https://myanimelist.net/anime/19"
     },
     "characters_bangumi": [
       {
@@ -56,6 +63,14 @@
         "image": "https://lain.bgm.tv/pic/crt/g/83/d6/18451_crt_agEgg.jpg?r=1697636749",
         "bangumi_id": 18451
       }
+    ],
+    "genres": [
+      "Drama",
+      "Mystery",
+      "Suspense"
+    ],
+    "studios": [
+      "Madhouse"
     ]
   },
   "intro": {
@@ -94,6 +109,11 @@
         "bangumi": {
           "comments": 23,
           "url": "https://bgm.tv/ep/9853"
+        },
+        "mal": {
+          "score": 4.34,
+          "forum_replies": 235,
+          "url": "https://myanimelist.net/anime/19/Monster/episode/1"
         }
       },
       "synopsis": {
@@ -102,7 +122,12 @@
       "title_native": "ヘルDr.テンマ",
       "title_en": "Herr Dr. Tenma",
       "title_cn": "Herr Dr. Tenma",
-      "aired": "2004-04-07"
+      "aired": "2004-04-07",
+      "heat": {
+        "mal_replies": 235,
+        "bangumi_comments": 23,
+        "imdb_votes": 5103
+      }
     },
     {
       "n": 2,
@@ -117,6 +142,11 @@
         "bangumi": {
           "comments": 18,
           "url": "https://bgm.tv/ep/9854"
+        },
+        "mal": {
+          "score": 4.43,
+          "forum_replies": 176,
+          "url": "https://myanimelist.net/anime/19/Monster/episode/2"
         }
       },
       "synopsis": {
@@ -124,7 +154,12 @@
       },
       "title_native": "転落",
       "title_en": "Downfall",
-      "aired": "2004-04-14"
+      "aired": "2004-04-14",
+      "heat": {
+        "mal_replies": 176,
+        "bangumi_comments": 18,
+        "imdb_votes": 4119
+      }
     },
     {
       "n": 3,
@@ -139,6 +174,11 @@
         "bangumi": {
           "comments": 16,
           "url": "https://bgm.tv/ep/9855"
+        },
+        "mal": {
+          "score": 4.39,
+          "forum_replies": 151,
+          "url": "https://myanimelist.net/anime/19/Monster/episode/3"
         }
       },
       "synopsis": {
@@ -146,7 +186,12 @@
       },
       "title_native": "殺人事件",
       "title_en": "Murder Case",
-      "aired": "2004-04-21"
+      "aired": "2004-04-21",
+      "heat": {
+        "mal_replies": 151,
+        "bangumi_comments": 16,
+        "imdb_votes": 3780
+      }
     },
     {
       "n": 4,
@@ -161,6 +206,11 @@
         "bangumi": {
           "comments": 13,
           "url": "https://bgm.tv/ep/9856"
+        },
+        "mal": {
+          "score": 4.54,
+          "forum_replies": 170,
+          "url": "https://myanimelist.net/anime/19/Monster/episode/4"
         }
       },
       "synopsis": {
@@ -168,7 +218,12 @@
       },
       "title_native": "処刑の夜",
       "title_en": "Night of the Execution",
-      "aired": "2004-04-28"
+      "aired": "2004-04-28",
+      "heat": {
+        "mal_replies": 170,
+        "bangumi_comments": 13,
+        "imdb_votes": 5455
+      }
     },
     {
       "n": 5,
@@ -183,6 +238,11 @@
         "bangumi": {
           "comments": 12,
           "url": "https://bgm.tv/ep/9857"
+        },
+        "mal": {
+          "score": 4.34,
+          "forum_replies": 112,
+          "url": "https://myanimelist.net/anime/19/Monster/episode/5"
         }
       },
       "synopsis": {
@@ -190,7 +250,12 @@
       },
       "title_native": "ハイデルベルクの少女",
       "title_en": "The Girl From Heidelberg",
-      "aired": "2004-05-05"
+      "aired": "2004-05-05",
+      "heat": {
+        "mal_replies": 112,
+        "bangumi_comments": 12,
+        "imdb_votes": 3508
+      }
     },
     {
       "n": 6,
@@ -205,6 +270,11 @@
         "bangumi": {
           "comments": 20,
           "url": "https://bgm.tv/ep/9858"
+        },
+        "mal": {
+          "score": 4.47,
+          "forum_replies": 106,
+          "url": "https://myanimelist.net/anime/19/Monster/episode/6"
         }
       },
       "synopsis": {
@@ -212,7 +282,12 @@
       },
       "title_native": "失踪記事",
       "title_en": "Disappearance Report",
-      "aired": "2004-05-12"
+      "aired": "2004-05-12",
+      "heat": {
+        "mal_replies": 106,
+        "bangumi_comments": 20,
+        "imdb_votes": 3225
+      }
     },
     {
       "n": 7,
@@ -227,6 +302,11 @@
         "bangumi": {
           "comments": 10,
           "url": "https://bgm.tv/ep/9859"
+        },
+        "mal": {
+          "score": 4.42,
+          "forum_replies": 120,
+          "url": "https://myanimelist.net/anime/19/Monster/episode/7"
         }
       },
       "synopsis": {
@@ -234,7 +314,12 @@
       },
       "title_native": "惨劇の館",
       "title_en": "Mansion of Tragedy",
-      "aired": "2004-05-19"
+      "aired": "2004-05-19",
+      "heat": {
+        "mal_replies": 120,
+        "bangumi_comments": 10,
+        "imdb_votes": 3130
+      }
     },
     {
       "n": 8,
@@ -249,6 +334,11 @@
         "bangumi": {
           "comments": 26,
           "url": "https://bgm.tv/ep/9860"
+        },
+        "mal": {
+          "score": 4.3,
+          "forum_replies": 157,
+          "url": "https://myanimelist.net/anime/19/Monster/episode/8"
         }
       },
       "synopsis": {
@@ -256,7 +346,12 @@
       },
       "title_native": "追われる身",
       "title_en": "The Fugitive",
-      "aired": "2004-05-26"
+      "aired": "2004-05-26",
+      "heat": {
+        "mal_replies": 157,
+        "bangumi_comments": 26,
+        "imdb_votes": 2928
+      }
     },
     {
       "n": 9,
@@ -271,6 +366,11 @@
         "bangumi": {
           "comments": 31,
           "url": "https://bgm.tv/ep/9861"
+        },
+        "mal": {
+          "score": 4.6,
+          "forum_replies": 185,
+          "url": "https://myanimelist.net/anime/19/Monster/episode/9"
         }
       },
       "synopsis": {
@@ -278,7 +378,12 @@
       },
       "title_native": "老兵と少女",
       "title_en": "The Girl And The Seasoned Soldier",
-      "aired": "2004-06-02"
+      "aired": "2004-06-02",
+      "heat": {
+        "mal_replies": 185,
+        "bangumi_comments": 31,
+        "imdb_votes": 3403
+      }
     },
     {
       "n": 10,
@@ -293,6 +398,11 @@
         "bangumi": {
           "comments": 14,
           "url": "https://bgm.tv/ep/9862"
+        },
+        "mal": {
+          "score": 4.27,
+          "forum_replies": 103,
+          "url": "https://myanimelist.net/anime/19/Monster/episode/10"
         }
       },
       "synopsis": {
@@ -300,7 +410,12 @@
       },
       "title_native": "消された過去",
       "title_en": "A Past Erased",
-      "aired": "2004-06-09"
+      "aired": "2004-06-09",
+      "heat": {
+        "mal_replies": 103,
+        "bangumi_comments": 14,
+        "imdb_votes": 2773
+      }
     },
     {
       "n": 11,
@@ -315,6 +430,11 @@
         "bangumi": {
           "comments": 11,
           "url": "https://bgm.tv/ep/9863"
+        },
+        "mal": {
+          "score": 4.39,
+          "forum_replies": 113,
+          "url": "https://myanimelist.net/anime/19/Monster/episode/11"
         }
       },
       "synopsis": {
@@ -322,7 +442,12 @@
       },
       "title_native": "511キンダーハイム",
       "title_en": "511 Kinderheim",
-      "aired": "2004-06-16"
+      "aired": "2004-06-16",
+      "heat": {
+        "mal_replies": 113,
+        "bangumi_comments": 11,
+        "imdb_votes": 2869
+      }
     },
     {
       "n": 12,
@@ -337,6 +462,11 @@
         "bangumi": {
           "comments": 17,
           "url": "https://bgm.tv/ep/9864"
+        },
+        "mal": {
+          "score": 4.48,
+          "forum_replies": 126,
+          "url": "https://myanimelist.net/anime/19/Monster/episode/12"
         }
       },
       "synopsis": {
@@ -344,7 +474,12 @@
       },
       "title_native": "ささやかな実験",
       "title_en": "A Little Experiment",
-      "aired": "2004-06-23"
+      "aired": "2004-06-23",
+      "heat": {
+        "mal_replies": 126,
+        "bangumi_comments": 17,
+        "imdb_votes": 3147
+      }
     },
     {
       "n": 13,
@@ -359,6 +494,11 @@
         "bangumi": {
           "comments": 22,
           "url": "https://bgm.tv/ep/9865"
+        },
+        "mal": {
+          "score": 4.45,
+          "forum_replies": 119,
+          "url": "https://myanimelist.net/anime/19/Monster/episode/13"
         }
       },
       "synopsis": {
@@ -367,7 +507,12 @@
       "title_native": "ペトラとシューマン",
       "title_en": "Petra and Schumann",
       "title_cn": "Petra and Schumann",
-      "aired": "2004-06-30"
+      "aired": "2004-06-30",
+      "heat": {
+        "mal_replies": 119,
+        "bangumi_comments": 22,
+        "imdb_votes": 2731
+      }
     },
     {
       "n": 14,
@@ -382,6 +527,11 @@
         "bangumi": {
           "comments": 43,
           "url": "https://bgm.tv/ep/9866"
+        },
+        "mal": {
+          "score": 4.4,
+          "forum_replies": 215,
+          "url": "https://myanimelist.net/anime/19/Monster/episode/14"
         }
       },
       "synopsis": {
@@ -389,7 +539,12 @@
       },
       "title_native": "残された男・残された女",
       "title_en": "The Abandoned Man・The Abandoned Woman",
-      "aired": "2004-07-07"
+      "aired": "2004-07-07",
+      "heat": {
+        "mal_replies": 215,
+        "bangumi_comments": 43,
+        "imdb_votes": 2720
+      }
     },
     {
       "n": 15,
@@ -404,6 +559,11 @@
         "bangumi": {
           "comments": 9,
           "url": "https://bgm.tv/ep/9867"
+        },
+        "mal": {
+          "score": 4.36,
+          "forum_replies": 116,
+          "url": "https://myanimelist.net/anime/19/Monster/episode/15"
         }
       },
       "synopsis": {
@@ -412,7 +572,12 @@
       "title_native": "ビー・マイ・ベイビー",
       "title_en": "Be My Baby",
       "title_cn": "Be My Baby",
-      "aired": "2004-07-14"
+      "aired": "2004-07-14",
+      "heat": {
+        "mal_replies": 116,
+        "bangumi_comments": 9,
+        "imdb_votes": 2557
+      }
     },
     {
       "n": 16,
@@ -427,6 +592,11 @@
         "bangumi": {
           "comments": 7,
           "url": "https://bgm.tv/ep/9868"
+        },
+        "mal": {
+          "score": 4.42,
+          "forum_replies": 97,
+          "url": "https://myanimelist.net/anime/19/Monster/episode/16"
         }
       },
       "synopsis": {
@@ -434,7 +604,12 @@
       },
       "title_native": "ヴォルフの告白",
       "title_en": "Wolf's Confession",
-      "aired": "2004-07-21"
+      "aired": "2004-07-21",
+      "heat": {
+        "mal_replies": 97,
+        "bangumi_comments": 7,
+        "imdb_votes": 2490
+      }
     },
     {
       "n": 17,
@@ -449,6 +624,11 @@
         "bangumi": {
           "comments": 13,
           "url": "https://bgm.tv/ep/9869"
+        },
+        "mal": {
+          "score": 4.51,
+          "forum_replies": 149,
+          "url": "https://myanimelist.net/anime/19/Monster/episode/17"
         }
       },
       "synopsis": {
@@ -456,7 +636,12 @@
       },
       "title_native": "再会",
       "title_en": "Reunion",
-      "aired": "2004-07-28"
+      "aired": "2004-07-28",
+      "heat": {
+        "mal_replies": 149,
+        "bangumi_comments": 13,
+        "imdb_votes": 2728
+      }
     },
     {
       "n": 18,
@@ -471,6 +656,11 @@
         "bangumi": {
           "comments": 22,
           "url": "https://bgm.tv/ep/9870"
+        },
+        "mal": {
+          "score": 4.38,
+          "forum_replies": 115,
+          "url": "https://myanimelist.net/anime/19/Monster/episode/18"
         }
       },
       "synopsis": {
@@ -478,7 +668,12 @@
       },
       "title_native": "五杯目の砂糖",
       "title_en": "The Fifth Spoonful of Sugar",
-      "aired": "2004-08-04"
+      "aired": "2004-08-04",
+      "heat": {
+        "mal_replies": 115,
+        "bangumi_comments": 22,
+        "imdb_votes": 2631
+      }
     },
     {
       "n": 19,
@@ -493,6 +688,11 @@
         "bangumi": {
           "comments": 26,
           "url": "https://bgm.tv/ep/9871"
+        },
+        "mal": {
+          "score": 4.59,
+          "forum_replies": 109,
+          "url": "https://myanimelist.net/anime/19/Monster/episode/19"
         }
       },
       "synopsis": {
@@ -500,7 +700,12 @@
       },
       "title_native": "怪物の深淵",
       "title_en": "The Monster's Abyss",
-      "aired": "2004-08-11"
+      "aired": "2004-08-11",
+      "heat": {
+        "mal_replies": 109,
+        "bangumi_comments": 26,
+        "imdb_votes": 2954
+      }
     },
     {
       "n": 20,
@@ -515,6 +720,11 @@
         "bangumi": {
           "comments": 18,
           "url": "https://bgm.tv/ep/9872"
+        },
+        "mal": {
+          "score": 4.35,
+          "forum_replies": 120,
+          "url": "https://myanimelist.net/anime/19/Monster/episode/20"
         }
       },
       "synopsis": {
@@ -522,7 +732,12 @@
       },
       "title_native": "フライハムへの旅",
       "title_en": "Journey to Freiham",
-      "aired": "2004-08-18"
+      "aired": "2004-08-18",
+      "heat": {
+        "mal_replies": 120,
+        "bangumi_comments": 18,
+        "imdb_votes": 2568
+      }
     },
     {
       "n": 21,
@@ -537,6 +752,11 @@
         "bangumi": {
           "comments": 20,
           "url": "https://bgm.tv/ep/9873"
+        },
+        "mal": {
+          "score": 4.45,
+          "forum_replies": 110,
+          "url": "https://myanimelist.net/anime/19/Monster/episode/21"
         }
       },
       "synopsis": {
@@ -544,7 +764,12 @@
       },
       "title_native": "幸せな休日",
       "title_en": "A Wonderful Holiday",
-      "aired": "2004-08-25"
+      "aired": "2004-08-25",
+      "heat": {
+        "mal_replies": 110,
+        "bangumi_comments": 20,
+        "imdb_votes": 2655
+      }
     },
     {
       "n": 22,
@@ -559,6 +784,11 @@
         "bangumi": {
           "comments": 38,
           "url": "https://bgm.tv/ep/9874"
+        },
+        "mal": {
+          "score": 4.58,
+          "forum_replies": 151,
+          "url": "https://myanimelist.net/anime/19/Monster/episode/22"
         }
       },
       "synopsis": {
@@ -566,7 +796,12 @@
       },
       "title_native": "ルンゲの罠",
       "title_en": "Lunge's Trap",
-      "aired": "2004-09-01"
+      "aired": "2004-09-01",
+      "heat": {
+        "mal_replies": 151,
+        "bangumi_comments": 38,
+        "imdb_votes": 3190
+      }
     },
     {
       "n": 23,
@@ -581,6 +816,11 @@
         "bangumi": {
           "comments": 16,
           "url": "https://bgm.tv/ep/9875"
+        },
+        "mal": {
+          "score": 4.34,
+          "forum_replies": 123,
+          "url": "https://myanimelist.net/anime/19/Monster/episode/23"
         }
       },
       "synopsis": {
@@ -588,7 +828,12 @@
       },
       "title_native": "エヴァの告白",
       "title_en": "Eva's Confession",
-      "aired": "2004-09-08"
+      "aired": "2004-09-08",
+      "heat": {
+        "mal_replies": 123,
+        "bangumi_comments": 16,
+        "imdb_votes": 2405
+      }
     },
     {
       "n": 24,
@@ -603,6 +848,11 @@
         "bangumi": {
           "comments": 20,
           "url": "https://bgm.tv/ep/9876"
+        },
+        "mal": {
+          "score": 4.37,
+          "forum_replies": 124,
+          "url": "https://myanimelist.net/anime/19/Monster/episode/24"
         }
       },
       "synopsis": {
@@ -610,7 +860,12 @@
       },
       "title_native": "男達の食卓",
       "title_en": "The Men's Dining Table",
-      "aired": "2004-09-15"
+      "aired": "2004-09-15",
+      "heat": {
+        "mal_replies": 124,
+        "bangumi_comments": 20,
+        "imdb_votes": 2381
+      }
     },
     {
       "n": 25,
@@ -625,6 +880,11 @@
         "bangumi": {
           "comments": 16,
           "url": "https://bgm.tv/ep/9877"
+        },
+        "mal": {
+          "score": 4.27,
+          "forum_replies": 121,
+          "url": "https://myanimelist.net/anime/19/Monster/episode/25"
         }
       },
       "synopsis": {
@@ -632,7 +892,12 @@
       },
       "title_native": "木曜日の青年",
       "title_en": "The Thursday Boy",
-      "aired": "2004-09-29"
+      "aired": "2004-09-29",
+      "heat": {
+        "mal_replies": 121,
+        "bangumi_comments": 16,
+        "imdb_votes": 2819
+      }
     },
     {
       "n": 26,
@@ -647,6 +912,11 @@
         "bangumi": {
           "comments": 10,
           "url": "https://bgm.tv/ep/9878"
+        },
+        "mal": {
+          "score": 4.45,
+          "forum_replies": 124,
+          "url": "https://myanimelist.net/anime/19/Monster/episode/26"
         }
       },
       "synopsis": {
@@ -654,7 +924,12 @@
       },
       "title_native": "秘密の森",
       "title_en": "The Secret Woods",
-      "aired": "2004-10-06"
+      "aired": "2004-10-06",
+      "heat": {
+        "mal_replies": 124,
+        "bangumi_comments": 10,
+        "imdb_votes": 2609
+      }
     },
     {
       "n": 27,
@@ -669,6 +944,11 @@
         "bangumi": {
           "comments": 13,
           "url": "https://bgm.tv/ep/9879"
+        },
+        "mal": {
+          "score": 4.5,
+          "forum_replies": 129,
+          "url": "https://myanimelist.net/anime/19/Monster/episode/27"
         }
       },
       "synopsis": {
@@ -676,7 +956,12 @@
       },
       "title_native": "証拠の品",
       "title_en": "Pieces of Evidence",
-      "aired": "2004-10-13"
+      "aired": "2004-10-13",
+      "heat": {
+        "mal_replies": 129,
+        "bangumi_comments": 13,
+        "imdb_votes": 2545
+      }
     },
     {
       "n": 28,
@@ -691,6 +976,11 @@
         "bangumi": {
           "comments": 24,
           "url": "https://bgm.tv/ep/9880"
+        },
+        "mal": {
+          "score": 4.6,
+          "forum_replies": 121,
+          "url": "https://myanimelist.net/anime/19/Monster/episode/28"
         }
       },
       "synopsis": {
@@ -698,7 +988,12 @@
       },
       "title_native": "ただ一つの事件",
       "title_en": "Just One Case",
-      "aired": "2004-10-20"
+      "aired": "2004-10-20",
+      "heat": {
+        "mal_replies": 121,
+        "bangumi_comments": 24,
+        "imdb_votes": 2786
+      }
     },
     {
       "n": 29,
@@ -713,6 +1008,11 @@
         "bangumi": {
           "comments": 19,
           "url": "https://bgm.tv/ep/9881"
+        },
+        "mal": {
+          "score": 4.74,
+          "forum_replies": 222,
+          "url": "https://myanimelist.net/anime/19/Monster/episode/29"
         }
       },
       "synopsis": {
@@ -720,7 +1020,12 @@
       },
       "title_native": "処刑",
       "title_en": "Execution",
-      "aired": "2004-10-27"
+      "aired": "2004-10-27",
+      "heat": {
+        "mal_replies": 222,
+        "bangumi_comments": 19,
+        "imdb_votes": 5252
+      }
     },
     {
       "n": 30,
@@ -735,6 +1040,11 @@
         "bangumi": {
           "comments": 23,
           "url": "https://bgm.tv/ep/9882"
+        },
+        "mal": {
+          "score": 4.75,
+          "forum_replies": 196,
+          "url": "https://myanimelist.net/anime/19/Monster/episode/30"
         }
       },
       "synopsis": {
@@ -742,7 +1052,12 @@
       },
       "title_native": "ある決意",
       "title_en": "A Certain Decision",
-      "aired": "2004-11-03"
+      "aired": "2004-11-03",
+      "heat": {
+        "mal_replies": 196,
+        "bangumi_comments": 23,
+        "imdb_votes": 3443
+      }
     },
     {
       "n": 31,
@@ -757,6 +1072,11 @@
         "bangumi": {
           "comments": 31,
           "url": "https://bgm.tv/ep/33491"
+        },
+        "mal": {
+          "score": 4.49,
+          "forum_replies": 134,
+          "url": "https://myanimelist.net/anime/19/Monster/episode/31"
         }
       },
       "synopsis": {
@@ -764,7 +1084,12 @@
       },
       "title_native": "白日の下へ",
       "title_en": "Under Broad Daylight",
-      "aired": "2004-11-10"
+      "aired": "2004-11-10",
+      "heat": {
+        "mal_replies": 134,
+        "bangumi_comments": 31,
+        "imdb_votes": 2246
+      }
     },
     {
       "n": 32,
@@ -779,6 +1104,11 @@
         "bangumi": {
           "comments": 13,
           "url": "https://bgm.tv/ep/33492"
+        },
+        "mal": {
+          "score": 4.33,
+          "forum_replies": 107,
+          "url": "https://myanimelist.net/anime/19/Monster/episode/32"
         }
       },
       "synopsis": {
@@ -786,7 +1116,12 @@
       },
       "title_native": "聖域",
       "title_en": "Sanctuary",
-      "aired": "2004-11-17"
+      "aired": "2004-11-17",
+      "heat": {
+        "mal_replies": 107,
+        "bangumi_comments": 13,
+        "imdb_votes": 2220
+      }
     },
     {
       "n": 33,
@@ -801,6 +1136,11 @@
         "bangumi": {
           "comments": 19,
           "url": "https://bgm.tv/ep/33493"
+        },
+        "mal": {
+          "score": 4.49,
+          "forum_replies": 152,
+          "url": "https://myanimelist.net/anime/19/Monster/episode/33"
         }
       },
       "synopsis": {
@@ -808,7 +1148,12 @@
       },
       "title_native": "子どもの情景",
       "title_en": "Scene of a Child",
-      "aired": "2004-11-24"
+      "aired": "2004-11-24",
+      "heat": {
+        "mal_replies": 152,
+        "bangumi_comments": 19,
+        "imdb_votes": 2374
+      }
     },
     {
       "n": 34,
@@ -823,6 +1168,11 @@
         "bangumi": {
           "comments": 12,
           "url": "https://bgm.tv/ep/33494"
+        },
+        "mal": {
+          "score": 4.45,
+          "forum_replies": 89,
+          "url": "https://myanimelist.net/anime/19/Monster/episode/34"
         }
       },
       "synopsis": {
@@ -830,7 +1180,12 @@
       },
       "title_native": "闇の果て",
       "title_en": "At the End of the Darkness",
-      "aired": "2004-12-01"
+      "aired": "2004-12-01",
+      "heat": {
+        "mal_replies": 89,
+        "bangumi_comments": 12,
+        "imdb_votes": 2307
+      }
     },
     {
       "n": 35,
@@ -845,6 +1200,11 @@
         "bangumi": {
           "comments": 12,
           "url": "https://bgm.tv/ep/33495"
+        },
+        "mal": {
+          "score": 4.4,
+          "forum_replies": 118,
+          "url": "https://myanimelist.net/anime/19/Monster/episode/35"
         }
       },
       "synopsis": {
@@ -852,7 +1212,12 @@
       },
       "title_native": "名なしのヒーロー",
       "title_en": "A Hero With No Name",
-      "aired": "2004-12-08"
+      "aired": "2004-12-08",
+      "heat": {
+        "mal_replies": 118,
+        "bangumi_comments": 12,
+        "imdb_votes": 2194
+      }
     },
     {
       "n": 36,
@@ -867,6 +1232,11 @@
         "bangumi": {
           "comments": 19,
           "url": "https://bgm.tv/ep/33496"
+        },
+        "mal": {
+          "score": 4.52,
+          "forum_replies": 117,
+          "url": "https://myanimelist.net/anime/19/Monster/episode/36"
         }
       },
       "synopsis": {
@@ -874,7 +1244,12 @@
       },
       "title_native": "混沌の怪物",
       "title_en": "A Monster of Chaos",
-      "aired": "2004-12-15"
+      "aired": "2004-12-15",
+      "heat": {
+        "mal_replies": 117,
+        "bangumi_comments": 19,
+        "imdb_votes": 2489
+      }
     },
     {
       "n": 37,
@@ -889,6 +1264,11 @@
         "bangumi": {
           "comments": 21,
           "url": "https://bgm.tv/ep/33497"
+        },
+        "mal": {
+          "score": 4.72,
+          "forum_replies": 162,
+          "url": "https://myanimelist.net/anime/19/Monster/episode/37"
         }
       },
       "synopsis": {
@@ -897,7 +1277,12 @@
       "title_native": "なまえのないかいぶつ",
       "title_en": "A Monster Without a Name",
       "title_cn": "A Monster Without a Name",
-      "aired": "2005-01-12"
+      "aired": "2005-01-12",
+      "heat": {
+        "mal_replies": 162,
+        "bangumi_comments": 21,
+        "imdb_votes": 5142
+      }
     },
     {
       "n": 38,
@@ -912,6 +1297,11 @@
         "bangumi": {
           "comments": 32,
           "url": "https://bgm.tv/ep/33498"
+        },
+        "mal": {
+          "score": 4.43,
+          "forum_replies": 183,
+          "url": "https://myanimelist.net/anime/19/Monster/episode/38"
         }
       },
       "synopsis": {
@@ -919,7 +1309,12 @@
       },
       "title_native": "我が目の悪魔",
       "title_en": "The Demon in Our Eyes",
-      "aired": "2005-01-19"
+      "aired": "2005-01-19",
+      "heat": {
+        "mal_replies": 183,
+        "bangumi_comments": 32,
+        "imdb_votes": 3157
+      }
     },
     {
       "n": 39,
@@ -934,6 +1329,11 @@
         "bangumi": {
           "comments": 18,
           "url": "https://bgm.tv/ep/33499"
+        },
+        "mal": {
+          "score": 4.52,
+          "forum_replies": 115,
+          "url": "https://myanimelist.net/anime/19/Monster/episode/39"
         }
       },
       "synopsis": {
@@ -941,7 +1341,12 @@
       },
       "title_native": "目の中の地獄",
       "title_en": "The Hell in His Eyes",
-      "aired": "2005-01-26"
+      "aired": "2005-01-26",
+      "heat": {
+        "mal_replies": 115,
+        "bangumi_comments": 18,
+        "imdb_votes": 2163
+      }
     },
     {
       "n": 40,
@@ -956,6 +1361,11 @@
         "bangumi": {
           "comments": 15,
           "url": "https://bgm.tv/ep/33500"
+        },
+        "mal": {
+          "score": 4.43,
+          "forum_replies": 111,
+          "url": "https://myanimelist.net/anime/19/Monster/episode/40"
         }
       },
       "synopsis": {
@@ -963,7 +1373,12 @@
       },
       "title_native": "グリマー",
       "title_en": "Grimmer",
-      "aired": "2005-02-02"
+      "aired": "2005-02-02",
+      "heat": {
+        "mal_replies": 111,
+        "bangumi_comments": 15,
+        "imdb_votes": 2593
+      }
     },
     {
       "n": 41,
@@ -978,6 +1393,11 @@
         "bangumi": {
           "comments": 17,
           "url": "https://bgm.tv/ep/33501"
+        },
+        "mal": {
+          "score": 4.52,
+          "forum_replies": 116,
+          "url": "https://myanimelist.net/anime/19/Monster/episode/41"
         }
       },
       "synopsis": {
@@ -985,7 +1405,12 @@
       },
       "title_native": "511の亡霊",
       "title_en": "The Ghost of 511",
-      "aired": "2005-02-09"
+      "aired": "2005-02-09",
+      "heat": {
+        "mal_replies": 116,
+        "bangumi_comments": 17,
+        "imdb_votes": 2206
+      }
     },
     {
       "n": 42,
@@ -1000,6 +1425,11 @@
         "bangumi": {
           "comments": 19,
           "url": "https://bgm.tv/ep/33502"
+        },
+        "mal": {
+          "score": 4.56,
+          "forum_replies": 165,
+          "url": "https://myanimelist.net/anime/19/Monster/episode/42"
         }
       },
       "synopsis": {
@@ -1007,7 +1437,12 @@
       },
       "title_native": "超人シュタイナーの冒険",
       "title_en": "The Adventures of the Magnificent Steiner",
-      "aired": "2005-02-16"
+      "aired": "2005-02-16",
+      "heat": {
+        "mal_replies": 165,
+        "bangumi_comments": 19,
+        "imdb_votes": 2280
+      }
     },
     {
       "n": 43,
@@ -1022,6 +1457,11 @@
         "bangumi": {
           "comments": 17,
           "url": "https://bgm.tv/ep/33503"
+        },
+        "mal": {
+          "score": 4.5,
+          "forum_replies": 149,
+          "url": "https://myanimelist.net/anime/19/Monster/episode/43"
         }
       },
       "synopsis": {
@@ -1029,7 +1469,12 @@
       },
       "title_native": "スーク刑事",
       "title_en": "Detective Suk",
-      "aired": "2005-02-23"
+      "aired": "2005-02-23",
+      "heat": {
+        "mal_replies": 149,
+        "bangumi_comments": 17,
+        "imdb_votes": 2134
+      }
     },
     {
       "n": 44,
@@ -1044,6 +1489,11 @@
         "bangumi": {
           "comments": 57,
           "url": "https://bgm.tv/ep/33504"
+        },
+        "mal": {
+          "score": 4.82,
+          "forum_replies": 463,
+          "url": "https://myanimelist.net/anime/19/Monster/episode/44"
         }
       },
       "synopsis": {
@@ -1051,7 +1501,12 @@
       },
       "title_native": "二つの闇",
       "title_en": "The Two Darkness",
-      "aired": "2005-03-02"
+      "aired": "2005-03-02",
+      "heat": {
+        "mal_replies": 463,
+        "bangumi_comments": 57,
+        "imdb_votes": 3330
+      }
     },
     {
       "n": 45,
@@ -1066,6 +1521,11 @@
         "bangumi": {
           "comments": 14,
           "url": "https://bgm.tv/ep/33505"
+        },
+        "mal": {
+          "score": 4.62,
+          "forum_replies": 117,
+          "url": "https://myanimelist.net/anime/19/Monster/episode/45"
         }
       },
       "synopsis": {
@@ -1073,7 +1533,12 @@
       },
       "title_native": "怪物の残像",
       "title_en": "The Afterimage of a Monster",
-      "aired": "2005-03-09"
+      "aired": "2005-03-09",
+      "heat": {
+        "mal_replies": 117,
+        "bangumi_comments": 14,
+        "imdb_votes": 2231
+      }
     },
     {
       "n": 46,
@@ -1088,6 +1553,11 @@
         "bangumi": {
           "comments": 13,
           "url": "https://bgm.tv/ep/33506"
+        },
+        "mal": {
+          "score": 4.67,
+          "forum_replies": 122,
+          "url": "https://myanimelist.net/anime/19/Monster/episode/46"
         }
       },
       "synopsis": {
@@ -1095,7 +1565,12 @@
       },
       "title_native": "接点",
       "title_en": "The Point of Contact",
-      "aired": "2005-03-16"
+      "aired": "2005-03-16",
+      "heat": {
+        "mal_replies": 122,
+        "bangumi_comments": 13,
+        "imdb_votes": 2915
+      }
     },
     {
       "n": 47,
@@ -1110,6 +1585,11 @@
         "bangumi": {
           "comments": 8,
           "url": "https://bgm.tv/ep/33507"
+        },
+        "mal": {
+          "score": 4.63,
+          "forum_replies": 92,
+          "url": "https://myanimelist.net/anime/19/Monster/episode/47"
         }
       },
       "synopsis": {
@@ -1117,7 +1597,12 @@
       },
       "title_native": "悪夢の扉",
       "title_en": "The Door to a Nightmare",
-      "aired": "2005-03-23"
+      "aired": "2005-03-23",
+      "heat": {
+        "mal_replies": 92,
+        "bangumi_comments": 8,
+        "imdb_votes": 2163
+      }
     },
     {
       "n": 48,
@@ -1132,6 +1617,11 @@
         "bangumi": {
           "comments": 13,
           "url": "https://bgm.tv/ep/33508"
+        },
+        "mal": {
+          "score": 4.59,
+          "forum_replies": 121,
+          "url": "https://myanimelist.net/anime/19/Monster/episode/48"
         }
       },
       "synopsis": {
@@ -1139,7 +1629,12 @@
       },
       "title_native": "一番怖いもの",
       "title_en": "The Most Frightening Thing",
-      "aired": "2005-03-30"
+      "aired": "2005-03-30",
+      "heat": {
+        "mal_replies": 121,
+        "bangumi_comments": 13,
+        "imdb_votes": 2076
+      }
     },
     {
       "n": 49,
@@ -1154,6 +1649,11 @@
         "bangumi": {
           "comments": 24,
           "url": "https://bgm.tv/ep/33509"
+        },
+        "mal": {
+          "score": 4.73,
+          "forum_replies": 180,
+          "url": "https://myanimelist.net/anime/19/Monster/episode/49"
         }
       },
       "synopsis": {
@@ -1161,7 +1661,12 @@
       },
       "title_native": "一番残酷なこと",
       "title_en": "The Cruelest Thing",
-      "aired": "2005-04-06"
+      "aired": "2005-04-06",
+      "heat": {
+        "mal_replies": 180,
+        "bangumi_comments": 24,
+        "imdb_votes": 4666
+      }
     },
     {
       "n": 50,
@@ -1176,6 +1681,11 @@
         "bangumi": {
           "comments": 11,
           "url": "https://bgm.tv/ep/33510"
+        },
+        "mal": {
+          "score": 4.54,
+          "forum_replies": 92,
+          "url": "https://myanimelist.net/anime/19/Monster/episode/50"
         }
       },
       "synopsis": {
@@ -1183,7 +1693,12 @@
       },
       "title_native": "バラの屋敷",
       "title_en": "The Rose Mansion",
-      "aired": "2005-04-13"
+      "aired": "2005-04-13",
+      "heat": {
+        "mal_replies": 92,
+        "bangumi_comments": 11,
+        "imdb_votes": 2094
+      }
     },
     {
       "n": 51,
@@ -1198,6 +1713,11 @@
         "bangumi": {
           "comments": 14,
           "url": "https://bgm.tv/ep/33511"
+        },
+        "mal": {
+          "score": 4.63,
+          "forum_replies": 110,
+          "url": "https://myanimelist.net/anime/19/Monster/episode/51"
         }
       },
       "synopsis": {
@@ -1205,7 +1725,12 @@
       },
       "title_native": "怪物のラブレター",
       "title_en": "A Monster's Love Letter",
-      "aired": "2005-04-20"
+      "aired": "2005-04-20",
+      "heat": {
+        "mal_replies": 110,
+        "bangumi_comments": 14,
+        "imdb_votes": 2023
+      }
     },
     {
       "n": 52,
@@ -1220,6 +1745,11 @@
         "bangumi": {
           "comments": 12,
           "url": "https://bgm.tv/ep/33512"
+        },
+        "mal": {
+          "score": 4.61,
+          "forum_replies": 147,
+          "url": "https://myanimelist.net/anime/19/Monster/episode/52"
         }
       },
       "synopsis": {
@@ -1227,7 +1757,12 @@
       },
       "title_native": "弁護士",
       "title_en": "Lawyer",
-      "aired": "2005-04-27"
+      "aired": "2005-04-27",
+      "heat": {
+        "mal_replies": 147,
+        "bangumi_comments": 12,
+        "imdb_votes": 2001
+      }
     },
     {
       "n": 53,
@@ -1242,6 +1777,11 @@
         "bangumi": {
           "comments": 10,
           "url": "https://bgm.tv/ep/33513"
+        },
+        "mal": {
+          "score": 4.46,
+          "forum_replies": 122,
+          "url": "https://myanimelist.net/anime/19/Monster/episode/53"
         }
       },
       "synopsis": {
@@ -1249,7 +1789,12 @@
       },
       "title_native": "決意",
       "title_en": "Determination",
-      "aired": "2005-05-04"
+      "aired": "2005-05-04",
+      "heat": {
+        "mal_replies": 122,
+        "bangumi_comments": 10,
+        "imdb_votes": 1950
+      }
     },
     {
       "n": 54,
@@ -1264,6 +1809,11 @@
         "bangumi": {
           "comments": 11,
           "url": "https://bgm.tv/ep/33514"
+        },
+        "mal": {
+          "score": 4.54,
+          "forum_replies": 109,
+          "url": "https://myanimelist.net/anime/19/Monster/episode/54"
         }
       },
       "synopsis": {
@@ -1271,7 +1821,12 @@
       },
       "title_native": "脱走",
       "title_en": "Escape",
-      "aired": "2005-05-11"
+      "aired": "2005-05-11",
+      "heat": {
+        "mal_replies": 109,
+        "bangumi_comments": 11,
+        "imdb_votes": 2013
+      }
     },
     {
       "n": 55,
@@ -1286,6 +1841,11 @@
         "bangumi": {
           "comments": 8,
           "url": "https://bgm.tv/ep/33515"
+        },
+        "mal": {
+          "score": 4.58,
+          "forum_replies": 78,
+          "url": "https://myanimelist.net/anime/19/Monster/episode/55"
         }
       },
       "synopsis": {
@@ -1293,7 +1853,12 @@
       },
       "title_native": "402号室",
       "title_en": "Room Number 402",
-      "aired": "2005-05-18"
+      "aired": "2005-05-18",
+      "heat": {
+        "mal_replies": 78,
+        "bangumi_comments": 8,
+        "imdb_votes": 1999
+      }
     },
     {
       "n": 56,
@@ -1308,6 +1873,11 @@
         "bangumi": {
           "comments": 12,
           "url": "https://bgm.tv/ep/33516"
+        },
+        "mal": {
+          "score": 4.63,
+          "forum_replies": 111,
+          "url": "https://myanimelist.net/anime/19/Monster/episode/56"
         }
       },
       "synopsis": {
@@ -1315,7 +1885,12 @@
       },
       "title_native": "終わらない旅",
       "title_en": "The Unending Journey",
-      "aired": "2005-05-25"
+      "aired": "2005-05-25",
+      "heat": {
+        "mal_replies": 111,
+        "bangumi_comments": 12,
+        "imdb_votes": 2122
+      }
     },
     {
       "n": 57,
@@ -1330,6 +1905,11 @@
         "bangumi": {
           "comments": 13,
           "url": "https://bgm.tv/ep/33517"
+        },
+        "mal": {
+          "score": 4.56,
+          "forum_replies": 90,
+          "url": "https://myanimelist.net/anime/19/Monster/episode/57"
         }
       },
       "synopsis": {
@@ -1337,7 +1917,12 @@
       },
       "title_native": "あの日の夜",
       "title_en": "That Night",
-      "aired": "2005-06-01"
+      "aired": "2005-06-01",
+      "heat": {
+        "mal_replies": 90,
+        "bangumi_comments": 13,
+        "imdb_votes": 2122
+      }
     },
     {
       "n": 58,
@@ -1352,6 +1937,11 @@
         "bangumi": {
           "comments": 13,
           "url": "https://bgm.tv/ep/33518"
+        },
+        "mal": {
+          "score": 4.33,
+          "forum_replies": 101,
+          "url": "https://myanimelist.net/anime/19/Monster/episode/58"
         }
       },
       "synopsis": {
@@ -1359,7 +1949,12 @@
       },
       "title_native": "いやな仕事",
       "title_en": "Unwanted Job",
-      "aired": "2005-06-08"
+      "aired": "2005-06-08",
+      "heat": {
+        "mal_replies": 101,
+        "bangumi_comments": 13,
+        "imdb_votes": 2039
+      }
     },
     {
       "n": 59,
@@ -1374,6 +1969,11 @@
         "bangumi": {
           "comments": 12,
           "url": "https://bgm.tv/ep/33519"
+        },
+        "mal": {
+          "score": 4.61,
+          "forum_replies": 109,
+          "url": "https://myanimelist.net/anime/19/Monster/episode/59"
         }
       },
       "synopsis": {
@@ -1381,7 +1981,12 @@
       },
       "title_native": "悪魔を見た男",
       "title_en": "The Man Who Saw the Devil",
-      "aired": "2005-06-15"
+      "aired": "2005-06-15",
+      "heat": {
+        "mal_replies": 109,
+        "bangumi_comments": 12,
+        "imdb_votes": 2297
+      }
     },
     {
       "n": 60,
@@ -1396,6 +2001,11 @@
         "bangumi": {
           "comments": 16,
           "url": "https://bgm.tv/ep/33520"
+        },
+        "mal": {
+          "score": 4.69,
+          "forum_replies": 146,
+          "url": "https://myanimelist.net/anime/19/Monster/episode/60"
         }
       },
       "synopsis": {
@@ -1403,7 +2013,12 @@
       },
       "title_native": "知りすぎた男",
       "title_en": "The Man Who Knew Too Much",
-      "aired": "2005-06-22"
+      "aired": "2005-06-22",
+      "heat": {
+        "mal_replies": 146,
+        "bangumi_comments": 16,
+        "imdb_votes": 2637
+      }
     },
     {
       "n": 61,
@@ -1418,6 +2033,11 @@
         "bangumi": {
           "comments": 14,
           "url": "https://bgm.tv/ep/33521"
+        },
+        "mal": {
+          "score": 4.53,
+          "forum_replies": 97,
+          "url": "https://myanimelist.net/anime/19/Monster/episode/61"
         }
       },
       "synopsis": {
@@ -1425,7 +2045,12 @@
       },
       "title_native": "記憶の扉",
       "title_en": "The Door of Memory",
-      "aired": "2005-06-29"
+      "aired": "2005-06-29",
+      "heat": {
+        "mal_replies": 97,
+        "bangumi_comments": 14,
+        "imdb_votes": 1938
+      }
     },
     {
       "n": 62,
@@ -1440,6 +2065,11 @@
         "bangumi": {
           "comments": 11,
           "url": "https://bgm.tv/ep/33522"
+        },
+        "mal": {
+          "score": 4.45,
+          "forum_replies": 95,
+          "url": "https://myanimelist.net/anime/19/Monster/episode/62"
         }
       },
       "synopsis": {
@@ -1447,7 +2077,12 @@
       },
       "title_native": "楽しい食卓",
       "title_en": "A Fun Dining Table",
-      "aired": "2005-07-06"
+      "aired": "2005-07-06",
+      "heat": {
+        "mal_replies": 95,
+        "bangumi_comments": 11,
+        "imdb_votes": 1953
+      }
     },
     {
       "n": 63,
@@ -1462,6 +2097,11 @@
         "bangumi": {
           "comments": 9,
           "url": "https://bgm.tv/ep/33523"
+        },
+        "mal": {
+          "score": 4.45,
+          "forum_replies": 97,
+          "url": "https://myanimelist.net/anime/19/Monster/episode/63"
         }
       },
       "synopsis": {
@@ -1469,7 +2109,12 @@
       },
       "title_native": "無関係な殺人",
       "title_en": "An Unrelated Murder",
-      "aired": "2005-07-13"
+      "aired": "2005-07-13",
+      "heat": {
+        "mal_replies": 97,
+        "bangumi_comments": 9,
+        "imdb_votes": 1939
+      }
     },
     {
       "n": 64,
@@ -1484,6 +2129,11 @@
         "bangumi": {
           "comments": 9,
           "url": "https://bgm.tv/ep/33524"
+        },
+        "mal": {
+          "score": 4.6,
+          "forum_replies": 93,
+          "url": "https://myanimelist.net/anime/19/Monster/episode/64"
         }
       },
       "synopsis": {
@@ -1491,7 +2141,12 @@
       },
       "title_native": "赤ん坊の憂鬱",
       "title_en": "The Baby's Depression",
-      "aired": "2005-07-20"
+      "aired": "2005-07-20",
+      "heat": {
+        "mal_replies": 93,
+        "bangumi_comments": 9,
+        "imdb_votes": 2087
+      }
     },
     {
       "n": 65,
@@ -1506,6 +2161,11 @@
         "bangumi": {
           "comments": 5,
           "url": "https://bgm.tv/ep/33525"
+        },
+        "mal": {
+          "score": 4.6,
+          "forum_replies": 87,
+          "url": "https://myanimelist.net/anime/19/Monster/episode/65"
         }
       },
       "synopsis": {
@@ -1513,7 +2173,12 @@
       },
       "title_native": "ヨハンの足跡",
       "title_en": "Johan's Footprints",
-      "aired": "2005-07-27"
+      "aired": "2005-07-27",
+      "heat": {
+        "mal_replies": 87,
+        "bangumi_comments": 5,
+        "imdb_votes": 1999
+      }
     },
     {
       "n": 66,
@@ -1528,6 +2193,11 @@
         "bangumi": {
           "comments": 7,
           "url": "https://bgm.tv/ep/33526"
+        },
+        "mal": {
+          "score": 4.67,
+          "forum_replies": 101,
+          "url": "https://myanimelist.net/anime/19/Monster/episode/66"
         }
       },
       "synopsis": {
@@ -1535,7 +2205,12 @@
       },
       "title_native": "おかえり",
       "title_en": "Welcome Back",
-      "aired": "2005-08-03"
+      "aired": "2005-08-03",
+      "heat": {
+        "mal_replies": 101,
+        "bangumi_comments": 7,
+        "imdb_votes": 2642
+      }
     },
     {
       "n": 67,
@@ -1550,6 +2225,11 @@
         "bangumi": {
           "comments": 12,
           "url": "https://bgm.tv/ep/33527"
+        },
+        "mal": {
+          "score": 4.71,
+          "forum_replies": 121,
+          "url": "https://myanimelist.net/anime/19/Monster/episode/67"
         }
       },
       "synopsis": {
@@ -1557,7 +2237,12 @@
       },
       "title_native": "ただいま",
       "title_en": "I'm Home",
-      "aired": "2005-08-10"
+      "aired": "2005-08-10",
+      "heat": {
+        "mal_replies": 121,
+        "bangumi_comments": 12,
+        "imdb_votes": 3387
+      }
     },
     {
       "n": 68,
@@ -1572,6 +2257,11 @@
         "bangumi": {
           "comments": 10,
           "url": "https://bgm.tv/ep/33528"
+        },
+        "mal": {
+          "score": 4.51,
+          "forum_replies": 93,
+          "url": "https://myanimelist.net/anime/19/Monster/episode/68"
         }
       },
       "synopsis": {
@@ -1580,7 +2270,12 @@
       "title_native": "ルーエンハイム",
       "title_en": "Ruhenheim",
       "title_cn": "Ruhenheim",
-      "aired": "2005-08-17"
+      "aired": "2005-08-17",
+      "heat": {
+        "mal_replies": 93,
+        "bangumi_comments": 10,
+        "imdb_votes": 2135
+      }
     },
     {
       "n": 69,
@@ -1595,6 +2290,11 @@
         "bangumi": {
           "comments": 11,
           "url": "https://bgm.tv/ep/33529"
+        },
+        "mal": {
+          "score": 4.66,
+          "forum_replies": 96,
+          "url": "https://myanimelist.net/anime/19/Monster/episode/69"
         }
       },
       "synopsis": {
@@ -1602,7 +2302,12 @@
       },
       "title_native": "安らぎの家",
       "title_en": "A Peaceful Home",
-      "aired": "2005-08-24"
+      "aired": "2005-08-24",
+      "heat": {
+        "mal_replies": 96,
+        "bangumi_comments": 11,
+        "imdb_votes": 2328
+      }
     },
     {
       "n": 70,
@@ -1617,6 +2322,11 @@
         "bangumi": {
           "comments": 15,
           "url": "https://bgm.tv/ep/33530"
+        },
+        "mal": {
+          "score": 4.76,
+          "forum_replies": 129,
+          "url": "https://myanimelist.net/anime/19/Monster/episode/70"
         }
       },
       "synopsis": {
@@ -1624,7 +2334,12 @@
       },
       "title_native": "殺戮の町",
       "title_en": "The Town of Slaughter",
-      "aired": "2005-08-31"
+      "aired": "2005-08-31",
+      "heat": {
+        "mal_replies": 129,
+        "bangumi_comments": 15,
+        "imdb_votes": 2622
+      }
     },
     {
       "n": 71,
@@ -1639,6 +2354,11 @@
         "bangumi": {
           "comments": 38,
           "url": "https://bgm.tv/ep/33531"
+        },
+        "mal": {
+          "score": 4.87,
+          "forum_replies": 273,
+          "url": "https://myanimelist.net/anime/19/Monster/episode/71"
         }
       },
       "synopsis": {
@@ -1646,7 +2366,12 @@
       },
       "title_native": "超人シュタイナーの怒り",
       "title_en": "The Magnificent Steiner's Rage",
-      "aired": "2005-09-07"
+      "aired": "2005-09-07",
+      "heat": {
+        "mal_replies": 273,
+        "bangumi_comments": 38,
+        "imdb_votes": 5640
+      }
     },
     {
       "n": 72,
@@ -1661,6 +2386,11 @@
         "bangumi": {
           "comments": 7,
           "url": "https://bgm.tv/ep/33532"
+        },
+        "mal": {
+          "score": 4.76,
+          "forum_replies": 124,
+          "url": "https://myanimelist.net/anime/19/Monster/episode/72"
         }
       },
       "synopsis": {
@@ -1668,7 +2398,12 @@
       },
       "title_native": "名前のない男",
       "title_en": "Man Without A Name",
-      "aired": "2005-09-14"
+      "aired": "2005-09-14",
+      "heat": {
+        "mal_replies": 124,
+        "bangumi_comments": 7,
+        "imdb_votes": 3709
+      }
     },
     {
       "n": 73,
@@ -1683,6 +2418,11 @@
         "bangumi": {
           "comments": 13,
           "url": "https://bgm.tv/ep/33533"
+        },
+        "mal": {
+          "score": 4.74,
+          "forum_replies": 192,
+          "url": "https://myanimelist.net/anime/19/Monster/episode/73"
         }
       },
       "synopsis": {
@@ -1690,7 +2430,12 @@
       },
       "title_native": "終わりの風景",
       "title_en": "The Landscape of the End",
-      "aired": "2005-09-21"
+      "aired": "2005-09-21",
+      "heat": {
+        "mal_replies": 192,
+        "bangumi_comments": 13,
+        "imdb_votes": 6485
+      }
     },
     {
       "n": 74,
@@ -1705,6 +2450,11 @@
         "bangumi": {
           "comments": 34,
           "url": "https://bgm.tv/ep/33534"
+        },
+        "mal": {
+          "score": 4.54,
+          "forum_replies": 727,
+          "url": "https://myanimelist.net/anime/19/Monster/episode/74"
         }
       },
       "synopsis": {
@@ -1712,7 +2462,12 @@
       },
       "title_native": "本当の怪物",
       "title_en": "The Real Monster",
-      "aired": "2005-09-28"
+      "aired": "2005-09-28",
+      "heat": {
+        "mal_replies": 727,
+        "bangumi_comments": 34,
+        "imdb_votes": 4540
+      }
     }
   ],
   "route": [

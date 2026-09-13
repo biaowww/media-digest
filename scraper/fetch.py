@@ -62,12 +62,12 @@ PREFER_SERIES = {
 }
 # 每源写进 episodes[].sources.<src> 的字段
 SOURCE_FIELDS = {
-    "mal": ["score", "votes", "filler", "recap", "forum_url"],
+    "mal": ["score", "votes", "forum_replies", "url"],
     "imdb": ["rating", "votes", "tconst", "season", "episode"],
     "tmdb": ["vote_average", "vote_count", "still", "season", "episode"],
     "bangumi": ["score", "votes", "comments", "url"],
 }
-KPI_ORDER = ["composite", "heat", "mal", "imdb", "tmdb", "bangumi"]  # 页面默认 KPI；composite = 各源 z-score 按 log(票数) 加权
+KPI_ORDER = ["imdb", "mal", "tmdb", "bangumi"]  # 页面默认 KPI；不合并、不加权（2026-09-13 定）
 
 
 def load_show(slug: str) -> dict:
@@ -126,6 +126,17 @@ def merge(show: dict, fetched: dict, args) -> dict:
             f = fetched.get(src)
             if f and n in f["episodes"]:
                 ep["sources"][src] = {k: f["episodes"][n].get(k) for k in keys if f["episodes"][n].get(k) is not None}
+        # heat：「这集让多少人想说话」，与评分是两个维度，单列、不进 sources 评分位
+        heat = {}
+        s = ep["sources"]
+        if (s.get("mal") or {}).get("forum_replies") is not None:
+            heat["mal_replies"] = s["mal"]["forum_replies"]
+        if (s.get("bangumi") or {}).get("comments") is not None:
+            heat["bangumi_comments"] = s["bangumi"]["comments"]
+        if (s.get("imdb") or {}).get("votes") is not None:
+            heat["imdb_votes"] = s["imdb"]["votes"]
+        if heat:
+            ep["heat"] = heat
         episodes.append(ep)
     show["episodes"] = episodes
 
@@ -143,7 +154,7 @@ def merge(show: dict, fetched: dict, args) -> dict:
     if extra:
         print(f"  warn: episodes beyond declared total {meta['total_eps']}: {extra} (kept)")
     if not meta.get("primary_kpi") or args.primary_kpi:
-        meta["primary_kpi"] = args.primary_kpi or "composite"
+        meta["primary_kpi"] = args.primary_kpi or "imdb"
     meta["updated"] = dt.date.today().isoformat()
     meta["schema_version"] = SCHEMA_VERSION
 

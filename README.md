@@ -54,11 +54,13 @@ py -m http.server 8765      # 然后开 http://localhost:8765/site/?show=monster
 
 ## 内容更新回路（Drive → 仓库）
 
-内容不在仓库里写。每部剧的 `intro.json` / `route.json` 由各 Claude 会话写到 Drive：
+内容不在仓库里写。**Drive 是唯一真相，仓库的 `shows/<slug>.json` 是 build 产物，不手改。** 每部剧的 `route.json`（含 `intro` 块）由各 Claude 会话写到 Drive：
 
 ```
-<Drive claude根>/domains/personal/media-digest/shows/<slug>/{intro.json, route.json, cover.jpg?}
+<Drive claude根>/domains/personal/media-digest/shows/<slug>/{route.json, intro.json?, cover.jpg?}
 ```
+
+`sync.py` 会把 chat 会话的键名归一到 schema（`spoiler_free_summary→synopsis`、`character_motivations→characters`、`eps:[4]→[4,4]`），内容不改。
 
 格式与规则见该目录的 `README.md` 和 `_template/`。家里 PC 上：
 
@@ -72,18 +74,19 @@ git push                             # 页面生效
 
 ## 评分怎么看（页面 KPI）
 
-json 只存各源**原始值**；加权只在页面里算，随时可改：
+**各源并存、页面可切、不合并、不加权**（2026-09-13 定）。json 只存原始值。
 
-- **综合**（默认）：每个源先在本剧内做 z-score（抹平 IMDb 7–9.7 与 MAL 4.3–4.9 的量纲差），再按**置信度加权平均**：权重 = log10(票数+1)；MAL 没有分集票数，取常数 3（≈ 千票）。显示为本剧内百分位（Top x%）。
-- **热度**：IMDb 票数 / Bangumi 讨论数 / TMDB 票数取 log 后 z-score 平均。**只做参考，不进综合**——热度高说明"有记忆点"，不等于好。
-- **去趋势**开关：对当前 KPI 做线性回归扣掉随集数的系统性上浮（只有看完的人才给后期集打分），看残差更容易挑出中段的真高分集。
+- **默认 IMDb**（`meta.primary_kpi`）：分辨率最好（Monster 跨度 7.4–9.7，且有票数）；MAL 是 1–5 投票均分、全剧挤在 4.3–4.9，基本是噪音，只做参考；TMDB 覆盖非动画剧；Bangumi API 无分集分。
+- 为什么不算综合分：量纲差可以用 z-score 抹平，但**权重给不准**——MAL 没分集票数只能给常数，结果噪音源拿到和 IMDb 几千票差不多的话语权，综合分比 IMDb 单看更糊；而且合并后"哪个源把它顶上去的"没法回答，多源并存的价值就是交叉比对。IMDb 缺失的剧按剧改 `primary_kpi` 即可。
+- **热度**是另一个维度，不进评分：`episodes[].heat{mal_replies, bangumi_comments, imdb_votes}`（MAL 论坛回复数最灵：Monster E44 463、E74 727，邻集 100 上下——它标的是剧情爆点，评分标不出来）。页面单独一档「热度」+ 前 10% 打 🔥。
+- **去趋势**开关：对当前 KPI 做线性回归扣掉随集数的系统性上浮（只有看完的人才给后期集打分），残差更容易挑出中段的真高分集。
 - 单源 tab 显示原始分，柱高按该源 min–max 拉伸。
 
 ## 数据源与已知限制
 
 | 源 | 方式 | 给什么 | 限制 |
 |---|---|---|---|
-| MAL | Jikan v4，无 key | 分集评分、日/英标题、首播日；作品简介、主角头像 | Jikan 偶发整体 504（MAL 拒连），稍后重跑即可；**不给分集投票数** |
+| MAL | 分集**直抓 HTML**（`/anime/<id>/_/episode`，两位小数均分 + 论坛回复数）；作品级/角色走 Jikan 尽力而为 | 分集评分、日/英/罗马标题、首播日、论坛回复数（热度）；作品简介、主角头像 | Jikan 常整体 504（MAL 拒连），挂了只影响简介/头像，分集不受影响；robots 对普通 UA 不禁 /anime/ |
 | IMDb | 官方数据集 `title.episode` + `title.ratings`（缓存 7 天，~60 MB） | 分集评分 + 票数 | **不爬页面**（robots 禁止）；无季/集号的特别篇记在 `about` 之外的 extras，不进正片 |
 | TMDB | 官方 API v3，免费 key | 分集评分、**中文分集标题与梗概**（`zh-CN`） | 无 key 则跳过；非动画剧集的首选 |
 | Bangumi | v0 API，需自定义 UA | 中文作品名/简介、日文分集名、分集**讨论数**、主角 | **v0 API 没有分集评分**（实测），所以 KPI 是讨论热度；中文分集名视条目而定 |
