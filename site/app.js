@@ -274,8 +274,24 @@
         h('div', { class: 'route' }, nodes));
     }
 
+    // ---- 顶部导航：回主页 / 段落锚点 / 切换剧集 ----
+    if (introSec) introSec.id = 'intro';
+    chartSec.id = 'chart'; routeSec.id = 'route';
+    const jump = id => ev => { ev.preventDefault(); const el = document.getElementById(id); if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' }); };
+    const switcher = h('select', { class: 'switch', 'aria-label': '切换剧集', onchange: ev => { if (ev.target.value) location.search = '?show=' + encodeURIComponent(ev.target.value); } });
+    switcher.hidden = true;
+    fetch('../shows/index.json').then(r => r.json()).then(({ shows }) => {
+      if (!shows || shows.length < 2) return;
+      switcher.replaceChildren(shows.map(s => { const o = h('option', { value: s.slug }, s.title_cn || s.title); o.selected = s.slug === slug; return o; }));
+      switcher.hidden = false;
+    }).catch(() => {});
+    const topbar = h('nav', { class: 'topbar' },
+      h('a', { class: 'back', href: './' }, '← 全部剧集'),
+      h('div', { class: 'anchors' }, introSec ? h('a', { href: '#intro', onclick: jump('intro') }, '介绍') : null, h('a', { href: '#chart', onclick: jump('chart') }, '评分'), h('a', { href: '#route', onclick: jump('route') }, '路线')),
+      switcher);
+
     function rerender() { renderProgress(); renderChart(); renderRoute(); }
-    $app.replaceChildren(hero, introSec, progress, chartSec, routeSec,
+    $app.replaceChildren(topbar, hero, introSec, progress, chartSec, routeSec,
       h('footer', {}, h('a', { href: './' }, '全部剧集'), ` · 数据更新 ${meta.updated || '—'}`, ' · 评分各源并列，不合并'));
     rerender();
   }

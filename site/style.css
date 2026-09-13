@@ -34,6 +34,14 @@ h3 { font-size: 15.5px; margin: 0; }
 p { margin: 0 0 10px; }
 .card { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 14px; }
 
+/* ---- 顶部导航 ---- */
+.topbar { position: sticky; top: 0; z-index: 5; display: flex; align-items: center; gap: 10px; margin: -14px -14px 12px; padding: 10px 14px; background: color-mix(in srgb, var(--bg) 88%, transparent); backdrop-filter: blur(8px); border-bottom: 1px solid var(--line); }
+.topbar .back { font-size: 13.5px; text-decoration: none; color: var(--ink); white-space: nowrap; }
+.topbar .anchors { display: flex; gap: 12px; margin-left: auto; }
+.topbar .anchors a { font-size: 13px; color: var(--muted); text-decoration: none; }
+.topbar .switch { font: inherit; font-size: 12.5px; max-width: 110px; padding: 3px 6px; border-radius: 8px; border: 1px solid var(--line); background: var(--card); color: var(--ink); }
+@supports not (background: color-mix(in srgb, red 50%, blue)) { .topbar { background: var(--bg); } }
+
 /* ---- 头部 / 介绍 ---- */
 .hero { display: grid; grid-template-columns: 96px 1fr; gap: 14px; align-items: start; }
 .hero img { width: 96px; aspect-ratio: 2/3; object-fit: cover; border-radius: 8px; background: var(--none); }
