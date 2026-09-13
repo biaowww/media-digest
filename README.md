@@ -47,7 +47,8 @@ py -m http.server 8765      # 然后开 http://localhost:8765/site/?show=monster
 | `meta` | 脚本 | `slug / title / title_cn / title_native / year / total_eps / primary_kpi / updated / schema_version / ids{mal,bangumi,imdb,tmdb,wiki}` |
 | `about` | 脚本 | 作品级客观信息：`cover / synopsis{en,zh} / genres / studios / scores{源:{score,votes}} / links / characters[]`（MAL 主角，含头像） |
 | `episodes[]` | 脚本 | `n / title_native / title_en / title_cn / aired / synopsis{en,zh} / sources{}`；`sources` 多源**并存不合并**：`mal{score}`、`imdb{rating,votes}`、`tmdb{vote_average,vote_count}`、`bangumi{comments}` |
-| `intro` | **人** | 作品介绍：`cover`（覆盖头图）/ `synopsis`（**无剧透**）/ `characters[{name,name_cn,role,motivation}]`（按 `name` 与 about 合并头像）/ `highlights[]` / `standing` |
+| `intro` | **人** | 作品介绍：`cover`（覆盖头图）/ `logline` / `synopsis`（**无剧透**）/ `characters[{name,name_cn,role,motivation}]`（按 `name` 与 about 合并头像）/ `highlights[]` / `standing` / `route_note` / `spoiler_gate_from` |
+| `episodes[].notes` | **人** | 分集查询手册（含剧透）：`summary` + `new[{name,name_cn,kind: recurring/arc/one-off, note}]`。来自 Drive `episodes.json`。页面点柱状图时按进度门控：集号 ≤ 已勾选最大集号自动显示；未看的点按钮才出；`spoiler_gate_from` 之后二次确认 |
 | `route[]` | **人** | 有序不重叠：`{kind:"watch", eps:[a,b], why}` 或 `{kind:"bridge", eps:[a,b], title, paragraphs:[]}` |
 
 `route` 允许为空——只有 `episodes` 时页面照样渲染（评分曲线 + 全集列表 + 进度）。`intro` 缺项时页面回退到 `about`（并打"自动抓取"标）。

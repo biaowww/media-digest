@@ -125,7 +125,9 @@
       h('h3', {}, '剧情简介', h('span', { class: 'tag' }, intro.synopsis ? '无剧透' : '自动抓取')),
       ...String(syn).split(/\n+/).map(p => h('p', {}, p))));
     const autoChars = new Map((about.characters || []).map(c => [c.name.toLowerCase(), c]));
-    let chars = (intro.characters || []).map(c => Object.assign({}, autoChars.get((c.name || '').toLowerCase()) || {}, c));
+    const findAuto = c => autoChars.get((c.name || '').toLowerCase())
+      || (about.characters || []).find(a => a.name && ((c.name_cn || '') + ' ' + (c.role || '')).toLowerCase().includes(a.name.toLowerCase()));  // 别名兜底：name_cn/role 里提到的英文名
+    let chars = (intro.characters || []).map(c => Object.assign({}, findAuto(c) || {}, c));
     if (!chars.length) chars = (about.characters || []).filter(c => c.role === 'Main');
     if (chars.length) introKids.push(h('div', {}, h('h3', { style: 'margin-bottom:8px' }, '主要人物'),
       h('div', { class: 'chars' }, chars.map(c => h('div', { class: 'char' + (c.image ? '' : ' noimg') },
