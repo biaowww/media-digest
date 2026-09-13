@@ -151,7 +151,7 @@ def fetch_characters_html(mal_id: int | str, http) -> list[dict]:
             "favorites": int(fav.group(1).replace(",", "")) if fav else 0,
         })
     main = [c for c in out if c["role"] == "Main"]
-    supp = sorted((c for c in out if c["role"] != "Main"), key=lambda c: -c["favorites"])[:6]
+    supp = sorted((c for c in out if c["role"] != "Main"), key=lambda c: -c["favorites"])[:20]
     return main + supp
 
 
