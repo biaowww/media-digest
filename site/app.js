@@ -108,14 +108,14 @@
     // ---- 头部 ----
     const cover = intro.cover || about.cover;
     const scoreChips = Object.entries(about.scores || {}).map(([src, s]) =>
-      h('span', { class: 'chip' }, src.toUpperCase() + ' ', h('b', {}, s.score != null ? String(s.score) : '—'), s.votes ? ` · ${num(s.votes)}` : ''));
+      h('span', { class: 'chip' }, src.toUpperCase() + ' ', h('b', {}, s.score != null ? (Number.isInteger(s.score * 10) ? String(s.score) : Number(s.score).toFixed(1)) : '—'), s.votes ? ` · ${num(s.votes)}` : ''));
     const hero = h('section', { class: 'card hero' },
       cover ? h('img', { src: cover, alt: '' }) : h('div'),
       h('div', {},
         h('h1', {}, meta.title_cn || meta.title),
         h('div', { class: 'sub' }, [meta.title_cn ? meta.title : null, meta.title_native, meta.year, `${meta.total_eps} 集`].filter(Boolean).join(' · ')),
         intro.logline ? h('p', { class: 'logline' }, intro.logline) : null,
-        h('div', { class: 'chips' }, scoreChips, (about.genres || []).slice(0, 4).map(g => h('span', { class: 'chip' }, g))),
+        h('div', { class: 'chips' }, scoreChips, (about.genres || []).slice(0, 3).map(g => h('span', { class: 'chip' }, g))),
       ));
 
     // ---- 介绍 ----
