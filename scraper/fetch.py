@@ -191,8 +191,7 @@ def write_index():
             "watch_eps": sum(x["eps"][1] - x["eps"][0] + 1 for x in r if x["kind"] == "watch"),
             "bridges": sum(1 for x in r if x["kind"] == "bridge"),
         })
-    (SHOWS / "index.json").write_text(json.dumps({"shows": items}, ensure_ascii=False, indent=2) + "\n", encoding="utf-8", newline="
-")
+    (SHOWS / "index.json").write_text(json.dumps({"shows": items}, ensure_ascii=False, indent=2) + "\n", encoding="utf-8", newline="\n")
     return items
 
 
@@ -233,8 +232,7 @@ def cmd_fetch(args):
         sys.exit("validation failed; not written")
 
     out = SHOWS / f"{args.slug}.json"
-    out.write_text(json.dumps(new, ensure_ascii=False, indent=2) + "\n", encoding="utf-8", newline="
-")
+    out.write_text(json.dumps(new, ensure_ascii=False, indent=2) + "\n", encoding="utf-8", newline="\n")
     write_index()
     srcs = ", ".join(f"{s}={len(f['episodes'])}" for s, f in fetched.items())
     print(f"wrote {out.relative_to(ROOT)} — {len(new['episodes'])} episodes ({srcs}); route preserved ({len(new['route'])} nodes)")
