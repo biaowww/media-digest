@@ -150,34 +150,78 @@
   },
   "intro": {
     "logline": "一位脑外科医生救活了一个孩子，然后用余生去追他。",
-    "highlights": [
-      "74 集零注水，逐镜复刻浦泽直树 18 卷原作，几乎没有动画化常见的改编妥协。",
-      "反派没有武力、没有组织、大半时间不在场，唯一的武器是说服。",
-      "真实的后冷战欧洲：东德的儿童机构、捷克的前秘密警察、德国的土耳其移民社区。",
-      "蓜岛邦明的极简配乐，几乎不煽情。",
-      "一本儿童绘本承担了全剧的哲学装置。"
-    ],
-    "standing": "浦泽直树代表作的动画版，Madhouse 制作、小岛正幸执导，2004–2005 年在日本电视台连播 74 集。至今是「成人向叙事动画」的标杆，也是少数被大量非动画观众接受的作品。",
-    "route_note": "评分分布极窄且随集数上浮，所以本路线不是按评分取 top X%。分层规则：骨架必看（不看后面接不上）、高分独立短篇（评分高且不依赖上下文）、文字桥接（其余压成连续叙述）。桥接摘要按角色在那一刻知道多少来写，刻意不提前揭露后面才揭晓的事。",
-    "synopsis": "一九九〇年代的德国。杜塞尔多夫一位前途无量的脑外科医生，在一个夜里违抗上级指令，先救了一个头部中弹的男孩。九年后他再次遇到这个男孩，并因此放弃了自己的全部人生。故事横跨德国与捷克，从后冷战的废墟里翻出一段没人愿意承认的过去。",
+    "synopsis": "一九九〇年代的德国，杜塞尔多夫（Düsseldorf）。前途无量的脑外科医生天马贤三在一个夜里违抗上级指令，先救了一个头部中弹的男孩，代价是他自己的前程。九年后他再次遇到这个男孩，随即放弃了医生身份，踏上一条横跨德国与捷克的追踪之路——沿途遇到的每一个陌生人，都是拼出答案的一块碎片。",
     "characters": [
       {
+        "name": "Kenzou Tenma",
         "name_cn": "天马贤三",
+        "role": "主角 · 脑外科医生",
         "motivation": "他想纠正自己那一次救人的后果，而这件事没法靠再救一个人完成。"
       },
       {
-        "name_cn": "妮娜（安娜）",
+        "name": "Johan Liebert",
+        "name_cn": "约翰·李贝特",
+        "role": "反派 · 被他救活的那个男孩",
+        "motivation": "他要的不是杀人，是抹除——包括抹掉自己的名字。"
+      },
+      {
+        "name": "Nina Fortner",
+        "name_cn": "妮娜·佛特娜（原名安娜·李贝特 Anna Liebert）",
+        "role": "约翰的孪生妹妹 · 海德堡法律系学生",
         "motivation": "她想知道十岁以前那段空白里发生了什么，代价是真的知道。"
       },
       {
-        "name_cn": "伦格警官",
+        "name": "Heinrich Lunge",
+        "name_cn": "海因里希·伦格",
+        "role": "德国联邦刑警（BKA）搜查官",
         "motivation": "他把整个人生押在一个错误的结论上，而他的推理过程本身几乎全对。"
       },
       {
-        "name_cn": "约翰",
-        "motivation": "他要的不是杀人，是抹除——包括抹掉自己的名字。"
+        "name": "Wolfgang Grimmer",
+        "name_cn": "沃尔夫冈·格里马",
+        "role": "自由记者 · 前东德人",
+        "motivation": "他在调查东德孤儿院的儿童改造项目，也在找回自己缺失的那部分感情。"
+      },
+      {
+        "name": "Eva Heinemann",
+        "name_cn": "艾娃·海涅曼",
+        "role": "天马的前婚约者",
+        "motivation": "她在自毁和挽回之间反复横跳，是全剧变化幅度最大的人。"
+      },
+      {
+        "name": "Dieter",
+        "name_cn": "迪特",
+        "role": "被天马带在身边的孩子",
+        "motivation": "他相信人不会变坏，并且用行动逼别人也相信。"
+      },
+      {
+        "name": "Franz Bonaparta",
+        "name_cn": "弗朗茨·波拿巴特（笔名 Klaus Poppe / Emil Šebe / Jakub Farobek）",
+        "role": "绘本《没有名字的怪物》的作者",
+        "motivation": "与双胞胎的童年深度相关；他做过的事，是全剧要挖出来的那层地基。"
+      },
+      {
+        "name": "Roberto",
+        "name_cn": "罗伯特",
+        "role": "约翰的执行者",
+        "motivation": "替约翰做所有需要动手的事。"
+      },
+      {
+        "name": "Rudy Gillen",
+        "name_cn": "鲁迪·吉伦",
+        "role": "犯罪心理学家 · 天马的大学同窗",
+        "motivation": "他想用专业解释约翰，而专业不够用。"
       }
-    ]
+    ],
+    "highlights": [
+      "74 集零注水，逐镜复刻浦泽直树（Naoki Urasawa）18 卷原作，几乎没有动画化常见的改编妥协。",
+      "反派没有武力、没有组织、大半时间不在场，唯一的武器是说服。",
+      "真实的后冷战欧洲：东德的儿童机构、捷克的前秘密警察 StB、德国的土耳其移民社区。",
+      "蓜岛邦明（Kuniaki Haishima）的极简配乐，几乎不煽情。",
+      "一本儿童绘本《没有名字的怪物》（The Nameless Monster）承担了全剧的哲学装置。"
+    ],
+    "standing": "浦泽直树代表作的动画版，Madhouse 制作、小岛正幸（Masayuki Kojima）执导，2004–2005 年在日本电视台连播 74 集。至今是「成人向叙事动画」的标杆，也是少数被大量非动画观众接受的作品。",
+    "route_note": "评分分布极窄且随集数上浮（只有看完的人才给后期集打分），所以本路线不是按评分取 top X%。分层规则是三层：骨架必看（不看后面接不上）、高分独立短篇（评分高且不依赖上下文）、文字桥接（其余压成连续叙述）。桥接摘要按角色在那一刻知道多少来写，刻意不提前揭露后面才揭晓的事。"
   },
   "episodes": [
     {
@@ -208,10 +252,10 @@
         }
       },
       "synopsis": {
-        "en": "Dr. Kenzo Tenma, a leading neurosurgeon at the Dusseldorf Hospital has received massive acclaim for his successful surgery on a famous opera singer. However, he is burdened by guilt. Due to pressure from the director, he had operated on the opera singer on the night that he was supposed to operate on another man. As a result, when the director’s orders him to operate on the mayor, he decides to ignore the order and instead works on saving the life of a young boy, brought to the hospital from the scene of a serial homicide. However, the boy's twin sister, who was brought in with the boy, and who still suffers from shock, keeps repeating the words 'kill him'.",
+        "en": "Dr. Kenzo Tenma, head of Neurosurgery at the Eisler Memorial Hospital in Düsseldorf, carries out a successful neurosurgery on a famous opera singer, but the hospital Director Udo Heinmann takes the credit during a press conference. Later, Tenma is saddened when he discovers that an operation on a Turkish construction worker was given a lower priority and subsequently died. The construction worker's widow blames Tenma for his death. When out with his fiancee, Director Heinemann's daughter Eva, Tenma states that the Turkish construction worker died because Dr. Becker took too long treating him. Eva comments that not all people are equal. Days later, Tenma is called in to remove a bullet from the head of Johan, the adopted son of Mr. and Mrs. Liebert, a couple who were shot dead in their home. Johan's twin sister Anna is also admitted, apparently in a state of severe shock with post-traumatic amnesia, muttering the words \"kill... him\". When Tenma is about to commence the operation, he is called away by Chief of Surgery Dr. Oppenheim on phone-based instructions from Director Heinemann to start surgery on Mayor Roedecker, who had previously committed a large amount of funds to the hospital. When Tenma states to Heinemann that he's the only one who can operate on Johan and to have Dr. Boyer handle the mayor, Heinemann advises Tenma to do the job because Mayor Roedecker is going to positively review Eisler Memorial Hospital next month. Due to his conscience, Tenma decides to go against Heinemann's orders and operate on Johan.",
         "zh": "天马贤三是从日本渡海而来的年轻外科医生。目前在德国艾斯勒医院海尼曼医疗小组担任外科组长。天马出众的外科技巧使他深受外科主任的赏识，院长把自己的爱女爱玛许给了天马作未婚夫，并暗示了将来一定会让他荣升的想法。在成功的完成了音乐家罗林哈巴的脑部手术后，艾斯勒医院名声大振，天马虽然不喜欢医院那种利益至上观念，但是为了能从事自己喜欢的医学研究，还是安于现状的生活着。一位普通土耳其妇女的指责，使得天马发现音乐家手术成功给医院带来的利益是建立在一位普通土耳其市民的牺牲上。天马的良心受到了严厉的苛责，一连几天都神情恍惚，他反复麻醉自己这是医院的命令，而非自己的责任，可是未婚妻的一句话“人的生命本来就不是等值的。”给他带来不小的冲击，令他开始怀疑自己是不是也开始堕落了。天马想指正院长不应该以利益为重，而是应该以救人为己任，但是院长毫不理会，还命令天马停止蛛网膜的研究帮他在学术会议上的发言写草稿，使得因为仰慕院长的研究而远渡重洋天马感到痛苦不已。这天，医院里接到急诊，东德的高官李贝特夫妇一家遭到强盗袭击，夫妇两中弹身亡，留下了昏迷的女儿安娜和重伤的儿子约翰。约翰头部中弹伤势十分严重，天马仔细的制定的手术方案发誓要救回少年的生命，正在此时市长罗帝卡也因为脑血栓被送往医院急救，院长再一次要求天马放弃那个男孩执行市长的治疗手术。在前往手术室的路上，那个土耳其妇女指责言词反复出现在天马的脑海中，在道德的天平上，天马最终选择了救助那个重伤的少年。"
       },
-      "title_native": "ヘルＤｒ．テンマ",
+      "title_native": "ヘルDr. テンマ",
       "title_en": "Herr Dr. Tenma",
       "title_cn": "天马医生",
       "aired": "2004-04-07",
@@ -219,6 +263,41 @@
         "mal_replies": 235,
         "bangumi_comments": 23,
         "imdb_votes": 5103
+      },
+      "notes": {
+        "title_cn": "天马医生",
+        "summary": "杜塞尔多夫艾斯勒纪念医院。天马成功为歌剧演员开刀，功劳被院长海涅曼拿走；同一天一名土耳其劳工因被排在后面而死。深夜李贝特夫妇被杀，双胞胎送医，男孩头部中弹。院长命令天马改去救市长，天马凭良心违令，先救了男孩。",
+        "new": [
+          {
+            "name": "Kenzou Tenma",
+            "name_cn": "天马贤三",
+            "kind": "recurring",
+            "note": "主角"
+          },
+          {
+            "name": "Johan Liebert",
+            "name_cn": "约翰",
+            "kind": "recurring",
+            "note": "被救的男孩"
+          },
+          {
+            "name": "Anna Liebert",
+            "name_cn": "安娜",
+            "kind": "recurring",
+            "note": "约翰的孪生妹妹，失忆"
+          },
+          {
+            "name": "Eva Heinemann",
+            "name_cn": "艾娃",
+            "kind": "recurring",
+            "note": "天马的未婚妻、院长的女儿"
+          },
+          {
+            "name": "Udo Heinemann",
+            "name_cn": "海涅曼院长",
+            "kind": "one-off"
+          }
+        ]
       }
     },
     {
@@ -249,7 +328,7 @@
         }
       },
       "synopsis": {
-        "en": "The price for disobeying Dr. Heinemann's orders to operate on the mayor is costly for Dr. Tenma. His career begins to plummet. The boy whom he saved finally awakens, but a horrible incident occurs soon after.",
+        "en": "Dr. Tenma is able to save Johan's life, but Roedecker dies during surgery under Dr. Boyer. Boyer and Oppenheim scold Tenma, stating that the doctors had to scramble to cover for him at the last minute resulting in Roedecker's death. Oppenheim forwards his report to the director. As a news report states that flowers were left at City Hall and a decision for a new mayor is taking place, Director Heinemann states in a press conference that Roedecker died of a cerebral infarction and that they did their best to save his life. Later at a hospital staff banquet, Tenma apologizes to Director Heinemann but is shocked to hear that Dr. Boyer is to be the new Head of Neurosurgery. Despite appearing to forgive Tenma and letting him continue working in the hospital, Director Heinemann states that he won't accept his papers for the next health summit nor recommend him in the event of a transfer. As Tenma leaves the banquet, Eva Heinemann callously breaks off their engagement and drops her engagement ring at his feet. Tenma confesses at the bedside of Johan that he wishes Director Heinemann was dead. Meanwhile, Detective Egon Weisbach tries to get Anna Liebert to remember her name and the events of the night that her parents died. Director Heinemann suggests to Boyer and Oppenheim that they provide photographs of the Liebert twins to the media in order to play on public sympathy and garner attention for the hospital. He casually offers the other doctors candy that was donated to Johan and orders Dr. Oppenheim to reassign Dr. Boyer as Johan's attending physician. There is a brief argument between Tenma and Boyer about photography of the twins, and Boyer states to Tenma that he has \"served his purpose\" with the boy. Some nights later, a nurse discovers Oppenheim and Boyer dead in their offices while Eva finds her father dead in his study.",
         "zh": "少年的颅腔手术在天马的努力下顺利完成，疲惫的天马走出手术室后却接到了市长罗帝卡不治身亡的噩耗。外科组的其他主治医生纷纷指责因为天马的个人主义使得手术失败，并要天马为此付出责任，天马痛苦不堪，在工作上也提不起干劲。这个时候，警察来医院向安娜·李贝特调查凶案的经过，却发现安娜擅自离开了病房，游荡在医院的走廊上，神情恍惚的安娜喃喃的重复着三个字：“杀了他……”医院召开了大会总结了市长死亡一事，对为市长执刀的波亚、艾森提出了表扬。天马想为此事向院长道歉，院长表现出毫不在意使天马松了一口气，可后面的组长发言让天马意识到自己已经被撤了下去，院长冷漠的告诫天马，这一次的失误，将使得天马永远失去了在医学界出人头地的机会。而未婚妻爱玛的离去又带给天马更大的打击。失意的天马在约翰的病床前发泄着自己的不满，发誓今后要做一个对得起自己良心的医生。虽然被从出众的位置踢了下来，但天马毫不气馁，忙碌而又充实为病人治疗，而约翰一天天的恢复使得天马又渐渐燃起了新的信心。李贝特的遗孤受到了世人的关注，院长为了提高医院的名声，打算发布兄妹的合照，撤掉反对此事的约翰主治医生天马的职务。恢复意识的约翰将手伸向自己的妹妹，可安娜在看到约翰之后就惨叫一声昏厥过去，天马为自己无力改变现状感到愤恨。宿醉的天马躺在床上自言自语，要是院长和那些利益至上的家伙不在就好了。正在这时，医院发生了惨案，波亚医生和贝克医生惨死在外科室里，而爱玛回到家中也发现父亲已经成为了一具尸体。一切才刚刚开始。"
       },
       "title_native": "転落",
@@ -260,7 +339,18 @@
         "bangumi_comments": 18,
         "imdb_votes": 4119
       },
-      "title_cn": "堕落"
+      "title_cn": "堕落",
+      "notes": {
+        "title_cn": "坠落",
+        "summary": "男孩活了，市长死在另一张台子上。天马被架空，艾娃在宴会上当众退婚。他在病床边说了句「院长死掉就好了」。数夜之后，院长与两名上司被毒糖毒死。",
+        "new": [
+          {
+            "name": "Boyer / Oppenheim",
+            "name_cn": "博耶 / 奥本海姆",
+            "kind": "one-off"
+          }
+        ]
+      }
     },
     {
       "n": 3,
@@ -290,18 +380,35 @@
         }
       },
       "synopsis": {
-        "en": "Things look brighter for Dr. Tenma, now that Dr. Heinemann is dead. His career takes off, and even Eva tries to win him back. But unfortunately, all that success has drawn the attention of Detective Lunge.",
+        "en": "The police arrive at Tenma's apartment and inform him that Director Heinemann, Dr. Oppenheim, and Dr. Boyer were found dead. When Tenma returns to Eisler Memorial Hospital, he also learns that the Liebert twins have disappeared. Following Director Heinemann's funeral, Tenma is informed by Inspector Egon Weisbach and Inspector Heinrich Lunge of the BKA that the dead men were poisoned by candy containing a muscle relaxant and Lunge suspects the doctor may be involved. Tenma considers returning to Japan. With the vacuum created by the three deaths and another doctor transferring to another location, Tenma is promoted to Chief of Surgery at the hospital by the unnamed chairman of the board. Eva attempts to reconcile with Tenma, but he rebuffs her. Nine years later, Tenma has become highly successful as the Chief of Surgery and continues to operate on difficult cases while training other surgeons. When Adolph Junkers, a known criminal lock-picker, is hit by a car while running in fear, Tenma is called in to operate on him. Tenma again encounters Inspector Lunge, who is investigating the criminal's involvement in a series of mysterious murders of wealthy middle-aged couples in their homes. After the operation, Tenma attempts to talk to Junkers, who says only that \"the monster... is coming\".",
         "zh": "凌晨，天马贤三公寓来了两位邦警，从他们口中得知海尼曼院长以及奥本汉和波亚医生的死讯后，天马急忙赶回医院，此时艾斯勒医院已经乱做一团。而重点保护下的李贝特兄妹也神秘失踪。几天以后，海尼曼院长的葬礼在郊外公墓举行。葬礼结束后，天马遇到了北莱茵·西伐里亚邦警察查士巴哈和德国联邦调查局的伦克警官前来调查艾斯勒医院的杀人案件，并从伦克警官的叙述中得知三人的死因是食用了含有肌肉松弛剂的糖果。面对伦克警官咄咄逼人的态度，天马知道是因为自己和院长他们的紧张关系导致的警方的怀疑。身心俱疲的天马不禁想要回到日本，远离这个是非之地。艾斯勒医院因为院长的死亡不得不重新整顿医院人事，正打算辞职的天马在理事会议上突然被理事长任命为外科主任。不理会院长的命令而被降职的自己在想要远离权力作回医生本分时又一下子变的出人头地，身份的转变，搞的天马心中五味杂陈。艾玛失去了父亲这个靠山转而又向天马要求复合，而经历人生大起大落的天马也已看清现实，放弃了艾玛。天马还是接下了外科主任这个职位后，为病人尽心尽力，很快成为艾斯勒最受尊敬的医生。而海尼曼院长等被杀事件也因为证据不足而被搁置下来。一晃九年过去了，1995年克隆市内发现了一对中年夫妇的尸体，伦克警官负责这一案子，发现这于两年内全德国各邦发生的同类四起案件具有多处共同点，排除了强盗犯案的可能。而案子的关键在于一个“锁匠”——亚德夫·勇克斯。谁知几天以后，亚德夫因为车祸脑部重伤被送进医院。天马医生被请来为亚德夫主刀，伦克警官同天马再一次相遇。在伦克的推理中，所有的疑点都集中在院长死后飞黄腾达的天马身上。而手术后逐渐恢复意识的亚德夫不断的喃呢着：“怪物来了……”"
       },
       "title_native": "殺人事件",
-      "title_en": "A Murder",
+      "title_en": "Murder Case",
       "aired": "2004-04-21",
       "heat": {
         "mal_replies": 151,
         "bangumi_comments": 16,
         "imdb_votes": 3780
       },
-      "title_cn": "杀人事件"
+      "title_cn": "杀人事件",
+      "notes": {
+        "title_cn": "杀人事件",
+        "summary": "三人死亡、双胞胎失踪，伦格首次登场并盯上天马。空出的位子反而把天马推上外科主任。九年后，他为一名撞车的撬锁犯永格斯开刀，对方只留下一句「怪物要来了」。",
+        "new": [
+          {
+            "name": "Heinrich Lunge",
+            "name_cn": "伦格",
+            "kind": "recurring",
+            "note": "BKA 搜查官，全剧的追踪者"
+          },
+          {
+            "name": "Adolf Junkers",
+            "name_cn": "永格斯",
+            "kind": "one-off"
+          }
+        ]
+      }
     },
     {
       "n": 4,
@@ -331,7 +438,7 @@
         }
       },
       "synopsis": {
-        "en": "Adolf Junkers has information about the serial murders that is vital to the police, but he is afraid to reveal them. Dr. Tenma's care for Adolf Junkers however wins him over. His close relationship with Junkers however leads him to a night of shocking horror.",
+        "en": "Inspector Lunge questions Junkers about his involvement in the homicides and he becomes hysterical when Lunge asks who hired him. Tenma convinces Junkers to overcome his fear and confess his involvement, however, that night, Junkers finds his police guard dead and flees. Soon after, Tenma also finds the dead guard, poisoned by candy in the same manner as the hospital officials from nine years ago. He follows Junkers into a nearby construction site, and finds him with Johan Liebert, whose life Tenma saved. Junkers explains that Johan hired him and his associates, whom he has since killed, and is preparing to execute Junkers. Johan reveals that his real name is not Liebert, and admits that he was the one who poisoned the hospital officials and the policeman. Johan calmly executes Junkers and walks away, leaving Tenma distraught at Johan's lack of respect for human life. Later, Tenma explains everything to Inspector Lunge who finds Tenma's involvement in these events suspicious, but lets him go nonetheless.",
         "zh": "一名案件受伤者勇克斯先生似被怪物惊吓，伦克警官前来查案，而且愈发怀疑天马。天马的细腻和温和一直体现在对患者的关心上，这次也不例外，接受天马的建议勇克斯先生也愿意向警察道出真相，但是九年前的被救双胞胎之长子约翰重新回来，但他的身份却是怪物杀人犯。"
       },
       "title_native": "処刑の夜",
@@ -342,7 +449,11 @@
         "bangumi_comments": 13,
         "imdb_votes": 5455
       },
-      "title_cn": "行刑之夜"
+      "title_cn": "行刑之夜",
+      "notes": {
+        "title_cn": "处刑之夜",
+        "summary": "永格斯在天马劝说下准备招供，却发现看守被同样的毒糖毒死而逃走。天马追进工地，看见长大的约翰亲手处决他，并平静承认九年前的毒杀也是自己做的。伦格听完天马的陈述，认为可疑，但放他走。"
+      }
     },
     {
       "n": 5,
@@ -372,18 +483,30 @@
         }
       },
       "synopsis": {
-        "en": "Nina Fortner, a talented young student in Heidelberg has been having nightmares. She also cannot remember anything about her life before she was 10 years old. She soon suffers from fainting spells in university and starts receiving anonymous emails.",
+        "en": "Nina Fortner is a bright university student studying law at a university in Heidelberg. She is seeing a counselor regarding strange dreams and has no memories of her life before the age of 10. She begins receiving poetic emails from an unknown person and decides to meet them. One day in a lecture class, she is overcome by fear and nausea at the mention of a family massacre. Meanwhile, Tenma is investigating the serial murders of middle-aged, childless couples and is searching for information on Michael Reichmann which he believes was Johan's real name. He encounters an old blind man who befriended a boy called Franz who said that Tenma saved his life. The boy had an abiding interest in war stories, particularly those involving extreme fear and said that he would meet his twin sister when she turns 20 in Heidelberg. As Nina leaves to meet the unknown person, her parents prepare to tell her that she was adopted. At the arranged place she sees Johan nearby and he seems familiar, then she suddenly faints.",
         "zh": "双胞胎之妹妮娜·弗多拿就读于德国海德堡大学法律系，妮娜对于10岁以前的事情完全没有记忆，常在半夜梦到巨大的怪物靠近而惊醒，多年来她一直处于巨大的怪物阴影中，近期又不断收到莫名的电子邮件。天马为了弄清事实的真相开始独自去查找线索。"
       },
       "title_native": "ハイデルベルクの少女",
-      "title_en": "The Girl of Heidelberg",
+      "title_en": "The Girl From Heidelberg",
       "aired": "2004-05-05",
       "heat": {
         "mal_replies": 112,
         "bangumi_comments": 12,
         "imdb_votes": 3508
       },
-      "title_cn": "海德堡的少女"
+      "title_cn": "海德堡的少女",
+      "notes": {
+        "title_cn": "海德堡的少女",
+        "summary": "妮娜·佛特娜，海德堡法律系学生，十岁以前记忆空白，正在看心理咨询，同时收到匿名的诗体邮件。天马在追查连环案时，从一位盲人老人口中听到一个叫「弗朗茨」的男孩说过：妹妹二十岁生日那天会在海德堡见面。",
+        "new": [
+          {
+            "name": "Nina Fortner",
+            "name_cn": "妮娜",
+            "kind": "recurring",
+            "note": "即安娜，改名后的身份"
+          }
+        ]
+      }
     },
     {
       "n": 6,
@@ -413,7 +536,7 @@
         }
       },
       "synopsis": {
-        "en": "Nina finally receives an email informing her to meet the anonymous sender at a specified time and place. Dr. Tenma in his search for the Liebert girl, asks Mauler, an editor for a local publisher, for assistance in his investigations.",
+        "en": "With the help of Maurer, a local newspaper journalist, Tenma is able to track down the Fortners on the day of the twins' 20th birthday. The Fortners refuse to talk about the missing twin boy, but reveal that Nina has left to meet the \"mysterious stranger\" at Heidelberg Castle. Tenma drives to the castle where he saves Nina from a hired thug and takes her back home, trying to explain that she is Anna Liebert. Meanwhile, the thug, tied up with Tenma's necktie, fearfully meets his employer.",
         "zh": "天马的线索很快就找到了双胞胎之妹身上，开始寻找妮娜的下落。妮娜的养父母也打算在她生日这天将她的身世告诉她。天马找到了一海德堡邮报记者的帮助下找到了妮娜的养父母家，但是约翰已早先一步，妮娜被约到了海德堡古堡，而养父母家也潜藏着各种危险。"
       },
       "title_native": "失踪記事",
@@ -424,7 +547,18 @@
         "bangumi_comments": 20,
         "imdb_votes": 3225
       },
-      "title_cn": "失踪事件"
+      "title_cn": "失踪事件",
+      "notes": {
+        "title_cn": "失踪报道",
+        "summary": "记者毛勒帮天马找到佛特纳一家，正是双胞胎二十岁生日。天马赶到海德堡城堡，从一名雇来的打手手里救下妮娜。",
+        "new": [
+          {
+            "name": "Maurer",
+            "name_cn": "毛勒",
+            "kind": "one-off"
+          }
+        ]
+      }
     },
     {
       "n": 7,
@@ -454,7 +588,7 @@
         }
       },
       "synopsis": {
-        "en": "Tenma and Nina return to the Fortners’ residence to find Mauler and Nina’s parents dead. Two detectives arrive to take them to the station for questioning, but certain things don't look right.",
+        "en": "Tenma and Nina return to find Fortners and Maurer dead. The scene brings Anna's memories flooding back and she says that she shot Johan. Two detectives arrive at the scene and escort Tenma and Nina away, however Tenma becomes suspicious of them and he escapes with Nina. Back in town, Tenma finds that the detectives are legitimate and the thug at the castle was found dead. Nina, now aware of her past, slips away from Tenma. Inspector Lunge examines the scene, and finds a necktie that he suspects belonged to Tenma.",
         "zh": "天马在海德堡古堡救出妮娜后回到妮娜养父母家里，可是妮娜养父母以及那位热心的曼拉记者都已经被杀害，正当他们无所适从之时，两名自称是警察的人收到报警来接他们回警局，但在路上天马发现诸多疑点带着妮娜趁机跳河逃跑，但这之后，天马逐渐意识到正是自己当时将那个怪物救回的。"
       },
       "title_native": "惨劇の館",
@@ -465,7 +599,11 @@
         "bangumi_comments": 10,
         "imdb_votes": 3130
       },
-      "title_cn": "惨剧"
+      "title_cn": "惨剧",
+      "notes": {
+        "title_cn": "惨剧之馆",
+        "summary": "两人回到佛特纳家，养父母与毛勒已被杀。血腥现场撬开妮娜的记忆：她想起自己朝哥哥开过枪。天马识破两名可疑警探带她逃走，随后妮娜甩开他独自上路。伦格在现场捡到一条领带。"
+      }
     },
     {
       "n": 8,
@@ -495,7 +633,7 @@
         }
       },
       "synopsis": {
-        "en": "Eva tries to threaten Dr. Tenma, unless he gets back with her, she would reveal to the police that the tie that was found at the scene of the crime is his!",
+        "en": "Tenma returns to work at the hospital in Düsseldorf. Meanwhile, Lunge questions Eva, now a three-time divorcée, about the necktie he found at the murder scene, but she denies ever seeing it. Eva then pleads with Tenma to take her back, but he refuses and Eva threatens to turn him over to Inspector Lunge as she gave the necktie to Tenma years earlier. With the police on his tail, Tenma is forced to flee and he recalls the events that have led to his current situation. Five months later, Tenma learns that an elderly couple were killed in Verden and that he is the main suspect.",
         "zh": "伦克警官以一条九年前的领带而找到艾娃向她询问线索，父亲去世后，艾娃的生活也并不如意，离异三次，靠着父亲的遗产和离婚赔偿过活，也整日酗酒度日，总是对她和天马的未来抱有希望，再一次试图和天马重新开始遭到拒绝后，艾娃向伦克警官举报了关于领带的线索。"
       },
       "title_native": "追われる身",
@@ -506,7 +644,11 @@
         "bangumi_comments": 26,
         "imdb_votes": 2928
       },
-      "title_cn": "通缉之身"
+      "title_cn": "通缉之身",
+      "notes": {
+        "title_cn": "被追捕的人",
+        "summary": "伦格拿领带盘问艾娃，她矢口否认，转头却要求与天马复合；被拒后以此相要挟。天马弃职逃亡。五个月后，韦尔登又一对老夫妇被杀，他成了头号嫌犯。"
+      }
     },
     {
       "n": 9,
@@ -536,18 +678,29 @@
         }
       },
       "synopsis": {
-        "en": "An old mercenary soldier named Hugo is interrogated by Lunge about a student of his, a doctor named Tenma.",
+        "en": "Five months ago, Tenma began rigorous firearms training with a former army veteran named Hugo Bernhardt, who was also taking care of an angry orphaned girl whose mother he shot and killed in Myanmar. During his time there, Tenma creates a new bond between the girl and the veteran, and later when questioned by Inspector Lunge, Bernhardt refuses to disclose Tenma's location.",
         "zh": "天马想要凭己之力追踪并消除杀人怪物，于是他放下手术刀辞职离开医院去向一名优秀老兵休葛·贝伦哈特学习射击，同老兵贝伦哈特一起的还有一位沉默的小女孩，通过五个月的练习，天马获取了足够的射击技能后离开，而伦克警官也顺藤摸瓜找到了贝伦哈特了解情况。"
       },
       "title_native": "老兵と少女",
-      "title_en": "The Girl and the Seasoned Soldier",
-      "aired": "2004-06-02",
+      "title_en": "The Girl And The Seasoned Soldier",
+      "aired": "2004-06-01",
       "heat": {
         "mal_replies": 185,
         "bangumi_comments": 31,
         "imdb_votes": 3403
       },
-      "title_cn": "老兵与少女"
+      "title_cn": "老兵与少女",
+      "notes": {
+        "title_cn": "老兵与少女",
+        "summary": "回溯五个月前：天马跟退役军人贝恩哈特学枪，同时化解了老兵与一个孤女之间的死结——她的母亲死于他的枪下。面对伦格的盘问，贝恩哈特守口如瓶。",
+        "new": [
+          {
+            "name": "Hugo Bernhardt",
+            "name_cn": "贝恩哈特",
+            "kind": "one-off"
+          }
+        ]
+      }
     },
     {
       "n": 10,
@@ -577,7 +730,7 @@
         }
       },
       "synopsis": {
-        "en": "Tenma encounters a burglar named Heckel who claims to have seen the killer. It soon results in Heckel leading Tenma to a couple of murderers.",
+        "en": "While investigating the murder of a prominent councilman and his wife at the Springer Estate in Verden, Tenma encounters the petty criminal Otto Heckel and escapes with him. Heckel suggests that they could make good money by operating on wounded criminals, but also reveals that he knows the councilman's killer. They visit the killer who is remorseful, duped by a man called Erich into committing the murders. But before Tenma can extract any more information, the killer commits suicide. In order to pay his debts, Heckel arranges for Tenma to be abducted to treat a wounded man who is a suspect in a terrorist attack. Despite being threatened, Tenma decides to save him anyway.",
         "zh": "一名惯偷潜进被杀议员的宅邸想要偷东西却遇到了在那里的天马，天马因此意外间得到了杀害休普林格议员的一些线索，得知约翰体内的怪物在不断长大。天马被惯偷所骗去给一桩恐怖事件的袭击者医伤，用自己的个人魅力为袭击者上了一堂正义的课程。"
       },
       "title_native": "消された過去",
@@ -588,7 +741,19 @@
         "bangumi_comments": 14,
         "imdb_votes": 2773
       },
-      "title_cn": "抹去了的过去"
+      "title_cn": "抹去了的过去",
+      "notes": {
+        "title_cn": "被抹去的过去",
+        "summary": "天马在韦尔登遇到小偷奥托·赫克尔，从此甩不掉这个同伴。他见到一个被自称「埃里希」的陌生人几句话推去杀人的男人，还没问出更多，那人就自杀了。赫克尔为还债把天马卖去给一名通缉伤者做手术，天马照救不误。",
+        "new": [
+          {
+            "name": "Otto Heckel",
+            "name_cn": "奥托·赫克尔",
+            "kind": "recurring",
+            "note": "小偷，之后反复出现"
+          }
+        ]
+      }
     },
     {
       "n": 11,
@@ -618,10 +783,10 @@
         }
       },
       "synopsis": {
-        "en": "Tenma learns that Johan used to be in an orphanage known as Kinderheim 511. And he meets a former East German official named Hartmann who used to work there and an injured boy named Dieter.",
+        "en": "While investigating in the former East Germany, Tenma discovers that Johan was adopted by the Lieberts from an orphanage called 511 Kinderheim which is now abandoned. He contacts Hartmann, a former district official with the Ministry, who explains that the orphanage was an extremely harsh environment for the children, ruled by fear and violence. There, Tenma also encounters a boy under Hartmann's care named Dieter. When Tenma discovers Dieter's body is covered with bruises, he confronts Hartmann and takes Dieter to the hospital. Tenma then goes to another orphanage where the director Elna Tyce tells him that 511 Kinderheim was an East German experimental laboratory.",
         "zh": "天马继续追查，由李贝特夫妇之前在511幼儿之家领养到一对双胞胎的线索，通过曾在卫生署工作的哈德曼了解到原来在东德时孩子曾在孤儿院受过非人的待遇，天马还进一步了解到511幼儿之家曾经是东德内政部门的一个实验场。"
       },
-      "title_native": "５１１キンダーハイム",
+      "title_native": "511キンダーハイム",
       "title_en": "511 Kinderheim",
       "aired": "2004-06-16",
       "heat": {
@@ -629,7 +794,24 @@
         "bangumi_comments": 11,
         "imdb_votes": 2869
       },
-      "title_cn": "511孤儿院"
+      "title_cn": "511孤儿院",
+      "notes": {
+        "title_cn": "511 孤儿院",
+        "summary": "天马查到约翰是李贝特夫妇从前东德的 511 孤儿院领养的，那里早已废弃。前官员哈特曼描述了那所机构里的恐惧与暴力；天马发现哈特曼照顾的男孩迪特满身伤痕，强行送他就医。另一所孤儿院的院长说出真相：511 是东德的实验机构。",
+        "new": [
+          {
+            "name": "Dieter",
+            "name_cn": "迪特",
+            "kind": "recurring",
+            "note": "此后一直跟着天马"
+          },
+          {
+            "name": "Hartmann",
+            "name_cn": "哈特曼",
+            "kind": "one-off"
+          }
+        ]
+      }
     },
     {
       "n": 12,
@@ -659,7 +841,7 @@
         }
       },
       "synopsis": {
-        "en": "Dieter is picked up by Hartmann before Tenma could return. And Tenma learns more about the experiments in Kinderheim 511.",
+        "en": "Tenma learns that the orphans in 511 Kinderheim were part of a project to produce perfect soldiers through psychological reconstruction. However, during a power struggle, the 50 instructors and orphans were killed. Hartmann takes Dieter back from the hospital, and when Tenma visits Hartmann's apartment he realizes that Hartmann was at 511 Kinderheim and is now trying to reshape Dieter to be similar to Johan. At the ruins of the orphanage, Hartmann explains to Tenma that the battle was triggered by Johan and that General Wolf is the key to Johan's origins. Much to Hartmann's shock and ensuing anguish, Dieter decides to reject him and leaves with Tenma.",
         "zh": "知情人告诉天马，当时511幼儿之家的孩子们被当作实验品忍受非人待遇，而一场大火让它化为灰烬，幸存者一个是约翰，另一个危险人物正是他刚刚拜访过的迪特的监护人，天马从监护人手上救回迪特，并且从他那里对约翰有了更进一步的了解。"
       },
       "title_native": "ささやかな実験",
@@ -670,7 +852,11 @@
         "bangumi_comments": 17,
         "imdb_votes": 3147
       },
-      "title_cn": "小实验"
+      "title_cn": "小实验",
+      "notes": {
+        "title_cn": "小小的实验",
+        "summary": "511 的目的是用心理重构造出完美士兵；一场内乱中五十名教官与孤儿全部死亡，而导火索是约翰。哈特曼正试图把迪特改造成第二个约翰，迪特当面拒绝他，跟天马走了。哈特曼留下一条线索：沃尔夫将军是约翰来处的钥匙。"
+      }
     },
     {
       "n": 13,
@@ -700,7 +886,7 @@
         }
       },
       "synopsis": {
-        "en": "In a small village, Dr. Schumann worries over the health of his sick but stubborn old friend, Petra.",
+        "en": "Tenma treats a local drunk after an accident, and then assists Dr. Schumann, the local doctor in treating the village residents. He visits an elderly woman who refuses to have herself examined when Tenma realizes that the woman has a subarachnoid hemorrhage, he performs an impromptu operation to save her. Meanwhile her son, a police officer, threatens to arrest Tenma after discovering that he is wanted for murder. However, Schumann and the villagers convince the police officer to let Tenma go, and he leaves with Dieter to continue his quest to find Johan.",
         "zh": "天马带着迪特在外偶遇车祸并为伤者医治，当地医生为感恩替他在警察面前圆场，为报答这名医生，天马去替他看了几场难治的病，而最后一位竟然是警察海因兹的母亲，天马冒死为其母做手术，在当地医生的开导下海因兹放弃抓捕他并向警局谎称是自己看错了人。"
       },
       "title_native": "ペトラとシューマン",
@@ -711,6 +897,17 @@
         "mal_replies": 119,
         "bangumi_comments": 22,
         "imdb_votes": 2731
+      },
+      "notes": {
+        "title_cn": "佩特拉与舒曼",
+        "summary": "天马在一个小镇帮舒曼医生出诊，为一位拒绝就医的老太太做了临时开颅。老太太当警察的儿子认出他是通缉犯，全镇人替他说话，把他放走。",
+        "new": [
+          {
+            "name": "Dr. Schumann",
+            "name_cn": "舒曼医生",
+            "kind": "one-off"
+          }
+        ]
       }
     },
     {
@@ -741,18 +938,22 @@
         }
       },
       "synopsis": {
-        "en": "Inspector Lunge investigates the murder of a prostitute and suspects a senator named Dr. Boltzmann of involvement. His dedication to his work however takes a toll on his family life. Meanwhile, the vindictive Eva continues to press Lunge to catch Tenma. She also has a new lover, her gardener.",
+        "en": "Workaholic Inspector Lunge is so busy investigating the case of a dead prostitute and her involvement with a politician that he shows no emotion when his wife and pregnant daughter leave him. When a key suspect in the case apparently commits suicide, Lunge is taken off all cases, so he decides to focus on catching Tenma. Meanwhile, the heavily alcoholic Eva Heinemann has casual sex with her gardener. Upon coming to the realization how utterly dissatisfied she is with her current life, she burns down her house in a rage before storming off into the night.",
         "zh": "伦克警官也遭受了工作和生活的双重困境，上司停掉他手上的一切案件，无事可做的他只能一门心思去继续跟天马那宗案件，艾娃的园丁对她动心，开始同情和关怀起这个寂寞的女人，在她即将化解内心的冰块时却被一场意外的妒忌之火激怒而认为现在自己的不幸福全拜天马所赐，更加重了对他的仇恨。"
       },
       "title_native": "残された男・残された女",
-      "title_en": "Left Behind",
+      "title_en": "The Abandoned Man・The Abandoned Woman",
       "aired": "2004-07-07",
       "heat": {
         "mal_replies": 215,
         "bangumi_comments": 43,
         "imdb_votes": 2720
       },
-      "title_cn": "被留下的男人女人"
+      "title_cn": "被留下的男人女人",
+      "notes": {
+        "title_cn": "被留下的男人・被留下的女人",
+        "summary": "伦格的关键证人「自杀」，他被拿掉所有案子；妻子和怀孕的女儿离开时，他没有任何反应，从此把全部生命投进抓天马。另一边，艾娃与园丁上床、意识到自己有多失败，一怒之下烧掉了自己的房子。"
+      }
     },
     {
       "n": 15,
@@ -782,7 +983,7 @@
         }
       },
       "synopsis": {
-        "en": "Dr. Tenma and Nina Fortner's investigations lead them to a powerful man known as 'The Baby', who belongs in an extremist organisation. They soon learn that the organisation has special plans for the Turkish district tomorrow.",
+        "en": "In Frankfurt, Tenma questions the now disgraced former Detective Mesner, one of the detectives he fled from earlier, over the murder of Fortners and Maurer. Mesner says it was Muller, the other detective, who murdered them and mentions \"The Baby\", a little person who leads a right-wing extremist group in search of Nina. Meanwhile, in order to track down Johan, Nina poses as a prostitute and seeks out the Baby at the Candy Club. Upon making contact with the Baby, she and Tenma are both taken captive. Subsequently, Nina is taken to a mansion where she is greeted by Professor Goedelitz who explains that he is one of four men seeking to recruit Johan as their leader and Nina is the bait. In the basement, the Baby brutally questions Tenma and reveals that they plan to burn down the Turkish portion of Frankfurt. Nina hears of the same plot from Ayse, a Turkish woman held captive in the same mansion.",
         "zh": "天马找到当时代人行凶杀死妮娜养父母的密斯普警官，了解到妮娜的行踪，妮娜为找约翰已置身一个神秘组织中，天马为保护妮娜而身陷囹圄遭受毒打，同时妮娜也得到了来自管道另一端的重要情报。天马在被毒打过程中了解到这些坏人组织想要催生一个希特勒式的人物，选中的目标正是约翰。"
       },
       "title_native": "ビー·マイ·ベイビー",
@@ -793,6 +994,28 @@
         "mal_replies": 116,
         "bangumi_comments": 9,
         "imdb_votes": 2557
+      },
+      "notes": {
+        "title_cn": "Be My Baby",
+        "summary": "法兰克福。天马从落魄的前警探梅斯纳口中得知，杀佛特纳夫妇的是另一名警探穆勒，并第一次听到「婴儿」这个名字——一个正在找妮娜的极右组织头目。妮娜伪装成妓女接近婴儿，两人先后被擒；戈德利茨教授说他们是想把约翰扶成领袖的四个人之一。",
+        "new": [
+          {
+            "name": "The Baby",
+            "name_cn": "婴儿",
+            "kind": "recurring",
+            "note": "极右组织头目"
+          },
+          {
+            "name": "Peter Messner / Muller",
+            "name_cn": "梅斯纳 / 穆勒",
+            "kind": "arc"
+          },
+          {
+            "name": "Goedelitz",
+            "name_cn": "戈德利茨教授",
+            "kind": "one-off"
+          }
+        ]
       }
     },
     {
@@ -823,7 +1046,7 @@
         }
       },
       "synopsis": {
-        "en": "Nina escapes the mansion. And Tenma meets with the unrecognizable General Wolf at the mansion later.",
+        "en": "At Baby's mansion, Nina finds Ayse dead and then discovers that her captor, Goedelitz and all his men have been murdered. Meanwhile, General Wolf's men take away Tenma and Dieter, who was captured earlier. On the way, Tenma enables Dieter to return to Frankfurt to warn the Turkish community of the plot. Tenma meets Wolf who accepts his role in the origins of Johan whom he found cold and starving to death with his sister near the Czechoslovak border. He then says that Johan has killed everyone who was close to him, including Goedelitz and his men. He shows Tenma a message from Johan challenging him to meet at some warehouse ruins, then asks Tenma to kill Johan. Back in Frankfurt, Dieter and Heckel are captured by neo-Nazis.",
         "zh": "妮娜通过管道亲耳了解到艾雪说土尔其街卡尔文路将要被宝宝等人纵火烧掉，勇敢的迪特身闯入组织与天马汇合，之后独身一人去向土尔其街的人报告即将来临的危险。天马终与渥夫将军见面，但之前的各种传言被粉碎，原来渥夫将军只是想请天马替他杀掉约翰。"
       },
       "title_native": "ヴォルフの告白",
@@ -834,7 +1057,18 @@
         "bangumi_comments": 7,
         "imdb_votes": 2490
       },
-      "title_cn": "华尔夫的心声"
+      "title_cn": "华尔夫的心声",
+      "notes": {
+        "title_cn": "沃尔夫的告白",
+        "summary": "戈德利茨一伙被灭口。沃尔夫将军的人带走天马，将军承认自己与约翰的来处有关——当年在捷克边境，他捡到两个快冻死的无名孩子——并请求天马杀掉约翰。天马放迪特回法兰克福报信。",
+        "new": [
+          {
+            "name": "General Wolf",
+            "name_cn": "沃尔夫将军",
+            "kind": "arc"
+          }
+        ]
+      }
     },
     {
       "n": 17,
@@ -864,7 +1098,7 @@
         }
       },
       "synopsis": {
-        "en": "The extremists plans are put into action, and Tenma decides to postpone his search for Johan and instead heads to the Turkish district to warn the people there. Dieter and Heckel are captured by the skinheads and are left to burn in the fire. And Nina tries to get information about the 'main dish' from 'The Baby'.",
+        "en": "Instead of meeting Johan, Tenma heads to the Turkish portion of Frankfurt to warn the residents of the neo-Nazi plot. Meanwhile, Nina confronts Baby while he is having dinner, but he refuses to disclose the location of the planned main fire. Numerous small fires are started, however they are relatively easy to extinguish. Nina finds and rescues Dieter and Heckel, who says the main fire will most likely be set near the wharves. At the river, Nina and Dieter find a neo-Nazi in a chemical warehouse, ready to start a blaze, but Dieter manages to extinguish the fuse by using a valuable carpet Heckel stole from a Turkish store. Later, as Tenma leaves to find Johan, Nina reveals that Johan is not one person because he has a split personality.",
         "zh": "天马赶至卡尔文路阻止火灾，妮娜找到放火的直接领导人宝宝想要获取到火灾的重点区域，结果却得到了假消息，但意外使他救到了迪特和惯偷海格尔，海格尔由于清楚地形很容易就判断出来了真正的火灾重点，妮娜、迪特和天马先后赶到那个火灾重点区仓库，阻止了一场大火的发生。"
       },
       "title_native": "再会",
@@ -875,7 +1109,11 @@
         "bangumi_comments": 13,
         "imdb_votes": 2728
       },
-      "title_cn": "再会"
+      "title_cn": "再会",
+      "notes": {
+        "title_cn": "再会",
+        "summary": "天马放弃赴约，转去土耳其区示警；妮娜逼问婴儿未果，与迪特找到主火点并及时拆掉。事后妮娜对天马说出她的判断：约翰有双重人格。"
+      }
     },
     {
       "n": 18,
@@ -905,7 +1143,7 @@
         }
       },
       "synopsis": {
-        "en": "Nina meets with an old friend and boss, Mister Rosso. The delightful old boss however, has a very dark past.",
+        "en": "Mr. Rosso, the owner of an Italian restaurant where Nina used to work as Anna Liebert, picks her up after questioning by police. She recalls the time she spent working in the restaurant and took marksmanship lessons in the afternoons. When challenged by Nina, Rosso admits that he used to be a professional assassin. She leaves and continues her search for Johan.",
         "zh": "约翰并非大家所想的那么坏，其实他体内有个怪物使其有着双重人格，妮娜被罗素先生保释出来，继续以安娜.李贝利之名在在罗素先生的意大利餐厅做服务生，每天下午都要去训练射击，与罗素先生有一番沟通之后，想向他学习杀人，而他却早已放下枪并满足于平常人的生活。"
       },
       "title_native": "五杯目の砂糖",
@@ -916,7 +1154,18 @@
         "bangumi_comments": 22,
         "imdb_votes": 2631
       },
-      "title_cn": "第五匙砂糖"
+      "title_cn": "第五匙砂糖",
+      "notes": {
+        "title_cn": "第五勺砂糖",
+        "summary": "妮娜被前雇主罗索接走。她回忆起以安娜身份在他的意大利餐厅打工、并在午后学射击的日子；被追问时罗索承认自己曾是职业杀手。她随即继续上路找哥哥。",
+        "new": [
+          {
+            "name": "Mr. Rosso",
+            "name_cn": "罗索",
+            "kind": "one-off"
+          }
+        ]
+      }
     },
     {
       "n": 19,
@@ -946,7 +1195,7 @@
         }
       },
       "synopsis": {
-        "en": "Tenma visits Rudy, a criminal psychologist, who is working on cases involving a murderer named Jurgens.",
+        "en": "Searching for an insight into Johan's personality, Tenma visits Dr. Rudy Gillen, a fellow student and academic rival at University who is now a practicing criminal psychoanalyst. Gillen intends to turn Tenma over to the authorities, but consults with one of his criminal patients in prison, Peter Jurgens. After the prisoner says he committed a murder for an unknown person and directs Gillen on where to find evidence that proves Johan exists, Gillen assists Tenma to escape.",
         "zh": "为了搞清楚约翰的真正内心，天马向大学时的一个研究心理学的同学鲁迪求助，而鲁迪正在研究的连环杀人犯尤根斯的犯罪心理正好与约翰雷同，原来约翰可以嗅出杀人者的气味并潜入他们孤寂的内心，随心所欲地操纵他们，这才导致他们犯罪杀人，鲁迪弄清真相后协助天马逃走。"
       },
       "title_native": "怪物の深淵",
@@ -957,7 +1206,24 @@
         "bangumi_comments": 26,
         "imdb_votes": 2954
       },
-      "title_cn": "怪物之深渊"
+      "title_cn": "怪物之深渊",
+      "notes": {
+        "title_cn": "怪物的深渊",
+        "summary": "天马去找大学同窗、如今的犯罪心理学家吉伦，想弄清约翰是什么。吉伦本打算把他交给警方，但狱中病人尤尔根斯的供述证明约翰真实存在，吉伦转而放走了天马。",
+        "new": [
+          {
+            "name": "Rudy Gillen",
+            "name_cn": "吉伦",
+            "kind": "recurring",
+            "note": "犯罪心理学家，后半段的关键分析者"
+          },
+          {
+            "name": "Peter Jurgens",
+            "name_cn": "尤尔根斯",
+            "kind": "one-off"
+          }
+        ]
+      }
     },
     {
       "n": 20,
@@ -987,7 +1253,7 @@
         }
       },
       "synopsis": {
-        "en": "Tenma and Dieter hitch a ride with an elderly couple on the way to Freiham. Tenma wonders if the couple plan to turn him in.",
+        "en": "Tenma and Dieter hitch a ride with an elderly couple on the way to Freiham. Tenma wonders if the couple plan to turn him in when he realizes that the husband is a suspicious former police officer. He used to think that he could tell a criminal by their looks, but realized that it was not possible after his son committed a murder. The husband confirms that Tenma is a wanted criminal, however he believes that Tenma is innocent.",
         "zh": "天马和迪特在路上搭载了一辆顺风车，半路车因没油而抛锚，天马步行将油送给这对夫妇并成了他们的向导，这对夫妻的老公是个出色的警察，善于识人好坏，不过尽管看到通辑天马的照片也了解他的犯罪记录，但通过交往还是确信天马是个善良的人，所以并未将其举报。"
       },
       "title_native": "フライハムへの旅",
@@ -998,7 +1264,18 @@
         "bangumi_comments": 18,
         "imdb_votes": 2568
       },
-      "title_cn": "费拉咸之旅"
+      "title_cn": "费拉咸之旅",
+      "notes": {
+        "title_cn": "前往弗莱哈姆",
+        "summary": "天马与迪特搭上一对老夫妇的车。丈夫是前警察，曾以为凶手能看出来，直到自己儿子杀了人。他认出天马是通缉犯，却相信他无罪。",
+        "new": [
+          {
+            "name": "退休警察夫妇",
+            "name_cn": "退休警察夫妇",
+            "kind": "one-off"
+          }
+        ]
+      }
     },
     {
       "n": 21,
@@ -1028,7 +1305,7 @@
         }
       },
       "synopsis": {
-        "en": "Nina confronts Muller, one of the two detectives responsible for the death of her foster parents, the Fortners. Muller discovers that his protege, Roberto, is actually working for Johan and is now tasked with killing Nina.",
+        "en": "In Nice, the former detective Muller, who with Mesner killed Nina's foster parents, is newly married and enjoys a good life. He hires a private detective to investigate the whereabouts of Tenma, Nina and Mesner, but when the detective arrives he is shot by Muller's bodyguard Roberto, who is working for Johan. Muller realizes that he was used to lure Nina into a trap, and Roberto takes Nina, promising to take her to Johan despite Roberto's plan to kill Nina, and leave her with his subordinates. However, Muller suddenly arrives and rescues her, although he is shot in the process.",
         "zh": "当初杀害佛多拿夫妇的凶手之一米勒警官现在过着富足的生活，并有保镖罗伯特的保护，但妮娜的到来让他知道了罗伯特是个危险的人，杀掉侦探，并且通过威胁从米勒那里拿走了警探搜集到的案件进展资料，妮娜被罗伯特的人抓走，而米勒的及时赶到救了妮娜但是自己却受伤。"
       },
       "title_native": "幸せな休日",
@@ -1039,7 +1316,19 @@
         "bangumi_comments": 20,
         "imdb_votes": 2655
       },
-      "title_cn": "幸福假期"
+      "title_cn": "幸福假期",
+      "notes": {
+        "title_cn": "幸福的假日",
+        "summary": "尼斯。穆勒过着新婚的好日子，雇侦探找天马与妮娜，却发现自己的保镖罗伯特替约翰做事，自己只是引妮娜上钩的饵。妮娜被罗伯特带走，重伤的穆勒赶来救下她。",
+        "new": [
+          {
+            "name": "Roberto",
+            "name_cn": "罗伯特",
+            "kind": "recurring",
+            "note": "约翰的执行者"
+          }
+        ]
+      }
     },
     {
       "n": 22,
@@ -1069,7 +1358,7 @@
         }
       },
       "synopsis": {
-        "en": "Lunge determines that the murder of a wealthy, middle-aged, childless couple does not fit the usual modus operandi of the serial murders and decides to use this opportunity to lure Tenma to a trap. However, before he can arrest him, Lunge is critically wounded by the real criminal. Tenma is able to treat Lunge's injuries.",
+        "en": "Lunge determines that the murder of a wealthy, middle-aged, childless couple does not fit the usual modus operandi of the serial murders, but uses it as an opportunity to lure Tenma to a trap. He actually suspects the nephew who stands to inherit their estate. Tenma visits the murder scene and also realizes that it is a copy-cat murder. Lunge catches Tenma in the house, but before Lunge can arrest him, Lunge is critically wounded by the nephew, the real criminal. As he lies bleeding, Lunge still insists that Johan is the alter ego of Tenma, but when he falls unconscious, Tenma treats his injury.",
         "zh": "又一起中年夫妻被害案件让伦克警官继续追踪天马的行踪，而事实是约普夫妇被杀是个案，但伦克警官威胁记者使其误导事实，目的就是为了诱导天马再现将其抓获，事实也正如伦克和天马所查到的那样，有人模仿连环杀人事件意欲嫁祸于人，伦克警官在生命垂危之际仍然一味相信天马是杀手想要将其置于死地。"
       },
       "title_native": "ルンゲの罠",
@@ -1080,7 +1369,11 @@
         "bangumi_comments": 38,
         "imdb_votes": 3190
       },
-      "title_cn": "伦华的圈套"
+      "title_cn": "伦华的圈套",
+      "notes": {
+        "title_cn": "伦格的陷阱",
+        "summary": "伦格识破一起模仿杀人，用它当饵引天马现身，两人在凶宅对上。伦格被真凶（贪图遗产的侄子）重伤，昏迷前仍坚称约翰只是天马的第二人格。天马替他止了血。"
+      }
     },
     {
       "n": 23,
@@ -1110,7 +1403,7 @@
         }
       },
       "synopsis": {
-        "en": "Eva Heinemann is arrested for public drunkenness and hooks up with Roberto, with whom she was with the night before her arrest. Roberto then reveals his link to Johan and Eva confesses that she was actually a witness the night Junkers was killed by Johan.",
+        "en": "Eva Heinemann is arrested for public drunkenness and is also homeless after not paying her rent. She hooks up with Roberto, with whom she was drinking the night before her arrest. After realizing that she has photos of Johan, Roberto presses her about her link to Johan. Eva reveals that she saw Johan at the construction site in Düsseldorf on the night Junkers was killed. Roberto prepares to kill her.",
         "zh": "艾娃生活潦倒又遇上被抢包、寓所遭劫偶，之后偶遇罗伯特，其实是罗伯特想要通过她找到天马，但穷困潦倒的艾娃剖白了自己这些年来对天马的深情，并因追寻天马而了解到的一场杀人事件，正是当年约翰杀死天马病人的事，被利用完毕后，罗伯特想要杀死艾娃。"
       },
       "title_native": "エヴァの告白",
@@ -1121,7 +1414,11 @@
         "bangumi_comments": 16,
         "imdb_votes": 2405
       },
-      "title_cn": "艾娃的剖白"
+      "title_cn": "艾娃的剖白",
+      "notes": {
+        "title_cn": "艾娃的告白",
+        "summary": "艾娃因醉酒被捕、交不起房租，与前一晚喝酒的罗伯特搭上。罗伯特发现她手里有约翰的照片，逼问之下她说出自己曾在工地上见过约翰。罗伯特准备杀她。"
+      }
     },
     {
       "n": 24,
@@ -1151,7 +1448,7 @@
         }
       },
       "synopsis": {
-        "en": "In exchange for her life, Roberto tells Eva to confront Tenma, who is currently treating a mob boss at a country house. Eva is promptly wounded by Roberto when she is unable to complete her task but is saved by Tenma.",
+        "en": "To save her life, Eva offers Roberto the photos of Johan in exchange for information about Tenma's location. Roberto tells her that Tenma is currently treating a wounded mob boss at a country house near Füssen. Roberto and Eva approach the country house and Roberto kills the bodyguard who just manages to warn his boss before he dies. Roberto doesn't trust Eva and shoots her in the leg, and as she lies bleeding, she tells Dieter to run as Tenma would never come to save her. However, Tenma arrives and treats her wounds, then leaves her with the mob boss while he goes to Munich.",
         "zh": "迫于约翰旧照未能到手，罗伯特并未杀掉艾娃，并且告诉她天马目前的所在地，罗伯特带着艾娃找到在山庄里的天马，艾娃为了救天马而受伤，天马不顾生命危险救下艾娃的性命，把她安顿在山庄后，天马依着从山庄主人那里获得线索约翰很可能在慕尼黑从事黑道银行而带着迪特转去那里。"
       },
       "title_native": "男達の食卓",
@@ -1162,7 +1459,11 @@
         "bangumi_comments": 20,
         "imdb_votes": 2381
       },
-      "title_cn": "男人的餐桌"
+      "title_cn": "男人的餐桌",
+      "notes": {
+        "title_cn": "男人们的餐桌",
+        "summary": "艾娃用照片换来天马的行踪。罗伯特不信她，一枪打穿她的腿；她躺在血里让迪特快跑，认定不会有人来救。天马还是来了，替她止血、把她托给人照看，然后动身去慕尼黑。"
+      }
     },
     {
       "n": 25,
@@ -1192,7 +1493,7 @@
         }
       },
       "synopsis": {
-        "en": "Karl Neumann and Lotte Frank are both students who read latin to Hans Georg Schubert. Lotte attempts to assist Karl in finding out his past while trying to figure out the identity of a boy who reads to Schubert on Thursdays. When they both discover who he is, they find the boy, Edmund Farren, in his dormitory, dead.",
+        "en": "In Munich, Karl Neumann is one of the students who reads passages of Latin on Tuesdays to the elderly, blind and very wealthy Hans Georg Schuwald. Karl encounters fellow student Lotte Frank, who does housekeeping for Schuwald and whom she is using as the subject for her research paper. Karl agrees to join her in tailing Schuwald when he goes out late at night. They discover a woman claiming to be Margot Langer, the mother of his illegitimate son, who turns out to be Karl, however the student who reads on Thursdays also claims to be Schuwald's son. Lotte discovers that the Thursday boy is Edmund Farren, and when they go to visit him, they find him dead in his dormitory from an apparent suicide. Later, they encounter Johan Liebert who is enrolled at their university and is Schuwald's Friday's reader.",
         "zh": "在慕尼黑大学有一位在为富商休伯特先生朗读书文的学生卡尔.诺伊曼，而事实这两人正是父子，在热心同学露帝.法兰克的帮助下，他发现有人正在冒用他的身份，就在谜团要破解之时，这位星期四男生突然上吊自杀，而同时另一位同为念书男生的人出现在了诺伊曼的生活里，这人正是约翰。"
       },
       "title_native": "木曜日の青年",
@@ -1203,7 +1504,34 @@
         "bangumi_comments": 16,
         "imdb_votes": 2819
       },
-      "title_cn": "星期四的青年"
+      "title_cn": "星期四的青年",
+      "notes": {
+        "title_cn": "星期四的青年",
+        "summary": "慕尼黑。盲人富豪舒瓦德每周由不同学生朗读：周四那位学生被发现自杀在宿舍；周二的卡尔可能是他失散的私生子。萝特与卡尔跟踪舒瓦德时，遇到同校的新面孔——周五的朗读者约翰·李贝特。",
+        "new": [
+          {
+            "name": "Hans Georg Schuwald",
+            "name_cn": "舒瓦德",
+            "kind": "recurring",
+            "note": "盲人富豪"
+          },
+          {
+            "name": "Karl Neumann",
+            "name_cn": "卡尔",
+            "kind": "recurring"
+          },
+          {
+            "name": "Lotte Frank",
+            "name_cn": "萝特",
+            "kind": "arc"
+          },
+          {
+            "name": "Edmund Farren",
+            "name_cn": "法伦",
+            "kind": "one-off"
+          }
+        ]
+      }
     },
     {
       "n": 26,
@@ -1233,7 +1561,7 @@
         }
       },
       "synopsis": {
-        "en": "A man who claims to be the son of a millionaire has committed suicide, and a detective is determined to solve the case.",
+        "en": "Schuwald hires a private investigator named Richard Braun to determine the truth behind Farren's suicide. During a discussion with his psychotherapist Dr. Julius Reichwein, Braun confirms something is amiss with the death. Meanwhile, Johan offers to help Karl reconcile with his long lost father, whom he believes is Schuwald. When Karl and Lotte take Schuwald to visit a lake that is now a construction site, Johan arrives and paints a verbal picture that convinces Schuwald that he is standing on the edge of a beautiful lake.",
         "zh": "诺伊曼在楼顶遇见约翰，并轻易地向他讲述了自己的身世，约翰利用了解和掌握到的信息，帮诺伊曼和露帝安排了一场亲自带着双目失明的休伯特重新体验森林美景的计划，而另一位侦探利亚特重新振作开始工作，开始对星期四男生自杀事件展开调查。"
       },
       "title_native": "秘密の森",
@@ -1244,7 +1572,25 @@
         "bangumi_comments": 10,
         "imdb_votes": 2609
       },
-      "title_cn": "秘密森林"
+      "title_cn": "秘密森林",
+      "notes": {
+        "title_cn": "秘密的森林",
+        "summary": "舒瓦德雇私家侦探布劳恩调查那起自杀。约翰主动帮卡尔接近生父：在一片早已变成工地的湖畔，他用语言给盲人「造」出一片仍在的湖。全剧最优雅的一场戏，没有任何暴力。",
+        "new": [
+          {
+            "name": "Richard Braun",
+            "name_cn": "布劳恩",
+            "kind": "arc",
+            "note": "前警探、私家侦探"
+          },
+          {
+            "name": "Julius Reichwein",
+            "name_cn": "莱希魏因",
+            "kind": "recurring",
+            "note": "心理医生"
+          }
+        ]
+      }
     },
     {
       "n": 27,
@@ -1274,7 +1620,7 @@
         }
       },
       "synopsis": {
-        "en": "Richard's past and present situation is revealed. Johan continues to bond with the Schuwald family and his intention is revealed.",
+        "en": "Braun tries to reconcile with his ex-wife while dealing with his past alcoholism and again visits Reichwein, and begins to suspect Karl is involved in Farren's death. Meanwhile, Karl is about to formalize his adoption with his foster parents, but Johan intervenes and enables Karl to reconcile with his real father, Schuwald.",
         "zh": "利亚特之前酗酒让他的生活糟透了，妻子带着女儿离开他，他重新开始认真生活，但是女儿仍然不愿与他相见。约翰从诺伊曼处骗取诺伊曼与父亲相认的信物后，在他的帮助下，休伯特父子相认，老财主决定让约翰担任自己的特别秘书。"
       },
       "title_native": "証拠の品",
@@ -1285,7 +1631,11 @@
         "bangumi_comments": 13,
         "imdb_votes": 2545
       },
-      "title_cn": "证物"
+      "title_cn": "证物",
+      "notes": {
+        "title_cn": "证物",
+        "summary": "布劳恩一边试图与前妻和解、一边与自己的酗酒史搏斗，开始怀疑卡尔涉案。约翰从中斡旋，促成卡尔与舒瓦德父子相认。"
+      }
     },
     {
       "n": 28,
@@ -1315,7 +1665,7 @@
         }
       },
       "synopsis": {
-        "en": "Richard re-investigates his old homicide cases and makes a frightening discovery.",
+        "en": "Schuwald informs Braun that the case involving the suicide of Farren is closed, but Braun becomes suspicious now that Karl and Johan are caring for Schuwald. Braun decides to review all his unsolved homicide cases, but is haunted by the case that caused his alcoholism and error of judgement which caused his dismissal from the police force. His investigations all seem to have a connection with Schuwald and when he presents his findings to Reichwein, the doctor also reveals that Gillen believes that the name Johan is involved in murders aimed at isolating Schuwald.",
         "zh": "自从找到儿子后，利亚特的调查被中止，调查也无疾而终，他开始着手研究之前做警察时的一些悬而未决的疑案。通过不断地调查发现，手头上的这些看似无关悬案其实都有一个共同目的，就是为了孤立休伯特，同时心理医生也通过与鲁迪的联系获取了对约翰的认识。"
       },
       "title_native": "ただ一つの事件",
@@ -1326,7 +1676,11 @@
         "bangumi_comments": 24,
         "imdb_votes": 2786
       },
-      "title_cn": "一宗事件"
+      "title_cn": "一宗事件",
+      "notes": {
+        "title_cn": "唯一的案子",
+        "summary": "舒瓦德宣布结案，布劳恩反而更不安。他重查自己所有悬案，发现线索全部通向舒瓦德；莱希魏因带来吉伦的判断——有人正在系统性地孤立这位老人，那个名字是约翰。"
+      }
     },
     {
       "n": 29,
@@ -1356,7 +1710,7 @@
         }
       },
       "synopsis": {
-        "en": "Robert delves into Johan's past and makes a shocking discovery. Dr. Gillen speaks to Peter Jurgens, a serial murderer about Johan's possible involvement and gets a tragic reply. Johan confronts Robert about Stephen Joos. And Dr. Reichwen receives tragic news from the police.",
+        "en": "Braun begins to observe Johan and investigate his origins, while Reichwein asks Gillen to question his criminal patient Peter Jurgens about Johan. Meanwhile, Braun discovers that the real Johan Liebert died at the age of two. When Gillen shows a photo of Johan to Jurgens, it triggers painful memories and he promptly commits suicide with Gillen's pen. At night, Johan visits Braun and manipulates him into a state of deep regret. Johan then offers Braun a bottle of whiskey on the rooftop of a building. Later, Reichwein is informed that Richard Braun is dead.",
         "zh": "利亚特在医生莱希瓦和鲁迪的帮助下渐渐接近真相，而此刻约翰主动找到了他并且跟他大谈特谈之前利亚特的一桩失误案件，这桩案件正是导致利亚特目前生活一团糟的主因，他因醉酒误伤杀人少年，并因此失却了前途和家庭，就连最为珍惜的女儿也不肯与他见面，约翰步步挑战他的内心并导致他最终死亡。"
       },
       "title_native": "処刑",
@@ -1367,7 +1721,11 @@
         "bangumi_comments": 19,
         "imdb_votes": 5252
       },
-      "title_cn": "处刑"
+      "title_cn": "处刑",
+      "notes": {
+        "title_cn": "处刑",
+        "summary": "布劳恩查出关键事实：真正的约翰·李贝特两岁就死了。吉伦拿照片给尤尔根斯看，对方被唤起记忆当场自杀。当晚约翰登门，几句话把布劳恩推回最深的悔恨，然后在天台上递给他一瓶威士忌。莱希魏因接到通知：布劳恩死了。"
+      }
     },
     {
       "n": 30,
@@ -1397,7 +1755,7 @@
         }
       },
       "synopsis": {
-        "en": "Suspecting foul play in Robert's 'accidental' death fall, Dr. Reichwen makes some discoveries in his investigations. But as he later realizes, his investigations may have put him in harms way.",
+        "en": "Reichwein muses over the death of his friend and patient Richard Braun with Gillen who suspects foul play. Reichwein retraces Braun's last steps and determines his death was not an accident, but a murder. Two thugs are hired to kill Reichwein, however he survives. Later, Roberto attempts to kill Reichwein at his office, but he is saved by Tenma who has been shadowing him.",
         "zh": "利亚特死后留下种种疑点，而他的心理医生莱希瓦决定接手利亚特继续将案件查个水落石出，为了能尽快揭露真相，鲁迪和莱希瓦在报纸上刊登了一则广告希望引起天马的注意并主动和他们联系。莱希瓦医生越来越接近真相也越来越危险，就在有人想要取他性命之时天马及时出现并救了他。"
       },
       "title_native": "ある決意",
@@ -1408,7 +1766,11 @@
         "bangumi_comments": 23,
         "imdb_votes": 3443
       },
-      "title_cn": "决心"
+      "title_cn": "决心",
+      "notes": {
+        "title_cn": "某个决意",
+        "summary": "莱希魏因重走布劳恩最后走过的路，断定那不是意外而是谋杀。两名打手来杀他，他活了下来；随后罗伯特摸进他的诊所，被一路暗中跟着他的天马挡下。"
+      }
     },
     {
       "n": 31,
@@ -1438,7 +1800,7 @@
         }
       },
       "synopsis": {
-        "en": "Dr. Tenma and Dr. Reichwen finally meet. Dr. Reichwen intends to proof Dr. Tenma's innocence in the homicides, but Dr. Tenma has other ideas.",
+        "en": "Reichwein arranges for Tenma to live in a safe house while he and Gillen attempt to figure out their next steps. However, Tenma leaves the safe house and leaves Dieter with Reichwein while he tries to track down Johan, and purchases a sniper rifle.",
         "zh": "自从亲眼见到约翰后，正如鲁迪和莱希瓦担心的那样，天马意欲单独行动找到约翰并斩除祸害，将迪特托付给莱希瓦之后他便消失了。伦克警察找到了鲁迪医生，想要了解天马的行踪，鲁迪将自己的报告和分析讲给伦克希望他能理解天马并非凶手，伪善的伦克骗到天马的行踪后立即开始布置抓捕他。"
       },
       "title_native": "白日の下へ",
@@ -1449,7 +1811,11 @@
         "bangumi_comments": 31,
         "imdb_votes": 2246
       },
-      "title_cn": "白日之下"
+      "title_cn": "白日之下",
+      "notes": {
+        "title_cn": "走向白日",
+        "summary": "莱希魏因给天马安排了安全屋，天马却离开，把迪特留给他，自己去追约翰——并买下一把狙击步枪。"
+      }
     },
     {
       "n": 32,
@@ -1479,7 +1845,7 @@
         }
       },
       "synopsis": {
-        "en": "Lotte, Frank and Karl are drifting apart. Lotte meets Nina Fortner and they become friends. Dr. Tenma searches for a perfect spot to shoot Johan.",
+        "en": "Lotte has a chance encounter with Nina and discovers that they are both researching Schuwald and strike up a friendship. Later, Lotte realizes that Nina looks like Johan. Tenma prepares to kill Johan at a forest sanctuary, but is unable to carry it through after meeting an old soldier who does not want bloodshed in the forest.",
         "zh": "妮娜也来到了慕尼黑追查案件的进展，巧遇露帝.法兰克，并一起分享了搜索来的部分资料，期间妮娜帮露帝教训了纠缠她的无赖。天马开始练习狙击并开始观察约翰的行踪，但每次约翰都能巧妙地躲过或使天马无法下手，天马仍然一边锻炼体能一边继续观察行踪，而受森林看护人的感化，天马的内心更加复杂。"
       },
       "title_native": "聖域",
@@ -1490,7 +1856,11 @@
         "bangumi_comments": 13,
         "imdb_votes": 2220
       },
-      "title_cn": "圣域"
+      "title_cn": "圣域",
+      "notes": {
+        "title_cn": "圣域",
+        "summary": "萝特偶遇妮娜，两人因都在研究舒瓦德而结交；萝特随后发现妮娜和约翰长得像。天马在林中架起枪，却被一个不愿见血的老兵劝住，扣不下扳机。"
+      }
     },
     {
       "n": 33,
@@ -1520,7 +1890,7 @@
         }
       },
       "synopsis": {
-        "en": "Dieter learns of a life threatening game that children are playing. Mr. Schuwald decides to donate his whole book collection to the Munich University Library under the suggestion of Karl and Johan.",
+        "en": "Some children die while participating in a dangerous game of dare suggested by Johan to determine if they were \"chosen\". Dieter manages to convince a seriously injured boy who survived the game not to commit the stunt again. Schuwald announces a large donation of antique books to LMU Munich and a ceremony to commemorate the donation is planned. At the library, Johan passes out after he looks at the picture book \"Obluda\" by Emil Scherbe about a monster with no name. Tenma prepares to kill Johan at the book donation ceremony.",
         "zh": "孩童坠楼案件屡屡发生，迪特偶然间与一名坠楼男童交流得知原来是约翰教唆所为，并通过自己的经历阻止了这名受伤的男孩。休伯特准备将自己的大量珍贵藏书捐赠给德国慕尼黑大学，约翰作为工作人员之一参观了图书馆，但无意中看到一本捷克布拉格出版社出版的艾蜜尔.薛贝的绘本而情绪失控昏倒过去。"
       },
       "title_native": "子供の情景",
@@ -1531,7 +1901,11 @@
         "bangumi_comments": 19,
         "imdb_votes": 2374
       },
-      "title_cn": "孩童的情况"
+      "title_cn": "孩童的情况",
+      "notes": {
+        "title_cn": "儿童情景",
+        "summary": "约翰怂恿孩子们玩一场证明「自己是被选中的」的死亡游戏，有孩子因此摔死；迪特劝住了幸存的男孩。舒瓦德宣布向慕尼黑大学捐赠古籍并定下仪式。图书馆里，约翰看到绘本《没有名字的怪物》，当场昏倒。"
+      }
     },
     {
       "n": 34,
@@ -1561,7 +1935,7 @@
         }
       },
       "synopsis": {
-        "en": "The 'Margot Langer' impostor tries to blackmail Johan. Dr. Tenma helps a young 'doctor' at an illegal clinic",
+        "en": "Johan recovers from his fainting spell and responds to an invitation to go visit the Red Hindenberg, in the red-light district, the apartment of the old prostitute who had been impersonating Karl Neumann's mother Margot Langer. She tries to blackmail Johan, but Roberto kills her. Meanwhile, Tenma visits a local doctor to find out about the prostitute's death and finds the teenage daughter of a doctor treating undocumented immigrants. He decides to help her treat the waiting patients.",
         "zh": "约翰病愈后收到一封来自红色兴登堡的信件，红色兴登堡位于红灯区，原来是假冒的玛尔格特.兰卡约他，揭穿了约翰的阴谋后被自己准备好的凶手罗伯特给杀害了，天马为追杀手下落，找到了一位越南籍17岁姑娘她竭力为人治病，并指导姑娘为一位受枪伤的女人做手术，之后继续追寻约翰的下落。"
       },
       "title_native": "闇の果て",
@@ -1572,7 +1946,11 @@
         "bangumi_comments": 12,
         "imdb_votes": 2307
       },
-      "title_cn": "黑暗绝境"
+      "title_cn": "黑暗绝境",
+      "notes": {
+        "title_cn": "黑暗的尽头",
+        "summary": "冒充卡尔生母的老妓女试图勒索约翰，被罗伯特杀死。天马去打听她的死因，遇到一位替无证移民看病的医生的女儿，留下来帮她处理病人。"
+      }
     },
     {
       "n": 35,
@@ -1602,7 +1980,7 @@
         }
       },
       "synopsis": {
-        "en": "Lunge tries to get into Dr. Tenma's mind by pretending to be him. Dr. Gillen learns something about Johan during an interview with a psychotic killer. Dr. Reichwen tries to warn the Lieberts of Johan's true nature. Dr. Tenma scouts for a perfect sniping location.",
+        "en": "Lunge questions Tenma's former friends from Japan to learn more about his suspect, even missing an appointment with his daughter to see his new grandson. However, one of the men has the book Johan was apparently looking at when he fainted, which Lunge examines and translates some of the words. Reichwein confronts the \"foster parents\" of Johan with the facts of his activities and warns them that their lives are in danger, but they refuse to believe him. Tenma sneaks into the library with the rifle the night before the book donation ceremony.",
         "zh": "伦克警官亲自找到天马故友，从他们那里了解天马的情况，但同时他因为了解天马的心理状态而放弃了与女儿及孙儿的见面，与天马相识的旧友中有人为了与休伯特谈生意特地讨好其秘书约翰，买到一本捷克语的绘本，这引起了伦克的兴趣。鲁迪医生和莱希瓦医生一直在通过罪犯和拜访李贝特夫妻在调查约翰的心理。"
       },
       "title_native": "名なしのヒーロー",
@@ -1613,7 +1991,11 @@
         "bangumi_comments": 12,
         "imdb_votes": 2194
       },
-      "title_cn": "无名英雄"
+      "title_cn": "无名英雄",
+      "notes": {
+        "title_cn": "无名英雄",
+        "summary": "伦格远赴日本盘问天马的旧友，为此错过与女儿见新外孙。他从其中一人手里拿到那本绘本，开始逐字翻译。莱希魏因去警告约翰名义上的「养父母」，被无视。捐赠仪式前夜，天马带枪潜入图书馆。"
+      }
     },
     {
       "n": 36,
@@ -1643,7 +2025,7 @@
         }
       },
       "synopsis": {
-        "en": "Dr. Reichwein reveals the true nature of Johan to Mr. Schuwald. Dr. Tenma gets ready to assassinate Johan. Lunge concludes that Dr. Tenma will kill Schuwald next. Lotte confronts Nina about Johan.",
+        "en": "Reichwein confronts Schuwald with evidence about Johan, but Schuwald refuses to take any action, already suspecting that Johan plans a take-over of his affairs. Later, Reichwein realizes that Schuwald is Johan's next target and Lunge suspects that Schuwald will be Tenma's next target, and both separately head to the library. Lotte confronts Nina at the train station about being the twin sister of Johan after reading the book that made Johan collapse.",
         "zh": "莱希瓦医生为了避免天马走上不归路特地在深夜拜访休伯特，将自己的调查研究一并讲给了休伯特，道出了约翰接近他的初衷，而此时的天马已躲在图书馆内准备伺机暗杀约翰。鲁迪医生也向伦克警官讲述了自己的研究，但此时的伦克依然相信天马才是真凶。捐书仪式举行在即，莱希瓦和安娜瞬间顿悟。"
       },
       "title_native": "混沌の怪物",
@@ -1654,7 +2036,11 @@
         "bangumi_comments": 19,
         "imdb_votes": 2489
       },
-      "title_cn": "浑沌的怪物"
+      "title_cn": "浑沌的怪物",
+      "notes": {
+        "title_cn": "混沌的怪物",
+        "summary": "莱希魏因向舒瓦德摊牌，舒瓦德早已察觉约翰要接管自己的一切，却不打算反抗。莱希魏因意识到舒瓦德是下一个目标，伦格则以为舒瓦德是天马的目标，两人分头赶往图书馆。车站上，萝特对妮娜挑明她是约翰的妹妹。"
+      }
     },
     {
       "n": 37,
@@ -1684,7 +2070,7 @@
         }
       },
       "synopsis": {
-        "en": "The episode begins with a fairy tale about a Monster without a name. Nina reads the story from the picture book and has a sense of deja vu. Johan's evil plans for the book donation ceremony is carried out. Dr. Tenma meets a big obstacle in his attempt to kill Johan.",
+        "en": "Nina reads the picture book, \"A Nameless Monster\", which triggers some memories and Nina tells Lotte that Johan is her brother. Nina, then, decides to confront Johan at the book donation ceremony. During the ceremony, Tenma hesitates before he can kill Johan and is disarmed by Roberto. However, before Roberto can kill Schuwald, a fire set by one of Johan's accomplices engulfs the library, creating hysteria and fear. Tenma manages to grab a handgun and points it at Roberto and a shot is heard.",
         "zh": "天马在图书馆欲伺机射击约翰，结果被约翰的杀手罗伯特偷袭，天马最终能否开出了第一枪杀掉罗伯特？之后图书馆内发生了一场火灾，莱希瓦和安娜的到来是否能能阻止天马？在大火中大家是否能逃生？"
       },
       "title_native": "なまえのないかいぶつ",
@@ -1695,6 +2081,10 @@
         "mal_replies": 162,
         "bangumi_comments": 21,
         "imdb_votes": 5142
+      },
+      "notes": {
+        "title_cn": "没有名字的怪物",
+        "summary": "妮娜读完绘本，记忆被触发，向萝特承认约翰是自己的哥哥，并决定在仪式上正面对他。仪式中天马举枪犹豫，被罗伯特夺械；就在罗伯特要杀舒瓦德的瞬间，约翰的同伙点燃了图书馆。混乱中一声枪响。IMDb 全剧最高分集。"
       }
     },
     {
@@ -1725,7 +2115,7 @@
         }
       },
       "synopsis": {
-        "en": "Dr. Tenma has a gun pointed at Roberto, but Roberto has the rifle pointed at him. Nina, Dr.Reichwen and Dieter arrive to find the whole library in flames. People are trapped inside and the doors are all locked. Karl reads the report on his mother's life and death. Dr. Tenma tries to rescue those trapped in the building. Johan reveals the monster inside of him to Schuwald.",
+        "en": "Tenma shoots Roberto, then fires again and Roberto falls over the balcony. The fire inside the library spreads, but the people are trapped inside by locked doors. Tenma helps the people escape by shooting out the doors. Meanwhile, Nina has entered the building, but neither she nor Tenma can bring themselves to shoot Johan. Suddenly, the canopy over the stage collapses in flames, engulfing Nina and Schuwald. Back at Schuwald's residence, Karl finds the results of an investigation by Schuwald into his mother's life and her disappearance.",
         "zh": "约翰最终将暗杀休伯特变成了一场图书馆火灾，顿时图书馆变成了人间炼狱，约翰为了自保开出了人生的第一枪，并在火场中冷静应对，为求生的人们找到出口，但他最终于错失除掉约翰的良机，拼命从火场中救出休伯特先生。"
       },
       "title_native": "我が目の悪魔",
@@ -1736,7 +2126,11 @@
         "bangumi_comments": 32,
         "imdb_votes": 3157
       },
-      "title_cn": "我眼中的恶魔"
+      "title_cn": "我眼中的恶魔",
+      "notes": {
+        "title_cn": "我眼中的恶魔",
+        "summary": "开枪的是天马，罗伯特坠下露台。大火封死了门，天马射开门锁放人出去。妮娜进来了，但她和天马谁都没能朝约翰开枪。舞台顶棚烧塌，妮娜与舒瓦德被压在下面。卡尔在家中翻出父亲调查自己母亲下落的档案。"
+      }
     },
     {
       "n": 39,
@@ -1766,7 +2160,7 @@
         }
       },
       "synopsis": {
-        "en": "Lunge, from the BKA, learns that Johan may indeed exist. Nina goes into regressive hypnosis to learn more about the picture book and her past. Mr. Schuwald has a message for Dr. Tenma and sends Karl to Dresden to pass it to him.",
+        "en": "Lunge initially suspects that Tenma set the fire and planned to assassinate Schuwald. But after Karl asks Lunge to search for Johan, who had not been seen since the fire, and Lunge visits Johan's former apartment – he begins to believe that Johan is real. Schuwald asks Karl to deliver a message to someone in Dresden. Nina leaves the hospital and undergoes psychological analysis with Dr. Reichwein and Dr. Gillen to recover her memories which involve three frogs and a bridge. She leaves to find Tenma, and Dieter insists on leaving with her. In Dresden, Tenma meets Karl who tells him that the twins' mother is alive and living in Prague.",
         "zh": "伦克警察继续追查天马追踪到火场，之后在访问休伯特时，偶然间所有的矛头都指向了约翰，伦克警官也开始将目光转向约翰。休伯特委托儿子将重要信息带给天马，为天马提供了继续追查下去的线索。在鲁迪医生的帮助下妮娜开始对过去的事情有点滴印象。"
       },
       "title_native": "目の中の地獄",
@@ -1777,7 +2171,11 @@
         "bangumi_comments": 18,
         "imdb_votes": 2163
       },
-      "title_cn": "眼中地狱"
+      "title_cn": "眼中地狱",
+      "notes": {
+        "title_cn": "眼中的地狱",
+        "summary": "伦格原本认定纵火与刺杀都是天马所为，直到卡尔请他去找约翰、他走进约翰的旧公寓——他第一次开始相信约翰真实存在。妮娜出院后接受吉伦与莱希魏因的分析，浮出「三只青蛙和一座桥」的碎片。天马在德累斯顿见到卡尔，得知双胞胎的母亲还活着，在布拉格。"
+      }
     },
     {
       "n": 40,
@@ -1807,7 +2205,7 @@
         }
       },
       "synopsis": {
-        "en": "The episode introduces Grimmer. Grimmer is a freelance journalist doing an in-depth research into the abuses in the orphanages in East Germany. Grimmer meets with Dr. Tenma during their trip to Prague, and they become more acquainted when Tenma is faced with an immigration problem.",
+        "en": "Wolfgang Grimmer is a freelance journalist and former East German investigating allegations of child abuse and psychological reprogramming in former East Germany orphanages. While on a train to Prague, he shares a booth with Tenma. When guards arrive to arrest Tenma, Grimmer helps him escape and then helps him across the border. In Prague, Grimmer confronts Petrov, the former director of 511 Kinderheim about his involvement.",
         "zh": "一位之前从事过间谍活动的葛利马一直以记者的身份在搜集着相关资料，前往布拉格的火车上，他偶遇了天马医师，在警察追捕之时帮助天马逃跑，之后继续帮助天马带路走过边境，并在美丽的山顶有一次难忘的进餐，之后俩人分道扬镳。"
       },
       "title_native": "グリマー",
@@ -1818,7 +2216,24 @@
         "bangumi_comments": 15,
         "imdb_votes": 2593
       },
-      "title_cn": "古利马"
+      "title_cn": "古利马",
+      "notes": {
+        "title_cn": "格里马",
+        "summary": "沃尔夫冈·格里马登场：前东德人、自由记者，正在调查东德孤儿院里的虐待与心理改造。他在开往布拉格的列车上与天马同厢，出手帮他脱身并送他过境；到布拉格后，他找上 511 的前院长佩特罗夫。",
+        "new": [
+          {
+            "name": "Wolfgang Grimmer",
+            "name_cn": "格里马",
+            "kind": "recurring",
+            "note": "全剧最好的配角"
+          },
+          {
+            "name": "Petrov",
+            "name_cn": "佩特罗夫",
+            "kind": "one-off"
+          }
+        ]
+      }
     },
     {
       "n": 41,
@@ -1848,10 +2263,10 @@
         }
       },
       "synopsis": {
-        "en": "Grimmer stubbornly stalks Petrov for his experimental research papers chronicaling the abuses at Kinderheim 511, but he gets a surprise instead.",
+        "en": "Grimmer presses Petrov for records of 511 Kinderheim, but he denies that he was present during the revolt. Grimmer tails Petrov, then realizes that he is running a boys orphanage. Grimmer plays soccer with the boys from Petrov's orphanage, and when they return they notice a woman who resembles Anna Liebert leaving the orphanage. They find the assistant Anna dead and Petrov mortally wounded. Before he dies, Petrov blames Johan for the disaster at 511 Kinderheim and provides Grimmer with a key to a safety deposit box containing evidence of Johan's early years.",
         "zh": "葛利马找到原511幼儿之家院长派特罗夫向他了解当时的研究结果，而派特罗夫三缄其口，但葛利马还是了解到他目前在收养着一批幼儿，并且以不同于当时幼儿之家的培养方法在关爱着这群孩子。之后派特罗夫及其女佣被枪杀，临终时将一枚钥匙交给葛利马。"
       },
-      "title_native": "５１１の亡霊",
+      "title_native": "511の亡霊",
       "title_en": "The Ghost of 511",
       "aired": "2005-02-09",
       "heat": {
@@ -1859,7 +2274,11 @@
         "bangumi_comments": 17,
         "imdb_votes": 2206
       },
-      "title_cn": "511的亡魂"
+      "title_cn": "511的亡魂",
+      "notes": {
+        "title_cn": "511 的亡灵",
+        "summary": "佩特罗夫否认自己在内乱时在场。格里马跟踪他，发现他如今在办一所男童孤儿院。回来时众人看见一个长得像安娜的金发女人离开；助手已死，佩特罗夫重伤，临死前把 511 的灾难归咎于约翰，并交出一把保险箱钥匙。"
+      }
     },
     {
       "n": 42,
@@ -1889,7 +2308,7 @@
         }
       },
       "synopsis": {
-        "en": "Grimmer has the key that Petrov gave him, and a former Czechoslovakian secret police organization wants it. Caught and tortured, Grimmer tells his abductors about 'the Magnificent Steiner'.",
+        "en": "Inspector Filip Zeman of the Prague police questions Grimmer about the death of Petrov and a blonde woman suspected of the crime. After leaving the police station, Grimmer is abducted by former members of the Czechoslovak StB, Chesmir Mirat and Yakov Suacek. They, along with Filip Zeman, torture Grimmer for Petrov's safety deposit box key, but he passes out. The woman resembling Anna interrupts the interrogation by shooting and killing one of the StB members. Grimmer wakes up and finds the three men dead and concludes that his alter ego, \"The Magnificent Steiner\", is responsible.",
         "zh": "派特罗夫院长临终前交给葛利马的钥匙的秘密关乎的是院长和一位少年的对话录音，而这位少年就是使511幼儿之家走向灭亡的始作俑者——约翰。葛利马因掌握着这枚秘密钥匙而被秘密警察追杀，赛曼组长更是两面三刀，也想从他那获取钥匙，被困且遭私刑的使得葛利马另一重人格爆发，赛曼组长和另两位惨烈死亡，葛利马醒来后那段记忆缺失。"
       },
       "title_native": "超人シュタイナーの冒険",
@@ -1900,7 +2319,23 @@
         "bangumi_comments": 19,
         "imdb_votes": 2280
       },
-      "title_cn": "超人苏坦纳历险记"
+      "title_cn": "超人苏坦纳历险记",
+      "notes": {
+        "title_cn": "超人斯坦纳的冒险",
+        "summary": "布拉格警方的泽曼警监盘问格里马后，他被两名前捷克斯洛伐克秘密警察 StB 绑走拷问钥匙下落，昏了过去。那个像安娜的女人闯进来开枪；格里马醒来时三人已死，他把这归给自己的另一个人格「超人斯坦纳」。",
+        "new": [
+          {
+            "name": "Filip Zeman",
+            "name_cn": "泽曼警监",
+            "kind": "one-off"
+          },
+          {
+            "name": "前 StB 成员",
+            "name_cn": "前 StB 成员",
+            "kind": "one-off"
+          }
+        ]
+      }
     },
     {
       "n": 43,
@@ -1930,7 +2365,7 @@
         }
       },
       "synopsis": {
-        "en": "A new inspector, detective Suk is on the case of Zeman's homicide. During his investigation, he discovers that there is more to Zeman's murder than first assumed. Suk also meets a lady whom he falls head over hills for",
+        "en": "Detective Suk is called to the scene of the brutal triple murder, along with his superior, Inspector Filip Zeman and two other men. The other men are former members of the Czechoslovak StB, Chesmir Mirat and Yakov Suacek. Jan Suk suspects Grimmer is the culprit. Meanwhile Suk meets an attractive woman, who looks like Anna Liebert, in a bar. Later, Head Detective Patera tells Suk that Zeman was investigating former StB members in the Prague police force. Suk finds Zeman's notes in a locker indicating that Patera and Janacek were in the StB, and notifies Commissioner Hamrlik who is later revealed to be protecting the former StB members. While Suk meets the woman again, Hamrlik, Patera and Janacek die after eating candy given to Patera by the same woman.",
         "zh": "一直把塞曼组长当作榜样的舒克警官开始追查亡师的死因，在酒吧买醉时偶遇一位金发美女，便对其心生好感且为知己向并向她讲述了自己近期的苦恼。舒克根据赛曼的遗物找到他参与捷克秘密警察的证据并交由上司，结果遇人不淑。"
       },
       "title_native": "スーク刑事",
@@ -1941,7 +2376,18 @@
         "bangumi_comments": 17,
         "imdb_votes": 2134
       },
-      "title_cn": "薜谷警官"
+      "title_cn": "薜谷警官",
+      "notes": {
+        "title_cn": "苏克刑警",
+        "summary": "年轻刑警扬·苏克怀疑格里马是凶手，同时顺着前辈的笔记查出局里多名高层出身前 StB。他在酒吧结识一个与安娜长相一致的女人；几天后，那几位高层吃了她送的糖，全部死亡。",
+        "new": [
+          {
+            "name": "Jan Suk",
+            "name_cn": "苏克",
+            "kind": "recurring"
+          }
+        ]
+      }
     },
     {
       "n": 44,
@@ -1971,7 +2417,7 @@
         }
       },
       "synopsis": {
-        "en": "After the death of his seniors, Suk is left to re-investigate case from the very beginning. He gets information from the orphans about a meeting with Grimmer. His intention to arrest Grimmer takes a different turn however when he gets deeper into the investigation. The episode also reveals that there is more to the nameless lady at the bar than she lets on.",
+        "en": "The murder of Commissioner Hamrlik and the two corrupt officers stirs up a media frenzy. Suk questions the boys from Petrov's orphanage who say a woman was Petrov's killer. Tenma arrives in Prague and obtains some information about the mother of the Liebert twins. Suk tries to get close to the woman who calls herself Anna Liebert, but she is later revealed to be Johan in disguise.",
         "zh": "与舒克关系较近的几位警官因吃了金发美女送的糖后中毒身亡，他从派特罗夫院长收留的孩子那里了解葛利马的为人和院长的死前状况。天马也开始了解门口有三只青蛙的神秘住所。而舒克视为知己的金发美女竟然是约翰假扮。"
       },
       "title_native": "二つの闇",
@@ -1982,7 +2428,11 @@
         "bangumi_comments": 57,
         "imdb_votes": 3330
       },
-      "title_cn": "双重黑暗"
+      "title_cn": "双重黑暗",
+      "notes": {
+        "title_cn": "两个黑暗",
+        "summary": "警界高层集体死亡引爆舆论。孤儿院的孩子们说杀佩特罗夫的是个女人。天马抵达布拉格，开始打听双胞胎母亲的下落。苏克试图接近那个自称安娜·李贝特的女人——而她其实是乔装的约翰。MAL 上讨论量全剧第二高的一集。"
+      }
     },
     {
       "n": 45,
@@ -2012,7 +2462,7 @@
         }
       },
       "synopsis": {
-        "en": "Suk is put under surveillance by the new commissioner. Together with Grimmer, Suk retrieves the tape and research papers from the deposit box. But their movements is watched by various sides.",
+        "en": "Nepela, the new Prague Police Commissioner suspects that Suk may be involved in the deaths of Hamrlik and the two corrupt officers and assigns Detectives Novak and Zanda to follow him. Suk meets Grimmer and they retrieve the safety deposit box which contains research documents and a cassette tape which contains an interview of a drugged Johan in which he describes himself as containing a monster. While searching Suk's apartment, Detective Novak and Detective Zanda are killed by Johan masquerading as Anna.",
         "zh": "舒克所在的警局内上层格局的变动使他陷入被动和危险的局面，他与葛利马的互相讨论案情也被人监视起来。俩人一起揭开了派特罗夫院长临终前所言的秘密——是研究论文和一卷磁带，磁带内的内容是一名511幼儿之家的小男孩的问答，由于相关的回忆葛利马停止听下去。之后舒克身边发生危险杀人事件。"
       },
       "title_native": "怪物の残像",
@@ -2023,7 +2473,11 @@
         "bangumi_comments": 14,
         "imdb_votes": 2231
       },
-      "title_cn": "怪物的残像"
+      "title_cn": "怪物的残像",
+      "notes": {
+        "title_cn": "怪物的残像",
+        "summary": "新任警监怀疑苏克涉案，派两名警探跟踪他。苏克与格里马取出保险箱：研究文件，加一盘录音带——被下了药的约翰在带子里描述自己体内有一个怪物。搜查苏克公寓的那两名警探，死在乔装成安娜的约翰手里。"
+      }
     },
     {
       "n": 46,
@@ -2053,7 +2507,7 @@
         }
       },
       "synopsis": {
-        "en": "Dr. Tenma learns about Suk's fugitive status from a journalist. And sets out to find him. Meanwhile, Suk and Grimmer goes into hiding, but is quickly found, surrounded and attacked by the STB. The STB's assault comes to a bloody end.",
+        "en": "Tenma finds out about the murder of Commissioner Hamrlik and the two corrupt officers through poisoned candy and endeavors to find Suk, who has given his mother the tape. Tenma visits Suk's mother in the hospital, but she has dementia and poor memory. Suk and Grimmer hide out in an abandoned building, but they are attacked and Suk is critically wounded. Grimmer goes into a rage and beats his assailants senseless. Tenma arrives on the scene and treats Suk and the other injured men. Grimmer reveals that he was at 511 Kinderheim and explains the origins of alter-ego, \"The Magnificent Steiner\", a weakling who transforms into a raging musclebound hero when threatened, but with no recollection of the events afterwards.",
         "zh": "天马查剪报时发现捷克的前秘密警察，而且发现舒克警官的案件和自己的当年竟惊人相似。他前去找舒克的母亲想要了解些信息。葛利马和舒克此时正躲起避难，不料避难所也被危险分子盯紧，舒克受到严重枪伤，葛利马在最后时刻另一重人格爆，天马也及时赶到。"
       },
       "title_native": "接点",
@@ -2064,7 +2518,11 @@
         "bangumi_comments": 13,
         "imdb_votes": 2915
       },
-      "title_cn": "接点"
+      "title_cn": "接点",
+      "notes": {
+        "title_cn": "接点",
+        "summary": "苏克把录音带交给母亲后遇袭重伤；格里马暴怒把袭击者打到不省人事，天马赶到，连袭击者一起救。格里马讲出自己在 511 的来历，以及「超人斯坦纳」的由来——一个弱者受威胁时变成的猛男英雄，事后毫无记忆。"
+      }
     },
     {
       "n": 47,
@@ -2094,7 +2552,7 @@
         }
       },
       "synopsis": {
-        "en": "Nina's experience in Prague is a nightmare for her. Tenma and Grimmer meets with a top man in the Czechoslovakian STB. They are offered a deal which Grimmer refuses to accept.",
+        "en": "Nina and Dieter arrive in Prague, but she is shocked when residents call her \"Anna\" and she begins to recall memories from her childhood. Tenma and Grimmer find that Suk has been discharged from the hospital, and Captain Karel Ranke, a former top member of the StB proposes to release Suk to Tenma and Grimmer in exchange for the tape and research materials for a client in Germany. They refuse, however, Grimmer suddenly remembers Adolf Reinhardt who was kind to him at 511 Kinderheim. While they do not reach an agreement, Ranke does mention that Franz Bonaparta was heavily involved in the care of the Liebert twins. Bonaparta was also the author of a children's picture book \"The Nameless Monster\", and was living at the \"Red Rose Mansion\". Meanwhile, Nina and Dieter find the apartment Nina shared with her twin brother and their mother, which triggers more of Nina's memories.",
         "zh": "由约翰假冒的妮娜离开了齐朵克桥，而真正的妮娜回到小时候生长的地方后被无形的力量牵引着回到房间，意识渐渐开启。天马和葛利马寻找舒克的下落，意外被旧捷克斯洛伐克的秘密警察干部卡列尔.兰格上校邀请，天马渐渐知道磁带和研究的下落，并道出自己所知的约翰的真相"
       },
       "title_native": "悪夢の扉",
@@ -2105,7 +2563,18 @@
         "bangumi_comments": 8,
         "imdb_votes": 2163
       },
-      "title_cn": "噩梦之門"
+      "title_cn": "噩梦之門",
+      "notes": {
+        "title_cn": "噩梦之门",
+        "summary": "妮娜与迪特到布拉格，街上的人都叫她安娜，记忆成块回来，她找到了当年和母亲、哥哥同住的公寓。前 StB 高层兰克提出用苏克换录音带与研究材料，交易谈崩，但他吐出两个关键：弗朗茨·波拿巴特深度参与过双胞胎的养育，绘本《没有名字的怪物》是他写的，他住在红玫瑰宅邸。",
+        "new": [
+          {
+            "name": "Karel Ranke",
+            "name_cn": "兰克",
+            "kind": "arc"
+          }
+        ]
+      }
     },
     {
       "n": 48,
@@ -2135,10 +2604,10 @@
         }
       },
       "synopsis": {
-        "en": "Johan visits Suk's mother. Tenma and Grimmer learns of his visit. They, including Col. Ranke, listen to Johan's tape. Lunge arrives in Prague for a 'holiday'. His investigation leads him to the sketches of Franz Bonaparta.",
+        "en": "Nina is confused by her recent memories. After confirming Suk's safety, Grimmer and Tenma agree to deliver the tape and research materials to Ranke. However, when they visit Suk's mother, they discover that the research material is gone, and that Johan has recorded a message on the tape for Tenma. Meanwhile, Inspector Lunge decides to take a \"holiday\" in Prague, and questions an associate, Commissioner Nepela on the recent developments and asks Nepela to translate a copy of the picture book \"The Nameless Monster\". Lunge also questions Suk's colleagues about the recent events, and researches the author Franz Bonaparta and his aliases, Emile Scherbe and Klaus Poppe.",
         "zh": "约翰假扮的金发美女提前赶到舒克母亲的医院，并且提前拿到磁带将重要内容给洗去了。伦克警官也赶往布拉格继续追查案件，并已涉足艾蜜儿.薛贝的绘画本，借助布沛拉警长的帮助开始真正接触约翰的个人资料。"
       },
-      "title_native": "番怖いもの",
+      "title_native": "一番怖いもの",
       "title_en": "The Most Frightening Thing",
       "aired": "2005-03-30",
       "heat": {
@@ -2146,7 +2615,11 @@
         "bangumi_comments": 13,
         "imdb_votes": 2076
       },
-      "title_cn": "最害怕的东西"
+      "title_cn": "最害怕的东西",
+      "notes": {
+        "title_cn": "最可怕的东西",
+        "summary": "天马与格里马决定交出材料，却发现研究文件不翼而飞，录音带上被约翰录了一段给天马的留言。伦格「休假」来到布拉格，请人翻译绘本，并开始查波拿巴特和他的两个笔名。"
+      }
     },
     {
       "n": 49,
@@ -2176,10 +2649,10 @@
         }
       },
       "synopsis": {
-        "en": "Grimmer and Tenma tries to stop Johan from subjecting Milo, one of the orphans, to one of the most cruel fate.",
+        "en": "The children from Petrov's former orphanage try to find the blonde woman and prove Grimmer's innocence. Meanwhile, Lunge questions Suk's mother in the hospital about a blonde lady who visited, but she says the woman had the voice of a man. A boy named Milosh encounters Johan disguised as Anna. As Anna, Johan sends him to a nearby red light district in a fruitless search to find his mother. Grimmer and Tenma find Johan's apartment, but Johan and Milosh have already left. As Milosh wanders the streets, the experience makes him depressed and suicidal. However, Grimmer and Tenma find Milosh in time, creating an unexpected intense emotional experience for both Grimmer and Milosh.",
         "zh": "葛利马和天马继续追查，无意中发现葛利马很受孩子们的欢迎，而他自己因从小的经历而不知道应该作何反应。伦克警官找到舒克的母亲了解情况。喜欢葛利马的孩子们为了要帮助他洗脱罪名开始追寻金发女郎的下落。其中一个小孩子米休罗为了寻找自己的母亲而被约翰做了残酷的事情。"
       },
-      "title_native": "番残酷なこと",
+      "title_native": "一番残酷なこと",
       "title_en": "The Cruelest Thing",
       "aired": "2005-04-06",
       "heat": {
@@ -2187,7 +2660,18 @@
         "bangumi_comments": 24,
         "imdb_votes": 4666
       },
-      "title_cn": "最残酷的事"
+      "title_cn": "最残酷的事",
+      "notes": {
+        "title_cn": "最残酷的事",
+        "summary": "孤儿院的孩子们四处找那个金发女人，想证明格里马清白。约翰以「安娜」的样子让男孩米洛什去红灯区找他不存在的母亲，把他推向自毁；格里马与天马赶在最后一刻找到他——对格里马而言，那是一次意外剧烈的情感体验。",
+        "new": [
+          {
+            "name": "Milosh",
+            "name_cn": "米洛什",
+            "kind": "one-off"
+          }
+        ]
+      }
     },
     {
       "n": 50,
@@ -2217,7 +2701,7 @@
         }
       },
       "synopsis": {
-        "en": "Lunge investigates the secret behind the Red Rose Mansion. Tenma and Grimmer separate, but Tenma finds himself in trouble.",
+        "en": "Lunge visits Suk in the StB hospital and suggests that the one responsible for his situation may be the last person he suspects (a reference to Johan masquerading as Anna). Lunge meets Ranke and reveals that he was unable to obtain information on the whereabouts of Franz Bonaparta, who lived in the Mansion of Red Roses. Ranke reveals that it was abandoned after all the political prisoners and researchers were killed in one day. Lunge obtains permission to investigate the mansion and exposes a hidden room reeking of antiseptic, suspecting that it is the site of a massacre. There is also a portrait of a woman who looks like Anna Liebert. Meanwhile, Tenma visits Zoback, a previous publisher of Franz Bonaparta's work, but after Tenma leaves, Zoback calls the police. Grimmer tells Tenma that he will take the blame for Johan's crimes and they part ways, however the Prague police suddenly arrive and arrest Tenma.",
         "zh": "伦克警官找到兰格上校和那座蔷薇大屋，想要了解藏于其中的秘密。进入蔷薇大屋之后一间被封住的屋内俨然死伤过很多人，墙上也挂着画册中出现过的女人画像。天马也开始了解那本绘画相关的故事。葛利马拜托天马将一份犯罪过程的自述交给警察，而之后不久天马被布拉格警察带走。"
       },
       "title_native": "バラの屋敷",
@@ -2228,7 +2712,11 @@
         "bangumi_comments": 11,
         "imdb_votes": 2094
       },
-      "title_cn": "薔薇邸宅"
+      "title_cn": "薔薇邸宅",
+      "notes": {
+        "title_cn": "玫瑰宅邸",
+        "summary": "伦格获准进入红玫瑰宅邸，挖出一间弥漫消毒水味的密室，断定那里发生过屠杀；墙上还有一幅酷似安娜的女人画像。兰克说，宅邸在一天之内死光了所有政治犯与研究人员。天马拜访波拿巴特的旧出版商后遭举报，在布拉格被捕；格里马已决定替约翰顶下所有罪名。"
+      }
     },
     {
       "n": 51,
@@ -2258,7 +2746,7 @@
         }
       },
       "synopsis": {
-        "en": "Schubert, with the help of Reichwein, re-explores his past with Karl Neumann's real mother and realizes his link to Johan. As news of Tenma's arrest spreads, various people react with shock and horror, with the exception of Eva Heinemann, who is insistent that Tenma pay dearly for rejecting her. Suk tries to leave the hospital he is in to try to help Tenma, but is stopped by the Prague Police who inform him that Grimmer has sent a note to them exonerating Suk from any involvement of the deaths of the police officers. Runge also gets news of the arrest as well, but he is more interested in the Mansion of Red Roses, where he obtains a letter possibly addressed to the twins' mother. Tenma is deported back to Dusseldorf.",
+        "en": "Hans Georg Schuwald, with the help of Reichwein, re-explores his past with Karl Neumann's mother, Helenka Novakova and recalls her dear friend in Prague near the Three Frogs who had twins, a boy and a girl. As news of Tenma's arrest spreads, his former friends and patients react with shock and disbelief, and vow to help him. Suk tries to leave the hospital to help Tenma, but is stopped by Detective Bradec and Detective Stransky who inform him that Grimmer sent documents taking responsibility for the deaths of the police officers. Lunge also learns of Tenma's arrest, but he is more interested in the Mansion of Red Roses, where he finds a letter possibly addressed to the twins' mother. Tenma is deported back to Düsseldorf.",
         "zh": "天马被捕的消息传到德国境内，曾经受惠于他的患者和医生都在想着怎么样能尽一己之力解救天马医师。休伯特先生也正在筹备着请律师帮助天马。伦克警官从蔷薇大屋中的美女像背后找到一本类似小说草稿的文本《怪物写给美女的情书》。"
       },
       "title_native": "怪物のラブレター",
@@ -2269,7 +2757,11 @@
         "bangumi_comments": 14,
         "imdb_votes": 2023
       },
-      "title_cn": "怪物的情书"
+      "title_cn": "怪物的情书",
+      "notes": {
+        "title_cn": "怪物的情书",
+        "summary": "舒瓦德在莱希魏因协助下重访自己的过去，牵出卡尔母亲在布拉格「三只青蛙」附近的一位好友——那人生了一对双胞胎。天马被捕的消息传开，他救过的人纷纷要帮他。伦格在宅邸找到一封疑似写给双胞胎母亲的信。"
+      }
     },
     {
       "n": 52,
@@ -2299,7 +2791,7 @@
         }
       },
       "synopsis": {
-        "en": "Former patients of Eisler Memorial Hospital enlist the aid of Alfred Baul, a lawyer, to represent Tenma. Baul in turn asks for the assistance of Fritz Vardemann. Vardemann visits Tenma in prison, and agrees to take on the defense, but is then called to the hospital when his wife goes into labor with their first child. When Baul visits Tenma in prison, Tenma is shocked to see that Baul is Roberto. Roberto then says that Eva Heinemann will be his next target.",
+        "en": "Prisoner Gunther Milch pretends to be sick, and when Tenma is called, Milch proposes they escape together. Former patients of Eisler Memorial Hospital enlist the aid of a lawyer named Fritz Vardemann to represent Tenma, and after visiting Tenma in prison, he agrees to take on the defense. Meanwhile, Eva returns to Düsseldorf, and after passing out following another drinking binge, she has a vision of seeing Johan Liebert the night Adolf Junkers was murdered. Vardemann is called to the hospital when his wife goes into labor, so he asks for a lawyer named Alfred Baul to represent Tenma. However when Baul appears in prison, Tenma is shocked to see that he is Roberto who says that Eva Heinemann will be his next target.",
         "zh": "隽特.米尔希是一位劣迹斑斑的罪犯，他与天马同在一个看守所，怂恿天马与其越狱，菲利兹博德曼是一位使众多冤案逆反且非常正义的司法界宠儿，他接受了作为天马辩护律师的邀请。律师称艾娃.海尼曼是关键人物，而此时被天马开枪所伤的罗伯特居然生还，并称要杀掉艾娃。"
       },
       "title_native": "弁護士",
@@ -2310,7 +2802,24 @@
         "bangumi_comments": 12,
         "imdb_votes": 2001
       },
-      "title_cn": "律師"
+      "title_cn": "律師",
+      "notes": {
+        "title_cn": "律师",
+        "summary": "天马被引渡回杜塞尔多夫。狱友米尔希拉他一起越狱；老病人们凑钱请来律师瓦德曼。瓦德曼因妻子临盆托人代班，走进探监室的却是化名的罗伯特，留下一句话：下一个是艾娃。",
+        "new": [
+          {
+            "name": "Fritz Vardemann",
+            "name_cn": "瓦德曼",
+            "kind": "recurring",
+            "note": "律师"
+          },
+          {
+            "name": "Gunther Milch",
+            "name_cn": "米尔希",
+            "kind": "one-off"
+          }
+        ]
+      }
     },
     {
       "n": 53,
@@ -2340,7 +2849,7 @@
         }
       },
       "synopsis": {
-        "en": "After hearing Roberto's threat against Eva, Tenma decides to confess to all charges against him so he can be placed in the same van transporting a prisoner to a Federal Penetentary as the prisoner is arranging for a jailbreak.",
+        "en": "After hearing Roberto's threat against Eva, Tenma decides to confess to all charges against him so he can be placed in the same transport van to a federal penitentiary with prisoner Gunther Milch, who is planning an escape. Hearing the news of Tenma's confession, Eva remembers the time she was with Tenma and she treated him badly and decides to testify on his behalf. She calls Alfred Baul who arranges to visit her.",
         "zh": "隽特.米尔希疑似隶属于一个神秘组织，又一次装病使他和天马成为邻床病友，天马欲接受米尔希提出的越狱建议，但同时天马又主动承认所有的“罪行”，让不少相信他清白的人无法接受。艾娃又开始触景生情地怀念起之前和天马在一起的日子。"
       },
       "title_native": "決意",
@@ -2351,7 +2860,11 @@
         "bangumi_comments": 10,
         "imdb_votes": 1950
       },
-      "title_cn": "决意"
+      "title_cn": "决意",
+      "notes": {
+        "title_cn": "决意",
+        "summary": "为了被塞进和米尔希同一辆囚车，天马认下了全部罪名。艾娃听到消息，想起自己当年怎样对他，决定出庭作证——她打电话给「律师」，约好见面。"
+      }
     },
     {
       "n": 54,
@@ -2381,7 +2894,7 @@
         }
       },
       "synopsis": {
-        "en": "Tenma and Milch are on the run with the injured Gustav and Helene. Eva finds her life in danger when she discovers that the attorney she's supposed to meet, Mr.Baul, is none other than Roberto.",
+        "en": "Gunther Milch's escape plan almost goes wrong when the prison van hits and almost kills his younger brother Gustav. However, Tenma manages to grab a gun and orders the guards to release them. News of the escape is broadcast while Eva is waiting to meet lawyer Alfred Baul in her hotel lobby, however she overhears a phone conversation and recognizes Roberto's voice and realizes that he is after her. Along the road, Tenma forces Gunther to take Gustav to Eisler Memorial Hospital and then he and Gunther part ways. After Eva flees to her hotel room, there is a knock on the door which she hesitantly answers.",
         "zh": "警车载着天马和米尔希前往另一个拘留所，途中米尔希早就准备好了让一位兄弟在马路上碰瓷，结果碰瓷不成倒送了小命。天马利用死者留下的枪成功脱险。艾娃准备要替天马的清白作证时，意外从电视新闻上看到天马逃脱的消息，而此时危险正在逼近她。"
       },
       "title_native": "脱走",
@@ -2392,7 +2905,11 @@
         "bangumi_comments": 11,
         "imdb_votes": 2013
       },
-      "title_cn": "逃脱"
+      "title_cn": "逃脱",
+      "notes": {
+        "title_cn": "逃脱",
+        "summary": "劫囚车的计划因米尔希的弟弟被撞而失控，天马夺枪逼看守放人，随后强令米尔希先送伤者去医院。艾娃在酒店大堂听出「律师」的声音就是罗伯特，逃回房间；门响了。"
+      }
     },
     {
       "n": 55,
@@ -2422,10 +2939,10 @@
         }
       },
       "synopsis": {
-        "en": "Dr. Tenma takes Verderman hostage in a desperate search for Eva. And Verderman's dark past is revealed.",
+        "en": "Tenma desperately tries to search for Eva before Roberto can reach her. However, when Tenma enters her hotel room, Eva is already gone. Meanwhile, Lunge returns to Düsseldorf and questions Vardemann about his father's past and links to Franz Bonaparta, whom he believes was with the Czechoslovak Secret Police. After Lunge leaves, Tenma accosts Vardemann in his car, but Vardemann confesses he knows nothing about the plot against Eva. While out, Vardemann's house is ransacked, presumably for his father's notebook containing notes about Bonaparta and the Red Rose Mansion. Vardemann gives the notebook to Tenma and visits his wife and new baby girl in the hospital.",
         "zh": "逃脱后的天马开始寻找艾娃，不料艾娃已退房离开，伦克警官带着绘本找到菲利兹博德曼，并向他询问博德曼父亲与绘本作者间的某些关联。约翰持枪威胁博德曼并向他他逼问艾娃的下落，博德曼被逼价道出自己辛苦隐藏的秘密。"
       },
-      "title_native": "４０２号室",
+      "title_native": "402号室",
       "title_en": "Room Number 402",
       "aired": "2005-05-18",
       "heat": {
@@ -2433,7 +2950,11 @@
         "bangumi_comments": 8,
         "imdb_votes": 1999
       },
-      "title_cn": "402 号室"
+      "title_cn": "402 号室",
+      "notes": {
+        "title_cn": "402 号房",
+        "summary": "天马赶到时艾娃已经不见。伦格回到杜塞尔多夫，盘问瓦德曼其父与波拿巴特的关系。瓦德曼家被翻箱倒柜，他把父亲那本记着波拿巴特与红玫瑰宅邸的笔记本交给了天马。"
+      }
     },
     {
       "n": 56,
@@ -2463,7 +2984,7 @@
         }
       },
       "synopsis": {
-        "en": "Nina and Dieter enters the Red Rose Mansion, but Nina faints from her disturbing experience. And they end up in the care of a puppeteer name Lipsky.",
+        "en": "Tenma heads towards the Red Rose Mansion in Prague, while Vardemann and Reichwein also make their way there. Meanwhile in Prague, Nina follows her memories and she finds the Red Rose Mansion with Dieter. When Nina enters the hidden room, a painful memory is triggered involving a room full of bodies and she faints. Later Nina and Dieter find themselves in the care of Jaromir Lipski, a struggling puppeteer. Lipsky shows Nina his large collection of children's picture books, including those by Jakub Farobek, Emil Scherbe, and Klaus Poppe and reveals that he was a student at the Red Rose Mansion. Meanwhile, Johan enters the Red Rose Mansion and sets it on fire.",
         "zh": "天马又开始旅程，博德曼开始去寻找那座蔷薇之屋的秘密。妮娜和迪特开始去寻找她的记忆，也顺迹找到了蔷薇之屋，惨死一地的尸体画面渐次浮现在脑海中，晕厥过去的她再醒来已是三个月后，救他的人利普斯基早前也是朗读会的成员，因为表现不好而早早离开了，现在靠表演木偶戏和打杂工为生。"
       },
       "title_native": "終わらない旅",
@@ -2474,7 +2995,19 @@
         "bangumi_comments": 12,
         "imdb_votes": 2122
       },
-      "title_cn": "沒终结的旅程"
+      "title_cn": "沒终结的旅程",
+      "notes": {
+        "title_cn": "不会结束的旅程",
+        "summary": "妮娜循着记忆与迪特找到红玫瑰宅邸，走进密室时被一屋子尸体的画面击倒。两人被潦倒的木偶师利普斯基收留，此人家里堆满同一个作者用不同笔名写的童书，他自己就是宅邸里的学生。约翰随后一把火烧了宅邸。",
+        "new": [
+          {
+            "name": "Jaromir Lipsky",
+            "name_cn": "利普斯基",
+            "kind": "recurring",
+            "note": "木偶师"
+          }
+        ]
+      }
     },
     {
       "n": 57,
@@ -2504,7 +3037,7 @@
         }
       },
       "synopsis": {
-        "en": "A flashback to Johan’s and Nina’s past, to the time before the Liebert’s homicides reveals the reason behind Johan’s killing. Police makes a startling discovery at the burnt down mansion. Tenma finally learns where Eva is. And Lunge reveals Lipsky’s true identity.",
+        "en": "Nina recalls hers and Johan's adoption by the Lieberts and their emigration to the West, and how on the night a visitor came, Johan shot the Lieberts and told her to shoot him. Tenma arrives at the burned mansion, just as a firefighter discovers a grave with the bones of up to 46 people at the base of a rose bush. General Wolf's men take Tenma to see the dying general who tells the story of how he found the nameless twins, their only possession being the book \"Monster Without a Name\" from which he gave the boy the name Johan, possibly awakening something inside him. Nina, Dieter and Lipsky visit the ruins, but they take Dieter's suggestion to create new, happy memories. After Nina and Dieter leave, Lunge arrives at Lipsky's apartment and asserts that Lipsky is the son of Franz Bonaparta.",
         "zh": "妮娜开始记起小时候的事情，李贝特夫妇双亡的雨夜原来是约翰杀掉了他们，妮娜在哥哥的唆使下向他开枪，蔷薇之屋在约翰的手下付之一炬。渥尔夫将军也找到天马向他讲述了约翰和妮娜的身世和艾娃的下落，并请他拯救世界。妮娜和利普斯基、迪特在一起度过了一段快乐的时光。"
       },
       "title_native": "あの日の夜",
@@ -2515,7 +3048,11 @@
         "bangumi_comments": 13,
         "imdb_votes": 2122
       },
-      "title_cn": "那天的夜晚"
+      "title_cn": "那天的夜晚",
+      "notes": {
+        "title_cn": "那一天的夜",
+        "summary": "妮娜想起完整的那一晚：兄妹被李贝特夫妇收养、移居西德，某夜一位访客来过之后，约翰射杀了养父母，然后要她朝自己开枪。天马赶到烧毁的宅邸，玫瑰丛下挖出四十多具遗骨。弥留的沃尔夫将军讲完他如何捡到两个只带着一本绘本的孩子——「约翰」这个名字是他给的，也许正是那一刻唤醒了什么。伦格则断定利普斯基是波拿巴特的儿子。"
+      }
     },
     {
       "n": 58,
@@ -2545,7 +3082,7 @@
         }
       },
       "synopsis": {
-        "en": "Martin, a hired hand, is hired by General Wolf's ex-associates to ‘take care’ of Eva. But his emotions get in the way of his orders.",
+        "en": "Eva Heinemann's bodyguard Martin Reest, has been badly shot and is dying following a gunfight. As he is driven to see Dr. Tenma, he recounts the events that led to his predicament. He was given a job by The Baby and Peter Čapek to escort Eva Heinemann from Düsseldorf to Frankfurt on the same day she encountered Roberto. After meeting Čapek, Eva agrees to attend some exclusive parties and then goes on a shopping spree, even buying clothes for Martin to groom him in the mold of Tenma. However, the return to her old role as a fashionable, high-class lady fails to live up to her expectations.",
         "zh": "供职于宝宝门下的一位出色保镖马汀被一神秘人物相中，从而接受保护艾娃的工作，跟女人相关的工作于他而言都是讨厌的工作。神秘人物与艾娃貌似签订了某种协议，使其出入高级宴会寻找一个人，艾娃的泪水让马汀突然有种想要保护她的欲望，枪林弹雨中马汀为了保护艾娃而身受重伤却坚持要见到天马。"
       },
       "title_native": "いやな仕事",
@@ -2556,7 +3093,23 @@
         "bangumi_comments": 13,
         "imdb_votes": 2039
       },
-      "title_cn": "讨厌的工作"
+      "title_cn": "讨厌的工作",
+      "notes": {
+        "title_cn": "讨厌的工作",
+        "summary": "艾娃的保镖马丁身中数枪、正被送去见天马，一路回忆自己怎么走到这一步：他受婴儿与契克之命护送艾娃，看着她重回名媛生活、又迅速发现那一切并不如她想象。",
+        "new": [
+          {
+            "name": "Martin Reest",
+            "name_cn": "马丁",
+            "kind": "arc"
+          },
+          {
+            "name": "Peter Čapek",
+            "name_cn": "契克",
+            "kind": "recurring"
+          }
+        ]
+      }
     },
     {
       "n": 59,
@@ -2586,7 +3139,7 @@
         }
       },
       "synopsis": {
-        "en": "Tenma manages to find Martin. A drunken Eva spots Johan at a party. Martin receives his final orders from his boss but his feelings gets in the way. And Martin gets way over his head when he tries to investigate Johan and his disciple, and the truth about his past is revealed.",
+        "en": "Martin recalls how he met Tenma for the first time while he was guarding Eva Heinemann. He recalls how Eva pointed out Johan at a party who Čapek then introduced to a young man named Kristoff Sievernich. Later Čapek ordered Eva killed as her job was over, but Martin decided to protect her instead. He attended the next party alone, and tailed Kristoff to his hotel only to find Kristoff expecting him. Kristoff then described Martin's life to date in detail and hit a nerve when he suggested that the women in Martin's life usually choose death. Martin then left just as Johan arrived at the apartment.",
         "zh": "马汀一直尽心保护着艾娃，天马想要见她一面也很难，艾娃在连续的宴会中完成了指认任务并清楚意识到自己将要被灭口，接受灭口任务的正是马汀。马汀最终决定放她一条生路而转去杀掉恶魔。过往的痛苦经历被恶魔之徒一一道出，马汀又重新陷入痛苦的回忆。"
       },
       "title_native": "悪魔を見た男",
@@ -2597,7 +3150,18 @@
         "bangumi_comments": 12,
         "imdb_votes": 2297
       },
-      "title_cn": "见过恶魔的男人"
+      "title_cn": "见过恶魔的男人",
+      "notes": {
+        "title_cn": "见过恶魔的男人",
+        "summary": "马丁回忆初见天马。艾娃在派对上认出约翰，契克把约翰引荐给年轻人克里斯托夫。契克下令做掉已无用处的艾娃，马丁反过来决定保护她；他跟踪克里斯托夫到酒店，对方却早已等着他，把他的人生原样说了一遍。",
+        "new": [
+          {
+            "name": "Kristoff Sievernich",
+            "name_cn": "克里斯托夫",
+            "kind": "arc"
+          }
+        ]
+      }
     },
     {
       "n": 60,
@@ -2627,7 +3191,7 @@
         }
       },
       "synopsis": {
-        "en": "Martin’s attempt to save Eva costs him his life, his last minutes with Tenma reveals a terrible secrets about Martin’s boss, Peter Chapek and the about the experiments.",
+        "en": "Martin recalls how he decided to protect Eva and was involved in a gunfight with a hit team assigned to kill her. While she was able to escape, he was shot and mortally wounded. He finally meets Tenma and tells him that Čapek is still involved with the experiments at the Red Rose Mansion which created Johan before finally succumbing to his wounds. Eva is heartbroken at the news of Martin's death and Tenma suggests that she head to Munich for protection under Reichwein. However, she descends from the train and obtains a gun, planning to kill the monster.",
         "zh": "马汀为了救艾娃而深受重伤但他却是幸福的，艾娃并未听他指示去找天马而是去赴与马汀的约，等待与他共同逃走。而前来赴约的却是天马，同时天马还带来了马汀已逝的消息。天马将她送上回慕尼黑的火车，嘱咐她回去找莱希瓦医生，并报警。可生性傲慢的艾娃也想用一己之力去解决掉恶魔。"
       },
       "title_native": "知りすぎた男",
@@ -2638,7 +3202,11 @@
         "bangumi_comments": 16,
         "imdb_votes": 2637
       },
-      "title_cn": "知道太多的男人"
+      "title_cn": "知道太多的男人",
+      "notes": {
+        "title_cn": "知道太多的男人",
+        "summary": "马丁在与杀手队的枪战中让艾娃逃掉，自己身中致命伤。他终于见到天马，说出契克仍在延续红玫瑰宅邸那套造出约翰的实验，随后死去。艾娃悲痛，天马劝她去慕尼黑避难，她却中途下车，买了一把枪。"
+      }
     },
     {
       "n": 61,
@@ -2668,7 +3236,7 @@
         }
       },
       "synopsis": {
-        "en": "Nina returns to the apartment that she lived in with her mother and Johan and encounters another memory. She then returns to Munich and Dr. Reichwein where she volunteers for hypnosis to find the truth behind these memories. After she nearly kills Dr. Gillen in a hypnotic rage, she leaves Dr. Reichwein's house to try to stop Tenma from killing her brother. Meanwhile, Suk and Vardemann team up to interview former residents of the Mansion of Red Roses to gather information on Franz Bonaparta's reading sessions with his picture books, and for Vardemann to find out more about his father's true involvement.",
+        "en": "Nina returns to the apartment that she lived in with her mother and Johan and encounters more painful memories. She returns to Munich and Reichwein where she volunteers for hypnosis to find the truth behind these memories, but she attacks Gillen when buried memories resurface. She leaves Reichwein's house two days later to try to stop Tenma from killing her brother. Meanwhile, Jan Suk and Fritz Vardemann interview former residents of the Red Rose Mansions to gather information on Franz Bonaparta's reading sessions with his picture books, and for Vardemann to find out more about his father's true involvement in Czechoslovak politics.",
         "zh": "舒克警官开始向朗读会旧成员了解情况，博德曼作为旁听者，也参与其中。妮娜每天都回到蔷薇之屋去尽量恢复回忆，但每次都让她痛苦不堪，迪特提议他们应该听从天马的劝告回到慕尼黑忘掉过去开始建立新的快乐的记忆。回到慕尼黑后，妮娜在鲁迪医生的帮助下过往所有的经历全部想起，并决定去帮助天马解决所有的事情。"
       },
       "title_native": "記憶の扉",
@@ -2679,7 +3247,11 @@
         "bangumi_comments": 14,
         "imdb_votes": 1938
       },
-      "title_cn": "记忆之门"
+      "title_cn": "记忆之门",
+      "notes": {
+        "title_cn": "记忆之门",
+        "summary": "妮娜再回旧居，痛苦的记忆更多地涌出。她回慕尼黑自愿接受催眠，埋藏的记忆浮起时她失控攻击了吉伦，两天后离开——她要去阻止天马杀自己的哥哥。苏克与瓦德曼走访红玫瑰宅邸的旧住户，打听波拿巴特的绘本朗读会。"
+      }
     },
     {
       "n": 62,
@@ -2709,7 +3281,7 @@
         }
       },
       "synopsis": {
-        "en": "While trying to escape from police in Frankfurt, Tenma is hit by a van. He awakes in the Turkish Quarter of the city, the same one that he saved from The Baby's plot. The man who saved him plans to kill Petr Capek at a convention, but he fails at this task and is shot dead. Nina, in Frankfurt, sees the picture of Petr Capek and it triggers yet another memory.",
+        "en": "While searching for Peter Čapek in Frankfurt, Tenma is chased by police and hit by a van. He awakens to find that he has a sprained ankle and was treated by a dentist named Milan Kolasch. Kolasch tells Tenma that Peter Čapek was responsible for the riots that broke out in the Turkish Quarter of the city and the deaths of the loved ones of different nationalities who now live with Kolasch. Kolasch feels responsible because he brought Čapek, his former childhood friend, to Frankfurt. Kolasch plans to kill Čapek at a convention and Tenma tries to prevent him from going. However, Kolasch fails in his attempt and is shot and killed by police. Nina arrives in Frankfurt where she recognizes Peter Čapek in a television news report of the assassination attempt.",
         "zh": "天马欲去寻找恶魔的徒弟不料被警察追踪，天马遭遇车祸，一位叫米朗.科拉林的牙医将其救治，原来之前他因住在土尔其街也受过天马的恩惠。米朗也立誓要除掉彼得.查倍克，因为这位恶魔曾经组织的朗读会间接杀掉了他的儿子，并且米朗在负罪感上与天马极其相似。"
       },
       "title_native": "楽しい食卓",
@@ -2720,7 +3292,18 @@
         "bangumi_comments": 11,
         "imdb_votes": 1953
       },
-      "title_cn": "愉快的聚餐"
+      "title_cn": "愉快的聚餐",
+      "notes": {
+        "title_cn": "愉快的餐桌",
+        "summary": "天马在法兰克福被警察追时被车撞倒，被牙医米兰·科拉什救下。科拉什说土耳其区骚乱是契克策划的，而契克是他带来这座城市的童年好友，因此他决心亲手了结——刺杀失败，被警察击毙。妮娜在电视新闻里认出了契克。",
+        "new": [
+          {
+            "name": "Milan Kolasch",
+            "name_cn": "科拉什",
+            "kind": "one-off"
+          }
+        ]
+      }
     },
     {
       "n": 63,
@@ -2750,7 +3333,7 @@
         }
       },
       "synopsis": {
-        "en": "Egon Weisbach was one of the first investigators in the murder of the Liebert parents. On his last day on the job before retirement, he is escorting a convicted serial murderer but wants to know why he killed someone who did not fit his modus operandi. At the same time, Dr. Gillen is interviewing several murderers wondering why they killed someone who also did not fit their usual targets. Both realize that all these criminals committed murders outside their usual scope at the request of a young man, presumably Johan.",
+        "en": "Detective Benjamin Weisbach was one of the first investigators in the murder of the Liebert parents. On his last day before retirement, he escorts a convicted serial murderer named Rheinhard Dinger and questions him about why he committed the murders and Dinger dates it back to when he sheltered young twins and the boy encouraged his violent tendencies which Weisbach recognizes as the Liebert twins. At the same prison, Gillen is interviewing several murderers about why they also killed people who did not fit their usual modus operandi. They meet and both realize that these criminals committed their atypical murders at the request of a young man who fits the description of Johan.",
         "zh": "查士巴哈警官再有几天就要退休安享天年了，他退休前的最后一桩差事就是押送一位犯人，这位名叫莱因哈特.汀格的罪犯曾经杀过很多人，工作细致的查士巴哈警官在与他的交流中得到一些线索，而这些线索就是多年来绕于他心的关于天马医师被冤一案。联合鲁迪医师，查士巴哈终于问出恶魔现居地——法兰克福。"
       },
       "title_native": "無関係な殺人",
@@ -2761,7 +3344,18 @@
         "bangumi_comments": 9,
         "imdb_votes": 1939
       },
-      "title_cn": "滥杀无辜"
+      "title_cn": "滥杀无辜",
+      "notes": {
+        "title_cn": "无关的杀人",
+        "summary": "退休前最后一天，老警探押送一名连环杀人犯，问出他的动机能追溯到当年收留过的一对双胞胎——男孩鼓励了他的暴力。同一所监狱里，吉伦正在访谈一批「做了不像自己会做的事」的凶手。两人碰面，同时意识到：这些人都是被同一个年轻人说动的。",
+        "new": [
+          {
+            "name": "Benjamin Weisbach",
+            "name_cn": "魏斯巴赫",
+            "kind": "one-off"
+          }
+        ]
+      }
     },
     {
       "n": 64,
@@ -2791,7 +3385,7 @@
         }
       },
       "synopsis": {
-        "en": "The Baby is killed by a prostitute, and his death sends shockwaves in Petr Capek's organization. Capek becomes paranoid as to who is loyal or not and accidentally kills one of his guards. He makes it to his cottage where Johan is waiting for him.",
+        "en": "The Baby expresses his concerns to Čapek about Johan's program of killing people to hide the scandals of Kristoff Sievernich and whether they can control him. He also reveals that Nina Fortner has arrived in Frankfurt. Later, The Baby is assassinated by a prostitute, and his death sends shockwaves through Čapek's organization. Čapek becomes paranoid about who is loyal or not, and panicking, he kills one of his guards who is driving him to his villa. He makes it to his cottage where Johan is waiting for him and who says that Franz Bonaparta is still alive.",
         "zh": "宝宝原来也有他的忧郁，一直以来他的理想是做一个希特勒式的人物，但近来他会感到有莫名的威胁，而与一位漂亮舞女的交往让他感觉轻松不少，但不久后他就命丧黄泉。之后彼得.查倍克也如惊弓之鸟，慌乱中将保镖杀害，之后约翰也出现在他的身边。"
       },
       "title_native": "赤ん坊の憂鬱",
@@ -2802,7 +3396,11 @@
         "bangumi_comments": 9,
         "imdb_votes": 2087
       },
-      "title_cn": "宝宝的忧虑"
+      "title_cn": "宝宝的忧虑",
+      "notes": {
+        "title_cn": "婴儿的忧郁",
+        "summary": "婴儿向契克表达担忧：约翰正在为掩盖克里斯托夫的丑闻而杀人，他们已经控制不住他。随后婴儿被一名妓女暗杀，契克的组织震动。契克在疑神疑鬼中杀了自己的司机，逃到别墅，约翰已经在那里等他，并告诉他：弗朗茨·波拿巴特还活着。"
+      }
     },
     {
       "n": 65,
@@ -2832,7 +3430,7 @@
         }
       },
       "synopsis": {
-        "en": "Capek tries to berate Johan for his actions and tells him that everything should be done according to Capek's plans but Johan simply disagrees and disappears. Capek realizes his hold on his organization is crumbling and has his men pick up Nina in Frankfurt. Eva accosts the young man who was introduced to Johan, Christof Sievernich, demanding answers.",
+        "en": "The news of Milan Kolasch's death devastates his friends and Tenma is even more determined to find Johan. He follows Kristoff to his apartment, but Eva is already there, prepared to kill Johan. When Čapek's men pick up Nina, she prepares to kill Čapek, but she pauses. Čapek realizes his hold on his organization is crumbling and Johan is pulling the strings. The police search Milan Kolasch's house and discover that his target was Peter Čapek. Eva accosts Kristoff demanding to know Johan's whereabouts, and he reveals that he and Johan were the only survivors of the massacre at 511 Kinderheim. Kristoff then grabs the gun from Eva, but before he can shoot, Tenma arrives. Shots are fired.",
         "zh": "查培克派人来找到妮娜，想使其作为人质，天马离开那个友爱之家独自去解决一切。在恶魔的徒弟家里天马遇到此男子正在和艾娃对峙。妮娜对着信心大失的查培克却未扣下扳机，莫非他真的知道这对双胞胎兄妹的故事。"
       },
       "title_native": "ヨハンの足跡",
@@ -2843,7 +3441,11 @@
         "bangumi_comments": 5,
         "imdb_votes": 1999
       },
-      "title_cn": "約翰的足迹"
+      "title_cn": "約翰的足迹",
+      "notes": {
+        "title_cn": "约翰的足迹",
+        "summary": "天马追到克里斯托夫的公寓，艾娃已经先到、准备杀约翰。克里斯托夫说出自己和约翰是 511 内乱仅有的两名幸存者，随即夺过艾娃的枪；天马赶到，枪响。另一边妮娜被契克的人带走，本要杀他却停住了手。"
+      }
     },
     {
       "n": 66,
@@ -2873,7 +3475,7 @@
         }
       },
       "synopsis": {
-        "en": "Capek reveals to Nina that her and her twin brother Johan are the products of a eugenics experiment designed to breed \"the perfect children\". Tenma has wounded Christof and is driving him and Eva to the hospital while demanding answers on Petr Capek. While Eva makes a phone call at a payphone, Tenma sneaks away.",
+        "en": "Čapek reveals to Nina that she and her twin brother Johan are the products of an extensive eugenics experiment which he designed to breed \"the perfect children\" without their mother's knowledge. When pregnant, their mother unsuccessfully tried to escape, and after the children were born they were taken away. He then takes Nina to an abandoned building where Johan is waiting. Meanwhile, Tenma drives Kristoff to a hospital while Eva demands to know Johan's location. While Eva makes a phone call to the hospital at a payphone, Kristoff reveals Johan's location to Tenma who leaves without Eva. Nina enters the abandoned building and sees Johan, and memories come flooding back of when they fled Prague, and the people Johan killed that were kind to them.",
         "zh": "选择一些条件优秀的男女使他们结合，生出优秀的宝宝来完成一些试验，而约翰和妮娜的父母就是当时被选中的一对。查培克告诉妮娜真相后将其带到约翰指定的地点，在经过了种种变故后，妮娜的枪对准了约翰，同时天马也得到约翰的栖身之所。"
       },
       "title_native": "おかえり",
@@ -2884,7 +3486,11 @@
         "bangumi_comments": 7,
         "imdb_votes": 2642
       },
-      "title_cn": "欢迎回家"
+      "title_cn": "欢迎回家",
+      "notes": {
+        "title_cn": "欢迎回来",
+        "summary": "契克向妮娜揭开底牌：她和约翰是一整套优生实验的产物，他设计了这个计划，母亲全程不知情，怀孕后逃跑未遂，孩子一出生就被带走。他把妮娜带到一处废弃建筑，约翰在里面等着。妮娜见到哥哥的瞬间，逃离布拉格那段记忆整块回来——包括那一路上被约翰杀掉的、曾对他们好的人。"
+      }
     },
     {
       "n": 67,
@@ -2914,7 +3520,7 @@
         }
       },
       "synopsis": {
-        "en": "Nina confronts Johan who presents her with a story on what happened when many people were poisoned at the Mansion of Red Roses. Nina realizes that she was the one who witnessed these deaths, the shock of this revelation nearly drives her to suicide, but she is saved by Tenma. Capek is gunned down by members of his organization when they find out about the guard that Capek killed.",
+        "en": "Nina confronts Johan who presents her with a story of the brainwashing which happened at the Red Rose Mansion and the occasion when over 40 people were poisoned except Franz Bonaparta who survived. Suddenly, Nina realizes that she was the one who witnessed the deaths, not Johan, and it was she who ran home to find Johan dressed as her. The shock of this revelation nearly drives her to take her own life, but she is saved by Tenma. She realizes that Johan took her experiences and made them his own. Čapek then arrives and tells Tenma that he is going after Franz Bonaparta, however Čapek is gunned down shortly afterwards by two members of his organization for the paranoid killing of his own guard earlier. Later, Johan visits one of his hired hitmen and shoots him, before leaving stating that the true end is where he must be.",
         "zh": "约翰向妹妹讲述了当年蔷薇之屋事件的经过，只有法兰兹.拨纳帕达没有喝下红酒而庆幸逃生。妮娜所有的回忆显示出当年杀害蔷薇之屋的42人的正是她自己，但据查培克的了解，约翰对此事却有着完全不一样的回忆，约翰自己也承认他有着别样的记忆，并开始找寻他真正想去的地方。"
       },
       "title_native": "ただいま",
@@ -2925,7 +3531,11 @@
         "bangumi_comments": 12,
         "imdb_votes": 3387
       },
-      "title_cn": "我回來了"
+      "title_cn": "我回來了",
+      "notes": {
+        "title_cn": "我回来了",
+        "summary": "约翰向妮娜复述红玫瑰宅邸那场毒杀：四十多人死去，只有波拿巴特活下来。妮娜突然意识到——目睹一切的人是她自己；那天跑回家的她，看见的是穿着她衣服的约翰。他把她的经历整个据为己有。真相几乎把她压垮，天马拉住了她。契克赶到，说自己要去找波拿巴特，随即被自己组织的人击毙。全剧最大的一次翻转。"
+      }
     },
     {
       "n": 68,
@@ -2955,7 +3565,7 @@
         }
       },
       "synopsis": {
-        "en": "With a postcard obtained by Lipsky, Lunge arrives in Ruhenheim. There he meets up with Grimmer, whose research has led him to this town as well. A working-class couple in this town realize they win the lottery and fearing that everyone else wants to kill them, the husband buys an arsenal of weapons.",
+        "en": "Using a postcard provided by Lipsky, Lunge arrives in the quiet town of Ruhenheim. After being helped to his room in Hotel Versteck by the boy Wim Knaup, he encounters Grimmer who using the alias Neumayer. Everyone in town thinks they hear a gunshot, and Grimmer offers to find a lost dog as an opportunity to investigate the town. Lunge also explores the town and he again meets Wim who is abused by his alcoholic father Herbert and bullied by other boys. Lunge recognizes Grimmer who alludes to an impending massacre in the town. Meanwhile, Henning and Franka Henich, an elderly working-class couple, realize that they have won the lottery. Henning buys guns fearing someone will try to steal their winnings. The local bullies tell Wim they dumped his bike near the \"vampire's house\", and when he goes there, he sees a murdered cat. He then encounters Grimmer and Lunge inside the house which is filled with sketches of the Liebert twins. As Conrad, the local café owner and jam-maker, is clearing vines he is approached by a stranger holding a gun.",
         "zh": "葛利马化名诺麦亚和伦克先后到了一个叫卢恩海姆的小镇，但小镇突然响起的枪声和一位太太丢失了狗让镇上开始不平静了。其中一对夫妇彩票中奖也让他们患得患失。“吸血鬼之屋”也暗藏着不少秘密，葛利马和伦克已预感到危险的临近。"
       },
       "title_native": "ルーエンハイム",
@@ -2966,6 +3576,27 @@
         "mal_replies": 93,
         "bangumi_comments": 10,
         "imdb_votes": 2135
+      },
+      "notes": {
+        "title_cn": "露恩海姆",
+        "summary": "伦格循着利普斯基给的明信片走进边境小镇露恩海姆，被男孩维姆领进旅馆，遇到用假名的格里马。全镇听见一声枪响。镇上的人各怀不快：维姆被酗酒的父亲和同龄人欺负，一对老夫妇中了彩票怕被抢而买枪。维姆在「吸血鬼的房子」里看见满墙双胞胎的素描。做果酱的康拉德被一个持枪的陌生人拦住。",
+        "new": [
+          {
+            "name": "Wim Knaup",
+            "name_cn": "维姆",
+            "kind": "recurring"
+          },
+          {
+            "name": "Henning & Franka Henich",
+            "name_cn": "亨尼希夫妇",
+            "kind": "arc"
+          },
+          {
+            "name": "Conrad",
+            "name_cn": "康拉德",
+            "kind": "one-off"
+          }
+        ]
       }
     },
     {
@@ -2996,7 +3627,7 @@
         }
       },
       "synopsis": {
-        "en": "Lunge and Grimmer conclude something terrible is happening in Ruhenheim when random gunshots ring out, people are either murdered or disappearing, and any links out of town is flooded by torrential rain. As Nina recovers in a nearby hospital, Tenma, using a lead from Capek, travels to Prague and meets with Lipsky and determines that Johan is in Ruhenheim.",
+        "en": "Lunge tells Grimmer that something terrible may already be happening in Ruhenheim, a quiet town that appears to be filled with unhappy people. When the Henichs go to see Conrad, they find his murdered body. After being beaten up by the bullies again, Wim is offered a gun to kill them, while the elderly couple living at the hotel also offer his drunken father a gun. As Nina recovers in a hospital, she tells Tenma that Johan is orchestrating an event that will lead to his suicide, but will also involve the massacre of innocents. Tenma travels to Prague and meets Lipsky and asserts that his father Bonaparta, whose real name is Klaus Poppe, and Johan are probably in a town called Ruhenheim. Meanwhile, access to Ruhenheim is cut off because of heavy rain. Gunshots are heard and Lunge is suspicious of the elderly couple living in the hotel.",
         "zh": "镇南山坡上种植红莓的康拉特被人无故枪杀，导致中彩票的夫妇互相怀疑和猜忌，枪支不断地发送出去，镇上也不时听到枪声。天马找到利普斯基向他了解令尊法兰兹.拨纳帕达的下落。"
       },
       "title_native": "安らぎの家",
@@ -3007,7 +3638,11 @@
         "bangumi_comments": 11,
         "imdb_votes": 2328
       },
-      "title_cn": "宁静之家"
+      "title_cn": "宁静之家",
+      "notes": {
+        "title_cn": "安宁之家",
+        "summary": "康拉德被发现死在家里。有人开始把枪一支支递给镇上心里有恨的人——包括被欺负的维姆和他酗酒的父亲。妮娜在医院告诉天马：约翰筹备的是一场把整镇拖下水的自杀。天马找到利普斯基，确认波拿巴特（真名克劳斯·波佩）和约翰都在露恩海姆。大雨封死了进镇的路。"
+      }
     },
     {
       "n": 70,
@@ -3037,7 +3672,7 @@
         }
       },
       "synopsis": {
-        "en": "As time passes, more people in Ruhenheim are being shot dead by mysterious people and each other. Both Grimmer and Lunge determine that the owner of a local hotel is Klaus Poppe, also known as Franz Bonaparta. After subduing a man who was giving weapons to everyone in the town, they obtain information that one of the ringleaders is in a second hotel.",
+        "en": "People in Ruhenheim are now being shot and killed by outsiders and each other. Herman is ridiculed and refused service at the pub and leaves, then returns prepared to shoot them, but he finds everyone dead. Wim's bullies are killed and he thinks he shot them, but Grimmer finds that Wim's gun has not been fired. Both Grimmer and Lunge determine that the elderly man in the wheelchair was giving weapons to people in the town, and that the elderly owner of the Hotel Versteck is Bonaparta whose original name is Klaus Poppe. In Munich, Reichwein and Gillen show Nina an email from Johan inviting her to Ruhenheim and Gillen agrees to escort her there. Back in Ruhenheim, the murders continue, led by Roberto. Bonaparta awaits his fate, prepared to die, but Grimmer swears that he will be publicly exposed. The Henichs arrive at the hotel, and using their weapons, Lunge decides to confront a ringleader who is reportedly at the Bergbach Hotel, while Grimmer prepares to mount defence at Bonaparta's hotel. Tenma arrives in Ruhenheim on foot and tries to evacuate some women and children.",
         "zh": "暴雨的一天，卢恩海姆小镇的杀戮真正开始，持枪的酒鬼、总被欺侮的小孩、以及酒吧里的客人都参与了其中，或杀人或被杀。而真正的法兰兹.拨纳帕达也浮出水面，他正是旅馆老板。天马也赶到小镇，努力帮助幸存的人逃离这个危险的小镇。"
       },
       "title_native": "殺戮の町",
@@ -3048,7 +3683,11 @@
         "bangumi_comments": 15,
         "imdb_votes": 2622
       },
-      "title_cn": "杀戮之小鎮"
+      "title_cn": "杀戮之小鎮",
+      "notes": {
+        "title_cn": "杀戮之町",
+        "summary": "镇民开始被外来者和彼此射杀。格里马与伦格判断出是坐轮椅的老人在发枪，而旅馆老板就是化名的波拿巴特。罗伯特带队执行屠杀。波拿巴特已准备赴死，格里马却坚持要他活着接受公开审判。伦格去贝格巴赫旅馆找主谋，格里马留守防御，天马徒步进镇疏散妇孺。"
+      }
     },
     {
       "n": 71,
@@ -3078,7 +3717,7 @@
         }
       },
       "synopsis": {
-        "en": "Tenma runs into Lunge, the latter apologizing for his previous accusations against Tenma. Nina and Dr. Gillen rush to Ruhenheim. After the winning lottery couple is wounded in an attack on Bonaparta's hotel, Grimmer rushes out to the streets to reason with the unknown assailants.",
+        "en": "Grimmer binds the elderly couple as they prepare to repel any attacks. Tenma encounters Lunge who grudgingly apologizes for his previous accusations against the doctor. He asks Tenma take the waitress Else to the Hotel Versteck after she fled from Roberto. As Nina and Gillen rush to Ruhenheim, Lunge begins his assault at the Bergbach Hotel. Back at the Hotel Versteck, they come under heavy gunfire, the Henichs are killed. Grimmer steps out to the streets to reason with the unknown assailants, however Else is shot dead just as she reaches him and he is shot as well. Grimmer's anger overwhelms him and he charges into the gunman's building. Meanwhile, Nina and Gillen reach a path that leads to Ruhenheim and meet survivors who Gillen tells to call the authorities as Nina runs into the town. Grimmer is able to kill four of the assailants before Tenma arrives and he tells Tenma that he used his own anger instead of becoming the Magnificent Steiner to defeat his attackers. Before succumbing to his fatal injuries, Grimmer gives Tenma the letter Inspector Lunge found at the Red Rose Mansion and he finally experiences the emotion of sadness. Wim and Bonaparta arrive and mourn Grimmer's death.",
         "zh": "伦克警官恢复他警察身份开始去寻找发配命令的罗伯特，在街道与天马相逢后，两人分工去救人。葛利马为救人性命自动转换人格，最后伤势过重去世了，但令人欣慰的是在最后的时间他终于领悟了人性的本能，流泪和难过，于他而言，这已是幸福。"
       },
       "title_native": "超人シュタイナーの怒り",
@@ -3089,7 +3728,11 @@
         "bangumi_comments": 38,
         "imdb_votes": 5640
       },
-      "title_cn": "超人史坦纳之愤怒"
+      "title_cn": "超人史坦纳之愤怒",
+      "notes": {
+        "title_cn": "超人斯坦纳之怒",
+        "summary": "伦格向天马为多年的错误指控道歉。旅馆遭猛烈枪击，亨尼希夫妇死。格里马走上街想跟袭击者讲道理，女侍艾尔泽在他面前中弹身亡，他也中了枪——他不靠「超人斯坦纳」，靠自己的愤怒冲进去击倒四人。临死前他把伦格在宅邸找到的信交给天马，并说自己终于第一次感到了悲伤。MAL 全剧最高分集。"
+      }
     },
     {
       "n": 72,
@@ -3119,7 +3762,7 @@
         }
       },
       "synopsis": {
-        "en": "Lunge confronts Roberto, one of the ringleaders, in a hotel room. Both are subsequently wounded in the fight. Nina and Gillen arrive in Ruhenheim where they find a house containing drawings of the two twins by Bonaparta. This triggers a final memory and the secret to Johan's madness and motives, his quest for true solitude, as well as forgiveness for his actions. Bonaparta accompanies Tenma on his quest to find and kill Johan.",
+        "en": "Lunge finds Roberto at the Hotel Bergbach, but is shot. As the Henichs and Wim mourn Grimmer's death, Tenma reads the letter which was written by Bonaparta. Bonaparta confesses that he fell in love with the mother of the twins but had a change of heart, so he killed everybody at the mansion who knew about the experiment. Tenma and Bonaparta walk towards the Bergbach Hotel and Bonaparta says that he visited the Lieberts on the night of their murders to see the children and was aware of what happened later. Bonaparta admits that he created a monster and Tenma admits that he brought him back to life. In the Hotel Bergbach, Lunge and Roberto have shot each other and Roberto taunts Lunge about his failed family life. He says that Johan wants Tenma to be the last one left alive to see what Johan saw. Lunge manages to beat Roberto, and demands to know where Johan is. Meanwhile, Nina and Gillen arrive at the Hotel Versteck where Wim recognizes her from Bonaparta's paintings. She and Gillen go to the house containing drawings of the twins which triggers memories of the Red Rose Mansion poisoning and her mother telling the twins to flee.",
         "zh": "伦克警官去找寻罗伯特时被罗伯特枪伤，天马和法兰兹.拨纳帕达一起去协助伦克警官，法兰兹告诉天马，自己就是当时杀掉所有知情者的人。而更讽刺的是罗伯特竟然就是当年葛利马唯一的好朋友，但罗伯特却错付真情，一直以为送热可可给他的人就是约翰。妮娜赶到吸血鬼之屋并感知到约翰曾经来过。"
       },
       "title_native": "名前のない男",
@@ -3130,7 +3773,11 @@
         "bangumi_comments": 7,
         "imdb_votes": 3709
       },
-      "title_cn": "沒名字的男人"
+      "title_cn": "沒名字的男人",
+      "notes": {
+        "title_cn": "没有名字的男人",
+        "summary": "伦格与罗伯特在旅馆里互相射中。天马读完那封信：波拿巴特爱上了双胞胎的母亲，因此改变主意，毒杀了宅邸里所有知情的人。他承认自己造出了一个怪物，天马则承认自己把他救活。罗伯特临死前说约翰要留天马到最后，让他看见约翰看见的东西；伦格制服他，逼问约翰在哪。妮娜在画满双胞胎的屋子里，想起母亲让他们逃走的那一刻。"
+      }
     },
     {
       "n": 73,
@@ -3160,7 +3807,7 @@
         }
       },
       "synopsis": {
-        "en": "Bonaparta attempts to shoot Johan dead, but is gunned down by Roberto, who dies of his own injuries soon afterwards. With the massacre now over, authorities rush into the town and attempt to determine what happened. Just as an officer is about to arrest Dr. Tenma, an ambulance worker arrives asking for Tenma's assistance.",
+        "en": "One of the few survivors, Herbert, is still looking for his son Wim, blaming the \"devil\" for the deaths of the townspeople. Tenma, Wim, and Bonaparta arrive at the Hotel Bergbach when Johan arrives. Bonaparta attempts to shoot Johan but is gunned down by Roberto who soon dies of his own injuries. Johan wants Tenma to shoot him just as Nina and Gillen arrive and she tells Johan that she forgives him. However, Johan pulls a gun and threatens to kill Wim to force Tenma to shoot him. Herbert arrives and, seeing images of a horrible beast, shoots Johan in the head. With the massacre now over, authorities rush into the town and attempt to determine what happened based on statements by Gillen and Inspector Lunge. Herbert is taken away for questioning over his shooting of Johan. Just as Tenma is recognized and about to be arrested, an ambulance worker arrives asking for Tenma's assistance. Johan is still alive with a bullet wound to his brain, and Lunge suggests that Tenma is the only qualified neurosurgeon who can save him. Later, Tenma prepares to operate and save Johan again.",
         "zh": "法兰兹.拨纳帕达想要亲手解决掉约翰，不幸却被罗伯特杀害，之后罗伯特也死掉。天马始终对约翰下不了手，约翰用枪威胁着威姆，这时威姆的父亲用恶魔发给他的枪射向约翰，后援警察终于赶到，暴雨也暂时告一段落，警察开始对幸存者进行盘问，而每个人也讲述了他们对整个事件的理解。"
       },
       "title_native": "終わりの風景",
@@ -3171,7 +3818,11 @@
         "bangumi_comments": 13,
         "imdb_votes": 6485
       },
-      "title_cn": "终结的情景"
+      "title_cn": "终结的情景",
+      "notes": {
+        "title_cn": "终末的风景",
+        "summary": "天马、维姆和波拿巴特走到贝格巴赫旅馆，约翰现身。波拿巴特开枪未遂，被垂死的罗伯特击毙。约翰要天马开枪；妮娜赶到说她原谅他，约翰转而用维姆逼天马下手。维姆的父亲赫伯特冲进来，朝约翰头部开了一枪。屠杀结束，警方涌入。天马正要被捕，救护员却跑来求援——躺着的是还活着的约翰，而全场只有天马能做这台开颅手术。他再一次走上手术台。"
+      }
     },
     {
       "n": 74,
@@ -3201,7 +3852,7 @@
         }
       },
       "synopsis": {
-        "en": "It has been some time since the tragic blood battle, and everyone is working hard to put their lives back to normal. Tenma finally locates a woman he has been searching for, and she reveals some startling information.",
+        "en": "Some time after the events at Ruhenheim, Karl informs Schuwald that Tenma has been cleared of all charges and is now working for Doctors without Borders. Eva Heinemann informs Reichwein that she is now working as an interior designer and has overcome her anger at Tenma and her grief over Martin and gives him a scrapbook of clippings on Tenma. Suk, Vardemann, and Lunge pay their respects at Grimmer's grave where Lunge tells them that he is now a professor at the police academy and leaves a cold beer at the graveside. Otto Heckel gives information to Dieter for Tenma on the whereabouts of the twins' mother. Tenma visits her in southern France and she tells him that she loved the father of her twins and wished revenge on those who killed him through her children. She also recalls how the children did not want to be abandoned by their mother and tells Tenma their real names. In Heidelberg, Nina graduates from university. Tenma later visits an apparently comatose Johan and sees or possibly hallucinates Johan wondering if his mother chose Nina to be taken for the experiment to protect him, or had she mistaken him for his sister. As Tenma leaves the police hospital, Johan's bed is shown empty with the window open, having vanished once again.",
         "zh": "一系列事件结束之后，人们过起了新的生活，休伯特父子继续朗读课文，酒鬼艾娃也重新生活，开始做厨房设计师，博德曼律师也为葛利马洗刷了冤屈，伦克警官重新认识工作并逐渐回归家庭，天马沉冤得雪，参加了无国界医师团，迪特健康地成长着。妮娜顺利毕业，而被救醒后的约翰在接下来究竟会是什么样的状态？"
       },
       "title_native": "本当の怪物",
@@ -3212,7 +3863,11 @@
         "bangumi_comments": 34,
         "imdb_votes": 4540
       },
-      "title_cn": "真正的怪物"
+      "title_cn": "真正的怪物",
+      "notes": {
+        "title_cn": "真正的怪物",
+        "summary": "事后：天马被撤销全部指控，加入无国界医生；艾娃改行做室内设计，放下了恨；伦格成了警校教授，在格里马墓前放下一罐冰啤酒；妮娜从海德堡毕业。天马在法国南部见到双胞胎的母亲，她说出了两个孩子真正的名字。他去看昏迷的约翰，听见（也可能是幻听）约翰最后的疑问：当年母亲交出去的，究竟是妹妹，还是认错了的自己。天马离开时，病床空了，窗开着。"
+      }
     }
   ],
   "route": [
@@ -3240,8 +3895,8 @@
       ],
       "title": "妮娜出场 / 天马成为通缉犯",
       "paragraphs": [
-        "天马开始往回查。妹妹安娜被一对姓佛特纳的夫妇收养，改名妮娜，在海德堡念法律，十岁以前一片空白，被反复的噩梦困扰。她收到一封来路不明的邀约，约在海德堡城堡见面——天马赶到救下了她，但两人回到佛特纳家时，养父母已经被杀。现场撬开了她的记忆：她想起自己曾对哥哥开过枪。随后她甩开天马，独自上路。",
-        "另一边，联邦刑警伦格盯上了天马。九年前医院三人的死，加上眼下的新命案，在他的推演里全部指向同一个人；他甚至认定「约翰」只是天马分裂出来的第二人格。现场留下的一条领带成了关键物证，而这条领带出自艾娃之手——她在天马失势那晚甩掉了他，如今三次离婚、开始酗酒，并且握着能把他送进监狱的证词。天马放弃医生身份，成了逃犯。"
+        "天马开始往回查。妹妹安娜（Anna）被一对姓佛特纳（Fortner）的夫妇收养，改名妮娜（Nina），在海德堡（Heidelberg）念法律，十岁以前一片空白，被反复的噩梦困扰。她收到一封来路不明的邀约，约在海德堡城堡见面——天马赶到救下了她，但两人回到佛特纳家时，养父母已经被杀。现场撬开了她的记忆：她想起自己曾对哥哥开过枪。随后她甩开天马，独自上路。",
+        "另一边，联邦刑警伦格（Heinrich Lunge）盯上了天马。九年前医院三人的死，加上眼下的新命案，在他的推演里全部指向同一个人；他甚至认定「约翰」只是天马分裂出来的第二人格。现场留下的一条领带成了关键物证，而这条领带出自艾娃（Eva Heinemann）之手——她在天马失势那晚甩掉了他，如今三次离婚、开始酗酒，并且握着能把他送进监狱的证词。天马放弃医生身份，成了逃犯。"
       ]
     },
     {
@@ -3261,7 +3916,7 @@
       ],
       "title": "第一次看清手法",
       "paragraphs": [
-        "逃亡中天马撞上一个叫奥托·赫克尔的小偷，从此多了个甩不掉的同伴。这段路上他第一次亲眼看到约翰的做法：一个动手杀了人的男人，是被一个自称「埃里希」的陌生人几句话推下去的；在天马问出更多之前，那人自杀了。"
+        "逃亡中天马撞上一个叫奥托·赫克尔（Otto Heckel）的小偷，从此多了个甩不掉的同伴。这段路上他第一次亲眼看到约翰的做法：一个动手杀了人的男人，是被一个自称「埃里希」（Erich）的陌生人几句话推下去的；在天马问出更多之前，那人自杀了。"
       ]
     },
     {
@@ -3270,7 +3925,7 @@
         11,
         12
       ],
-      "why": "设定地基。约翰的来处第一次露出轮廓——一所前东德的「儿童机构」，以及它真正在做的事。迪特也是在这里加入的，这个孩子后面一直在。"
+      "why": "设定地基。约翰的来处第一次露出轮廓——前东德的 511 孤儿院（511 Kinderheim），以及它真正在做的事。迪特（Dieter）也是在这里加入的，这个孩子后面一直在。"
     },
     {
       "kind": "bridge",
@@ -3281,7 +3936,7 @@
       "title": "法兰克福 / 四条线同时下坠",
       "paragraphs": [
         "天马带着迪特南下，靠行医换掩护，在一个小镇被认出、又被整镇人放走——这是全剧反复出现的结构：他救过的人后来救他。",
-        "法兰克福线是主体。妮娜为找到哥哥，伪装成妓女接近一个被称作「婴儿」的侏儒——极右翼组织的头目，正在找她。天马和迪特先后被卷进去，牵出更大的图谋：这伙人打算烧掉法兰克福的土耳其人聚居区，而他们真正想要的是把约翰扶成领袖。背后还有一个沃尔夫将军，他承认自己和约翰的来处有关：当年在捷克边境，他捡到两个快冻死的无名孩子。纵火最终被迪特和妮娜压了下去。",
+        "法兰克福（Frankfurt）线是主体。妮娜为找到哥哥，伪装成妓女接近一个被称作「婴儿」（The Baby）的侏儒——极右翼组织的头目，正在找她。天马和迪特先后被卷进去，牵出更大的图谋：这伙人打算烧掉法兰克福的土耳其人聚居区，而他们真正想要的是把约翰扶成领袖。背后还有一个沃尔夫将军（General Wolf），他承认自己和约翰的来处有关：当年在捷克边境，他捡到两个快冻死的无名孩子。纵火最终被迪特和妮娜压了下去。",
         "伦格这条线在做减法：他把妻子和女儿彻底推开，被上级拿掉所有案子，于是把全部生命投进抓天马这一件事。艾娃则烧掉了自己的房子，正式开始下坠。",
         "这一段结束时，妮娜给了天马一个判断：她认为约翰有双重人格。记住这句话——它是「此刻的认知」，不是结论。"
       ]
@@ -3292,7 +3947,7 @@
         19,
         19
       ],
-      "why": "第一个专业视角切进来：犯罪心理学家吉伦。后面所有对约翰的分析，都从这一集长出去。"
+      "why": "第一个专业视角切进来：犯罪心理学家鲁迪·吉伦（Rudy Gillen）。后面所有对约翰的分析，都从这一集长出去。"
     },
     {
       "kind": "bridge",
@@ -3302,7 +3957,7 @@
       ],
       "title": "刀出鞘",
       "paragraphs": [
-        "天马搭上一对老夫妇的车，丈夫是退休警察，认出他是通缉犯却选择相信他。同时约翰的手开始伸长：一个叫罗伯特的男人替他做脏活，妮娜在尼斯差点死在他手里，被一个本该是敌人的人救下。"
+        "天马搭上一对老夫妇的车，丈夫是退休警察，认出他是通缉犯却选择相信他。同时约翰的手开始伸长：一个叫罗伯特（Roberto）的男人替他做脏活，妮娜在尼斯（Nice）差点死在他手里，被一个本该是敌人的人救下。"
       ]
     },
     {
@@ -3321,7 +3976,7 @@
       ],
       "title": "艾娃的价码",
       "paragraphs": [
-        "艾娃因醉酒被捕、无家可归，为保命把手上关于约翰的照片交给罗伯特，换来天马的行踪。她被罗伯特开枪打中腿，躺在血里，认定不会有人来。天马还是来了，替她止了血，然后动身去慕尼黑。"
+        "艾娃因醉酒被捕、无家可归，为保命把手上关于约翰的照片交给罗伯特，换来天马的行踪。她被罗伯特开枪打中腿，躺在血里，认定不会有人来。天马还是来了，替她止了血，然后动身去慕尼黑（Munich）。"
       ]
     },
     {
@@ -3332,8 +3987,8 @@
       ],
       "title": "慕尼黑 / 一个人如何被拆开",
       "paragraphs": [
-        "全剧结构最精巧的一段的前半。盲人富豪汉斯·格奥尔格·舒瓦德每周由不同的学生给他朗读。周四那位学生离奇自杀；周二那位学生卡尔，正是舒瓦德失散多年的私生子；而新来的周五朗读者，叫约翰·李贝特。",
-        "约翰做的事表面上全是好事：他帮卡尔认了父亲，帮舒瓦德重新与世界连上。舒瓦德请了私家侦探理查德·布劳恩调查那起自杀——一个因误判丢掉警职、靠心理医生莱希魏因勉强戒酒的男人。他越查越发现，所有悬案的线头都绕回舒瓦德身上。",
+        "全剧结构最精巧的一段的前半。盲人富豪汉斯·格奥尔格·舒瓦德（Hans Georg Schuwald）每周由不同的学生给他朗读。周四那位学生离奇自杀；周二那位学生卡尔（Karl Neumann），正是舒瓦德失散多年的私生子；而新来的周五朗读者，叫约翰·李贝特。",
+        "约翰做的事表面上全是好事：他帮卡尔认了父亲，帮舒瓦德重新与世界连上。舒瓦德请了私家侦探理查德·布劳恩（Richard Braun）调查那起自杀——一个因误判丢掉警职、靠心理医生尤利乌斯·莱希魏因（Julius Reichwein）勉强戒酒的男人。他越查越发现，所有悬案的线头都绕回舒瓦德身上。",
         "这四集没有一场打斗。（若想看约翰最优雅的一次示范，可补看第 26 集：他站在一片工地上，用嘴给一个盲人描述一片并不存在的湖。）"
       ]
     },
@@ -3354,8 +4009,8 @@
       "title": "枪、绘本、和一个日子",
       "paragraphs": [
         "天马做了一个决定：他买了一把狙击步枪，打算亲手杀掉自己救活的人。这条线一路悬着，中途他两次举不起枪。",
-        "同时，一本绘本第一次进入画面——一个没有名字的怪物的故事。约翰在图书馆看到它，当场昏了过去。伦格拿到同一本书，开始逐字翻译。莱希魏因去警告约翰名义上的「养父母」，他们不信。",
-        "舒瓦德宣布把毕生收藏的古籍捐给慕尼黑大学，捐赠仪式定了日子。所有人都在往那一天走。"
+        "同时，一本绘本第一次进入画面——《没有名字的怪物》（The Nameless Monster）。约翰在图书馆看到它，当场昏了过去。伦格拿到同一本书，开始逐字翻译。莱希魏因去警告约翰名义上的「养父母」，他们不信。",
+        "舒瓦德宣布把毕生收藏的古籍捐给慕尼黑大学（LMU），捐赠仪式定了日子。所有人都在往那一天走。"
       ]
     },
     {
@@ -3374,8 +4029,8 @@
       ],
       "title": "布拉格 / 格里马",
       "paragraphs": [
-        "场景换到布拉格。一个叫沃尔夫冈·格里马的自由记者出现——前东德人，正在调查东德孤儿院的儿童改造项目。他在火车上偶遇天马并帮他脱身。",
-        "格里马找到 511 孤儿院的前院长佩特罗夫，逼问当年的记录。佩特罗夫随即遇害，临死前把一把保险箱钥匙交给格里马，里面是关于约翰早年的材料。现场有人看见一个长得像安娜的金发女人离开。"
+        "场景换到布拉格（Prague）。一个叫沃尔夫冈·格里马（Wolfgang Grimmer）的自由记者出现——前东德人，正在调查东德孤儿院的儿童改造项目。他在火车上偶遇天马并帮他脱身。",
+        "格里马找到 511 孤儿院的前院长佩特罗夫（Petrov），逼问当年的记录。佩特罗夫随即遇害，临死前把一把保险箱钥匙交给格里马，里面是关于约翰早年的材料。现场有人看见一个长得像安娜的金发女人离开。"
       ]
     },
     {
@@ -3384,7 +4039,7 @@
         42,
         42
       ],
-      "why": "格里马这个角色的钥匙。全剧最好的配角，从这一集开始真正成立。"
+      "why": "格里马这个角色的钥匙，也是「超人斯坦纳」（The Magnificent Steiner）第一次出场。全剧最好的配角，从这一集开始真正成立。"
     },
     {
       "kind": "bridge",
@@ -3394,7 +4049,7 @@
       ],
       "title": "布拉格警察局内部",
       "paragraphs": [
-        "布拉格警方内部是烂的：好几位高层出身前捷克斯洛伐克秘密警察 StB。年轻刑警扬·苏克顺着线索往上查，同时在酒吧遇到一个漂亮女人——和安娜长得一模一样。几天后，那几位高层吃了她给的糖，全部死亡。"
+        "布拉格警方内部是烂的：好几位高层出身前捷克斯洛伐克秘密警察 StB。年轻刑警扬·苏克（Jan Suk）顺着线索往上查，同时在酒吧遇到一个漂亮女人——和安娜长得一模一样。几天后，那几位高层吃了她给的糖，全部死亡。"
       ]
     },
     {
@@ -3422,7 +4077,7 @@
         46,
         46
       ],
-      "why": "格里马讲出自己的来历。前面所有关于 511 的铺垫，在这一集兑现。"
+      "why": "格里马讲出自己的来历。前面所有关于 511 孤儿院的铺垫，在这一集兑现。"
     },
     {
       "kind": "bridge",
@@ -3433,7 +4088,7 @@
       "title": "一个名字浮出来",
       "paragraphs": [
         "妮娜和迪特到了布拉格，街上的人都叫她安娜，童年记忆开始成块回来。她找到小时候和母亲、哥哥一起住过的公寓。",
-        "另一边，一个名字第一次被说出来：弗朗茨·波拿巴特——深度参与过双胞胎童年的人，《没有名字的怪物》的作者，住在一处叫「红玫瑰宅邸」的地方，还用过好几个笔名。伦格「休假」来到布拉格，开始查这个人。"
+        "另一边，一个名字第一次被说出来：弗朗茨·波拿巴特（Franz Bonaparta）——深度参与过双胞胎童年的人，《没有名字的怪物》的作者，住在一处叫「红玫瑰宅邸」（Red Rose Mansion）的地方，还用过 Klaus Poppe、Emil Šebe、Jakub Farobek 几个笔名。伦格「休假」来到布拉格，开始查这个人。"
       ]
     },
     {
@@ -3454,7 +4109,7 @@
       "paragraphs": [
         "三件事。第一，红玫瑰宅邸被打开。伦格在宅子里找出一间弥漫消毒水味的密室，认定那里发生过屠杀；玫瑰丛底下后来挖出四十多具遗骨。宅子里还有一幅画像，画的是一个长得像安娜的女人。",
         "第二，天马在布拉格被捕，引渡回杜塞尔多夫。他救过的病人们凑钱替他请了律师；但真正走进探监室的人是罗伯特，留下一句话：下一个是艾娃。天马为了被塞进同一辆囚车，认下全部罪名，然后越狱——不是为了自己。",
-        "第三，妮娜循着记忆走进红玫瑰宅邸，在密室里被一段画面击倒。她被一个潦倒的木偶师利普斯基收留，此人家里堆满了同一个作者用不同笔名写的童书。宅邸随后被烧掉了。"
+        "第三，妮娜循着记忆走进红玫瑰宅邸，在密室里被一段画面击倒。她被一个潦倒的木偶师亚罗米尔·利普斯基（Jaromir Lipsky）收留，此人家里堆满了同一个作者用不同笔名写的童书。宅邸随后被烧掉了。"
       ]
     },
     {
@@ -3473,7 +4128,7 @@
       ],
       "title": "马丁",
       "paragraphs": [
-        "两集回溯，讲艾娃的保镖马丁。他原本受雇看着她，最后选择保护她。这条线同时把一个新名字推到台前：彼得·契克——法兰克福骚乱的策划者，也和红玫瑰宅邸那套实验有关。"
+        "两集回溯，讲艾娃的保镖马丁（Martin Reest）。他原本受雇看着她，最后选择保护她。这条线同时把一个新名字推到台前：彼得·契克（Peter Čapek）——法兰克福骚乱的策划者，也和红玫瑰宅邸那套实验有关。"
       ]
     },
     {
@@ -3492,7 +4147,7 @@
       ],
       "title": "收网",
       "paragraphs": [
-        "妮娜自愿接受催眠去挖记忆，中途失控。天马在法兰克福追查契克，被一个牙医米兰·科拉什收留——那人为赎罪打算亲手杀掉契克，失败，死在警察枪下。吉伦和一位即将退休的老警探各自撞上同一件事：一批毫无关联的凶手，都是在同一个年轻人几句话之后动的手。",
+        "妮娜自愿接受催眠去挖记忆，中途失控。天马在法兰克福追查契克，被一个牙医米兰·科拉什（Milan Kolasch）收留——那人为赎罪打算亲手杀掉契克，失败，死在警察枪下。吉伦和一位即将退休的老警探各自撞上同一件事：一批毫无关联的凶手，都是在同一个年轻人几句话之后动的手。",
         "然后「婴儿」死了，契克的组织开始崩塌，契克本人被约翰堵在别墅里，听到一句话：弗朗茨·波拿巴特还活着。艾娃买了一把枪。妮娜落进契克手里。"
       ]
     },
@@ -3512,7 +4167,7 @@
       ],
       "title": "露恩海姆（也可以直接看）",
       "paragraphs": [
-        "伦格循着一张明信片走进边境小镇露恩海姆。格里马已经在那里，用着假名。镇上开始响起枪声：有人在挨家挨户把枪塞给那些心里有恨的人——被欺负的孩子、酗酒的父亲、刚中彩票又怕被抢的老夫妇。",
+        "伦格循着一张明信片走进边境小镇露恩海姆（Ruhenheim）。格里马已经在那里，用着假名。镇上开始响起枪声：有人在挨家挨户把枪塞给那些心里有恨的人——被欺负的孩子、酗酒的父亲、刚中彩票又怕被抢的老夫妇。",
         "妮娜在医院对天马说出她的判断：约翰筹备的不是一场屠杀，是他自己的死法，而这个死法要拖着一整个镇子陪葬。大雨封了进镇的路。",
         "（这两集其实拍得不差，只是节奏偏慢。有余力就直接看。）"
       ]

@@ -82,6 +82,12 @@ button.link { background: none; border: 0; color: var(--muted); font: inherit; f
 .legend i { display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-right: 4px; vertical-align: -1px; }
 .detail { margin-top: 10px; font-size: 13.5px; border-top: 1px dashed var(--line); padding-top: 8px; min-height: 22px; }
 .detail .t { font-weight: 600; }
+.notes { margin-top: 8px; padding-top: 8px; border-top: 1px dashed var(--line); }
+.notes p { margin: 4px 0 6px; }
+.notes .kind { font-size: 11px; padding: 0 5px; margin-left: 3px; border-radius: 4px; background: var(--bg); border: 1px solid var(--line); color: var(--muted); }
+.notes .kind.recurring { color: var(--accent); border-color: var(--accent); }
+.btn { font: inherit; font-size: 13px; padding: 6px 12px; border-radius: 8px; border: 1px solid var(--line); background: var(--card); color: var(--ink); cursor: pointer; }
+.btn:active { background: var(--bg); }
 
 /* ---- 路线 ---- */
 .route { display: flex; flex-direction: column; gap: 10px; }

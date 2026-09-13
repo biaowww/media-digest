@@ -75,6 +75,46 @@ def normalize_route(route: list) -> list:
     return out
 
 
+KIND_ALIASES = {"main": "recurring", "regular": "recurring", "常驻": "recurring", "阶段": "arc", "oneoff": "one-off", "once": "one-off", "一次": "one-off"}
+
+
+def read_notes(src: Path) -> tuple[dict[int, dict] | None, int | None]:
+    """episodes.json → {n: notes}；也返回顶层 spoiler_gate_from（可选）。"""
+    f = src / "episodes.json"
+    if not f.exists():
+        return None, None
+    data = load_json(f)
+    gate = None
+    if isinstance(data, dict):
+        gate = data.get("spoiler_gate_from")
+        items = data.get("episode_notes") or data.get("episodes") or data.get("notes")
+        if isinstance(items, dict):  # {"1": {...}}
+            items = [dict(v, n=int(k)) for k, v in items.items()]
+    else:
+        items = data
+    if not isinstance(items, list):
+        raise ValueError("episodes.json must be a list or an object with episode_notes[]")
+    out: dict[int, dict] = {}
+    for x in items:
+        n = int(x.get("n") or x.get("episode") or 0)
+        if not n:
+            continue
+        note = {}
+        if x.get("title_cn"):
+            note["title_cn"] = x["title_cn"]
+        note["summary"] = (x.get("summary") or x.get("synopsis") or "").strip()
+        new = []
+        for c in x.get("new") or x.get("new_characters") or []:
+            c = dict(c)
+            k = str(c.get("kind") or "one-off").strip().lower()
+            c["kind"] = KIND_ALIASES.get(k, k)
+            new.append(c)
+        if new:
+            note["new"] = new
+        out[n] = note
+    return out, (int(gate) if gate else None)
+
+
 def read_content(src: Path) -> tuple[dict | None, list | None]:
     intro, route = None, None
     rf, inf = src / "route.json", src / "intro.json"
@@ -114,7 +154,29 @@ def sync_one(slug: str, dry_run: bool = False) -> bool:
         print(f"[{slug}] {e}")
         return False
 
+    try:
+        notes, gate = read_notes(src)
+    except ValueError as e:
+        print(f"[{slug}] {e}")
+        return False
+
     changed = []
+    if notes is not None:
+        by_n = {e["n"]: e for e in show.get("episodes", [])}
+        total = show["meta"].get("total_eps") or 0
+        stray = [n for n in notes if n not in by_n]
+        if stray:
+            print(f"[{slug}] warn: episodes.json has notes for unknown episodes {stray[:8]} — ignored")
+        for e in show.get("episodes", []):
+            if e["n"] in notes:
+                e["notes"] = notes[e["n"]]
+            else:
+                e.pop("notes", None)
+        changed.append(f"notes({len(notes) - len(stray)})")
+    if gate and intro is not None:
+        intro["spoiler_gate_from"] = gate
+    elif gate:
+        show.setdefault("intro", {})["spoiler_gate_from"] = gate
     if intro is not None:
         cover = intro.get("cover")
         if cover and "://" not in cover and (src / cover).is_file():

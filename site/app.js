@@ -100,7 +100,7 @@
     let kpi = kpis.find(k => k.key === preferred) || kpis[0] || null;
     const hot = e => heat && heat.isHot(e);
 
-    const epTitle = e => e.title_cn || e.title_en || e.title_native || `EP ${e.n}`;
+    const epTitle = e => e.title_cn || (e.notes && e.notes.title_cn) || e.title_en || e.title_native || `EP ${e.n}`;
     const epSub = e => (e.title_cn && e.title_en && e.title_en !== e.title_cn) ? e.title_en : (e.title_cn || e.title_en) && e.title_native && e.title_native !== e.title_cn ? e.title_native : '';
     const kpiVal = e => { if (!kpi) return null; const v = kpi.get(e); return v == null ? null : kpi.fmt(v); };
     const allScores = e => kpis.filter(k => k.get(e) != null).map(k => `${k.label} ${k.fmt(k.get(e))}${k.votes(e) ? ` (${num(k.votes(e))})` : ''}`).join(' · ');
@@ -152,6 +152,30 @@
         h('div', { class: 'bar' }, h('i', { style: `width:${total ? (100 * cur / total) : 0}%` })));
     }
 
+    // ---- 分集梗概门控（人写、含剧透）----
+    // 已看到的集（集号 ≤ 已勾选的最大集号）自动显示；未看的点按钮才出；spoiler_gate_from 之后的集再二次确认。
+    const revealed = new Set();
+    const gate = intro.spoiler_gate_from || null;
+    const KIND = { recurring: '常驻', arc: '阶段', 'one-off': '一次' };
+    function notesBlock(e) {
+      const n = e.notes;
+      if (!n || !(n.summary || (n.new && n.new.length))) return null;
+      const maxDone = Math.max(0, ...done);
+      const seen = e.n <= maxDone;
+      if (!seen && !revealed.has(e.n)) {
+        return h('div', { class: 'notes gated' }, h('button', { class: 'btn', onclick: () => {
+          if (gate && e.n >= gate && !confirm(`EP ${e.n} 在 EP ${gate} 之后，含全剧不可逆的信息。确定要看？`)) return;
+          revealed.add(e.n); renderChart();
+        } }, '显示本集内容（含剧透）'));
+      }
+      return h('div', { class: 'notes' },
+        h('div', { class: 'small muted' }, '本集内容', h('span', { class: 'tag' }, seen ? '已看' : '含剧透')),
+        n.summary ? h('p', {}, n.summary) : null,
+        n.new && n.new.length ? h('div', { class: 'small' }, h('span', { class: 'muted' }, '新登场：'),
+          n.new.map((c, i) => h('span', {}, i ? ' · ' : '', c.name_cn || c.name, c.name_cn && c.name ? h('span', { class: 'muted' }, ` ${c.name}`) : null,
+            h('span', { class: 'kind ' + (c.kind || '') }, KIND[c.kind] || c.kind || ''), c.note ? h('span', { class: 'muted' }, `（${c.note}）`) : null))) : null);
+    }
+
     // ---- 图表 ----
     const chartSec = h('section', { class: 'card', style: 'margin-top:10px' });
     let selected = null;
@@ -172,7 +196,8 @@
         h('span', { class: 't' }, `EP ${sel.n} · ${epTitle(sel)}`), sel.aired ? h('span', { class: 'muted' }, ` · ${sel.aired}`) : null, hot(sel) ? ' 🔥' : null,
         h('div', { class: 'muted small' }, allScores(sel) || '无评分数据'),
         sel.heat ? h('div', { class: 'muted small' }, HEAT_SOURCES.filter(s => sel.heat[s.key] != null).map(s => `${s.label} ${num(sel.heat[s.key])}`).join(' · ')) : null,
-        state.get(sel.n) ? h('div', { class: 'small' }, state.get(sel.n) === 'watch' ? '路线：全速看' : '路线：桥接带过') : null)
+        state.get(sel.n) ? h('div', { class: 'small' }, state.get(sel.n) === 'watch' ? '路线：全速看' : '路线：桥接带过') : null,
+        notesBlock(sel))
         : h('div', { class: 'detail muted small' }, '点一根柱子看这一集的各源评分与热度');
       const detCb = h('input', { type: 'checkbox', onchange: ev => { detrendOn = ev.target.checked; store.set(K_DET, detrendOn); renderChart(); } }); detCb.checked = detrendOn;
       const axisText = !kpi ? '无评分数据' : detrendOn ? `${kpi.label} · 已去趋势（扣除随集数上浮）` : `${kpi.label}（${kpi.scale}）· 柱高按 ${kpi.fmt(lo)}–${kpi.fmt(hi)} 拉伸`;

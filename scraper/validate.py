@@ -41,6 +41,18 @@ def check(show: dict) -> tuple[list[str], list[str]]:
     if missing:
         warnings.append(f"episodes: {len(missing)} of {total} missing (e.g. {missing[:8]})")
 
+    noted = [e["n"] for e in eps if e.get("notes")]
+    if noted:
+        bad = [e["n"] for e in eps if e.get("notes") and not (e["notes"].get("summary") or "").strip()]
+        if bad:
+            errors.append(f"episodes.notes: empty summary at {bad[:8]}")
+        missing_notes = sorted(set(ns) - set(noted))
+        if missing_notes:
+            warnings.append(f"episodes.notes: {len(missing_notes)} of {len(ns)} episodes have no summary (e.g. {missing_notes[:8]})")
+    gate = (show.get("intro") or {}).get("spoiler_gate_from")
+    if gate and total and gate > total:
+        errors.append(f"intro.spoiler_gate_from {gate} > total_eps {total}")
+
     route = show.get("route", [])
     covered: set[int] = set()
     last_end = 0
@@ -72,7 +84,8 @@ def summary(show: dict) -> str:
     watch = [n for x in route if x["kind"] == "watch" for n in range(x["eps"][0], x["eps"][1] + 1)]
     bridges = [x for x in route if x["kind"] == "bridge"]
     srcs = sorted({s for e in show.get("episodes", []) for s in (e.get("sources") or {})})
-    return (f"{meta['slug']}: {len(show.get('episodes', []))}/{meta.get('total_eps')} eps, sources={srcs}, "
+    noted = sum(1 for e in show.get("episodes", []) if e.get("notes"))
+    return (f"{meta['slug']}: {len(show.get('episodes', []))}/{meta.get('total_eps')} eps, sources={srcs}, notes={noted}, "
             f"route: {len(watch)} watch eps in {sum(1 for x in route if x['kind']=='watch')} blocks + {len(bridges)} bridges")
 
 

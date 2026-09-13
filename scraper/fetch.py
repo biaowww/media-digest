@@ -231,8 +231,11 @@ def cmd_fetch(args):
     if not fetched:
         sys.exit("all sources failed; nothing written")
 
+    before_notes = {e["n"]: e.get("notes") for e in show.get("episodes", []) if e.get("notes")}
     new = merge(show, fetched, args)
     assert new["route"] == before_route and new["intro"] == before_intro, "route/intro must never change here"
+    after_notes = {e["n"]: e.get("notes") for e in new["episodes"] if e.get("notes")}
+    assert after_notes == before_notes, "episodes[].notes (human-written) must never change here"
 
     errors, warnings = validate.check(new)
     for w in warnings:
