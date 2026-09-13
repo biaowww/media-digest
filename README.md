@@ -52,9 +52,32 @@ py -m http.server 8765      # 然后开 http://localhost:8765/site/?show=monster
 
 `route` 允许为空——只有 `episodes` 时页面照样渲染（评分曲线 + 全集列表 + 进度）。`intro` 缺项时页面回退到 `about`（并打"自动抓取"标）。
 
-## 内容更新回路
+## 内容更新回路（Drive → 仓库）
 
-session 里写好 / 改好 `intro` 与 `route` 片段 → 粘进 json 对应位置 → `py scraper/validate.py` 过 → push → 页面自动生效。**json 就是编辑界面，没有后台。**
+内容不在仓库里写。每部剧的 `intro.json` / `route.json` 由各 Claude 会话写到 Drive：
+
+```
+<Drive claude根>/domains/personal/media-digest/shows/<slug>/{intro.json, route.json, cover.jpg?}
+```
+
+格式与规则见该目录的 `README.md` 和 `_template/`。家里 PC 上：
+
+```bash
+py scraper/sync.py monster-2004      # 校验 + 并入 shows/monster-2004.json（整体替换 intro/route，以 Drive 为准）
+py scraper/sync.py --all
+git push                             # 页面生效
+```
+
+`fetch.py` 与 `sync.py` 互不越界：前者只写 meta/about/episodes，后者只写 intro/route（+ 复制封面图到 `site/assets/<slug>/`）。多轮迭代 = 改 Drive 文件再 sync。
+
+## 评分怎么看（页面 KPI）
+
+json 只存各源**原始值**；加权只在页面里算，随时可改：
+
+- **综合**（默认）：每个源先在本剧内做 z-score（抹平 IMDb 7–9.7 与 MAL 4.3–4.9 的量纲差），再按**置信度加权平均**：权重 = log10(票数+1)；MAL 没有分集票数，取常数 3（≈ 千票）。显示为本剧内百分位（Top x%）。
+- **热度**：IMDb 票数 / Bangumi 讨论数 / TMDB 票数取 log 后 z-score 平均。**只做参考，不进综合**——热度高说明"有记忆点"，不等于好。
+- **去趋势**开关：对当前 KPI 做线性回归扣掉随集数的系统性上浮（只有看完的人才给后期集打分），看残差更容易挑出中段的真高分集。
+- 单源 tab 显示原始分，柱高按该源 min–max 拉伸。
 
 ## 数据源与已知限制
 

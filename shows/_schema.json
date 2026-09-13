@@ -16,7 +16,7 @@
         "title_native": { "type": ["string", "null"] },
         "year": { "type": ["integer", "null"] },
         "total_eps": { "type": "integer", "minimum": 1 },
-        "primary_kpi": { "type": "string", "enum": ["mal", "imdb", "tmdb", "bangumi"] },
+        "primary_kpi": { "type": "string", "enum": ["composite", "heat", "mal", "imdb", "tmdb", "bangumi"], "description": "页面默认 KPI；composite/heat 是页面按各源现算的，json 不存加权结果" },
         "updated": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$" },
         "schema_version": { "type": "integer" },
         "ids": {

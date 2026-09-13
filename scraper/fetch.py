@@ -67,7 +67,7 @@ SOURCE_FIELDS = {
     "tmdb": ["vote_average", "vote_count", "still", "season", "episode"],
     "bangumi": ["score", "votes", "comments", "url"],
 }
-KPI_ORDER = ["mal", "imdb", "tmdb", "bangumi"]
+KPI_ORDER = ["composite", "heat", "mal", "imdb", "tmdb", "bangumi"]  # 页面默认 KPI；composite = 各源 z-score 按 log(票数) 加权
 
 
 def load_show(slug: str) -> dict:
@@ -143,8 +143,7 @@ def merge(show: dict, fetched: dict, args) -> dict:
     if extra:
         print(f"  warn: episodes beyond declared total {meta['total_eps']}: {extra} (kept)")
     if not meta.get("primary_kpi") or args.primary_kpi:
-        avail = [k for k in KPI_ORDER if any(k in e["sources"] for e in episodes)]
-        meta["primary_kpi"] = args.primary_kpi or (avail[0] if avail else "mal")
+        meta["primary_kpi"] = args.primary_kpi or "composite"
     meta["updated"] = dt.date.today().isoformat()
     meta["schema_version"] = SCHEMA_VERSION
 
