@@ -22,7 +22,7 @@ def _int(x: str):
     return None if x == "\\N" else int(x)
 
 
-def fetch(imdb_id: str, http) -> dict:
+def fetch(imdb_id: str, http, season: int | None = None) -> dict:
     ep_file = http.download(DATASETS + "title.episode.tsv.gz", CACHE / "title.episode.tsv.gz")
     rt_file = http.download(DATASETS + "title.ratings.tsv.gz", CACHE / "title.ratings.tsv.gz")
 
@@ -49,15 +49,19 @@ def fetch(imdb_id: str, http) -> dict:
     extras = [t for s, e, t in rows if e is None]
     if extras and len(extras) < len(rows):
         rows = [r for r in rows if r[1] is not None]
+    if season is not None:  # 只要这一季，集号 = 本季集号（一季一个 slug 的剧）
+        rows = [r for r in rows if r[0] == season]
+        if not rows:
+            raise RuntimeError(f"imdb: no episodes for season {season} under {imdb_id}")
     rows.sort(key=lambda r: (r[0] if r[0] is not None else 10**6, r[1] if r[1] is not None else 10**6))
     seasons = {s for s, _, _ in rows if s is not None}
     single = len(seasons) <= 1
 
     episodes: dict[int, dict] = {}
-    for i, (season, ep, tconst) in enumerate(rows, 1):
+    for i, (sn, ep, tconst) in enumerate(rows, 1):
         n = ep if (single and ep is not None) else i
         rating, votes = ratings.get(tconst, (None, None))
-        episodes[n] = {"rating": rating, "votes": votes, "tconst": tconst, "season": season, "episode": ep}
+        episodes[n] = {"rating": rating, "votes": votes, "tconst": tconst, "season": sn, "episode": ep}
     http.log(f"imdb: {len(episodes)} episodes across {len(seasons) or 1} season(s), {sum(1 for e in episodes.values() if e['rating'])} rated")
 
     s_rating, s_votes = ratings.get(imdb_id, (None, None))

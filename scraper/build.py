@@ -57,7 +57,7 @@ def fetch_args(slug: str, meta: dict) -> list[str] | None:
     for k in ("mal", "bangumi", "imdb", "tmdb", "wiki"):
         if ids.get(k) not in (None, ""):
             args += [f"--{k}", str(ids[k])]
-    for k, flag in (("title", "--title"), ("title_cn", "--title-cn"), ("year", "--year")):
+    for k, flag in (("title", "--title"), ("title_cn", "--title-cn"), ("year", "--year"), ("season", "--season")):
         if meta.get(k) not in (None, ""):
             args += [flag, str(meta[k])]
     return args

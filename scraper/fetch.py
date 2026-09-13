@@ -11,6 +11,7 @@ fetch.py — 抓一部剧的客观数据，写进 shows/<slug>.json 的 meta / a
   # 之后重跑：ID 已存在 meta.ids 里，一条命令刷新
   py scraper/fetch.py monster-2004
   py scraper/fetch.py monster-2004 --only mal,imdb --no-cache
+  py scraper/fetch.py frieren-season-2-2026 --season 2 --mal ... --imdb ...   # 一季一个 slug 的剧
 
   # 找 ID（Jikan / Bangumi / TMDB 搜索，人工确认后再填）
   py scraper/fetch.py resolve "Monster"
@@ -102,6 +103,8 @@ def merge(show: dict, fetched: dict, args) -> dict:
         if v:
             ids[src] = v
     meta["ids"] = ids
+    if args.season:
+        meta["season"] = int(args.season)
     for k, cli in (("title", args.title), ("title_cn", args.title_cn), ("title_native", None), ("year", args.year)):
         v = cli or meta.get(k) or pick(fetched, PREFER_SERIES[k], k)
         if v not in (None, ""):
@@ -150,9 +153,12 @@ def merge(show: dict, fetched: dict, args) -> dict:
         print(f"  note: dropping stale episodes beyond total {meta['total_eps']}: {stale}")
         episodes = [e for e in episodes if e["n"] not in stale]
         show["episodes"] = episodes
+    # 多季剧：IMDb / TMDB / 维基常把后续季也列进来（顺序编号），按声明的本季集数截断
     extra = [e["n"] for e in episodes if e["n"] > meta["total_eps"]]
     if extra:
-        print(f"  warn: episodes beyond declared total {meta['total_eps']}: {extra} (kept)")
+        print(f"  note: dropping {len(extra)} episodes beyond declared total {meta['total_eps']} (n={extra[0]}..{extra[-1]}) — later seasons leaking in")
+        episodes = [e for e in episodes if e["n"] <= meta["total_eps"]]
+        show["episodes"] = episodes
     if not meta.get("primary_kpi") or args.primary_kpi:
         meta["primary_kpi"] = args.primary_kpi or "imdb"
     meta["updated"] = dt.date.today().isoformat()
@@ -224,7 +230,8 @@ def cmd_fetch(args):
             continue
         print(f"[{src}] id={ids[src]}")
         try:
-            fetched[src] = mod.fetch(ids[src], http)
+            season = args.season or (show["meta"].get("season"))
+            fetched[src] = mod.fetch(ids[src], http, season=int(season)) if src in ("imdb", "tmdb") and season else mod.fetch(ids[src], http)
         except Exception as e:  # 单源失败不拖垮整体；保留上次数据
             print(f"  !! {src} failed, keeping previous data: {e}")
 
@@ -276,6 +283,7 @@ def main():
         f.add_argument(f"--{src}")
     f.add_argument("--title"); f.add_argument("--title-cn", dest="title_cn"); f.add_argument("--year")
     f.add_argument("--primary-kpi", dest="primary_kpi", choices=KPI_ORDER)
+    f.add_argument("--season", help="一季一个 slug 时指定季号：imdb/tmdb 只取该季，集号=本季集号")
     f.add_argument("--only", help="只跑这些源，逗号分隔，如 mal,imdb")
     f.add_argument("--no-cache", action="store_true")
     r = sub.add_parser("resolve", help="按名字搜各源 ID")

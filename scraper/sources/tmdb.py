@@ -24,7 +24,7 @@ def _img(path):
     return IMG + path if path else None
 
 
-def fetch(tv_id: int | str, http) -> dict:
+def fetch(tv_id: int | str, http, season: int | None = None) -> dict:
     key = api_key()
     if not key:
         raise RuntimeError("tmdb: no API key (set TMDB_API_KEY or write scraper/tmdb_api_key.txt)")
@@ -50,6 +50,11 @@ def fetch(tv_id: int | str, http) -> dict:
     }
 
     seasons = [s["season_number"] for s in tv.get("seasons", []) if s.get("season_number", 0) > 0]
+    if season is not None:  # 只要这一季
+        seasons = [s for s in seasons if s == season]
+        if not seasons:
+            raise RuntimeError(f"tmdb: season {season} not found for tv {tv_id}")
+        series["eps"] = None  # 整部剧的集数对单季 slug 无意义，交给 mal/bangumi 声明
     single = len(seasons) <= 1
     episodes: dict[int, dict] = {}
     i = 0
