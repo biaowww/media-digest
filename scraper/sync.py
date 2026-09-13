@@ -84,7 +84,8 @@ def sync_one(slug: str, dry_run: bool = False) -> bool:
         print(f"[{slug}] dry-run ok: {', '.join(changed)} — {validate.summary(show)}")
         return True
     ordered = {k: show[k] for k in ("meta", "about", "intro", "episodes", "route") if k in show}
-    dst.write_text(json.dumps(ordered, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    dst.write_text(json.dumps(ordered, ensure_ascii=False, indent=2) + "\n", encoding="utf-8", newline="
+")
     write_index()
     print(f"[{slug}] synced {', '.join(changed)} — {validate.summary(show)}")
     return True
