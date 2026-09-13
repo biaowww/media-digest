@@ -18,10 +18,10 @@
     "updated": "2026-09-13"
   },
   "about": {
-    "cover": "https://image.tmdb.org/t/p/w500/n5XNKXnoXpoXyfiCtXHOf8q8PFM.jpg",
+    "cover": "https://cdn.myanimelist.net/images/anime/10/18793.jpg",
     "synopsis": {
       "zh": "1986年，一名头部被子弹击中的重伤少年送到西德·杜塞尔多夫医院中。日本外科医生天马忽视院长的命令，以他天才般的手术技术的拯救了那位少年。\n\n实行共产主义的世界为推倒西德进行着异常的阴谋。捷克斯洛伐克秘密警察法兰斯·波拿巴达等人，教育孩童们成为送往资本主义各国的战斗员。在这过程中诞生了约翰这个怪物。约翰心中的怪物越变越大，进而开始杀害周遭的人。就像是波拿巴达的绘本《没有名字的怪物》里的主角怪物，附身于人身上而逐渐吃掉身边的人。\n\n数年后、1995年，几年不见的约翰已长成巨大的怪物、一点也不犹豫地杀掉天马的病人。在体内有什么东西爆开了似的天马、因而追缉着怪物约翰。天马医生是否能阻止约翰的杀戮呢？刺激约翰的绘本《没有名字的怪物》到底是什么呢？为什么约翰要一直杀人？故事就在柏林墙倒塌后的德国与捷克展开。",
-      "en": "Kenzou Tenma, a Japanese brain surgeon in Germany, finds his life in utter turmoil after getting involved with a psychopath that was once a former patient."
+      "en": "Dr. Kenzou Tenma, an elite neurosurgeon recently engaged to his hospital director's daughter, is well on his way to ascending the hospital hierarchy. That is until one night, a seemingly small event changes Dr. Tenma's life forever. While preparing to perform surgery on someone, he gets a call from the hospital director telling him to switch patients and instead perform life-saving brain surgery on a famous performer. His fellow doctors, fiancée, and the hospital director applaud his accomplishment; but because of the switch, a poor immigrant worker is dead, causing Dr. Tenma to have a crisis of conscience.\n\n\n\n\n\nSo when a similar situation arises, Dr. Tenma stands his ground and chooses to perform surgery on the young boy Johan Liebert instead of the town's mayor. Unfortunately, this choice leads to serious ramifications for Dr. Tenma—losing his social standing being one of them. However, with the mysterious death of the director and two other doctors, Dr. Tenma's position is restored. With no evidence to convict him, he is released and goes on to attain the position of hospital director. \n\n\n\n\n\nNine years later when Dr. Tenma saves the life of a criminal, his past comes back to haunt him—once again, he comes face to face with the monster he operated on. He must now embark on a quest of pursuit to make amends for the havoc spread by the one he saved."
     },
     "scores": {
       "bangumi": {
@@ -34,9 +34,9 @@
         "votes": 75216
       },
       "mal": {
-        "score": 8.89,
-        "votes": 518695,
-        "rank": 27
+        "score": 8.9,
+        "votes": 525545,
+        "rank": 25
       },
       "tmdb": {
         "score": 8.497,
@@ -71,15 +71,82 @@
       }
     ],
     "genres": [
-      "Animation",
       "Drama",
       "Mystery",
-      "Crime"
+      "Suspense",
+      "Adult Cast",
+      "Psychological",
+      "Seinen"
     ],
     "studios": [
       "Madhouse"
     ],
-    "backdrop": "https://image.tmdb.org/t/p/w500/6T19aRp9zLMghZo1dTEwoNyreNZ.jpg"
+    "backdrop": "https://image.tmdb.org/t/p/w500/6T19aRp9zLMghZo1dTEwoNyreNZ.jpg",
+    "characters": [
+      {
+        "name": "Anna Liebert",
+        "role": "Main",
+        "image": "https://cdn.myanimelist.net/images/characters/11/286916.jpg",
+        "mal_id": 720,
+        "favorites": 1326
+      },
+      {
+        "name": "Johan Liebert",
+        "role": "Main",
+        "image": "https://cdn.myanimelist.net/images/characters/4/316522.jpg",
+        "mal_id": 719,
+        "favorites": 27824
+      },
+      {
+        "name": "Kenzou Tenma",
+        "role": "Main",
+        "image": "https://cdn.myanimelist.net/images/characters/15/347641.jpg",
+        "mal_id": 718,
+        "favorites": 13574
+      },
+      {
+        "name": "Wolfgang Grimmer",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/15/27826.jpg",
+        "mal_id": 3096,
+        "favorites": 11410
+      },
+      {
+        "name": "Heinrich Lunge",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/13/272131.jpg",
+        "mal_id": 721,
+        "favorites": 2948
+      },
+      {
+        "name": "Eva Heinemann",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/15/70891.jpg",
+        "mal_id": 6123,
+        "favorites": 439
+      },
+      {
+        "name": "Dieter",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/8/289032.jpg",
+        "mal_id": 6329,
+        "favorites": 407
+      },
+      {
+        "name": "Martin Reest",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/8/289038.jpg",
+        "mal_id": 12117,
+        "favorites": 346
+      },
+      {
+        "name": "Julius Reichwein",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/14/28592.jpg",
+        "mal_id": 11080,
+        "favorites": 123
+      }
+    ]
   },
   "intro": {
     "logline": "一位脑外科医生救活了一个孩子，然后用余生去追他。",
@@ -144,7 +211,7 @@
         "en": "Dr. Kenzo Tenma, a leading neurosurgeon at the Dusseldorf Hospital has received massive acclaim for his successful surgery on a famous opera singer. However, he is burdened by guilt. Due to pressure from the director, he had operated on the opera singer on the night that he was supposed to operate on another man. As a result, when the director’s orders him to operate on the mayor, he decides to ignore the order and instead works on saving the life of a young boy, brought to the hospital from the scene of a serial homicide. However, the boy's twin sister, who was brought in with the boy, and who still suffers from shock, keeps repeating the words 'kill him'.",
         "zh": "天马贤三是从日本渡海而来的年轻外科医生。目前在德国艾斯勒医院海尼曼医疗小组担任外科组长。天马出众的外科技巧使他深受外科主任的赏识，院长把自己的爱女爱玛许给了天马作未婚夫，并暗示了将来一定会让他荣升的想法。在成功的完成了音乐家罗林哈巴的脑部手术后，艾斯勒医院名声大振，天马虽然不喜欢医院那种利益至上观念，但是为了能从事自己喜欢的医学研究，还是安于现状的生活着。一位普通土耳其妇女的指责，使得天马发现音乐家手术成功给医院带来的利益是建立在一位普通土耳其市民的牺牲上。天马的良心受到了严厉的苛责，一连几天都神情恍惚，他反复麻醉自己这是医院的命令，而非自己的责任，可是未婚妻的一句话“人的生命本来就不是等值的。”给他带来不小的冲击，令他开始怀疑自己是不是也开始堕落了。天马想指正院长不应该以利益为重，而是应该以救人为己任，但是院长毫不理会，还命令天马停止蛛网膜的研究帮他在学术会议上的发言写草稿，使得因为仰慕院长的研究而远渡重洋天马感到痛苦不已。这天，医院里接到急诊，东德的高官李贝特夫妇一家遭到强盗袭击，夫妇两中弹身亡，留下了昏迷的女儿安娜和重伤的儿子约翰。约翰头部中弹伤势十分严重，天马仔细的制定的手术方案发誓要救回少年的生命，正在此时市长罗帝卡也因为脑血栓被送往医院急救，院长再一次要求天马放弃那个男孩执行市长的治疗手术。在前往手术室的路上，那个土耳其妇女指责言词反复出现在天马的脑海中，在道德的天平上，天马最终选择了救助那个重伤的少年。"
       },
-      "title_native": "ヘルDr.テンマ",
+      "title_native": "ヘルＤｒ．テンマ",
       "title_en": "Herr Dr. Tenma",
       "title_cn": "天马医生",
       "aired": "2004-04-07",
@@ -350,7 +417,7 @@
         "zh": "天马的线索很快就找到了双胞胎之妹身上，开始寻找妮娜的下落。妮娜的养父母也打算在她生日这天将她的身世告诉她。天马找到了一海德堡邮报记者的帮助下找到了妮娜的养父母家，但是约翰已早先一步，妮娜被约到了海德堡古堡，而养父母家也潜藏着各种危险。"
       },
       "title_native": "失踪記事",
-      "title_en": "The Missing",
+      "title_en": "Disappearance Report",
       "aired": "2004-05-12",
       "heat": {
         "mal_replies": 106,
@@ -391,7 +458,7 @@
         "zh": "天马在海德堡古堡救出妮娜后回到妮娜养父母家里，可是妮娜养父母以及那位热心的曼拉记者都已经被杀害，正当他们无所适从之时，两名自称是警察的人收到报警来接他们回警局，但在路上天马发现诸多疑点带着妮娜趁机跳河逃跑，但这之后，天马逐渐意识到正是自己当时将那个怪物救回的。"
       },
       "title_native": "惨劇の館",
-      "title_en": "House of Tragedy",
+      "title_en": "Mansion of Tragedy",
       "aired": "2004-05-19",
       "heat": {
         "mal_replies": 120,
@@ -432,7 +499,7 @@
         "zh": "伦克警官以一条九年前的领带而找到艾娃向她询问线索，父亲去世后，艾娃的生活也并不如意，离异三次，靠着父亲的遗产和离婚赔偿过活，也整日酗酒度日，总是对她和天马的未来抱有希望，再一次试图和天马重新开始遭到拒绝后，艾娃向伦克警官举报了关于领带的线索。"
       },
       "title_native": "追われる身",
-      "title_en": "Pursued",
+      "title_en": "The Fugitive",
       "aired": "2004-05-26",
       "heat": {
         "mal_replies": 157,
@@ -554,7 +621,7 @@
         "en": "Tenma learns that Johan used to be in an orphanage known as Kinderheim 511. And he meets a former East German official named Hartmann who used to work there and an injured boy named Dieter.",
         "zh": "天马继续追查，由李贝特夫妇之前在511幼儿之家领养到一对双胞胎的线索，通过曾在卫生署工作的哈德曼了解到原来在东德时孩子曾在孤儿院受过非人的待遇，天马还进一步了解到511幼儿之家曾经是东德内政部门的一个实验场。"
       },
-      "title_native": "511キンダーハイム",
+      "title_native": "５１１キンダーハイム",
       "title_en": "511 Kinderheim",
       "aired": "2004-06-16",
       "heat": {
@@ -718,7 +785,7 @@
         "en": "Dr. Tenma and Nina Fortner's investigations lead them to a powerful man known as 'The Baby', who belongs in an extremist organisation. They soon learn that the organisation has special plans for the Turkish district tomorrow.",
         "zh": "天马找到当时代人行凶杀死妮娜养父母的密斯普警官，了解到妮娜的行踪，妮娜为找约翰已置身一个神秘组织中，天马为保护妮娜而身陷囹圄遭受毒打，同时妮娜也得到了来自管道另一端的重要情报。天马在被毒打过程中了解到这些坏人组织想要催生一个希特勒式的人物，选中的目标正是约翰。"
       },
-      "title_native": "ビー・マイ・ベイビー",
+      "title_native": "ビー·マイ·ベイビー",
       "title_en": "Be My Baby",
       "title_cn": "BE MY BABY",
       "aired": "2004-07-14",
@@ -842,7 +909,7 @@
         "zh": "约翰并非大家所想的那么坏，其实他体内有个怪物使其有着双重人格，妮娜被罗素先生保释出来，继续以安娜.李贝利之名在在罗素先生的意大利餐厅做服务生，每天下午都要去训练射击，与罗素先生有一番沟通之后，想向他学习杀人，而他却早已放下枪并满足于平常人的生活。"
       },
       "title_native": "五杯目の砂糖",
-      "title_en": "Five Sugars",
+      "title_en": "The Fifth Spoonful of Sugar",
       "aired": "2004-08-04",
       "heat": {
         "mal_replies": 115,
@@ -883,7 +950,7 @@
         "zh": "为了搞清楚约翰的真正内心，天马向大学时的一个研究心理学的同学鲁迪求助，而鲁迪正在研究的连环杀人犯尤根斯的犯罪心理正好与约翰雷同，原来约翰可以嗅出杀人者的气味并潜入他们孤寂的内心，随心所欲地操纵他们，这才导致他们犯罪杀人，鲁迪弄清真相后协助天马逃走。"
       },
       "title_native": "怪物の深淵",
-      "title_en": "Monster's Abyss",
+      "title_en": "The Monster's Abyss",
       "aired": "2004-08-11",
       "heat": {
         "mal_replies": 109,
@@ -965,7 +1032,7 @@
         "zh": "当初杀害佛多拿夫妇的凶手之一米勒警官现在过着富足的生活，并有保镖罗伯特的保护，但妮娜的到来让他知道了罗伯特是个危险的人，杀掉侦探，并且通过威胁从米勒那里拿走了警探搜集到的案件进展资料，妮娜被罗伯特的人抓走，而米勒的及时赶到救了妮娜但是自己却受伤。"
       },
       "title_native": "幸せな休日",
-      "title_en": "Happy Holidays",
+      "title_en": "A Wonderful Holiday",
       "aired": "2004-08-25",
       "heat": {
         "mal_replies": 110,
@@ -1088,7 +1155,7 @@
         "zh": "迫于约翰旧照未能到手，罗伯特并未杀掉艾娃，并且告诉她天马目前的所在地，罗伯特带着艾娃找到在山庄里的天马，艾娃为了救天马而受伤，天马不顾生命危险救下艾娃的性命，把她安顿在山庄后，天马依着从山庄主人那里获得线索约翰很可能在慕尼黑从事黑道银行而带着迪特转去那里。"
       },
       "title_native": "男達の食卓",
-      "title_en": "Of Men and Dining",
+      "title_en": "The Men's Dining Table",
       "aired": "2004-09-15",
       "heat": {
         "mal_replies": 124,
@@ -1129,7 +1196,7 @@
         "zh": "在慕尼黑大学有一位在为富商休伯特先生朗读书文的学生卡尔.诺伊曼，而事实这两人正是父子，在热心同学露帝.法兰克的帮助下，他发现有人正在冒用他的身份，就在谜团要破解之时，这位星期四男生突然上吊自杀，而同时另一位同为念书男生的人出现在了诺伊曼的生活里，这人正是约翰。"
       },
       "title_native": "木曜日の青年",
-      "title_en": "Thursday's Boy",
+      "title_en": "The Thursday Boy",
       "aired": "2004-09-29",
       "heat": {
         "mal_replies": 121,
@@ -1211,7 +1278,7 @@
         "zh": "利亚特之前酗酒让他的生活糟透了，妻子带着女儿离开他，他重新开始认真生活，但是女儿仍然不愿与他相见。约翰从诺伊曼处骗取诺伊曼与父亲相认的信物后，在他的帮助下，休伯特父子相认，老财主决定让约翰担任自己的特别秘书。"
       },
       "title_native": "証拠の品",
-      "title_en": "Proof",
+      "title_en": "Pieces of Evidence",
       "aired": "2004-10-13",
       "heat": {
         "mal_replies": 129,
@@ -1334,7 +1401,7 @@
         "zh": "利亚特死后留下种种疑点，而他的心理医生莱希瓦决定接手利亚特继续将案件查个水落石出，为了能尽快揭露真相，鲁迪和莱希瓦在报纸上刊登了一则广告希望引起天马的注意并主动和他们联系。莱希瓦医生越来越接近真相也越来越危险，就在有人想要取他性命之时天马及时出现并救了他。"
       },
       "title_native": "ある決意",
-      "title_en": "Decision",
+      "title_en": "A Certain Decision",
       "aired": "2004-11-03",
       "heat": {
         "mal_replies": 196,
@@ -1375,7 +1442,7 @@
         "zh": "自从亲眼见到约翰后，正如鲁迪和莱希瓦担心的那样，天马意欲单独行动找到约翰并斩除祸害，将迪特托付给莱希瓦之后他便消失了。伦克警察找到了鲁迪医生，想要了解天马的行踪，鲁迪将自己的报告和分析讲给伦克希望他能理解天马并非凶手，伪善的伦克骗到天马的行踪后立即开始布置抓捕他。"
       },
       "title_native": "白日の下へ",
-      "title_en": "In Broad Daylight",
+      "title_en": "Under Broad Daylight",
       "aired": "2004-11-10",
       "heat": {
         "mal_replies": 134,
@@ -1456,8 +1523,8 @@
         "en": "Dieter learns of a life threatening game that children are playing. Mr. Schuwald decides to donate his whole book collection to the Munich University Library under the suggestion of Karl and Johan.",
         "zh": "孩童坠楼案件屡屡发生，迪特偶然间与一名坠楼男童交流得知原来是约翰教唆所为，并通过自己的经历阻止了这名受伤的男孩。休伯特准备将自己的大量珍贵藏书捐赠给德国慕尼黑大学，约翰作为工作人员之一参观了图书馆，但无意中看到一本捷克布拉格出版社出版的艾蜜尔.薛贝的绘本而情绪失控昏倒过去。"
       },
-      "title_native": "子どもの情景",
-      "title_en": "A Child's View",
+      "title_native": "子供の情景",
+      "title_en": "Scene of a Child",
       "aired": "2004-12-01",
       "heat": {
         "mal_replies": 152,
@@ -1498,7 +1565,7 @@
         "zh": "约翰病愈后收到一封来自红色兴登堡的信件，红色兴登堡位于红灯区，原来是假冒的玛尔格特.兰卡约他，揭穿了约翰的阴谋后被自己准备好的凶手罗伯特给杀害了，天马为追杀手下落，找到了一位越南籍17岁姑娘她竭力为人治病，并指导姑娘为一位受枪伤的女人做手术，之后继续追寻约翰的下落。"
       },
       "title_native": "闇の果て",
-      "title_en": "At the Edge of Darkness",
+      "title_en": "At the End of the Darkness",
       "aired": "2004-12-08",
       "heat": {
         "mal_replies": 89,
@@ -1539,7 +1606,7 @@
         "zh": "伦克警官亲自找到天马故友，从他们那里了解天马的情况，但同时他因为了解天马的心理状态而放弃了与女儿及孙儿的见面，与天马相识的旧友中有人为了与休伯特谈生意特地讨好其秘书约翰，买到一本捷克语的绘本，这引起了伦克的兴趣。鲁迪医生和莱希瓦医生一直在通过罪犯和拜访李贝特夫妻在调查约翰的心理。"
       },
       "title_native": "名なしのヒーロー",
-      "title_en": "My Nameless Hero",
+      "title_en": "A Hero With No Name",
       "aired": "2004-12-15",
       "heat": {
         "mal_replies": 118,
@@ -1580,7 +1647,7 @@
         "zh": "莱希瓦医生为了避免天马走上不归路特地在深夜拜访休伯特，将自己的调查研究一并讲给了休伯特，道出了约翰接近他的初衷，而此时的天马已躲在图书馆内准备伺机暗杀约翰。鲁迪医生也向伦克警官讲述了自己的研究，但此时的伦克依然相信天马才是真凶。捐书仪式举行在即，莱希瓦和安娜瞬间顿悟。"
       },
       "title_native": "混沌の怪物",
-      "title_en": "The Monster of Chaos",
+      "title_en": "A Monster of Chaos",
       "aired": "2004-12-22",
       "heat": {
         "mal_replies": 117,
@@ -1621,7 +1688,7 @@
         "zh": "天马在图书馆欲伺机射击约翰，结果被约翰的杀手罗伯特偷袭，天马最终能否开出了第一枪杀掉罗伯特？之后图书馆内发生了一场火灾，莱希瓦和安娜的到来是否能能阻止天马？在大火中大家是否能逃生？"
       },
       "title_native": "なまえのないかいぶつ",
-      "title_en": "A Nameless Monster",
+      "title_en": "A Monster Without a Name",
       "title_cn": "没有名字的怪物",
       "aired": "2005-01-12",
       "heat": {
@@ -1662,7 +1729,7 @@
         "zh": "约翰最终将暗杀休伯特变成了一场图书馆火灾，顿时图书馆变成了人间炼狱，约翰为了自保开出了人生的第一枪，并在火场中冷静应对，为求生的人们找到出口，但他最终于错失除掉约翰的良机，拼命从火场中救出休伯特先生。"
       },
       "title_native": "我が目の悪魔",
-      "title_en": "The Demon in My Eyes",
+      "title_en": "The Demon in Our Eyes",
       "aired": "2005-01-19",
       "heat": {
         "mal_replies": 183,
@@ -1784,8 +1851,8 @@
         "en": "Grimmer stubbornly stalks Petrov for his experimental research papers chronicaling the abuses at Kinderheim 511, but he gets a surprise instead.",
         "zh": "葛利马找到原511幼儿之家院长派特罗夫向他了解当时的研究结果，而派特罗夫三缄其口，但葛利马还是了解到他目前在收养着一批幼儿，并且以不同于当时幼儿之家的培养方法在关爱着这群孩子。之后派特罗夫及其女佣被枪杀，临终时将一枚钥匙交给葛利马。"
       },
-      "title_native": "511の亡霊",
-      "title_en": "Ghosts of 511",
+      "title_native": "５１１の亡霊",
+      "title_en": "The Ghost of 511",
       "aired": "2005-02-09",
       "heat": {
         "mal_replies": 116,
@@ -1908,7 +1975,7 @@
         "zh": "与舒克关系较近的几位警官因吃了金发美女送的糖后中毒身亡，他从派特罗夫院长收留的孩子那里了解葛利马的为人和院长的死前状况。天马也开始了解门口有三只青蛙的神秘住所。而舒克视为知己的金发美女竟然是约翰假扮。"
       },
       "title_native": "二つの闇",
-      "title_en": "Double Darkness",
+      "title_en": "The Two Darkness",
       "aired": "2005-03-02",
       "heat": {
         "mal_replies": 463,
@@ -1949,7 +2016,7 @@
         "zh": "舒克所在的警局内上层格局的变动使他陷入被动和危险的局面，他与葛利马的互相讨论案情也被人监视起来。俩人一起揭开了派特罗夫院长临终前所言的秘密——是研究论文和一卷磁带，磁带内的内容是一名511幼儿之家的小男孩的问答，由于相关的回忆葛利马停止听下去。之后舒克身边发生危险杀人事件。"
       },
       "title_native": "怪物の残像",
-      "title_en": "The Monster's Afterimage",
+      "title_en": "The Afterimage of a Monster",
       "aired": "2005-03-09",
       "heat": {
         "mal_replies": 117,
@@ -1990,7 +2057,7 @@
         "zh": "天马查剪报时发现捷克的前秘密警察，而且发现舒克警官的案件和自己的当年竟惊人相似。他前去找舒克的母亲想要了解些信息。葛利马和舒克此时正躲起避难，不料避难所也被危险分子盯紧，舒克受到严重枪伤，葛利马在最后时刻另一重人格爆，天马也及时赶到。"
       },
       "title_native": "接点",
-      "title_en": "Contact",
+      "title_en": "The Point of Contact",
       "aired": "2005-03-16",
       "heat": {
         "mal_replies": 122,
@@ -2031,7 +2098,7 @@
         "zh": "由约翰假冒的妮娜离开了齐朵克桥，而真正的妮娜回到小时候生长的地方后被无形的力量牵引着回到房间，意识渐渐开启。天马和葛利马寻找舒克的下落，意外被旧捷克斯洛伐克的秘密警察干部卡列尔.兰格上校邀请，天马渐渐知道磁带和研究的下落，并道出自己所知的约翰的真相"
       },
       "title_native": "悪夢の扉",
-      "title_en": "The Door to Nightmares",
+      "title_en": "The Door to a Nightmare",
       "aired": "2005-03-23",
       "heat": {
         "mal_replies": 92,
@@ -2071,8 +2138,8 @@
         "en": "Johan visits Suk's mother. Tenma and Grimmer learns of his visit. They, including Col. Ranke, listen to Johan's tape. Lunge arrives in Prague for a 'holiday'. His investigation leads him to the sketches of Franz Bonaparta.",
         "zh": "约翰假扮的金发美女提前赶到舒克母亲的医院，并且提前拿到磁带将重要内容给洗去了。伦克警官也赶往布拉格继续追查案件，并已涉足艾蜜儿.薛贝的绘画本，借助布沛拉警长的帮助开始真正接触约翰的个人资料。"
       },
-      "title_native": "一番怖いもの",
-      "title_en": "The Scariest Thing",
+      "title_native": "番怖いもの",
+      "title_en": "The Most Frightening Thing",
       "aired": "2005-03-30",
       "heat": {
         "mal_replies": 121,
@@ -2112,7 +2179,7 @@
         "en": "Grimmer and Tenma tries to stop Johan from subjecting Milo, one of the orphans, to one of the most cruel fate.",
         "zh": "葛利马和天马继续追查，无意中发现葛利马很受孩子们的欢迎，而他自己因从小的经历而不知道应该作何反应。伦克警官找到舒克的母亲了解情况。喜欢葛利马的孩子们为了要帮助他洗脱罪名开始追寻金发女郎的下落。其中一个小孩子米休罗为了寻找自己的母亲而被约翰做了残酷的事情。"
       },
-      "title_native": "一番残酷なこと",
+      "title_native": "番残酷なこと",
       "title_en": "The Cruelest Thing",
       "aired": "2005-04-06",
       "heat": {
@@ -2195,7 +2262,7 @@
         "zh": "天马被捕的消息传到德国境内，曾经受惠于他的患者和医生都在想着怎么样能尽一己之力解救天马医师。休伯特先生也正在筹备着请律师帮助天马。伦克警官从蔷薇大屋中的美女像背后找到一本类似小说草稿的文本《怪物写给美女的情书》。"
       },
       "title_native": "怪物のラブレター",
-      "title_en": "The Monster's Love Letter",
+      "title_en": "A Monster's Love Letter",
       "aired": "2005-04-20",
       "heat": {
         "mal_replies": 110,
@@ -2236,7 +2303,7 @@
         "zh": "隽特.米尔希是一位劣迹斑斑的罪犯，他与天马同在一个看守所，怂恿天马与其越狱，菲利兹博德曼是一位使众多冤案逆反且非常正义的司法界宠儿，他接受了作为天马辩护律师的邀请。律师称艾娃.海尼曼是关键人物，而此时被天马开枪所伤的罗伯特居然生还，并称要杀掉艾娃。"
       },
       "title_native": "弁護士",
-      "title_en": "The Lawyer",
+      "title_en": "Lawyer",
       "aired": "2005-04-27",
       "heat": {
         "mal_replies": 147,
@@ -2318,7 +2385,7 @@
         "zh": "警车载着天马和米尔希前往另一个拘留所，途中米尔希早就准备好了让一位兄弟在马路上碰瓷，结果碰瓷不成倒送了小命。天马利用死者留下的枪成功脱险。艾娃准备要替天马的清白作证时，意外从电视新闻上看到天马逃脱的消息，而此时危险正在逼近她。"
       },
       "title_native": "脱走",
-      "title_en": "The Escape",
+      "title_en": "Escape",
       "aired": "2005-05-11",
       "heat": {
         "mal_replies": 109,
@@ -2358,8 +2425,8 @@
         "en": "Dr. Tenma takes Verderman hostage in a desperate search for Eva. And Verderman's dark past is revealed.",
         "zh": "逃脱后的天马开始寻找艾娃，不料艾娃已退房离开，伦克警官带着绘本找到菲利兹博德曼，并向他询问博德曼父亲与绘本作者间的某些关联。约翰持枪威胁博德曼并向他他逼问艾娃的下落，博德曼被逼价道出自己辛苦隐藏的秘密。"
       },
-      "title_native": "402号室",
-      "title_en": "Room 402",
+      "title_native": "４０２号室",
+      "title_en": "Room Number 402",
       "aired": "2005-05-18",
       "heat": {
         "mal_replies": 78,
@@ -2400,7 +2467,7 @@
         "zh": "天马又开始旅程，博德曼开始去寻找那座蔷薇之屋的秘密。妮娜和迪特开始去寻找她的记忆，也顺迹找到了蔷薇之屋，惨死一地的尸体画面渐次浮现在脑海中，晕厥过去的她再醒来已是三个月后，救他的人利普斯基早前也是朗读会的成员，因为表现不好而早早离开了，现在靠表演木偶戏和打杂工为生。"
       },
       "title_native": "終わらない旅",
-      "title_en": "The Neverending Journey",
+      "title_en": "The Unending Journey",
       "aired": "2005-05-25",
       "heat": {
         "mal_replies": 111,
@@ -2482,7 +2549,7 @@
         "zh": "供职于宝宝门下的一位出色保镖马汀被一神秘人物相中，从而接受保护艾娃的工作，跟女人相关的工作于他而言都是讨厌的工作。神秘人物与艾娃貌似签订了某种协议，使其出入高级宴会寻找一个人，艾娃的泪水让马汀突然有种想要保护她的欲望，枪林弹雨中马汀为了保护艾娃而身受重伤却坚持要见到天马。"
       },
       "title_native": "いやな仕事",
-      "title_en": "I Hate This Job",
+      "title_en": "Unwanted Job",
       "aired": "2005-06-08",
       "heat": {
         "mal_replies": 101,
@@ -2605,7 +2672,7 @@
         "zh": "舒克警官开始向朗读会旧成员了解情况，博德曼作为旁听者，也参与其中。妮娜每天都回到蔷薇之屋去尽量恢复回忆，但每次都让她痛苦不堪，迪特提议他们应该听从天马的劝告回到慕尼黑忘掉过去开始建立新的快乐的记忆。回到慕尼黑后，妮娜在鲁迪医生的帮助下过往所有的经历全部想起，并决定去帮助天马解决所有的事情。"
       },
       "title_native": "記憶の扉",
-      "title_en": "The Door to Memories",
+      "title_en": "The Door of Memory",
       "aired": "2005-06-29",
       "heat": {
         "mal_replies": 97,
@@ -2646,7 +2713,7 @@
         "zh": "天马欲去寻找恶魔的徒弟不料被警察追踪，天马遭遇车祸，一位叫米朗.科拉林的牙医将其救治，原来之前他因住在土尔其街也受过天马的恩惠。米朗也立誓要除掉彼得.查倍克，因为这位恶魔曾经组织的朗读会间接杀掉了他的儿子，并且米朗在负罪感上与天马极其相似。"
       },
       "title_native": "楽しい食卓",
-      "title_en": "A Pleasant Dinner Table",
+      "title_en": "A Fun Dining Table",
       "aired": "2005-07-06",
       "heat": {
         "mal_replies": 95,
@@ -2687,7 +2754,7 @@
         "zh": "查士巴哈警官再有几天就要退休安享天年了，他退休前的最后一桩差事就是押送一位犯人，这位名叫莱因哈特.汀格的罪犯曾经杀过很多人，工作细致的查士巴哈警官在与他的交流中得到一些线索，而这些线索就是多年来绕于他心的关于天马医师被冤一案。联合鲁迪医师，查士巴哈终于问出恶魔现居地——法兰克福。"
       },
       "title_native": "無関係な殺人",
-      "title_en": "Unrelated Murders",
+      "title_en": "An Unrelated Murder",
       "aired": "2005-07-13",
       "heat": {
         "mal_replies": 97,
@@ -2810,7 +2877,7 @@
         "zh": "选择一些条件优秀的男女使他们结合，生出优秀的宝宝来完成一些试验，而约翰和妮娜的父母就是当时被选中的一对。查培克告诉妮娜真相后将其带到约翰指定的地点，在经过了种种变故后，妮娜的枪对准了约翰，同时天马也得到约翰的栖身之所。"
       },
       "title_native": "おかえり",
-      "title_en": "Welcome Home",
+      "title_en": "Welcome Back",
       "aired": "2005-08-03",
       "heat": {
         "mal_replies": 101,
@@ -2851,7 +2918,7 @@
         "zh": "约翰向妹妹讲述了当年蔷薇之屋事件的经过，只有法兰兹.拨纳帕达没有喝下红酒而庆幸逃生。妮娜所有的回忆显示出当年杀害蔷薇之屋的42人的正是她自己，但据查培克的了解，约翰对此事却有着完全不一样的回忆，约翰自己也承认他有着别样的记忆，并开始找寻他真正想去的地方。"
       },
       "title_native": "ただいま",
-      "title_en": "I'm Back",
+      "title_en": "I'm Home",
       "aired": "2005-08-10",
       "heat": {
         "mal_replies": 121,
@@ -2933,7 +3000,7 @@
         "zh": "镇南山坡上种植红莓的康拉特被人无故枪杀，导致中彩票的夫妇互相怀疑和猜忌，枪支不断地发送出去，镇上也不时听到枪声。天马找到利普斯基向他了解令尊法兰兹.拨纳帕达的下落。"
       },
       "title_native": "安らぎの家",
-      "title_en": "The Peaceful House",
+      "title_en": "A Peaceful Home",
       "aired": "2005-08-24",
       "heat": {
         "mal_replies": 96,
@@ -2974,7 +3041,7 @@
         "zh": "暴雨的一天，卢恩海姆小镇的杀戮真正开始，持枪的酒鬼、总被欺侮的小孩、以及酒吧里的客人都参与了其中，或杀人或被杀。而真正的法兰兹.拨纳帕达也浮出水面，他正是旅馆老板。天马也赶到小镇，努力帮助幸存的人逃离这个危险的小镇。"
       },
       "title_native": "殺戮の町",
-      "title_en": "The Town Massacre",
+      "title_en": "The Town of Slaughter",
       "aired": "2005-08-31",
       "heat": {
         "mal_replies": 129,
@@ -3015,7 +3082,7 @@
         "zh": "伦克警官恢复他警察身份开始去寻找发配命令的罗伯特，在街道与天马相逢后，两人分工去救人。葛利马为救人性命自动转换人格，最后伤势过重去世了，但令人欣慰的是在最后的时间他终于领悟了人性的本能，流泪和难过，于他而言，这已是幸福。"
       },
       "title_native": "超人シュタイナーの怒り",
-      "title_en": "The Wrath of the Magnificent Steiner",
+      "title_en": "The Magnificent Steiner's Rage",
       "aired": "2005-09-07",
       "heat": {
         "mal_replies": 273,
@@ -3056,7 +3123,7 @@
         "zh": "伦克警官去找寻罗伯特时被罗伯特枪伤，天马和法兰兹.拨纳帕达一起去协助伦克警官，法兰兹告诉天马，自己就是当时杀掉所有知情者的人。而更讽刺的是罗伯特竟然就是当年葛利马唯一的好朋友，但罗伯特却错付真情，一直以为送热可可给他的人就是约翰。妮娜赶到吸血鬼之屋并感知到约翰曾经来过。"
       },
       "title_native": "名前のない男",
-      "title_en": "A Nameless Man",
+      "title_en": "Man Without A Name",
       "aired": "2005-09-14",
       "heat": {
         "mal_replies": 124,
@@ -3097,7 +3164,7 @@
         "zh": "法兰兹.拨纳帕达想要亲手解决掉约翰，不幸却被罗伯特杀害，之后罗伯特也死掉。天马始终对约翰下不了手，约翰用枪威胁着威姆，这时威姆的父亲用恶魔发给他的枪射向约翰，后援警察终于赶到，暴雨也暂时告一段落，警察开始对幸存者进行盘问，而每个人也讲述了他们对整个事件的理解。"
       },
       "title_native": "終わりの風景",
-      "title_en": "Scenery for a Doomsday",
+      "title_en": "The Landscape of the End",
       "aired": "2005-09-21",
       "heat": {
         "mal_replies": 192,
