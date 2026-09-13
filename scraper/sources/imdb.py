@@ -30,9 +30,9 @@ def fetch(imdb_id: str, http, season: int | None = None) -> dict:
     with gzip.open(ep_file, "rt", encoding="utf-8") as f:
         next(f)
         for line in f:
-            tconst, parent, season, ep = line.rstrip("\n").split("\t")
+            tconst, parent, sn, ep = line.rstrip("\n").split("\t")  # 别叫 season：会遮住函数参数
             if parent == imdb_id:
-                rows.append((_int(season), _int(ep), tconst))
+                rows.append((_int(sn), _int(ep), tconst))
     if not rows:
         raise RuntimeError(f"imdb: no episodes under {imdb_id} — is it the series id (not an episode / movie)?")
 
