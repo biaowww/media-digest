@@ -1,0 +1,149 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "media-digest/show/v1",
+  "title": "media-digest show file",
+  "description": "一部剧一份。meta/about/episodes 由 scraper 维护（客观）；intro/route 在 session 里手写（主观），scraper 绝不改。",
+  "type": "object",
+  "required": ["meta", "episodes", "route"],
+  "properties": {
+    "meta": {
+      "type": "object",
+      "required": ["slug", "title", "total_eps", "schema_version"],
+      "properties": {
+        "slug": { "type": "string", "pattern": "^_?[a-z0-9][a-z0-9-]*$", "description": "下划线开头 = 示例/测试文件，不进 index.json" },
+        "title": { "type": "string" },
+        "title_cn": { "type": ["string", "null"] },
+        "title_native": { "type": ["string", "null"] },
+        "year": { "type": ["integer", "null"] },
+        "total_eps": { "type": "integer", "minimum": 1 },
+        "primary_kpi": { "type": "string", "enum": ["mal", "imdb", "tmdb", "bangumi"] },
+        "updated": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$" },
+        "schema_version": { "type": "integer" },
+        "ids": {
+          "type": "object",
+          "properties": {
+            "mal": { "type": ["string", "integer"] },
+            "bangumi": { "type": ["string", "integer"] },
+            "imdb": { "type": "string", "pattern": "^tt\\d+$" },
+            "tmdb": { "type": ["string", "integer"] },
+            "wiki": { "type": "string" }
+          }
+        }
+      }
+    },
+    "about": {
+      "description": "scraper 自动填的作品级客观信息，页面在 intro 缺项时回退用它。",
+      "type": "object",
+      "properties": {
+        "cover": { "type": ["string", "null"] },
+        "backdrop": { "type": ["string", "null"] },
+        "synopsis": { "$ref": "#/definitions/bilingual" },
+        "genres": { "type": "array", "items": { "type": "string" } },
+        "studios": { "type": "array", "items": { "type": "string" } },
+        "scores": { "type": "object" },
+        "links": { "type": "object" },
+        "characters": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["name"],
+            "properties": {
+              "name": { "type": "string" },
+              "role": { "type": ["string", "null"] },
+              "image": { "type": ["string", "null"] }
+            }
+          }
+        },
+        "characters_bangumi": { "type": "array" }
+      }
+    },
+    "intro": {
+      "description": "session 手写的作品介绍：头图 / 无剧透剧情简介 / 主要人物与动机 / 亮点 / 地位。全部可选，缺则页面回退到 about。",
+      "type": "object",
+      "properties": {
+        "cover": { "type": ["string", "null"], "description": "覆盖 about.cover 的头图 URL 或相对路径" },
+        "synopsis": { "type": "string", "description": "无剧透剧情介绍（中文）" },
+        "characters": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["name"],
+            "properties": {
+              "name": { "type": "string", "description": "与 about.characters[].name 对得上时会合并头像/角色" },
+              "name_cn": { "type": "string" },
+              "role": { "type": "string" },
+              "motivation": { "type": "string", "description": "这个人要什么、为什么" }
+            }
+          }
+        },
+        "highlights": { "type": "array", "items": { "type": "string" }, "description": "亮点，一条一句" },
+        "standing": { "type": "string", "description": "地位 / 评价 / 为什么值得看" }
+      }
+    },
+    "episodes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["n"],
+        "properties": {
+          "n": { "type": "integer", "minimum": 1 },
+          "title_native": { "type": ["string", "null"] },
+          "title_en": { "type": ["string", "null"] },
+          "title_cn": { "type": ["string", "null"] },
+          "aired": { "type": ["string", "null"] },
+          "synopsis": { "$ref": "#/definitions/bilingual" },
+          "sources": {
+            "type": "object",
+            "description": "多源并存不合并。脚本不加权、不算综合分。",
+            "properties": {
+              "mal": { "type": "object", "properties": { "score": { "type": ["number", "null"] }, "votes": { "type": ["integer", "null"] } } },
+              "imdb": { "type": "object", "properties": { "rating": { "type": ["number", "null"] }, "votes": { "type": ["integer", "null"] } } },
+              "tmdb": { "type": "object", "properties": { "vote_average": { "type": ["number", "null"] }, "vote_count": { "type": ["integer", "null"] } } },
+              "bangumi": { "type": "object", "properties": { "score": { "type": ["number", "null"] }, "votes": { "type": ["integer", "null"] }, "comments": { "type": ["integer", "null"] } } }
+            }
+          }
+        }
+      }
+    },
+    "route": {
+      "description": "有序、不重叠的路线节点。允许为空——只有 episodes 时页面也能渲染。",
+      "type": "array",
+      "items": {
+        "oneOf": [
+          {
+            "type": "object",
+            "required": ["kind", "eps", "why"],
+            "properties": {
+              "kind": { "const": "watch" },
+              "eps": { "$ref": "#/definitions/range" },
+              "why": { "type": "string" }
+            },
+            "additionalProperties": false
+          },
+          {
+            "type": "object",
+            "required": ["kind", "eps", "title", "paragraphs"],
+            "properties": {
+              "kind": { "const": "bridge" },
+              "eps": { "$ref": "#/definitions/range" },
+              "title": { "type": "string" },
+              "paragraphs": { "type": "array", "minItems": 1, "items": { "type": "string" } }
+            },
+            "additionalProperties": false
+          }
+        ]
+      }
+    }
+  },
+  "definitions": {
+    "range": {
+      "type": "array", "minItems": 2, "maxItems": 2,
+      "items": { "type": "integer", "minimum": 1 },
+      "description": "[起, 止] 闭区间，单集写 [n, n]"
+    },
+    "bilingual": {
+      "type": "object",
+      "properties": { "en": { "type": ["string", "null"] }, "zh": { "type": ["string", "null"] } }
+    }
+  }
+}

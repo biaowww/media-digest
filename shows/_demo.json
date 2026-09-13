@@ -1,0 +1,1786 @@
+{
+  "meta": {
+    "slug": "_demo",
+    "schema_version": 1,
+    "ids": {
+      "mal": "19",
+      "bangumi": "1959",
+      "imdb": "tt0434706",
+      "wiki": "List of Monster episodes"
+    },
+    "title": "Monster (UI 示例)",
+    "title_cn": "怪物 · UI 示例",
+    "title_native": "MONSTER",
+    "year": 2004,
+    "total_eps": 74,
+    "primary_kpi": "mal",
+    "updated": "2026-09-13"
+  },
+  "about": {
+    "cover": "https://lain.bgm.tv/pic/cover/l/e4/dd/1959_W3w23.jpg",
+    "synopsis": {
+      "zh": "1986年，一名头部被子弹击中的重伤少年送到西德・杜塞尔多夫医院中。日本外科医生天马忽视院长的命令，以他天才般的手术技术的拯救了那位少年。\r\n\r\n实行共产主义的世界为了推倒西德而进行着异常的阴谋。捷克斯洛伐克秘密警察法兰斯·波纳帕达等人，教育孩童们成为送往资本主义各国的战斗员，在这过程中诞生了约翰这个怪物。约翰心中的怪物越变越大，进而开始杀害周遭的人。就像是法兰兹·波纳帕达的绘本《没有名字的怪物》里的主角怪物，附身于人身上而逐渐吃掉身边的人。\r\n\r\n数年后、1995年，几年不见的约翰已长成巨大的怪物、一点也不犹豫地杀掉天马的病人。在体内有什么东西爆开了似的天马、因而追缉著怪物约翰。天马医生是否能阻止约翰的杀戮呢？刺激约翰的绘本《没有名字的怪物》到底是什么呢？为什么约翰要一直杀人？故事就在柏林墙倒塌后的德国与捷克展开。"
+    },
+    "scores": {
+      "bangumi": {
+        "score": 8.2,
+        "votes": 4689,
+        "rank": 122
+      },
+      "imdb": {
+        "score": 8.8,
+        "votes": 75216
+      }
+    },
+    "links": {
+      "bangumi": "https://bgm.tv/subject/1959",
+      "imdb": "https://www.imdb.com/title/tt0434706/",
+      "wiki": "https://en.wikipedia.org/wiki/List_of_Monster_episodes"
+    },
+    "characters_bangumi": [
+      {
+        "name_native": "ヨハン・リーベルト",
+        "relation": "主角",
+        "image": "https://lain.bgm.tv/pic/crt/g/9a/a8/2467_crt_rXCB6.jpg?r=1416817955",
+        "bangumi_id": 2467
+      },
+      {
+        "name_native": "ニナ・フォルトナー",
+        "relation": "主角",
+        "image": "https://lain.bgm.tv/pic/crt/g/be/36/5040_crt_XDd5t.jpg",
+        "bangumi_id": 5040
+      },
+      {
+        "name_native": "天馬賢三",
+        "relation": "主角",
+        "image": "https://lain.bgm.tv/pic/crt/g/83/d6/18451_crt_agEgg.jpg?r=1697636749",
+        "bangumi_id": 18451
+      }
+    ]
+  },
+  "intro": {
+    "synopsis": "（示例文本，非真实内容）1986 年的西德，一位年轻的外科医生做出了一个违背医院命令的选择。多年后，一连串看似无关的命案把他重新拉回那个夜晚。",
+    "characters": [
+      {
+        "name": "Kenzou Tenma",
+        "name_cn": "天马贤三",
+        "role": "主角 · 外科医生",
+        "motivation": "（示例）他要证明自己救下的那条命没有错。"
+      },
+      {
+        "name": "Johan Liebert",
+        "name_cn": "约翰",
+        "role": "（示例）",
+        "motivation": "（示例）他想让所有人看到，一切最终归于无名。"
+      }
+    ],
+    "highlights": [
+      "（示例）74 集无一集注水的悬疑长跑",
+      "（示例）每个配角都有完整的弧光"
+    ],
+    "standing": "（示例）常年位列各站动画评分前列，被视为成人向悬疑动画的标杆。"
+  },
+  "episodes": [
+    {
+      "n": 1,
+      "sources": {
+        "imdb": {
+          "rating": 8.3,
+          "votes": 5103,
+          "tconst": "tt0906232",
+          "season": 1,
+          "episode": 1
+        },
+        "bangumi": {
+          "comments": 23,
+          "url": "https://bgm.tv/ep/9853"
+        }
+      },
+      "synopsis": {
+        "en": "Dr. Kenzo Tenma, head of Neurosurgery at the Eisler Memorial Hospital in Düsseldorf, carries out a successful neurosurgery on a famous opera singer, but the hospital Director Udo Heinmann takes the credit during a press conference. Later, Tenma is saddened when he discovers that an operation on a Turkish construction worker was given a lower priority and subsequently died. The construction worker's widow blames Tenma for his death. When out with his fiancee, Director Heinemann's daughter Eva, Tenma states that the Turkish construction worker died because Dr. Becker took too long treating him. Eva comments that not all people are equal. Days later, Tenma is called in to remove a bullet from the head of Johan, the adopted son of Mr. and Mrs. Liebert, a couple who were shot dead in their home. Johan's twin sister Anna is also admitted, apparently in a state of severe shock with post-traumatic amnesia, muttering the words \"kill... him\". When Tenma is about to commence the operation, he is called away by Chief of Surgery Dr. Oppenheim on phone-based instructions from Director Heinemann to start surgery on Mayor Roedecker, who had previously committed a large amount of funds to the hospital. When Tenma states to Heinemann that he's the only one who can operate on Johan and to have Dr. Boyer handle the mayor, Heinemann advises Tenma to do the job because Mayor Roedecker is going to positively review Eisler Memorial Hospital next month. Due to his conscience, Tenma decides to go against Heinemann's orders and operate on Johan."
+      },
+      "title_native": "ヘルDr.テンマ",
+      "title_en": "Herr Dr. Tenma",
+      "title_cn": "Herr Dr. Tenma",
+      "aired": "2004-04-07"
+    },
+    {
+      "n": 2,
+      "sources": {
+        "imdb": {
+          "rating": 8.4,
+          "votes": 4119,
+          "tconst": "tt1319940",
+          "season": 1,
+          "episode": 2
+        },
+        "bangumi": {
+          "comments": 18,
+          "url": "https://bgm.tv/ep/9854"
+        }
+      },
+      "synopsis": {
+        "en": "Dr. Tenma is able to save Johan's life, but Roedecker dies during surgery under Dr. Boyer. Boyer and Oppenheim scold Tenma, stating that the doctors had to scramble to cover for him at the last minute resulting in Roedecker's death. Oppenheim forwards his report to the director. As a news report states that flowers were left at City Hall and a decision for a new mayor is taking place, Director Heinemann states in a press conference that Roedecker died of a cerebral infarction and that they did their best to save his life. Later at a hospital staff banquet, Tenma apologizes to Director Heinemann but is shocked to hear that Dr. Boyer is to be the new Head of Neurosurgery. Despite appearing to forgive Tenma and letting him continue working in the hospital, Director Heinemann states that he won't accept his papers for the next health summit nor recommend him in the event of a transfer. As Tenma leaves the banquet, Eva Heinemann callously breaks off their engagement and drops her engagement ring at his feet. Tenma confesses at the bedside of Johan that he wishes Director Heinemann was dead. Meanwhile, Detective Egon Weisbach tries to get Anna Liebert to remember her name and the events of the night that her parents died. Director Heinemann suggests to Boyer and Oppenheim that they provide photographs of the Liebert twins to the media in order to play on public sympathy and garner attention for the hospital. He casually offers the other doctors candy that was donated to Johan and orders Dr. Oppenheim to reassign Dr. Boyer as Johan's attending physician. There is a brief argument between Tenma and Boyer about photography of the twins, and Boyer states to Tenma that he has \"served his purpose\" with the boy. Some nights later, a nurse discovers Oppenheim and Boyer dead in their offices while Eva finds her father dead in his study."
+      },
+      "title_native": "転落",
+      "title_en": "Downfall",
+      "aired": "2004-04-14"
+    },
+    {
+      "n": 3,
+      "sources": {
+        "imdb": {
+          "rating": 7.8,
+          "votes": 3780,
+          "tconst": "tt1319943",
+          "season": 1,
+          "episode": 3
+        },
+        "bangumi": {
+          "comments": 16,
+          "url": "https://bgm.tv/ep/9855"
+        }
+      },
+      "synopsis": {
+        "en": "The police arrive at Tenma's apartment and inform him that Director Heinemann, Dr. Oppenheim, and Dr. Boyer were found dead. When Tenma returns to Eisler Memorial Hospital, he also learns that the Liebert twins have disappeared. Following Director Heinemann's funeral, Tenma is informed by Inspector Egon Weisbach and Inspector Heinrich Lunge of the BKA that the dead men were poisoned by candy containing a muscle relaxant and Lunge suspects the doctor may be involved. Tenma considers returning to Japan. With the vacuum created by the three deaths and another doctor transferring to another location, Tenma is promoted to Chief of Surgery at the hospital by the unnamed chairman of the board. Eva attempts to reconcile with Tenma, but he rebuffs her. Nine years later, Tenma has become highly successful as the Chief of Surgery and continues to operate on difficult cases while training other surgeons. When Adolph Junkers, a known criminal lock-picker, is hit by a car while running in fear, Tenma is called in to operate on him. Tenma again encounters Inspector Lunge, who is investigating the criminal's involvement in a series of mysterious murders of wealthy middle-aged couples in their homes. After the operation, Tenma attempts to talk to Junkers, who says only that \"the monster... is coming\"."
+      },
+      "title_native": "殺人事件",
+      "title_en": "Murder Case",
+      "aired": "2004-04-21"
+    },
+    {
+      "n": 4,
+      "sources": {
+        "imdb": {
+          "rating": 9.2,
+          "votes": 5455,
+          "tconst": "tt1319944",
+          "season": 1,
+          "episode": 4
+        },
+        "bangumi": {
+          "comments": 13,
+          "url": "https://bgm.tv/ep/9856"
+        }
+      },
+      "synopsis": {
+        "en": "Inspector Lunge questions Junkers about his involvement in the homicides and he becomes hysterical when Lunge asks who hired him. Tenma convinces Junkers to overcome his fear and confess his involvement, however, that night, Junkers finds his police guard dead and flees. Soon after, Tenma also finds the dead guard, poisoned by candy in the same manner as the hospital officials from nine years ago. He follows Junkers into a nearby construction site, and finds him with Johan Liebert, whose life Tenma saved. Junkers explains that Johan hired him and his associates, whom he has since killed, and is preparing to execute Junkers. Johan reveals that his real name is not Liebert, and admits that he was the one who poisoned the hospital officials and the policeman. Johan calmly executes Junkers and walks away, leaving Tenma distraught at Johan's lack of respect for human life. Later, Tenma explains everything to Inspector Lunge who finds Tenma's involvement in these events suspicious, but lets him go nonetheless."
+      },
+      "title_native": "処刑の夜",
+      "title_en": "Night of the Execution",
+      "aired": "2004-04-28"
+    },
+    {
+      "n": 5,
+      "sources": {
+        "imdb": {
+          "rating": 7.9,
+          "votes": 3508,
+          "tconst": "tt1319948",
+          "season": 1,
+          "episode": 5
+        },
+        "bangumi": {
+          "comments": 12,
+          "url": "https://bgm.tv/ep/9857"
+        }
+      },
+      "synopsis": {
+        "en": "Nina Fortner is a bright university student studying law at a university in Heidelberg. She is seeing a counselor regarding strange dreams and has no memories of her life before the age of 10. She begins receiving poetic emails from an unknown person and decides to meet them. One day in a lecture class, she is overcome by fear and nausea at the mention of a family massacre. Meanwhile, Tenma is investigating the serial murders of middle-aged, childless couples and is searching for information on Michael Reichmann which he believes was Johan's real name. He encounters an old blind man who befriended a boy called Franz who said that Tenma saved his life. The boy had an abiding interest in war stories, particularly those involving extreme fear and said that he would meet his twin sister when she turns 20 in Heidelberg. As Nina leaves to meet the unknown person, her parents prepare to tell her that she was adopted. At the arranged place she sees Johan nearby and he seems familiar, then she suddenly faints."
+      },
+      "title_native": "ハイデルベルクの少女",
+      "title_en": "The Girl From Heidelberg",
+      "aired": "2004-05-05"
+    },
+    {
+      "n": 6,
+      "sources": {
+        "imdb": {
+          "rating": 8.4,
+          "votes": 3225,
+          "tconst": "tt1319946",
+          "season": 1,
+          "episode": 6
+        },
+        "bangumi": {
+          "comments": 20,
+          "url": "https://bgm.tv/ep/9858"
+        }
+      },
+      "synopsis": {
+        "en": "With the help of Maurer, a local newspaper journalist, Tenma is able to track down the Fortners on the day of the twins' 20th birthday. The Fortners refuse to talk about the missing twin boy, but reveal that Nina has left to meet the \"mysterious stranger\" at Heidelberg Castle. Tenma drives to the castle where he saves Nina from a hired thug and takes her back home, trying to explain that she is Anna Liebert. Meanwhile, the thug, tied up with Tenma's necktie, fearfully meets his employer."
+      },
+      "title_native": "失踪記事",
+      "title_en": "Disappearance Report",
+      "aired": "2004-05-12"
+    },
+    {
+      "n": 7,
+      "sources": {
+        "imdb": {
+          "rating": 8.3,
+          "votes": 3130,
+          "tconst": "tt1319942",
+          "season": 1,
+          "episode": 7
+        },
+        "bangumi": {
+          "comments": 10,
+          "url": "https://bgm.tv/ep/9859"
+        }
+      },
+      "synopsis": {
+        "en": "Tenma and Nina return to find Fortners and Maurer dead. The scene brings Anna's memories flooding back and she says that she shot Johan. Two detectives arrive at the scene and escort Tenma and Nina away, however Tenma becomes suspicious of them and he escapes with Nina. Back in town, Tenma finds that the detectives are legitimate and the thug at the castle was found dead. Nina, now aware of her past, slips away from Tenma. Inspector Lunge examines the scene, and finds a necktie that he suspects belonged to Tenma."
+      },
+      "title_native": "惨劇の館",
+      "title_en": "Mansion of Tragedy",
+      "aired": "2004-05-19"
+    },
+    {
+      "n": 8,
+      "sources": {
+        "imdb": {
+          "rating": 7.4,
+          "votes": 2928,
+          "tconst": "tt1319947",
+          "season": 1,
+          "episode": 8
+        },
+        "bangumi": {
+          "comments": 26,
+          "url": "https://bgm.tv/ep/9860"
+        }
+      },
+      "synopsis": {
+        "en": "Tenma returns to work at the hospital in Düsseldorf. Meanwhile, Lunge questions Eva, now a three-time divorcée, about the necktie he found at the murder scene, but she denies ever seeing it. Eva then pleads with Tenma to take her back, but he refuses and Eva threatens to turn him over to Inspector Lunge as she gave the necktie to Tenma years earlier. With the police on his tail, Tenma is forced to flee and he recalls the events that have led to his current situation. Five months later, Tenma learns that an elderly couple were killed in Verden and that he is the main suspect."
+      },
+      "title_native": "追われる身",
+      "title_en": "The Fugitive",
+      "aired": "2004-05-26"
+    },
+    {
+      "n": 9,
+      "sources": {
+        "imdb": {
+          "rating": 8.5,
+          "votes": 3403,
+          "tconst": "tt1319938",
+          "season": 1,
+          "episode": 9
+        },
+        "bangumi": {
+          "comments": 31,
+          "url": "https://bgm.tv/ep/9861"
+        }
+      },
+      "synopsis": {
+        "en": "Five months ago, Tenma began rigorous firearms training with a former army veteran named Hugo Bernhardt, who was also taking care of an angry orphaned girl whose mother he shot and killed in Myanmar. During his time there, Tenma creates a new bond between the girl and the veteran, and later when questioned by Inspector Lunge, Bernhardt refuses to disclose Tenma's location."
+      },
+      "title_native": "老兵と少女",
+      "title_en": "The Girl And The Seasoned Soldier",
+      "aired": "2004-06-02"
+    },
+    {
+      "n": 10,
+      "sources": {
+        "imdb": {
+          "rating": 7.6,
+          "votes": 2773,
+          "tconst": "tt1319950",
+          "season": 1,
+          "episode": 10
+        },
+        "bangumi": {
+          "comments": 14,
+          "url": "https://bgm.tv/ep/9862"
+        }
+      },
+      "synopsis": {
+        "en": "While investigating the murder of a prominent councilman and his wife at the Springer Estate in Verden, Tenma encounters the petty criminal Otto Heckel and escapes with him. Heckel suggests that they could make good money by operating on wounded criminals, but also reveals that he knows the councilman's killer. They visit the killer who is remorseful, duped by a man called Erich into committing the murders. But before Tenma can extract any more information, the killer commits suicide. In order to pay his debts, Heckel arranges for Tenma to be abducted to treat a wounded man who is a suspect in a terrorist attack. Despite being threatened, Tenma decides to save him anyway."
+      },
+      "title_native": "消された過去",
+      "title_en": "A Past Erased",
+      "aired": "2004-06-09"
+    },
+    {
+      "n": 11,
+      "sources": {
+        "imdb": {
+          "rating": 8.2,
+          "votes": 2869,
+          "tconst": "tt1319941",
+          "season": 1,
+          "episode": 11
+        },
+        "bangumi": {
+          "comments": 11,
+          "url": "https://bgm.tv/ep/9863"
+        }
+      },
+      "synopsis": {
+        "en": "While investigating in the former East Germany, Tenma discovers that Johan was adopted by the Lieberts from an orphanage called 511 Kinderheim which is now abandoned. He contacts Hartmann, a former district official with the Ministry, who explains that the orphanage was an extremely harsh environment for the children, ruled by fear and violence. There, Tenma also encounters a boy under Hartmann's care named Dieter. When Tenma discovers Dieter's body is covered with bruises, he confronts Hartmann and takes Dieter to the hospital. Tenma then goes to another orphanage where the director Elna Tyce tells him that 511 Kinderheim was an East German experimental laboratory."
+      },
+      "title_native": "511キンダーハイム",
+      "title_en": "511 Kinderheim",
+      "aired": "2004-06-16"
+    },
+    {
+      "n": 12,
+      "sources": {
+        "imdb": {
+          "rating": 8.6,
+          "votes": 3147,
+          "tconst": "tt1319937",
+          "season": 1,
+          "episode": 12
+        },
+        "bangumi": {
+          "comments": 17,
+          "url": "https://bgm.tv/ep/9864"
+        }
+      },
+      "synopsis": {
+        "en": "Tenma learns that the orphans in 511 Kinderheim were part of a project to produce perfect soldiers through psychological reconstruction. However, during a power struggle, the 50 instructors and orphans were killed. Hartmann takes Dieter back from the hospital, and when Tenma visits Hartmann's apartment he realizes that Hartmann was at 511 Kinderheim and is now trying to reshape Dieter to be similar to Johan. At the ruins of the orphanage, Hartmann explains to Tenma that the battle was triggered by Johan and that General Wolf is the key to Johan's origins. Much to Hartmann's shock and ensuing anguish, Dieter decides to reject him and leaves with Tenma."
+      },
+      "title_native": "ささやかな実験",
+      "title_en": "A Little Experiment",
+      "aired": "2004-06-23"
+    },
+    {
+      "n": 13,
+      "sources": {
+        "imdb": {
+          "rating": 8.1,
+          "votes": 2731,
+          "tconst": "tt1319945",
+          "season": 1,
+          "episode": 13
+        },
+        "bangumi": {
+          "comments": 22,
+          "url": "https://bgm.tv/ep/9865"
+        }
+      },
+      "synopsis": {
+        "en": "Tenma treats a local drunk after an accident, and then assists Dr. Schumann, the local doctor in treating the village residents. He visits an elderly woman who refuses to have herself examined when Tenma realizes that the woman has a subarachnoid hemorrhage, he performs an impromptu operation to save her. Meanwhile her son, a police officer, threatens to arrest Tenma after discovering that he is wanted for murder. However, Schumann and the villagers convince the police officer to let Tenma go, and he leaves with Dieter to continue his quest to find Johan."
+      },
+      "title_native": "ペトラとシューマン",
+      "title_en": "Petra and Schumann",
+      "title_cn": "Petra and Schumann",
+      "aired": "2004-06-30"
+    },
+    {
+      "n": 14,
+      "sources": {
+        "imdb": {
+          "rating": 7.7,
+          "votes": 2720,
+          "tconst": "tt1319949",
+          "season": 1,
+          "episode": 14
+        },
+        "bangumi": {
+          "comments": 43,
+          "url": "https://bgm.tv/ep/9866"
+        }
+      },
+      "synopsis": {
+        "en": "Workaholic Inspector Lunge is so busy investigating the case of a dead prostitute and her involvement with a politician that he shows no emotion when his wife and pregnant daughter leave him. When a key suspect in the case apparently commits suicide, Lunge is taken off all cases, so he decides to focus on catching Tenma. Meanwhile, the heavily alcoholic Eva Heinemann has casual sex with her gardener. Upon coming to the realization how utterly dissatisfied she is with her current life, she burns down her house in a rage before storming off into the night."
+      },
+      "title_native": "残された男・残された女",
+      "title_en": "The Abandoned Man・The Abandoned Woman",
+      "aired": "2004-07-07"
+    },
+    {
+      "n": 15,
+      "sources": {
+        "imdb": {
+          "rating": 7.8,
+          "votes": 2557,
+          "tconst": "tt1319939",
+          "season": 1,
+          "episode": 15
+        },
+        "bangumi": {
+          "comments": 9,
+          "url": "https://bgm.tv/ep/9867"
+        }
+      },
+      "synopsis": {
+        "en": "In Frankfurt, Tenma questions the now disgraced former Detective Mesner, one of the detectives he fled from earlier, over the murder of Fortners and Maurer. Mesner says it was Muller, the other detective, who murdered them and mentions \"The Baby\", a little person who leads a right-wing extremist group in search of Nina. Meanwhile, in order to track down Johan, Nina poses as a prostitute and seeks out the Baby at the Candy Club. Upon making contact with the Baby, she and Tenma are both taken captive. Subsequently, Nina is taken to a mansion where she is greeted by Professor Goedelitz who explains that he is one of four men seeking to recruit Johan as their leader and Nina is the bait. In the basement, the Baby brutally questions Tenma and reveals that they plan to burn down the Turkish portion of Frankfurt. Nina hears of the same plot from Ayse, a Turkish woman held captive in the same mansion."
+      },
+      "title_native": "ビー・マイ・ベイビー",
+      "title_en": "Be My Baby",
+      "title_cn": "Be My Baby",
+      "aired": "2004-07-14"
+    },
+    {
+      "n": 16,
+      "sources": {
+        "imdb": {
+          "rating": 8.1,
+          "votes": 2490,
+          "tconst": "tt1609653",
+          "season": 1,
+          "episode": 16
+        },
+        "bangumi": {
+          "comments": 7,
+          "url": "https://bgm.tv/ep/9868"
+        }
+      },
+      "synopsis": {
+        "en": "At Baby's mansion, Nina finds Ayse dead and then discovers that her captor, Goedelitz and all his men have been murdered. Meanwhile, General Wolf's men take away Tenma and Dieter, who was captured earlier. On the way, Tenma enables Dieter to return to Frankfurt to warn the Turkish community of the plot. Tenma meets Wolf who accepts his role in the origins of Johan whom he found cold and starving to death with his sister near the Czechoslovak border. He then says that Johan has killed everyone who was close to him, including Goedelitz and his men. He shows Tenma a message from Johan challenging him to meet at some warehouse ruins, then asks Tenma to kill Johan. Back in Frankfurt, Dieter and Heckel are captured by neo-Nazis."
+      },
+      "title_native": "ヴォルフの告白",
+      "title_en": "Wolf's Confession",
+      "aired": "2004-07-21"
+    },
+    {
+      "n": 17,
+      "sources": {
+        "imdb": {
+          "rating": 8.5,
+          "votes": 2728,
+          "tconst": "tt1609651",
+          "season": 1,
+          "episode": 17
+        },
+        "bangumi": {
+          "comments": 13,
+          "url": "https://bgm.tv/ep/9869"
+        }
+      },
+      "synopsis": {
+        "en": "Instead of meeting Johan, Tenma heads to the Turkish portion of Frankfurt to warn the residents of the neo-Nazi plot. Meanwhile, Nina confronts Baby while he is having dinner, but he refuses to disclose the location of the planned main fire. Numerous small fires are started, however they are relatively easy to extinguish. Nina finds and rescues Dieter and Heckel, who says the main fire will most likely be set near the wharves. At the river, Nina and Dieter find a neo-Nazi in a chemical warehouse, ready to start a blaze, but Dieter manages to extinguish the fuse by using a valuable carpet Heckel stole from a Turkish store. Later, as Tenma leaves to find Johan, Nina reveals that Johan is not one person because he has a split personality."
+      },
+      "title_native": "再会",
+      "title_en": "Reunion",
+      "aired": "2004-07-28"
+    },
+    {
+      "n": 18,
+      "sources": {
+        "imdb": {
+          "rating": 7.8,
+          "votes": 2631,
+          "tconst": "tt1609652",
+          "season": 1,
+          "episode": 18
+        },
+        "bangumi": {
+          "comments": 22,
+          "url": "https://bgm.tv/ep/9870"
+        }
+      },
+      "synopsis": {
+        "en": "Mr. Rosso, the owner of an Italian restaurant where Nina used to work as Anna Liebert, picks her up after questioning by police. She recalls the time she spent working in the restaurant and took marksmanship lessons in the afternoons. When challenged by Nina, Rosso admits that he used to be a professional assassin. She leaves and continues her search for Johan."
+      },
+      "title_native": "五杯目の砂糖",
+      "title_en": "The Fifth Spoonful of Sugar",
+      "aired": "2004-08-04"
+    },
+    {
+      "n": 19,
+      "sources": {
+        "imdb": {
+          "rating": 8.7,
+          "votes": 2954,
+          "tconst": "tt1609649",
+          "season": 1,
+          "episode": 19
+        },
+        "bangumi": {
+          "comments": 26,
+          "url": "https://bgm.tv/ep/9871"
+        }
+      },
+      "synopsis": {
+        "en": "Searching for an insight into Johan's personality, Tenma visits Dr. Rudy Gillen, a fellow student and academic rival at University who is now a practicing criminal psychoanalyst. Gillen intends to turn Tenma over to the authorities, but consults with one of his criminal patients in prison, Peter Jurgens. After the prisoner says he committed a murder for an unknown person and directs Gillen on where to find evidence that proves Johan exists, Gillen assists Tenma to escape."
+      },
+      "title_native": "怪物の深淵",
+      "title_en": "The Monster's Abyss",
+      "aired": "2004-08-11"
+    },
+    {
+      "n": 20,
+      "sources": {
+        "imdb": {
+          "rating": 7.7,
+          "votes": 2568,
+          "tconst": "tt1609650",
+          "season": 1,
+          "episode": 20
+        },
+        "bangumi": {
+          "comments": 18,
+          "url": "https://bgm.tv/ep/9872"
+        }
+      },
+      "synopsis": {
+        "en": "Tenma and Dieter hitch a ride with an elderly couple on the way to Freiham. Tenma wonders if the couple plan to turn him in when he realizes that the husband is a suspicious former police officer. He used to think that he could tell a criminal by their looks, but realized that it was not possible after his son committed a murder. The husband confirms that Tenma is a wanted criminal, however he believes that Tenma is innocent."
+      },
+      "title_native": "フライハムへの旅",
+      "title_en": "Journey to Freiham",
+      "aired": "2004-08-18"
+    },
+    {
+      "n": 21,
+      "sources": {
+        "imdb": {
+          "rating": 8.5,
+          "votes": 2655,
+          "tconst": "tt1614190",
+          "season": 1,
+          "episode": 21
+        },
+        "bangumi": {
+          "comments": 20,
+          "url": "https://bgm.tv/ep/9873"
+        }
+      },
+      "synopsis": {
+        "en": "In Nice, the former detective Muller, who with Mesner killed Nina's foster parents, is newly married and enjoys a good life. He hires a private detective to investigate the whereabouts of Tenma, Nina and Mesner, but when the detective arrives he is shot by Muller's bodyguard Roberto, who is working for Johan. Muller realizes that he was used to lure Nina into a trap, and Roberto takes Nina, promising to take her to Johan despite Roberto's plan to kill Nina, and leave her with his subordinates. However, Muller suddenly arrives and rescues her, although he is shot in the process."
+      },
+      "title_native": "幸せな休日",
+      "title_en": "A Wonderful Holiday",
+      "aired": "2004-08-25"
+    },
+    {
+      "n": 22,
+      "sources": {
+        "imdb": {
+          "rating": 9.0,
+          "votes": 3190,
+          "tconst": "tt1614193",
+          "season": 1,
+          "episode": 22
+        },
+        "bangumi": {
+          "comments": 38,
+          "url": "https://bgm.tv/ep/9874"
+        }
+      },
+      "synopsis": {
+        "en": "Lunge determines that the murder of a wealthy, middle-aged, childless couple does not fit the usual modus operandi of the serial murders, but uses it as an opportunity to lure Tenma to a trap. He actually suspects the nephew who stands to inherit their estate. Tenma visits the murder scene and also realizes that it is a copy-cat murder. Lunge catches Tenma in the house, but before Lunge can arrest him, Lunge is critically wounded by the nephew, the real criminal. As he lies bleeding, Lunge still insists that Johan is the alter ego of Tenma, but when he falls unconscious, Tenma treats his injury."
+      },
+      "title_native": "ルンゲの罠",
+      "title_en": "Lunge's Trap",
+      "aired": "2004-09-01"
+    },
+    {
+      "n": 23,
+      "sources": {
+        "imdb": {
+          "rating": 7.7,
+          "votes": 2405,
+          "tconst": "tt1614187",
+          "season": 1,
+          "episode": 23
+        },
+        "bangumi": {
+          "comments": 16,
+          "url": "https://bgm.tv/ep/9875"
+        }
+      },
+      "synopsis": {
+        "en": "Eva Heinemann is arrested for public drunkenness and is also homeless after not paying her rent. She hooks up with Roberto, with whom she was drinking the night before her arrest. After realizing that she has photos of Johan, Roberto presses her about her link to Johan. Eva reveals that she saw Johan at the construction site in Düsseldorf on the night Junkers was killed. Roberto prepares to kill her."
+      },
+      "title_native": "エヴァの告白",
+      "title_en": "Eva's Confession",
+      "aired": "2004-09-08"
+    },
+    {
+      "n": 24,
+      "sources": {
+        "imdb": {
+          "rating": 8.0,
+          "votes": 2381,
+          "tconst": "tt1614195",
+          "season": 1,
+          "episode": 24
+        },
+        "bangumi": {
+          "comments": 20,
+          "url": "https://bgm.tv/ep/9876"
+        }
+      },
+      "synopsis": {
+        "en": "To save her life, Eva offers Roberto the photos of Johan in exchange for information about Tenma's location. Roberto tells her that Tenma is currently treating a wounded mob boss at a country house near Füssen. Roberto and Eva approach the country house and Roberto kills the bodyguard who just manages to warn his boss before he dies. Roberto doesn't trust Eva and shoots her in the leg, and as she lies bleeding, she tells Dieter to run as Tenma would never come to save her. However, Tenma arrives and treats her wounds, then leaves her with the mob boss while he goes to Munich."
+      },
+      "title_native": "男達の食卓",
+      "title_en": "The Men's Dining Table",
+      "aired": "2004-09-15"
+    },
+    {
+      "n": 25,
+      "sources": {
+        "imdb": {
+          "rating": 7.4,
+          "votes": 2819,
+          "tconst": "tt1614201",
+          "season": 1,
+          "episode": 25
+        },
+        "bangumi": {
+          "comments": 16,
+          "url": "https://bgm.tv/ep/9877"
+        }
+      },
+      "synopsis": {
+        "en": "In Munich, Karl Neumann is one of the students who reads passages of Latin on Tuesdays to the elderly, blind and very wealthy Hans Georg Schuwald. Karl encounters fellow student Lotte Frank, who does housekeeping for Schuwald and whom she is using as the subject for her research paper. Karl agrees to join her in tailing Schuwald when he goes out late at night. They discover a woman claiming to be Margot Langer, the mother of his illegitimate son, who turns out to be Karl, however the student who reads on Thursdays also claims to be Schuwald's son. Lotte discovers that the Thursday boy is Edmund Farren, and when they go to visit him, they find him dead in his dormitory from an apparent suicide. Later, they encounter Johan Liebert who is enrolled at their university and is Schuwald's Friday's reader."
+      },
+      "title_native": "木曜日の青年",
+      "title_en": "The Thursday Boy",
+      "aired": "2004-09-29"
+    },
+    {
+      "n": 26,
+      "sources": {
+        "imdb": {
+          "rating": 7.7,
+          "votes": 2609,
+          "tconst": "tt1614200",
+          "season": 1,
+          "episode": 26
+        },
+        "bangumi": {
+          "comments": 10,
+          "url": "https://bgm.tv/ep/9878"
+        }
+      },
+      "synopsis": {
+        "en": "Schuwald hires a private investigator named Richard Braun to determine the truth behind Farren's suicide. During a discussion with his psychotherapist Dr. Julius Reichwein, Braun confirms something is amiss with the death. Meanwhile, Johan offers to help Karl reconcile with his long lost father, whom he believes is Schuwald. When Karl and Lotte take Schuwald to visit a lake that is now a construction site, Johan arrives and paints a verbal picture that convinces Schuwald that he is standing on the edge of a beautiful lake."
+      },
+      "title_native": "秘密の森",
+      "title_en": "The Secret Woods",
+      "aired": "2004-10-06"
+    },
+    {
+      "n": 27,
+      "sources": {
+        "imdb": {
+          "rating": 8.0,
+          "votes": 2545,
+          "tconst": "tt1614196",
+          "season": 1,
+          "episode": 27
+        },
+        "bangumi": {
+          "comments": 13,
+          "url": "https://bgm.tv/ep/9879"
+        }
+      },
+      "synopsis": {
+        "en": "Braun tries to reconcile with his ex-wife while dealing with his past alcoholism and again visits Reichwein, and begins to suspect Karl is involved in Farren's death. Meanwhile, Karl is about to formalize his adoption with his foster parents, but Johan intervenes and enables Karl to reconcile with his real father, Schuwald."
+      },
+      "title_native": "証拠の品",
+      "title_en": "Pieces of Evidence",
+      "aired": "2004-10-13"
+    },
+    {
+      "n": 28,
+      "sources": {
+        "imdb": {
+          "rating": 8.5,
+          "votes": 2786,
+          "tconst": "tt1614192",
+          "season": 1,
+          "episode": 28
+        },
+        "bangumi": {
+          "comments": 24,
+          "url": "https://bgm.tv/ep/9880"
+        }
+      },
+      "synopsis": {
+        "en": "Schuwald informs Braun that the case involving the suicide of Farren is closed, but Braun becomes suspicious now that Karl and Johan are caring for Schuwald. Braun decides to review all his unsolved homicide cases, but is haunted by the case that caused his alcoholism and error of judgement which caused his dismissal from the police force. His investigations all seem to have a connection with Schuwald and when he presents his findings to Reichwein, the doctor also reveals that Gillen believes that the name Johan is involved in murders aimed at isolating Schuwald."
+      },
+      "title_native": "ただ一つの事件",
+      "title_en": "Just One Case",
+      "aired": "2004-10-20"
+    },
+    {
+      "n": 29,
+      "sources": {
+        "imdb": {
+          "rating": 9.6,
+          "votes": 5252,
+          "tconst": "tt1614188",
+          "season": 1,
+          "episode": 29
+        },
+        "bangumi": {
+          "comments": 19,
+          "url": "https://bgm.tv/ep/9881"
+        }
+      },
+      "synopsis": {
+        "en": "Braun begins to observe Johan and investigate his origins, while Reichwein asks Gillen to question his criminal patient Peter Jurgens about Johan. Meanwhile, Braun discovers that the real Johan Liebert died at the age of two. When Gillen shows a photo of Johan to Jurgens, it triggers painful memories and he promptly commits suicide with Gillen's pen. At night, Johan visits Braun and manipulates him into a state of deep regret. Johan then offers Braun a bottle of whiskey on the rooftop of a building. Later, Reichwein is informed that Richard Braun is dead."
+      },
+      "title_native": "処刑",
+      "title_en": "Execution",
+      "aired": "2004-10-27"
+    },
+    {
+      "n": 30,
+      "sources": {
+        "imdb": {
+          "rating": 9.2,
+          "votes": 3443,
+          "tconst": "tt1614186",
+          "season": 1,
+          "episode": 30
+        },
+        "bangumi": {
+          "comments": 23,
+          "url": "https://bgm.tv/ep/9882"
+        }
+      },
+      "synopsis": {
+        "en": "Reichwein muses over the death of his friend and patient Richard Braun with Gillen who suspects foul play. Reichwein retraces Braun's last steps and determines his death was not an accident, but a murder. Two thugs are hired to kill Reichwein, however he survives. Later, Roberto attempts to kill Reichwein at his office, but he is saved by Tenma who has been shadowing him."
+      },
+      "title_native": "ある決意",
+      "title_en": "A Certain Decision",
+      "aired": "2004-11-03"
+    },
+    {
+      "n": 31,
+      "sources": {
+        "imdb": {
+          "rating": 8.0,
+          "votes": 2246,
+          "tconst": "tt1614191",
+          "season": 1,
+          "episode": 31
+        },
+        "bangumi": {
+          "comments": 31,
+          "url": "https://bgm.tv/ep/33491"
+        }
+      },
+      "synopsis": {
+        "en": "Reichwein arranges for Tenma to live in a safe house while he and Gillen attempt to figure out their next steps. However, Tenma leaves the safe house and leaves Dieter with Reichwein while he tries to track down Johan, and purchases a sniper rifle."
+      },
+      "title_native": "白日の下へ",
+      "title_en": "Under Broad Daylight",
+      "aired": "2004-11-10"
+    },
+    {
+      "n": 32,
+      "sources": {
+        "imdb": {
+          "rating": 7.6,
+          "votes": 2220,
+          "tconst": "tt1614197",
+          "season": 1,
+          "episode": 32
+        },
+        "bangumi": {
+          "comments": 13,
+          "url": "https://bgm.tv/ep/33492"
+        }
+      },
+      "synopsis": {
+        "en": "Lotte has a chance encounter with Nina and discovers that they are both researching Schuwald and strike up a friendship. Later, Lotte realizes that Nina looks like Johan. Tenma prepares to kill Johan at a forest sanctuary, but is unable to carry it through after meeting an old soldier who does not want bloodshed in the forest."
+      },
+      "title_native": "聖域",
+      "title_en": "Sanctuary",
+      "aired": "2004-11-17"
+    },
+    {
+      "n": 33,
+      "sources": {
+        "imdb": {
+          "rating": 8.1,
+          "votes": 2374,
+          "tconst": "tt1614184",
+          "season": 1,
+          "episode": 33
+        },
+        "bangumi": {
+          "comments": 19,
+          "url": "https://bgm.tv/ep/33493"
+        }
+      },
+      "synopsis": {
+        "en": "Some children die while participating in a dangerous game of dare suggested by Johan to determine if they were \"chosen\". Dieter manages to convince a seriously injured boy who survived the game not to commit the stunt again. Schuwald announces a large donation of antique books to LMU Munich and a ceremony to commemorate the donation is planned. At the library, Johan passes out after he looks at the picture book \"Obluda\" by Emil Scherbe about a monster with no name. Tenma prepares to kill Johan at the book donation ceremony."
+      },
+      "title_native": "子どもの情景",
+      "title_en": "Scene of a Child",
+      "aired": "2004-11-24"
+    },
+    {
+      "n": 34,
+      "sources": {
+        "imdb": {
+          "rating": 7.9,
+          "votes": 2307,
+          "tconst": "tt1614185",
+          "season": 1,
+          "episode": 34
+        },
+        "bangumi": {
+          "comments": 12,
+          "url": "https://bgm.tv/ep/33494"
+        }
+      },
+      "synopsis": {
+        "en": "Johan recovers from his fainting spell and responds to an invitation to go visit the Red Hindenberg, in the red-light district, the apartment of the old prostitute who had been impersonating Karl Neumann's mother Margot Langer. She tries to blackmail Johan, but Roberto kills her. Meanwhile, Tenma visits a local doctor to find out about the prostitute's death and finds the teenage daughter of a doctor treating undocumented immigrants. He decides to help her treat the waiting patients."
+      },
+      "title_native": "闇の果て",
+      "title_en": "At the End of the Darkness",
+      "aired": "2004-12-01"
+    },
+    {
+      "n": 35,
+      "sources": {
+        "imdb": {
+          "rating": 7.6,
+          "votes": 2194,
+          "tconst": "tt1614194",
+          "season": 1,
+          "episode": 35
+        },
+        "bangumi": {
+          "comments": 12,
+          "url": "https://bgm.tv/ep/33495"
+        }
+      },
+      "synopsis": {
+        "en": "Lunge questions Tenma's former friends from Japan to learn more about his suspect, even missing an appointment with his daughter to see his new grandson. However, one of the men has the book Johan was apparently looking at when he fainted, which Lunge examines and translates some of the words. Reichwein confronts the \"foster parents\" of Johan with the facts of his activities and warns them that their lives are in danger, but they refuse to believe him. Tenma sneaks into the library with the rifle the night before the book donation ceremony."
+      },
+      "title_native": "名なしのヒーロー",
+      "title_en": "A Hero With No Name",
+      "aired": "2004-12-08"
+    },
+    {
+      "n": 36,
+      "sources": {
+        "imdb": {
+          "rating": 8.4,
+          "votes": 2489,
+          "tconst": "tt0958705",
+          "season": 1,
+          "episode": 36
+        },
+        "bangumi": {
+          "comments": 19,
+          "url": "https://bgm.tv/ep/33496"
+        }
+      },
+      "synopsis": {
+        "en": "Reichwein confronts Schuwald with evidence about Johan, but Schuwald refuses to take any action, already suspecting that Johan plans a take-over of his affairs. Later, Reichwein realizes that Schuwald is Johan's next target and Lunge suspects that Schuwald will be Tenma's next target, and both separately head to the library. Lotte confronts Nina at the train station about being the twin sister of Johan after reading the book that made Johan collapse."
+      },
+      "title_native": "混沌の怪物",
+      "title_en": "A Monster of Chaos",
+      "aired": "2004-12-15"
+    },
+    {
+      "n": 37,
+      "sources": {
+        "imdb": {
+          "rating": 9.6,
+          "votes": 5142,
+          "tconst": "tt0958934",
+          "season": 1,
+          "episode": 37
+        },
+        "bangumi": {
+          "comments": 21,
+          "url": "https://bgm.tv/ep/33497"
+        }
+      },
+      "synopsis": {
+        "en": "Nina reads the picture book, \"A Nameless Monster\", which triggers some memories and Nina tells Lotte that Johan is her brother. Nina, then, decides to confront Johan at the book donation ceremony. During the ceremony, Tenma hesitates before he can kill Johan and is disarmed by Roberto. However, before Roberto can kill Schuwald, a fire set by one of Johan's accomplices engulfs the library, creating hysteria and fear. Tenma manages to grab a handgun and points it at Roberto and a shot is heard."
+      },
+      "title_native": "なまえのないかいぶつ",
+      "title_en": "A Monster Without a Name",
+      "title_cn": "A Monster Without a Name",
+      "aired": "2005-01-12"
+    },
+    {
+      "n": 38,
+      "sources": {
+        "imdb": {
+          "rating": 9.1,
+          "votes": 3157,
+          "tconst": "tt1614198",
+          "season": 1,
+          "episode": 38
+        },
+        "bangumi": {
+          "comments": 32,
+          "url": "https://bgm.tv/ep/33498"
+        }
+      },
+      "synopsis": {
+        "en": "Tenma shoots Roberto, then fires again and Roberto falls over the balcony. The fire inside the library spreads, but the people are trapped inside by locked doors. Tenma helps the people escape by shooting out the doors. Meanwhile, Nina has entered the building, but neither she nor Tenma can bring themselves to shoot Johan. Suddenly, the canopy over the stage collapses in flames, engulfing Nina and Schuwald. Back at Schuwald's residence, Karl finds the results of an investigation by Schuwald into his mother's life and her disappearance."
+      },
+      "title_native": "我が目の悪魔",
+      "title_en": "The Demon in Our Eyes",
+      "aired": "2005-01-19"
+    },
+    {
+      "n": 39,
+      "sources": {
+        "imdb": {
+          "rating": 8.1,
+          "votes": 2163,
+          "tconst": "tt1614199",
+          "season": 1,
+          "episode": 39
+        },
+        "bangumi": {
+          "comments": 18,
+          "url": "https://bgm.tv/ep/33499"
+        }
+      },
+      "synopsis": {
+        "en": "Lunge initially suspects that Tenma set the fire and planned to assassinate Schuwald. But after Karl asks Lunge to search for Johan, who had not been seen since the fire, and Lunge visits Johan's former apartment – he begins to believe that Johan is real. Schuwald asks Karl to deliver a message to someone in Dresden. Nina leaves the hospital and undergoes psychological analysis with Dr. Reichwein and Dr. Gillen to recover her memories which involve three frogs and a bridge. She leaves to find Tenma, and Dieter insists on leaving with her. In Dresden, Tenma meets Karl who tells him that the twins' mother is alive and living in Prague."
+      },
+      "title_native": "目の中の地獄",
+      "title_en": "The Hell in His Eyes",
+      "aired": "2005-01-26"
+    },
+    {
+      "n": 40,
+      "sources": {
+        "imdb": {
+          "rating": 7.9,
+          "votes": 2593,
+          "tconst": "tt1614189",
+          "season": 1,
+          "episode": 40
+        },
+        "bangumi": {
+          "comments": 15,
+          "url": "https://bgm.tv/ep/33500"
+        }
+      },
+      "synopsis": {
+        "en": "Wolfgang Grimmer is a freelance journalist and former East German investigating allegations of child abuse and psychological reprogramming in former East Germany orphanages. While on a train to Prague, he shares a booth with Tenma. When guards arrive to arrest Tenma, Grimmer helps him escape and then helps him across the border. In Prague, Grimmer confronts Petrov, the former director of 511 Kinderheim about his involvement."
+      },
+      "title_native": "グリマー",
+      "title_en": "Grimmer",
+      "aired": "2005-02-02"
+    },
+    {
+      "n": 41,
+      "sources": {
+        "imdb": {
+          "rating": 8.2,
+          "votes": 2206,
+          "tconst": "tt1618233",
+          "season": 1,
+          "episode": 41
+        },
+        "bangumi": {
+          "comments": 17,
+          "url": "https://bgm.tv/ep/33501"
+        }
+      },
+      "synopsis": {
+        "en": "Grimmer presses Petrov for records of 511 Kinderheim, but he denies that he was present during the revolt. Grimmer tails Petrov, then realizes that he is running a boys orphanage. Grimmer plays soccer with the boys from Petrov's orphanage, and when they return they notice a woman who resembles Anna Liebert leaving the orphanage. They find the assistant Anna dead and Petrov mortally wounded. Before he dies, Petrov blames Johan for the disaster at 511 Kinderheim and provides Grimmer with a key to a safety deposit box containing evidence of Johan's early years."
+      },
+      "title_native": "511の亡霊",
+      "title_en": "The Ghost of 511",
+      "aired": "2005-02-09"
+    },
+    {
+      "n": 42,
+      "sources": {
+        "imdb": {
+          "rating": 8.3,
+          "votes": 2280,
+          "tconst": "tt1618234",
+          "season": 1,
+          "episode": 42
+        },
+        "bangumi": {
+          "comments": 19,
+          "url": "https://bgm.tv/ep/33502"
+        }
+      },
+      "synopsis": {
+        "en": "Inspector Filip Zeman of the Prague police questions Grimmer about the death of Petrov and a blonde woman suspected of the crime. After leaving the police station, Grimmer is abducted by former members of the Czechoslovak StB, Chesmir Mirat and Yakov Suacek. They, along with Filip Zeman, torture Grimmer for Petrov's safety deposit box key, but he passes out. The woman resembling Anna interrupts the interrogation by shooting and killing one of the StB members. Grimmer wakes up and finds the three men dead and concludes that his alter ego, \"The Magnificent Steiner\", is responsible."
+      },
+      "title_native": "超人シュタイナーの冒険",
+      "title_en": "The Adventures of the Magnificent Steiner",
+      "aired": "2005-02-16"
+    },
+    {
+      "n": 43,
+      "sources": {
+        "imdb": {
+          "rating": 7.7,
+          "votes": 2134,
+          "tconst": "tt1618680",
+          "season": 1,
+          "episode": 43
+        },
+        "bangumi": {
+          "comments": 17,
+          "url": "https://bgm.tv/ep/33503"
+        }
+      },
+      "synopsis": {
+        "en": "Detective Suk is called to the scene of the brutal triple murder, along with his superior, Inspector Filip Zeman and two other men. The other men are former members of the Czechoslovak StB, Chesmir Mirat and Yakov Suacek. Jan Suk suspects Grimmer is the culprit. Meanwhile Suk meets an attractive woman, who looks like Anna Liebert, in a bar. Later, Head Detective Patera tells Suk that Zeman was investigating former StB members in the Prague police force. Suk finds Zeman's notes in a locker indicating that Patera and Janacek were in the StB, and notifies Commissioner Hamrlik who is later revealed to be protecting the former StB members. While Suk meets the woman again, Hamrlik, Patera and Janacek die after eating candy given to Patera by the same woman."
+      },
+      "title_native": "スーク刑事",
+      "title_en": "Detective Suk",
+      "aired": "2005-02-23"
+    },
+    {
+      "n": 44,
+      "sources": {
+        "imdb": {
+          "rating": 8.9,
+          "votes": 3330,
+          "tconst": "tt1618681",
+          "season": 1,
+          "episode": 44
+        },
+        "bangumi": {
+          "comments": 57,
+          "url": "https://bgm.tv/ep/33504"
+        }
+      },
+      "synopsis": {
+        "en": "The murder of Commissioner Hamrlik and the two corrupt officers stirs up a media frenzy. Suk questions the boys from Petrov's orphanage who say a woman was Petrov's killer. Tenma arrives in Prague and obtains some information about the mother of the Liebert twins. Suk tries to get close to the woman who calls herself Anna Liebert, but she is later revealed to be Johan in disguise."
+      },
+      "title_native": "二つの闇",
+      "title_en": "The Two Darkness",
+      "aired": "2005-03-02"
+    },
+    {
+      "n": 45,
+      "sources": {
+        "imdb": {
+          "rating": 8.3,
+          "votes": 2231,
+          "tconst": "tt1623911",
+          "season": 1,
+          "episode": 45
+        },
+        "bangumi": {
+          "comments": 14,
+          "url": "https://bgm.tv/ep/33505"
+        }
+      },
+      "synopsis": {
+        "en": "Nepela, the new Prague Police Commissioner suspects that Suk may be involved in the deaths of Hamrlik and the two corrupt officers and assigns Detectives Novak and Zanda to follow him. Suk meets Grimmer and they retrieve the safety deposit box which contains research documents and a cassette tape which contains an interview of a drugged Johan in which he describes himself as containing a monster. While searching Suk's apartment, Detective Novak and Detective Zanda are killed by Johan masquerading as Anna."
+      },
+      "title_native": "怪物の残像",
+      "title_en": "The Afterimage of a Monster",
+      "aired": "2005-03-09"
+    },
+    {
+      "n": 46,
+      "sources": {
+        "imdb": {
+          "rating": 8.8,
+          "votes": 2915,
+          "tconst": "tt1623910",
+          "season": 1,
+          "episode": 46
+        },
+        "bangumi": {
+          "comments": 13,
+          "url": "https://bgm.tv/ep/33506"
+        }
+      },
+      "synopsis": {
+        "en": "Tenma finds out about the murder of Commissioner Hamrlik and the two corrupt officers through poisoned candy and endeavors to find Suk, who has given his mother the tape. Tenma visits Suk's mother in the hospital, but she has dementia and poor memory. Suk and Grimmer hide out in an abandoned building, but they are attacked and Suk is critically wounded. Grimmer goes into a rage and beats his assailants senseless. Tenma arrives on the scene and treats Suk and the other injured men. Grimmer reveals that he was at 511 Kinderheim and explains the origins of alter-ego, \"The Magnificent Steiner\", a weakling who transforms into a raging musclebound hero when threatened, but with no recollection of the events afterwards."
+      },
+      "title_native": "接点",
+      "title_en": "The Point of Contact",
+      "aired": "2005-03-16"
+    },
+    {
+      "n": 47,
+      "sources": {
+        "imdb": {
+          "rating": 8.4,
+          "votes": 2163,
+          "tconst": "tt1629059",
+          "season": 1,
+          "episode": 47
+        },
+        "bangumi": {
+          "comments": 8,
+          "url": "https://bgm.tv/ep/33507"
+        }
+      },
+      "synopsis": {
+        "en": "Nina and Dieter arrive in Prague, but she is shocked when residents call her \"Anna\" and she begins to recall memories from her childhood. Tenma and Grimmer find that Suk has been discharged from the hospital, and Captain Karel Ranke, a former top member of the StB proposes to release Suk to Tenma and Grimmer in exchange for the tape and research materials for a client in Germany. They refuse, however, Grimmer suddenly remembers Adolf Reinhardt who was kind to him at 511 Kinderheim. While they do not reach an agreement, Ranke does mention that Franz Bonaparta was heavily involved in the care of the Liebert twins. Bonaparta was also the author of a children's picture book \"The Nameless Monster\", and was living at the \"Red Rose Mansion\". Meanwhile, Nina and Dieter find the apartment Nina shared with her twin brother and their mother, which triggers more of Nina's memories."
+      },
+      "title_native": "悪夢の扉",
+      "title_en": "The Door to a Nightmare",
+      "aired": "2005-03-23"
+    },
+    {
+      "n": 48,
+      "sources": {
+        "imdb": {
+          "rating": 8.1,
+          "votes": 2076,
+          "tconst": "tt1629060",
+          "season": 1,
+          "episode": 48
+        },
+        "bangumi": {
+          "comments": 13,
+          "url": "https://bgm.tv/ep/33508"
+        }
+      },
+      "synopsis": {
+        "en": "Nina is confused by her recent memories. After confirming Suk's safety, Grimmer and Tenma agree to deliver the tape and research materials to Ranke. However, when they visit Suk's mother, they discover that the research material is gone, and that Johan has recorded a message on the tape for Tenma. Meanwhile, Inspector Lunge decides to take a \"holiday\" in Prague, and questions an associate, Commissioner Nepela on the recent developments and asks Nepela to translate a copy of the picture book \"The Nameless Monster\". Lunge also questions Suk's colleagues about the recent events, and researches the author Franz Bonaparta and his aliases, Emile Scherbe and Klaus Poppe."
+      },
+      "title_native": "一番怖いもの",
+      "title_en": "The Most Frightening Thing",
+      "aired": "2005-03-30"
+    },
+    {
+      "n": 49,
+      "sources": {
+        "imdb": {
+          "rating": 9.4,
+          "votes": 4666,
+          "tconst": "tt1632939",
+          "season": 1,
+          "episode": 49
+        },
+        "bangumi": {
+          "comments": 24,
+          "url": "https://bgm.tv/ep/33509"
+        }
+      },
+      "synopsis": {
+        "en": "The children from Petrov's former orphanage try to find the blonde woman and prove Grimmer's innocence. Meanwhile, Lunge questions Suk's mother in the hospital about a blonde lady who visited, but she says the woman had the voice of a man. A boy named Milosh encounters Johan disguised as Anna. As Anna, Johan sends him to a nearby red light district in a fruitless search to find his mother. Grimmer and Tenma find Johan's apartment, but Johan and Milosh have already left. As Milosh wanders the streets, the experience makes him depressed and suicidal. However, Grimmer and Tenma find Milosh in time, creating an unexpected intense emotional experience for both Grimmer and Milosh."
+      },
+      "title_native": "一番残酷なこと",
+      "title_en": "The Cruelest Thing",
+      "aired": "2005-04-06"
+    },
+    {
+      "n": 50,
+      "sources": {
+        "imdb": {
+          "rating": 8.1,
+          "votes": 2094,
+          "tconst": "tt1632938",
+          "season": 1,
+          "episode": 50
+        },
+        "bangumi": {
+          "comments": 11,
+          "url": "https://bgm.tv/ep/33510"
+        }
+      },
+      "synopsis": {
+        "en": "Lunge visits Suk in the StB hospital and suggests that the one responsible for his situation may be the last person he suspects (a reference to Johan masquerading as Anna). Lunge meets Ranke and reveals that he was unable to obtain information on the whereabouts of Franz Bonaparta, who lived in the Mansion of Red Roses. Ranke reveals that it was abandoned after all the political prisoners and researchers were killed in one day. Lunge obtains permission to investigate the mansion and exposes a hidden room reeking of antiseptic, suspecting that it is the site of a massacre. There is also a portrait of a woman who looks like Anna Liebert. Meanwhile, Tenma visits Zoback, a previous publisher of Franz Bonaparta's work, but after Tenma leaves, Zoback calls the police. Grimmer tells Tenma that he will take the blame for Johan's crimes and they part ways, however the Prague police suddenly arrive and arrest Tenma."
+      },
+      "title_native": "バラの屋敷",
+      "title_en": "The Rose Mansion",
+      "aired": "2005-04-13"
+    },
+    {
+      "n": 51,
+      "sources": {
+        "imdb": {
+          "rating": 8.1,
+          "votes": 2023,
+          "tconst": "tt1637358",
+          "season": 1,
+          "episode": 51
+        },
+        "bangumi": {
+          "comments": 14,
+          "url": "https://bgm.tv/ep/33511"
+        }
+      },
+      "synopsis": {
+        "en": "Hans Georg Schuwald, with the help of Reichwein, re-explores his past with Karl Neumann's mother, Helenka Novakova and recalls her dear friend in Prague near the Three Frogs who had twins, a boy and a girl. As news of Tenma's arrest spreads, his former friends and patients react with shock and disbelief, and vow to help him. Suk tries to leave the hospital to help Tenma, but is stopped by Detective Bradec and Detective Stransky who inform him that Grimmer sent documents taking responsibility for the deaths of the police officers. Lunge also learns of Tenma's arrest, but he is more interested in the Mansion of Red Roses, where he finds a letter possibly addressed to the twins' mother. Tenma is deported back to Düsseldorf."
+      },
+      "title_native": "怪物のラブレター",
+      "title_en": "A Monster's Love Letter",
+      "aired": "2005-04-20"
+    },
+    {
+      "n": 52,
+      "sources": {
+        "imdb": {
+          "rating": 7.8,
+          "votes": 2001,
+          "tconst": "tt1637357",
+          "season": 1,
+          "episode": 52
+        },
+        "bangumi": {
+          "comments": 12,
+          "url": "https://bgm.tv/ep/33512"
+        }
+      },
+      "synopsis": {
+        "en": "Prisoner Gunther Milch pretends to be sick, and when Tenma is called, Milch proposes they escape together. Former patients of Eisler Memorial Hospital enlist the aid of a lawyer named Fritz Vardemann to represent Tenma, and after visiting Tenma in prison, he agrees to take on the defense. Meanwhile, Eva returns to Düsseldorf, and after passing out following another drinking binge, she has a vision of seeing Johan Liebert the night Adolf Junkers was murdered. Vardemann is called to the hospital when his wife goes into labor, so he asks for a lawyer named Alfred Baul to represent Tenma. However when Baul appears in prison, Tenma is shocked to see that he is Roberto who says that Eva Heinemann will be his next target."
+      },
+      "title_native": "弁護士",
+      "title_en": "Lawyer",
+      "aired": "2005-04-27"
+    },
+    {
+      "n": 53,
+      "sources": {
+        "imdb": {
+          "rating": 7.7,
+          "votes": 1950,
+          "tconst": "tt1641328",
+          "season": 1,
+          "episode": 53
+        },
+        "bangumi": {
+          "comments": 10,
+          "url": "https://bgm.tv/ep/33513"
+        }
+      },
+      "synopsis": {
+        "en": "After hearing Roberto's threat against Eva, Tenma decides to confess to all charges against him so he can be placed in the same transport van to a federal penitentiary with prisoner Gunther Milch, who is planning an escape. Hearing the news of Tenma's confession, Eva remembers the time she was with Tenma and she treated him badly and decides to testify on his behalf. She calls Alfred Baul who arranges to visit her."
+      },
+      "title_native": "決意",
+      "title_en": "Determination",
+      "aired": "2005-05-04"
+    },
+    {
+      "n": 54,
+      "sources": {
+        "imdb": {
+          "rating": 8.1,
+          "votes": 2013,
+          "tconst": "tt1641056",
+          "season": 1,
+          "episode": 54
+        },
+        "bangumi": {
+          "comments": 11,
+          "url": "https://bgm.tv/ep/33514"
+        }
+      },
+      "synopsis": {
+        "en": "Gunther Milch's escape plan almost goes wrong when the prison van hits and almost kills his younger brother Gustav. However, Tenma manages to grab a gun and orders the guards to release them. News of the escape is broadcast while Eva is waiting to meet lawyer Alfred Baul in her hotel lobby, however she overhears a phone conversation and recognizes Roberto's voice and realizes that he is after her. Along the road, Tenma forces Gunther to take Gustav to Eisler Memorial Hospital and then he and Gunther part ways. After Eva flees to her hotel room, there is a knock on the door which she hesitantly answers."
+      },
+      "title_native": "脱走",
+      "title_en": "Escape",
+      "aired": "2005-05-11"
+    },
+    {
+      "n": 55,
+      "sources": {
+        "imdb": {
+          "rating": 7.9,
+          "votes": 1999,
+          "tconst": "tt1646645",
+          "season": 1,
+          "episode": 55
+        },
+        "bangumi": {
+          "comments": 8,
+          "url": "https://bgm.tv/ep/33515"
+        }
+      },
+      "synopsis": {
+        "en": "Tenma desperately tries to search for Eva before Roberto can reach her. However, when Tenma enters her hotel room, Eva is already gone. Meanwhile, Lunge returns to Düsseldorf and questions Vardemann about his father's past and links to Franz Bonaparta, whom he believes was with the Czechoslovak Secret Police. After Lunge leaves, Tenma accosts Vardemann in his car, but Vardemann confesses he knows nothing about the plot against Eva. While out, Vardemann's house is ransacked, presumably for his father's notebook containing notes about Bonaparta and the Red Rose Mansion. Vardemann gives the notebook to Tenma and visits his wife and new baby girl in the hospital."
+      },
+      "title_native": "402号室",
+      "title_en": "Room Number 402",
+      "aired": "2005-05-18"
+    },
+    {
+      "n": 56,
+      "sources": {
+        "imdb": {
+          "rating": 8.5,
+          "votes": 2122,
+          "tconst": "tt1646646",
+          "season": 1,
+          "episode": 56
+        },
+        "bangumi": {
+          "comments": 12,
+          "url": "https://bgm.tv/ep/33516"
+        }
+      },
+      "synopsis": {
+        "en": "Tenma heads towards the Red Rose Mansion in Prague, while Vardemann and Reichwein also make their way there. Meanwhile in Prague, Nina follows her memories and she finds the Red Rose Mansion with Dieter. When Nina enters the hidden room, a painful memory is triggered involving a room full of bodies and she faints. Later Nina and Dieter find themselves in the care of Jaromir Lipski, a struggling puppeteer. Lipsky shows Nina his large collection of children's picture books, including those by Jakub Farobek, Emil Scherbe, and Klaus Poppe and reveals that he was a student at the Red Rose Mansion. Meanwhile, Johan enters the Red Rose Mansion and sets it on fire."
+      },
+      "title_native": "終わらない旅",
+      "title_en": "The Unending Journey",
+      "aired": "2005-05-25"
+    },
+    {
+      "n": 57,
+      "sources": {
+        "imdb": {
+          "rating": 8.4,
+          "votes": 2122,
+          "tconst": "tt1647571",
+          "season": 1,
+          "episode": 57
+        },
+        "bangumi": {
+          "comments": 13,
+          "url": "https://bgm.tv/ep/33517"
+        }
+      },
+      "synopsis": {
+        "en": "Nina recalls hers and Johan's adoption by the Lieberts and their emigration to the West, and how on the night a visitor came, Johan shot the Lieberts and told her to shoot him. Tenma arrives at the burned mansion, just as a firefighter discovers a grave with the bones of up to 46 people at the base of a rose bush. General Wolf's men take Tenma to see the dying general who tells the story of how he found the nameless twins, their only possession being the book \"Monster Without a Name\" from which he gave the boy the name Johan, possibly awakening something inside him. Nina, Dieter and Lipsky visit the ruins, but they take Dieter's suggestion to create new, happy memories. After Nina and Dieter leave, Lunge arrives at Lipsky's apartment and asserts that Lipsky is the son of Franz Bonaparta."
+      },
+      "title_native": "あの日の夜",
+      "title_en": "That Night",
+      "aired": "2005-06-01"
+    },
+    {
+      "n": 58,
+      "sources": {
+        "imdb": {
+          "rating": 7.7,
+          "votes": 2039,
+          "tconst": "tt1647572",
+          "season": 1,
+          "episode": 58
+        },
+        "bangumi": {
+          "comments": 13,
+          "url": "https://bgm.tv/ep/33518"
+        }
+      },
+      "synopsis": {
+        "en": "Eva Heinemann's bodyguard Martin Reest, has been badly shot and is dying following a gunfight. As he is driven to see Dr. Tenma, he recounts the events that led to his predicament. He was given a job by The Baby and Peter Čapek to escort Eva Heinemann from Düsseldorf to Frankfurt on the same day she encountered Roberto. After meeting Čapek, Eva agrees to attend some exclusive parties and then goes on a shopping spree, even buying clothes for Martin to groom him in the mold of Tenma. However, the return to her old role as a fashionable, high-class lady fails to live up to her expectations."
+      },
+      "title_native": "いやな仕事",
+      "title_en": "Unwanted Job",
+      "aired": "2005-06-08"
+    },
+    {
+      "n": 59,
+      "sources": {
+        "imdb": {
+          "rating": 8.7,
+          "votes": 2297,
+          "tconst": "tt1647573",
+          "season": 1,
+          "episode": 59
+        },
+        "bangumi": {
+          "comments": 12,
+          "url": "https://bgm.tv/ep/33519"
+        }
+      },
+      "synopsis": {
+        "en": "Martin recalls how he met Tenma for the first time while he was guarding Eva Heinemann. He recalls how Eva pointed out Johan at a party who Čapek then introduced to a young man named Kristoff Sievernich. Later Čapek ordered Eva killed as her job was over, but Martin decided to protect her instead. He attended the next party alone, and tailed Kristoff to his hotel only to find Kristoff expecting him. Kristoff then described Martin's life to date in detail and hit a nerve when he suggested that the women in Martin's life usually choose death. Martin then left just as Johan arrived at the apartment."
+      },
+      "title_native": "悪魔を見た男",
+      "title_en": "The Man Who Saw the Devil",
+      "aired": "2005-06-15"
+    },
+    {
+      "n": 60,
+      "sources": {
+        "imdb": {
+          "rating": 8.9,
+          "votes": 2637,
+          "tconst": "tt1647574",
+          "season": 1,
+          "episode": 60
+        },
+        "bangumi": {
+          "comments": 16,
+          "url": "https://bgm.tv/ep/33520"
+        }
+      },
+      "synopsis": {
+        "en": "Martin recalls how he decided to protect Eva and was involved in a gunfight with a hit team assigned to kill her. While she was able to escape, he was shot and mortally wounded. He finally meets Tenma and tells him that Čapek is still involved with the experiments at the Red Rose Mansion which created Johan before finally succumbing to his wounds. Eva is heartbroken at the news of Martin's death and Tenma suggests that she head to Munich for protection under Reichwein. However, she descends from the train and obtains a gun, planning to kill the monster."
+      },
+      "title_native": "知りすぎた男",
+      "title_en": "The Man Who Knew Too Much",
+      "aired": "2005-06-22"
+    },
+    {
+      "n": 61,
+      "sources": {
+        "imdb": {
+          "rating": 8.0,
+          "votes": 1938,
+          "tconst": "tt1647575",
+          "season": 1,
+          "episode": 61
+        },
+        "bangumi": {
+          "comments": 14,
+          "url": "https://bgm.tv/ep/33521"
+        }
+      },
+      "synopsis": {
+        "en": "Nina returns to the apartment that she lived in with her mother and Johan and encounters more painful memories. She returns to Munich and Reichwein where she volunteers for hypnosis to find the truth behind these memories, but she attacks Gillen when buried memories resurface. She leaves Reichwein's house two days later to try to stop Tenma from killing her brother. Meanwhile, Jan Suk and Fritz Vardemann interview former residents of the Red Rose Mansions to gather information on Franz Bonaparta's reading sessions with his picture books, and for Vardemann to find out more about his father's true involvement in Czechoslovak politics."
+      },
+      "title_native": "記憶の扉",
+      "title_en": "The Door of Memory",
+      "aired": "2005-06-29"
+    },
+    {
+      "n": 62,
+      "sources": {
+        "imdb": {
+          "rating": 7.8,
+          "votes": 1953,
+          "tconst": "tt1647576",
+          "season": 1,
+          "episode": 62
+        },
+        "bangumi": {
+          "comments": 11,
+          "url": "https://bgm.tv/ep/33522"
+        }
+      },
+      "synopsis": {
+        "en": "While searching for Peter Čapek in Frankfurt, Tenma is chased by police and hit by a van. He awakens to find that he has a sprained ankle and was treated by a dentist named Milan Kolasch. Kolasch tells Tenma that Peter Čapek was responsible for the riots that broke out in the Turkish Quarter of the city and the deaths of the loved ones of different nationalities who now live with Kolasch. Kolasch feels responsible because he brought Čapek, his former childhood friend, to Frankfurt. Kolasch plans to kill Čapek at a convention and Tenma tries to prevent him from going. However, Kolasch fails in his attempt and is shot and killed by police. Nina arrives in Frankfurt where she recognizes Peter Čapek in a television news report of the assassination attempt."
+      },
+      "title_native": "楽しい食卓",
+      "title_en": "A Fun Dining Table",
+      "aired": "2005-07-06"
+    },
+    {
+      "n": 63,
+      "sources": {
+        "imdb": {
+          "rating": 8.1,
+          "votes": 1939,
+          "tconst": "tt1643899",
+          "season": 1,
+          "episode": 63
+        },
+        "bangumi": {
+          "comments": 9,
+          "url": "https://bgm.tv/ep/33523"
+        }
+      },
+      "synopsis": {
+        "en": "Detective Benjamin Weisbach was one of the first investigators in the murder of the Liebert parents. On his last day before retirement, he escorts a convicted serial murderer named Rheinhard Dinger and questions him about why he committed the murders and Dinger dates it back to when he sheltered young twins and the boy encouraged his violent tendencies which Weisbach recognizes as the Liebert twins. At the same prison, Gillen is interviewing several murderers about why they also killed people who did not fit their usual modus operandi. They meet and both realize that these criminals committed their atypical murders at the request of a young man who fits the description of Johan."
+      },
+      "title_native": "無関係な殺人",
+      "title_en": "An Unrelated Murder",
+      "aired": "2005-07-13"
+    },
+    {
+      "n": 64,
+      "sources": {
+        "imdb": {
+          "rating": 8.4,
+          "votes": 2087,
+          "tconst": "tt1647577",
+          "season": 1,
+          "episode": 64
+        },
+        "bangumi": {
+          "comments": 9,
+          "url": "https://bgm.tv/ep/33524"
+        }
+      },
+      "synopsis": {
+        "en": "The Baby expresses his concerns to Čapek about Johan's program of killing people to hide the scandals of Kristoff Sievernich and whether they can control him. He also reveals that Nina Fortner has arrived in Frankfurt. Later, The Baby is assassinated by a prostitute, and his death sends shockwaves through Čapek's organization. Čapek becomes paranoid about who is loyal or not, and panicking, he kills one of his guards who is driving him to his villa. He makes it to his cottage where Johan is waiting for him and who says that Franz Bonaparta is still alive."
+      },
+      "title_native": "赤ん坊の憂鬱",
+      "title_en": "The Baby's Depression",
+      "aired": "2005-07-20"
+    },
+    {
+      "n": 65,
+      "sources": {
+        "imdb": {
+          "rating": 8.2,
+          "votes": 1999,
+          "tconst": "tt1643893",
+          "season": 1,
+          "episode": 65
+        },
+        "bangumi": {
+          "comments": 5,
+          "url": "https://bgm.tv/ep/33525"
+        }
+      },
+      "synopsis": {
+        "en": "The news of Milan Kolasch's death devastates his friends and Tenma is even more determined to find Johan. He follows Kristoff to his apartment, but Eva is already there, prepared to kill Johan. When Čapek's men pick up Nina, she prepares to kill Čapek, but she pauses. Čapek realizes his hold on his organization is crumbling and Johan is pulling the strings. The police search Milan Kolasch's house and discover that his target was Peter Čapek. Eva accosts Kristoff demanding to know Johan's whereabouts, and he reveals that he and Johan were the only survivors of the massacre at 511 Kinderheim. Kristoff then grabs the gun from Eva, but before he can shoot, Tenma arrives. Shots are fired."
+      },
+      "title_native": "ヨハンの足跡",
+      "title_en": "Johan's Footprints",
+      "aired": "2005-07-27"
+    },
+    {
+      "n": 66,
+      "sources": {
+        "imdb": {
+          "rating": 8.9,
+          "votes": 2642,
+          "tconst": "tt1647578",
+          "season": 1,
+          "episode": 66
+        },
+        "bangumi": {
+          "comments": 7,
+          "url": "https://bgm.tv/ep/33526"
+        }
+      },
+      "synopsis": {
+        "en": "Čapek reveals to Nina that she and her twin brother Johan are the products of an extensive eugenics experiment which he designed to breed \"the perfect children\" without their mother's knowledge. When pregnant, their mother unsuccessfully tried to escape, and after the children were born they were taken away. He then takes Nina to an abandoned building where Johan is waiting. Meanwhile, Tenma drives Kristoff to a hospital while Eva demands to know Johan's location. While Eva makes a phone call to the hospital at a payphone, Kristoff reveals Johan's location to Tenma who leaves without Eva. Nina enters the abandoned building and sees Johan, and memories come flooding back of when they fled Prague, and the people Johan killed that were kind to them."
+      },
+      "title_native": "おかえり",
+      "title_en": "Welcome Back",
+      "aired": "2005-08-03"
+    },
+    {
+      "n": 67,
+      "sources": {
+        "imdb": {
+          "rating": 9.3,
+          "votes": 3387,
+          "tconst": "tt1647579",
+          "season": 1,
+          "episode": 67
+        },
+        "bangumi": {
+          "comments": 12,
+          "url": "https://bgm.tv/ep/33527"
+        }
+      },
+      "synopsis": {
+        "en": "Nina confronts Johan who presents her with a story of the brainwashing which happened at the Red Rose Mansion and the occasion when over 40 people were poisoned except Franz Bonaparta who survived. Suddenly, Nina realizes that she was the one who witnessed the deaths, not Johan, and it was she who ran home to find Johan dressed as her. The shock of this revelation nearly drives her to take her own life, but she is saved by Tenma. She realizes that Johan took her experiences and made them his own. Čapek then arrives and tells Tenma that he is going after Franz Bonaparta, however Čapek is gunned down shortly afterwards by two members of his organization for the paranoid killing of his own guard earlier. Later, Johan visits one of his hired hitmen and shoots him, before leaving stating that the true end is where he must be."
+      },
+      "title_native": "ただいま",
+      "title_en": "I'm Home",
+      "aired": "2005-08-10"
+    },
+    {
+      "n": 68,
+      "sources": {
+        "imdb": {
+          "rating": 7.8,
+          "votes": 2135,
+          "tconst": "tt1643895",
+          "season": 1,
+          "episode": 68
+        },
+        "bangumi": {
+          "comments": 10,
+          "url": "https://bgm.tv/ep/33528"
+        }
+      },
+      "synopsis": {
+        "en": "Using a postcard provided by Lipsky, Lunge arrives in the quiet town of Ruhenheim. After being helped to his room in Hotel Versteck by the boy Wim Knaup, he encounters Grimmer who using the alias Neumayer. Everyone in town thinks they hear a gunshot, and Grimmer offers to find a lost dog as an opportunity to investigate the town. Lunge also explores the town and he again meets Wim who is abused by his alcoholic father Herbert and bullied by other boys. Lunge recognizes Grimmer who alludes to an impending massacre in the town. Meanwhile, Henning and Franka Henich, an elderly working-class couple, realize that they have won the lottery. Henning buys guns fearing someone will try to steal their winnings. The local bullies tell Wim they dumped his bike near the \"vampire's house\", and when he goes there, he sees a murdered cat. He then encounters Grimmer and Lunge inside the house which is filled with sketches of the Liebert twins. As Conrad, the local café owner and jam-maker, is clearing vines he is approached by a stranger holding a gun."
+      },
+      "title_native": "ルーエンハイム",
+      "title_en": "Ruhenheim",
+      "title_cn": "Ruhenheim",
+      "aired": "2005-08-17"
+    },
+    {
+      "n": 69,
+      "sources": {
+        "imdb": {
+          "rating": 8.7,
+          "votes": 2328,
+          "tconst": "tt1643892",
+          "season": 1,
+          "episode": 69
+        },
+        "bangumi": {
+          "comments": 11,
+          "url": "https://bgm.tv/ep/33529"
+        }
+      },
+      "synopsis": {
+        "en": "Lunge tells Grimmer that something terrible may already be happening in Ruhenheim, a quiet town that appears to be filled with unhappy people. When the Henichs go to see Conrad, they find his murdered body. After being beaten up by the bullies again, Wim is offered a gun to kill them, while the elderly couple living at the hotel also offer his drunken father a gun. As Nina recovers in a hospital, she tells Tenma that Johan is orchestrating an event that will lead to his suicide, but will also involve the massacre of innocents. Tenma travels to Prague and meets Lipsky and asserts that his father Bonaparta, whose real name is Klaus Poppe, and Johan are probably in a town called Ruhenheim. Meanwhile, access to Ruhenheim is cut off because of heavy rain. Gunshots are heard and Lunge is suspicious of the elderly couple living in the hotel."
+      },
+      "title_native": "安らぎの家",
+      "title_en": "A Peaceful Home",
+      "aired": "2005-08-24"
+    },
+    {
+      "n": 70,
+      "sources": {
+        "imdb": {
+          "rating": 9.0,
+          "votes": 2622,
+          "tconst": "tt1643898",
+          "season": 1,
+          "episode": 70
+        },
+        "bangumi": {
+          "comments": 15,
+          "url": "https://bgm.tv/ep/33530"
+        }
+      },
+      "synopsis": {
+        "en": "People in Ruhenheim are now being shot and killed by outsiders and each other. Herman is ridiculed and refused service at the pub and leaves, then returns prepared to shoot them, but he finds everyone dead. Wim's bullies are killed and he thinks he shot them, but Grimmer finds that Wim's gun has not been fired. Both Grimmer and Lunge determine that the elderly man in the wheelchair was giving weapons to people in the town, and that the elderly owner of the Hotel Versteck is Bonaparta whose original name is Klaus Poppe. In Munich, Reichwein and Gillen show Nina an email from Johan inviting her to Ruhenheim and Gillen agrees to escort her there. Back in Ruhenheim, the murders continue, led by Roberto. Bonaparta awaits his fate, prepared to die, but Grimmer swears that he will be publicly exposed. The Henichs arrive at the hotel, and using their weapons, Lunge decides to confront a ringleader who is reportedly at the Bergbach Hotel, while Grimmer prepares to mount defence at Bonaparta's hotel. Tenma arrives in Ruhenheim on foot and tries to evacuate some women and children."
+      },
+      "title_native": "殺戮の町",
+      "title_en": "The Town of Slaughter",
+      "aired": "2005-08-31"
+    },
+    {
+      "n": 71,
+      "sources": {
+        "imdb": {
+          "rating": 9.7,
+          "votes": 5640,
+          "tconst": "tt1643897",
+          "season": 1,
+          "episode": 71
+        },
+        "bangumi": {
+          "comments": 38,
+          "url": "https://bgm.tv/ep/33531"
+        }
+      },
+      "synopsis": {
+        "en": "Grimmer binds the elderly couple as they prepare to repel any attacks. Tenma encounters Lunge who grudgingly apologizes for his previous accusations against the doctor. He asks Tenma take the waitress Else to the Hotel Versteck after she fled from Roberto. As Nina and Gillen rush to Ruhenheim, Lunge begins his assault at the Bergbach Hotel. Back at the Hotel Versteck, they come under heavy gunfire, the Henichs are killed. Grimmer steps out to the streets to reason with the unknown assailants, however Else is shot dead just as she reaches him and he is shot as well. Grimmer's anger overwhelms him and he charges into the gunman's building. Meanwhile, Nina and Gillen reach a path that leads to Ruhenheim and meet survivors who Gillen tells to call the authorities as Nina runs into the town. Grimmer is able to kill four of the assailants before Tenma arrives and he tells Tenma that he used his own anger instead of becoming the Magnificent Steiner to defeat his attackers. Before succumbing to his fatal injuries, Grimmer gives Tenma the letter Inspector Lunge found at the Red Rose Mansion and he finally experiences the emotion of sadness. Wim and Bonaparta arrive and mourn Grimmer's death."
+      },
+      "title_native": "超人シュタイナーの怒り",
+      "title_en": "The Magnificent Steiner's Rage",
+      "aired": "2005-09-07"
+    },
+    {
+      "n": 72,
+      "sources": {
+        "imdb": {
+          "rating": 9.2,
+          "votes": 3709,
+          "tconst": "tt1643894",
+          "season": 1,
+          "episode": 72
+        },
+        "bangumi": {
+          "comments": 7,
+          "url": "https://bgm.tv/ep/33532"
+        }
+      },
+      "synopsis": {
+        "en": "Lunge finds Roberto at the Hotel Bergbach, but is shot. As the Henichs and Wim mourn Grimmer's death, Tenma reads the letter which was written by Bonaparta. Bonaparta confesses that he fell in love with the mother of the twins but had a change of heart, so he killed everybody at the mansion who knew about the experiment. Tenma and Bonaparta walk towards the Bergbach Hotel and Bonaparta says that he visited the Lieberts on the night of their murders to see the children and was aware of what happened later. Bonaparta admits that he created a monster and Tenma admits that he brought him back to life. In the Hotel Bergbach, Lunge and Roberto have shot each other and Roberto taunts Lunge about his failed family life. He says that Johan wants Tenma to be the last one left alive to see what Johan saw. Lunge manages to beat Roberto, and demands to know where Johan is. Meanwhile, Nina and Gillen arrive at the Hotel Versteck where Wim recognizes her from Bonaparta's paintings. She and Gillen go to the house containing drawings of the twins which triggers memories of the Red Rose Mansion poisoning and her mother telling the twins to flee."
+      },
+      "title_native": "名前のない男",
+      "title_en": "Man Without A Name",
+      "aired": "2005-09-14"
+    },
+    {
+      "n": 73,
+      "sources": {
+        "imdb": {
+          "rating": 9.7,
+          "votes": 6485,
+          "tconst": "tt1643896",
+          "season": 1,
+          "episode": 73
+        },
+        "bangumi": {
+          "comments": 13,
+          "url": "https://bgm.tv/ep/33533"
+        }
+      },
+      "synopsis": {
+        "en": "One of the few survivors, Herbert, is still looking for his son Wim, blaming the \"devil\" for the deaths of the townspeople. Tenma, Wim, and Bonaparta arrive at the Hotel Bergbach when Johan arrives. Bonaparta attempts to shoot Johan but is gunned down by Roberto who soon dies of his own injuries. Johan wants Tenma to shoot him just as Nina and Gillen arrive and she tells Johan that she forgives him. However, Johan pulls a gun and threatens to kill Wim to force Tenma to shoot him. Herbert arrives and, seeing images of a horrible beast, shoots Johan in the head. With the massacre now over, authorities rush into the town and attempt to determine what happened based on statements by Gillen and Inspector Lunge. Herbert is taken away for questioning over his shooting of Johan. Just as Tenma is recognized and about to be arrested, an ambulance worker arrives asking for Tenma's assistance. Johan is still alive with a bullet wound to his brain, and Lunge suggests that Tenma is the only qualified neurosurgeon who can save him. Later, Tenma prepares to operate and save Johan again."
+      },
+      "title_native": "終わりの風景",
+      "title_en": "The Landscape of the End",
+      "aired": "2005-09-21"
+    },
+    {
+      "n": 74,
+      "sources": {
+        "imdb": {
+          "rating": 9.4,
+          "votes": 4540,
+          "tconst": "tt0906233",
+          "season": 1,
+          "episode": 74
+        },
+        "bangumi": {
+          "comments": 34,
+          "url": "https://bgm.tv/ep/33534"
+        }
+      },
+      "synopsis": {
+        "en": "Some time after the events at Ruhenheim, Karl informs Schuwald that Tenma has been cleared of all charges and is now working for Doctors without Borders. Eva Heinemann informs Reichwein that she is now working as an interior designer and has overcome her anger at Tenma and her grief over Martin and gives him a scrapbook of clippings on Tenma. Suk, Vardemann, and Lunge pay their respects at Grimmer's grave where Lunge tells them that he is now a professor at the police academy and leaves a cold beer at the graveside. Otto Heckel gives information to Dieter for Tenma on the whereabouts of the twins' mother. Tenma visits her in southern France and she tells him that she loved the father of her twins and wished revenge on those who killed him through her children. She also recalls how the children did not want to be abandoned by their mother and tells Tenma their real names. In Heidelberg, Nina graduates from university. Tenma later visits an apparently comatose Johan and sees or possibly hallucinates Johan wondering if his mother chose Nina to be taken for the experiment to protect him, or had she mistaken him for his sister. As Tenma leaves the police hospital, Johan's bed is shown empty with the window open, having vanished once again."
+      },
+      "title_native": "本当の怪物",
+      "title_en": "The Real Monster",
+      "aired": "2005-09-28"
+    }
+  ],
+  "route": [
+    {
+      "kind": "watch",
+      "eps": [
+        1,
+        4
+      ],
+      "why": "（示例）开局四集建立全部核心冲突，一集不能少。"
+    },
+    {
+      "kind": "bridge",
+      "eps": [
+        5,
+        11
+      ],
+      "title": "（示例）逃亡与追猎的第一段",
+      "paragraphs": [
+        "（示例段落一）这里会写被跳过的 5–11 集发生了什么。",
+        "（示例段落二）只保留推进主线所需的信息。"
+      ]
+    },
+    {
+      "kind": "watch",
+      "eps": [
+        12,
+        12
+      ],
+      "why": "（示例）关键单集。"
+    },
+    {
+      "kind": "bridge",
+      "eps": [
+        13,
+        28
+      ],
+      "title": "（示例）中段支线",
+      "paragraphs": [
+        "（示例）……"
+      ]
+    },
+    {
+      "kind": "watch",
+      "eps": [
+        29,
+        30
+      ],
+      "why": "（示例）全剧最高分双集。"
+    },
+    {
+      "kind": "bridge",
+      "eps": [
+        31,
+        70
+      ],
+      "title": "（示例）长桥",
+      "paragraphs": [
+        "（示例）……"
+      ]
+    },
+    {
+      "kind": "watch",
+      "eps": [
+        71,
+        74
+      ],
+      "why": "（示例）终局四集。"
+    }
+  ]
+}

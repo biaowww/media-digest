@@ -1,0 +1,7 @@
+# 缓存与凭证：绝不提交
+scraper/cache/
+scraper/tmdb_api_key.txt
+*.key
+__pycache__/
+*.pyc
+.pytest_cache/
