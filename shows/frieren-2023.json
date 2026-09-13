@@ -1,0 +1,2330 @@
+{
+  "meta": {
+    "slug": "frieren-2023",
+    "schema_version": 1,
+    "ids": {
+      "mal": "52991",
+      "bangumi": "400602",
+      "imdb": "tt22248376",
+      "tmdb": "209867",
+      "wiki": "List of Frieren episodes"
+    },
+    "title": "Frieren: Beyond Journey's End",
+    "title_cn": "葬送的芙莉莲",
+    "title_native": "葬送のフリーレン",
+    "year": 2023,
+    "total_eps": 28,
+    "primary_kpi": "imdb",
+    "updated": "2026-09-13"
+  },
+  "about": {
+    "cover": "https://cdn.myanimelist.net/images/anime/1015/138006.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w500/rBOnrVlck7BIlGeWVlzYiZeg4l2.jpg",
+    "synopsis": {
+      "en": "During their decade-long quest to defeat the Demon King, the members of the hero's party—Himmel himself, the priest Heiter, the dwarf warrior Eisen, and the elven mage Frieren—forge bonds through adventures and battles, creating unforgettable precious memories for most of them.\n\r\n\n\r\nHowever, the time that Frieren spends with her comrades is equivalent to merely a fraction of her life, which has lasted over a thousand years. When the party disbands after their victory, Frieren casually returns to her \"usual\" routine of collecting spells across the continent. Due to her different sense of time, she seemingly holds no strong feelings toward the experiences she went through.\n\r\n\n\r\nAs the years pass, Frieren gradually realizes how her days in the hero's party truly impacted her. Witnessing the deaths of two of her former companions, Frieren begins to regret having taken their presence for granted; she vows to better understand humans and create real personal connections. Although the story of that once memorable journey has long ended, a new tale is about to begin.",
+      "zh": "魔法使芙莉莲和勇者辛美尔等人一起，历经十年的冒险之后击败了魔王，为世界带来了和平。\r\n身为能活上一千多年的精灵族，她于是和辛美尔等人约定再次相见后，踏上了独自一人的旅途。\r\n自那以后，50年过去，芙莉莲又前往拜访辛美尔，相比于和50年前一点没变的她来说，辛美尔已经年迈体衰，进入了风烛残年。\r\n之后，她目睹了辛美尔迎来他的死亡，痛感自己以往没能“知晓人心\"，陷入后悔的芙莉莲，为了“知晓人心\"，踏上了旅途。\r\n这趟旅途会邂逅各种各样的人，也有各种各样的事情在等待着她。"
+    },
+    "genres": [
+      "Adventure",
+      "Award Winning",
+      "Drama",
+      "Fantasy",
+      "Shounen"
+    ],
+    "studios": [
+      "Madhouse"
+    ],
+    "scores": {
+      "mal": {
+        "score": 9.25,
+        "votes": 933921,
+        "rank": 1
+      },
+      "bangumi": {
+        "score": 8.5,
+        "votes": 36190,
+        "rank": 42
+      },
+      "imdb": {
+        "score": 8.9,
+        "votes": 84265
+      },
+      "tmdb": {
+        "score": 8.799,
+        "votes": 958
+      }
+    },
+    "links": {
+      "mal": "https://myanimelist.net/anime/52991",
+      "bangumi": "https://bgm.tv/subject/400602",
+      "imdb": "https://www.imdb.com/title/tt22248376/",
+      "tmdb": "https://www.themoviedb.org/tv/209867",
+      "wiki": "https://en.wikipedia.org/wiki/List_of_Frieren_episodes"
+    },
+    "characters": [
+      {
+        "name": "Fern",
+        "role": "Main",
+        "image": "https://cdn.myanimelist.net/images/characters/12/619183.jpg",
+        "mal_id": 188176,
+        "favorites": 6011
+      },
+      {
+        "name": "Frieren",
+        "role": "Main",
+        "image": "https://cdn.myanimelist.net/images/characters/7/525105.jpg",
+        "mal_id": 184947,
+        "favorites": 32993
+      },
+      {
+        "name": "Stark",
+        "role": "Main",
+        "image": "https://cdn.myanimelist.net/images/characters/7/621924.jpg",
+        "mal_id": 188177,
+        "favorites": 3908
+      },
+      {
+        "name": "Himmel",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/16/621925.jpg",
+        "mal_id": 186854,
+        "favorites": 5076
+      },
+      {
+        "name": "Übel",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/9/543072.jpg",
+        "mal_id": 206725,
+        "favorites": 1703
+      },
+      {
+        "name": "Eisen",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/13/523293.jpg",
+        "mal_id": 196825,
+        "favorites": 539
+      },
+      {
+        "name": "Flamme",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/10/528177.jpg",
+        "mal_id": 187307,
+        "favorites": 515
+      },
+      {
+        "name": "Heiter",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/16/523294.jpg",
+        "mal_id": 196826,
+        "favorites": 408
+      },
+      {
+        "name": "Denken",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/2/626193.jpg",
+        "mal_id": 215250,
+        "favorites": 354
+      },
+      {
+        "name": "Sein",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/12/529669.jpg",
+        "mal_id": 196912,
+        "favorites": 354
+      },
+      {
+        "name": "Methode",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/14/538692.jpg",
+        "mal_id": 215303,
+        "favorites": 297
+      },
+      {
+        "name": "Serie",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/4/536851.jpg",
+        "mal_id": 211285,
+        "favorites": 266
+      },
+      {
+        "name": "Sense",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/14/538685.jpg",
+        "mal_id": 215301,
+        "favorites": 118
+      },
+      {
+        "name": "Aura",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/10/524719.jpg",
+        "mal_id": 206722,
+        "favorites": 92
+      },
+      {
+        "name": "Land",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/8/541623.jpg",
+        "mal_id": 215248,
+        "favorites": 84
+      },
+      {
+        "name": "Wirbel",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/4/619383.jpg",
+        "mal_id": 215249,
+        "favorites": 77
+      },
+      {
+        "name": "Genau",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/7/537235.jpg",
+        "mal_id": 215261,
+        "favorites": 53
+      },
+      {
+        "name": "Linie",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/13/524721.jpg",
+        "mal_id": 215254,
+        "favorites": 43
+      },
+      {
+        "name": "Laufen",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/15/533517.jpg",
+        "mal_id": 232166,
+        "favorites": 37
+      },
+      {
+        "name": "Lawine",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/10/537013.jpg",
+        "mal_id": 215295,
+        "favorites": 32
+      },
+      {
+        "name": "Kanne",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/13/534108.jpg",
+        "mal_id": 215293,
+        "favorites": 30
+      },
+      {
+        "name": "Kraft",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/6/566320.jpg",
+        "mal_id": 206723,
+        "favorites": 30
+      },
+      {
+        "name": "Voll",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/9/535528.jpg",
+        "mal_id": 215273,
+        "favorites": 30
+      }
+    ],
+    "characters_bangumi": [
+      {
+        "name_native": "フリーレン",
+        "relation": "主角",
+        "image": "https://lain.bgm.tv/pic/crt/g/b5/b6/86246_crt_L0Zmt.jpg",
+        "bangumi_id": 86246
+      },
+      {
+        "name_native": "フェルン",
+        "relation": "主角",
+        "image": "https://lain.bgm.tv/pic/crt/g/38/6d/86247_crt_K4gRr.jpg",
+        "bangumi_id": 86247
+      },
+      {
+        "name_native": "ヒンメル",
+        "relation": "主角",
+        "image": "https://lain.bgm.tv/pic/crt/g/63/0a/88208_crt_mm77H.jpg?r=1692974287",
+        "bangumi_id": 88208
+      },
+      {
+        "name_native": "シュタルク",
+        "relation": "主角",
+        "image": "https://lain.bgm.tv/pic/crt/g/de/de/89182_crt_55gBE.jpg?r=1692974577",
+        "bangumi_id": 89182
+      },
+      {
+        "name_native": "ハイター",
+        "relation": "主角",
+        "image": "https://lain.bgm.tv/pic/crt/g/ff/51/89183_crt_f0212.jpg?r=1692974645",
+        "bangumi_id": 89183
+      },
+      {
+        "name_native": "アイゼン",
+        "relation": "主角",
+        "image": "https://lain.bgm.tv/pic/crt/g/f3/f8/89184_crt_e6Jj7.jpg?r=1692974662",
+        "bangumi_id": 89184
+      }
+    ]
+  },
+  "intro": {
+    "logline": "魔王已经被打倒了，故事从庆功宴之后开始——一个活了千年的精灵魔法使，用一趟十年的旅程去补上她当年没弄懂的事：人。",
+    "synopsis": "勇者欣梅尔（Himmel）一行人花了十年打倒魔王，凯旋、受勋、解散，各自老去。队里的精灵魔法使芙莉莲（Frieren）寿命以千年计，那十年对她只是一瞬，她没把这几个同伴太当回事。直到多年后欣梅尔离世，她才发现自己对一个朝夕相处过十年的人几乎一无所知，而这份无知已经补不回来了。此后她收下一个人类徒弟菲伦（Fern），沿着当年打魔王走过的老路重新北上，目的地是传说中灵魂长眠之地。沿途她替各地的人做些琐碎的工作、收集一些没什么用的魔法，也在每一座立着旧同伴雕像的小镇上，重新认识那些她当年没来得及认识的人。",
+    "characters": [
+      {
+        "name": "Frieren",
+        "name_cn": "芙莉莲",
+        "role": "主角 · 精灵魔法使",
+        "motivation": "她想搞懂人类——不是出于善意，是出于迟到的后悔。对她来说十年是零钱，对同伴来说是半辈子，这个换算她当年没做。"
+      },
+      {
+        "name": "Fern",
+        "name_cn": "菲伦",
+        "role": "芙莉莲的徒弟 · 人类魔法使",
+        "motivation": "被海塔收养的战争孤儿。她学魔法最初是为了不辜负捡回自己的人，后来是因为芙莉莲高兴的时候她也高兴。"
+      },
+      {
+        "name": "Stark",
+        "name_cn": "修塔尔克",
+        "role": "队伍前卫 · 战士",
+        "motivation": "艾冉的徒弟，被全村当成屠龙英雄，其实一只怪物都没杀过。他想带着像样的冒险故事回去讲给师父听。"
+      },
+      {
+        "name": "Himmel",
+        "name_cn": "欣梅尔",
+        "role": "勇者 · 已故",
+        "motivation": "全剧的缺席主角。他做的绝大多数事情，意义都要等几十年后才显形。"
+      },
+      {
+        "name": "Heiter",
+        "name_cn": "海塔",
+        "role": "僧侣 · 已故",
+        "motivation": "嗜酒的伪君子式神官，临终前用一个谎把芙莉莲留下来教菲伦。"
+      },
+      {
+        "name": "Eisen",
+        "name_cn": "艾冉",
+        "role": "矮人战士",
+        "motivation": "旧队伍里唯一还活着的人类同伴之外的老兵。知道自己老了，把该做的事交给年轻人。"
+      }
+    ],
+    "highlights": [
+      "叙事从反面切入：别的奇幻从「出发打魔王」开讲，它从打完之后的第二天开讲。",
+      "情绪不靠台词推，靠时间差——同一个地点、同一句话，隔八十年再放一次，意思就变了。",
+      "战斗写得极克制：强弱由信息差和心理战决定，不靠喊招式，魔法体系的设定本身就是剧情。",
+      "Madhouse 的作画与 Evan Call 的配乐在 TV 动画里属于天花板级；YOASOBI《勇者》与 Yorushika《晴る》两首 OP 都单独出圈。"
+    ],
+    "standing": "MAL 长期排在总榜前列，评分 9.2+、超过八十万人打分；原作拿过 2021 年漫画大赏大赏、第 25 届手塚治虫文化奖新生奖、第 69 届小学馆漫画奖。第一季 2023-09 至 2024-03 播出 28 集，第二季 2026-01 播出 10 集，第三季「黄金乡篇」定档 2027 年 10 月。它属于那种看的时候觉得平淡、看完很久还会自己冒出来的作品。",
+    "route_note": "不要按评分取 top X%。这部剧的分集评分区间极窄（几乎全在 8.5 以上），而且后期系统性偏高，排序没有区分度。更要紧的是：它大量「看起来可以跳」的单元集，恰恰是它最值钱的部分——纯按「不看后面接不上」来剪，会把这部剧剪没。所以本条路线的三层是这样切的：骨架必看只保留信息不可替代的集（1-2、4、6、10、18、21、26-28）；高分独立短篇这一层刻意做厚（11、12、14、22），这四集跳了完全不影响剧情，但它们是这部剧本身；其余压成文字桥接，专门吃那些只推进信息的集。全季 28 集约 11.5 小时，本路线看 14 集约 5.6 小时。若还想再加 25 分钟，把第 25 集从桥接里捞出来看——那是被压掉的集里最可惜的一集。"
+  },
+  "episodes": [
+    {
+      "n": 1,
+      "sources": {
+        "mal": {
+          "score": 4.29,
+          "forum_replies": 789,
+          "url": "https://myanimelist.net/anime/52991/Sousou_no_Frieren/episode/1"
+        },
+        "imdb": {
+          "rating": 8.4,
+          "votes": 6696,
+          "tconst": "tt23861604",
+          "season": 1,
+          "episode": 1
+        },
+        "tmdb": {
+          "vote_average": 8.439,
+          "vote_count": 57,
+          "still": "https://image.tmdb.org/t/p/w500/7SfqQVmW125ugsktoRVTnRXpAkd.jpg",
+          "season": 1,
+          "episode": 1
+        },
+        "bangumi": {
+          "comments": 297,
+          "url": "https://bgm.tv/ep/1227087"
+        }
+      },
+      "synopsis": {
+        "en": "Heiter advises Frieren that a certain spell from a grimoire is dangerous because it \"destroys relationships\", but Frieren tests the spell on Himmel nonetheless. The rest of Himmel's party hear what Himmel is thinking: he thinks that himself is handsome in any circumstances. Heiter then says that hearing what someone is thinking is not always a good thing.",
+        "zh": "英雄辛美尔一行人击败了魔王，凯旋王都。当他们纷纷回顾过去十年的冒险并思考未来的生活时，精灵芙莉莲不为所动，并投入到另一场对魔法的研究。时光荏苒，同伴们相继老去，只有芙莉莲容颜不改。50年后的一天，与同伴相约再聚的芙莉莲回到首都。在这次重逢过后，她决定踏上新的旅程，去寻找自己新的意义。"
+      },
+      "title_native": "冒険の終わり",
+      "title_en": "Spell That Makes You Say What You're Thinking",
+      "title_cn": "冒险结束",
+      "aired": "2023-09-29",
+      "heat": {
+        "mal_replies": 789,
+        "bangumi_comments": 297,
+        "imdb_votes": 6696
+      },
+      "notes": {
+        "title_cn": "冒险的终结",
+        "summary": "勇者欣梅尔（Himmel）、僧侣海塔（Heiter）、矮人战士艾冉（Eisen）、精灵魔法使芙莉莲（Frieren）打倒魔王后回到王都受勋，一起看了半世纪一遇的流星雨。三人准备退休，芙莉莲觉得十年不过一瞬，约定五十年后带他们去更好的观星点。五十年后她如约回来，欣梅尔和海塔已是老人、艾冉步入中年；一周的观星之旅结束后不久欣梅尔病逝。葬礼上芙莉莲第一次落泪，意识到自己对同行十年的人几乎一无所知，决定开始「了解人类」。二十年后她去看海塔，发现他收养了战争孤儿菲伦（Fern），并托她研究长生魔法、教菲伦魔法；她看过菲伦的天赋后答应了。",
+        "new": [
+          {
+            "name": "Frieren",
+            "name_cn": "芙莉莲",
+            "kind": "recurring",
+            "note": "主角 · 精灵魔法使"
+          },
+          {
+            "name": "Himmel",
+            "name_cn": "欣梅尔",
+            "kind": "recurring",
+            "note": "勇者，本集去世，此后大量闪回"
+          },
+          {
+            "name": "Heiter",
+            "name_cn": "海塔",
+            "kind": "recurring",
+            "note": "僧侣，嗜酒"
+          },
+          {
+            "name": "Eisen",
+            "name_cn": "艾冉",
+            "kind": "recurring",
+            "note": "矮人战士"
+          },
+          {
+            "name": "Fern",
+            "name_cn": "菲伦",
+            "kind": "recurring",
+            "note": "海塔收养的战争孤儿，日后的徒弟"
+          }
+        ]
+      }
+    },
+    {
+      "n": 2,
+      "sources": {
+        "mal": {
+          "score": 4.32,
+          "forum_replies": 411,
+          "url": "https://myanimelist.net/anime/52991/Sousou_no_Frieren/episode/2"
+        },
+        "imdb": {
+          "rating": 8.2,
+          "votes": 5719,
+          "tconst": "tt29277814",
+          "season": 1,
+          "episode": 2
+        },
+        "tmdb": {
+          "vote_average": 7.716,
+          "vote_count": 51,
+          "still": "https://image.tmdb.org/t/p/w500/jVeDv4dZI5KbRQw3eD8RRiojUZ5.jpg",
+          "season": 1,
+          "episode": 2
+        },
+        "bangumi": {
+          "comments": 137,
+          "url": "https://bgm.tv/ep/1227088"
+        }
+      },
+      "synopsis": {
+        "en": "At a bar, Frieren tests a spell over the mugs of beer. Frieren, Eisen and Himmel then drink the alcohol-free beer, which, to them, tastes the same as one with alcohol. However, Heiter, who is obsessed with alcoholic beverages, notices a subtle difference.",
+        "zh": "芙莉莲拜访了住在森林深处的海塔，并见到了与他住在一起的孤儿菲伦。海塔请芙莉莲教她魔法。后来，因为某件事，他们一起踏上了旅程。在旅行时，芙莉莲参观了一个有辛美尔雕像的村庄，并想起了辛美尔生前说过他喜欢的花……"
+      },
+      "title_native": "別に魔法じゃなくたって...",
+      "title_en": "Spell That Removes Alcohol Content from Alcoholic Beverages",
+      "title_cn": "不见得一定是靠魔法…",
+      "aired": "2023-09-29",
+      "heat": {
+        "mal_replies": 411,
+        "bangumi_comments": 137,
+        "imdb_votes": 5719
+      },
+      "notes": {
+        "title_cn": "不一定要是魔法",
+        "summary": "芙莉莲一边教菲伦一边翻译据说记载长生之法的古魔导书，四年过去。海塔倒下后再也站不起来，菲伦却不肯立刻去看他——她要在他死前成为魔法使，把结果给他看，作为他当年拦下自己自杀并收养自己的回报。魔导书翻完，长生之法并不存在；海塔承认他早就知道，只是想留住芙莉莲教菲伦。菲伦掌握攻击魔法那天，海塔去世。菲伦随芙莉莲上路，两人靠替人做杂事换取魔法文献。在一座远方小镇清洗欣梅尔的雕像时，芙莉莲想用他生前喜欢的花装饰，那种花在当地已绝迹，两人找了半年，最后在鼠窝的存粮里找到种子，她用魔法为雕像变出一整片花田。"
+      }
+    },
+    {
+      "n": 3,
+      "sources": {
+        "mal": {
+          "score": 4.33,
+          "forum_replies": 340,
+          "url": "https://myanimelist.net/anime/52991/Sousou_no_Frieren/episode/3"
+        },
+        "imdb": {
+          "rating": 8.2,
+          "votes": 5375,
+          "tconst": "tt29277815",
+          "season": 1,
+          "episode": 3
+        },
+        "tmdb": {
+          "vote_average": 8.149,
+          "vote_count": 47,
+          "still": "https://image.tmdb.org/t/p/w500/5uVpkiIoMRCDaLcAxfG8Gc7VJWo.jpg",
+          "season": 1,
+          "episode": 3
+        },
+        "bangumi": {
+          "comments": 179,
+          "url": "https://bgm.tv/ep/1227089"
+        }
+      },
+      "synopsis": {
+        "en": "As Frieren always wakes up from her sleep much later in a late morning, Fern casts a spell on Frieren to force her to get up at 6 in the morning. The next morning, Frieren awakes exactly at 6 in the morning, but still appears to be sleepy. As Frieren and Fern was about to have a breakfast meal, Frieren is fallen asleep again. Then, Fern starts reading a grimoire to look for a spell to prevent a person to fall asleep again.",
+        "zh": "芙莉莲和菲伦抵达贸易城市瓦尔姆。菲伦对芙莉莲的行为产生了怀疑，并决定跟踪她。芙莉莲的目的是什么？随后，两人来到了某个村庄。芙莉莲和辛美尔曾经战斗过的恶魔夸尔被封印在那里。"
+      },
+      "title_native": "人を殺す魔法",
+      "title_en": "Spell That Allows You to Wake Up at a Specific Time in the Morning",
+      "title_cn": "杀人魔法",
+      "aired": "2023-09-29",
+      "heat": {
+        "mal_replies": 340,
+        "bangumi_comments": 179,
+        "imdb_votes": 5375
+      },
+      "notes": {
+        "title_cn": "杀人的魔法",
+        "summary": "菲伦发现芙莉莲行迹可疑，追问之下才知道她是在为菲伦的生日礼物发愁——教了这么多年，她对菲伦仍然所知甚少。芙莉莲决定带她重走当年和欣梅尔等人走过的路。第一站是八十年前她封印魔族克瓦尔（Qual）的村子，封印将破。克瓦尔当年发明了无视一切防护、直接作用肉体的杀人魔法「佐尔特拉克（Zoltraak）」，强到芙莉莲只能封印。八十年间人类魔法师把这套魔法研究透彻，做成通用攻击咒文并开发出对应防御；解封后的克瓦尔打不穿菲伦的防御，被芙莉莲用他自己的魔法杀死。芙莉莲还得知欣梅尔生前每年都来检查封印，并认出村长是八十年前那个小男孩。",
+        "new": [
+          {
+            "name": "Qual",
+            "name_cn": "克瓦尔",
+            "kind": "one-off",
+            "note": "「腐敗の賢老」，佐尔特拉克的发明者"
+          }
+        ]
+      }
+    },
+    {
+      "n": 4,
+      "sources": {
+        "mal": {
+          "score": 4.43,
+          "forum_replies": 401,
+          "url": "https://myanimelist.net/anime/52991/Sousou_no_Frieren/episode/4"
+        },
+        "imdb": {
+          "rating": 8.1,
+          "votes": 5191,
+          "tconst": "tt29277817",
+          "season": 1,
+          "episode": 4
+        },
+        "tmdb": {
+          "vote_average": 8.222,
+          "vote_count": 45,
+          "still": "https://image.tmdb.org/t/p/w500/nYFUXvyrxCRwcOdIiqRdLJtVScj.jpg",
+          "season": 1,
+          "episode": 4
+        },
+        "bangumi": {
+          "comments": 211,
+          "url": "https://bgm.tv/ep/1227090"
+        }
+      },
+      "synopsis": {
+        "en": "Frieren and Fern discuss what exactly is \"good\" about a body scent spell, before Frieren tries it on Stark, who then starts smelling like grilled meat. Stark asks Frieren and Fern what to have for dinner that night, and the women answer that they would like to eat meat, which immediately scares Stark.",
+        "zh": "芙莉莲和菲伦拜访了艾泽。一番叙旧过后，艾泽请求他们帮助自己找到“大魔法师伏拉梅的回忆录”。于是他们三人来到森林深处，那里躺着海塔生前发现的回忆录。然而，他们被告知，大部分所谓的伏拉梅回忆录都是假的。那么，那个地方的回忆录到底是假的还是……？"
+      },
+      "title_native": "魂の眠る地",
+      "title_en": "Spell That Makes Your Body Smell Good",
+      "title_cn": "灵魂长眠之地",
+      "aired": "2023-09-29",
+      "heat": {
+        "mal_replies": 401,
+        "bangumi_comments": 211,
+        "imdb_votes": 5191
+      },
+      "notes": {
+        "title_cn": "灵魂长眠之地",
+        "summary": "两人清理海滩换来一本伪造的芙兰梅魔导书。活干完正赶上当地看新年日出的传统——上次芙莉莲睡过头错过，惹恼了同伴；这次她看到了，觉得日出无聊，直到看见菲伦高兴的样子，才明白当年大家生气不是因为日出，是因为说好一起看。随后她们去看三十年没见的艾冉。艾冉请她们去沃尔盆地找芙兰梅（Flamme）的真迹，传说里面记着与死者对话的方法，他希望芙莉莲能再和欣梅尔说一次话。芙兰梅是一千年前芙莉莲的人类师父。真本里写的不是对话术，而是灵魂的去处：大陆最北端的奥雷奥尔（Aureole），也就是魔王城所在。芙莉莲邀艾冉同行，艾冉以年老会拖累为由拒绝，只提醒她们当年走到魔王城花了十年。"
+      }
+    },
+    {
+      "n": 5,
+      "sources": {
+        "mal": {
+          "score": 4.41,
+          "forum_replies": 303,
+          "url": "https://myanimelist.net/anime/52991/Sousou_no_Frieren/episode/5"
+        },
+        "imdb": {
+          "rating": 7.7,
+          "votes": 5041,
+          "tconst": "tt29277818",
+          "season": 1,
+          "episode": 5
+        },
+        "tmdb": {
+          "vote_average": 8.073,
+          "vote_count": 41,
+          "still": "https://image.tmdb.org/t/p/w500/ioJWXpvWXAEjK1ues1ZZBwdYOA0.jpg",
+          "season": 1,
+          "episode": 5
+        },
+        "bangumi": {
+          "comments": 298,
+          "url": "https://bgm.tv/ep/1227091"
+        }
+      },
+      "synopsis": {
+        "en": "Frieren tries a spell that makes someone lucky on Stark, who then goes on to pick a path with fewer monsters to encounter, and win a lottery (the prize of which is high-quality meat). Sein then asks Frieren to cast the same spell on him, but the spell does not work on Sein, who is addicted to gambling, as he returns to Frieren's party with nothing but his underwear.",
+        "zh": "芙莉莲与菲伦决定朝着伏拉梅留下的手记中所记载的地点“灵魂长眠之地”前进，便与艾泽道别并踏上旅途。究竟在如今魔王城所在的那个地方，能否与辛美尔说上话呢……途中，两人造访了某个村子后，听到村民说有好几个人遭到幽灵带走而失踪的消息……"
+      },
+      "title_native": "死者の幻影",
+      "title_en": "Spell That Makes You Lucky",
+      "title_cn": "死者的幻影",
+      "aired": "2023-10-06",
+      "heat": {
+        "mal_replies": 303,
+        "bangumi_comments": 298,
+        "imdb_votes": 5041
+      },
+      "notes": {
+        "title_cn": "死者的幻影",
+        "summary": "芙莉莲提醒菲伦十年是她人生的十分之一，菲伦仍决定同行。途中一座村子接连有人失踪，村民说看见了死去的亲人；芙莉莲判断是靠幻术引诱猎物的怪物艾因萨姆（Einsam）。菲伦差点被海塔的幻影带走，芙莉莲对着欣梅尔的幻影毫不犹豫开了一枪，幻术破解，菲伦将其消灭。接着芙莉莲计划屠龙取魔导书，需要一名强力前卫，于是找上艾冉的徒弟、住在附近山村的修塔尔克（Stark）。这位被村民当作「和龙对视不退」的英雄承认自己一只怪物都没杀过，当年不退只是吓僵了。芙莉莲给他一晚上考虑。",
+        "new": [
+          {
+            "name": "Stark",
+            "name_cn": "修塔尔克",
+            "kind": "recurring",
+            "note": "艾冉的徒弟，日后的队伍前卫"
+          },
+          {
+            "name": "Einsam",
+            "name_cn": "艾因萨姆",
+            "kind": "one-off",
+            "note": "幻术怪物"
+          }
+        ]
+      }
+    },
+    {
+      "n": 6,
+      "sources": {
+        "mal": {
+          "score": 4.49,
+          "forum_replies": 341,
+          "url": "https://myanimelist.net/anime/52991/Sousou_no_Frieren/episode/6"
+        },
+        "imdb": {
+          "rating": 8.5,
+          "votes": 5307,
+          "tconst": "tt29346288",
+          "season": 1,
+          "episode": 6
+        },
+        "tmdb": {
+          "vote_average": 8.407,
+          "vote_count": 43,
+          "still": "https://image.tmdb.org/t/p/w500/veuq90RbYrizOYc6RWjZHqhf2ii.jpg",
+          "season": 1,
+          "episode": 6
+        },
+        "bangumi": {
+          "comments": 372,
+          "url": "https://bgm.tv/ep/1227092"
+        }
+      },
+      "synopsis": {
+        "en": "Sein asks Frieren if their party could make money using the spell that removes tough oil stains from kitchenwares. Soon, many villagers turn up with oil-stained kitchenwares to Frieren, who now has to handle so many requests, and then calls Fern for help.",
+        "zh": "休塔尔克居住在里格尔峡谷附近的村庄，他因为从红镜龙手中保护了村子而被誉为村子的英雄，但其实他是个胆小鬼。即使如此，芙莉莲仍对他的实力抱有期望，而向他提议要一起打倒红镜龙。休塔尔克有着能劈开巨石的力量，他的手却会不停发抖。究竟他会不会出现在战场上呢？"
+      },
+      "title_native": "村の英雄",
+      "title_en": "Spell to Remove Tough Oil Stains",
+      "title_cn": "村子的英雄",
+      "aired": "2023-10-13",
+      "heat": {
+        "mal_replies": 341,
+        "bangumi_comments": 372,
+        "imdb_votes": 5307
+      },
+      "notes": {
+        "title_cn": "村庄的英雄",
+        "summary": "修塔尔克仍然害怕，菲伦对他说需要的只是觉悟；芙莉莲则告诉他艾冉每次大战前一样害怕。第二天他上前引开龙，最后没要任何支援独力将其杀死，随后加入队伍。一行人北上瓦尔（Waal），却发现关卡因北方魔物活动频繁而关闭，可能要两年才开。芙莉莲无所谓，菲伦和修塔尔克急了；修塔尔克说出自己的目的：想带着冒险故事回去讲给艾冉听。最后城主认出芙莉莲，误以为她要北上平定魔物，为她开了关卡并办了英雄式送行，芙莉莲很尴尬。"
+      }
+    },
+    {
+      "n": 7,
+      "sources": {
+        "mal": {
+          "score": 4.53,
+          "forum_replies": 337,
+          "url": "https://myanimelist.net/anime/52991/Sousou_no_Frieren/episode/7"
+        },
+        "imdb": {
+          "rating": 8.5,
+          "votes": 4999,
+          "tconst": "tt29346291",
+          "season": 1,
+          "episode": 7
+        },
+        "tmdb": {
+          "vote_average": 8.357,
+          "vote_count": 42,
+          "still": "https://image.tmdb.org/t/p/w500/qTS0N4eauUgqa64LVXJoJjfvpo6.jpg",
+          "season": 1,
+          "episode": 7
+        },
+        "bangumi": {
+          "comments": 349,
+          "url": "https://bgm.tv/ep/1227093"
+        }
+      },
+      "synopsis": {
+        "en": "Frieren casts a language skill spell on Eisen. With the spell, Eisen speaks more efficiently than before. But as Eisen recounts an earlier battle Himmel's party fought, his movement gets faster as he speaks. Frieren and Heiter then think that Eisen has gone out of his character.",
+        "zh": "芙莉莲等人来到了一座城镇，当地在举办名为“解放祭”的祭典前夜祭。那里是过去芙莉莲与辛美尔等人从魔族手中保护的城镇。芙莉莲见到他们的铜像被建造于城镇中，想起了某件事。之后，芙莉莲造访古拉纳特伯爵治理的城镇，她却在那里突然朝某个人物举起法杖！"
+      },
+      "title_native": "おとぎ話のようなもの",
+      "title_en": "Spell That Allows You to Speak Quickly and Clearly",
+      "title_cn": "童话般的事物",
+      "aired": "2023-10-20",
+      "heat": {
+        "mal_replies": 337,
+        "bangumi_comments": 349,
+        "imdb_votes": 4999
+      },
+      "notes": {
+        "title_cn": "如同童话一般",
+        "summary": "北上途中芙莉莲讲起精灵一族因寿命太长、懒于繁衍而正在缓慢灭绝。他们路过一座立着当年勇者一行雕像、每年过「解放祭」的村子——欣梅尔当初坚持到处留雕像，是为了在很多年后提醒芙莉莲他们真的存在过，不是童话。到了下一座城市，芙莉莲一眼认出街上的魔族并当场出手，结果因「袭击和平使者」被城卫兵逮捕。原来魔王旧部之一「断头台的奥拉（Aura）」重新崛起，与格拉纳特伯爵（Graf Granat）的城市打了二十八年，双方正在谈和。芙莉莲断言魔族不可能真心谈判。事实如她所料：使节吕格纳（Lügner）此行只为骗城里撤下结界，好让奥拉的军队长驱直入；他派手下德拉特（Draht）去地牢暗杀芙莉莲。",
+        "new": [
+          {
+            "name": "Aura",
+            "name_cn": "奥拉",
+            "kind": "arc",
+            "note": "「断头台的奥拉」，七崩贤之一"
+          },
+          {
+            "name": "Lügner",
+            "name_cn": "吕格纳",
+            "kind": "arc",
+            "note": "奥拉手下，伪装成和平使节"
+          },
+          {
+            "name": "Draht",
+            "name_cn": "德拉特",
+            "kind": "one-off",
+            "note": "吕格纳的随从"
+          },
+          {
+            "name": "Graf Granat",
+            "name_cn": "格拉纳特伯爵",
+            "kind": "arc",
+            "note": "城市领主"
+          }
+        ]
+      }
+    },
+    {
+      "n": 8,
+      "sources": {
+        "mal": {
+          "score": 4.66,
+          "forum_replies": 397,
+          "url": "https://myanimelist.net/anime/52991/Sousou_no_Frieren/episode/8"
+        },
+        "imdb": {
+          "rating": 9.1,
+          "votes": 6037,
+          "tconst": "tt29346290",
+          "season": 1,
+          "episode": 8
+        },
+        "tmdb": {
+          "vote_average": 8.625,
+          "vote_count": 40,
+          "still": "https://image.tmdb.org/t/p/w500/6m8vHkqJ8lESCxneLeXPNq5V08f.jpg",
+          "season": 1,
+          "episode": 8
+        },
+        "bangumi": {
+          "comments": 332,
+          "url": "https://bgm.tv/ep/1227094"
+        }
+      },
+      "synopsis": {
+        "en": "As Stark returns to Frieren and Fern with three fishes he caught, Frieren tries a mind-reading spell on the fishes. Soon, Frieren and Fern hear from the fishes who complain about their upcoming fate. Frieren then decides that she would eat something else, and Fern tells Stark to release the fishes back.",
+        "zh": "侍奉魔族阿乌拉的琉古纳他们来向古拉纳特伯爵提出和谈，芙莉莲由于企图对他们施放魔法，而被逮捕并送入监牢。琉古纳将做出此举的芙莉莲视为危险人物，同样隶属于阿乌拉的多拉特则盯上了芙莉莲的性命。菲伦与修塔尔克也为了救出芙莉莲展开行动。"
+      },
+      "title_native": "葬送のフリーレン",
+      "title_en": "Spell That Detects the Thoughts of Fish",
+      "title_cn": "葬送的芙莉莲",
+      "aired": "2023-10-27",
+      "heat": {
+        "mal_replies": 397,
+        "bangumi_comments": 332,
+        "imdb_votes": 6037
+      },
+      "notes": {
+        "title_cn": "葬送的芙莉莲",
+        "summary": "德拉特无视警告动手，被芙莉莲轻易杀死，她随即越狱。格拉纳特伯爵察觉德拉特失踪与芙莉莲越狱有异，当面质问吕格纳；阴谋败露，吕格纳挟持伯爵要他撤掉结界。菲伦和修塔尔克遇上芙莉莲，决定去示警；芙莉莲拒绝帮忙，认定这两人足以对付吕格纳，自己出城去找奥拉。当晚两人潜入城堡重伤吕格纳，又带着重伤的伯爵撤退。吕格纳一边疗伤一边想起芙莉莲还有另一个名号——「葬送的芙莉莲」，因为她杀死的魔族比历史上任何人都多。城外，芙莉莲与奥拉正面相对。",
+        "new": [
+          {
+            "name": "Linie",
+            "name_cn": "莉妮耶",
+            "kind": "arc",
+            "note": "吕格纳的随从，能复制看过的战斗动作"
+          }
+        ]
+      }
+    },
+    {
+      "n": 9,
+      "sources": {
+        "mal": {
+          "score": 4.71,
+          "forum_replies": 515,
+          "url": "https://myanimelist.net/anime/52991/Sousou_no_Frieren/episode/9"
+        },
+        "imdb": {
+          "rating": 9.3,
+          "votes": 6880,
+          "tconst": "tt29359484",
+          "season": 1,
+          "episode": 9
+        },
+        "tmdb": {
+          "vote_average": 8.55,
+          "vote_count": 40,
+          "still": "https://image.tmdb.org/t/p/w500/yUeaBIwxbsPSri1oVBr2hNXVPYQ.jpg",
+          "season": 1,
+          "episode": 9
+        },
+        "bangumi": {
+          "comments": 584,
+          "url": "https://bgm.tv/ep/1227095"
+        }
+      },
+      "synopsis": {
+        "en": "Inside a dungeon, there are three closed treasure chests in front of Frieren's party. Fern guesses that at least one of the three chests could be a mimic chest. Stark then asks for a spell that makes someone lucky. The first chest opened has treasures, the second one has a grimoire, and the third and last one opened is a mimic chest. Fern then asks Frieren if she picked the third one on purpose.",
+        "zh": "芙莉莲独自离开城镇，并与七崩贤“断头台阿乌拉”对峙。有着庞大魔力的阿乌拉操控死者军团，一个接一个向芙莉莲发起攻击。另一方面，菲伦与修塔尔克救出古拉纳特伯爵，但琉古纳与莉妮耶的魔爪也伸向了他们两人……芙莉莲一行人与阿乌拉军的战况即将白热化。"
+      },
+      "title_native": "断頭台のアウラ",
+      "title_en": "Spell That Makes You Lucky, Part 2",
+      "title_cn": "断头台阿乌拉",
+      "aired": "2023-11-03",
+      "heat": {
+        "mal_replies": 515,
+        "bangumi_comments": 584,
+        "imdb_votes": 6880
+      },
+      "notes": {
+        "title_cn": "断头台的奥拉",
+        "summary": "菲伦和修塔尔克把伯爵送进教堂，伯爵告知奥拉的底牌是魔法道具「服从天秤」：比较双方魔力总量，多的一方可以完全支配少的一方，她的傀儡大军就是这么来的。芙莉莲摧毁奥拉的部分傀儡，确认她仍然毫不理解人类，判断可以像杀怪物一样杀掉她。城内，吕格纳与莉妮耶伏击菲伦和修塔尔克。修塔尔克看穿莉妮耶只是复制了艾冉的动作却没有艾冉的力量，故意挨一斧换来必杀一击；菲伦则凭借比芙莉莲更快的咏唱速度，硬生生压穿吕格纳的防御并将其重创。"
+      }
+    },
+    {
+      "n": 10,
+      "sources": {
+        "mal": {
+          "score": 4.74,
+          "forum_replies": 688,
+          "url": "https://myanimelist.net/anime/52991/Sousou_no_Frieren/episode/10"
+        },
+        "imdb": {
+          "rating": 9.4,
+          "votes": 7605,
+          "tconst": "tt29359483",
+          "season": 1,
+          "episode": 10
+        },
+        "tmdb": {
+          "vote_average": 8.575,
+          "vote_count": 40,
+          "still": "https://image.tmdb.org/t/p/w500/5Sryn4O6eO6bsdWbz30NK84PrnQ.jpg",
+          "season": 1,
+          "episode": 10
+        },
+        "bangumi": {
+          "comments": 540,
+          "url": "https://bgm.tv/ep/1227096"
+        }
+      },
+      "synopsis": {
+        "en": "Frieren discovers a grimoire with an unusual language skill spell. Among Himmel's party, Heiter finds the spell interesting, and suggests the spell to be cast on all party members, whoever laughs first loses the game, and other members use the loser's odd sentence ending for a week, which Himmel agrees. Himmel, Frieren and Heiter each end their words with an odd ending, but, not so sure about what have come out so far, they hold their laughter, and wait for Eisen's turn. In the end, everyone but Eisen burst out laughter.",
+        "zh": "大魔法使伏拉梅，存活于千年以前，身为人类却是在历史上被誉为“英雄”的魔法使。她某天在遭到魔王军袭击而全灭的精灵聚落中，遇见了独自幸存下来的芙莉莲。伏拉梅教导芙莉莲的事物究竟是……然后，芙莉莲与阿乌拉的战斗终于分出胜负。"
+      },
+      "title_native": "強い魔法使い",
+      "title_en": "Spell That Makes You End Your Sentences Oddly",
+      "title_cn": "强大的魔法使",
+      "aired": "2023-11-10",
+      "heat": {
+        "mal_replies": 688,
+        "bangumi_comments": 540,
+        "imdb_votes": 7605
+      },
+      "notes": {
+        "title_cn": "强大的魔法使",
+        "summary": "濒死的吕格纳才发现菲伦一直在压制魔力伪装成弱者——这在魔族魔法师中是禁忌，菲伦随即补刀。闪回一千年前：芙兰梅（Flamme）来到被毁的精灵村庄，发现唯一幸存的芙莉莲刚杀掉袭击者魔族将领，于是收她为徒，教她压制魔力对抗魔族。魔族高傲、笃信自己的魔力，无法压制自己的魔力，也就想不到别人会；芙兰梅留给她的最后指示是隐姓埋名，直到强到足以打倒魔王。一千年后欣梅尔一行找到她，因为欣梅尔能本能地察觉她真正的实力，她才答应入队。回到现在，奥拉动用服从天秤，芙莉莲放开压制、展示真实魔力总量，反过来支配奥拉，命令她自己斩下自己的头。",
+        "new": [
+          {
+            "name": "Flamme",
+            "name_cn": "芙兰梅",
+            "kind": "arc",
+            "note": "一千年前芙莉莲的人类师父，闪回登场"
+          }
+        ]
+      }
+    },
+    {
+      "n": 11,
+      "sources": {
+        "mal": {
+          "score": 4.53,
+          "forum_replies": 328,
+          "url": "https://myanimelist.net/anime/52991/Sousou_no_Frieren/episode/11"
+        },
+        "imdb": {
+          "rating": 7.8,
+          "votes": 4688,
+          "tconst": "tt29359488",
+          "season": 1,
+          "episode": 11
+        },
+        "tmdb": {
+          "vote_average": 7.737,
+          "vote_count": 38,
+          "still": "https://image.tmdb.org/t/p/w500/jUtZqIcrvFhI7XkBA3I1tZtCWDH.jpg",
+          "season": 1,
+          "episode": 11
+        },
+        "bangumi": {
+          "comments": 293,
+          "url": "https://bgm.tv/ep/1227097"
+        }
+      },
+      "synopsis": {
+        "en": "Just as Frieren's party discuss the clothes cleaning spell Fern has acquired from Serie, Frieren accidentally spills a spoonful of soup on her clothes, which allows Fern to demonstrate the said spell. Impressed by the spell, Stark quickly travels into a forest, which makes his clothes heavily stained. Fern, however, refuses to cast the spell on Stark because he got his clothes dirty on purpose.",
+        "zh": "芙莉莲、菲伦以及修塔尔克打倒了阿乌拉等魔族。和平到来之后，古拉纳特伯爵吊唁了死后也受到阿乌拉操控的部下，并向芙莉莲表达最大的谢意。芙莉莲等人再次踏上旅程，但冬天的北方诸国道路比想象中还要严峻……而他们在那里遇见了一位武僧。"
+      },
+      "title_native": "北側諸国の冬",
+      "title_en": "Spell to Make Clothes Clean and Spotless",
+      "title_cn": "北方诸国的严冬",
+      "aired": "2023-11-17",
+      "heat": {
+        "mal_replies": 328,
+        "bangumi_comments": 293,
+        "imdb_votes": 4688
+      },
+      "notes": {
+        "title_cn": "北方诸国的冬天",
+        "summary": "祭奠过奥拉的受害者、受了伯爵款待后，一行人继续北上，计划先到北方魔法都市 Äußerst 取得一级魔法使资格，才能通行北部高原。途中他们在施韦尔山脚遇上暴风雪，修塔尔克开始失温，勉强找到避难小屋，遇见同为精灵的僧侣克拉夫特（Kraft），四人在小屋里过了半年冬天。克拉夫特坦言他信奉女神，是因为旧友都已死去、功绩早被遗忘，只有女神还记得他、能在他升天时称赞他；他问起芙莉莲的过去，提出愿意代替女神称赞她。这句话让芙莉莲想起海塔曾说过一模一样的话，于是她拒绝了：已经有人称赞过她了。克拉夫特临别劝她珍惜身边的同伴。",
+        "new": [
+          {
+            "name": "Kraft",
+            "name_cn": "克拉夫特",
+            "kind": "arc",
+            "note": "精灵僧侣，第 16 集以雕像形式再次出现"
+          }
+        ]
+      }
+    },
+    {
+      "n": 12,
+      "sources": {
+        "mal": {
+          "score": 4.65,
+          "forum_replies": 449,
+          "url": "https://myanimelist.net/anime/52991/Sousou_no_Frieren/episode/12"
+        },
+        "imdb": {
+          "rating": 8.7,
+          "votes": 5057,
+          "tconst": "tt29359487",
+          "season": 1,
+          "episode": 12
+        },
+        "tmdb": {
+          "vote_average": 8.026,
+          "vote_count": 38,
+          "still": "https://image.tmdb.org/t/p/w500/4YV6QgyVjXx0KcmPoT535hOhCWv.jpg",
+          "season": 1,
+          "episode": 12
+        },
+        "bangumi": {
+          "comments": 417,
+          "url": "https://bgm.tv/ep/1227098"
+        }
+      },
+      "synopsis": {
+        "en": "After she destroys a demon, Frieren receives a headpat from Heiter, who then apologises and explains that it was because the height difference between them was just right enough for him to pat her. Frieren is then reminded of a body height extension spell she received earlier as a payment for work. Soon, Frieren, who is now the tallest in Himmel's party, appeals that no one can give her a headpat. However, both Himmel and Heiter give a comment that Frieren has lost what makes her Frieren, which makes her uncomfortable. Eisen, a dwarf, then asks Frieren to make him taller too. Seeing a taller Eisen, the rest of the party agree that Eisen has lost what makes him Eisen, which makes him uncomfortable.",
+        "zh": "芙莉莲等人造访了剑之村。那里是辛美尔在80年前拔出“勇者之剑”的地方，而那把剑只有化解毁灭世界的巨大灾厄之人才拔得出来。芙莉莲为了尽到责任与村子四周涌现的魔物对峙，于是来到这个村子。然后在她的脑海中，浮现起80年前的过往回忆……"
+      },
+      "title_native": "本物の勇者",
+      "title_en": "A Real Hero",
+      "title_cn": "真正的勇者",
+      "aired": "2023-11-24",
+      "heat": {
+        "mal_replies": 449,
+        "bangumi_comments": 417,
+        "imdb_votes": 5057
+      },
+      "notes": {
+        "title_cn": "真正的勇者",
+        "summary": "前往 Äußerst 途中，一行人到「剑之村」——传说中勇者之剑的安放地，芙莉莲定期来清理被剑吸引的魔物。修塔尔克发现勇者之剑仍插在石中，与他从小听到的「欣梅尔拔出了剑」的故事不符；芙莉莲说欣梅尔当年没能拔出来，故事是后人改的，而欣梅尔本人毫不气馁，只说那就不靠剑打倒魔王。到了下一座城镇，菲伦得知当天是修塔尔克十八岁生日，问他想要什么。修塔尔克说自己不习惯收礼物，战士世家从不过生日，家人视他为懦夫，尤其在村子被袭时他逃走之后。菲伦说她和芙莉莲会看着他不再逃，并帮他买了一只银手镯。回到旅店，芙莉莲做了汉堡排——艾冉过去在生日时的传统。在战士的文化里，汉堡排是给「已经尽了全力的人」的。这让修塔尔克想起哥哥修托尔茨（Stoltz）曾偷偷给他做汉堡排，也是哥哥叫他逃、让他活下来。",
+        "new": [
+          {
+            "name": "Stoltz",
+            "name_cn": "修托尔茨",
+            "kind": "one-off",
+            "note": "修塔尔克的哥哥，闪回登场"
+          }
+        ]
+      }
+    },
+    {
+      "n": 13,
+      "sources": {
+        "mal": {
+          "score": 4.49,
+          "forum_replies": 287,
+          "url": "https://myanimelist.net/anime/52991/Sousou_no_Frieren/episode/13"
+        },
+        "imdb": {
+          "rating": 7.7,
+          "votes": 4441,
+          "tconst": "tt29627242",
+          "season": 1,
+          "episode": 13
+        },
+        "tmdb": {
+          "vote_average": 7.4,
+          "vote_count": 38,
+          "still": "https://image.tmdb.org/t/p/w500/jwkQw81qj1CNYEkW4ukZmK1YePC.jpg",
+          "season": 1,
+          "episode": 13
+        },
+        "bangumi": {
+          "comments": 216,
+          "url": "https://bgm.tv/ep/1253347"
+        }
+      },
+      "synopsis": {
+        "en": "Stark is hungry, but Fern asks him to endure because Frieren's party are approaching a town soon. Frieren says there is a spell to make someone's stomach feel full immediately, but continues that she does not recommend it. Stark then asks Frieren to cast the spell on him, and he is satisfied with it. The party soon arrive at a restaurant, and Stark complains that he wants to have a meal despite already feeling full. Having finished his meal, Stark's stomach is bloated. Stark asks Frieren to cast a spell to make him hungry, but Frieren says she has no knowledge about it.",
+        "zh": "在北方诸国阿尔托森林的村庄教堂里，芙莉莲遇到了神父的弟弟——赞恩。赞恩轻而易举地解开了难以治愈的毒素，展示了他高超的魔法技能，令芙莉莲感到惊讶。据说，赞恩曾经梦想成为一名冒险者，但他并没有出发去旅行，而是留在了村里。赞恩的哥哥希望有人能带赞恩离开这里……"
+      },
+      "title_native": "同族嫌悪",
+      "title_en": "Aversion to One's Own Kind",
+      "title_cn": "同类厌恶",
+      "aired": "2023-12-01",
+      "heat": {
+        "mal_replies": 287,
+        "bangumi_comments": 216,
+        "imdb_votes": 4441
+      },
+      "notes": {
+        "title_cn": "同族厌恶",
+        "summary": "芙莉莲把掉进沼泽的神官赛因（Sein）救了上来；修塔尔克被毒蛇咬伤，赛因回手治好了他。赛因的哥哥透露赛因有治愈魔法的天分，小时候想当冒险者，十年前拒绝了最好朋友的邀约，从此丧失热情，并请芙莉莲推他一把。芙莉莲对他产生兴趣，因为这种提不起劲的状态正是欣梅尔来找她之前的自己，她想把他从这种状态里拉出来。赛因最终承认，他不走是因为哥哥当年为了不让他离开故乡，放弃了去圣都的机会；哥哥一巴掌打过去，说自己从不后悔，但你显然后悔了。赛因就此加入队伍，同行到他找到那位朋友为止。",
+        "new": [
+          {
+            "name": "Sein",
+            "name_cn": "赛因",
+            "kind": "arc",
+            "note": "神官，第 13 至 17 集同行"
+          },
+          {
+            "name": "Sein's brother",
+            "name_cn": "赛因的哥哥",
+            "kind": "one-off",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "n": 14,
+      "sources": {
+        "mal": {
+          "score": 4.63,
+          "forum_replies": 422,
+          "url": "https://myanimelist.net/anime/52991/Sousou_no_Frieren/episode/14"
+        },
+        "imdb": {
+          "rating": 8.6,
+          "votes": 4787,
+          "tconst": "tt29627244",
+          "season": 1,
+          "episode": 14
+        },
+        "tmdb": {
+          "vote_average": 8.6,
+          "vote_count": 37,
+          "still": "https://image.tmdb.org/t/p/w500/mQEU8qSpVEadU4Dl9j0Wkpfgwuv.jpg",
+          "season": 1,
+          "episode": 14
+        },
+        "bangumi": {
+          "comments": 347,
+          "url": "https://bgm.tv/ep/1253348"
+        }
+      },
+      "synopsis": {
+        "en": "Land asks Übel if her cutting spell has a use outside combat situations. Übel asks Land back which circumstance would the spell be useful for, and Land mentions cooking. Since she has a free time, Übel tries to use the inn's kitchen to test the spell for such situation. As there is no customer around that time, the inn's chef allows Übel to cook lunch for him. The chef and Land find Übel's spell effective in cutting the indegrients at a right amount, but soon, it is discovered that Übel has no talent in cooking at all.",
+        "zh": "僧侣赞因入伙，旅行到兰德地区后的某一天，菲伦和休塔尔克吵了起来。原来是休塔尔克没为菲伦的生日准备任何东西。赞因告知了二人如何和好的建议。之后，芙莉莲对着赞因说了几句话……"
+      },
+      "title_native": "若者の特権",
+      "title_en": "Privilege of the Young",
+      "title_cn": "年轻人的特权",
+      "aired": "2023-12-08",
+      "heat": {
+        "mal_replies": 422,
+        "bangumi_comments": 347,
+        "imdb_votes": 4787
+      },
+      "notes": {
+        "title_cn": "年轻人的特权",
+        "summary": "修塔尔克忘了菲伦的生日礼物，两人闹僵。赛因劝菲伦别对年轻男人要求太高、也该更坦率些；菲伦去道歉，修塔尔克先开口，承认他本想和她一起挑礼物，只是紧张得说不出口。他重新买了一只手镯。路上芙莉莲注意到这只手镯的花纹，和欣梅尔当年买给她的戒指很像。飞行魔物袭击马车，芙莉莲把它杀了，混乱中戒指丢失。赛因认出那个花纹是镜像莲花，花语是「永恒的爱」；修塔尔克尴尬得要命，菲伦倒不介意。芙莉莲向受助的商人换来一个能找回遗失饰品的魔法，找回戒指后想起当年——戒指是她自己挑的，但欣梅尔显然知道花语，替她戴上时的动作像在求婚。"
+      }
+    },
+    {
+      "n": 15,
+      "sources": {
+        "mal": {
+          "score": 4.63,
+          "forum_replies": 342,
+          "url": "https://myanimelist.net/anime/52991/Sousou_no_Frieren/episode/15"
+        },
+        "imdb": {
+          "rating": 8.6,
+          "votes": 4773,
+          "tconst": "tt29627246",
+          "season": 1,
+          "episode": 15
+        },
+        "tmdb": {
+          "vote_average": 8.2,
+          "vote_count": 37,
+          "still": "https://image.tmdb.org/t/p/w500/cOfKOSmmgXgvO0Mu2OwlVKsj7hU.jpg",
+          "season": 1,
+          "episode": 15
+        },
+        "bangumi": {
+          "comments": 300,
+          "url": "https://bgm.tv/ep/1253349"
+        }
+      },
+      "synopsis": {
+        "en": "Richter expresses his complaint towards Denken and Laufen because the two visit Richter's store like everyday. In addition, Richter comments that Denken and Laufen are getting along like if they were grandfather and granddaughter. Laufen says she is hungry, but Richter says there is nothing to eat. Laufen then uses her high speed moving spell to check Richter's kitchen. As Laufen calls Denken 'grandfather', Denken gives Laufen a coin, and Laufen uses the same spell to buy a doughnut.",
+        "zh": "芙莉莲等人来到了拉欧布丘陵的村子，村民们却因为某种“诅咒”而沉睡着。根据芙莉莲所说，僧侣由于有女神大人的加护，“诅咒”很难对他们生效。对“诅咒”拥有抗性与知识的赞恩查出诅咒的种类与源头，四人便前往消灭造成沉睡的魔物。"
+      },
+      "title_native": "厄介事の匂い",
+      "title_en": "Smells Like Trouble",
+      "title_cn": "麻烦事的气味",
+      "aired": "2023-12-15",
+      "heat": {
+        "mal_replies": 342,
+        "bangumi_comments": 300,
+        "imdb_votes": 4773
+      },
+      "notes": {
+        "title_cn": "麻烦事的味道",
+        "summary": "一座村子被怪物下了沉睡诅咒，菲伦、修塔尔克连同芙莉莲都中招，只有身为神官的赛因对诅咒有抗性；他把芙莉莲摇醒了短短一会儿，够她杀掉怪物。之后一行人抵达通往 Äußerst 的中继城市沃里格（Vorig）。贵族奥尔登（Orden）的儿子维尔特战死，对外仍称他重伤休养；为稳住民心，他请修塔尔克在即将到来的宴会上假扮儿子。芙莉莲起初拒绝，但队伍缺钱，对方又开出金币加魔导书的价码，于是答应。修塔尔克和菲伦临时学礼仪，把宴会顺利糊弄过去。奥尔登挽留修塔尔克留在沃里格，他拒绝了：他当不了维尔特的替代品，对方也当不了他父亲的替代品；他还是想回去把冒险讲给艾冉听。众人离开时，看见奥尔登在训练次子穆特（Mut）。",
+        "new": [
+          {
+            "name": "Orden",
+            "name_cn": "奥尔登",
+            "kind": "one-off",
+            "note": "沃里格贵族"
+          },
+          {
+            "name": "Mut",
+            "name_cn": "穆特",
+            "kind": "one-off",
+            "note": "奥尔登的次子"
+          }
+        ]
+      }
+    },
+    {
+      "n": 16,
+      "sources": {
+        "mal": {
+          "score": 4.5,
+          "forum_replies": 270,
+          "url": "https://myanimelist.net/anime/52991/Sousou_no_Frieren/episode/16"
+        },
+        "imdb": {
+          "rating": 8.1,
+          "votes": 4289,
+          "tconst": "tt29710081",
+          "season": 1,
+          "episode": 16
+        },
+        "tmdb": {
+          "vote_average": 7.8,
+          "vote_count": 38,
+          "still": "https://image.tmdb.org/t/p/w500/k8lmaH6EWTTGiRUKJVWx44Ydhhh.jpg",
+          "season": 1,
+          "episode": 16
+        },
+        "bangumi": {
+          "comments": 195,
+          "url": "https://bgm.tv/ep/1253350"
+        }
+      },
+      "synopsis": {
+        "en": "In a hot summer, Frieren's party are roaming in a particularly warmer area. Stark wants to take a rest in a shade under a big tree until the sun goes down, but Fern insists that the party needs to get into a town within a daytime because they have no food. Frieren then remembers a spell that cools down the area around someone's body, which she seldom used before. Stark asks Frieren to cast the spell anyway. The party are initially satisfied with the spell, but it gets colder than expected, and they each wear a coat. Stark asks Frieren to adjust the coolness, but Frieren just remembered that it cannot be adjusted. Fern then asks Frieren to undo the spell, but Frieren just realises that she fotgot how to undo it, since she has not used the spell for a long time. The party members end up wearing down-to-ankle hooded down jacket.",
+        "zh": "芙莉莲等四人拜访了弗尔爷爷 ── 她过去与辛美尔等人冒险时遇见的矮人战士。那位爷爷一直守护着某个村子，不让它被魔物攻击。芙莉莲在与他聊天的过程中，回想起辛美尔说过的话……之后，他们造访某个聚落，那里有着过去与赞恩约好，要一起成为冒险者的亲友足迹。"
+      },
+      "title_native": "長寿友達",
+      "title_en": "Long-Lived Friends",
+      "title_cn": "长寿朋友",
+      "aired": "2023-12-22",
+      "heat": {
+        "mal_replies": 270,
+        "bangumi_comments": 195,
+        "imdb_votes": 4289
+      },
+      "notes": {
+        "title_cn": "长寿朋友",
+        "summary": "芙莉莲绕道去看老朋友「福尔老爷子（Old Man Voll）」——一个为纪念亡妻而立誓守护村子的年迈矮人。老爷子很高兴，花了一周和她叙旧、顺带训练修塔尔克，但芙莉莲看得出他正在变糊涂，于是承诺会像记住欣梅尔、海塔、艾冉那样替他记住这一切。队伍继续前往 Äußerst，赛因在最后一个岔路口停下，向村里打听绰号「大猩猩战士」的朋友。唯一记得的是一位固执的老太太，她开出一连串杂活作交换，最后一件是擦干净一对被遗忘的英雄雕像。芙莉莲认出其中一座是克拉夫特；赛因则想起自己和那位朋友当年正是看着同样一对雕像，才立志当冒险者的。老太太说「大猩猩战士」去的方向与 Äußerst 相反，赛因陷入两难。",
+        "new": [
+          {
+            "name": "Old Man Voll",
+            "name_cn": "福尔老爷子",
+            "kind": "one-off",
+            "note": "芙莉莲的老友，矮人"
+          }
+        ]
+      }
+    },
+    {
+      "n": 17,
+      "sources": {
+        "mal": {
+          "score": 4.52,
+          "forum_replies": 300,
+          "url": "https://myanimelist.net/anime/52991/Sousou_no_Frieren/episode/17"
+        },
+        "imdb": {
+          "rating": 7.8,
+          "votes": 4235,
+          "tconst": "tt30143188",
+          "season": 1,
+          "episode": 17
+        },
+        "tmdb": {
+          "vote_average": 7.9,
+          "vote_count": 36,
+          "still": "https://image.tmdb.org/t/p/w500/2LGPjsA3qfxrQRNyA1Hy2J6pMPY.jpg",
+          "season": 1,
+          "episode": 17
+        },
+        "bangumi": {
+          "comments": 260,
+          "url": "https://bgm.tv/ep/1253351"
+        }
+      },
+      "synopsis": {
+        "en": "Just as a demon was about to use its special move, Frieren uses a spell to block it. The demon panics because it cannot use the move, before Eisen slashes it. Heiter praises the spell, but Eisen wonders if it only blocks a particular skill one is highly specialised in, and Himmel joins in the debate. Heiter then suggests that Frieren cast the spell on Himmel, and then Himmel and Eisen fight each other in a wood branch duel. As Himmel and Eisen begin a fight, Himmel cannot make a move at all. Turns out, Himmel's special move was a 'handsome guy pose'.",
+        "zh": "赞恩问到了好友战士大猩猩的行踪，但他的去向却与芙莉莲等人的目的地不同方向。就在这时，四人驻足的聚落遇到寒流，被迫在那停留一个月，而他们用了各自的方式来享受这段日子。某天，菲伦跟修塔尔克吵架，芙莉莲去找赞恩帮忙，但是……"
+      },
+      "title_native": "じゃあ元気で",
+      "title_en": "Take Care",
+      "title_cn": "那就多保重了",
+      "aired": "2024-01-05",
+      "heat": {
+        "mal_replies": 300,
+        "bangumi_comments": 260,
+        "imdb_votes": 4235
+      },
+      "notes": {
+        "title_cn": "那么，保重",
+        "summary": "赛因迟迟不做决定，一场暴风雪又把众人困在村里整整一个月。期间菲伦对修塔尔克发火，赛因查出原因是修塔尔克无意间用力抓了她的肩膀吓到了她，从中调解。雪停后赛因离队去找朋友，其余三人前往 Äußerst。途中菲伦病倒，一行人在小村停下照顾她。芙莉莲告诉修塔尔克，她习惯在菲伦生病时握着她的手给予安慰，因为当年和欣梅尔同行时，欣梅尔就是这么对她的。菲伦康复后，三人终于赶到 Äußerst，正好赶上一级魔法使选拔考试。"
+      }
+    },
+    {
+      "n": 18,
+      "sources": {
+        "mal": {
+          "score": 4.5,
+          "forum_replies": 257,
+          "url": "https://myanimelist.net/anime/52991/Sousou_no_Frieren/episode/18"
+        },
+        "imdb": {
+          "rating": 7.8,
+          "votes": 4193,
+          "tconst": "tt30143189",
+          "season": 1,
+          "episode": 18
+        },
+        "tmdb": {
+          "vote_average": 7.5,
+          "vote_count": 39,
+          "still": "https://image.tmdb.org/t/p/w500/91NiTkE2yWsplPPI8LrjhAqRRfG.jpg",
+          "season": 1,
+          "episode": 18
+        },
+        "bangumi": {
+          "comments": 225,
+          "url": "https://bgm.tv/ep/1253352"
+        }
+      },
+      "synopsis": {
+        "en": "Wirbel gives up on turning Stark into his companion, but then Frieren asks if one cannot escape Wirbel's binding spell, and Wirbel offers to test the spell on Frieren. Once Frieren's party witness how effective is Wirbel's spell, they insist Wirbel to try it on animals like a flying bird, a rampaging bull, and a jumping fish. Fern says that the spell would be useful when they have no food or when they are hunting something, Frieren thinks that each party will need a person who can cast the spell, and Stark offers Wirbel to join Frieren's party, but Wirbel declines.",
+        "zh": "芙莉莲等人与赞恩道别，来到了魔法都市欧伊沙斯特。想要进入前方的北部高原，就有义务要找一级魔法使同行。一级魔法使测验会出现无人合格的情况，也会出现伤亡，是个非常困难的考试。干练的魔法使们都齐聚到芙莉莲与菲伦前往的测验会场当中。"
+      },
+      "title_native": "一級魔法使い選抜試験",
+      "title_en": "First-Class Mage Exam",
+      "title_cn": "一级魔法使选拔测验",
+      "aired": "2024-01-12",
+      "heat": {
+        "mal_replies": 257,
+        "bangumi_comments": 225,
+        "imdb_votes": 4193
+      },
+      "notes": {
+        "title_cn": "一级魔法使选拔考试",
+        "summary": "路上两人谈起一级魔法使的稀有与考试之难；菲伦没把握，芙莉莲说魔力总量不是一切，她自己就输给过魔力比她低的人十一次。另一边，魔法使乌贝尔（Übel）被三名强盗缠上，她巴不得动手，克拉夫特出手拦下——他保护的是强盗，因为他知道乌贝尔杀过不少人。两人互报姓名后分别。芙莉莲和菲伦报上名，准备两个月后应试。第一场考试三人一组，芙莉莲被分到拉薇内（Lawine）和坎内（Kanne）这对从小吵到大的损友，菲伦被分到乌贝尔一组。考题是捕捉「施蒂勒（Stille）」，一种飞得比声音还快的鸟。芙莉莲在拉薇内和坎内的斗嘴中一筹莫展，却注意到两人的配合近乎无缝；坎内私下承认她并不喜欢拉薇内，但对方能逼自己进步。坎内提到的一个关于施蒂勒习性的细节，让芙莉莲想出了方案。",
+        "new": [
+          {
+            "name": "Übel",
+            "name_cn": "乌贝尔",
+            "kind": "arc",
+            "note": "考生，能复制自己能共情的魔法"
+          },
+          {
+            "name": "Lawine",
+            "name_cn": "拉薇内",
+            "kind": "arc",
+            "note": "考生，冰系"
+          },
+          {
+            "name": "Kanne",
+            "name_cn": "坎内",
+            "kind": "arc",
+            "note": "考生，水系"
+          }
+        ]
+      }
+    },
+    {
+      "n": 19,
+      "sources": {
+        "mal": {
+          "score": 4.57,
+          "forum_replies": 290,
+          "url": "https://myanimelist.net/anime/52991/Sousou_no_Frieren/episode/19"
+        },
+        "imdb": {
+          "rating": 8.3,
+          "votes": 4211,
+          "tconst": "tt30143192",
+          "season": 1,
+          "episode": 19
+        },
+        "tmdb": {
+          "vote_average": 7.5,
+          "vote_count": 37,
+          "still": "https://image.tmdb.org/t/p/w500/xJKt0TxvyUw9QjTiRNYJXmD5Gl5.jpg",
+          "season": 1,
+          "episode": 19
+        },
+        "bangumi": {
+          "comments": 283,
+          "url": "https://bgm.tv/ep/1253353"
+        }
+      },
+      "synopsis": {
+        "en": "Himmel is posing for a statue, but he changes his position frequently that the artist cannot decide on which one to use. Frieren is reminded that Heiter and Himmel are childhood friends, and asks Heiter if Himmel was like this when he was a child: Heiter answers that Himmel was not like that. Eisen guesses Himmel may have changed at a certain point. Frieren then offers to cast a spell that brings back someone's childlike innocence on Himmel, hoping that, once the childhood mindset is back on Himmel, the posing job will end soon. The spell is successful, but Himmel still changes his position too often, meaning that Himmel was what he is now even when he was a child.",
+        "zh": "一级魔法使考试的第一次考试是每三人分成一个队伍，在明天日落之前捕获在考试场栖息的陨铁鸟，而且队伍必须全员到达，有这两个合格条件。因为难以捕获陨铁鸟，考生之间的争夺也就化作一种幸存下去的方法。与康涅和拉比涅组队的芙莉莲的作战是……"
+      },
+      "title_native": "入念な計画",
+      "title_en": "Well-Laid Plans",
+      "title_cn": "精心安排的计划",
+      "aired": "2024-01-19",
+      "heat": {
+        "mal_replies": 290,
+        "bangumi_comments": 283,
+        "imdb_votes": 4211
+      },
+      "notes": {
+        "title_cn": "周密的计划",
+        "summary": "菲伦与乌贝尔、兰特（Land）先抓到一只施蒂勒，转为防守以防被抢。芙莉莲一组的方案是：冻住考场的湖，再给各处小水洼灌满魔力，只留一处干净水源——施蒂勒对魔力极度敏感，渴了只会去那一处。邓肯（Denken）一组看见拉薇内冻湖，判断对方有计划，决定跟上去抢鸟。与此同时，艾蕾（Ehre）、维尔贝尔（Wirbel）、夏尔夫（Scharf）一组在菲伦他们找水时发动伏击，两组为已捕获的鸟开战。混战中芙莉莲压制魔力守在唯一干净的水洼旁，如愿抓到一只；邓肯一组察觉到她施法的痕迹，随即扑上来抢夺。",
+        "new": [
+          {
+            "name": "Land",
+            "name_cn": "兰特",
+            "kind": "arc",
+            "note": "考生，擅长幻术与分身"
+          },
+          {
+            "name": "Denken",
+            "name_cn": "邓肯",
+            "kind": "arc",
+            "note": "年长考生，帝国出身"
+          },
+          {
+            "name": "Wirbel",
+            "name_cn": "维尔贝尔",
+            "kind": "arc",
+            "note": "考生，束缚魔法"
+          },
+          {
+            "name": "Ehre",
+            "name_cn": "艾蕾",
+            "kind": "one-off",
+            "note": "考生"
+          },
+          {
+            "name": "Scharf",
+            "name_cn": "夏尔夫",
+            "kind": "one-off",
+            "note": "考生"
+          }
+        ]
+      }
+    },
+    {
+      "n": 20,
+      "sources": {
+        "mal": {
+          "score": 4.51,
+          "forum_replies": 321,
+          "url": "https://myanimelist.net/anime/52991/Sousou_no_Frieren/episode/20"
+        },
+        "imdb": {
+          "rating": 8.4,
+          "votes": 4203,
+          "tconst": "tt30143197",
+          "season": 1,
+          "episode": 20
+        },
+        "tmdb": {
+          "vote_average": 8.2,
+          "vote_count": 36,
+          "still": "https://image.tmdb.org/t/p/w500/8jNWhj11csvsG0wctcSso9phJkF.jpg",
+          "season": 1,
+          "episode": 20
+        },
+        "bangumi": {
+          "comments": 308,
+          "url": "https://bgm.tv/ep/1253354"
+        }
+      },
+      "synopsis": {
+        "en": "As a payment for work, Frieren acquires a grimoire with a spell that exchanges each other's mind, but Fern insists not to use the spell, as Fern thinks it will embarrass everyone around. Stark is interested, and says that he wants to exchange his and Eisen's. Frieren insists on trying the spell, and exchanges her and Fern's. The spell is successful, but after a few days, Fern (in Frieren's body) insists Frieren (in Fern's body) to undo the spell.",
+        "zh": "一级魔法使测验的第一次测验，菲伦对上艾莉、威亚贝尔对上尤蓓尔，兰特则与夏尔夫对峙。威亚贝尔在和尤蓓尔各自用着自己的魔法战斗时，从她身上感受到了危险的气息……另一方面，芙莉莲小队捕获到陨铁鸟，却遭到邓肯、利希塔与拉欧芬这队锁定。"
+      },
+      "title_native": "必要な殺し",
+      "title_en": "Necessary Killing",
+      "title_cn": "必要的杀戮",
+      "aired": "2024-01-26",
+      "heat": {
+        "mal_replies": 321,
+        "bangumi_comments": 308,
+        "imdb_votes": 4203
+      },
+      "notes": {
+        "title_cn": "必要的杀戮",
+        "summary": "菲伦以极高密度的普通攻击魔法正面碾过艾蕾，艾蕾评价她的魔法「毫无个性可言」。乌贝尔被维尔贝尔制住，但他一瞬间的犹豫让菲伦赶到救人。兰特用幻术轻松解决夏尔夫。维尔贝尔收拢队友，讲出自己为何要杀魔族——为了给家乡一个女孩留下印象。他运气不错地撞上一只施蒂勒并用束缚魔法抓住，队伍得以留在考试中。另一边劳芬（Laufen）用高速移动魔法抢走了芙莉莲组的鸟。邓肯一组随后逼近，里希特（Richter）主张拆散芙莉莲的队伍、杀掉拉薇内或坎内其中一个以断其晋级；邓肯认为一级头衔不值得杀人，里希特则反驳说通过者可以向大陆魔法协会首领瑟莉耶（Serie）讨要任何一个她给得出的魔法。话说完，两组开打。",
+        "new": [
+          {
+            "name": "Laufen",
+            "name_cn": "劳芬",
+            "kind": "arc",
+            "note": "邓肯队，高速移动魔法"
+          },
+          {
+            "name": "Richter",
+            "name_cn": "里希特",
+            "kind": "arc",
+            "note": "邓肯队"
+          }
+        ]
+      }
+    },
+    {
+      "n": 21,
+      "sources": {
+        "mal": {
+          "score": 4.67,
+          "forum_replies": 330,
+          "url": "https://myanimelist.net/anime/52991/Sousou_no_Frieren/episode/21"
+        },
+        "imdb": {
+          "rating": 9.1,
+          "votes": 5084,
+          "tconst": "tt30220952",
+          "season": 1,
+          "episode": 21
+        },
+        "tmdb": {
+          "vote_average": 8.0,
+          "vote_count": 39,
+          "still": "https://image.tmdb.org/t/p/w500/piGXoFe6uSWRqiV1Kv40fJnepGb.jpg",
+          "season": 1,
+          "episode": 21
+        },
+        "bangumi": {
+          "comments": 339,
+          "url": "https://bgm.tv/ep/1253355"
+        }
+      },
+      "synopsis": {
+        "en": "Fern has passed the First Class Mage exam, and Serie offers to teach Fern a special spell. Fern, after taking some time, asks for a laundry spell. Serie suggests a variety of laundry spells, but Fern wonders if Serie is hiding a legendary spell that is at the core of laundry. Reluctantly, Serie says that there is a spell that completely removes stains from clothes, which Fern accepts. The other day, Serie questions Sense (who uses magic with her hair) that, if Serie was teaching a special spell to Sense now, what would be Sense's favourite; Sense answers that it would be the spell that simplifies the care of her hair.",
+        "zh": "一级魔法使测验的第一次测验中，芙莉莲等人的陨铁鸟遭到邓肯小队夺走。康涅与拉比涅因为跟利希塔的魔力相差甚远而陷入苦战，芙莉莲则在与邓肯的战斗中筹划着某个计策。日落，第一次测验的时限逐渐逼近，究竟谁能进入第二次测验！？"
+      },
+      "title_native": "魔法の世界",
+      "title_en": "The World of Magic",
+      "title_cn": "魔法的世界",
+      "aired": "2024-02-02",
+      "heat": {
+        "mal_replies": 330,
+        "bangumi_comments": 339,
+        "imdb_votes": 5084
+      },
+      "notes": {
+        "title_cn": "魔法的世界",
+        "summary": "闪回一千年前：芙兰梅带芙莉莲去见自己的师父瑟莉耶（Serie）。瑟莉耶提出可以给她任何一个魔法，芙莉莲拒绝了，理由是魔法最好的部分在于追寻本身；瑟莉耶批评她没有野心，芙兰梅却断言打倒魔王的会是芙莉莲——因为只有她能想象一个和平的时代。回到现在，两组开战：拉薇内和坎内魔力差距太大被里希特制住，他表示只要邓肯赢就放过她们。邓肯以高阶魔法压制，芙莉莲仍以近距离一击将其击败，又以邓肯为饵逼出劳芬、夺回施蒂勒。邓肯坦言他想当一级魔法使，是为了回到北部高原深处的故乡。芙莉莲判断里希特会因邓肯落败而杀人，索性破坏了瑟莉耶设下的结界，震惊考官；结界一破，雨落进考场，坎内用水魔法击败里希特。第一场考试结束，六组通过，三天后进行第二场。修塔尔克还在酒馆等两人回来。",
+        "new": [
+          {
+            "name": "Serie",
+            "name_cn": "瑟莉耶",
+            "kind": "arc",
+            "note": "大陆魔法协会首领，芙兰梅的师父，闪回登场"
+          }
+        ]
+      }
+    },
+    {
+      "n": 22,
+      "sources": {
+        "mal": {
+          "score": 4.47,
+          "forum_replies": 228,
+          "url": "https://myanimelist.net/anime/52991/Sousou_no_Frieren/episode/22"
+        },
+        "imdb": {
+          "rating": 7.8,
+          "votes": 4168,
+          "tconst": "tt30220954",
+          "season": 1,
+          "episode": 22
+        },
+        "tmdb": {
+          "vote_average": 7.4,
+          "vote_count": 38,
+          "still": "https://image.tmdb.org/t/p/w500/xUbTT9y3ZsDh2HEmyQd8UfvNEA1.jpg",
+          "season": 1,
+          "episode": 22
+        },
+        "bangumi": {
+          "comments": 193,
+          "url": "https://bgm.tv/ep/1253356"
+        }
+      },
+      "synopsis": {
+        "en": "After defeating demons (who were Revolte's henchmen), Frieren, Fern and Methode are about to head back to where Stark is. Methode (who is obsessed with cute women who are shorter than her in body height) asks if she can give Frieren a headpat again, but Fern rejects the offer. On the way back to where Stark is, Frieren and Fern are curious about what Methode is thinking, and Frieren casts a spell that lets someone say what one is thinking audibly on Methode. It turns out that, not only giving Frieren a headpat, Methode also wants to give Frieren a tight hug and a cheek-to-cheek contact, and do the same on Fern, Serie and Sense. After that, Methode, who is now also worried about Genau, suggests Frieren and Fern to hurry up. Frieren and Fern are suddenly hiding behind a tree, and Frieren asks Methode to walk in front of the two.",
+        "zh": "第一次测验有18人合格，芙莉莲与菲伦也晋级至第二次测验。测验将在三天后举办，合格者们各自解散，等待测验时间到来。芙莉莲等人也回到了旅馆，但修塔尔克因为某件事惹得菲伦不高兴。为了让她消气，三人一起走向欧伊沙斯特的街上。然后，考生们偶然地碰面……"
+      },
+      "title_native": "次からは敵同士",
+      "title_en": "Future Enemies",
+      "title_cn": "下次开始就是敌人",
+      "aired": "2024-02-09",
+      "heat": {
+        "mal_replies": 228,
+        "bangumi_comments": 193,
+        "imdb_votes": 4168
+      },
+      "notes": {
+        "title_cn": "从今往后是敌人",
+        "summary": "考试之间的休息日。菲伦训了喝酒晚归的修塔尔克，芙莉莲提议带她去八十年前来过的餐馆吃饭；邓肯和劳芬也在找同一家店。乌贝尔找上兰特，演示自己能复制任何她能共情的魔法，试图套出他的分身术，被他劝退。几拨人在餐馆撞上，各吃各的。闪回里欣梅尔一行也在这家店吃过，老板当年豪言味道永远不变；芙莉莲说味道没有不变，而是比过去好吃多了。次日几人上街买点心，拉薇内和坎内在面包店遇上他们；维尔贝尔顺势拉修塔尔克去接魔法协会的讨伐委托。晚上拉薇内和坎内送来烤好的点心道谢，芙莉莲想起欣梅尔说过，他之所以当勇者，是因为哪怕只稍微改变了一个人的人生，那个人也会在他死后很久还记得他。第二场考试通知随后送到，主考是森瑟（Sense）——没有人通过过她的考试。"
+      }
+    },
+    {
+      "n": 23,
+      "sources": {
+        "mal": {
+          "score": 4.66,
+          "forum_replies": 358,
+          "url": "https://myanimelist.net/anime/52991/Sousou_no_Frieren/episode/23"
+        },
+        "imdb": {
+          "rating": 8.6,
+          "votes": 4325,
+          "tconst": "tt30220957",
+          "season": 1,
+          "episode": 23
+        },
+        "tmdb": {
+          "vote_average": 8.1,
+          "vote_count": 36,
+          "still": "https://image.tmdb.org/t/p/w500/tafHSu4qbxNwyRCKFhSBJgtJUhN.jpg",
+          "season": 1,
+          "episode": 23
+        },
+        "bangumi": {
+          "comments": 307,
+          "url": "https://bgm.tv/ep/1253357"
+        }
+      },
+      "synopsis": {
+        "en": "Sense congratulates the 18 individuals who passed the first test and proceeds to outline the parameters of the second test. To pass the test, the examinees must reach the bottom of the 'Ruins of the King's Tomb' dungeon. Sense, a pacifist who despises fighting, declares that everyone reaching the bottom will pass. She also distributes bottles that if shattered, will summon a golem that will help the mage escape the dungeon, but using it will automatically fail the mage who uses it, making it a last resort. In addition, the bottles will automatically shatter at dawn of the next day, making that the time limit for the exam. An examinee notes that no adventuring party has ever successfully cleared this dungeon, but Sense retorts that a first-class mage should be up to the task. Denken suggests that all of the examinees work together to clear the dungeon, but they all remain mistrustful of each other and split off into separate groups. Sense decides to follow Frieren and Fern, and despite Frieren falling for mimics several times, they are able to progress deep into the dungeon. Frieren mentions she picked up a knack for exploring dungeons due to Himmel's love of exploring them. Sense asks what Fern's motivation to be a mage is since she cannot sense any ambition and determination in her, and Fern replies that she enjoys seeing Frieren happy. Meanwhile, both Wirbel and Denken's groups encounter replicas of themselves that can perfectly copy their magic and fighting styles. Denken's group manages to defeat a replica of Laufen, only to encounter a replica of Frieren afterwards.",
+        "zh": "一级魔法使测验第二次测验，主考官冉则准备的测验内容是攻略迷宫，并声称所有抵达“零落的王墓”最深处的人都算合格。然而那里是个未曾有人走遍，难以攻破的迷宫。芙莉莲等考生各自进入内部，在里头等待着他们的则是魔物、陷阱，以及惊人的“魔法”。"
+      },
+      "title_native": "迷宮［ダンジョン］攻略",
+      "title_en": "Conquering the Labyrinth",
+      "title_cn": "攻略迷宫",
+      "aired": "2024-02-16",
+      "heat": {
+        "mal_replies": 358,
+        "bangumi_comments": 307,
+        "imdb_votes": 4325
+      },
+      "notes": {
+        "title_cn": "攻略迷宫",
+        "summary": "森瑟（Sense）向通过第一场的十八人说明规则：抵达「王墓遗迹」最底层即算通过，人人都到也都算通过；每人发一个瓶子，捏碎会召来傀儡送自己出去，但同时判定失格，且瓶子会在次日天亮自动碎裂，那就是时限。有考生指出从没有队伍攻略过这座迷宫，森瑟回答一级魔法使本该做得到。邓肯提议全体合作，众人互不信任，各自分头行动。森瑟跟着芙莉莲和菲伦，芙莉莲几次被宝箱怪坑到，三人仍稳步深入；芙莉莲说她之所以熟悉迷宫，是因为欣梅尔喜欢探索。森瑟问菲伦当魔法使的动机，说自己感觉不到她的野心；菲伦回答，她喜欢看芙莉莲高兴。与此同时维尔贝尔组和邓肯组分别遇上能完全复制自己魔法与打法的分身。邓肯一组解决掉劳芬的复制体后，迎面撞上芙莉莲的复制体。",
+        "new": [
+          {
+            "name": "Sense",
+            "name_cn": "森瑟",
+            "kind": "arc",
+            "note": "第二场考试主考官，厌恶战斗，用头发施术"
+          }
+        ]
+      }
+    },
+    {
+      "n": 24,
+      "sources": {
+        "mal": {
+          "score": 4.59,
+          "forum_replies": 274,
+          "url": "https://myanimelist.net/anime/52991/Sousou_no_Frieren/episode/24"
+        },
+        "imdb": {
+          "rating": 8.4,
+          "votes": 4223,
+          "tconst": "tt30220956",
+          "season": 1,
+          "episode": 24
+        },
+        "tmdb": {
+          "vote_average": 8.2,
+          "vote_count": 35,
+          "still": "https://image.tmdb.org/t/p/w500/ynN96chZ1anKjrmeFlkWvHGLK0O.jpg",
+          "season": 1,
+          "episode": 24
+        },
+        "bangumi": {
+          "comments": 259,
+          "url": "https://bgm.tv/ep/1253358"
+        }
+      },
+      "synopsis": {
+        "en": "It is revealed the dungeon contains a creature known as a Spiegel that can read the memories of those who enter the dungeon and use that information to craft perfect replicas of the raiders. Denken's party attempt to confront the Frieren replica but are forced to withdraw. Übel and Land are cornered by an Übel replica. They successfully work together to destroy it, with Übel correctly guessing that Land would intervene to prevent her from dying for his sake. While exploring, Frieren uncovers a hidden section of the dungeon containing a long lost mural. She, Fern, and Sense then make their way to the bottom of the dungeon where Denken's party is waiting. They warn Frieren about her replica and discuss methods they may use to defeat her. However, they realize Frieren is immune to restraint and hypnosis magic so they will have to find another weakness to exploit. Edel's party runs into a replica of Sense. Edel tries to mind control it, but the replica does not have a mind and cannot be controlled. Edel is injured and is forced to break her bottle and escape. She orders her party members to retreat and warn the other mages about what they learned. In a separate fight, Wirbel's party manages to defeat their replicas by choosing favorable match ups for each member. With no other ideas, Denken and Frieren conclude that brute force is their only option. Fern suggests that, with their assistance, she can kill the Frieren replica.",
+        "zh": "考生们在第二次测验进入迷宫“零落的王墓”，而挡在众人面前的是他们的复制体。那些复制体是由魔法制成的实体，实力、魔力与技术都完全与本人相同。期间，尤蓓尔他们遭遇了自己的复制体。另一方面，邓肯等人则被阻挡在芙莉莲的复制体面前……"
+      },
+      "title_native": "完璧な複製体",
+      "title_en": "Perfect Replicas",
+      "title_cn": "完美的复制体",
+      "aired": "2024-02-23",
+      "heat": {
+        "mal_replies": 274,
+        "bangumi_comments": 259,
+        "imdb_votes": 4223
+      },
+      "notes": {
+        "title_cn": "完美的复制体",
+        "summary": "迷宫里的怪物名为「镜（Spiegel）」，能读取闯入者的记忆造出完全一致的复制体。邓肯一组尝试正面对抗芙莉莲的复制体，被迫撤退。乌贝尔和兰特被乌贝尔的复制体逼到角落，靠互相算计取胜——乌贝尔赌定兰特会为了不让她死而出手。芙莉莲在探索中发现一段隐藏通道里失传已久的壁画，随后与菲伦、森瑟抵达最底层，邓肯一组已在那里等候，双方讨论如何对付芙莉莲的复制体，却发现她对束缚与催眠免疫。艾德尔（Edel）一组遇上森瑟的复制体，艾德尔试图精神控制，但复制体没有心智、无法被控制；她重伤后捏碎瓶子退场，并命队友撤退去通报情报。另一边维尔贝尔一组靠挑选有利对位打赢了各自的复制体。最后邓肯和芙莉莲得出结论：只能硬打。菲伦提出由她来杀芙莉莲的复制体，条件是其他人掩护。",
+        "new": [
+          {
+            "name": "Methode",
+            "name_cn": "梅托德",
+            "kind": "arc",
+            "note": "考生，擅长探测与治愈"
+          },
+          {
+            "name": "Edel",
+            "name_cn": "艾德尔",
+            "kind": "one-off",
+            "note": "考生，精神控制"
+          }
+        ]
+      }
+    },
+    {
+      "n": 25,
+      "sources": {
+        "mal": {
+          "score": 4.67,
+          "forum_replies": 309,
+          "url": "https://myanimelist.net/anime/52991/Sousou_no_Frieren/episode/25"
+        },
+        "imdb": {
+          "rating": 9.0,
+          "votes": 4984,
+          "tconst": "tt30220960",
+          "season": 1,
+          "episode": 25
+        },
+        "tmdb": {
+          "vote_average": 8.8,
+          "vote_count": 33,
+          "still": "https://image.tmdb.org/t/p/w500/t7NXmWJL9a4uyPQuv0vAvPvd5td.jpg",
+          "season": 1,
+          "episode": 25
+        },
+        "bangumi": {
+          "comments": 308,
+          "url": "https://bgm.tv/ep/1257303"
+        }
+      },
+      "synopsis": {
+        "en": "Dünste informs Denken's and Frieren's parties that Edel has retreated from the dungeon and that mind control is not an option against the replicas. Lawine and Kanne arrive at the scene and tell the parties that the monster they are facing is a Spiegel and that the replicas it creates have no unique weaknesses. Everyone present concludes that Frieren's replica must be defeated before they can destroy the Spiegel. Before heading into battle, Fern discloses Frieren's fatal weakness: she cannot detect mana when she casts a spell, a vulnerability typically found in beginner mages. After the discussion, Fern and Frieren are chosen to confront Frieren's replica. Everyone else remains in place to protect them from potential attacks by other replicas. Frieren and her replica are evenly matched, and Fern waits for an opening to hit the replica with Zoltraak. In a flashback, Frieren hands Serie a will from Flamme. The will reveals that Flamme convinced the human emperor to allow humans to adopt magic. Serie remarks that this is the start of the era of humans, and eventually human mages will be able to surpass even Elves like herself and Frieren. In the present, Fern strikes Frieren's replica directly with a full-power Zoltraak.",
+        "zh": "要达成第二次测验的合格条件——前往迷宫最深处的话，就必须打倒芙莉莲的复制体。芙莉莲与菲伦跟在复制体前方的邓肯及拉比涅等人会合，魔法使们各自运用自己知道的情报和知识，拟定打倒复制体的作战计划。讨论过程中，芙莉莲的脑海中浮现了记忆……"
+      },
+      "title_native": "致命的な隙",
+      "title_en": "A Fatal Vulnerability",
+      "title_cn": "致命破绽",
+      "aired": "2024-03-01",
+      "heat": {
+        "mal_replies": 309,
+        "bangumi_comments": 308,
+        "imdb_votes": 4984
+      },
+      "notes": {
+        "title_cn": "致命的破绽",
+        "summary": "丁斯特（Dünste）通报艾德尔已退场、精神控制对复制体无效。拉薇内和坎内赶到，说明怪物是「镜」，复制体没有独有弱点。众人确认必须先打掉芙莉莲的复制体才能摧毁本体。开打前菲伦说出芙莉莲的致命破绽：芙莉莲在自己施法的那一瞬间感知不到对方的魔力，这是初学者才会犯的毛病。最终由菲伦和芙莉莲正面迎战复制体，其余人负责拦住别的复制体。芙莉莲与复制体势均力敌，菲伦伺机等待出手窗口。闪回一千年前：芙莉莲把芙兰梅的遗书交给瑟莉耶，遗书里写着她说服了人类的皇帝允许人类学习魔法；瑟莉耶看完说，人类的时代开始了，终有一天人类魔法使会超越她和芙莉莲这样的精灵。回到现在，菲伦全力的佐尔特拉克正面命中复制体。",
+        "new": [
+          {
+            "name": "Dünste",
+            "name_cn": "丁斯特",
+            "kind": "one-off",
+            "note": "考生"
+          }
+        ]
+      }
+    },
+    {
+      "n": 26,
+      "sources": {
+        "mal": {
+          "score": 4.77,
+          "forum_replies": 574,
+          "url": "https://myanimelist.net/anime/52991/Sousou_no_Frieren/episode/26"
+        },
+        "imdb": {
+          "rating": 9.4,
+          "votes": 6460,
+          "tconst": "tt30220962",
+          "season": 1,
+          "episode": 26
+        },
+        "tmdb": {
+          "vote_average": 9.1,
+          "vote_count": 38,
+          "still": "https://image.tmdb.org/t/p/w500/kovGQEJxKlJwG0YBvQn4JPLqwtP.jpg",
+          "season": 1,
+          "episode": 26
+        },
+        "bangumi": {
+          "comments": 513,
+          "url": "https://bgm.tv/ep/1257304"
+        }
+      },
+      "synopsis": {
+        "en": "Fern's Zoltraak fails to kill the replica of Frieren. Frieren acknowledges that she anticipated her replica surviving the attack, noting that it was always destined to be a battle of attrition. At the entrance to the final part of the dungeon, Denken and Methode determine the locations of the remaining replicas and strategize on how best to combat them. The mages face off against their best match-ups and successfully eliminate a large number of replicas. Following Lawine and Richter's success in defeating replicas of Kanne and Lawine, they are ambushed by Sense's replica, which impales Richter and Lawine. Forced to break their bottles, Lawine and Richter are eliminated from the test. Denken, Land, and Übel arrive to the scene and decide on their next course of action. Übel claims she can beat Sense as she can visualize her cutting magic easily slicing apart Sense's hair magic. In a flashback, Übel managed to cut a first class mage in half despite their incredibly high defense enchanted clothing. Sense explains that Übel can perceive clothing and hair as something she can easily cut, therefore she should win the fight against her replica. In the present, Übel kills Sense's replica. Methode talks to Wirbel's party and gets their buy in on the plan to delay the other replicas while Frieren's replica is being fought against. After Denken's team runs into resurrected replicas, they realize that until the Spiegel is defeated the replicas will keep coming back to life. Frieren creates an opening, and Fern manages to inflict a lethal injury on the replica. However, when Fern attempts to finish off the replica, it counters with a telekinetic ability, nearly killing her. Impressed by the spell, Fern remarks that this attack is truly the height of magic. Frieren finishes off her replica, and they proceed to destroy the Spiegel. The remaining examinees reach the bottom of the dungeon, and Sense congratulates them for passing the second test. Meanwhile, the failed examinees wait at the entrance as their golems heal them.",
+        "zh": "神话时代的魔物施皮格尔，居住在荒落的王陵，并创造了进入王陵的人的复制体。为了打败施皮格尔，芙莉莲和菲伦与芙莉莲的复制体进行战斗，但战斗十分艰难。另一方面，登肯和拉比涅等人也与复制体进行战斗，但是，作为考官的一级魔法师赞泽的复制体的魔法正在大肆挥舞。"
+      },
+      "title_native": "魔法の高み",
+      "title_en": "The Height of Magic",
+      "title_cn": "魔法的高深之处",
+      "aired": "2024-03-08",
+      "heat": {
+        "mal_replies": 574,
+        "bangumi_comments": 513,
+        "imdb_votes": 6460
+      },
+      "notes": {
+        "title_cn": "魔法的高处",
+        "summary": "菲伦的佐尔特拉克没能杀死复制体，芙莉莲说她早料到，这本来就是一场消耗战。最底层入口处，邓肯与梅托德判明剩余复制体的位置并做对位分工，众人接连清掉大量复制体。拉薇内和里希特刚解决掉坎内与拉薇内的复制体，就被森瑟的复制体贯穿，两人被迫捏碎瓶子退场。乌贝尔声称自己能赢森瑟——她能清晰想象出自己的切割魔法割开对方的头发魔法；森瑟解释乌贝尔的能力正是把布料和毛发看作可以割断之物，闪回中她曾把一名防御装备极强的一级魔法使一刀两断。乌贝尔随后杀掉森瑟的复制体。邓肯一组发现复制体会不断复活，直到本体被毁。芙莉莲制造出破绽，菲伦对复制体造成致命伤，但复制体以一记念动力反击几乎要了她的命，菲伦称之为真正的「魔法的高处」。芙莉莲终结复制体，众人摧毁镜，抵达最底层，森瑟宣布通过。"
+      }
+    },
+    {
+      "n": 27,
+      "sources": {
+        "mal": {
+          "score": 4.69,
+          "forum_replies": 436,
+          "url": "https://myanimelist.net/anime/52991/Sousou_no_Frieren/episode/27"
+        },
+        "imdb": {
+          "rating": 9.1,
+          "votes": 4962,
+          "tconst": "tt30220961",
+          "season": 1,
+          "episode": 27
+        },
+        "tmdb": {
+          "vote_average": 8.4,
+          "vote_count": 36,
+          "still": "https://image.tmdb.org/t/p/w500/gU8G4cvHREYWQa3d0EhUvJSP2T8.jpg",
+          "season": 1,
+          "episode": 27
+        },
+        "bangumi": {
+          "comments": 313,
+          "url": "https://bgm.tv/ep/1257305"
+        }
+      },
+      "synopsis": {
+        "en": "Fern is upset with Frieren, feeling that Frieren does not comprehend her emotions. Fern confides in Stark that Frieren requested her to replace her staff, which had broken during the second exam. The staff, a gift from Heiter, held great sentimental value for Fern. Kanne comforts Lawine, who laments having to wait another three years before she can attempt the first-class exam again while Denken gives words of encouragement to Richter. Frieren arrives to the shop after Denken leaves and convinces Richter to repair Fern's staff. After Fern and Stark return to the inn, Fern discovers her repaired staff and recalls Heiter telling her about Frieren's deep care for others. The third exam commences, and all participants await instructions. Serie says that she will personally proctor the final exam since Frieren's involvement caused more examinees to pass than intended. Serie decides she will conduct one-on-one interviews to determine who deserves the license. Frieren tells Fern that Serie will judge each candidate based on her own intuition and that her intuition is always correct. Examinees enter one at a time and Serie evaluates them at a glance. She immediately fails Kanne for being weak willed, and later Laufen, Dünste, Ehre and Scharf for similar reasons. After Frieren enters, Serie also fails her, because Frieren is not interested in combat magic. Serie questions Frieren on how someone like her managed to defeat the demon king. Frieren responds that she had exceptional allies and could not have achieved it alone. She also points out that interestingly Flamme's flower spell which Serie hates was what inspired a young Himmel to become a hero and recruit Frieren into his party. Fern then enters and notices that Serie's mana is fluctuating similar to Frieren's mana. Serie sees enormous potential in Fern and asks her to be her student, but Fern rejects the proposal. Unwilling to turn away such a promising mage, Serie relents and passes Fern.",
+        "zh": "攻破零落的王墓后，以芙莉莲与菲伦为首的12名考生通过了第二次测验。芙莉莲为了修理菲伦在测验中被粉碎的法杖，造访了某个地方……而能否在一级魔法使选拔测验的最终测验中合格的关键，就掌握在弗兰梅的师傅——大陆魔法协会创始人赛莉耶手上。"
+      },
+      "title_native": "人間の時代",
+      "title_en": "An Era of Humans",
+      "title_cn": "人类的时代",
+      "aired": "2024-03-15",
+      "heat": {
+        "mal_replies": 436,
+        "bangumi_comments": 313,
+        "imdb_votes": 4962
+      },
+      "notes": {
+        "title_cn": "人类的时代",
+        "summary": "菲伦和芙莉莲闹别扭——芙莉莲让她换掉第二场考试中折断的法杖，那是海塔留给她的。坎内安慰要再等三年才能重考的拉薇内，邓肯鼓励里希特。芙莉莲在邓肯离开后进店，说服身为工匠的里希特修好法杖；菲伦回到旅店发现法杖已修复，想起海塔说过芙莉莲其实很在意别人。第三场考试开始，瑟莉耶亲自主考，理由是芙莉莲的插手让通过人数超出预期。她采用一对一面谈，凭直觉判定，而芙莉莲说她的直觉从不出错。瑟莉耶当场判坎内意志薄弱不合格，随后劳芬、丁斯特、艾蕾、夏尔夫同样落第。芙莉莲进来后也被判不合格，理由是她对战斗魔法没有兴趣；瑟莉耶追问她这种人怎么打倒魔王，芙莉莲回答她有极好的同伴，一个人做不到，并指出瑟莉耶最看不上的芙兰梅的花之魔法，正是当年让少年欣梅尔立志当勇者、并把她拉进队伍的原因。菲伦进来后察觉瑟莉耶的魔力波动和芙莉莲相似；瑟莉耶看出她的潜力，请她当自己的学生，菲伦拒绝，瑟莉耶仍让她通过。"
+      }
+    },
+    {
+      "n": 28,
+      "sources": {
+        "mal": {
+          "score": 4.64,
+          "forum_replies": 1190,
+          "url": "https://myanimelist.net/anime/52991/Sousou_no_Frieren/episode/28"
+        },
+        "imdb": {
+          "rating": 9.1,
+          "votes": 5093,
+          "tconst": "tt30220959",
+          "season": 1,
+          "episode": 28
+        },
+        "tmdb": {
+          "vote_average": 8.7,
+          "vote_count": 37,
+          "still": "https://image.tmdb.org/t/p/w500/rwVIbR6WXbsslVHcG3t4nvS1T53.jpg",
+          "season": 1,
+          "episode": 28
+        },
+        "bangumi": {
+          "comments": 293,
+          "url": "https://bgm.tv/ep/1257306"
+        }
+      },
+      "synopsis": {
+        "en": "Serie concludes her interviews with the remaining examinees, with Denken, Methode, Wirbel, Land and Übel passing by demonstrating either the requisite resolve or traits that align with her militaristic philosophy on magic. The candidates depart with mixed reactions. Later, Fern and Stark meet Denken and Laufen at a bakery, where Denken talks about his late wife. Meanwhile, Wirbel shares his belief in helping strangers, inspired by the hero Himmel, who assisted villages with everyday tasks because he could not turn a blind eye to those in need. The successful examinees then receive their first-class mage privileges, and a receptionist informs them that Serie has banned Frieren from all mage association buildings for a thousand years. Outside, Lernen challenges Frieren to a duel to secure his legacy, but she declines, noting that Serie remembers all her students' personalities and favourite spells, regardless of their historical impact. The next morning, Frieren's party leaves Äußerst. Fern reveals that she had asked for a spell to clean her clothes, which had greatly annoyed Serie. On the city's bridge, Lawine and Kanne thank Frieren for her assistance before both parties exchange a brief farewell. Fern observes the swiftness of their parting, which triggers a flashback to Himmel. He explains his aversion to tearful goodbyes, stating his belief that he will cross paths with people again and that an emotional farewell would be an embarrassment upon their eventual reunion. Following this, Frieren's party continues its journey toward Ende.",
+        "zh": "一级魔法使测验的最终测验，菲伦从赛莉耶口中得知自己合格。后续的邓肯、威亚贝尔以及尤蓓尔等人的测验结果会是……而在结束测验的考生们之间，产生了测验前所没有的奇妙感情……然后，芙莉莲等人从魔法都市欧伊沙斯特启程的时刻逐渐接近……"
+      },
+      "title_native": "また会ったときに恥ずかしいからね",
+      "title_en": "It Would Be Embarrassing When We Met Again",
+      "title_cn": "因为下次再见时会很难为情",
+      "aired": "2024-03-22",
+      "heat": {
+        "mal_replies": 1190,
+        "bangumi_comments": 293,
+        "imdb_votes": 5093
+      },
+      "notes": {
+        "title_cn": "下次再见时会不好意思的",
+        "summary": "瑟莉耶面完剩下的人，邓肯、梅托德、维尔贝尔、兰特、乌贝尔通过，要么有足够的觉悟，要么符合她那套尚武的魔法观。众人反应各异。菲伦和修塔尔克在面包店遇到邓肯和劳芬，邓肯谈起亡妻；维尔贝尔讲起自己愿意随手帮陌生人，是受了欣梅尔的影响——那位勇者总是去替各村做些鸡毛蒜皮的小事，因为他没法视而不见。通过者领到一级魔法使的特权，接待员顺带告知：瑟莉耶禁止芙莉莲踏入魔法协会所有建筑，为期一千年。门外，莱尔嫩（Lernen）想向芙莉莲挑战以留下自己的名号，被她婉拒——瑟莉耶记得每一个学生的性格和惯用魔法，与青史留名无关。次日一行人离开 Äußerst。菲伦坦白她向瑟莉耶讨的是一个洗衣服的魔法，把对方气得不轻。桥上拉薇内和坎内来道谢，两拨人几句话就告别了。菲伦感慨告别得真快，随即回忆起欣梅尔说过他讨厌哭着道别：反正还会再见，到时候会不好意思的。芙莉莲一行继续北上，目标恩德（Ende）。",
+        "new": [
+          {
+            "name": "Lernen",
+            "name_cn": "莱尔嫩",
+            "kind": "one-off",
+            "note": "老年魔法使，瑟莉耶的学生"
+          }
+        ]
+      }
+    },
+    {
+      "n": 29,
+      "sources": {
+        "imdb": {
+          "rating": 8.8,
+          "votes": 5722,
+          "tconst": "tt35047893",
+          "season": 2,
+          "episode": 1
+        },
+        "tmdb": {
+          "vote_average": 8.0,
+          "vote_count": 17,
+          "still": "https://image.tmdb.org/t/p/w500/a47oBhPll8SzPJaef1VzG0Yft91.jpg",
+          "season": 1,
+          "episode": 29
+        }
+      },
+      "synopsis": {
+        "en": "Continuing their journey to Ende, Frieren's party runs low on funds, and Fern determines that they need to head to the nearest town and find work. On their way to the town, the party falls through hollow ground and into a cave full of magic-nullifying crystals. Frieren and Fern are left powerless without the use of magic and as such Stark is relied on for protection. Their exploration of the cave goes smoothly until they run into a Venomous Apex Dragon. Stark realizes he is no match for the creature, grabs Frieren and Fern, then runs until he finds an exit out. After safely escaping, the party heads to a crossroads and come across an inn. They decide to spend the night there and run into Wirbel who insists on trying to recruit Stark for defending the Northern Plateau from the encroaching demon threat. Frieren believes that Stark should have a choice in the matter, especially since travelling with two girls may feel awkward for him. Later at night, a concerned Fern reaches out to Stark, who tells her that he declined Wirbel's offer and that he loves his current role as party vanguard. He believes that working with Frieren and Fern has helped him grow as a person, and that there is no better place for him to be. In the morning the party leaves the inn and sees off Wirbel's team, and they continue to head towards a village to find work.",
+        "zh": "离开魔法都市维萨斯特后，芙莉莲、菲伦与休塔尔克踏上了前往北方诸国的旅途。行进途中，他们因地面塌陷坠入洞穴。此处遍布着能无效化魔力的“封魔矿”。当芙莉莲与菲伦皆无法使用魔法，只能摸索通往地面的出路时——魔物悄然现出了身影……"
+      },
+      "title_native": "じゃあ行こうか",
+      "title_en": "Shall We Go, Then?",
+      "title_cn": "那，走吧",
+      "aired": "2026-01-16",
+      "heat": {
+        "imdb_votes": 5722
+      }
+    },
+    {
+      "n": 30,
+      "sources": {
+        "imdb": {
+          "rating": 8.9,
+          "votes": 4813,
+          "tconst": "tt39372996",
+          "season": 2,
+          "episode": 2
+        },
+        "tmdb": {
+          "vote_average": 8.2,
+          "vote_count": 13,
+          "still": "https://image.tmdb.org/t/p/w500/8Cg0I0yprkMkjoTtoho0ogw2kmI.jpg",
+          "season": 1,
+          "episode": 30
+        }
+      },
+      "synopsis": {
+        "en": "The party arrives in the town of Fabel and takes on a job cleaning a bronze statue of a hero. Stark is surprised to learn the statue is not of Himmel, but of another figure titled the Hero of the South. Frieren remarks that the Hero of the South was humanity’s strongest hero, who felled three of the Seven Sages alone, along with Schlacht the Omniscient. In a flashback, the Hero of the South tries to persuade Frieren to join him, but she refuses. He tells her that he possesses perfect precognition and that the outcome was expected, then says that she will eventually meet Himmel, who will save the world with her in his party. The Hero of the South also foresaw his own death at Schlacht's hands, but was content to help clear a path for Himmel. Back in the present, the party finishes their job and head towards a larger city run by Graf Dach. Frieren tries to shop and leave the city quickly, but is roped into a celebratory feast alongside her companions by the Graf. Dach pushes the party into accepting a request to retrieve a stolen sword, his family heirloom. After searching, the trio walk into a ruined village destroyed by the sword demon. The sword demon approaches the party while posing as a priestess, but Frieren spots the deception. The group defeats them and reclaims the sword. Frieren's party returns the sword to Dach and collect their reward. They receive a grimoire which contains a spell to turn red apples into green apples.",
+        "zh": "芙莉莲一行人在北方诸国的村子里接到了擦拭勇者雕像的委托。那尊雕像并非辛美尔，而是曾被誉为人类最强的“南之勇者”的雕像。芙莉莲回想起了与“南之勇者”相遇时的情景……随后，来到达哈伯爵领地的城镇时，芙莉莲一行又从领主那里接到了“希望从魔族手中夺回宝剑”的请求……"
+      },
+      "title_native": "南の勇者",
+      "title_en": "The Hero of the South",
+      "title_cn": "南之勇者",
+      "aired": "2026-01-23",
+      "heat": {
+        "imdb_votes": 4813
+      }
+    },
+    {
+      "n": 31,
+      "sources": {
+        "imdb": {
+          "rating": 8.4,
+          "votes": 3931,
+          "tconst": "tt39372997",
+          "season": 2,
+          "episode": 3
+        },
+        "tmdb": {
+          "vote_average": 8.0,
+          "vote_count": 13,
+          "still": "https://image.tmdb.org/t/p/w500/aPX4K7ZtxkKmonWw89NnAAECMNf.jpg",
+          "season": 1,
+          "episode": 31
+        }
+      },
+      "synopsis": {
+        "en": "Moving through the Etwas Mountains region, the party arrives at a small village renowned for hot springs. Unfortunately, the local hot springs have since dried up, and the nearest town with hot springs is a week away. A villager tells the party that there is a hot spring hidden in the Etwas Mountains, although Frieren is reluctant to visit it. Stark pushes the party to go, and they face a perilous trek through the mountains. Before they arrive at the hot spring, they are intercepted by a three-headed hydra. Using Stark as bait, Frieren and Fern decapitate all three heads simultaneously in order to kill it. When they arrive at the hot spring, Fern remarks that it is quite shallow, but Stark is happy that he can share a footbath with the girls. The three have a relaxing time, although they remark that the experience was not worth the effort involved. A week later, the trio reaches the fortress city of Heiß on their journey and spend some time there. Frieren enjoys the leisure time at the local hot springs, Stark finds productive things to do, but Fern is left bored. Fern bluntly tells Stark that he is neglecting her and is an inconsiderate jerk. Stark decides to tease Fern by asking her on a date and is surprised she actually accepts his proposal. Worried about the date, he asks Frieren for help. Frieren shows Stark all sorts of places in the city that Fern might like, showcasing that she pays attention to Fern as her adoptive mother. Fern also asks Frieren for advice on how to approach the date, however she decides that Frieren is out of touch and then goes to bed, still nervous about the date she will have with Stark.",
+        "zh": "在温泉胜地埃托维斯，芙莉莲一行人对温泉满怀期待，然而那座村庄却早已荒废。听说深山中有着“埃托维斯山的秘密温泉”，三人决定前往一探究竟。在险峻且栖息着魔物的山道前方，等待着他们的究竟是……随后，在抵达下一座城市时，菲伦收到了来自休塔尔克的意外邀约。"
+      },
+      "title_native": "好きな場所",
+      "title_en": "Somewhere She'd Like",
+      "title_cn": "喜欢的地方",
+      "aired": "2026-01-30",
+      "heat": {
+        "imdb_votes": 3931
+      }
+    },
+    {
+      "n": 32,
+      "sources": {
+        "imdb": {
+          "rating": 8.6,
+          "votes": 3650,
+          "tconst": "tt39372998",
+          "season": 2,
+          "episode": 4
+        },
+        "tmdb": {
+          "vote_average": 7.9,
+          "vote_count": 10,
+          "still": "https://image.tmdb.org/t/p/w500/AntllJyOpKULL4Hv6GlRMn68DpM.jpg",
+          "season": 1,
+          "episode": 32
+        }
+      },
+      "synopsis": {
+        "en": "Fern prepares for the date with Stark by picking out an outfit and doing her hair. The date starts with Stark and Fern conversing awkwardly while heading to the market. They spend the day shopping, eating, and sightseeing. Fern remarks sullenly that throughout the date they only talked about Frieren, and she appears displeased. Stark asks Fern if she enjoyed the date at all, as she never smiled once. Fern admits that the date was not what she expected, but she is glad that Stark tried his best. Later, as the party leaves the fortress city of Heiß, Frieren shows off her braids to Stark, telling him that Fern does these braids whenever she is happy. The party arrives at the Northern Plateau checkpoint. After the trio replenish their supplies, Fern presents a scroll confirming her first-class mage status, allowing the party to cross. The Northern Plateau is fraught with danger, forcing the party to stay on alert for three days and three nights. Reaching a village for rest, the innkeeper lets the party know that the village needs help with a powerful monster nearby. In the morning, the party leaves the village and faces off against the monster. The battle is hard-fought, but Stark manages to restrain the creature until Frieren blasts it with Zoltraak. Stark wonders why they did not opt for the sea route when the Northern Plateau is this dangerous. In a flashback, Himmel tells Frieren that he wants to travel through the Northern Plateau to help people who are in danger from the powerful monsters lurking in the region, because he wants to protect other people's homes.",
+        "zh": "休塔尔克本是抱着捉弄的心态发出的邀请，结果真的变成了两人去约会。游览了城里各处的两人，最终来到了观景广场。在那里，菲伦说出了……几天后，三人离开了城市，踏入了环境严酷的北部高原。途经一个村落时，他们听说附近出现了强大的魔物……"
+      },
+      "title_native": "誰かの故郷",
+      "title_en": "Other People's Homes",
+      "title_cn": "他人的故乡",
+      "aired": "2026-02-06",
+      "heat": {
+        "imdb_votes": 3650
+      }
+    },
+    {
+      "n": 33,
+      "sources": {
+        "imdb": {
+          "rating": 8.0,
+          "votes": 3395,
+          "tconst": "tt39372999",
+          "season": 2,
+          "episode": 5
+        },
+        "tmdb": {
+          "vote_average": 8.0,
+          "vote_count": 13,
+          "still": "https://image.tmdb.org/t/p/w500/iVDYCaax4SWVNzaxzNQHqkXKgka.jpg",
+          "season": 1,
+          "episode": 33
+        }
+      },
+      "synopsis": {
+        "en": "The trio arrive in the Bier region on the Northern Plateau. Over a meal, Frieren talks about the region specializing in making beer. After the party finishes eating, they run into a dwarf named Fass. Fass enlists Frieren's assistance to acquire Boshaft, a famous liquor served to emperors of the past. Within the mine that Boshaft is supposed to be stored in, the team arrives at an inscription written in Elvish. Milliarde, the elf who wrote the inscription, sealed the liquor in a powerful barrier to preserve it for the future. While Frieren could remove the barrier, she is reluctant, as it would be time consuming work taking three months. Fass offers the party 20 gold coins, which sells Stark and Fern on the project. In a flashback, it is explained that Milliarde actually thought Boshaft tasted horrible, but she decided to write the inscription on a whim. Back in the present, Frieren shatters the barrier and everyone partakes in the liquor. While Fass acknowledges the liquor is terrible, he has a great time sharing the liquor with the village and has no regrets. Later, the party arrives at the Norm Company's fortress city. Frieren explains that the Norm Company handles the logistics in the Northern Plateau, allowing them to have a nice city full of goods. While moving through the city, Frieren is apprehended for debt evasion and enslaved. The company owner tells Frieren the company has fallen on hard times and needs more wealth to survive. Taken to a mine, Frieren assists the mine workers in finding rare silver ores, doing 300 years' worth of work in a day. Frieren is freed, and the party moves on.",
+        "zh": "在某个酒吧小镇，芙莉莲与矮人法斯重逢。他极为嗜酒，两百多年来一直在寻找皇帝酒“博斯哈夫特”，声称那酒就沉睡在他亲自挖掘的坑道尽头，到底能不能找到呢……而在他们随后到访的诺尔姆商会领地，竟然发现芙莉莲从80年前就背负着一笔巨额债务……"
+      },
+      "title_native": "北部高原の物流",
+      "title_en": "Logistics in the Northern Plateau",
+      "title_cn": "北部高原的物流",
+      "aired": "2026-02-13",
+      "heat": {
+        "imdb_votes": 3395
+      }
+    },
+    {
+      "n": 34,
+      "sources": {
+        "imdb": {
+          "rating": 8.2,
+          "votes": 3177,
+          "tconst": "tt39373000",
+          "season": 2,
+          "episode": 6
+        },
+        "tmdb": {
+          "vote_average": 7.9,
+          "vote_count": 11,
+          "still": "https://image.tmdb.org/t/p/w500/8dJ80GOvWOSK4NZBwAYShgAk7A2.jpg",
+          "season": 1,
+          "episode": 34
+        }
+      },
+      "synopsis": {
+        "en": "A man cowers in fear, hiding in a village under siege. Villagers fight the demons attacking the village the best they can. However, they are completely massacred, down to the women and children. A single human combatant manages to get a message out of the village before it completely falls. Later on, Methode and Genau arrive at the ruins of the village after receiving a demon-slaying request from the great mage Serie. They clean up the straggler demons and look for clues about who attacked the village. Genau finds the man who was hiding from the demons, and he comforts him in his dying moments. Genau tells Methode that he knew the man, as the village they are in was his hometown, and that he used to play with the victim as a child. While talking, Genau and Methode realize they are surrounded and prepare to fight. The church they are in is ambushed, but it turns out to be a case of mistaken identity. The duo run into Frieren's party, who also received a similar request from Serie. While investigating the bodies, Genau points out that the victims include members of the Noam Company's private militia, including a warrior who was far superior to Stark. Given that the demons he and Methode killed were small fry, he deduces that the demon who led the attack on his hometown is still alive. He requests that Frieren's party assist him in hunting down the lead demon. The group analyze the attacks and come to the conclusion that the demon that led the attack must have wielded four swords.",
+        "zh": "在北部高原的一个村庄，接受了赛丽艾讨伐魔族委托的一级魔法使盖纳乌和梅特黛出现在那里。据说那个村庄是盖纳乌的故乡……随后，同样接到讨伐委托的菲伦一行人也来到了这里。村庄已经惨遭全灭，从牺牲者身上特征明显的伤痕中，某个魔族的身影若隐若现。"
+      },
+      "title_native": "討伐要請",
+      "title_en": "A Demon-Slaying Request",
+      "title_cn": "讨伐委托",
+      "aired": "2026-02-27",
+      "heat": {
+        "imdb_votes": 3177
+      }
+    },
+    {
+      "n": 35,
+      "sources": {
+        "imdb": {
+          "rating": 8.8,
+          "votes": 3502,
+          "tconst": "tt39373001",
+          "season": 2,
+          "episode": 7
+        },
+        "tmdb": {
+          "vote_average": 8.4,
+          "vote_count": 10,
+          "still": "https://image.tmdb.org/t/p/w500/wxaQNUUhaRHiNNgEY236WUenB27.jpg",
+          "season": 1,
+          "episode": 35
+        }
+      },
+      "synopsis": {
+        "en": "In a flashback, Serie tells Methode that Genau's partner died in battle, and so Methode will have to accompany him to the Northern Plateau. Later on, Genau reminisces over his partner, who he considered to be a genuinely great person but a naive combatant. Genau tells Methode that his partner died fighting to save a child instead of focusing on killing the demon, which he thought was ridiculous. In the present, the team of five work together to plan their approach to take out the exceptional demon they identified as having led the attack on the village. The demon is revealed to be a four-armed giant with a half-snake body named Revolte, and his accomplice tells him that the first-class mage party looks like interesting prey. Revolte tells his accomplice that humans tend to watch over the corpses of their fallen and decides the best time to attack is when the party splits up. The party splits up as Revolte predicted, with the girls scouting for the demons at the nearby fortress and Genau, along with Stark, staying at the town. Fern, Frieren, and Methode head towards the fortress and talk. Methode gives Frieren a grimoire in exchange for Frieren letting her pat her head. While messing around, the demons detect the party. A demon boy casts a spell covering the forest in fog, and the demons proceed to saturate the area with magic artillery. While avoiding the attacks, Methode is separated from the group. The fog demon targets Fern and Frieren, while the female demon goes after Methode. Back at the town, the male pair talk about who the demon is, and Genau tells Stark that the lead demon is likely the Divine Revolte, the demon that killed his partner. Genau and Stark are ambushed by the Divine Revolte. The pair start fighting him after refusing to talk to him.",
+        "zh": "使盖纳乌的村庄全灭的魔族，是拥有四只手臂，能够自如挥舞剑刃的强敌“神技的雷沃戴”及其手下。芙莉莲、菲伦、梅特黛三人为了寻找魔族进入森林，休塔尔克和盖纳乌则留在村庄，直到诺尔姆骑士团接收村民的遗体。就在此时，残忍的魔族也分别向他们逼近。"
+      },
+      "title_native": "神技のレヴォルテ",
+      "title_en": "The Divine Revolte",
+      "title_cn": "神技的雷沃戴",
+      "aired": "2026-03-06",
+      "heat": {
+        "imdb_votes": 3502
+      }
+    },
+    {
+      "n": 36,
+      "sources": {
+        "imdb": {
+          "rating": 9.6,
+          "votes": 5946,
+          "tconst": "tt39373003",
+          "season": 2,
+          "episode": 8
+        },
+        "tmdb": {
+          "vote_average": 9.2,
+          "vote_count": 11,
+          "still": "https://image.tmdb.org/t/p/w500/sAWooNnmHju9d2CVCpQQTRlSUyt.jpg",
+          "season": 1,
+          "episode": 36
+        }
+      },
+      "synopsis": {
+        "en": "Genau and Stark continue their onslaught against Revolte, but he handles their attacks easily. Realizing they cannot beat Revolte through skill alone, Stark intentionally lets himself be hit to distract him. Genau slices off Revolte's tail and injures him. With Revolte on the ropes, Revolte tries to stall for time by talking. Genau attempts to finish him off, but Revolte tricks Genau into believing a child is still on the battlefield. Revolte throws a sword at the \"child\", forcing Genau to save her, but the child is a demon in disguise. The demon girl stabs Genau in the torso, severely wounding him. She asks Revolte for praise and gets distracted, allowing Genau to kill her with a single slice of his wings. Revolte taunts Genau for falling for the trick and says the fight confirmed his theory that humans care for their young. In a flashback, Serie says that Genau's old partner was too kind for his own good, which is what got him killed. Genau pushes back, telling Serie that his partner had a magnificent end. As Revolte prepares the final blow, Genau braces himself, but Stark intervenes at the last second and blocks the attack. Meanwhile, Fern continues battling the fog demon. She tries to fight stealthily, but the demon's ability allows him to track her easily. Methode also continues her fight, narrowly avoiding deadly blows. Realizing Fern is in danger, Methode decides to dispel the fog. She fights using illusions and nonlethal attacks while analyzing the spell. After a while, she dispels it, removing the fog demon's advantage. Without the fog, Fern kills Hemmung, and the demon that was fighting Methode is also defeated. Back in the fight with Revolte, Stark breaks one of Revolte's swords, and the pair shift their strategy to disarming him. They manage to destroy his blades, but he catches them off guard by extending his arms and impaling both of them. Revolte mocks the two, but he lets his guard down, allowing Stark to deal a fatal blow through sheer tenacity. With the demons dead, Genau and Stark pass out from their injuries. They wake up to Methode healing them, and the party celebrates their win. After some time passes, everyone recovers, and the two parties head their separate ways.",
+        "zh": "迎战现身村庄的“神技的雷沃戴”的，是战士休塔尔克以及使用“控制黑金之翼的魔法”的盖纳乌。面对雷沃戴的猛烈攻势，两人能否取胜……！？另一边，芙莉莲、菲伦和梅特黛也与操控强力魔法的魔族佐莉达和海蒙正面对峙！"
+      },
+      "title_native": "立派な最期",
+      "title_en": "A Magnificent End",
+      "title_cn": "壮烈的牺牲",
+      "aired": "2026-03-13",
+      "heat": {
+        "imdb_votes": 5946
+      }
+    },
+    {
+      "n": 37,
+      "sources": {
+        "imdb": {
+          "rating": 8.7,
+          "votes": 3094,
+          "tconst": "tt39373811",
+          "season": 2,
+          "episode": 9
+        },
+        "tmdb": {
+          "vote_average": 8.4,
+          "vote_count": 9,
+          "still": "https://image.tmdb.org/t/p/w500/vvAKf0pGpPBGkOJlnU8yoe5BXkp.jpg",
+          "season": 1,
+          "episode": 37
+        }
+      },
+      "synopsis": {
+        "en": "On a carriage, Denken reads a letter and then continues his journey to visit his wife's grave on foot. Frieren's party arrives in a town in the region of Drachen, which was damaged by a dragon. An elderly man requests that the party slay a swarm of dragons that have made a nest nearby. While apprehensive at first, Frieren accepts the quest in exchange for a grimoire as payment. After the party finds the dragons' nest, they attack. Stark takes the dragons head-on while the girls shoot spells from afar. Despite taking some damage, Stark finishes off the nest. After receiving their reward, Fern asks Frieren why she always asks for payment. In a flashback, it is shown that Himmel always asked for payment, explaining that he does not want villagers to feel indebted to the hero's party. One reward received in the past was a notebook, which was used to write Himmel’s Memoirs. In the present, the party arrives at Lake Korridor, the largest body of water in the Northern Plateau. Due to severe weather, the party is forced to rest and take shelter. Due to the difficulty in traversing the terrain, the party decides to wait a few months until the weather clears up. After winter ends, the party decides to take a ferry across the lake. However, as they have run out of funds, they instead have to pay the ferryman with a favor. The captain asks the party to obtain Himmel’s Memoirs from an island nearby, and says that it would be sufficient as compensation. On the island, Frieren pops the barrier around the monastery that houses the memoirs. Frieren reads the memoirs and hands it to the captain as payment, but the captain tells Frieren that he knows she was the elf in the hero's party and asks her to keep it. The trio continue their journey across the lake, defeating a kraken on the way.",
+        "zh": "芙莉莲等人在旅途中造访了各种各样的地方。他们造访了受到龙群威胁折磨、男人仍不愿放弃故乡的村庄；造访了广阔的湖泊——科利多亚湖所在的港口城镇。芙莉莲等人原本想在科利多亚湖乘坐渡船，但旅费不足以支付船资，因此接受了船夫提出的交换条件——寻找沉睡在岛上修道院中的《辛美尔的自传》。"
+      },
+      "title_native": "ヒンメルの自伝",
+      "title_en": "Himmel's Memoirs",
+      "title_cn": "辛美尔的自传",
+      "aired": "2026-03-20",
+      "heat": {
+        "imdb_votes": 3094
+      }
+    },
+    {
+      "n": 38,
+      "sources": {
+        "imdb": {
+          "rating": 8.7,
+          "votes": 2799,
+          "tconst": "tt39373812",
+          "season": 2,
+          "episode": 10
+        },
+        "tmdb": {
+          "vote_average": 9.0,
+          "vote_count": 7,
+          "still": "https://image.tmdb.org/t/p/w500/l5eb222ZEemkCyoaYbzdHUwxptG.jpg",
+          "season": 1,
+          "episode": 38
+        }
+      },
+      "synopsis": {
+        "en": "On the Northern Plateau, the party comes across the deepest canyon on the continent, at 3000 meters deep. Due to its width and the strong winds, the party decides not to jump over or fly across the canyon and instead look for an alternate route. Upstream, they run into a bridge built by a dwarf named Gehen over centuries. Frieren is surprised the bridge is not more popular, but it is quickly shown that dangerous bird monsters attack those who cross it. Frieren's party decides to clear out the nest of monsters. In a flashback, it is shown how important the bridge is and how long it took to build. Afterwards, the nearby town, which formed over the years the bridge was built, celebrates with the party. Further north, the trio run low on funds again and take on a job to kill a monster near a mineral deposit. The fight is difficult as the giant wolf-like beast senses mana. However, Fern manages to kill it from outside the maximum mana detection range. Due to the weather and time of day, the party camps overnight. In the morning, Fern wakes Frieren up to show her the beautiful Holy Snow Crystals during sunrise. Frieren remarks that they have finally reached an era where many humans can explore the Northern Plateau and witness such a beautiful sight. In another location on the Northern Plateau, Edel, Lernen, and Denken are having a meeting. Edel transfers the information regarding Denken's mission directly into his memories. As Denken moves forward towards the golden city, Lernen remarks that Denken intends to fight the greatest of the Seven Sages of Destruction, Macht of the Golden Land.",
+        "zh": "在托亚大溪谷上，横跨着一座由矮人葛恩历时200多年建造的巨大桥梁。在那座桥上，隐藏着辛美尔与葛恩当年不为人知的故事……随后，来到修马尔雪原的芙莉莲一行人为了赚取路费，接下了讨伐魔物的委托。与此同时，一位一级魔法使正前往某个地方……"
+      },
+      "title_native": "美しい光景",
+      "title_en": "A Beautiful Sight",
+      "title_cn": "美丽的光景",
+      "aired": "2026-03-27",
+      "heat": {
+        "imdb_votes": 2799
+      }
+    },
+    {
+      "n": 39,
+      "sources": {
+        "imdb": {
+          "tconst": "tt41157278",
+          "season": 3,
+          "episode": 1
+        }
+      },
+      "synopsis": {}
+    },
+    {
+      "n": 50,
+      "sources": {},
+      "synopsis": {
+        "en": "Frieren, Fern and Stark are gathered around fire to cook chunks of meat, and Fern tests a spell from a grimoire. The spell summons a bottle of Ajipon sauce, which is then poured over meats. Frieren's party are satisfied by the taste of cooked meat. Stark then wonders if the sauce also enhances the taste of a dragon meat, and the rest of the party encourages him to slay one immediately. Note: This short is sponsored by Mizkan's Ajipon brand of ja sauce and not included in any of the home media releases."
+      },
+      "title_native": "食卓をしあわせにする魔法",
+      "aired": "2023-12-14"
+    },
+    {
+      "n": 62,
+      "sources": {},
+      "synopsis": {
+        "en": "Himmel's party is discussing a grimoire they just found in a dungeon. It contains a spell that allows someone to immerse into the world they are dreaming about. Since Frieren does not know what \"dreaming about\" means, she asks the others what they dream about. Heiter says he wants to be immersed into a world where he can drink as much alcohol as he wants. Himmel says he wants to be immersed into a world full of statues and portraits of himself so that his handsome appearance will be seen by everyone forever. Eisen says he wants to be immersed into a world where all the grapes taste sour. Once Frieren opens the grimoire, she sees a mention of \"USJ,\" described as \"the place where everyone can have heart-pounding adventures\". Himmel's party agrees to go there, and Frieren casts the spell. (The episode ends at that point, and the video segues into an advertisement for Universal Studios Japan). Note: This short is sponsored by Universal Studios Japan (USJ) theme park, which is hosting two Frieren-themed pop-up attractions and a restaurant between May 2026 and January 2027."
+      },
+      "title_native": "憧れにひたれる魔法",
+      "aired": "2026-05-22"
+    }
+  ],
+  "route": [
+    {
+      "kind": "watch",
+      "eps": [
+        1,
+        2
+      ],
+      "why": "整部剧的地基：第 1 集建立「寿命差」这个唯一的核心设定，第 2 集把菲伦的来历和芙莉莲上路的真正动机钉死。这两集跳了，后面 26 集的所有情绪都没有落点。"
+    },
+    {
+      "kind": "bridge",
+      "eps": [
+        3,
+        3
+      ],
+      "title": "被封印了八十年的魔族，和一个变老的小孩",
+      "paragraphs": [
+        "菲伦生日前，芙莉莲想不出该送什么，索性带她重走当年和欣梅尔走过的路。第一站是一座村子——八十年前她在这里封印了魔族克瓦尔（Qual），封印快到期了。",
+        "克瓦尔当年发明了「佐尔特拉克（Zoltraak）」，一种无视一切防护、直接作用于肉体的杀人魔法，强到芙莉莲只能封印不能消灭。八十年过去，人类魔法师把这套杀人魔法研究透彻，做成了通用攻击咒文，也做出了对应的防御咒文。解封后的克瓦尔打不穿菲伦的防御，芙莉莲用他自己的魔法把他杀掉。记住佐尔特拉克这个词，它之后一直出现。",
+        "收尾一笔：她发现村长就是八十年前和她说过话的那个小男孩。还有一件她当时不知道的事——这八十年里欣梅尔每年都来检查一次封印，他一直笃定封印破掉之前她会回来。"
+      ]
+    },
+    {
+      "kind": "watch",
+      "eps": [
+        4,
+        4
+      ],
+      "why": "旅程目标在这一集确立：芙兰梅（Flamme）的真迹、灵魂长眠之地奥雷奥尔（Aureole）、以及「当年走到魔王城花了十年」这句时间尺度的交代。同时是艾冉退场集。"
+    },
+    {
+      "kind": "bridge",
+      "eps": [
+        5,
+        5
+      ],
+      "title": "幽灵，和一个不敢杀东西的战士",
+      "paragraphs": [
+        "菲伦算过，十年是她人生的十分之一，她还是决定跟着走。路上一座村子接连有人失踪，村民说看见了死去的亲人。芙莉莲判断是靠幻术引诱猎物的怪物「艾因萨姆（Einsam）」。菲伦差点被海塔的幻影带走；芙莉莲对着欣梅尔的幻影想都没想就开了一枪，幻术破了，菲伦补刀解决。",
+        "接下来芙莉莲要屠龙取魔导书，需要一个能顶在前面的战士。她找上艾冉的徒弟、住在附近山村的修塔尔克（Stark）。这位被全村传颂的「和龙对视不退的英雄」承认自己一只怪物都没杀过，当年不退不是勇敢，是吓僵了。芙莉莲给他一晚上考虑。"
+      ]
+    },
+    {
+      "kind": "watch",
+      "eps": [
+        6,
+        6
+      ],
+      "why": "三人队伍成型的一集，也是修塔尔克这个角色的定义集——「害怕但还是上」这条线贯穿全剧，之后每次他上场都在回扣这里。"
+    },
+    {
+      "kind": "bridge",
+      "eps": [
+        7,
+        9
+      ],
+      "title": "断头台的奥拉：入城、下狱、两场夜战",
+      "paragraphs": [
+        "北上途中，芙莉莲讲起精灵一族因为活得太长、懒得繁衍而正在缓慢灭绝。他们路过一座立着当年勇者一行雕像、每年过「解放祭」的村子——欣梅尔当初坚持到处留雕像，是为了在很多年以后提醒芙莉莲：他们真的存在过，不是童话。",
+        "到了格拉纳特伯爵（Graf Granat）治下的城市，芙莉莲一眼认出街上的魔族当场出手，结果以「袭击和平使者」的罪名被关进地牢。原来魔王旧部之一「断头台的奥拉（Aura）」重新崛起，与这座城打了二十八年，双方正在谈和。芙莉莲的判断很直接：魔族不是能谈的物种，它们学会人类的语言只是为了骗人。",
+        "事实如她所料。魔族使节吕格纳（Lügner）此行只为骗城里撤下结界，好让奥拉的军队直接碾过去。他派手下德拉特（Draht）去地牢杀她，被她顺手解决；越狱后她把城里的事丢给菲伦和修塔尔克，自己出城去找奥拉。当晚两个年轻人重伤吕格纳、救出伯爵；随后吕格纳和莉妮耶（Linie）伏击他们——修塔尔克识破莉妮耶只是复制了艾冉的动作却没有艾冉的力气，故意吃她一斧换一个必杀；菲伦则靠比芙莉莲还快的咏唱速度硬压穿吕格纳的防御。城外，芙莉莲与奥拉正面相对。"
+      ]
+    },
+    {
+      "kind": "watch",
+      "eps": [
+        10,
+        10
+      ],
+      "why": "全季信息密度最高的一集：奥拉的「服从天秤」如何被反用，以及一千年前芙兰梅为什么要教一个精灵把魔力藏起来。这一集不看，后面所有战斗的逻辑都站不住。"
+    },
+    {
+      "kind": "watch",
+      "eps": [
+        11,
+        12
+      ],
+      "why": "两集都是独立短篇，跳了完全不影响剧情推进——但这是这部剧真正在做的东西。11 集是同族的精灵僧侣克拉夫特（Kraft），关于活得太久、无人记得；12 集是勇者之剑的真相和修塔尔克的生日汉堡排，全季公认最好的几集之一。"
+    },
+    {
+      "kind": "bridge",
+      "eps": [
+        13,
+        13
+      ],
+      "title": "赛因入队",
+      "paragraphs": [
+        "芙莉莲把掉进沼泽的神官赛因（Sein）捞了上来；修塔尔克被毒蛇咬伤，赛因回手治好了他。赛因的哥哥说，赛因有治愈魔法的天分，小时候也想当冒险者，十年前最好的朋友来邀他一起走，他拒绝了，从此把这件事放下了。",
+        "芙莉莲对他产生兴趣，因为那种「什么都提不起劲」的状态，正是欣梅尔来找她之前的她自己。赛因最后承认，他不走是因为哥哥当年为了不让他离开故乡，放弃了去圣都的机会。哥哥一巴掌打过去，说自己从没后悔过，但你显然后悔了。赛因就此入队，同行到他找到那个朋友为止。"
+      ]
+    },
+    {
+      "kind": "watch",
+      "eps": [
+        14,
+        14
+      ],
+      "why": "独立短篇。修塔尔克送菲伦手镯，芙莉莲找一枚丢掉的戒指，两条线在同一个花纹上收口。这一集的情绪不靠对白，靠最后一个动作。"
+    },
+    {
+      "kind": "bridge",
+      "eps": [
+        15,
+        17
+      ],
+      "title": "到 Äußerst 之前：宴会、老友、离队",
+      "paragraphs": [
+        "一座村子被怪物下了沉睡诅咒，只有神官赛因扛得住，他把芙莉莲摇醒了几秒，够她把怪物打掉。之后一行人到中继城市沃里格（Vorig），穷到接了一单怪活：贵族奥尔登（Orden）的儿子战死，为稳住民心要修塔尔克假扮他出席宴会。修塔尔克和菲伦硬学礼仪，把宴会糊弄了过去。事后奥尔登挽留他，他拒绝了——他当不了别人的儿子，对方也当不了他的父亲。",
+        "路上芙莉莲去看了老朋友「福尔老爷子（Old Man Voll）」，一个为亡妻守着村子的矮人，正在一点点变糊涂；她答应会替他记住。到 Äußerst 前的最后一个岔路口，赛因打听绰号「大猩猩战士」的朋友，得知对方往反方向去了。顺带一提，他们替一位固执的老太太擦干净的那对「被遗忘的英雄」雕像，其中一座正是克拉夫特——而赛因当年就是看着同样一对雕像，才想当冒险者的。",
+        "赛因纠结了几天，借着一场把众人困住整月的雪下了决心，离队去找朋友。之后菲伦病倒，一行人停下照顾她——芙莉莲会在她生病时握着她的手，因为当年欣梅尔就是这么对自己的。病好之后他们终于赶到 Äußerst，正赶上一级魔法使选拔考试报名。"
+      ]
+    },
+    {
+      "kind": "watch",
+      "eps": [
+        18,
+        18
+      ],
+      "why": "一级魔法使篇开场，一口气登场十几个新角色，全是接下来十集的主力。这集跳了后面满屏生面孔，德语名字根本对不上人。"
+    },
+    {
+      "kind": "bridge",
+      "eps": [
+        19,
+        20
+      ],
+      "title": "一次考试：抓施蒂勒",
+      "paragraphs": [
+        "第一场考试是三人一组抓一只「施蒂勒（Stille）」，一种飞得比声音还快的鸟。菲伦与乌贝尔（Übel）、兰特（Land）先抓到一只，转为防守。芙莉莲这组靠坎内（Kanne）的观察想出办法：把考场的湖冻上，再给各处小水洼灌满魔力，只留一处干净的水——施蒂勒对魔力极敏感，渴了只会去那一处。芙莉莲藏起魔力守在旁边，如愿抓到一只。",
+        "与此同时维尔贝尔（Wirbel）一组伏击菲伦他们抢鸟。菲伦用密度极高的普通攻击魔法正面碾过艾蕾（Ehre），对方的评语是她的魔法「毫无个性」；乌贝尔被维尔贝尔制住，但他下不了杀手，菲伦赶到救人。另一边劳芬（Laufen）用高速移动魔法把芙莉莲组的鸟抢走了。",
+        "邓肯（Denken）一组随后围住芙莉莲，队里的里希特（Richter）扬言要杀掉拉薇内或坎内其中一个，好把这组挤出考试。邓肯不赞成为一个头衔杀人；里希特不这么想——因为通过考试的人，可以向大陆魔法协会首领瑟莉耶（Serie）讨要任何一个她给得出的魔法。两组就此开打。"
+      ]
+    },
+    {
+      "kind": "watch",
+      "eps": [
+        21,
+        22
+      ],
+      "why": "21 集是全季另一根支柱：一千年前芙兰梅把芙莉莲带到瑟莉耶面前，那段对话决定了这部剧到底在讲什么。22 集几乎没有剧情推进，是考试之间的休息日，但它是这部剧的心脏——欣梅尔为什么要在每个村子做那些鸡毛蒜皮的小事，答案在这一集。"
+    },
+    {
+      "kind": "bridge",
+      "eps": [
+        23,
+        25
+      ],
+      "title": "二次考试：王墓迷宫与复制体",
+      "paragraphs": [
+        "第二场考试由森瑟（Sense）主持：十八人各自下到「王墓遗迹」最底层即算通过，限时到天亮；每人一个瓶子，捏碎会召来傀儡把自己送出去，但同时判定失格。众人互不信任、分头行动，森瑟跟着芙莉莲和菲伦。路上菲伦被问到当魔法使的动机，她的回答是：芙莉莲高兴，她就高兴。",
+        "迷宫里住着一种叫「镜（Spiegel）」的怪物，能读取闯入者的记忆，造出完全一致的复制体——魔法、打法、习惯全一样，而且在本体被打掉之前会不断复活。各组分别撞上自己的复制体：乌贝尔和兰特靠互相算计打赢了乌贝尔的复制体，维尔贝尔一组靠挑对手打赢，艾德尔（Edel）一组被森瑟的复制体打散、被迫捏瓶退场。",
+        "真正的麻烦是芙莉莲的复制体——她对束缚和精神干涉免疫，只能硬打。最后是菲伦主动请缨，条件是其他人掩护。上场前她说出了芙莉莲的致命破绽：芙莉莲在自己施法的那一瞬间感知不到对方的魔力，这是初学者才会有的漏洞。中间插入一段一千年前的闪回：芙兰梅留下遗书，说服人类的皇帝允许人类学习魔法；瑟莉耶看完说，人类的时代开始了，总有一天人类魔法使会超过精灵。菲伦全力的佐尔特拉克正面命中复制体。这一集（第 25 集）是整条路线里被压掉的集中最可惜的一集，有多余的 25 分钟就把它捞回来看。"
+      ]
+    },
+    {
+      "kind": "watch",
+      "eps": [
+        26,
+        28
+      ],
+      "why": "收尾三集连着看，中间不要停。26 集打完迷宫；27、28 集是三次考试——瑟莉耶一个一个面试，用几秒钟判定一个人配不配。最后一集的落点回到第一集：为什么不该哭着告别。"
+    }
+  ]
+}

@@ -1,6 +1,17 @@
 {
   "shows": [
     {
+      "slug": "frieren-2023",
+      "title": "Frieren: Beyond Journey's End",
+      "title_cn": "葬送的芙莉莲",
+      "year": 2023,
+      "total_eps": 28,
+      "updated": "2026-09-13",
+      "cover": "https://cdn.myanimelist.net/images/anime/1015/138006.jpg",
+      "watch_eps": 14,
+      "bridges": 7
+    },
+    {
       "slug": "monster-2004",
       "title": "Monster",
       "title_cn": "怪物",
