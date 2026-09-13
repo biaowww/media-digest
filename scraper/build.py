@@ -96,14 +96,14 @@ def main():
         if not ok:
             failed.append(slug)
 
-    st = run(["git", "status", "--porcelain"]).stdout.strip()
+    st = run(["git", "status", "--porcelain", "--", "shows", "site/assets"]).stdout.strip()  # 无人值守只提交内容产物，不卷代码改动
     if not st:
         log("no changes");
     elif a.no_push:
         log(f"changes (not pushed):\n{st}")
     else:
         changed = sorted({l[3:].split("/")[1].replace(".json", "") for l in st.splitlines() if l[3:].startswith("shows/")})
-        run(["git", "add", "-A"])
+        run(["git", "add", "-A", "--", "shows", "site/assets"])
         msg = f"build: {', '.join(changed) or 'update'} ({dt.date.today()})"
         r = run(["git", "-c", "user.name=biaowww", "-c", "user.email=wvngbvao483@gmail.com", "commit", "-q", "-m", msg])
         log(f"commit rc={r.returncode} {msg}")
