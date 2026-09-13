@@ -173,10 +173,8 @@ def sync_one(slug: str, dry_run: bool = False) -> bool:
             else:
                 e.pop("notes", None)
         changed.append(f"notes({len(notes) - len(stray)})")
-    if gate and intro is not None:
-        intro["spoiler_gate_from"] = gate
-    elif gate:
-        show.setdefault("intro", {})["spoiler_gate_from"] = gate
+    if intro is not None:
+        intro.pop("spoiler_gate_from", None)  # 2026-09-13 王彪定：不做二次确认门控，字段忽略
     if intro is not None:
         cover = intro.get("cover")
         if cover and "://" not in cover and (src / cover).is_file():

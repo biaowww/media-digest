@@ -43,6 +43,10 @@ p { margin: 0 0 10px; }
 .chip b { color: var(--ink); font-weight: 600; }
 .intro p { margin-bottom: 8px; }
 .tag { display: inline-block; font-size: 11px; padding: 1px 6px; border-radius: 4px; background: var(--bg); border: 1px solid var(--line); color: var(--muted); margin-left: 6px; vertical-align: middle; }
+.intro-sec { margin-top: 10px; }
+.sec-hd { display: flex; align-items: center; justify-content: space-between; }
+.intro-body { display: flex; flex-direction: column; gap: 14px; margin-top: 12px; }
+button.fold { font: inherit; font-size: 12.5px; padding: 3px 10px; border-radius: 999px; border: 1px solid var(--line); background: var(--bg); color: var(--muted); cursor: pointer; }
 .chars { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 10px; }
 .char { display: grid; grid-template-columns: 44px 1fr; gap: 10px; align-items: start; }
 .char.noimg { grid-template-columns: 1fr; }

@@ -49,9 +49,6 @@ def check(show: dict) -> tuple[list[str], list[str]]:
         missing_notes = sorted(set(ns) - set(noted))
         if missing_notes:
             warnings.append(f"episodes.notes: {len(missing_notes)} of {len(ns)} episodes have no summary (e.g. {missing_notes[:8]})")
-    gate = (show.get("intro") or {}).get("spoiler_gate_from")
-    if gate and total and gate > total:
-        errors.append(f"intro.spoiler_gate_from {gate} > total_eps {total}")
 
     route = show.get("route", [])
     covered: set[int] = set()

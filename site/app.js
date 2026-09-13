@@ -129,15 +129,37 @@
       || (about.characters || []).find(a => a.name && ((c.name_cn || '') + ' ' + (c.role || '')).toLowerCase().includes(a.name.toLowerCase()));  // 别名兜底：name_cn/role 里提到的英文名
     let chars = (intro.characters || []).map(c => Object.assign({}, findAuto(c) || {}, c));
     if (!chars.length) chars = (about.characters || []).filter(c => c.role === 'Main');
-    if (chars.length) introKids.push(h('div', {}, h('h3', { style: 'margin-bottom:8px' }, '主要人物'),
-      h('div', { class: 'chars' }, chars.map(c => h('div', { class: 'char' + (c.image ? '' : ' noimg') },
+    // 人物：默认只展开前 4 位，其余折叠；name_cn 里的括号别名拆成副行
+    const CHARS_SHOWN = 4;
+    let charsOpen = false;
+    const splitName = s => { const m = String(s || '').match(/^(.*?)[（(](.*)[）)]\s*$/); return m ? [m[1].trim(), m[2].trim()] : [s, null]; };
+    const charCard = c => {
+      const [cn, alias] = splitName(c.name_cn);
+      return h('div', { class: 'char' + (c.image ? '' : ' noimg') },
         c.image ? h('img', { src: c.image, alt: '' }) : null,
-        h('div', {}, h('div', { class: 'nm' }, c.name_cn || c.name, c.name_cn && c.name ? h('small', { class: 'muted' }, ' ' + c.name) : null),
+        h('div', {}, h('div', { class: 'nm' }, cn || c.name, cn && c.name ? h('small', { class: 'muted' }, ' ' + c.name) : null),
+          alias ? h('div', { class: 'role' }, alias) : null,
           c.role ? h('div', { class: 'role' }, c.role) : null,
-          c.motivation ? h('div', { class: 'mot' }, c.motivation) : null))))));
+          c.motivation ? h('div', { class: 'mot' }, c.motivation) : null));
+    };
+    const charsBox = h('div', {});
+    function renderChars() {
+      const shown = charsOpen ? chars : chars.slice(0, CHARS_SHOWN);
+      charsBox.replaceChildren(
+        h('h3', { style: 'margin-bottom:8px' }, '主要人物', h('span', { class: 'muted small', style: 'font-weight:400;margin-left:6px' }, `${chars.length} 位`)),
+        h('div', { class: 'chars' }, shown.map(charCard)),
+        chars.length > CHARS_SHOWN ? h('button', { class: 'link', style: 'margin-top:8px', onclick: () => { charsOpen = !charsOpen; renderChars(); } }, charsOpen ? '收起' : `展开其余 ${chars.length - CHARS_SHOWN} 位`) : null);
+    }
+    if (chars.length) { renderChars(); introKids.push(charsBox); }
     if (intro.highlights && intro.highlights.length) introKids.push(h('div', {}, h('h3', { style: 'margin-bottom:6px' }, '亮点'), h('ul', { class: 'hl' }, intro.highlights.map(x => h('li', {}, x)))));
     if (intro.standing) introKids.push(h('div', {}, h('h3', { style: 'margin-bottom:6px' }, '地位'), ...String(intro.standing).split(/\n+/).map(p => h('p', {}, p))));
-    const introSec = introKids.length ? h('section', { class: 'card', style: 'display:flex;flex-direction:column;gap:14px;margin-top:10px' }, introKids) : null;
+    // 整块可折叠，状态记在本机（读过一次就不用每次都撑满屏）
+    const K_INTRO = `md:${slug}:intro`;
+    let introOpen = store.get(K_INTRO, true);
+    const introBody = h('div', { class: 'intro-body' }, introKids);
+    const introToggle = h('button', { class: 'fold', onclick: () => { introOpen = !introOpen; store.set(K_INTRO, introOpen); introBody.hidden = !introOpen; introToggle.textContent = introOpen ? '收起' : '展开'; } }, introOpen ? '收起' : '展开');
+    introBody.hidden = !introOpen;
+    const introSec = introKids.length ? h('section', { class: 'card intro-sec' }, h('div', { class: 'sec-hd' }, h('h3', {}, '作品介绍'), introToggle), introBody) : null;
 
     // ---- 进度 ----
     const progress = h('section', { class: 'card', style: 'margin-top:10px' });
@@ -154,10 +176,9 @@
         h('div', { class: 'bar' }, h('i', { style: `width:${total ? (100 * cur / total) : 0}%` })));
     }
 
-    // ---- 分集梗概门控（人写、含剧透）----
-    // 已看到的集（集号 ≤ 已勾选的最大集号）自动显示；未看的点按钮才出；spoiler_gate_from 之后的集再二次确认。
+    // ---- 分集梗概（人写、含剧透）----
+    // 已看到的集（集号 ≤ 已勾选的最大集号）自动显示；未看的点一下按钮才出——面板同时是比分数用的，翻柱子时不该顺手被剧透。
     const revealed = new Set();
-    const gate = intro.spoiler_gate_from || null;
     const KIND = { recurring: '常驻', arc: '阶段', 'one-off': '一次' };
     function notesBlock(e) {
       const n = e.notes;
@@ -165,10 +186,7 @@
       const maxDone = Math.max(0, ...done);
       const seen = e.n <= maxDone;
       if (!seen && !revealed.has(e.n)) {
-        return h('div', { class: 'notes gated' }, h('button', { class: 'btn', onclick: () => {
-          if (gate && e.n >= gate && !confirm(`EP ${e.n} 在 EP ${gate} 之后，含全剧不可逆的信息。确定要看？`)) return;
-          revealed.add(e.n); renderChart();
-        } }, '显示本集内容（含剧透）'));
+        return h('div', { class: 'notes gated' }, h('button', { class: 'btn', onclick: () => { revealed.add(e.n); renderChart(); } }, '显示本集内容（含剧透）'));
       }
       return h('div', { class: 'notes' },
         h('div', { class: 'small muted' }, '本集内容', h('span', { class: 'tag' }, seen ? '已看' : '含剧透')),

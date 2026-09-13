@@ -233,11 +233,6 @@
         "route_note": {
           "type": "string",
           "description": "分层规则说明，写给未来的自己：为什么不是按评分取 top X%"
-        },
-        "spoiler_gate_from": {
-          "type": "integer",
-          "minimum": 1,
-          "description": "从这一集起（含）分集梗概即使点按钮也要二次确认——全剧不可逆信息所在"
         }
       }
     },
