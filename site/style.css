@@ -41,6 +41,7 @@ p { margin: 0 0 10px; }
 .topbar .anchors a { font-size: 13px; color: var(--muted); text-decoration: none; }
 .topbar .switch { font: inherit; font-size: 12.5px; max-width: 110px; padding: 3px 6px; border-radius: 8px; border: 1px solid var(--line); background: var(--card); color: var(--ink); }
 @supports not (background: color-mix(in srgb, red 50%, blue)) { .topbar { background: var(--bg); } }
+#intro, #chart, #route { scroll-margin-top: 56px; }  /* 锚点跳转别被吸顶导航盖住 */
 
 /* ---- 头部 / 介绍 ---- */
 .hero { display: grid; grid-template-columns: 96px 1fr; gap: 14px; align-items: start; }
