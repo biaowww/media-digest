@@ -95,6 +95,21 @@
               "type": "string"
             }
           }
+        },
+        "season": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "description": "一季一个 slug 时的季号；imdb/tmdb 按它过滤"
+        },
+        "unit": {
+          "type": "string",
+          "description": "计数单位：集（默认）/ 章 / 回"
+        },
+        "kind": {
+          "type": "string",
+          "description": "anime / tv / novel / …，仅标注"
         }
       }
     },

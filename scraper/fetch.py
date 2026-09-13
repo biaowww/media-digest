@@ -105,6 +105,8 @@ def merge(show: dict, fetched: dict, args) -> dict:
     meta["ids"] = ids
     if args.season:
         meta["season"] = int(args.season)
+    if args.unit:
+        meta["unit"] = args.unit
     for k, cli in (("title", args.title), ("title_cn", args.title_cn), ("title_native", None), ("year", args.year)):
         v = cli or meta.get(k) or pick(fetched, PREFER_SERIES[k], k)
         if v not in (None, ""):
@@ -203,7 +205,7 @@ def write_index():
         m, r = d["meta"], d.get("route") or []
         items.append({
             "slug": m["slug"], "title": m.get("title"), "title_cn": m.get("title_cn"), "year": m.get("year"),
-            "total_eps": m.get("total_eps"), "updated": m.get("updated"),
+            "total_eps": m.get("total_eps"), "unit": m.get("unit") or "集", "updated": m.get("updated"),
             "cover": (d.get("intro") or {}).get("cover") or (d.get("about") or {}).get("cover"),
             "watch_eps": sum(x["eps"][1] - x["eps"][0] + 1 for x in r if x["kind"] == "watch"),
             "bridges": sum(1 for x in r if x["kind"] == "bridge"),
@@ -222,7 +224,30 @@ def cmd_fetch(args):
             ids[src] = getattr(args, src)
     only = set(args.only.split(",")) if args.only else set(SOURCES)
     if not ids:
-        sys.exit("no source ids — pass at least one of --mal/--bangumi/--imdb/--tmdb/--wiki")
+        if not args.total:
+            sys.exit("no source ids — pass at least one of --mal/--bangumi/--imdb/--tmdb/--wiki, or --total N for content with no rating source (novels)")
+        # 无数据源的内容（小说 / 冷门剧）：只建骨架，标题等后面由 episodes.json 的 notes 补
+        show["meta"].update({k: v for k, v in (("title", args.title), ("title_cn", args.title_cn)) if v})
+        if args.year:
+            show["meta"]["year"] = int(args.year)
+        show["meta"]["total_eps"] = int(args.total)
+        show["meta"]["unit"] = args.unit or show["meta"].get("unit") or "集"
+        show["meta"].setdefault("title", args.slug)
+        show["meta"].setdefault("primary_kpi", "imdb")
+        show["meta"]["updated"] = dt.date.today().isoformat()
+        show["meta"]["schema_version"] = SCHEMA_VERSION
+        old = {e["n"]: e for e in show.get("episodes", [])}
+        show["episodes"] = [old.get(n) or {"n": n, "sources": {}, "synopsis": {}} for n in range(1, int(args.total) + 1)]
+        errors, warnings = validate.check(show)
+        for e in errors:
+            print("  ERROR:", e)
+        if errors:
+            sys.exit("validation failed; not written")
+        out = SHOWS / f"{args.slug}.json"
+        out.write_text(json.dumps(show, ensure_ascii=False, indent=2) + "\n", encoding="utf-8", newline="\n")
+        write_index()
+        print(f"wrote {out.relative_to(ROOT)} — {args.total} {show['meta']['unit']} skeleton, no rating sources; route preserved ({len(show.get('route') or [])} nodes)")
+        return
 
     fetched = {}
     for src, mod in SOURCES.items():
@@ -284,6 +309,8 @@ def main():
     f.add_argument("--title"); f.add_argument("--title-cn", dest="title_cn"); f.add_argument("--year")
     f.add_argument("--primary-kpi", dest="primary_kpi", choices=KPI_ORDER)
     f.add_argument("--season", help="一季一个 slug 时指定季号：imdb/tmdb 只取该季，集号=本季集号")
+    f.add_argument("--total", help="没有任何评分源时（小说等）：直接给总数，只建骨架")
+    f.add_argument("--unit", help="计数单位，默认「集」；小说写「章」")
     f.add_argument("--only", help="只跑这些源，逗号分隔，如 mal,imdb")
     f.add_argument("--no-cache", action="store_true")
     r = sub.add_parser("resolve", help="按名字搜各源 ID")

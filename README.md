@@ -61,7 +61,9 @@ py scraper/build.py --refresh  # 所有剧重抓评分（建议每周）
 run_build.bat                  # 同上，双击即可；计划任务 media-digest-build 每天 09:30 调它（StartWhenAvailable）
 ```
 
-日志 `scraper/logs/build.log`。某部剧校验不过只跳过它，不影响其余。写内容的会话**不需要任何人通知本机**。
+日志 `scraper/logs/build.log`。某部剧校验不过只跳过它，不影响其余。写内容的会话**不需要任何人通知本机**。双击 bat 时窗口留住并显示结果；计划任务用 `run_build.bat task`（不 pause）。
+
+通用性：多季剧 `meta.season` 只取该季（IMDb/TMDB），不写则按 MAL/Bangumi 声明集数截断；没有评分源的内容（小说）`ids` 留空、给 `meta.total_eps`（+ `unit: 章`）即可建骨架。页面读 json 带时间戳，不受 Pages 10 分钟缓存影响。
 
 ## 内容更新回路（Drive → 仓库）
 

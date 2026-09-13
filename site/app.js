@@ -60,15 +60,15 @@
 
   // ---------------- 列表页 ----------------
   async function renderList() {
-    const r = await fetch('../shows/index.json');
+    const r = await fetch('../shows/index.json?t=' + Date.now());  // 绕过 Pages 10 分钟缓存
     const { shows } = await r.json();
     $app.replaceChildren(
       h('h1', {}, '追剧路线', h('small', { class: 'muted', style: 'font-size:13px;font-weight:400;margin-left:8px' }, 'media-digest')),
       h('p', { class: 'muted small' }, '把几十集的长剧压成一条路线：必看的集全速看，跳过的集读摘要，进度记在手机里。'),
       h('div', { class: 'list' }, shows.map(s => h('a', { class: 'card', href: '?show=' + encodeURIComponent(s.slug) },
         h('img', { src: s.cover || '', alt: '' }),
-        h('div', {}, h('h3', {}, s.title_cn || s.title), h('div', { class: 'muted small' }, [s.title_cn ? s.title : null, s.year, s.total_eps + ' 集'].filter(Boolean).join(' · ')),
-          h('div', { class: 'muted small' }, s.watch_eps ? `路线：看 ${s.watch_eps} 集 + ${s.bridges} 段桥接` : '路线尚未编写')),
+        h('div', {}, h('h3', {}, s.title_cn || s.title), h('div', { class: 'muted small' }, [s.title_cn ? s.title : null, s.year, s.total_eps + ' ' + (s.unit || '集')].filter(Boolean).join(' · ')),
+          h('div', { class: 'muted small' }, s.watch_eps ? `路线：看 ${s.watch_eps} ${s.unit || '集'} + ${s.bridges} 段桥接` : '路线尚未编写')),
       ))),
       h('footer', {}, 'media-digest'),
     );
@@ -76,13 +76,14 @@
 
   // ---------------- 路线页 ----------------
   async function renderShow() {
-    const r = await fetch('../shows/' + encodeURIComponent(slug) + '.json');
+    const r = await fetch('../shows/' + encodeURIComponent(slug) + '.json?t=' + Date.now());
     if (!r.ok) { $app.replaceChildren(h('p', { class: 'empty' }, `找不到 shows/${slug}.json`)); return; }
     const show = await r.json();
     const meta = show.meta, about = show.about || {}, intro = show.intro || {};
     const eps = show.episodes || [], route = show.route || [];
     const byN = new Map(eps.map(e => [e.n, e]));
     document.title = (meta.title_cn || meta.title) + ' · 追剧路线';
+    const U = meta.unit || '集';
 
     const K_DONE = `md:${slug}:done`, K_KPI = `md:${slug}:kpi`, K_DET = `md:${slug}:detrend`;
     let done = new Set(store.get(K_DONE, []));
@@ -113,7 +114,7 @@
       cover ? h('img', { src: cover, alt: '' }) : h('div'),
       h('div', {},
         h('h1', {}, meta.title_cn || meta.title),
-        h('div', { class: 'sub' }, [meta.title_cn ? meta.title : null, meta.title_native, meta.year, `${meta.total_eps} 集`].filter(Boolean).join(' · ')),
+        h('div', { class: 'sub' }, [meta.title_cn ? meta.title : null, meta.title_native, meta.year, `${meta.total_eps} ${U}`].filter(Boolean).join(' · ')),
         intro.logline ? h('p', { class: 'logline' }, intro.logline) : null,
         h('div', { class: 'chips' }, scoreChips, (about.genres || []).slice(0, 3).map(g => h('span', { class: 'chip' }, g))),
       ));
@@ -169,7 +170,7 @@
       const cur = route.length ? w : [...done].filter(n => byN.has(n)).length;
       progress.replaceChildren(
         h('div', { class: 'progress' },
-          h('span', {}, h('span', { class: 'big' }, String(cur)), h('span', { class: 'muted' }, ` / ${total} 集已看`)),
+          h('span', {}, h('span', { class: 'big' }, String(cur)), h('span', { class: 'muted' }, ` / ${total} ${U}已看`)),
           route.length ? h('span', { class: 'muted' }, `桥接已读 ${br} / ${bridges.length}`) : null,
           h('span', { style: 'flex:1' }),
           h('button', { class: 'link', onclick: () => { if (confirm('清空本机进度？')) { done = new Set(); saveDone(); rerender(); } } }, '重置')),
@@ -223,7 +224,7 @@
       const axisText = !kpi ? '无评分数据' : detrendOn ? `${kpi.label} · 已去趋势（扣除随集数上浮）` : `${kpi.label}（${kpi.scale}）· 柱高按 ${kpi.fmt(lo)}–${kpi.fmt(hi)} 拉伸`;
       chartSec.replaceChildren(
         tabs,
-        h('div', { class: 'axis' }, h('span', {}, axisText), h('span', {}, `EP 1–${meta.total_eps}`)),
+        h('div', { class: 'axis' }, h('span', {}, axisText), h('span', {}, U === '集' ? `EP 1–${meta.total_eps}` : `1–${meta.total_eps} ${U}`)),
         h('div', { class: 'chart' }, bars),
         h('div', { class: 'legend' }, h('span', {}, h('i', { style: 'background:var(--accent)' }), '全速看'), h('span', {}, h('i', { style: 'background:var(--bridge)' }), '桥接带过'), h('span', {}, h('i', { style: 'background:var(--done)' }), '已看'), route.length ? null : h('span', {}, h('i', { style: 'background:var(--none)' }), '未编路线'),
           heat ? h('span', {}, '🔥 ', heat.scale, ' 前 10%') : null,
@@ -243,7 +244,7 @@
     const openBridges = new Set();
     function renderRoute() {
       if (!route.length) {
-        routeSec.replaceChildren(h('h2', {}, '全集'), h('p', { class: 'muted small' }, '路线尚未编写：先看评分曲线，勾选记录进度。'),
+        routeSec.replaceChildren(h('h2', {}, U === '集' ? '全集' : '全部' + U), h('p', { class: 'muted small' }, kpis.length ? '路线尚未编写：先看评分曲线，勾选记录进度。' : '路线尚未编写：勾选记录进度。'),
           h('div', { class: 'card eps' }, eps.map(epRow)));
         return;
       }
@@ -252,7 +253,7 @@
         if (node.kind === 'watch') {
           const rows = []; for (let n = a; n <= b; n++) rows.push(epRow(byN.get(n) || { n, sources: {} }));
           return h('div', { class: 'card node watch' + (node.optional ? ' optional' : '') },
-            h('div', { class: 'hd' }, h('span', { class: 'k' }, '看'), h('span', { class: 'rng' }, a === b ? `EP ${a}` : `EP ${a}–${b}`), h('span', { class: 'muted small' }, `${k} 集`), node.optional ? h('span', { class: 'tag' }, '可选') : null),
+            h('div', { class: 'hd' }, h('span', { class: 'k' }, '看'), h('span', { class: 'rng' }, a === b ? `EP ${a}` : `EP ${a}–${b}`), h('span', { class: 'muted small' }, `${k} ${U}`), node.optional ? h('span', { class: 'tag' }, '可选') : null),
             node.why ? h('p', { class: 'why' }, node.why) : null,
             h('div', { class: 'eps' }, rows));
         }
@@ -264,7 +265,7 @@
         return h('div', { class: 'card node bridge' + (open ? ' open' : '') + (read ? ' read' : '') },
           h('div', { class: 'hd', onclick: () => { open ? openBridges.delete(i) : openBridges.add(i); renderRoute(); } },
             h('span', { class: 'caret' }, '▶'), h('span', { class: 'k' }, '桥接'), h('span', { class: 'rng' }, a === b ? `EP ${a}` : `EP ${a}–${b}`),
-            h('span', { class: 'grow small muted' }, node.title, ` · 跳过 ${k} 集`),
+            h('span', { class: 'grow small muted' }, node.title, ` · 跳过 ${k} ${U}`),
             h('label', { class: 'ctl', onclick: ev => ev.stopPropagation() }, cb, '已读')),
           open ? null : h('div', { class: 'spoiler-note' }, '点开阅读摘要（含被跳过集的剧情）'),
           body);
@@ -280,7 +281,7 @@
     const jump = id => ev => { ev.preventDefault(); const el = document.getElementById(id); if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' }); };
     const switcher = h('select', { class: 'switch', 'aria-label': '切换剧集', onchange: ev => { if (ev.target.value) location.search = '?show=' + encodeURIComponent(ev.target.value); } });
     switcher.hidden = true;
-    fetch('../shows/index.json').then(r => r.json()).then(({ shows }) => {
+    fetch('../shows/index.json?t=' + Date.now()).then(r => r.json()).then(({ shows }) => {
       if (!shows || shows.length < 2) return;
       switcher.replaceChildren(shows.map(s => { const o = h('option', { value: s.slug }, s.title_cn || s.title); o.selected = s.slug === slug; return o; }));
       switcher.hidden = false;

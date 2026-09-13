@@ -18,7 +18,9 @@ route.json 里的 meta 块（新剧必填，老剧可省）：
 from __future__ import annotations
 
 import argparse
+import contextlib
 import datetime as dt
+import io
 import json
 import os
 import subprocess
@@ -50,14 +52,16 @@ def run(cmd: list[str], **kw) -> subprocess.CompletedProcess:
 
 
 def fetch_args(slug: str, meta: dict) -> list[str] | None:
-    ids = meta.get("ids") or {}
-    if not ids:
+    ids = {k: v for k, v in (meta.get("ids") or {}).items() if v not in (None, "")}
+    if not ids and not meta.get("total_eps"):
         return None
     args = [PY, str(ROOT / "scraper" / "fetch.py"), slug]
     for k in ("mal", "bangumi", "imdb", "tmdb", "wiki"):
         if ids.get(k) not in (None, ""):
             args += [f"--{k}", str(ids[k])]
-    for k, flag in (("title", "--title"), ("title_cn", "--title-cn"), ("year", "--year"), ("season", "--season")):
+    if not ids:  # 无评分源（小说等）：按 meta.total_eps 建骨架
+        args += ["--total", str(meta["total_eps"])]
+    for k, flag in (("title", "--title"), ("title_cn", "--title-cn"), ("year", "--year"), ("season", "--season"), ("unit", "--unit")):
         if meta.get(k) not in (None, ""):
             args += [flag, str(meta[k])]
     return args
@@ -83,16 +87,20 @@ def main():
         if need_fetch:
             args = fetch_args(slug, meta or {}) if not (SHOWS / f"{slug}.json").exists() else [PY, str(ROOT / "scraper" / "fetch.py"), slug]
             if args is None:
-                log(f"[{slug}] no shows/{slug}.json and route.json has no meta.ids — skipped (add meta.ids in Drive)"); failed.append(slug); continue
+                log(f"[{slug}] no shows/{slug}.json and route.json has neither meta.ids nor meta.total_eps — skipped (add them in Drive)"); failed.append(slug); continue
             r = run(args)
             tail = (r.stdout.strip().splitlines() or [""])[-1]
             log(f"[{slug}] fetch rc={r.returncode}: {tail}")
             if r.returncode != 0:
                 log(r.stderr.strip()[-400:]); failed.append(slug); continue
+        buf = io.StringIO()
         try:
-            ok = sync_one(slug)
+            with contextlib.redirect_stdout(buf):
+                ok = sync_one(slug)
         except Exception as e:
-            log(f"[{slug}] sync crashed: {e}"); ok = False
+            buf.write(f"[{slug}] sync crashed: {e}\n"); ok = False
+        for line in buf.getvalue().strip().splitlines():
+            log(line)
         if not ok:
             failed.append(slug)
 
@@ -112,6 +120,8 @@ def main():
         if r.returncode:
             failed.append("push")
     log(f"build end — failed: {failed or 'none'}")
+    if not a.no_push and st:
+        log("page: https://biaowww.github.io/media-digest/site/  (GitHub Pages 部署约 1 分钟)")
     sys.exit(1 if failed else 0)
 
 
