@@ -104,21 +104,28 @@ def main():
         if not ok:
             failed.append(slug)
 
-    st = run(["git", "status", "--porcelain", "--", "shows", "site/assets"]).stdout.strip()  # 无人值守只提交内容产物，不卷代码改动
+    paths = [x for x in ("shows", "site/assets") if (ROOT / x).exists()]  # 无人值守只提交内容产物，不卷代码改动
+    st = run(["git", "status", "--porcelain", "--", *paths]).stdout.strip()
     if not st:
         log("no changes");
     elif a.no_push:
         log(f"changes (not pushed):\n{st}")
     else:
         changed = sorted({l[3:].split("/")[1].replace(".json", "") for l in st.splitlines() if l[3:].startswith("shows/")})
-        run(["git", "add", "-A", "--", "shows", "site/assets"])
-        msg = f"build: {', '.join(changed) or 'update'} ({dt.date.today()})"
-        r = run(["git", "-c", "user.name=biaowww", "-c", "user.email=wvngbvao483@gmail.com", "commit", "-q", "-m", msg])
-        log(f"commit rc={r.returncode} {msg}")
-        r = run(["git", "push", "-q", "origin", "main"])
-        log(f"push rc={r.returncode} {r.stderr.strip()[-200:] if r.returncode else 'ok'}")
+        r = run(["git", "add", "-A", "--", *paths])
         if r.returncode:
-            failed.append("push")
+            log(f"git add failed: {r.stderr.strip()[-200:]}"); failed.append("commit")
+        else:
+            msg = f"build: {', '.join(changed) or 'update'} ({dt.date.today()})"
+            r = run(["git", "-c", "user.name=biaowww", "-c", "user.email=wvngbvao483@gmail.com", "commit", "-q", "-m", msg])
+            if r.returncode:
+                log(f"commit FAILED rc={r.returncode}: {(r.stderr or r.stdout).strip()[-200:]}"); failed.append("commit")
+            else:
+                log(f"commit ok: {msg}")
+                r = run(["git", "push", "-q", "origin", "main"])
+                log(f"push rc={r.returncode} {r.stderr.strip()[-200:] if r.returncode else 'ok'}")
+                if r.returncode:
+                    failed.append("push")
     log(f"build end — failed: {failed or 'none'}")
     if not a.no_push and st:
         log("page: https://biaowww.github.io/media-digest/site/  (GitHub Pages 部署约 1 分钟)")
