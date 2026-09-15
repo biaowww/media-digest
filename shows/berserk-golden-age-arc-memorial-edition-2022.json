@@ -18,22 +18,15 @@
     "updated": "2026-09-16"
   },
   "about": {
-    "cover": "https://cdn.myanimelist.net/images/anime/1607/127730.jpg",
+    "cover": "https://image.tmdb.org/t/p/w500/7esafbDoMRZsVR7AHZYAMkrOnK7.jpg",
     "backdrop": "https://image.tmdb.org/t/p/w500/d5KadFqzjnT4jkjxcdOkcvaCGLx.jpg",
     "synopsis": {
-      "en": "Fleeing a traumatic childhood, lone mercenary Guts drifts from battle to battle, striking down powerful enemies with his unwieldy sword. After one skirmish, Guts clashes with the mystifying Griffith and his small army known as the Band of the Hawk. The victorious Griffith drafts Guts into his ranks, granting the swordsman a kinship unlike anything he has ever known.\n\r\n\n\r\nAlongside the skilled warrior Casca, Guts helps Griffith guide the band to fame and glory. But as he gains military prestige, Griffith becomes the target of assassination attempts and political schemes. He uses Guts to further his ambitious rise to power, taking advantage of the swordsman's lack of aspiration.\n\r\n\n\r\nEven as he grows closer to Casca, Guts' absence of direction robs him of any sense of belonging. Fostering opposing desires, Guts and Casca fight for Griffith's dream—although fractures forming among the trio threaten to disrupt their world.",
-      "zh": "我一直只相信我的剑。没有朋友，没有家人，也没有家可归——格斯，一个孤独的剑客，在一片被百年战争震撼的土地上作为雇佣兵四处奔波。胆量能够驾驭比他身高还长的剑，并轻松击败强大的敌人。\r\n雇佣兵组织“鹰之团”的领导人格里菲斯盯上了他。格里菲斯有着从他美丽的外表和巨大的野心中无法想象的指挥能力，他在一次决斗中赢得了格斯，并把他带入了鹰之团，以实现自己的梦想。当他们一起经历无数次激烈的战斗时，他们的朋友因信任而结合在一起。格里菲斯和格斯之间的联系已经成为一种特殊的东西。\r\n鹰之队最终崛起，成为米德兰王国的正规军，但这只是格里菲斯实现登顶目标的第一步。与此同时，格斯被格里菲斯的”梦想“所吸引，并开始质疑自己仅仅挥舞剑的生活。但格斯还不知道，他们无尽的梦想给他们带来的可怕命运……"
+      "en": "When lone swordsman Guts is defeated in a duel by Griffith, ambitious leader of the Band of the Hawk mercenaries, he now must fight for him. Distrustful of all at first, through hard-fought battles, he soon begins to bond with his new comrades and their leader. As they rise in rank to a full-fledged army, he begins to harbor doubts about a life lived by the blade, unaware a dreadful fate that awaits.",
+      "zh": "孤独的雇佣兵格斯在一片百年战争肆虐的土地上旅行。他在战斗中的凶猛和技巧吸引了格里菲斯的注意，他是一群被称为鹰之团的雇佣兵的领袖。勇者成为格里菲斯最亲密的盟友和知己，但尽管他们取得了所有的胜利，勇者开始质疑自己为什么要为另一个人统治自己王国的梦想而战斗。勇者不知道，格里菲斯不屈不挠的野心即将赋予他们俩可怕的命运。"
     },
     "genres": [
-      "Action",
-      "Adventure",
       "Drama",
-      "Fantasy",
-      "Horror",
-      "Gore",
-      "Military",
-      "Psychological",
-      "Seinen"
+      "Animation"
     ],
     "studios": [
       "Studio 4°C"
@@ -296,13 +289,13 @@
         "motivation": "嘴碎爱抱怨，从鹰之团还是小队时就在，看不惯格斯这个外来者。"
       },
       {
-        "name": "Charlotte",
+        "name": "Charlotte Beatrix Marie Rhody Windam",
         "name_cn": "夏洛特",
         "role": "米德兰公主",
         "motivation": "深宫中的公主，被格里菲斯吸引。"
       },
       {
-        "name": "Nosferatu Zodd",
+        "name": "Zodd Nosferatu",
         "name_cn": "不死者佐德",
         "role": "传说中的怪物剑士",
         "motivation": "战场上流传了三百年的传说，追逐强者。"
@@ -315,7 +308,7 @@
       "尺度为剧场版级别：大量血腥与性暴力画面，观看前心里有数"
     ],
     "standing": "《剑风传奇》是黑暗奇幻漫画的标杆，影响了《黑暗之魂》等一大批作品。黄金时代篇有三个动画版本：97 版 TV（25 集，文戏足、人物铺垫厚，但结尾戛然而止）、2012–13 剧场版三部曲（作画与尺度升级，节奏快、删减多）、以及这部 2022 Memorial Edition（剧场版重剪 + 补镜头 + 新配乐）。它的定位是「节奏最快、尺度最完整」的一版：MAL 约 7.9，IMDb 约 8.3。偶有突兀的 3DCG 是常见吐槽点。适合想在 5 个多小时内完整走完黄金时代篇、之后直接接漫画的人。",
-    "route_note": "这部不压缩：13 集约 5.5 小时，本身已是剧场版重剪、节奏偏快，再桥接只会继续削薄人物铺垫，所以全程 watch。分成四段只是为了标出节奏和漫画接缝，不代表可跳。真正的「缺口」在动画之外，按原作补三处：① 开看前（可选，已看过第 1 集也不影响）：漫画第 1–3 卷「黑色剑士篇」，先感受成年格斯的暗黑基调；② 第 10 集看完后：翻漫画第 10–11 卷，剧场版整段删掉了这里的一条支线；③ 第 13 集看完后：直接接漫画第 14 卷，看这段故事真正的收尾和格斯重新上路。另：单独的剧场版《黄金时代篇 III 降临》内容已包含在本剧后几集中，无需另看，好奇剪辑差异可速览。漫画台湾东立译《烙印勇士》、香港天下译《烙印戰士》。分集边界（尤其 9–13 集）按剧场版结构与分集标题推定，看片时如发现摘要归属错位，回本会话改 episodes.json。"
+    "route_note": "这部不压缩：13 集约 5.5 小时，本身已是剧场版重剪、节奏偏快，再桥接只会继续削薄人物铺垫，所以全程 watch。分成四段只是为了标出节奏和漫画接缝，不代表可跳。真正的「缺口」在动画之外，按原作补三处：① 开看前（可选，已看过第 1 集也不影响）：漫画第 1–3 卷「黑色剑士篇」，先感受成年格斯的暗黑基调；② 第 10 集看完后：翻漫画第 10–11 卷，剧场版整段删掉了这里的一条支线；③ 第 13 集看完后：直接接漫画第 14 卷，看这段故事真正的收尾和格斯重新上路。另：单独的剧场版《黄金时代篇 III 降临》内容已包含在本剧后几集中，无需另看，好奇剪辑差异可速览。漫画台湾东立译《烙印勇士》、香港天下译《烙印戰士》。分集边界已按 TMDB 分集梗概核对（2026-09-16）；第 9–10 集内的细节（恋情、骷髅骑士警告）TMDB 梗概未覆盖，看片时如发现错位，回本会话改 episodes.json。"
   },
   "episodes": [
     {
@@ -620,7 +613,7 @@
       },
       "synopsis": {
         "en": "Guts begins to question his place in the Band of the Hawk, while Griffith puts the band in play for his riskiest gambit yet.",
-        "zh": "现在是生死存亡的时刻，鹰之团将面对图多尔国最强大的骑士，试图夺回多尔德里堡并结束战争。"
+        "zh": null
       },
       "title_native": "夢のかがり火",
       "title_en": "Campfire of Dreams",
@@ -665,12 +658,12 @@
       },
       "synopsis": {
         "en": "It's do-or-die time as the Band of the Hawk goes up against Tudor's mightiest knights in an attempt to recapture the fortress of Doldrey and bring the war to an end.",
-        "zh": "现在是生死存亡的时刻，鹰之团将面对图多尔国最强大的骑士，试图夺回多尔德里堡并结束战争。"
+        "zh": null
       },
       "title_native": "ドルドレイ 攻略戦",
-      "title_en": "The Battle of Doldrey",
+      "title_en": "The Battle for Doldrey",
       "title_cn": "多尔多雷攻略战",
-      "aired": "2022-11-05",
+      "aired": "2022-11-06",
       "heat": {
         "mal_replies": 38,
         "bangumi_comments": 8,
@@ -723,7 +716,7 @@
       "title_native": "ある雪の夜に…",
       "title_en": "One Snowy Night",
       "title_cn": "在某个下雪的夜晚...",
-      "aired": "2022-11-12",
+      "aired": "2022-11-13",
       "heat": {
         "mal_replies": 32,
         "bangumi_comments": 10,
@@ -768,7 +761,7 @@
       "title_native": "夢の終焉",
       "title_en": "Demise of a Dream",
       "title_cn": "梦的终结",
-      "aired": "2022-11-19",
+      "aired": "2022-11-20",
       "heat": {
         "mal_replies": 46,
         "bangumi_comments": 6,
@@ -812,8 +805,8 @@
       },
       "title_native": "傷",
       "title_en": "Wounds",
-      "title_cn": "伤痕",
-      "aired": "2022-11-26",
+      "title_cn": "伤",
+      "aired": "2022-11-27",
       "heat": {
         "mal_replies": 59,
         "bangumi_comments": 9,
@@ -909,7 +902,7 @@
         "zh": "当格里菲斯在绝望的希望和无望的绝望之间犹豫不决时，鹰之团被卷入了一个远远超出他们理解范围的事件。"
       },
       "title_native": "蝕",
-      "title_en": "Eclipse",
+      "title_en": "The Eclipse",
       "title_cn": "日蚀",
       "aired": "2022-12-11",
       "heat": {
