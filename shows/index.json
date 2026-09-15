@@ -1,6 +1,18 @@
 {
   "shows": [
     {
+      "slug": "berserk-golden-age-arc-memorial-edition-2022",
+      "title": "Berserk: The Golden Age Arc - Memorial Edition",
+      "title_cn": "剑风传奇 黄金时代篇 MEMORIAL EDITION",
+      "year": 2022,
+      "total_eps": 13,
+      "unit": "集",
+      "updated": "2026-09-16",
+      "cover": "https://cdn.myanimelist.net/images/anime/1607/127730.jpg",
+      "watch_eps": 13,
+      "bridges": 0
+    },
+    {
       "slug": "frieren-2023",
       "title": "Frieren: Beyond Journey's End",
       "title_cn": "葬送的芙莉莲",
