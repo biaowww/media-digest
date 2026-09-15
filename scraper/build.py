@@ -8,6 +8,7 @@ chat 会话只需把 route.json（含 meta.ids）写进 Drive shows/<slug>/；�
   py scraper/build.py               # 增量：只 fetch 还没有 shows/<slug>.json 的剧；全部 sync；有变更才 push
   py scraper/build.py --refresh     # 所有剧重新抓客观数据（评分会变，建议每周一次）
   py scraper/build.py --no-push     # 本地构建不推
+  py scraper/build.py --quiet       # 计划任务每 10 分钟调用：无变化不写日志
 
 route.json 里的 meta 块（新剧必填，老剧可省）：
   "meta": { "title": "Monster", "title_cn": "怪物", "year": 2004,
@@ -71,7 +72,14 @@ def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--refresh", action="store_true", help="所有剧重新抓客观数据")
     ap.add_argument("--no-push", action="store_true")
+    ap.add_argument("--quiet", action="store_true", help="每 10 分钟的静默巡检：没变化、没失败时不写 build.log，只更新 logs/last-run.txt")
     a = ap.parse_args()
+    if a.quiet:  # 先缓冲日志，结束时决定要不要落盘
+        global log
+        _buf: list[str] = []
+        def log(msg: str):  # noqa: F811
+            _buf.append(f"{dt.datetime.now():%Y-%m-%d %H:%M:%S} {msg}")
+            print(_buf[-1], flush=True)
 
     src_root = content_dir()
     slugs = [p.name for p in sorted(src_root.iterdir()) if p.is_dir() and not p.name.startswith("_") and (p / "route.json").exists()]
@@ -129,6 +137,12 @@ def main():
     log(f"build end — failed: {failed or 'none'}")
     if not a.no_push and st:
         log("page: https://biaowww.github.io/media-digest/site/  (GitHub Pages 部署约 1 分钟)")
+    if a.quiet:
+        LOG.parent.mkdir(parents=True, exist_ok=True)
+        (LOG.parent / "last-run.txt").write_text(f"{dt.datetime.now():%Y-%m-%d %H:%M:%S} failed={failed or 'none'} changes={'yes' if st else 'no'}\n", encoding="utf-8")
+        if st or failed:
+            with open(LOG, "a", encoding="utf-8") as f:
+                f.write("\n".join(_buf) + "\n")
     sys.exit(1 if failed else 0)
 
 

@@ -1,14 +1,15 @@
 @echo off
 rem media-digest unattended build: Drive content -> fetch/sync -> git push.
 rem Double-click: runs, prints the result and waits for a key.
-rem Scheduled task media-digest-build calls it with the argument "task" (no pause).
+rem Scheduled task media-digest-build calls it every 10 minutes with the argument "task"
+rem (quiet: no pause, no log line unless something changed or failed).
 rem ASCII only: cmd reads .bat in the OEM code page, non-ASCII comments break parsing.
 cd /d "%~dp0"
 set HTTPS_PROXY=http://127.0.0.1:10808
 set HTTP_PROXY=http://127.0.0.1:10808
 set PYTHONIOENCODING=utf-8
 if /i "%~1"=="task" (
-  py scraper/build.py
+  py scraper/build.py --quiet
   exit /b %errorlevel%
 )
 py scraper/build.py %*
