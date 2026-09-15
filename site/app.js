@@ -125,9 +125,19 @@
     if (syn) introKids.push(h('div', { class: 'intro' },
       h('h3', {}, '剧情简介', h('span', { class: 'tag' }, intro.synopsis ? '无剧透' : '自动抓取')),
       ...String(syn).split(/\n+/).map(p => h('p', {}, p))));
-    const autoChars = new Map((about.characters || []).map(c => [c.name.toLowerCase(), c]));
-    const findAuto = c => autoChars.get((c.name || '').toLowerCase())
-      || (about.characters || []).find(a => a.name && ((c.name_cn || '') + ' ' + (c.role || '')).toLowerCase().includes(a.name.toLowerCase()));  // 别名兜底：name_cn/role 里提到的英文名
+    // 角色头像合并：不要求写法和 MAL 一致。规则：去标点/大小写后，短名的词是长名词的子集即匹配
+    // （"Skull Knight" ~ "The Skull Knight"，"Zodd" ~ "Zodd Nosferatu"，"Charlotte" ~ "Charlotte Beatrix Marie Rhody Windam"）；
+    // 再兜底：name_cn / role 里提到的英文名。
+    const STOP = new Set(['the', 'of', 'von', 'van', 'de', 'la', 'le', 'du', 'da']);
+    const toks = s => String(s || '').toLowerCase().normalize('NFKD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-z0-9\s]/g, ' ').split(/\s+/).filter(t => t && !STOP.has(t));
+    const subset = (a, b) => a.length > 0 && a.every(t => b.includes(t));
+    const nameMatch = (x, y) => { const a = toks(x), b = toks(y); if (!a.length || !b.length) return false; return subset(a, b) || subset(b, a); };
+    const findAuto = c => {
+      const pool = about.characters || [];
+      return pool.find(a => a.name && c.name && a.name.toLowerCase() === c.name.toLowerCase())
+        || pool.find(a => a.name && c.name && nameMatch(a.name, c.name))
+        || pool.find(a => a.name && ((c.name_cn || '') + ' ' + (c.role || '')).toLowerCase().includes(a.name.toLowerCase()));
+    };
     let chars = (intro.characters || []).map(c => Object.assign({}, findAuto(c) || {}, c));
     if (!chars.length) chars = (about.characters || []).filter(c => c.role === 'Main');
     // 人物：默认只展开前 4 位，其余折叠；name_cn 里的括号别名拆成副行

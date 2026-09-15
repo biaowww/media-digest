@@ -143,6 +143,19 @@ def merge(show: dict, fetched: dict, args) -> dict:
         if heat:
             ep["heat"] = heat
         episodes.append(ep)
+    # 数据源脏数据：两集梗概一字不差（TMDB 常见复制错），全部置空，页面回退另一语言
+    for lang in ("zh", "en"):
+        seen: dict[str, list[int]] = {}
+        for e in episodes:
+            v = (e.get("synopsis") or {}).get(lang)
+            if v and len(v) > 40:
+                seen.setdefault(v.strip(), []).append(e["n"])
+        dup_ns = {n for ns in seen.values() if len(ns) > 1 for n in ns}
+        if dup_ns:
+            print(f"  note: synopsis.{lang} identical across episodes {sorted(dup_ns)} — dropped (source copy error)")
+            for e in episodes:
+                if e["n"] in dup_ns:
+                    e["synopsis"][lang] = None
     show["episodes"] = episodes
 
     # 总集数：优先各源声明的集数（mal/bangumi/tmdb），没有才用抓到的最大集号

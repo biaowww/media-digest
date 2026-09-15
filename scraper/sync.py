@@ -148,6 +148,9 @@ def sync_one(slug: str, dry_run: bool = False) -> bool:
         print(f"[{slug}] shows/{slug}.json missing — run `py scraper/fetch.py {slug} --mal ... ` first")
         return False
     show = load_json(dst)
+    dupes = [p.name for p in src.iterdir() if p.is_file() and re.match(r"(route|episodes|intro) \(\d+\)\.json$", p.name)]
+    if dupes:
+        print(f"[{slug}] warn: duplicate-named files on Drive {dupes} — only route.json / episodes.json are read; move the old copies to trash")
     try:
         intro, route = read_content(src)
     except ValueError as e:
