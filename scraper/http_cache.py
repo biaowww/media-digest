@@ -27,8 +27,8 @@ class Http:
         self._last: dict[str, float] = {}
         self.session = requests.Session()
         self.session.headers["User-Agent"] = UA
-        if not (os.environ.get("HTTPS_PROXY") or os.environ.get("HTTP_PROXY")):
-            self.session.proxies = {"https": FALLBACK_PROXY, "http": FALLBACK_PROXY}
+        if os.name == "nt" and not (os.environ.get("HTTPS_PROXY") or os.environ.get("HTTP_PROXY")):
+            self.session.proxies = {"https": FALLBACK_PROXY, "http": FALLBACK_PROXY}  # 家里 PC 必须走代理；Mac 直连
         CACHE_DIR.mkdir(parents=True, exist_ok=True)
 
     # ---------- helpers ----------

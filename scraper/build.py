@@ -36,7 +36,7 @@ ROOT = Path(__file__).resolve().parent.parent
 SHOWS = ROOT / "shows"
 LOG = ROOT / "scraper" / "logs" / "build.log"
 PY = sys.executable
-PROXY = os.environ.get("HTTPS_PROXY") or "http://127.0.0.1:10808"
+PROXY = os.environ.get("HTTPS_PROXY") or ("http://127.0.0.1:10808" if os.name == "nt" else "")  # 家里 PC 必须走代理；Mac 默认直连
 
 
 def log(msg: str):
@@ -48,7 +48,9 @@ def log(msg: str):
 
 
 def run(cmd: list[str], **kw) -> subprocess.CompletedProcess:
-    env = dict(os.environ, HTTPS_PROXY=PROXY, HTTP_PROXY=PROXY, PYTHONIOENCODING="utf-8")
+    env = dict(os.environ, PYTHONIOENCODING="utf-8")
+    if PROXY:
+        env.update(HTTPS_PROXY=PROXY, HTTP_PROXY=PROXY)
     return subprocess.run(cmd, cwd=ROOT, env=env, text=True, capture_output=True, encoding="utf-8", errors="replace", **kw)
 
 
@@ -124,6 +126,10 @@ def main():
         if r.returncode:
             log(f"git add failed: {r.stderr.strip()[-200:]}"); failed.append("commit")
         else:
+            # 多机（home-pc / mac）都在跑巡检：先把别人推的拉下来，避免 push 被拒
+            pr = run(["git", "pull", "--rebase", "--autostash", "-q", "origin", "main"])
+            if pr.returncode:
+                log(f"git pull --rebase failed: {pr.stderr.strip()[-200:]}")
             msg = f"build: {', '.join(changed) or 'update'} ({dt.date.today()})"
             r = run(["git", "-c", "user.name=biaowww", "-c", "user.email=wvngbvao483@gmail.com", "commit", "-q", "-m", msg])
             if r.returncode:
@@ -131,6 +137,9 @@ def main():
             else:
                 log(f"commit ok: {msg}")
                 r = run(["git", "push", "-q", "origin", "main"])
+                if r.returncode:  # 刚好撞上另一台机的 push：再拉一次重推
+                    run(["git", "pull", "--rebase", "-q", "origin", "main"])
+                    r = run(["git", "push", "-q", "origin", "main"])
                 log(f"push rc={r.returncode} {r.stderr.strip()[-200:] if r.returncode else 'ok'}")
                 if r.returncode:
                     failed.append("push")

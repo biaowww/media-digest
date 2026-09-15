@@ -14,6 +14,8 @@ CANDIDATES = [
     Path(r"G:\我的云端硬盘\claude"),
     _HOME / "My Drive" / "claude",
     _HOME / "Google Drive" / "claude",
+    # macOS Google Drive for desktop：~/Library/CloudStorage/GoogleDrive-<账号>/{My Drive|我的云端硬盘}/claude
+    *[p / sub / "claude" for p in sorted((_HOME / "Library" / "CloudStorage").glob("GoogleDrive-*")) for sub in ("My Drive", "我的云端硬盘")],
 ]
 CONTENT_REL = Path("domains") / "personal" / "media-digest" / "shows"
 

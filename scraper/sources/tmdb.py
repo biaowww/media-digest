@@ -17,6 +17,14 @@ def api_key() -> str | None:
     k = os.environ.get("TMDB_API_KEY")
     if not k and KEY_FILE.exists():
         k = KEY_FILE.read_text(encoding="utf-8").strip()
+    if not k:  # 多机：Drive 内容目录里有一份，clone 下来就能用，不用每台机配
+        try:
+            from paths import content_dir
+            f = content_dir() / "_tmdb_key.txt"
+            if f.exists():
+                k = f.read_text(encoding="utf-8").strip()
+        except Exception:
+            pass
     return k or None
 
 
