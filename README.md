@@ -58,10 +58,10 @@ py -m http.server 8765      # 然后开 http://localhost:8765/site/?show=monster
 ```bash
 py scraper/build.py            # 扫 Drive 内容目录：新剧按 route.json 的 meta.ids 抓客观数据 → 全部 sync → 有变更就 commit + push
 py scraper/build.py --refresh  # 所有剧重抓评分（建议每周）
-run_build.bat                  # 同上，双击即可；计划任务 media-digest-build 每天 09:30 调它（StartWhenAvailable）
+run_build.bat                  # 同上，双击即可（留窗显示结果）；计划任务 media-digest-build 每 1 分钟用 pythonw.exe 直接跑 build.py --quiet，无窗口
 ```
 
-日志 `scraper/logs/build.log`。某部剧校验不过只跳过它，不影响其余。写内容的会话**不需要任何人通知本机**。双击 bat 时窗口留住并显示结果；计划任务用 `run_build.bat task`（不 pause）。
+日志 `scraper/logs/build.log`（空转只更新 `logs/last-run.txt`）。某部剧校验不过只跳过它，不影响其余。写内容的会话**不需要任何人通知本机**。第二台巡检机（Mac）见 `DEPLOY.md`。
 
 通用性：多季剧 `meta.season` 只取该季（IMDb/TMDB），不写则按 MAL/Bangumi 声明集数截断；没有评分源的内容（小说）`ids` 留空、给 `meta.total_eps`（+ `unit: 章`）即可建骨架。页面读 json 带时间戳，不受 Pages 10 分钟缓存影响。
 

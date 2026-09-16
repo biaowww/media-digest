@@ -43,4 +43,13 @@ launchctl list | grep media-digest
 
 ## Windows（家里 PC，已装）
 
-计划任务 `media-digest-build`：每 1 分钟调 `run_build.bat task`。查看 `schtasks /query /tn media-digest-build`；手动 `run_build.bat`（双击）。
+计划任务 `media-digest-build`：每 1 分钟，**直接用 `pythonw.exe scraper\build.py --quiet`**（无控制台 Python，不会有窗口一闪；用 cmd 跑 .bat 会每分钟弹一下黑窗）。查看 `schtasks /query /tn media-digest-build`；手动检查用双击 `run_build.bat`（会留窗显示结果）。
+
+重建任务（PowerShell）：
+
+```powershell
+$a = New-ScheduledTaskAction -Execute "$env:LOCALAPPDATA\Programs\Python\Python312\pythonw.exe" -Argument 'scraper\build.py --quiet' -WorkingDirectory 'E:\claude_project\media-digest'
+$t = New-ScheduledTaskTrigger -Once -At (Get-Date).Date -RepetitionInterval (New-TimeSpan -Minutes 1) -RepetitionDuration (New-TimeSpan -Days 3650)
+$s = New-ScheduledTaskSettingsSet -StartWhenAvailable -ExecutionTimeLimit (New-TimeSpan -Minutes 15) -MultipleInstances IgnoreNew -Hidden
+Register-ScheduledTask -TaskName media-digest-build -Action $a -Trigger $t -Settings $s -Force
+```

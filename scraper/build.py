@@ -8,7 +8,7 @@ chat 会话只需把 route.json（含 meta.ids）写进 Drive shows/<slug>/；�
   py scraper/build.py               # 增量：只 fetch 还没有 shows/<slug>.json 的剧；全部 sync；有变更才 push
   py scraper/build.py --refresh     # 所有剧重新抓客观数据（评分会变，建议每周一次）
   py scraper/build.py --no-push     # 本地构建不推
-  py scraper/build.py --quiet       # 计划任务每 10 分钟调用：无变化不写日志
+  py scraper/build.py --quiet       # 计划任务每 1 分钟调用（pythonw，无窗口）：无变化不写日志
 
 route.json 里的 meta 块（新剧必填，老剧可省）：
   "meta": { "title": "Monster", "title_cn": "怪物", "year": 2004,
@@ -74,7 +74,7 @@ def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--refresh", action="store_true", help="所有剧重新抓客观数据")
     ap.add_argument("--no-push", action="store_true")
-    ap.add_argument("--quiet", action="store_true", help="每 10 分钟的静默巡检：没变化、没失败时不写 build.log，只更新 logs/last-run.txt")
+    ap.add_argument("--quiet", action="store_true", help="每分钟的静默巡检：没变化、没失败时不写 build.log，只更新 logs/last-run.txt")
     a = ap.parse_args()
     if a.quiet:  # 先缓冲日志，结束时决定要不要落盘
         global log
