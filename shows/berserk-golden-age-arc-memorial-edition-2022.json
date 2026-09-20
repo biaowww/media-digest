@@ -23,19 +23,27 @@
       "bangumi": "2026-09-20",
       "imdb": "2026-09-20",
       "tmdb": "2026-09-20",
-      "wiki": "2026-09-20"
+      "wiki": "2026-09-20",
+      "mal": "2026-09-20"
     }
   },
   "about": {
-    "cover": "https://image.tmdb.org/t/p/w500/7esafbDoMRZsVR7AHZYAMkrOnK7.jpg",
+    "cover": "https://cdn.myanimelist.net/images/anime/1607/127730.jpg",
     "backdrop": "https://image.tmdb.org/t/p/w500/d5KadFqzjnT4jkjxcdOkcvaCGLx.jpg",
     "synopsis": {
-      "en": "When lone swordsman Guts is defeated in a duel by Griffith, ambitious leader of the Band of the Hawk mercenaries, he now must fight for him. Distrustful of all at first, through hard-fought battles, he soon begins to bond with his new comrades and their leader. As they rise in rank to a full-fledged army, he begins to harbor doubts about a life lived by the blade, unaware a dreadful fate that awaits.",
+      "en": "Fleeing a traumatic childhood, lone mercenary Guts drifts from battle to battle, striking down powerful enemies with his unwieldy sword. After one skirmish, Guts clashes with the mystifying Griffith and his small army known as the Band of the Hawk. The victorious Griffith drafts Guts into his ranks, granting the swordsman a kinship unlike anything he has ever known.\n\r\n\n\r\nAlongside the skilled warrior Casca, Guts helps Griffith guide the band to fame and glory. But as he gains military prestige, Griffith becomes the target of assassination attempts and political schemes. He uses Guts to further his ambitious rise to power, taking advantage of the swordsman's lack of aspiration.\n\r\n\n\r\nEven as he grows closer to Casca, Guts' absence of direction robs him of any sense of belonging. Fostering opposing desires, Guts and Casca fight for Griffith's dream—although fractures forming among the trio threaten to disrupt their world.",
       "zh": "我一直只相信我的剑。没有朋友，没有家人，也没有家可归——格斯，一个孤独的剑客，在一片被百年战争震撼的土地上作为雇佣兵四处奔波。胆量能够驾驭比他身高还长的剑，并轻松击败强大的敌人。\r\n雇佣兵组织“鹰之团”的领导人格里菲斯盯上了他。格里菲斯有着从他美丽的外表和巨大的野心中无法想象的指挥能力，他在一次决斗中赢得了格斯，并把他带入了鹰之团，以实现自己的梦想。当他们一起经历无数次激烈的战斗时，他们的朋友因信任而结合在一起。格里菲斯和格斯之间的联系已经成为一种特殊的东西。\r\n鹰之队最终崛起，成为米德兰王国的正规军，但这只是格里菲斯实现登顶目标的第一步。与此同时，格斯被格里菲斯的”梦想“所吸引，并开始质疑自己仅仅挥舞剑的生活。但格斯还不知道，他们无尽的梦想给他们带来的可怕命运……"
     },
     "genres": [
+      "Action",
+      "Adventure",
       "Drama",
-      "Animation"
+      "Fantasy",
+      "Horror",
+      "Gore",
+      "Military",
+      "Psychological",
+      "Seinen"
     ],
     "studios": [
       "Studio 4°C"
@@ -43,7 +51,7 @@
     "scores": {
       "mal": {
         "score": 7.92,
-        "votes": 24502,
+        "votes": 24527,
         "rank": 878
       },
       "bangumi": {
@@ -73,35 +81,35 @@
         "role": "Main",
         "image": "https://cdn.myanimelist.net/images/characters/14/72697.jpg",
         "mal_id": 423,
-        "favorites": 4972
+        "favorites": 4970
       },
       {
         "name": "Griffith",
         "role": "Main",
         "image": "https://cdn.myanimelist.net/images/characters/9/326322.jpg",
         "mal_id": 424,
-        "favorites": 16365
+        "favorites": 16367
       },
       {
         "name": "Guts",
         "role": "Main",
         "image": "https://cdn.myanimelist.net/images/characters/13/284125.jpg",
         "mal_id": 422,
-        "favorites": 86455
+        "favorites": 86458
       },
       {
         "name": "The Skull Knight",
         "role": "Supporting",
         "image": "https://cdn.myanimelist.net/images/characters/8/535379.jpg",
         "mal_id": 7881,
-        "favorites": 2287
+        "favorites": 2290
       },
       {
         "name": "Puck",
         "role": "Supporting",
         "image": "https://cdn.myanimelist.net/images/characters/8/101984.jpg",
         "mal_id": 5060,
-        "favorites": 1953
+        "favorites": 1956
       },
       {
         "name": "Judeau",
@@ -115,21 +123,21 @@
         "role": "Supporting",
         "image": "https://cdn.myanimelist.net/images/characters/3/150707.jpg",
         "mal_id": 7857,
-        "favorites": 1167
+        "favorites": 1169
       },
       {
         "name": "Serpico",
         "role": "Supporting",
         "image": "https://cdn.myanimelist.net/images/characters/15/150923.jpg",
         "mal_id": 5059,
-        "favorites": 974
+        "favorites": 973
       },
       {
         "name": "Zodd Nosferatu",
         "role": "Supporting",
         "image": "https://cdn.myanimelist.net/images/characters/13/530030.jpg",
         "mal_id": 600,
-        "favorites": 428
+        "favorites": 431
       },
       {
         "name": "Donovan",
@@ -354,7 +362,7 @@
       "title_native": "黄金時代",
       "title_en": "The Golden Age",
       "title_cn": "黄金时代",
-      "aired": "2022-10-01",
+      "aired": "2022-10-02",
       "heat": {
         "mal_replies": 96,
         "bangumi_comments": 8,
@@ -445,7 +453,7 @@
       "title_native": "不死のゾッド",
       "title_en": "Nosferatu Zodd",
       "title_cn": "不死的索特",
-      "aired": "2022-10-08",
+      "aired": "2022-10-09",
       "heat": {
         "mal_replies": 95,
         "bangumi_comments": 14,
@@ -498,7 +506,7 @@
       "title_native": "剣の主",
       "title_en": "Master of the Sword",
       "title_cn": "剑之主人",
-      "aired": "2022-10-15",
+      "aired": "2022-10-16",
       "heat": {
         "mal_replies": 57,
         "bangumi_comments": 11,
@@ -574,7 +582,7 @@
       "title_native": "決死行",
       "title_en": "Prepared for Death",
       "title_cn": "敢死之行",
-      "aired": "2022-10-22",
+      "aired": "2022-10-23",
       "heat": {
         "mal_replies": 52,
         "bangumi_comments": 6,
@@ -627,7 +635,7 @@
       "title_native": "夢のかがり火",
       "title_en": "Campfire of Dreams",
       "title_cn": "梦之篝火",
-      "aired": "2022-10-29",
+      "aired": "2022-10-30",
       "heat": {
         "mal_replies": 38,
         "bangumi_comments": 8,
@@ -670,7 +678,7 @@
         "zh": null
       },
       "title_native": "ドルドレイ 攻略戦",
-      "title_en": "The Battle for Doldrey",
+      "title_en": "The Battle of Doldrey",
       "title_cn": "多尔多雷攻略战",
       "aired": "2022-11-05",
       "heat": {
@@ -860,7 +868,7 @@
       "title_native": "深淵の再会",
       "title_en": "Reunion in the Abyss",
       "title_cn": "深渊的重逢",
-      "aired": "2022-12-03",
+      "aired": "2022-12-04",
       "heat": {
         "mal_replies": 31,
         "bangumi_comments": 3,
@@ -911,9 +919,9 @@
         "zh": "当格里菲斯在绝望的希望和无望的绝望之间犹豫不决时，鹰之团被卷入了一个远远超出他们理解范围的事件。"
       },
       "title_native": "蝕",
-      "title_en": "The Eclipse",
+      "title_en": "Eclipse",
       "title_cn": "日蚀",
-      "aired": "2022-12-10",
+      "aired": "2022-12-11",
       "heat": {
         "mal_replies": 29,
         "bangumi_comments": 2,
@@ -984,7 +992,7 @@
       "title_native": "死の嵐",
       "title_en": "Storm of Death",
       "title_cn": "死亡风暴",
-      "aired": "2022-12-17",
+      "aired": "2022-12-18",
       "heat": {
         "mal_replies": 33,
         "bangumi_comments": 3,
@@ -1029,7 +1037,7 @@
       "title_native": "反撃の誓い",
       "title_en": "Vow of Retaliation",
       "title_cn": "反击的誓言",
-      "aired": "2022-12-24",
+      "aired": "2022-12-25",
       "heat": {
         "mal_replies": 54,
         "bangumi_comments": 7,
