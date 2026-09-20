@@ -6,7 +6,8 @@
       "mal": "33",
       "imdb": "tt0318871",
       "tmdb": "35935",
-      "wiki": "List of Berserk (1997 TV series) episodes"
+      "wiki": "List of Berserk (1997 TV series) episodes",
+      "bangumi": "696"
     },
     "title": "Berserk",
     "title_cn": "剑风传奇（1997 TV版）",
@@ -14,12 +15,23 @@
     "year": 1997,
     "total_eps": 25,
     "primary_kpi": "imdb",
-    "updated": "2026-09-20"
+    "updated": "2026-09-20",
+    "series": "berserk",
+    "series_title": "剑风传奇 Berserk",
+    "version_label": "1997 TV 版",
+    "fetched": {
+      "mal": "2026-09-20",
+      "bangumi": "2026-09-20",
+      "imdb": "2026-09-20",
+      "tmdb": "2026-09-20",
+      "wiki": "2026-09-20"
+    }
   },
   "about": {
     "cover": "https://cdn.myanimelist.net/images/anime/1384/119988.jpg",
     "synopsis": {
-      "en": "Guts, a man who will one day be known as the Black Swordsman, is a young traveling mercenary characterized by the large greatsword he carries. He accepts jobs that offer the most money, but he never stays with one group for long—until he encounters the Band of the Falcon. Ambushed after completing a job, Guts crushes many of its members in combat. Griffith, The Band of the Falcon's leader and founder, takes an interest in Guts and duels him. While the others are no match for Guts, Griffith defeats him in one blow.\n\r\n\n\r\nIncapacitated and taken into the Band of the Falcon's camp to recover, Guts wakes up two days later. He confronts Griffith, and the two duel yet again, only this time with a condition: Guts will join the Band of the Falcon if he loses. Due to his fresh injuries, Guts loses the fight and is inducted by Griffith.\n\r\n\n\r\nIn three years' time, Guts has become one of the Band of the Falcon's commanders. On the battlefield, his combat prowess is second only to Griffith as he takes on large groups of enemies all on his own. With Guts' immense strength and Griffith's leadership, the Band of the Falcon dominate every battle they partake in. But something menacing lurks in the shadows, threatening to change Guts' life forever."
+      "en": "Guts, a man who will one day be known as the Black Swordsman, is a young traveling mercenary characterized by the large greatsword he carries. He accepts jobs that offer the most money, but he never stays with one group for long—until he encounters the Band of the Falcon. Ambushed after completing a job, Guts crushes many of its members in combat. Griffith, The Band of the Falcon's leader and founder, takes an interest in Guts and duels him. While the others are no match for Guts, Griffith defeats him in one blow.\n\n\n\n\n\nIncapacitated and taken into the Band of the Falcon's camp to recover, Guts wakes up two days later. He confronts Griffith, and the two duel yet again, only this time with a condition: Guts will join the Band of the Falcon if he loses. Due to his fresh injuries, Guts loses the fight and is inducted by Griffith.\n\n\n\n\n\nIn three years' time, Guts has become one of the Band of the Falcon's commanders. On the battlefield, his combat prowess is second only to Griffith as he takes on large groups of enemies all on his own. With Guts' immense strength and Griffith's leadership, the Band of the Falcon dominate every battle they partake in. But something menacing lurks in the shadows, threatening to change Guts' life forever.",
+      "zh": "身の丈を超える長大な剣を自在に操り、「使徒」と呼ばれる人外の化け物を屠る「黒い剣士」ガッツを主人公とする大河ファンタジー。ガッツはある宿命に憑りつかれて狂戦士のごとく大剣を振るい、闇に蠢く化物と死闘を繰り広げる。その目的は無為に殺された仲間たちの復讐と大切なものを護るということ。二つの重荷を背負い、5人の守護天使ゴッドハンドを探し求めるガッツはその下に従う人外の存在「使徒」との闘いの中で、運命に翻弄されつつも必死にあがく。"
     },
     "genres": [
       "Action",
@@ -44,11 +56,23 @@
       "imdb": {
         "score": 8.8,
         "votes": 83050
+      },
+      "tmdb": {
+        "score": 8.509,
+        "votes": 853
+      },
+      "bangumi": {
+        "score": 8.1,
+        "votes": 3051,
+        "rank": 209
       }
     },
     "links": {
       "mal": "https://myanimelist.net/anime/33",
-      "imdb": "https://www.imdb.com/title/tt0318871/"
+      "imdb": "https://www.imdb.com/title/tt0318871/",
+      "tmdb": "https://www.themoviedb.org/tv/35935",
+      "wiki": "https://en.wikipedia.org/wiki/List_of_Berserk_(1997_TV_series)_episodes",
+      "bangumi": "https://bgm.tv/subject/696"
     },
     "characters": [
       {
@@ -212,6 +236,27 @@
         "mal_id": 73441,
         "favorites": 2
       }
+    ],
+    "backdrop": "https://image.tmdb.org/t/p/w500/99Y64VK0KwyRWfaW6VdpDfPKNMo.jpg",
+    "characters_bangumi": [
+      {
+        "name_native": "キャスカ",
+        "relation": "主角",
+        "image": "https://lain.bgm.tv/pic/crt/g/54/b2/2458_crt_anidb.jpg",
+        "bangumi_id": 2458
+      },
+      {
+        "name_native": "ガッツ",
+        "relation": "主角",
+        "image": "https://lain.bgm.tv/pic/crt/g/01/b9/18158_crt_8ZE4B.jpg",
+        "bangumi_id": 18158
+      },
+      {
+        "name_native": "グリフィス",
+        "relation": "主角",
+        "image": "https://lain.bgm.tv/pic/crt/g/cc/25/18159_crt_XPyMM.jpg?r=1724543399",
+        "bangumi_id": 18159
+      }
     ]
   },
   "intro": {
@@ -297,14 +342,29 @@
           "tconst": "tt1259420",
           "season": 1,
           "episode": 1
+        },
+        "tmdb": {
+          "vote_average": 7.417,
+          "vote_count": 24,
+          "still": "https://image.tmdb.org/t/p/w500/JipER8i9dTnlBR9dpkyOyyFN4K.jpg",
+          "season": 1,
+          "episode": 1
+        },
+        "bangumi": {
+          "comments": 14,
+          "url": "https://bgm.tv/ep/32367"
         }
       },
-      "synopsis": {},
+      "synopsis": {
+        "en": "A girl is being assaulted in a bar when Guts walks in. He kills all the assailants but one and orders him to tell his master, the Baron, that the Black Swordsman is coming. Guts later finds and kills the Baron, and removes a demonic relic called a Behelit from around his neck. Soon after, Guts remembers the events in his past of when he fought the knight Basuzo.",
+        "zh": "铁匠正在铸造一把巨大的剑，而在他的身后站着一个只手只眼穿着黑衣的人。"
+      },
       "title_native": "黒い剣士",
       "title_en": "The Black Swordsman",
       "aired": "1997-10-08",
       "heat": {
         "mal_replies": 144,
+        "bangumi_comments": 14,
         "imdb_votes": 2642
       },
       "notes": {
@@ -323,7 +383,8 @@
             "kind": "one-off"
           }
         ]
-      }
+      },
+      "title_cn": "黑色的剑士"
     },
     {
       "n": 2,
@@ -339,14 +400,29 @@
           "tconst": "tt1259424",
           "season": 1,
           "episode": 2
+        },
+        "tmdb": {
+          "vote_average": 7.3,
+          "vote_count": 22,
+          "still": "https://image.tmdb.org/t/p/w500/uSM9vD8Djt0w7RExvG5qRXvXHdM.jpg",
+          "season": 1,
+          "episode": 2
+        },
+        "bangumi": {
+          "comments": 15,
+          "url": "https://bgm.tv/ep/32368"
         }
       },
-      "synopsis": {},
+      "synopsis": {
+        "en": "In a flashback, Guts remembers when as a mercenary he killed the knight Basuzo. Later he encounters the group who would change his destiny: the Band of the Hawk. Corkus attempts to rob Guts and Griffith sends Casca to help him, but Guts defeats her. Guts then challenges Griffith, who grievously wounds him. Griffith orders Casca to lie with Guts during his convalescence. When Guts recovers days later, Griffith asks the swordsman to join his group but again he challenges Griffith to a sword fight.",
+        "zh": "堡垒中发生了一场大战。攻击进行的很顺利，除了一件事——一位全身灰色的骑士挡在路上，声称没有人能越过他。"
+      },
       "title_native": "鷹の団",
-      "title_en": "Band of the Hawk",
+      "title_en": "The Band of the Hawk",
       "aired": "1997-10-15",
       "heat": {
         "mal_replies": 80,
+        "bangumi_comments": 15,
         "imdb_votes": 2346
       },
       "notes": {
@@ -392,7 +468,8 @@
             "note": "被格斯斩杀的敌将"
           }
         ]
-      }
+      },
+      "title_cn": "鹰之团"
     },
     {
       "n": 3,
@@ -408,20 +485,36 @@
           "tconst": "tt1259427",
           "season": 1,
           "episode": 3
+        },
+        "tmdb": {
+          "vote_average": 7.4,
+          "vote_count": 19,
+          "still": "https://image.tmdb.org/t/p/w500/nTvlyATR6MFZjx4a77rjQqt98xJ.jpg",
+          "season": 1,
+          "episode": 3
+        },
+        "bangumi": {
+          "comments": 14,
+          "url": "https://bgm.tv/ep/32369"
         }
       },
-      "synopsis": {},
+      "synopsis": {
+        "en": "Griffith defeats Guts, and makes him a member of the Band of the Hawk – an alliance between the philosopher and the berserker. The Hawks go on a midnight raid and Griffith chooses Guts for the most important position of rear guard; Guts succeeds and the band hails him as a hero.",
+        "zh": "格斯与格里菲斯展开了剑斗。"
+      },
       "title_native": "初陣",
       "title_en": "First Battle",
       "aired": "1997-10-22",
       "heat": {
         "mal_replies": 90,
+        "bangumi_comments": 14,
         "imdb_votes": 2207
       },
       "notes": {
         "title_cn": "初阵",
         "summary": "格里菲斯击败格斯，把他收入鹰之团——哲人与狂战士的结盟就此成立。夜袭作战中，格里菲斯把最吃重的殿后位置交给新人格斯，格斯完成任务，全团把他当英雄迎回。"
-      }
+      },
+      "title_cn": "初阵"
     },
     {
       "n": 4,
@@ -437,14 +530,29 @@
           "tconst": "tt1259414",
           "season": 1,
           "episode": 4
+        },
+        "tmdb": {
+          "vote_average": 7.389,
+          "vote_count": 18,
+          "still": "https://image.tmdb.org/t/p/w500/4HTaf3r2wEds9PqU8hjjgJkVXvy.jpg",
+          "season": 1,
+          "episode": 4
+        },
+        "bangumi": {
+          "comments": 8,
+          "url": "https://bgm.tv/ep/32370"
         }
       },
-      "synopsis": {},
+      "synopsis": {
+        "en": "Guts settles in with the Band of the Hawk, and Griffith shows him his Behelit. Guts remembers his childhood, being raised by his adoptive father and mentor Gambino. The young Guts was forced to kill Gambino when he tried to kill the boy he blamed for his wife's death. Three years pass and the Band of the Hawk grow in power and numbers.",
+        "zh": "格斯回忆起了他的童年。"
+      },
       "title_native": "神の手",
       "title_en": "The Hand of God",
       "aired": "1997-10-29",
       "heat": {
         "mal_replies": 66,
+        "bangumi_comments": 8,
         "imdb_votes": 2080
       },
       "notes": {
@@ -458,7 +566,8 @@
             "note": "格斯的养父，回忆出场"
           }
         ]
-      }
+      },
+      "title_cn": "神之手"
     },
     {
       "n": 5,
@@ -474,20 +583,36 @@
           "tconst": "tt1259416",
           "season": 1,
           "episode": 5
+        },
+        "tmdb": {
+          "vote_average": 7.235,
+          "vote_count": 17,
+          "still": "https://image.tmdb.org/t/p/w500/yEGyNgVeidjljIlFsBRMo47mTDa.jpg",
+          "season": 1,
+          "episode": 5
+        },
+        "bangumi": {
+          "comments": 6,
+          "url": "https://bgm.tv/ep/32371"
         }
       },
-      "synopsis": {},
+      "synopsis": {
+        "en": "Guts is now a commander in Griffith's army. Guts is taking risks in battle, and although he succeeds, Casca takes him to task for it. Eventually, Griffith is knighted as a viscount in the Midland court to the nobles' dismay. Guts saves the Hawks in battle, to Casca's chagrin.",
+        "zh": "格斯现在是格里菲斯麾下的冲锋队长，在战斗中总是冲在最前，卡斯嘉指责他冲锋在前不顾队友。格里菲斯在米特兰宫廷被封为爵士，这让贵族们非常沮丧。"
+      },
       "title_native": "剣風",
       "title_en": "A Wind of Swords",
       "aired": "1997-11-05",
       "heat": {
         "mal_replies": 52,
+        "bangumi_comments": 6,
         "imdb_votes": 1993
       },
       "notes": {
         "title_cn": "剑风",
         "summary": "格斯已是鹰之团的指挥官之一，作战方式冒进，虽屡屡奏效却被卡思嘉当面指责。格里菲斯在米德兰宫廷受封子爵，贵族们大为不满。战场上格斯再次救下陷入险境的鹰之团，卡思嘉心情更加复杂。"
-      }
+      },
+      "title_cn": "剑风"
     },
     {
       "n": 6,
@@ -503,14 +628,29 @@
           "tconst": "tt1259409",
           "season": 1,
           "episode": 6
+        },
+        "tmdb": {
+          "vote_average": 7.706,
+          "vote_count": 17,
+          "still": "https://image.tmdb.org/t/p/w500/1uyTTP9YdEW2PBIvFaGg8plnxzz.jpg",
+          "season": 1,
+          "episode": 6
+        },
+        "bangumi": {
+          "comments": 8,
+          "url": "https://bgm.tv/ep/32372"
         }
       },
-      "synopsis": {},
+      "synopsis": {
+        "en": "Guts leads his men to raid a castle under Tudor occupation, but his men are wiped out by Nosferatu Zodd the Immortal, a fearsome giant monstrous warrior. Guts enters the castle keep and engages Zodd in battle. When Guts manages to stab him, Zodd transforms into his 300-year-old demon form. Zodd nearly kills Guts before Griffith and a group of Hawks comes to his aid, but they are ineffective. When Zodd is about to kill Griffith he sees the Behelit and ceases his attack. He then sprouts wings and flies off, telling Guts that should Griffith's dream die, it will be his doom.",
+        "zh": "在一场突袭中，格斯与格里菲斯偶遇了一个名为不死者佐德的怪物。"
+      },
       "title_native": "不死のゾッド",
       "title_en": "Zodd the Immortal",
       "aired": "1997-11-12",
       "heat": {
         "mal_replies": 81,
+        "bangumi_comments": 8,
         "imdb_votes": 2336
       },
       "notes": {
@@ -524,7 +664,8 @@
             "note": "使徒级怪物剑士"
           }
         ]
-      }
+      },
+      "title_cn": "不死的佐德"
     },
     {
       "n": 7,
@@ -540,14 +681,29 @@
           "tconst": "tt1259426",
           "season": 1,
           "episode": 7
+        },
+        "tmdb": {
+          "vote_average": 6.647,
+          "vote_count": 17,
+          "still": "https://image.tmdb.org/t/p/w500/2IWWq9KaMkaxo9Cdf4tdnJqeMDZ.jpg",
+          "season": 1,
+          "episode": 7
+        },
+        "bangumi": {
+          "comments": 7,
+          "url": "https://bgm.tv/ep/32373"
         }
       },
-      "synopsis": {},
+      "synopsis": {
+        "en": "Though he and Guts are still injured from their encounter with Nosferatu Zodd, Griffith uses it to get closer to the King and his daughter Charlotte. Guts and some of the Hawks feel that Griffith is pulling away from them.",
+        "zh": "米特兰的夏洛特公主与格里菲斯建立起了友谊。"
+      },
       "title_native": "剣の主",
       "title_en": "The Sword's Owner",
       "aired": "1997-11-19",
       "heat": {
         "mal_replies": 72,
+        "bangumi_comments": 7,
         "imdb_votes": 1926
       },
       "notes": {
@@ -566,7 +722,8 @@
             "kind": "arc"
           }
         ]
-      }
+      },
+      "title_cn": "剑的主人"
     },
     {
       "n": 8,
@@ -582,14 +739,29 @@
           "tconst": "tt1259413",
           "season": 1,
           "episode": 8
+        },
+        "tmdb": {
+          "vote_average": 6.765,
+          "vote_count": 17,
+          "still": "https://image.tmdb.org/t/p/w500/hLM8JSh7D6Y59OncA57dhSCAQbV.jpg",
+          "season": 1,
+          "episode": 8
+        },
+        "bangumi": {
+          "comments": 10,
+          "url": "https://bgm.tv/ep/32374"
         }
       },
-      "synopsis": {},
+      "synopsis": {
+        "en": "Griffith and Guts continue to have success in battle and Griffith is made a count. The king's brother, General Julius, is furious about this as he and Minister Foss plot Griffith's murder with a poison arrow during an upcoming hunt.",
+        "zh": "格斯和格里菲斯继续在战斗中取胜，格里菲斯被米特兰封为伯爵。"
+      },
       "title_native": "陰謀",
       "title_en": "Conspiracy",
       "aired": "1997-11-26",
       "heat": {
         "mal_replies": 51,
+        "bangumi_comments": 10,
         "imdb_votes": 1867
       },
       "notes": {
@@ -609,7 +781,8 @@
             "note": "宫廷权臣"
           }
         ]
-      }
+      },
+      "title_cn": "阴谋"
     },
     {
       "n": 9,
@@ -625,20 +798,36 @@
           "tconst": "tt1259406",
           "season": 1,
           "episode": 9
+        },
+        "tmdb": {
+          "vote_average": 7.375,
+          "vote_count": 16,
+          "still": "https://image.tmdb.org/t/p/w500/2HYmXxFI8lm9hhkc5cwLxGNFbtn.jpg",
+          "season": 1,
+          "episode": 9
+        },
+        "bangumi": {
+          "comments": 11,
+          "url": "https://bgm.tv/ep/32375"
         }
       },
-      "synopsis": {},
+      "synopsis": {
+        "en": "During the hunt, Griffith and Charlotte grow close before the former is shot in the chest with a poisoned arrow. Luckily, Griffith's Behelit takes the arrow and he survives unscathed. Griffith deduces Julius to be the culprit and recruits Guts to secretly kill the noble.",
+        "zh": "格里菲斯在一次猎狐中救了夏洛特，因为她的马受惊逃跑。而国王的弟弟尤里乌斯试图刺杀格里菲斯。"
+      },
       "title_native": "暗殺",
       "title_en": "Assassination",
       "aired": "1997-12-03",
       "heat": {
         "mal_replies": 71,
+        "bangumi_comments": 11,
         "imdb_votes": 1872
       },
       "notes": {
         "title_cn": "暗杀",
         "summary": "狩猎途中格里菲斯与夏洛特愈发亲近，随即胸口中了一支毒箭——箭正好射在贝黑莉特上，他毫发无伤。格里菲斯推断幕后是尤利乌斯，把秘密除掉他的任务交给格斯。"
-      }
+      },
+      "title_cn": "暗杀"
     },
     {
       "n": 10,
@@ -654,14 +843,29 @@
           "tconst": "tt1259425",
           "season": 1,
           "episode": 10
+        },
+        "tmdb": {
+          "vote_average": 8.188,
+          "vote_count": 16,
+          "still": "https://image.tmdb.org/t/p/w500/rsUDENEK3JkbfONXVLNw6PxAhmv.jpg",
+          "season": 1,
+          "episode": 10
+        },
+        "bangumi": {
+          "comments": 35,
+          "url": "https://bgm.tv/ep/32376"
         }
       },
-      "synopsis": {},
+      "synopsis": {
+        "en": "Guts assassinates Julius, but is emotionally scarred when forced to kill Julius' son Adonis to conceal the deed. Later, he hears Griffith tell Charlotte that he would consider a true friend to be his equal, someone with his own dreams and who follows his own path. Guts realises that although he is close to Griffith, he is not his friend.",
+        "zh": "格里菲斯派格斯刺杀尤利乌斯，格斯在刺杀中错杀了尤利乌斯的儿子阿多尼斯。格里菲斯与夏洛特公主的关系越来越好。鹰之团受命去执行另一个任务。"
+      },
       "title_native": "貴きもの",
       "title_en": "Noble Man",
       "aired": "1997-12-10",
       "heat": {
         "mal_replies": 113,
+        "bangumi_comments": 35,
         "imdb_votes": 2388
       },
       "notes": {
@@ -675,7 +879,8 @@
             "note": "尤利乌斯之子"
           }
         ]
-      }
+      },
+      "title_cn": "珍贵之物"
     },
     {
       "n": 11,
@@ -691,14 +896,29 @@
           "tconst": "tt1259415",
           "season": 1,
           "episode": 11
+        },
+        "tmdb": {
+          "vote_average": 7.375,
+          "vote_count": 16,
+          "still": "https://image.tmdb.org/t/p/w500/st5gm8c2jeFazZ6mYsRsqKbJk8Y.jpg",
+          "season": 1,
+          "episode": 11
+        },
+        "bangumi": {
+          "comments": 11,
+          "url": "https://bgm.tv/ep/32377"
         }
       },
-      "synopsis": {},
+      "synopsis": {
+        "en": "Griffith and the Hawks lead the march into battle against the Blue Whale Knights. Casca has a fever, and after fighting with Adon Coborlwitz she falls unconscious off a cliff, Guts goes after her. They are washed downriver, and Guts finds a cave where he must keep Casca warm with his body.",
+        "zh": "在一场暴风雨般的战斗中，格里菲斯的副手卡斯卡在与敌军领导人作战时受伤。格斯赶去救她，但当她在悬崖边昏倒时，格斯没能及时抓住她，两人掉进了悬崖下的河里。"
+      },
       "title_native": "合戦",
       "title_en": "The Battle",
       "aired": "1997-12-17",
       "heat": {
         "mal_replies": 60,
+        "bangumi_comments": 11,
         "imdb_votes": 1879
       },
       "notes": {
@@ -712,7 +932,8 @@
             "note": "都铎蓝鲸重装骑兵团指挥"
           }
         ]
-      }
+      },
+      "title_cn": "合战"
     },
     {
       "n": 12,
@@ -728,14 +949,29 @@
           "tconst": "tt1259410",
           "season": 1,
           "episode": 12
+        },
+        "tmdb": {
+          "vote_average": 6.667,
+          "vote_count": 18,
+          "still": "https://image.tmdb.org/t/p/w500/6pXyf6EMB1NBk9TTOpZJjQToSWe.jpg",
+          "season": 1,
+          "episode": 12
+        },
+        "bangumi": {
+          "comments": 18,
+          "url": "https://bgm.tv/ep/32378"
         }
       },
-      "synopsis": {},
+      "synopsis": {
+        "en": "Guts tends to Casca but she still resents him. She tells her story of how Griffith helped her save herself from being raped, and give her a choice in life so she followed him. She watched him pragmatically go with a pederast lord to earn money to create his army and fulfill his dream. When Guts came, she knew that she would not be Griffith's chosen friend.",
+        "zh": "卡斯嘉仍然没有醒来，当大雨倾盆而下的时候，格斯将她移进山洞里，她醒来后告诉了格斯她与格里菲斯的过去。"
+      },
       "title_native": "ふたり",
       "title_en": "Together",
       "aired": "1997-12-24",
       "heat": {
         "mal_replies": 92,
+        "bangumi_comments": 18,
         "imdb_votes": 2006
       },
       "notes": {
@@ -749,7 +985,8 @@
             "note": "都铎贵族，与格里菲斯的过往在本集被提及"
           }
         ]
-      }
+      },
+      "title_cn": "二人"
     },
     {
       "n": 13,
@@ -765,20 +1002,36 @@
           "tconst": "tt1259418",
           "season": 1,
           "episode": 13
+        },
+        "tmdb": {
+          "vote_average": 7.9,
+          "vote_count": 17,
+          "still": "https://image.tmdb.org/t/p/w500/qGR0kRofRRp6ad064A3ilbT1tSG.jpg",
+          "season": 1,
+          "episode": 13
+        },
+        "bangumi": {
+          "comments": 7,
+          "url": "https://bgm.tv/ep/32379"
         }
       },
-      "synopsis": {},
+      "synopsis": {
+        "en": "Adon Coborlwitz and his Blue Whale Knights find Guts and Casca. Though completely outnumbered, Guts tells Casca to run and stays to fight. Some men go after Casca, catching her and holding her down in order to rape her. Guts continues fighting.",
+        "zh": "格斯和卡斯嘉试图在追击他们的敌军中杀出一条回归鹰之团的路。"
+      },
       "title_native": "決死行",
       "title_en": "Prepared for Death",
       "aired": "1998-01-07",
       "heat": {
         "mal_replies": 55,
+        "bangumi_comments": 7,
         "imdb_votes": 1976
       },
       "notes": {
         "title_cn": "决死行",
         "summary": "阿顿与蓝鲸骑士团追到两人藏身处。格斯让卡思嘉先走，自己留下断后，以一敌众。部分追兵追上卡思嘉并将她按倒意图施暴，另一边格斯仍在苦战。"
-      }
+      },
+      "title_cn": "决死行"
     },
     {
       "n": 14,
@@ -794,14 +1047,29 @@
           "tconst": "tt1259429",
           "season": 1,
           "episode": 14
+        },
+        "tmdb": {
+          "vote_average": 7.75,
+          "vote_count": 16,
+          "still": "https://image.tmdb.org/t/p/w500/2fa0unUDAwW22zj6qGMOxE8WK3A.jpg",
+          "season": 1,
+          "episode": 14
+        },
+        "bangumi": {
+          "comments": 11,
+          "url": "https://bgm.tv/ep/32380"
         }
       },
-      "synopsis": {},
+      "synopsis": {
+        "en": "Guts eventually slays 100 men, including Adon's younger brother, Samson. Casca defeats her attackers too, and she and Guts end up back at the camp. Guts and Casca share a tender moment, where Guts explains that everyone in the camp has a dream but all he has is his sword, causing Casca to think he's leaving.",
+        "zh": "卡斯嘉找到了捷德率领的鹰之团，并带领他们回到格斯独自战斗的地方。尽管格斯受了伤，他还是一人杀尽了敌军士兵。当他们回到鹰之团的驻地之后，卡斯嘉帮格斯处理了伤口。"
+      },
       "title_native": "夢のかがり火",
       "title_en": "Bonfire of Dreams",
       "aired": "1998-01-14",
       "heat": {
         "mal_replies": 67,
+        "bangumi_comments": 11,
         "imdb_votes": 1996
       },
       "notes": {
@@ -815,7 +1083,8 @@
             "note": "阿顿之弟"
           }
         ]
-      }
+      },
+      "title_cn": "梦的篝火"
     },
     {
       "n": 15,
@@ -831,20 +1100,36 @@
           "tconst": "tt1259417",
           "season": 1,
           "episode": 15
+        },
+        "tmdb": {
+          "vote_average": 7.333,
+          "vote_count": 15,
+          "still": "https://image.tmdb.org/t/p/w500/hNy4a0JRShBcOlADShSw5c9SghD.jpg",
+          "season": 1,
+          "episode": 15
+        },
+        "bangumi": {
+          "comments": 8,
+          "url": "https://bgm.tv/ep/32381"
         }
       },
-      "synopsis": {},
+      "synopsis": {
+        "en": "Griffith volunteers the Hawks to reclaim the impregnable Fortress of Doldrey from a Tudor governor named Gannon and the Purple Rhino Knights in his service. Guts learns that Griffith's unsavory history was with Gannon when he was a noble. The Hawks begin their assault before pulling back. Their boats are burned and there is nowhere to retreat to as the Tudor army leaves the fortress in pursuit.",
+        "zh": "米特兰国王和他的将军们讨论了多尔多雷城堡，该城堡早已被楚丹帝国占领。格里菲斯计划发动袭击，尽管其他军官提出抗议，国王还是同意了格里菲斯的提议。只有一位将军支持格里菲斯的行动。鹰之团开始进攻多尔多雷。"
+      },
       "title_native": "決戦",
       "title_en": "The Decisive Battle",
       "aired": "1998-01-21",
       "heat": {
         "mal_replies": 35,
+        "bangumi_comments": 8,
         "imdb_votes": 1792
       },
       "notes": {
         "title_cn": "决战",
         "summary": "格里菲斯主动请缨，率鹰之团夺回被视为不可攻陷的多尔多雷要塞（Doldrey），守方是都铎总督加侬（Gennon）与其麾下紫犀骑士团。格斯得知格里菲斯当年与加侬之间那段不堪的往事。鹰之团先攻后撤，自烧战船断掉退路，都铎大军追出要塞。"
-      }
+      },
+      "title_cn": "决战"
     },
     {
       "n": 16,
@@ -860,14 +1145,29 @@
           "tconst": "tt1259423",
           "season": 1,
           "episode": 16
+        },
+        "tmdb": {
+          "vote_average": 7.667,
+          "vote_count": 15,
+          "still": "https://image.tmdb.org/t/p/w500/jeHhwR6c3Ka8hrvNN7ExqW7JVWc.jpg",
+          "season": 1,
+          "episode": 16
+        },
+        "bangumi": {
+          "comments": 8,
+          "url": "https://bgm.tv/ep/32382"
         }
       },
-      "synopsis": {},
+      "synopsis": {
+        "en": "The retreat was a ruse and Casca takes the fortress, defeating Adon and the few remaining guards. Guts fights with the Rhino Knights' command Boscogn before his sword breaks, only to gain a sword that was provided by Zodd from a great distance. Guts uses the sword to kill Boscogn while Griffith kills a wounded Gannon to assure the Hawks' victory.",
+        "zh": "在佐德的帮助下，格斯击破了多尔多雷的守卫。"
+      },
       "title_native": "勝利者",
       "title_en": "The Conqueror",
       "aired": "1998-01-28",
       "heat": {
         "mal_replies": 63,
+        "bangumi_comments": 8,
         "imdb_votes": 1872
       },
       "notes": {
@@ -881,7 +1181,8 @@
             "note": "都铎紫犀骑士团统领"
           }
         ]
-      }
+      },
+      "title_cn": "胜利者"
     },
     {
       "n": 17,
@@ -897,14 +1198,29 @@
           "tconst": "tt1259408",
           "season": 1,
           "episode": 17
+        },
+        "tmdb": {
+          "vote_average": 7.6,
+          "vote_count": 15,
+          "still": "https://image.tmdb.org/t/p/w500/c8DI9zLC598ZcpmovPeKd8UplYz.jpg",
+          "season": 1,
+          "episode": 17
+        },
+        "bangumi": {
+          "comments": 6,
+          "url": "https://bgm.tv/ep/32383"
         }
       },
-      "synopsis": {},
+      "synopsis": {
+        "en": "The Hawks' reclaiming of Doldrey marks the end of the Hundred-Year War between Midland and Tudor. The King holds a ball for the mercenaries in their honor. The Queen, Charlotte's stepmother and Julius's secret lover, hatches a scheme with Foss to poison Griffith during the banquet. However, before the event, Foss receives a disturbing letter. During the toast, Griffith falls to the floor.",
+        "zh": "随着在多尔多雷的胜利，格里菲斯升为白凤将军。米特兰皇后和其他宫廷同谋试图毒死格里菲斯。"
+      },
       "title_native": "栄光の瞬間",
       "title_en": "Moment of Glory",
       "aired": "1998-02-04",
       "heat": {
         "mal_replies": 65,
+        "bangumi_comments": 6,
         "imdb_votes": 1828
       },
       "notes": {
@@ -918,7 +1234,8 @@
             "note": "夏洛特的继母"
           }
         ]
-      }
+      },
+      "title_cn": "荣光的瞬间"
     },
     {
       "n": 18,
@@ -934,20 +1251,36 @@
           "tconst": "tt1259412",
           "season": 1,
           "episode": 18
+        },
+        "tmdb": {
+          "vote_average": 7.25,
+          "vote_count": 16,
+          "still": "https://image.tmdb.org/t/p/w500/k1N2vQQQYNvnM6nf0i3qpcmLxuc.jpg",
+          "season": 1,
+          "episode": 18
+        },
+        "bangumi": {
+          "comments": 11,
+          "url": "https://bgm.tv/ep/32384"
         }
       },
-      "synopsis": {},
+      "synopsis": {
+        "en": "The Queen and the conspirators believe they succeeded in poisoning Griffith and that he is dead. However, while they are celebrating, their room is locked and the tower is engulfed in flames. Griffith is still alive and watches them burn, having forced Foss to aid him by kidnapping his daughter. Griffith has again used Guts to remove his competition. Guts decides to leave and tells a pleading Casca that he does not want to be caught up in Griffith's dream anymore.",
+        "zh": "格里菲斯为了复仇烧毁了皇后的城堡。"
+      },
       "title_native": "炎の墓標",
       "title_en": "Tombstone of Flames",
       "aired": "1998-02-11",
       "heat": {
         "mal_replies": 53,
+        "bangumi_comments": 11,
         "imdb_votes": 1855
       },
       "notes": {
         "title_cn": "炎之墓标",
         "summary": "阴谋者确信格里菲斯已死，正在庆祝时房门被反锁，整座塔被火吞没。格里菲斯安然无恙地看着他们烧死——他早已绑架佛斯的女儿，逼他倒戈。格斯意识到自己又一次被当成清理对手的工具，决定离团，并对挽留的卡思嘉说：他不想再被卷进格里菲斯的梦里。"
-      }
+      },
+      "title_cn": "火之墓"
     },
     {
       "n": 19,
@@ -963,20 +1296,36 @@
           "tconst": "tt1259428",
           "season": 1,
           "episode": 19
+        },
+        "tmdb": {
+          "vote_average": 8.0,
+          "vote_count": 19,
+          "still": "https://image.tmdb.org/t/p/w500/9Sieexs8d7yKovDsI8jJdOA5fRB.jpg",
+          "season": 1,
+          "episode": 19
+        },
+        "bangumi": {
+          "comments": 17,
+          "url": "https://bgm.tv/ep/32385"
         }
       },
-      "synopsis": {},
+      "synopsis": {
+        "en": "As Guts leaves, he is challenged by Griffith and manages to defeat him and earn his freedom. However, Guts' departure affects Griffith psychologically and he spends a night of passion with Charlotte in a lapse of judgement. When Griffith leaves the next morning, he is apprehended and arrested by the guards.",
+        "zh": "格里菲斯不会让格斯简单地离开，他说格斯是属于他的。"
+      },
       "title_native": "別れ",
       "title_en": "Separation",
       "aired": "1998-02-18",
       "heat": {
         "mal_replies": 118,
+        "bangumi_comments": 17,
         "imdb_votes": 2342
       },
       "notes": {
         "title_cn": "别离",
         "summary": "格斯离开时被格里菲斯拦下，两人以剑决胜负，格斯胜出，换得自由离去。格斯的离开击溃了格里菲斯的心防：当夜他与夏洛特共度一晚，翌日清晨走出寝宫时被卫兵当场逮捕。"
-      }
+      },
+      "title_cn": "别离"
     },
     {
       "n": 20,
@@ -992,14 +1341,29 @@
           "tconst": "tt1259411",
           "season": 1,
           "episode": 20
+        },
+        "tmdb": {
+          "vote_average": 6.941,
+          "vote_count": 17,
+          "still": "https://image.tmdb.org/t/p/w500/qF7kpIdGeIdfz3nQxvQD9h5mL3X.jpg",
+          "season": 1,
+          "episode": 20
+        },
+        "bangumi": {
+          "comments": 6,
+          "url": "https://bgm.tv/ep/32386"
         }
       },
-      "synopsis": {},
+      "synopsis": {
+        "en": "A year has passed and Guts is living with Godot, a swordsmith, and his granddaughter Erica. Guts learns that the Band of the Hawk are now wanted outlaws and Casca is their captain. Guts goes to them and finds them battling foreign mercenaries.",
+        "zh": "格斯来到了铸剑工匠的家，在那里呆了一段时间，工匠为他制作了一把新剑。格斯在工匠小女儿的帮助下练习了更多的剑术。"
+      },
       "title_native": "火花",
       "title_en": "Sparks",
       "aired": "1998-02-25",
       "heat": {
         "mal_replies": 54,
+        "bangumi_comments": 6,
         "imdb_votes": 1812
       },
       "notes": {
@@ -1019,7 +1383,8 @@
             "note": "戈多的孙女"
           }
         ]
-      }
+      },
+      "title_cn": "火花"
     },
     {
       "n": 21,
@@ -1035,20 +1400,36 @@
           "tconst": "tt1259419",
           "season": 1,
           "episode": 21
+        },
+        "tmdb": {
+          "vote_average": 7.938,
+          "vote_count": 16,
+          "still": "https://image.tmdb.org/t/p/w500/7RAcVyitrG8iC3yfchfkG14KqVY.jpg",
+          "season": 1,
+          "episode": 21
+        },
+        "bangumi": {
+          "comments": 16,
+          "url": "https://bgm.tv/ep/32387"
         }
       },
-      "synopsis": {},
+      "synopsis": {
+        "en": "Guts helps the Hawks drive off the mercenaries. Casca has a plan to rescue Griffith from the Tower of Rebirth in the Wyndham Castle where he is being held. Casca blames Guts for Griffith's problems, but realizes it is not his fault. They make love and Guts asks her to go away with him after the rescue.",
+        "zh": "格斯及时返回，将残余的鹰之团从毁灭中救了出来。"
+      },
       "title_native": "告白",
       "title_en": "Confession",
       "aired": "1998-03-04",
       "heat": {
         "mal_replies": 98,
+        "bangumi_comments": 16,
         "imdb_votes": 1946
       },
       "notes": {
         "title_cn": "告白",
         "summary": "格斯帮鹰之团击退佣兵。卡思嘉已经定下营救计划：格里菲斯被关在温德姆城（Wyndham）的再生之塔（Tower of Rebirth）。她先是把格里菲斯的处境迁怒于格斯，随后承认那不是他的错。两人结合，格斯约她救出格里菲斯之后一起离开。"
-      }
+      },
+      "title_cn": "告白"
     },
     {
       "n": 22,
@@ -1064,14 +1445,29 @@
           "tconst": "tt1259421",
           "season": 1,
           "episode": 22
+        },
+        "tmdb": {
+          "vote_average": 8.1,
+          "vote_count": 16,
+          "still": "https://image.tmdb.org/t/p/w500/AgWcZIZ3tptq6KqDHTJ5YvQWSmi.jpg",
+          "season": 1,
+          "episode": 22
+        },
+        "bangumi": {
+          "comments": 11,
+          "url": "https://bgm.tv/ep/32388"
         }
       },
-      "synopsis": {},
+      "synopsis": {
+        "en": "Casca and Guts go into the dungeon under the Tower of Rebirth to rescue Griffith, finding him mute, crippled and horribly disfigured from a year of seemingly endless torture. Meanwhile, the members of the Hawk are slaughtered at their camp by monsters led by a green fairy.",
+        "zh": "在格斯的帮助下，卡斯嘉和鹰之团众人希望救援格里菲斯。"
+      },
       "title_native": "潜入",
       "title_en": "Infiltration",
       "aired": "1998-03-11",
       "heat": {
         "mal_replies": 89,
+        "bangumi_comments": 11,
         "imdb_votes": 2183
       },
       "notes": {
@@ -1085,7 +1481,8 @@
             "note": "97 版原创，替代原作中的黑犬骑士团桥段"
           }
         ]
-      }
+      },
+      "title_cn": "潜入"
     },
     {
       "n": 23,
@@ -1101,20 +1498,36 @@
           "tconst": "tt1259430",
           "season": 1,
           "episode": 23
+        },
+        "tmdb": {
+          "vote_average": 7.4,
+          "vote_count": 17,
+          "still": "https://image.tmdb.org/t/p/w500/mXkJMa2knVF8x5JgKkWjyZ9oQ56.jpg",
+          "season": 1,
+          "episode": 23
+        },
+        "bangumi": {
+          "comments": 10,
+          "url": "https://bgm.tv/ep/32389"
         }
       },
-      "synopsis": {},
+      "synopsis": {
+        "en": "Back at the camp, everyone is forlorn because of Griffith's terrible condition. The Raiders ask Guts to take them along with him. Casca feels she must take care of Griffith, and tells Guts to leave. Delirious and horrified at what he has been reduced to, Griffith takes off in a wagon and crashes into the river. He finds his Behelit and unintentionally activates it, taking everyone present to the Astral Realm.",
+        "zh": "脱离了国王追击的军队，剩下的几个鹰之团队长在思考自己的未来。格斯安慰卡斯嘉，卡斯嘉对格里菲斯的情况感到沮丧。格里菲斯开始做梦。"
+      },
       "title_native": "前夜祭",
       "title_en": "Eve of the Feast",
       "aired": "1998-03-18",
       "heat": {
         "mal_replies": 86,
+        "bangumi_comments": 10,
         "imdb_votes": 2304
       },
       "notes": {
         "title_cn": "前夜祭",
         "summary": "营地因格里菲斯的惨状陷入沉默。突击队的人请求跟着格斯走；卡思嘉决定留下照顾格里菲斯，让格斯离开。神志崩溃的格里菲斯独自驾着马车冲出营地，翻落河中，在那里找到了失落的贝黑莉特，并在无意中启动了它——在场所有人被拖入异界。"
-      }
+      },
+      "title_cn": "前夜祭"
     },
     {
       "n": 24,
@@ -1130,14 +1543,29 @@
           "tconst": "tt1259422",
           "season": 1,
           "episode": 24
+        },
+        "tmdb": {
+          "vote_average": 7.0,
+          "vote_count": 19,
+          "still": "https://image.tmdb.org/t/p/w500/p3mCurkozZX8OV5Nt3EAZHgkSbZ.jpg",
+          "season": 1,
+          "episode": 24
+        },
+        "bangumi": {
+          "comments": 5,
+          "url": "https://bgm.tv/ep/32390"
         }
       },
-      "synopsis": {},
+      "synopsis": {
+        "en": "The four archdemons of the God Hand awake and inform Griffith that he has been chosen to be their final member. For his baptism, Griffith must offer his friends as a sacrifice to the God Hand's Apostles. Griffith is shown visions of his past to convince him that the lives of his men are trivial in regard to the fulfillment of his dream. Guts climbs a mountain of flesh to try and stop Griffith from becoming a demon, but Griffith accepts the God Hand's offer. The entire Band of Hawk are branded as sacrificial offerings for the unborn child of darkness, Griffith.",
+        "zh": "格里菲斯从小就被恶魔的承诺和梦想所诱惑，他同意实现自己的命运，成为神之手。"
+      },
       "title_native": "蝕",
-      "title_en": "The Eclipse",
+      "title_en": "The Great Eclipse",
       "aired": "1998-03-25",
       "heat": {
         "mal_replies": 80,
+        "bangumi_comments": 5,
         "imdb_votes": 2747
       },
       "notes": {
@@ -1169,7 +1597,8 @@
             "note": "神之手"
           }
         ]
-      }
+      },
+      "title_cn": "蚀"
     },
     {
       "n": 25,
@@ -1185,14 +1614,29 @@
           "tconst": "tt1259407",
           "season": 1,
           "episode": 25
+        },
+        "tmdb": {
+          "vote_average": 7.286,
+          "vote_count": 21,
+          "still": "https://image.tmdb.org/t/p/w500/rQ4SweKcC3tf1nfJeaw17phlQsa.jpg",
+          "season": 1,
+          "episode": 25
+        },
+        "bangumi": {
+          "comments": 18,
+          "url": "https://bgm.tv/ep/32391"
         }
       },
-      "synopsis": {},
+      "synopsis": {
+        "en": "The Apostles assume their true forms and commence the Eclipse feasting by devouring those branded as offerings. Griffith is reborn as the fifth God Hand, Femto, and rapes Casca in front of Guts. Guts is forced to cut off his left forearm to stop his former friend while his right eye is gouged out. A post-credits scene shows Guts in the physical world with his wounds healed as he leaves Godo's house to exact his revenge on Griffith and the Apostles ending the series on a cliffhanger.",
+        "zh": "鹰之团众人被恶魔的欲望所牺牲。格斯继续战斗，一开始是为了拯救格里菲斯，然后是为了将自己从格里菲斯野心的结果中拯救出来。"
+      },
       "title_native": "永遠の刻",
       "title_en": "Time of Eternity",
       "aired": "1998-04-01",
       "heat": {
         "mal_replies": 542,
+        "bangumi_comments": 18,
         "imdb_votes": 4207
       },
       "notes": {
@@ -1206,7 +1650,8 @@
             "note": "格里菲斯转生后的神之手之名"
           }
         ]
-      }
+      },
+      "title_cn": "永远之刻"
     }
   ],
   "route": [

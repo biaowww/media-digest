@@ -110,6 +110,23 @@
         "kind": {
           "type": "string",
           "description": "anime / tv / novel / …，仅标注"
+        },
+        "series": {
+          "type": "string",
+          "pattern": "^[a-z0-9][a-z0-9-]*$",
+          "description": "系列键：同一 IP 的多个改编版本填同一个值，页面并成一页用 tab 切换"
+        },
+        "series_title": {
+          "type": "string",
+          "description": "系列显示名（首页卡片标题）；缺省用默认版本的 title_cn"
+        },
+        "version_label": {
+          "type": "string",
+          "description": "本版本的 tab 名，如「1997 TV 版」；缺省用年份"
+        },
+        "fetched": {
+          "type": "object",
+          "description": "各源最近一次抓取成功的日期；build.py 据此补抓首次漏掉的源"
         }
       }
     },

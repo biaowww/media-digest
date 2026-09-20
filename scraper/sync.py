@@ -43,6 +43,13 @@ def load_json(p: Path):
     return json.loads(p.read_text(encoding="utf-8-sig"))  # 容忍 BOM
 
 
+def pick_file(src: Path, stem: str) -> Path | None:
+    """Drive 工具改不了正文，会话只能「新建同名 + 旧的移回收站」，结果常留下 `episodes (1).json`。
+    所以不认死文件名：`<stem>.json` 与 `<stem> (N).json` 里取修改时间最新的一份。"""
+    cands = [p for p in src.iterdir() if p.is_file() and re.fullmatch(re.escape(stem) + r"(?: \(\d+\))?\.json", p.name)]
+    return max(cands, key=lambda p: p.stat().st_mtime) if cands else None
+
+
 def normalize_intro(intro: dict) -> dict:
     out = dict(intro)
     if "spoiler_free_summary" in out and "synopsis" not in out:
@@ -75,13 +82,26 @@ def normalize_route(route: list) -> list:
     return out
 
 
+# 人定的分组 / 标注字段：从 Drive route.json 的 meta 带进 show.meta（脚本抓的客观字段不受影响）
+LABEL_KEYS = ("series", "series_title", "version_label", "kind")
+
+
+def read_meta_labels(src: Path) -> dict:
+    rf = pick_file(src, "route")
+    if rf is None:
+        return {}
+    data = load_json(rf)
+    meta = data.get("meta") if isinstance(data, dict) else None
+    return {k: meta[k] for k in LABEL_KEYS if isinstance(meta, dict) and meta.get(k) not in (None, "")}
+
+
 KIND_ALIASES = {"main": "recurring", "regular": "recurring", "常驻": "recurring", "阶段": "arc", "oneoff": "one-off", "once": "one-off", "一次": "one-off"}
 
 
 def read_notes(src: Path) -> tuple[dict[int, dict] | None, int | None]:
     """episodes.json → {n: notes}；也返回顶层 spoiler_gate_from（可选）。"""
-    f = src / "episodes.json"
-    if not f.exists():
+    f = pick_file(src, "episodes")
+    if f is None:
         return None, None
     data = load_json(f)
     gate = None
@@ -117,8 +137,8 @@ def read_notes(src: Path) -> tuple[dict[int, dict] | None, int | None]:
 
 def read_content(src: Path) -> tuple[dict | None, list | None]:
     intro, route = None, None
-    rf, inf = src / "route.json", src / "intro.json"
-    if rf.exists():
+    rf, inf = pick_file(src, "route"), pick_file(src, "intro")
+    if rf is not None:
         data = load_json(rf)
         if isinstance(data, list):
             route = data
@@ -130,7 +150,7 @@ def read_content(src: Path) -> tuple[dict | None, list | None]:
                 intro = dict(intro, route_note=note)
         else:
             raise ValueError("route.json must be an array or an object with route/intro")
-    if inf.exists():
+    if inf is not None:
         intro = load_json(inf)
         if not isinstance(intro, dict):
             raise ValueError("intro.json must be an object")
@@ -148,9 +168,10 @@ def sync_one(slug: str, dry_run: bool = False) -> bool:
         print(f"[{slug}] shows/{slug}.json missing — run `py scraper/fetch.py {slug} --mal ... ` first")
         return False
     show = load_json(dst)
-    dupes = [p.name for p in src.iterdir() if p.is_file() and re.match(r"(route|episodes|intro) \(\d+\)\.json$", p.name)]
-    if dupes:
-        print(f"[{slug}] warn: duplicate-named files on Drive {dupes} — only route.json / episodes.json are read; move the old copies to trash")
+    for stem in ("route", "episodes", "intro"):
+        n = [p.name for p in src.iterdir() if p.is_file() and re.fullmatch(re.escape(stem) + r"(?: \(\d+\))?\.json", p.name)]
+        if len(n) > 1:
+            print(f"[{slug}] note: {len(n)} copies of {stem} on Drive {sorted(n)} — using the newest: {pick_file(src, stem).name}")
     try:
         intro, route = read_content(src)
     except ValueError as e:
@@ -164,6 +185,15 @@ def sync_one(slug: str, dry_run: bool = False) -> bool:
         return False
 
     changed = []
+    labels = read_meta_labels(src)
+    before = {k: show["meta"].get(k) for k in LABEL_KEYS}
+    for k in LABEL_KEYS:
+        if k in labels:
+            show["meta"][k] = labels[k]
+        else:
+            show["meta"].pop(k, None)
+    if {k: show["meta"].get(k) for k in LABEL_KEYS} != before:
+        changed.append("labels")
     if notes is not None:
         by_n = {e["n"]: e for e in show.get("episodes", [])}
         total = show["meta"].get("total_eps") or 0

@@ -178,6 +178,10 @@ def merge(show: dict, fetched: dict, args) -> dict:
         meta["primary_kpi"] = args.primary_kpi or "imdb"
     meta["updated"] = dt.date.today().isoformat()
     meta["schema_version"] = SCHEMA_VERSION
+    done = dict(meta.get("fetched") or {})
+    for src in fetched:  # 记录哪些源真的抓成功过——build.py 据此补抓首次瞬断漏掉的源
+        done[src] = meta["updated"]
+    meta["fetched"] = done
 
     # ---- about（scraper 自有，主观 intro 另存）----
     for k, prefs in PREFER_SERIES.items():
@@ -219,6 +223,7 @@ def write_index():
         items.append({
             "slug": m["slug"], "title": m.get("title"), "title_cn": m.get("title_cn"), "year": m.get("year"),
             "total_eps": m.get("total_eps"), "unit": m.get("unit") or "集", "updated": m.get("updated"),
+            "series": m.get("series"), "series_title": m.get("series_title"), "version_label": m.get("version_label"),
             "cover": (d.get("intro") or {}).get("cover") or (d.get("about") or {}).get("cover"),
             "watch_eps": sum(x["eps"][1] - x["eps"][0] + 1 for x in r if x["kind"] == "watch"),
             "bridges": sum(1 for x in r if x["kind"] == "bridge"),

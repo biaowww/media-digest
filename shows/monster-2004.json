@@ -15,18 +15,25 @@
     "year": 2004,
     "total_eps": 74,
     "primary_kpi": "imdb",
-    "updated": "2026-09-13"
+    "updated": "2026-09-20",
+    "fetched": {
+      "mal": "2026-09-20",
+      "bangumi": "2026-09-20",
+      "imdb": "2026-09-20",
+      "tmdb": "2026-09-20",
+      "wiki": "2026-09-20"
+    }
   },
   "about": {
     "cover": "https://cdn.myanimelist.net/images/anime/10/18793.jpg",
     "synopsis": {
-      "zh": "1986年，一名头部被子弹击中的重伤少年送到西德·杜塞尔多夫医院中。日本外科医生天马忽视院长的命令，以他天才般的手术技术的拯救了那位少年。\n\n实行共产主义的世界为推倒西德进行着异常的阴谋。捷克斯洛伐克秘密警察法兰斯·波拿巴达等人，教育孩童们成为送往资本主义各国的战斗员。在这过程中诞生了约翰这个怪物。约翰心中的怪物越变越大，进而开始杀害周遭的人。就像是波拿巴达的绘本《没有名字的怪物》里的主角怪物，附身于人身上而逐渐吃掉身边的人。\n\n数年后、1995年，几年不见的约翰已长成巨大的怪物、一点也不犹豫地杀掉天马的病人。在体内有什么东西爆开了似的天马、因而追缉着怪物约翰。天马医生是否能阻止约翰的杀戮呢？刺激约翰的绘本《没有名字的怪物》到底是什么呢？为什么约翰要一直杀人？故事就在柏林墙倒塌后的德国与捷克展开。",
-      "en": "Dr. Kenzou Tenma, an elite neurosurgeon recently engaged to his hospital director's daughter, is well on his way to ascending the hospital hierarchy. That is until one night, a seemingly small event changes Dr. Tenma's life forever. While preparing to perform surgery on someone, he gets a call from the hospital director telling him to switch patients and instead perform life-saving brain surgery on a famous performer. His fellow doctors, fiancée, and the hospital director applaud his accomplishment; but because of the switch, a poor immigrant worker is dead, causing Dr. Tenma to have a crisis of conscience.\n\n\n\n\n\nSo when a similar situation arises, Dr. Tenma stands his ground and chooses to perform surgery on the young boy Johan Liebert instead of the town's mayor. Unfortunately, this choice leads to serious ramifications for Dr. Tenma—losing his social standing being one of them. However, with the mysterious death of the director and two other doctors, Dr. Tenma's position is restored. With no evidence to convict him, he is released and goes on to attain the position of hospital director. \n\n\n\n\n\nNine years later when Dr. Tenma saves the life of a criminal, his past comes back to haunt him—once again, he comes face to face with the monster he operated on. He must now embark on a quest of pursuit to make amends for the havoc spread by the one he saved."
+      "zh": "1986年，一名头部被子弹击中的重伤少年送到西德・杜塞尔多夫医院中。日本外科医生天马忽视院长的命令，以他天才般的手术技术的拯救了那位少年。\r\n\r\n实行共产主义的世界为了推倒西德而进行着异常的阴谋。捷克斯洛伐克秘密警察法兰斯·波纳帕达等人，教育孩童们成为送往资本主义各国的战斗员，在这过程中诞生了约翰这个怪物。约翰心中的怪物越变越大，进而开始杀害周遭的人。就像是法兰兹·波纳帕达的绘本《没有名字的怪物》里的主角怪物，附身于人身上而逐渐吃掉身边的人。\r\n\r\n数年后、1995年，几年不见的约翰已长成巨大的怪物、一点也不犹豫地杀掉天马的病人。在体内有什么东西爆开了似的天马、因而追缉著怪物约翰。天马医生是否能阻止约翰的杀戮呢？刺激约翰的绘本《没有名字的怪物》到底是什么呢？为什么约翰要一直杀人？故事就在柏林墙倒塌后的德国与捷克展开。",
+      "en": "Dr. Kenzou Tenma, an elite neurosurgeon recently engaged to his hospital director's daughter, is well on his way to ascending the hospital hierarchy. That is until one night, a seemingly small event changes Dr. Tenma's life forever. While preparing to perform surgery on someone, he gets a call from the hospital director telling him to switch patients and instead perform life-saving brain surgery on a famous performer. His fellow doctors, fiancée, and the hospital director applaud his accomplishment; but because of the switch, a poor immigrant worker is dead, causing Dr. Tenma to have a crisis of conscience.\n\r\n\n\r\nSo when a similar situation arises, Dr. Tenma stands his ground and chooses to perform surgery on the young boy Johan Liebert instead of the town's mayor. Unfortunately, this choice leads to serious ramifications for Dr. Tenma—losing his social standing being one of them. However, with the mysterious death of the director and two other doctors, Dr. Tenma's position is restored. With no evidence to convict him, he is released and goes on to attain the position of hospital director. \n\r\n\n\r\nNine years later when Dr. Tenma saves the life of a criminal, his past comes back to haunt him—once again, he comes face to face with the monster he operated on. He must now embark on a quest of pursuit to make amends for the havoc spread by the one he saved."
     },
     "scores": {
       "bangumi": {
         "score": 8.2,
-        "votes": 4689,
+        "votes": 4703,
         "rank": 122
       },
       "imdb": {
@@ -35,12 +42,12 @@
       },
       "mal": {
         "score": 8.9,
-        "votes": 525545,
+        "votes": 526226,
         "rank": 25
       },
       "tmdb": {
-        "score": 8.497,
-        "votes": 832
+        "score": 8.495,
+        "votes": 840
       }
     },
     "links": {
@@ -95,63 +102,63 @@
         "role": "Main",
         "image": "https://cdn.myanimelist.net/images/characters/4/316522.jpg",
         "mal_id": 719,
-        "favorites": 27824
+        "favorites": 27845
       },
       {
         "name": "Kenzou Tenma",
         "role": "Main",
         "image": "https://cdn.myanimelist.net/images/characters/15/347641.jpg",
         "mal_id": 718,
-        "favorites": 13574
+        "favorites": 13598
       },
       {
         "name": "Wolfgang Grimmer",
         "role": "Supporting",
         "image": "https://cdn.myanimelist.net/images/characters/15/27826.jpg",
         "mal_id": 3096,
-        "favorites": 11410
+        "favorites": 11423
       },
       {
         "name": "Heinrich Lunge",
         "role": "Supporting",
         "image": "https://cdn.myanimelist.net/images/characters/13/272131.jpg",
         "mal_id": 721,
-        "favorites": 2948
+        "favorites": 2946
       },
       {
         "name": "Eva Heinemann",
         "role": "Supporting",
         "image": "https://cdn.myanimelist.net/images/characters/15/70891.jpg",
         "mal_id": 6123,
-        "favorites": 439
+        "favorites": 440
       },
       {
         "name": "Dieter",
         "role": "Supporting",
         "image": "https://cdn.myanimelist.net/images/characters/8/289032.jpg",
         "mal_id": 6329,
-        "favorites": 407
+        "favorites": 409
       },
       {
         "name": "Martin Reest",
         "role": "Supporting",
         "image": "https://cdn.myanimelist.net/images/characters/8/289038.jpg",
         "mal_id": 12117,
-        "favorites": 346
+        "favorites": 347
       },
       {
         "name": "Julius Reichwein",
         "role": "Supporting",
         "image": "https://cdn.myanimelist.net/images/characters/14/28592.jpg",
         "mal_id": 11080,
-        "favorites": 123
+        "favorites": 124
       },
       {
         "name": "Roberto",
         "role": "Supporting",
         "image": "https://cdn.myanimelist.net/images/characters/7/494074.jpg",
         "mal_id": 8611,
-        "favorites": 84
+        "favorites": 86
       },
       {
         "name": "Richard Braun",
@@ -343,7 +350,7 @@
         },
         "tmdb": {
           "vote_average": 8.4,
-          "vote_count": 16,
+          "vote_count": 17,
           "still": "https://image.tmdb.org/t/p/w500/gRrJaEe5oj8gsy54buNLkW8FHAZ.jpg",
           "season": 1,
           "episode": 1
@@ -355,7 +362,7 @@
       },
       "title_native": "ヘルＤｒ．テンマ",
       "title_en": "Herr Dr. Tenma",
-      "title_cn": "天马医生",
+      "title_cn": "Herr Dr. Tenma",
       "aired": "2004-04-07",
       "heat": {
         "mal_replies": 235,
@@ -419,7 +426,7 @@
         },
         "tmdb": {
           "vote_average": 7.8,
-          "vote_count": 10,
+          "vote_count": 11,
           "still": "https://image.tmdb.org/t/p/w500/yIoVsDbmIduGojXaTR8DzpBbTVr.jpg",
           "season": 1,
           "episode": 2
@@ -471,7 +478,7 @@
         },
         "tmdb": {
           "vote_average": 7.8,
-          "vote_count": 9,
+          "vote_count": 10,
           "still": "https://image.tmdb.org/t/p/w500/nMQqe7HJH1Dk8F6ALS1nbfFWXL0.jpg",
           "season": 1,
           "episode": 3
@@ -482,7 +489,7 @@
         "zh": "凌晨，天马贤三公寓来了两位邦警，从他们口中得知海尼曼院长以及奥本汉和波亚医生的死讯后，天马急忙赶回医院，此时艾斯勒医院已经乱做一团。而重点保护下的李贝特兄妹也神秘失踪。几天以后，海尼曼院长的葬礼在郊外公墓举行。葬礼结束后，天马遇到了北莱茵·西伐里亚邦警察查士巴哈和德国联邦调查局的伦克警官前来调查艾斯勒医院的杀人案件，并从伦克警官的叙述中得知三人的死因是食用了含有肌肉松弛剂的糖果。面对伦克警官咄咄逼人的态度，天马知道是因为自己和院长他们的紧张关系导致的警方的怀疑。身心俱疲的天马不禁想要回到日本，远离这个是非之地。艾斯勒医院因为院长的死亡不得不重新整顿医院人事，正打算辞职的天马在理事会议上突然被理事长任命为外科主任。不理会院长的命令而被降职的自己在想要远离权力作回医生本分时又一下子变的出人头地，身份的转变，搞的天马心中五味杂陈。艾玛失去了父亲这个靠山转而又向天马要求复合，而经历人生大起大落的天马也已看清现实，放弃了艾玛。天马还是接下了外科主任这个职位后，为病人尽心尽力，很快成为艾斯勒最受尊敬的医生。而海尼曼院长等被杀事件也因为证据不足而被搁置下来。一晃九年过去了，1995年克隆市内发现了一对中年夫妇的尸体，伦克警官负责这一案子，发现这于两年内全德国各邦发生的同类四起案件具有多处共同点，排除了强盗犯案的可能。而案子的关键在于一个“锁匠”——亚德夫·勇克斯。谁知几天以后，亚德夫因为车祸脑部重伤被送进医院。天马医生被请来为亚德夫主刀，伦克警官同天马再一次相遇。在伦克的推理中，所有的疑点都集中在院长死后飞黄腾达的天马身上。而手术后逐渐恢复意识的亚德夫不断的喃呢着：“怪物来了……”"
       },
       "title_native": "殺人事件",
-      "title_en": "A Murder",
+      "title_en": "Murder Case",
       "aired": "2004-04-21",
       "heat": {
         "mal_replies": 151,
@@ -528,8 +535,8 @@
           "url": "https://myanimelist.net/anime/19/Monster/episode/4"
         },
         "tmdb": {
-          "vote_average": 8.2,
-          "vote_count": 10,
+          "vote_average": 8.3,
+          "vote_count": 11,
           "still": "https://image.tmdb.org/t/p/w500/DpBHxNXO5VHwLTInBGi80L5Io.jpg",
           "season": 1,
           "episode": 4
@@ -574,7 +581,7 @@
         },
         "tmdb": {
           "vote_average": 7.7,
-          "vote_count": 9,
+          "vote_count": 10,
           "still": "https://image.tmdb.org/t/p/w500/6FKz2pfpTlGXMxdH4h5op6j1aku.jpg",
           "season": 1,
           "episode": 5
@@ -585,7 +592,7 @@
         "zh": "双胞胎之妹妮娜·弗多拿就读于德国海德堡大学法律系，妮娜对于10岁以前的事情完全没有记忆，常在半夜梦到巨大的怪物靠近而惊醒，多年来她一直处于巨大的怪物阴影中，近期又不断收到莫名的电子邮件。天马为了弄清事实的真相开始独自去查找线索。"
       },
       "title_native": "ハイデルベルクの少女",
-      "title_en": "The Girl of Heidelberg",
+      "title_en": "The Girl From Heidelberg",
       "aired": "2004-05-05",
       "heat": {
         "mal_replies": 112,
@@ -626,8 +633,8 @@
           "url": "https://myanimelist.net/anime/19/Monster/episode/6"
         },
         "tmdb": {
-          "vote_average": 7.6,
-          "vote_count": 9,
+          "vote_average": 7.7,
+          "vote_count": 10,
           "still": "https://image.tmdb.org/t/p/w500/tLso0ODwU9bAUFIPdAvCUSvlelI.jpg",
           "season": 1,
           "episode": 6
@@ -673,13 +680,13 @@
           "url": "https://bgm.tv/ep/9859"
         },
         "mal": {
-          "score": 4.42,
+          "score": 4.41,
           "forum_replies": 120,
           "url": "https://myanimelist.net/anime/19/Monster/episode/7"
         },
         "tmdb": {
           "vote_average": 7.6,
-          "vote_count": 8,
+          "vote_count": 9,
           "still": "https://image.tmdb.org/t/p/w500/iVIw85BQXHZaZVhPk4QDPTWqZxc.jpg",
           "season": 1,
           "episode": 7
@@ -723,8 +730,8 @@
           "url": "https://myanimelist.net/anime/19/Monster/episode/8"
         },
         "tmdb": {
-          "vote_average": 7.3,
-          "vote_count": 7,
+          "vote_average": 7.4,
+          "vote_count": 8,
           "still": "https://image.tmdb.org/t/p/w500/wlMYF7b88FPoCvjVnNqKPixF5Ha.jpg",
           "season": 1,
           "episode": 8
@@ -769,7 +776,7 @@
         },
         "tmdb": {
           "vote_average": 7.9,
-          "vote_count": 7,
+          "vote_count": 8,
           "still": "https://image.tmdb.org/t/p/w500/96WWv4x4wTlhJfpmY1KKkj3LQCt.jpg",
           "season": 1,
           "episode": 9
@@ -780,7 +787,7 @@
         "zh": "天马想要凭己之力追踪并消除杀人怪物，于是他放下手术刀辞职离开医院去向一名优秀老兵休葛·贝伦哈特学习射击，同老兵贝伦哈特一起的还有一位沉默的小女孩，通过五个月的练习，天马获取了足够的射击技能后离开，而伦克警官也顺藤摸瓜找到了贝伦哈特了解情况。"
       },
       "title_native": "老兵と少女",
-      "title_en": "The Girl and the Seasoned Soldier",
+      "title_en": "The Girl And The Seasoned Soldier",
       "aired": "2004-06-02",
       "heat": {
         "mal_replies": 185,
@@ -820,8 +827,8 @@
           "url": "https://myanimelist.net/anime/19/Monster/episode/10"
         },
         "tmdb": {
-          "vote_average": 7.6,
-          "vote_count": 8,
+          "vote_average": 7.5,
+          "vote_count": 9,
           "still": "https://image.tmdb.org/t/p/w500/kR95nSJmdt3BPmc4NSvrGA1m2hz.jpg",
           "season": 1,
           "episode": 10
@@ -874,7 +881,7 @@
         },
         "tmdb": {
           "vote_average": 7.9,
-          "vote_count": 8,
+          "vote_count": 9,
           "still": "https://image.tmdb.org/t/p/w500/ngPjRictfjaYKwIX1bV0JtfdDlM.jpg",
           "season": 1,
           "episode": 11
@@ -932,7 +939,7 @@
         },
         "tmdb": {
           "vote_average": 7.9,
-          "vote_count": 8,
+          "vote_count": 9,
           "still": "https://image.tmdb.org/t/p/w500/8a9l0cGDV9FDwkHcMgQw6IoD9ok.jpg",
           "season": 1,
           "episode": 12
@@ -976,8 +983,8 @@
           "url": "https://myanimelist.net/anime/19/Monster/episode/13"
         },
         "tmdb": {
-          "vote_average": 7.5,
-          "vote_count": 7,
+          "vote_average": 7.6,
+          "vote_count": 8,
           "still": "https://image.tmdb.org/t/p/w500/hlKdVyUkvKg0GP565domhD4bAZk.jpg",
           "season": 1,
           "episode": 13
@@ -989,7 +996,7 @@
       },
       "title_native": "ペトラとシューマン",
       "title_en": "Petra and Schumann",
-      "title_cn": "柏杜娜与萧曼",
+      "title_cn": "Petra and Schumann",
       "aired": "2004-06-30",
       "heat": {
         "mal_replies": 119,
@@ -1028,8 +1035,8 @@
           "url": "https://myanimelist.net/anime/19/Monster/episode/14"
         },
         "tmdb": {
-          "vote_average": 7.4,
-          "vote_count": 7,
+          "vote_average": 7.5,
+          "vote_count": 8,
           "still": "https://image.tmdb.org/t/p/w500/bnmF3AAbHKxf3K9yY5SlXtM9CSy.jpg",
           "season": 1,
           "episode": 14
@@ -1040,7 +1047,7 @@
         "zh": "伦克警官也遭受了工作和生活的双重困境，上司停掉他手上的一切案件，无事可做的他只能一门心思去继续跟天马那宗案件，艾娃的园丁对她动心，开始同情和关怀起这个寂寞的女人，在她即将化解内心的冰块时却被一场意外的妒忌之火激怒而认为现在自己的不幸福全拜天马所赐，更加重了对他的仇恨。"
       },
       "title_native": "残された男・残された女",
-      "title_en": "Left Behind",
+      "title_en": "The Abandoned Man・The Abandoned Woman",
       "aired": "2004-07-07",
       "heat": {
         "mal_replies": 215,
@@ -1073,8 +1080,8 @@
           "url": "https://myanimelist.net/anime/19/Monster/episode/15"
         },
         "tmdb": {
-          "vote_average": 7.3,
-          "vote_count": 7,
+          "vote_average": 7.4,
+          "vote_count": 8,
           "still": "https://image.tmdb.org/t/p/w500/nTkNXYoOLeN9HP37IFQvWNdLE6y.jpg",
           "season": 1,
           "episode": 15
@@ -1086,7 +1093,7 @@
       },
       "title_native": "ビー·マイ·ベイビー",
       "title_en": "Be My Baby",
-      "title_cn": "BE MY BABY",
+      "title_cn": "Be My Baby",
       "aired": "2004-07-14",
       "heat": {
         "mal_replies": 116,
@@ -1136,8 +1143,8 @@
           "url": "https://myanimelist.net/anime/19/Monster/episode/16"
         },
         "tmdb": {
-          "vote_average": 7.2,
-          "vote_count": 8,
+          "vote_average": 7.3,
+          "vote_count": 9,
           "still": "https://image.tmdb.org/t/p/w500/5VjzqfvUbnjHmrfLY9KtUUFRO7M.jpg",
           "season": 1,
           "episode": 16
@@ -1188,8 +1195,8 @@
           "url": "https://myanimelist.net/anime/19/Monster/episode/17"
         },
         "tmdb": {
-          "vote_average": 7.5,
-          "vote_count": 6,
+          "vote_average": 7.6,
+          "vote_count": 7,
           "still": "https://image.tmdb.org/t/p/w500/g5XrO7E75jUleiYDBWMFVv983ok.jpg",
           "season": 1,
           "episode": 17
@@ -1233,8 +1240,8 @@
           "url": "https://myanimelist.net/anime/19/Monster/episode/18"
         },
         "tmdb": {
-          "vote_average": 8.0,
-          "vote_count": 7,
+          "vote_average": 7.9,
+          "vote_count": 8,
           "still": "https://image.tmdb.org/t/p/w500/vujsVa6Pl2eRnYbqL6gwpOkENxQ.jpg",
           "season": 1,
           "episode": 18
@@ -1285,8 +1292,8 @@
           "url": "https://myanimelist.net/anime/19/Monster/episode/19"
         },
         "tmdb": {
-          "vote_average": 7.5,
-          "vote_count": 6,
+          "vote_average": 7.6,
+          "vote_count": 7,
           "still": "https://image.tmdb.org/t/p/w500/iedKDiD6BYGUX8In7gin7ZTC1e2.jpg",
           "season": 1,
           "episode": 19
@@ -1343,8 +1350,8 @@
           "url": "https://myanimelist.net/anime/19/Monster/episode/20"
         },
         "tmdb": {
-          "vote_average": 7.2,
-          "vote_count": 6,
+          "vote_average": 7.1,
+          "vote_count": 7,
           "still": "https://image.tmdb.org/t/p/w500/hnIFlLzJbk3F2Fl3P9jDyk9LXtY.jpg",
           "season": 1,
           "episode": 20
@@ -1390,13 +1397,13 @@
           "url": "https://bgm.tv/ep/9873"
         },
         "mal": {
-          "score": 4.45,
+          "score": 4.44,
           "forum_replies": 110,
           "url": "https://myanimelist.net/anime/19/Monster/episode/21"
         },
         "tmdb": {
           "vote_average": 8.1,
-          "vote_count": 7,
+          "vote_count": 8,
           "still": "https://image.tmdb.org/t/p/w500/evKSBqCNwbkcfwvgHOyFqRS75Wr.jpg",
           "season": 1,
           "episode": 21
@@ -1449,7 +1456,7 @@
         },
         "tmdb": {
           "vote_average": 8.0,
-          "vote_count": 7,
+          "vote_count": 8,
           "still": "https://image.tmdb.org/t/p/w500/3UL3wcPZOaCJZrpbSsnPa6AS9wC.jpg",
           "season": 1,
           "episode": 22
@@ -1493,8 +1500,8 @@
           "url": "https://myanimelist.net/anime/19/Monster/episode/23"
         },
         "tmdb": {
-          "vote_average": 7.3,
-          "vote_count": 6,
+          "vote_average": 7.4,
+          "vote_count": 7,
           "still": "https://image.tmdb.org/t/p/w500/smpyendH3uITqcKHlacuUr9LIbo.jpg",
           "season": 1,
           "episode": 23
@@ -1538,8 +1545,8 @@
           "url": "https://myanimelist.net/anime/19/Monster/episode/24"
         },
         "tmdb": {
-          "vote_average": 7.3,
-          "vote_count": 6,
+          "vote_average": 7.4,
+          "vote_count": 7,
           "still": "https://image.tmdb.org/t/p/w500/m4fL3hJku5ytZBSlfkQ5Z1VMQMJ.jpg",
           "season": 1,
           "episode": 24
@@ -1583,8 +1590,8 @@
           "url": "https://myanimelist.net/anime/19/Monster/episode/25"
         },
         "tmdb": {
-          "vote_average": 7.3,
-          "vote_count": 7,
+          "vote_average": 7.4,
+          "vote_count": 8,
           "still": "https://image.tmdb.org/t/p/w500/oA7Y1IR4uJvhmcIOjjlGAxQ8byB.jpg",
           "season": 1,
           "episode": 25
@@ -1651,8 +1658,8 @@
           "url": "https://myanimelist.net/anime/19/Monster/episode/26"
         },
         "tmdb": {
-          "vote_average": 7.3,
-          "vote_count": 6,
+          "vote_average": 7.4,
+          "vote_count": 7,
           "still": "https://image.tmdb.org/t/p/w500/rtdgEwAQtM9b731M1KXwpkKKl41.jpg",
           "season": 1,
           "episode": 26
@@ -1710,8 +1717,8 @@
           "url": "https://myanimelist.net/anime/19/Monster/episode/27"
         },
         "tmdb": {
-          "vote_average": 7.4,
-          "vote_count": 5,
+          "vote_average": 7.5,
+          "vote_count": 6,
           "still": "https://image.tmdb.org/t/p/w500/gSzKRaoqu0hxaZ4IYgjW8FRBdwG.jpg",
           "season": 1,
           "episode": 27
@@ -1755,8 +1762,8 @@
           "url": "https://myanimelist.net/anime/19/Monster/episode/28"
         },
         "tmdb": {
-          "vote_average": 8.3,
-          "vote_count": 7,
+          "vote_average": 8.2,
+          "vote_count": 8,
           "still": "https://image.tmdb.org/t/p/w500/4ScD6otPzx2B7r5mTvPw0PdyHMf.jpg",
           "season": 1,
           "episode": 28
@@ -1801,7 +1808,7 @@
         },
         "tmdb": {
           "vote_average": 8.9,
-          "vote_count": 8,
+          "vote_count": 9,
           "still": "https://image.tmdb.org/t/p/w500/5IM7Jc5LiX27MmEjV2glotEhN5H.jpg",
           "season": 1,
           "episode": 29
@@ -1845,8 +1852,8 @@
           "url": "https://myanimelist.net/anime/19/Monster/episode/30"
         },
         "tmdb": {
-          "vote_average": 8.8,
-          "vote_count": 8,
+          "vote_average": 8.7,
+          "vote_count": 9,
           "still": "https://image.tmdb.org/t/p/w500/uTd9PmGOYn5mpNAWMUXcxNpDtyI.jpg",
           "season": 1,
           "episode": 30
@@ -1891,7 +1898,7 @@
         },
         "tmdb": {
           "vote_average": 8.1,
-          "vote_count": 7,
+          "vote_count": 8,
           "still": "https://image.tmdb.org/t/p/w500/7C24YnfzxwM7ZNQDhC7m4ldynJV.jpg",
           "season": 1,
           "episode": 31
@@ -1936,7 +1943,7 @@
         },
         "tmdb": {
           "vote_average": 8.0,
-          "vote_count": 7,
+          "vote_count": 8,
           "still": "https://image.tmdb.org/t/p/w500/oDFFnKWyt0eTyIJercgD0kpBXSu.jpg",
           "season": 1,
           "episode": 32
@@ -1981,7 +1988,7 @@
         },
         "tmdb": {
           "vote_average": 8.4,
-          "vote_count": 7,
+          "vote_count": 8,
           "still": "https://image.tmdb.org/t/p/w500/wLzZfg51P24TKL5zIOgqwz5kV8w.jpg",
           "season": 1,
           "episode": 33
@@ -2026,7 +2033,7 @@
         },
         "tmdb": {
           "vote_average": 8.0,
-          "vote_count": 6,
+          "vote_count": 7,
           "still": "https://image.tmdb.org/t/p/w500/zQnTrYLoKTVGVpkMCe8izx0aaJG.jpg",
           "season": 1,
           "episode": 34
@@ -2070,8 +2077,8 @@
           "url": "https://myanimelist.net/anime/19/Monster/episode/35"
         },
         "tmdb": {
-          "vote_average": 8.3,
-          "vote_count": 7,
+          "vote_average": 8.2,
+          "vote_count": 8,
           "still": "https://image.tmdb.org/t/p/w500/85rn4WWk0mYIvGcQoBEtJTH2a2j.jpg",
           "season": 1,
           "episode": 35
@@ -2116,7 +2123,7 @@
         },
         "tmdb": {
           "vote_average": 8.1,
-          "vote_count": 7,
+          "vote_count": 8,
           "still": "https://image.tmdb.org/t/p/w500/Ap21b2eXMchLQEMurLjmC4TIozM.jpg",
           "season": 1,
           "episode": 36
@@ -2160,8 +2167,8 @@
           "url": "https://myanimelist.net/anime/19/Monster/episode/37"
         },
         "tmdb": {
-          "vote_average": 8.4,
-          "vote_count": 9,
+          "vote_average": 8.6,
+          "vote_count": 10,
           "still": "https://image.tmdb.org/t/p/w500/4Jobs7gVFbD7cJYTea0V1EHh6kh.jpg",
           "season": 1,
           "episode": 37
@@ -2173,7 +2180,7 @@
       },
       "title_native": "なまえのないかいぶつ",
       "title_en": "A Monster Without a Name",
-      "title_cn": "没有名字的怪物",
+      "title_cn": "A Monster Without a Name",
       "aired": "2005-01-12",
       "heat": {
         "mal_replies": 162,
@@ -2205,8 +2212,8 @@
           "url": "https://myanimelist.net/anime/19/Monster/episode/38"
         },
         "tmdb": {
-          "vote_average": 8.4,
-          "vote_count": 9,
+          "vote_average": 8.5,
+          "vote_count": 10,
           "still": "https://image.tmdb.org/t/p/w500/mwmzanlKAGfPYJ7Q4pdHS35p2Tv.jpg",
           "season": 1,
           "episode": 38
@@ -2250,8 +2257,8 @@
           "url": "https://myanimelist.net/anime/19/Monster/episode/39"
         },
         "tmdb": {
-          "vote_average": 8.3,
-          "vote_count": 7,
+          "vote_average": 8.2,
+          "vote_count": 8,
           "still": "https://image.tmdb.org/t/p/w500/sTFxScrDaiIxfwOc5wz2DRNlsKY.jpg",
           "season": 1,
           "episode": 39
@@ -2295,8 +2302,8 @@
           "url": "https://myanimelist.net/anime/19/Monster/episode/40"
         },
         "tmdb": {
-          "vote_average": 7.5,
-          "vote_count": 8,
+          "vote_average": 7.6,
+          "vote_count": 9,
           "still": "https://image.tmdb.org/t/p/w500/jaJgMOPU8UlAZZ0WMDxKeLxmWQJ.jpg",
           "season": 1,
           "episode": 40
@@ -2354,7 +2361,7 @@
         },
         "tmdb": {
           "vote_average": 8.1,
-          "vote_count": 7,
+          "vote_count": 8,
           "still": "https://image.tmdb.org/t/p/w500/ad7Wgv9ILsh4tcbv5fcITHPQOw8.jpg",
           "season": 1,
           "episode": 41
@@ -2398,8 +2405,8 @@
           "url": "https://myanimelist.net/anime/19/Monster/episode/42"
         },
         "tmdb": {
-          "vote_average": 8.3,
-          "vote_count": 7,
+          "vote_average": 8.2,
+          "vote_count": 8,
           "still": "https://image.tmdb.org/t/p/w500/okzyjsp5Lv7UOkhVsKfSlNEoCDi.jpg",
           "season": 1,
           "episode": 42
@@ -2455,8 +2462,8 @@
           "url": "https://myanimelist.net/anime/19/Monster/episode/43"
         },
         "tmdb": {
-          "vote_average": 7.8,
-          "vote_count": 6,
+          "vote_average": 7.7,
+          "vote_count": 7,
           "still": "https://image.tmdb.org/t/p/w500/gjmsRU29pBFZELcvJROYh0R7bGH.jpg",
           "season": 1,
           "episode": 43
@@ -2508,7 +2515,7 @@
         },
         "tmdb": {
           "vote_average": 8.1,
-          "vote_count": 7,
+          "vote_count": 8,
           "still": "https://image.tmdb.org/t/p/w500/bVPANfu9HXNA8MtbAX9HP2Ntx2q.jpg",
           "season": 1,
           "episode": 44
@@ -2552,8 +2559,8 @@
           "url": "https://myanimelist.net/anime/19/Monster/episode/45"
         },
         "tmdb": {
-          "vote_average": 8.2,
-          "vote_count": 6,
+          "vote_average": 8.1,
+          "vote_count": 7,
           "still": "https://image.tmdb.org/t/p/w500/2ovvgmyz0cH6FzYv9qbvoe2zH7f.jpg",
           "season": 1,
           "episode": 45
@@ -2597,8 +2604,8 @@
           "url": "https://myanimelist.net/anime/19/Monster/episode/46"
         },
         "tmdb": {
-          "vote_average": 8.3,
-          "vote_count": 6,
+          "vote_average": 8.4,
+          "vote_count": 7,
           "still": "https://image.tmdb.org/t/p/w500/8Cq45zBn14obRO3AESmyjt4Ouqu.jpg",
           "season": 1,
           "episode": 46
@@ -2642,8 +2649,8 @@
           "url": "https://myanimelist.net/anime/19/Monster/episode/47"
         },
         "tmdb": {
-          "vote_average": 8.2,
-          "vote_count": 6,
+          "vote_average": 8.1,
+          "vote_count": 7,
           "still": "https://image.tmdb.org/t/p/w500/x0abqV6R2kJ0MY8G6Av5jwxUNAb.jpg",
           "season": 1,
           "episode": 47
@@ -2695,7 +2702,7 @@
         },
         "tmdb": {
           "vote_average": 8.0,
-          "vote_count": 5,
+          "vote_count": 6,
           "still": "https://image.tmdb.org/t/p/w500/nZeEw7e216DupgtpRNWIWyOgwYC.jpg",
           "season": 1,
           "episode": 48
@@ -2740,7 +2747,7 @@
         },
         "tmdb": {
           "vote_average": 9.1,
-          "vote_count": 10,
+          "vote_count": 11,
           "still": "https://image.tmdb.org/t/p/w500/ogKFo4cfgH4S2YiUEuTxHAaUl1v.jpg",
           "season": 1,
           "episode": 49
@@ -2786,13 +2793,13 @@
           "url": "https://bgm.tv/ep/33510"
         },
         "mal": {
-          "score": 4.54,
+          "score": 4.55,
           "forum_replies": 92,
           "url": "https://myanimelist.net/anime/19/Monster/episode/50"
         },
         "tmdb": {
           "vote_average": 8.1,
-          "vote_count": 7,
+          "vote_count": 8,
           "still": "https://image.tmdb.org/t/p/w500/ucHFHWlTlFFcFo2swpHW2rH8O2S.jpg",
           "season": 1,
           "episode": 50
@@ -2836,8 +2843,8 @@
           "url": "https://myanimelist.net/anime/19/Monster/episode/51"
         },
         "tmdb": {
-          "vote_average": 8.6,
-          "vote_count": 5,
+          "vote_average": 8.5,
+          "vote_count": 6,
           "still": "https://image.tmdb.org/t/p/w500/9owNlaW8EJ5daDXrY016JZTDYyw.jpg",
           "season": 1,
           "episode": 51
@@ -2882,7 +2889,7 @@
         },
         "tmdb": {
           "vote_average": 8.2,
-          "vote_count": 4,
+          "vote_count": 5,
           "still": "https://image.tmdb.org/t/p/w500/bAO3AxPdptq5YmN8FP7xS4fZTH5.jpg",
           "season": 1,
           "episode": 52
@@ -2939,8 +2946,8 @@
           "url": "https://myanimelist.net/anime/19/Monster/episode/53"
         },
         "tmdb": {
-          "vote_average": 7.8,
-          "vote_count": 4,
+          "vote_average": 7.6,
+          "vote_count": 5,
           "still": "https://image.tmdb.org/t/p/w500/8FqSJMnu6z46PLiLdpJpkhFBNU2.jpg",
           "season": 1,
           "episode": 53
@@ -2985,7 +2992,7 @@
         },
         "tmdb": {
           "vote_average": 8.2,
-          "vote_count": 5,
+          "vote_count": 6,
           "still": "https://image.tmdb.org/t/p/w500/x5C9rsGKe7YoZTDnccSjucs87j7.jpg",
           "season": 1,
           "episode": 54
@@ -3030,7 +3037,7 @@
         },
         "tmdb": {
           "vote_average": 8.0,
-          "vote_count": 4,
+          "vote_count": 5,
           "still": "https://image.tmdb.org/t/p/w500/pWGuNnYw5MuLw5ViJ8lIvX5YMxT.jpg",
           "season": 1,
           "episode": 55
@@ -3074,8 +3081,8 @@
           "url": "https://myanimelist.net/anime/19/Monster/episode/56"
         },
         "tmdb": {
-          "vote_average": 8.7,
-          "vote_count": 7,
+          "vote_average": 8.8,
+          "vote_count": 8,
           "still": "https://image.tmdb.org/t/p/w500/9AAOAwTWGkOG3xpoNMxrYOxPwpt.jpg",
           "season": 1,
           "episode": 56
@@ -3128,7 +3135,7 @@
         },
         "tmdb": {
           "vote_average": 8.6,
-          "vote_count": 7,
+          "vote_count": 8,
           "still": "https://image.tmdb.org/t/p/w500/oE1auDwSzQw1obHBrXanO2Rbe3z.jpg",
           "season": 1,
           "episode": 57
@@ -3172,8 +3179,8 @@
           "url": "https://myanimelist.net/anime/19/Monster/episode/58"
         },
         "tmdb": {
-          "vote_average": 8.2,
-          "vote_count": 8,
+          "vote_average": 8.1,
+          "vote_count": 9,
           "still": "https://image.tmdb.org/t/p/w500/hCgDXMWTKCOAgLD2J8V1doWsHmx.jpg",
           "season": 1,
           "episode": 58
@@ -3229,8 +3236,8 @@
           "url": "https://myanimelist.net/anime/19/Monster/episode/59"
         },
         "tmdb": {
-          "vote_average": 8.3,
-          "vote_count": 7,
+          "vote_average": 8.2,
+          "vote_count": 8,
           "still": "https://image.tmdb.org/t/p/w500/zFQyzwZqmTh3J6RSh60AVg9naZ.jpg",
           "season": 1,
           "episode": 59
@@ -3281,8 +3288,8 @@
           "url": "https://myanimelist.net/anime/19/Monster/episode/60"
         },
         "tmdb": {
-          "vote_average": 8.9,
-          "vote_count": 7,
+          "vote_average": 8.8,
+          "vote_count": 8,
           "still": "https://image.tmdb.org/t/p/w500/jNMgDbmUtwiWZPIEPiGylrktDNi.jpg",
           "season": 1,
           "episode": 60
@@ -3327,7 +3334,7 @@
         },
         "tmdb": {
           "vote_average": 8.0,
-          "vote_count": 6,
+          "vote_count": 7,
           "still": "https://image.tmdb.org/t/p/w500/l60BAu0Uh2Iwop8NwVcSLuZBuJA.jpg",
           "season": 1,
           "episode": 61
@@ -3372,7 +3379,7 @@
         },
         "tmdb": {
           "vote_average": 8.1,
-          "vote_count": 7,
+          "vote_count": 8,
           "still": "https://image.tmdb.org/t/p/w500/xE8gQWJVbBExnVTDiXxmFgcLG0a.jpg",
           "season": 1,
           "episode": 62
@@ -3424,7 +3431,7 @@
         },
         "tmdb": {
           "vote_average": 8.0,
-          "vote_count": 4,
+          "vote_count": 5,
           "still": "https://image.tmdb.org/t/p/w500/4FoBZs3ndG3tiernRySrdXDravt.jpg",
           "season": 1,
           "episode": 63
@@ -3475,8 +3482,8 @@
           "url": "https://myanimelist.net/anime/19/Monster/episode/64"
         },
         "tmdb": {
-          "vote_average": 8.5,
-          "vote_count": 6,
+          "vote_average": 8.4,
+          "vote_count": 7,
           "still": "https://image.tmdb.org/t/p/w500/p4doe6lLhhh8giZ9hO3AYJ7005N.jpg",
           "season": 1,
           "episode": 64
@@ -3520,8 +3527,8 @@
           "url": "https://myanimelist.net/anime/19/Monster/episode/65"
         },
         "tmdb": {
-          "vote_average": 8.7,
-          "vote_count": 6,
+          "vote_average": 8.6,
+          "vote_count": 7,
           "still": "https://image.tmdb.org/t/p/w500/tA28qaG2DoJgslpJ78xtGXeTVHB.jpg",
           "season": 1,
           "episode": 65
@@ -3565,8 +3572,8 @@
           "url": "https://myanimelist.net/anime/19/Monster/episode/66"
         },
         "tmdb": {
-          "vote_average": 8.7,
-          "vote_count": 7,
+          "vote_average": 8.8,
+          "vote_count": 8,
           "still": "https://image.tmdb.org/t/p/w500/op09o7GsIYWqYSpbLpznnvD5JMa.jpg",
           "season": 1,
           "episode": 66
@@ -3610,8 +3617,8 @@
           "url": "https://myanimelist.net/anime/19/Monster/episode/67"
         },
         "tmdb": {
-          "vote_average": 8.7,
-          "vote_count": 7,
+          "vote_average": 8.8,
+          "vote_count": 8,
           "still": "https://image.tmdb.org/t/p/w500/aLmAaiiXvdQYJcLOFDsIzPjffei.jpg",
           "season": 1,
           "episode": 67
@@ -3655,8 +3662,8 @@
           "url": "https://myanimelist.net/anime/19/Monster/episode/68"
         },
         "tmdb": {
-          "vote_average": 8.3,
-          "vote_count": 6,
+          "vote_average": 8.1,
+          "vote_count": 7,
           "still": "https://image.tmdb.org/t/p/w500/dWoaXlZnl0AnNWfLHR3zxvKCkg4.jpg",
           "season": 1,
           "episode": 68
@@ -3668,7 +3675,7 @@
       },
       "title_native": "ルーエンハイム",
       "title_en": "Ruhenheim",
-      "title_cn": "卢恩咸",
+      "title_cn": "Ruhenheim",
       "aired": "2005-08-17",
       "heat": {
         "mal_replies": 93,
@@ -3717,8 +3724,8 @@
           "url": "https://myanimelist.net/anime/19/Monster/episode/69"
         },
         "tmdb": {
-          "vote_average": 8.5,
-          "vote_count": 6,
+          "vote_average": 8.4,
+          "vote_count": 7,
           "still": "https://image.tmdb.org/t/p/w500/6swDish7SjX8mDev2IGOqojdCvz.jpg",
           "season": 1,
           "episode": 69
@@ -3763,7 +3770,7 @@
         },
         "tmdb": {
           "vote_average": 8.6,
-          "vote_count": 8,
+          "vote_count": 9,
           "still": "https://image.tmdb.org/t/p/w500/ym9CtBHMfwiAgZ8TvoQcAftejL0.jpg",
           "season": 1,
           "episode": 70
@@ -3807,8 +3814,8 @@
           "url": "https://myanimelist.net/anime/19/Monster/episode/71"
         },
         "tmdb": {
-          "vote_average": 8.4,
-          "vote_count": 8,
+          "vote_average": 8.6,
+          "vote_count": 9,
           "still": "https://image.tmdb.org/t/p/w500/nRSnVZ2zekxzKseNIgGGDKvCBaV.jpg",
           "season": 1,
           "episode": 71
@@ -3853,7 +3860,7 @@
         },
         "tmdb": {
           "vote_average": 8.4,
-          "vote_count": 8,
+          "vote_count": 9,
           "still": "https://image.tmdb.org/t/p/w500/cYwkZ7sVHuTWj1eKFqcV2vej1Uh.jpg",
           "season": 1,
           "episode": 72
@@ -3897,8 +3904,8 @@
           "url": "https://myanimelist.net/anime/19/Monster/episode/73"
         },
         "tmdb": {
-          "vote_average": 9.0,
-          "vote_count": 8,
+          "vote_average": 9.1,
+          "vote_count": 9,
           "still": "https://image.tmdb.org/t/p/w500/50zYRfi1u6O11VsgKbn84lG0RQx.jpg",
           "season": 1,
           "episode": 73
@@ -3942,8 +3949,8 @@
           "url": "https://myanimelist.net/anime/19/Monster/episode/74"
         },
         "tmdb": {
-          "vote_average": 8.6,
-          "vote_count": 8,
+          "vote_average": 8.8,
+          "vote_count": 9,
           "still": "https://image.tmdb.org/t/p/w500/nPvjX9pqeuNeIlr0YGB9LoT1efh.jpg",
           "season": 1,
           "episode": 74

@@ -15,14 +15,20 @@
     "year": 2023,
     "total_eps": 28,
     "primary_kpi": "imdb",
-    "updated": "2026-09-13",
-    "season": 1
+    "updated": "2026-09-20",
+    "season": 1,
+    "fetched": {
+      "mal": "2026-09-20",
+      "bangumi": "2026-09-20",
+      "imdb": "2026-09-20",
+      "tmdb": "2026-09-20"
+    }
   },
   "about": {
     "cover": "https://cdn.myanimelist.net/images/anime/1015/138006.jpg",
     "backdrop": "https://image.tmdb.org/t/p/w500/rBOnrVlck7BIlGeWVlzYiZeg4l2.jpg",
     "synopsis": {
-      "en": "During their decade-long quest to defeat the Demon King, the members of the hero's party—Himmel himself, the priest Heiter, the dwarf warrior Eisen, and the elven mage Frieren—forge bonds through adventures and battles, creating unforgettable precious memories for most of them.\n\n\n\n\n\nHowever, the time that Frieren spends with her comrades is equivalent to merely a fraction of her life, which has lasted over a thousand years. When the party disbands after their victory, Frieren casually returns to her \"usual\" routine of collecting spells across the continent. Due to her different sense of time, she seemingly holds no strong feelings toward the experiences she went through.\n\n\n\n\n\nAs the years pass, Frieren gradually realizes how her days in the hero's party truly impacted her. Witnessing the deaths of two of her former companions, Frieren begins to regret having taken their presence for granted; she vows to better understand humans and create real personal connections. Although the story of that once memorable journey has long ended, a new tale is about to begin.",
+      "en": "During their decade-long quest to defeat the Demon King, the members of the hero's party—Himmel himself, the priest Heiter, the dwarf warrior Eisen, and the elven mage Frieren—forge bonds through adventures and battles, creating unforgettable precious memories for most of them.\n\r\n\n\r\nHowever, the time that Frieren spends with her comrades is equivalent to merely a fraction of her life, which has lasted over a thousand years. When the party disbands after their victory, Frieren casually returns to her \"usual\" routine of collecting spells across the continent. Due to her different sense of time, she seemingly holds no strong feelings toward the experiences she went through.\n\r\n\n\r\nAs the years pass, Frieren gradually realizes how her days in the hero's party truly impacted her. Witnessing the deaths of two of her former companions, Frieren begins to regret having taken their presence for granted; she vows to better understand humans and create real personal connections. Although the story of that once memorable journey has long ended, a new tale is about to begin.",
       "zh": "魔法使芙莉莲和勇者辛美尔等人一起，历经十年的冒险之后击败了魔王，为世界带来了和平。\r\n身为能活上一千多年的精灵族，她于是和辛美尔等人约定再次相见后，踏上了独自一人的旅途。\r\n自那以后，50年过去，芙莉莲又前往拜访辛美尔，相比于和50年前一点没变的她来说，辛美尔已经年迈体衰，进入了风烛残年。\r\n之后，她目睹了辛美尔迎来他的死亡，痛感自己以往没能“知晓人心\"，陷入后悔的芙莉莲，为了“知晓人心\"，踏上了旅途。\r\n这趟旅途会邂逅各种各样的人，也有各种各样的事情在等待着她。"
     },
     "genres": [
@@ -38,12 +44,12 @@
     "scores": {
       "mal": {
         "score": 9.25,
-        "votes": 933921,
+        "votes": 936066,
         "rank": 1
       },
       "bangumi": {
         "score": 8.5,
-        "votes": 36190,
+        "votes": 36303,
         "rank": 42
       },
       "imdb": {
@@ -51,8 +57,8 @@
         "votes": 84265
       },
       "tmdb": {
-        "score": 8.799,
-        "votes": 958
+        "score": 8.808,
+        "votes": 967
       }
     },
     "links": {
@@ -68,42 +74,42 @@
         "role": "Main",
         "image": "https://cdn.myanimelist.net/images/characters/12/619183.jpg",
         "mal_id": 188176,
-        "favorites": 6011
+        "favorites": 6037
       },
       {
         "name": "Frieren",
         "role": "Main",
         "image": "https://cdn.myanimelist.net/images/characters/7/525105.jpg",
         "mal_id": 184947,
-        "favorites": 32993
+        "favorites": 33059
       },
       {
         "name": "Stark",
         "role": "Main",
         "image": "https://cdn.myanimelist.net/images/characters/7/621924.jpg",
         "mal_id": 188177,
-        "favorites": 3908
+        "favorites": 3909
       },
       {
         "name": "Himmel",
         "role": "Supporting",
         "image": "https://cdn.myanimelist.net/images/characters/16/621925.jpg",
         "mal_id": 186854,
-        "favorites": 5076
+        "favorites": 5080
       },
       {
         "name": "Übel",
         "role": "Supporting",
         "image": "https://cdn.myanimelist.net/images/characters/9/543072.jpg",
         "mal_id": 206725,
-        "favorites": 1703
+        "favorites": 1709
       },
       {
         "name": "Eisen",
         "role": "Supporting",
         "image": "https://cdn.myanimelist.net/images/characters/13/523293.jpg",
         "mal_id": 196825,
-        "favorites": 539
+        "favorites": 541
       },
       {
         "name": "Flamme",
@@ -117,35 +123,35 @@
         "role": "Supporting",
         "image": "https://cdn.myanimelist.net/images/characters/16/523294.jpg",
         "mal_id": 196826,
-        "favorites": 408
+        "favorites": 410
       },
       {
         "name": "Denken",
         "role": "Supporting",
         "image": "https://cdn.myanimelist.net/images/characters/2/626193.jpg",
         "mal_id": 215250,
-        "favorites": 354
+        "favorites": 355
       },
       {
         "name": "Sein",
         "role": "Supporting",
         "image": "https://cdn.myanimelist.net/images/characters/12/529669.jpg",
         "mal_id": 196912,
-        "favorites": 354
+        "favorites": 355
       },
       {
         "name": "Methode",
         "role": "Supporting",
         "image": "https://cdn.myanimelist.net/images/characters/14/538692.jpg",
         "mal_id": 215303,
-        "favorites": 297
+        "favorites": 299
       },
       {
         "name": "Serie",
         "role": "Supporting",
         "image": "https://cdn.myanimelist.net/images/characters/4/536851.jpg",
         "mal_id": 211285,
-        "favorites": 266
+        "favorites": 267
       },
       {
         "name": "Sense",
@@ -159,7 +165,7 @@
         "role": "Supporting",
         "image": "https://cdn.myanimelist.net/images/characters/10/524719.jpg",
         "mal_id": 206722,
-        "favorites": 92
+        "favorites": 91
       },
       {
         "name": "Land",
@@ -180,7 +186,7 @@
         "role": "Supporting",
         "image": "https://cdn.myanimelist.net/images/characters/7/537235.jpg",
         "mal_id": 215261,
-        "favorites": 53
+        "favorites": 54
       },
       {
         "name": "Linie",
@@ -343,11 +349,11 @@
         }
       },
       "synopsis": {
-        "en": "Heiter advises Frieren that a certain spell from a grimoire is dangerous because it \"destroys relationships\", but Frieren tests the spell on Himmel nonetheless. The rest of Himmel's party hear what Himmel is thinking: he thinks that himself is handsome in any circumstances. Heiter then says that hearing what someone is thinking is not always a good thing.",
+        "en": "The world celebrates the Demon King's defeat at the hands of the Hero and his companions. Now that their great adventure is over, what will Frieren the mage do next?",
         "zh": "英雄辛美尔一行人击败了魔王，凯旋王都。当他们纷纷回顾过去十年的冒险并思考未来的生活时，精灵芙莉莲不为所动，并投入到另一场对魔法的研究。时光荏苒，同伴们相继老去，只有芙莉莲容颜不改。50年后的一天，与同伴相约再聚的芙莉莲回到首都。在这次重逢过后，她决定踏上新的旅程，去寻找自己新的意义。"
       },
       "title_native": "冒険の終わり",
-      "title_en": "Spell That Makes You Say What You're Thinking",
+      "title_en": "The Journey's End",
       "title_cn": "冒险结束",
       "aired": "2023-09-29",
       "heat": {
@@ -420,11 +426,11 @@
         }
       },
       "synopsis": {
-        "en": "At a bar, Frieren tests a spell over the mugs of beer. Frieren, Eisen and Himmel then drink the alcohol-free beer, which, to them, tastes the same as one with alcohol. However, Heiter, who is obsessed with alcoholic beverages, notices a subtle difference.",
+        "en": "Frieren instructs Fern in the use of magic while deciphering a grimoire for Heiter.",
         "zh": "芙莉莲拜访了住在森林深处的海塔，并见到了与他住在一起的孤儿菲伦。海塔请芙莉莲教她魔法。后来，因为某件事，他们一起踏上了旅程。在旅行时，芙莉莲参观了一个有辛美尔雕像的村庄，并想起了辛美尔生前说过他喜欢的花……"
       },
       "title_native": "別に魔法じゃなくたって...",
-      "title_en": "Spell That Removes Alcohol Content from Alcoholic Beverages",
+      "title_en": "It Didn't Have to Be Magic…",
       "title_cn": "不见得一定是靠魔法…",
       "aired": "2023-09-29",
       "heat": {
@@ -465,11 +471,11 @@
         }
       },
       "synopsis": {
-        "en": "As Frieren always wakes up from her sleep much later in a late morning, Fern casts a spell on Frieren to force her to get up at 6 in the morning. The next morning, Frieren awakes exactly at 6 in the morning, but still appears to be sleepy. As Frieren and Fern was about to have a breakfast meal, Frieren is fallen asleep again. Then, Fern starts reading a grimoire to look for a spell to prevent a person to fall asleep again.",
+        "en": "While retracing the path she took on her adventure with her former traveling companions, Frieren confronts an old enemy.",
         "zh": "芙莉莲和菲伦抵达贸易城市瓦尔姆。菲伦对芙莉莲的行为产生了怀疑，并决定跟踪她。芙莉莲的目的是什么？随后，两人来到了某个村庄。芙莉莲和辛美尔曾经战斗过的恶魔夸尔被封印在那里。"
       },
       "title_native": "人を殺す魔法",
-      "title_en": "Spell That Allows You to Wake Up at a Specific Time in the Morning",
+      "title_en": "Killing Magic",
       "title_cn": "杀人魔法",
       "aired": "2023-09-29",
       "heat": {
@@ -518,11 +524,11 @@
         }
       },
       "synopsis": {
-        "en": "Frieren and Fern discuss what exactly is \"good\" about a body scent spell, before Frieren tries it on Stark, who then starts smelling like grilled meat. Stark asks Frieren and Fern what to have for dinner that night, and the women answer that they would like to eat meat, which immediately scares Stark.",
+        "en": "Frieren and Fern pay a visit to Eisen, who requests their help in finding the notes of Flamme the Legendary Mage.",
         "zh": "芙莉莲和菲伦拜访了艾泽。一番叙旧过后，艾泽请求他们帮助自己找到“大魔法师伏拉梅的回忆录”。于是他们三人来到森林深处，那里躺着海塔生前发现的回忆录。然而，他们被告知，大部分所谓的伏拉梅回忆录都是假的。那么，那个地方的回忆录到底是假的还是……？"
       },
       "title_native": "魂の眠る地",
-      "title_en": "Spell That Makes Your Body Smell Good",
+      "title_en": "The Land Where Souls Rest",
       "title_cn": "灵魂长眠之地",
       "aired": "2023-09-29",
       "heat": {
@@ -563,11 +569,11 @@
         }
       },
       "synopsis": {
-        "en": "Frieren tries a spell that makes someone lucky on Stark, who then goes on to pick a path with fewer monsters to encounter, and win a lottery (the prize of which is high-quality meat). Sein then asks Frieren to cast the same spell on him, but the spell does not work on Sein, who is addicted to gambling, as he returns to Frieren's party with nothing but his underwear.",
+        "en": "Frieren and Fern investigate ghost sightings at a village where people have started going missing.",
         "zh": "芙莉莲与菲伦决定朝着伏拉梅留下的手记中所记载的地点“灵魂长眠之地”前进，便与艾泽道别并踏上旅途。究竟在如今魔王城所在的那个地方，能否与辛美尔说上话呢……途中，两人造访了某个村子后，听到村民说有好几个人遭到幽灵带走而失踪的消息……"
       },
       "title_native": "死者の幻影",
-      "title_en": "Spell That Makes You Lucky",
+      "title_en": "Phantoms of the Dead",
       "title_cn": "死者的幻影",
       "aired": "2023-10-06",
       "heat": {
@@ -599,7 +605,7 @@
       "sources": {
         "mal": {
           "score": 4.49,
-          "forum_replies": 341,
+          "forum_replies": 342,
           "url": "https://myanimelist.net/anime/52991/Sousou_no_Frieren/episode/6"
         },
         "imdb": {
@@ -622,15 +628,15 @@
         }
       },
       "synopsis": {
-        "en": "Sein asks Frieren if their party could make money using the spell that removes tough oil stains from kitchenwares. Soon, many villagers turn up with oil-stained kitchenwares to Frieren, who now has to handle so many requests, and then calls Fern for help.",
+        "en": "Frieren and Fern enlist Stark's help to fight the solar dragon - but is he up to the task?",
         "zh": "休塔尔克居住在里格尔峡谷附近的村庄，他因为从红镜龙手中保护了村子而被誉为村子的英雄，但其实他是个胆小鬼。即使如此，芙莉莲仍对他的实力抱有期望，而向他提议要一起打倒红镜龙。休塔尔克有着能劈开巨石的力量，他的手却会不停发抖。究竟他会不会出现在战场上呢？"
       },
       "title_native": "村の英雄",
-      "title_en": "Spell to Remove Tough Oil Stains",
+      "title_en": "The Hero of the Village",
       "title_cn": "村子的英雄",
       "aired": "2023-10-13",
       "heat": {
-        "mal_replies": 341,
+        "mal_replies": 342,
         "bangumi_comments": 372,
         "imdb_votes": 5307
       },
@@ -644,7 +650,7 @@
       "sources": {
         "mal": {
           "score": 4.53,
-          "forum_replies": 337,
+          "forum_replies": 338,
           "url": "https://myanimelist.net/anime/52991/Sousou_no_Frieren/episode/7"
         },
         "imdb": {
@@ -667,15 +673,15 @@
         }
       },
       "synopsis": {
-        "en": "Frieren casts a language skill spell on Eisen. With the spell, Eisen speaks more efficiently than before. But as Eisen recounts an earlier battle Himmel's party fought, his movement gets faster as he speaks. Frieren and Heiter then think that Eisen has gone out of his character.",
+        "en": "After reflecting on the transient nature of the past as it exists in people's collective memories, Frieren unexpectedly runs into a sworn enemy.",
         "zh": "芙莉莲等人来到了一座城镇，当地在举办名为“解放祭”的祭典前夜祭。那里是过去芙莉莲与辛美尔等人从魔族手中保护的城镇。芙莉莲见到他们的铜像被建造于城镇中，想起了某件事。之后，芙莉莲造访古拉纳特伯爵治理的城镇，她却在那里突然朝某个人物举起法杖！"
       },
       "title_native": "おとぎ話のようなもの",
-      "title_en": "Spell That Allows You to Speak Quickly and Clearly",
+      "title_en": "Like a Fairy Tale",
       "title_cn": "童话般的事物",
       "aired": "2023-10-20",
       "heat": {
-        "mal_replies": 337,
+        "mal_replies": 338,
         "bangumi_comments": 349,
         "imdb_votes": 4999
       },
@@ -715,7 +721,7 @@
       "sources": {
         "mal": {
           "score": 4.66,
-          "forum_replies": 397,
+          "forum_replies": 398,
           "url": "https://myanimelist.net/anime/52991/Sousou_no_Frieren/episode/8"
         },
         "imdb": {
@@ -726,7 +732,7 @@
           "episode": 8
         },
         "tmdb": {
-          "vote_average": 8.625,
+          "vote_average": 8.6,
           "vote_count": 40,
           "still": "https://image.tmdb.org/t/p/w500/6m8vHkqJ8lESCxneLeXPNq5V08f.jpg",
           "season": 1,
@@ -738,15 +744,15 @@
         }
       },
       "synopsis": {
-        "en": "As Stark returns to Frieren and Fern with three fishes he caught, Frieren tries a mind-reading spell on the fishes. Soon, Frieren and Fern hear from the fishes who complain about their upcoming fate. Frieren then decides that she would eat something else, and Fern tells Stark to release the fishes back.",
+        "en": "As tensions in Graf Granat's domain reach a breaking point, Fern and Stark find their own resolve - and Frieren resumes an old duty.",
         "zh": "侍奉魔族阿乌拉的琉古纳他们来向古拉纳特伯爵提出和谈，芙莉莲由于企图对他们施放魔法，而被逮捕并送入监牢。琉古纳将做出此举的芙莉莲视为危险人物，同样隶属于阿乌拉的多拉特则盯上了芙莉莲的性命。菲伦与修塔尔克也为了救出芙莉莲展开行动。"
       },
       "title_native": "葬送のフリーレン",
-      "title_en": "Spell That Detects the Thoughts of Fish",
+      "title_en": "Frieren the Slayer",
       "title_cn": "葬送的芙莉莲",
       "aired": "2023-10-27",
       "heat": {
-        "mal_replies": 397,
+        "mal_replies": 398,
         "bangumi_comments": 332,
         "imdb_votes": 6037
       },
@@ -768,7 +774,7 @@
       "sources": {
         "mal": {
           "score": 4.71,
-          "forum_replies": 515,
+          "forum_replies": 517,
           "url": "https://myanimelist.net/anime/52991/Sousou_no_Frieren/episode/9"
         },
         "imdb": {
@@ -791,15 +797,15 @@
         }
       },
       "synopsis": {
-        "en": "Inside a dungeon, there are three closed treasure chests in front of Frieren's party. Fern guesses that at least one of the three chests could be a mimic chest. Stark then asks for a spell that makes someone lucky. The first chest opened has treasures, the second one has a grimoire, and the third and last one opened is a mimic chest. Fern then asks Frieren if she picked the third one on purpose.",
+        "en": "While Fern and Stark make a temporary retreat with Graf Granat, Frieren's true foe awaits her outside the city.",
         "zh": "芙莉莲独自离开城镇，并与七崩贤“断头台阿乌拉”对峙。有着庞大魔力的阿乌拉操控死者军团，一个接一个向芙莉莲发起攻击。另一方面，菲伦与修塔尔克救出古拉纳特伯爵，但琉古纳与莉妮耶的魔爪也伸向了他们两人……芙莉莲一行人与阿乌拉军的战况即将白热化。"
       },
       "title_native": "断頭台のアウラ",
-      "title_en": "Spell That Makes You Lucky, Part 2",
+      "title_en": "Aura the Guillotine",
       "title_cn": "断头台阿乌拉",
       "aired": "2023-11-03",
       "heat": {
-        "mal_replies": 515,
+        "mal_replies": 517,
         "bangumi_comments": 584,
         "imdb_votes": 6880
       },
@@ -813,7 +819,7 @@
       "sources": {
         "mal": {
           "score": 4.74,
-          "forum_replies": 688,
+          "forum_replies": 689,
           "url": "https://myanimelist.net/anime/52991/Sousou_no_Frieren/episode/10"
         },
         "imdb": {
@@ -836,15 +842,15 @@
         }
       },
       "synopsis": {
-        "en": "Frieren discovers a grimoire with an unusual language skill spell. Among Himmel's party, Heiter finds the spell interesting, and suggests the spell to be cast on all party members, whoever laughs first loses the game, and other members use the loser's odd sentence ending for a week, which Himmel agrees. Himmel, Frieren and Heiter each end their words with an odd ending, but, not so sure about what have come out so far, they hold their laughter, and wait for Eisen's turn. In the end, everyone but Eisen burst out laughter.",
+        "en": "Frieren's many years of training under her teacher Flamme are tested in her confrontation with Aura the Guillotine. Will Aura's scales find her wanting?",
         "zh": "大魔法使伏拉梅，存活于千年以前，身为人类却是在历史上被誉为“英雄”的魔法使。她某天在遭到魔王军袭击而全灭的精灵聚落中，遇见了独自幸存下来的芙莉莲。伏拉梅教导芙莉莲的事物究竟是……然后，芙莉莲与阿乌拉的战斗终于分出胜负。"
       },
       "title_native": "強い魔法使い",
-      "title_en": "Spell That Makes You End Your Sentences Oddly",
+      "title_en": "A Powerful Mage",
       "title_cn": "强大的魔法使",
       "aired": "2023-11-10",
       "heat": {
-        "mal_replies": 688,
+        "mal_replies": 689,
         "bangumi_comments": 540,
         "imdb_votes": 7605
       },
@@ -889,11 +895,11 @@
         }
       },
       "synopsis": {
-        "en": "Just as Frieren's party discuss the clothes cleaning spell Fern has acquired from Serie, Frieren accidentally spills a spoonful of soup on her clothes, which allows Fern to demonstrate the said spell. Impressed by the spell, Stark quickly travels into a forest, which makes his clothes heavily stained. Fern, however, refuses to cast the spell on Stark because he got his clothes dirty on purpose.",
+        "en": "Frieren and her companions continue their journey through the northern lands, but obstacles both natural and manmade still stand in their way.",
         "zh": "芙莉莲、菲伦以及修塔尔克打倒了阿乌拉等魔族。和平到来之后，古拉纳特伯爵吊唁了死后也受到阿乌拉操控的部下，并向芙莉莲表达最大的谢意。芙莉莲等人再次踏上旅程，但冬天的北方诸国道路比想象中还要严峻……而他们在那里遇见了一位武僧。"
       },
       "title_native": "北側諸国の冬",
-      "title_en": "Spell to Make Clothes Clean and Spotless",
+      "title_en": "Winter in the Northern Lands",
       "title_cn": "北方诸国的严冬",
       "aired": "2023-11-17",
       "heat": {
@@ -942,7 +948,7 @@
         }
       },
       "synopsis": {
-        "en": "After she destroys a demon, Frieren receives a headpat from Heiter, who then apologises and explains that it was because the height difference between them was just right enough for him to pat her. Frieren is then reminded of a body height extension spell she received earlier as a payment for work. Soon, Frieren, who is now the tallest in Himmel's party, appeals that no one can give her a headpat. However, both Himmel and Heiter give a comment that Frieren has lost what makes her Frieren, which makes her uncomfortable. Eisen, a dwarf, then asks Frieren to make him taller too. Seeing a taller Eisen, the rest of the party agree that Eisen has lost what makes him Eisen, which makes him uncomfortable.",
+        "en": "Deep in the mountains of the northern lands, Frieren and her party arrive at the Village of the Sword, where they have another job to do.",
         "zh": "芙莉莲等人造访了剑之村。那里是辛美尔在80年前拔出“勇者之剑”的地方，而那把剑只有化解毁灭世界的巨大灾厄之人才拔得出来。芙莉莲为了尽到责任与村子四周涌现的魔物对峙，于是来到这个村子。然后在她的脑海中，浮现起80年前的过往回忆……"
       },
       "title_native": "本物の勇者",
@@ -995,7 +1001,7 @@
         }
       },
       "synopsis": {
-        "en": "Stark is hungry, but Fern asks him to endure because Frieren's party are approaching a town soon. Frieren says there is a spell to make someone's stomach feel full immediately, but continues that she does not recommend it. Stark then asks Frieren to cast the spell on him, and he is satisfied with it. The party soon arrive at a restaurant, and Stark complains that he wants to have a meal despite already feeling full. Having finished his meal, Stark's stomach is bloated. Stark asks Frieren to cast a spell to make him hungry, but Frieren says she has no knowledge about it.",
+        "en": "While passing by a village in the woods of the northern lands, Frieren and party meet Sein, a gifted priest who is nonetheless corrupt enough to give even Heiter a run for his money. But what happened in his past?",
         "zh": "在北方诸国阿尔托森林的村庄教堂里，芙莉莲遇到了神父的弟弟——赞恩。赞恩轻而易举地解开了难以治愈的毒素，展示了他高超的魔法技能，令芙莉莲感到惊讶。据说，赞恩曾经梦想成为一名冒险者，但他并没有出发去旅行，而是留在了村里。赞恩的哥哥希望有人能带赞恩离开这里……"
       },
       "title_native": "同族嫌悪",
@@ -1054,7 +1060,7 @@
         }
       },
       "synopsis": {
-        "en": "Land asks Übel if her cutting spell has a use outside combat situations. Übel asks Land back which circumstance would the spell be useful for, and Land mentions cooking. Since she has a free time, Übel tries to use the inn's kitchen to test the spell for such situation. As there is no customer around that time, the inn's chef allows Übel to cook lunch for him. The chef and Land find Übel's spell effective in cutting the indegrients at a right amount, but soon, it is discovered that Übel has no talent in cooking at all.",
+        "en": "The party arrives in a large and lively town with a bustling shopping district that Frieren once visited with Himmel, but something seems to have come up between Fern and Stark.",
         "zh": "僧侣赞因入伙，旅行到兰德地区后的某一天，菲伦和休塔尔克吵了起来。原来是休塔尔克没为菲伦的生日准备任何东西。赞因告知了二人如何和好的建议。之后，芙莉莲对着赞因说了几句话……"
       },
       "title_native": "若者の特権",
@@ -1099,7 +1105,7 @@
         }
       },
       "synopsis": {
-        "en": "Richter expresses his complaint towards Denken and Laufen because the two visit Richter's store like everyday. In addition, Richter comments that Denken and Laufen are getting along like if they were grandfather and granddaughter. Laufen says she is hungry, but Richter says there is nothing to eat. Laufen then uses her high speed moving spell to check Richter's kitchen. As Laufen calls Denken 'grandfather', Denken gives Laufen a coin, and Laufen uses the same spell to buy a doughnut.",
+        "en": "When the party happens upon a town whose inhabitants are all mysteriously asleep, it's time for their newest traveling companion to prove his mettle.",
         "zh": "芙莉莲等人来到了拉欧布丘陵的村子，村民们却因为某种“诅咒”而沉睡着。根据芙莉莲所说，僧侣由于有女神大人的加护，“诅咒”很难对他们生效。对“诅咒”拥有抗性与知识的赞恩查出诅咒的种类与源头，四人便前往消灭造成沉睡的魔物。"
       },
       "title_native": "厄介事の匂い",
@@ -1135,7 +1141,7 @@
       "sources": {
         "mal": {
           "score": 4.5,
-          "forum_replies": 270,
+          "forum_replies": 271,
           "url": "https://myanimelist.net/anime/52991/Sousou_no_Frieren/episode/16"
         },
         "imdb": {
@@ -1158,7 +1164,7 @@
         }
       },
       "synopsis": {
-        "en": "In a hot summer, Frieren's party are roaming in a particularly warmer area. Stark wants to take a rest in a shade under a big tree until the sun goes down, but Fern insists that the party needs to get into a town within a daytime because they have no food. Frieren then remembers a spell that cools down the area around someone's body, which she seldom used before. Stark asks Frieren to cast the spell anyway. The party are initially satisfied with the spell, but it gets colder than expected, and they each wear a coat. Stark asks Frieren to adjust the coolness, but Frieren just remembered that it cannot be adjusted. Fern then asks Frieren to undo the spell, but Frieren just realises that she fotgot how to undo it, since she has not used the spell for a long time. The party members end up wearing down-to-ankle hooded down jacket.",
+        "en": "Frieren pays a visit to Old Man Voll, a long-lived friend of hers, with traveling companions in tow.",
         "zh": "芙莉莲等四人拜访了弗尔爷爷 ── 她过去与辛美尔等人冒险时遇见的矮人战士。那位爷爷一直守护着某个村子，不让它被魔物攻击。芙莉莲在与他聊天的过程中，回想起辛美尔说过的话……之后，他们造访某个聚落，那里有着过去与赞恩约好，要一起成为冒险者的亲友足迹。"
       },
       "title_native": "長寿友達",
@@ -1166,7 +1172,7 @@
       "title_cn": "长寿朋友",
       "aired": "2023-12-22",
       "heat": {
-        "mal_replies": 270,
+        "mal_replies": 271,
         "bangumi_comments": 195,
         "imdb_votes": 4289
       },
@@ -1211,7 +1217,7 @@
         }
       },
       "synopsis": {
-        "en": "Just as a demon was about to use its special move, Frieren uses a spell to block it. The demon panics because it cannot use the move, before Eisen slashes it. Heiter praises the spell, but Eisen wonders if it only blocks a particular skill one is highly specialised in, and Himmel joins in the debate. Heiter then suggests that Frieren cast the spell on Himmel, and then Himmel and Eisen fight each other in a wood branch duel. As Himmel and Eisen begin a fight, Himmel cannot make a move at all. Turns out, Himmel's special move was a 'handsome guy pose'.",
+        "en": "Now that Sein finally has a lead on the whereabouts of his long-lost friend, is it time for him and Frieren's party to part ways?",
         "zh": "赞恩问到了好友战士大猩猩的行踪，但他的去向却与芙莉莲等人的目的地不同方向。就在这时，四人驻足的聚落遇到寒流，被迫在那停留一个月，而他们用了各自的方式来享受这段日子。某天，菲伦跟修塔尔克吵架，芙莉莲去找赞恩帮忙，但是……"
       },
       "title_native": "じゃあ元気で",
@@ -1256,7 +1262,7 @@
         }
       },
       "synopsis": {
-        "en": "Wirbel gives up on turning Stark into his companion, but then Frieren asks if one cannot escape Wirbel's binding spell, and Wirbel offers to test the spell on Frieren. Once Frieren's party witness how effective is Wirbel's spell, they insist Wirbel to try it on animals like a flying bird, a rampaging bull, and a jumping fish. Fern says that the spell would be useful when they have no food or when they are hunting something, Frieren thinks that each party will need a person who can cast the spell, and Stark offers Wirbel to join Frieren's party, but Wirbel declines.",
+        "en": "Frieren and party finally arrive in Äußerst, ready to undergo the first-class mage exam, and meet a number of colorful characters who are there to do the same.",
         "zh": "芙莉莲等人与赞恩道别，来到了魔法都市欧伊沙斯特。想要进入前方的北部高原，就有义务要找一级魔法使同行。一级魔法使测验会出现无人合格的情况，也会出现伤亡，是个非常困难的考试。干练的魔法使们都齐聚到芙莉莲与菲伦前往的测验会场当中。"
       },
       "title_native": "一級魔法使い選抜試験",
@@ -1298,7 +1304,7 @@
       "sources": {
         "mal": {
           "score": 4.57,
-          "forum_replies": 290,
+          "forum_replies": 291,
           "url": "https://myanimelist.net/anime/52991/Sousou_no_Frieren/episode/19"
         },
         "imdb": {
@@ -1321,7 +1327,7 @@
         }
       },
       "synopsis": {
-        "en": "Himmel is posing for a statue, but he changes his position frequently that the artist cannot decide on which one to use. Frieren is reminded that Heiter and Himmel are childhood friends, and asks Heiter if Himmel was like this when he was a child: Heiter answers that Himmel was not like that. Eisen guesses Himmel may have changed at a certain point. Frieren then offers to cast a spell that brings back someone's childlike innocence on Himmel, hoping that, once the childhood mindset is back on Himmel, the posing job will end soon. The spell is successful, but Himmel still changes his position too often, meaning that Himmel was what he is now even when he was a child.",
+        "en": "Frieren and her new teammates hatch a plan to capture a Stille - but are the other teams just going to stand by and let it happen?",
         "zh": "一级魔法使考试的第一次考试是每三人分成一个队伍，在明天日落之前捕获在考试场栖息的陨铁鸟，而且队伍必须全员到达，有这两个合格条件。因为难以捕获陨铁鸟，考生之间的争夺也就化作一种幸存下去的方法。与康涅和拉比涅组队的芙莉莲的作战是……"
       },
       "title_native": "入念な計画",
@@ -1329,7 +1335,7 @@
       "title_cn": "精心安排的计划",
       "aired": "2024-01-19",
       "heat": {
-        "mal_replies": 290,
+        "mal_replies": 291,
         "bangumi_comments": 283,
         "imdb_votes": 4211
       },
@@ -1375,7 +1381,7 @@
       "sources": {
         "mal": {
           "score": 4.51,
-          "forum_replies": 321,
+          "forum_replies": 322,
           "url": "https://myanimelist.net/anime/52991/Sousou_no_Frieren/episode/20"
         },
         "imdb": {
@@ -1398,7 +1404,7 @@
         }
       },
       "synopsis": {
-        "en": "As a payment for work, Frieren acquires a grimoire with a spell that exchanges each other's mind, but Fern insists not to use the spell, as Fern thinks it will embarrass everyone around. Stark is interested, and says that he wants to exchange his and Eisen's. Frieren insists on trying the spell, and exchanges her and Fern's. The spell is successful, but after a few days, Fern (in Frieren's body) insists Frieren (in Fern's body) to undo the spell.",
+        "en": "The first-class mage exam intensifies as fighting breaks out between the participants - and what's at stake might even be worth killing for.",
         "zh": "一级魔法使测验的第一次测验，菲伦对上艾莉、威亚贝尔对上尤蓓尔，兰特则与夏尔夫对峙。威亚贝尔在和尤蓓尔各自用着自己的魔法战斗时，从她身上感受到了危险的气息……另一方面，芙莉莲小队捕获到陨铁鸟，却遭到邓肯、利希塔与拉欧芬这队锁定。"
       },
       "title_native": "必要な殺し",
@@ -1406,7 +1412,7 @@
       "title_cn": "必要的杀戮",
       "aired": "2024-01-26",
       "heat": {
-        "mal_replies": 321,
+        "mal_replies": 322,
         "bangumi_comments": 308,
         "imdb_votes": 4203
       },
@@ -1457,7 +1463,7 @@
         }
       },
       "synopsis": {
-        "en": "Fern has passed the First Class Mage exam, and Serie offers to teach Fern a special spell. Fern, after taking some time, asks for a laundry spell. Serie suggests a variety of laundry spells, but Fern wonders if Serie is hiding a legendary spell that is at the core of laundry. Reluctantly, Serie says that there is a spell that completely removes stains from clothes, which Fern accepts. The other day, Serie questions Sense (who uses magic with her hair) that, if Serie was teaching a special spell to Sense now, what would be Sense's favourite; Sense answers that it would be the spell that simplifies the care of her hair.",
+        "en": "Frieren, Kanne, and Lawine struggle with the 13th party over possession of the Stille, but there'll be more surprises in store before their battle, and the first test, reach their conclusion.",
         "zh": "一级魔法使测验的第一次测验中，芙莉莲等人的陨铁鸟遭到邓肯小队夺走。康涅与拉比涅因为跟利希塔的魔力相差甚远而陷入苦战，芙莉莲则在与邓肯的战斗中筹划着某个计策。日落，第一次测验的时限逐渐逼近，究竟谁能进入第二次测验！？"
       },
       "title_native": "魔法の世界",
@@ -1510,7 +1516,7 @@
         }
       },
       "synopsis": {
-        "en": "After defeating demons (who were Revolte's henchmen), Frieren, Fern and Methode are about to head back to where Stark is. Methode (who is obsessed with cute women who are shorter than her in body height) asks if she can give Frieren a headpat again, but Fern rejects the offer. On the way back to where Stark is, Frieren and Fern are curious about what Methode is thinking, and Frieren casts a spell that lets someone say what one is thinking audibly on Methode. It turns out that, not only giving Frieren a headpat, Methode also wants to give Frieren a tight hug and a cheek-to-cheek contact, and do the same on Fern, Serie and Sense. After that, Methode, who is now also worried about Genau, suggests Frieren and Fern to hurry up. Frieren and Fern are suddenly hiding behind a tree, and Frieren asks Methode to walk in front of the two.",
+        "en": "After the conclusion of the first test, the exam participants have some time to kill in town. What do mages get up to on their days off?",
         "zh": "第一次测验有18人合格，芙莉莲与菲伦也晋级至第二次测验。测验将在三天后举办，合格者们各自解散，等待测验时间到来。芙莉莲等人也回到了旅馆，但修塔尔克因为某件事惹得菲伦不高兴。为了让她消气，三人一起走向欧伊沙斯特的街上。然后，考生们偶然地碰面……"
       },
       "title_native": "次からは敵同士",
@@ -1532,7 +1538,7 @@
       "sources": {
         "mal": {
           "score": 4.66,
-          "forum_replies": 358,
+          "forum_replies": 359,
           "url": "https://myanimelist.net/anime/52991/Sousou_no_Frieren/episode/23"
         },
         "imdb": {
@@ -1555,7 +1561,7 @@
         }
       },
       "synopsis": {
-        "en": "Sense congratulates the 18 individuals who passed the first test and proceeds to outline the parameters of the second test. To pass the test, the examinees must reach the bottom of the 'Ruins of the King's Tomb' dungeon. Sense, a pacifist who despises fighting, declares that everyone reaching the bottom will pass. She also distributes bottles that if shattered, will summon a golem that will help the mage escape the dungeon, but using it will automatically fail the mage who uses it, making it a last resort. In addition, the bottles will automatically shatter at dawn of the next day, making that the time limit for the exam. An examinee notes that no adventuring party has ever successfully cleared this dungeon, but Sense retorts that a first-class mage should be up to the task. Denken suggests that all of the examinees work together to clear the dungeon, but they all remain mistrustful of each other and split off into separate groups. Sense decides to follow Frieren and Fern, and despite Frieren falling for mimics several times, they are able to progress deep into the dungeon. Frieren mentions she picked up a knack for exploring dungeons due to Himmel's love of exploring them. Sense asks what Fern's motivation to be a mage is since she cannot sense any ambition and determination in her, and Fern replies that she enjoys seeing Frieren happy. Meanwhile, both Wirbel and Denken's groups encounter replicas of themselves that can perfectly copy their magic and fighting styles. Denken's group manages to defeat a replica of Laufen, only to encounter a replica of Frieren afterwards.",
+        "en": "The aspiring first-class mages now face their second test: conquering the Ruins of the King's Tomb. A simple task, or so the proctor claims, but there's a reason this particular dungeon remains unexplored.",
         "zh": "一级魔法使测验第二次测验，主考官冉则准备的测验内容是攻略迷宫，并声称所有抵达“零落的王墓”最深处的人都算合格。然而那里是个未曾有人走遍，难以攻破的迷宫。芙莉莲等考生各自进入内部，在里头等待着他们的则是魔物、陷阱，以及惊人的“魔法”。"
       },
       "title_native": "迷宮［ダンジョン］攻略",
@@ -1563,7 +1569,7 @@
       "title_cn": "攻略迷宫",
       "aired": "2024-02-16",
       "heat": {
-        "mal_replies": 358,
+        "mal_replies": 359,
         "bangumi_comments": 307,
         "imdb_votes": 4325
       },
@@ -1608,7 +1614,7 @@
         }
       },
       "synopsis": {
-        "en": "It is revealed the dungeon contains a creature known as a Spiegel that can read the memories of those who enter the dungeon and use that information to craft perfect replicas of the raiders. Denken's party attempt to confront the Frieren replica but are forced to withdraw. Übel and Land are cornered by an Übel replica. They successfully work together to destroy it, with Übel correctly guessing that Land would intervene to prevent her from dying for his sake. While exploring, Frieren uncovers a hidden section of the dungeon containing a long lost mural. She, Fern, and Sense then make their way to the bottom of the dungeon where Denken's party is waiting. They warn Frieren about her replica and discuss methods they may use to defeat her. However, they realize Frieren is immune to restraint and hypnosis magic so they will have to find another weakness to exploit. Edel's party runs into a replica of Sense. Edel tries to mind control it, but the replica does not have a mind and cannot be controlled. Edel is injured and is forced to break her bottle and escape. She orders her party members to retreat and warn the other mages about what they learned. In a separate fight, Wirbel's party manages to defeat their replicas by choosing favorable match ups for each member. With no other ideas, Denken and Frieren conclude that brute force is their only option. Fern suggests that, with their assistance, she can kill the Frieren replica.",
+        "en": "Due to the Spiegel, a legendary monster that can create perfect replicas of others, the test-takers who would conquer the Ruins of the King's Tomb must first face the ultimate enemy: themselves.",
         "zh": "考生们在第二次测验进入迷宫“零落的王墓”，而挡在众人面前的是他们的复制体。那些复制体是由魔法制成的实体，实力、魔力与技术都完全与本人相同。期间，尤蓓尔他们遭遇了自己的复制体。另一方面，邓肯等人则被阻挡在芙莉莲的复制体面前……"
       },
       "title_native": "完璧な複製体",
@@ -1667,7 +1673,7 @@
         }
       },
       "synopsis": {
-        "en": "Dünste informs Denken's and Frieren's parties that Edel has retreated from the dungeon and that mind control is not an option against the replicas. Lawine and Kanne arrive at the scene and tell the parties that the monster they are facing is a Spiegel and that the replicas it creates have no unique weaknesses. Everyone present concludes that Frieren's replica must be defeated before they can destroy the Spiegel. Before heading into battle, Fern discloses Frieren's fatal weakness: she cannot detect mana when she casts a spell, a vulnerability typically found in beginner mages. After the discussion, Fern and Frieren are chosen to confront Frieren's replica. Everyone else remains in place to protect them from potential attacks by other replicas. Frieren and her replica are evenly matched, and Fern waits for an opening to hit the replica with Zoltraak. In a flashback, Frieren hands Serie a will from Flamme. The will reveals that Flamme convinced the human emperor to allow humans to adopt magic. Serie remarks that this is the start of the era of humans, and eventually human mages will be able to surpass even Elves like herself and Frieren. In the present, Fern strikes Frieren's replica directly with a full-power Zoltraak.",
+        "en": "A perfect imitation of Frieren stands between the test-takers and victory, but Fern believes she knows how to win. Is it time for the student to surpass the master?",
         "zh": "要达成第二次测验的合格条件——前往迷宫最深处的话，就必须打倒芙莉莲的复制体。芙莉莲与菲伦跟在复制体前方的邓肯及拉比涅等人会合，魔法使们各自运用自己知道的情报和知识，拟定打倒复制体的作战计划。讨论过程中，芙莉莲的脑海中浮现了记忆……"
       },
       "title_native": "致命的な隙",
@@ -1720,7 +1726,7 @@
         }
       },
       "synopsis": {
-        "en": "Fern's Zoltraak fails to kill the replica of Frieren. Frieren acknowledges that she anticipated her replica surviving the attack, noting that it was always destined to be a battle of attrition. At the entrance to the final part of the dungeon, Denken and Methode determine the locations of the remaining replicas and strategize on how best to combat them. The mages face off against their best match-ups and successfully eliminate a large number of replicas. Following Lawine and Richter's success in defeating replicas of Kanne and Lawine, they are ambushed by Sense's replica, which impales Richter and Lawine. Forced to break their bottles, Lawine and Richter are eliminated from the test. Denken, Land, and Übel arrive to the scene and decide on their next course of action. Übel claims she can beat Sense as she can visualize her cutting magic easily slicing apart Sense's hair magic. In a flashback, Übel managed to cut a first class mage in half despite their incredibly high defense enchanted clothing. Sense explains that Übel can perceive clothing and hair as something she can easily cut, therefore she should win the fight against her replica. In the present, Übel kills Sense's replica. Methode talks to Wirbel's party and gets their buy in on the plan to delay the other replicas while Frieren's replica is being fought against. After Denken's team runs into resurrected replicas, they realize that until the Spiegel is defeated the replicas will keep coming back to life. Frieren creates an opening, and Fern manages to inflict a lethal injury on the replica. However, when Fern attempts to finish off the replica, it counters with a telekinetic ability, nearly killing her. Impressed by the spell, Fern remarks that this attack is truly the height of magic. Frieren finishes off her replica, and they proceed to destroy the Spiegel. The remaining examinees reach the bottom of the dungeon, and Sense congratulates them for passing the second test. Meanwhile, the failed examinees wait at the entrance as their golems heal them.",
+        "en": "To defeat Spiegel, Frieren and Fern fight against Frieren's replica, but have a tough time. Meanwhile, Denken, Lavine, and the others fight against the replicas, but the magic of Sense, a first-class mage and the exam's proctor, rages.",
         "zh": "神话时代的魔物施皮格尔，居住在荒落的王陵，并创造了进入王陵的人的复制体。为了打败施皮格尔，芙莉莲和菲伦与芙莉莲的复制体进行战斗，但战斗十分艰难。另一方面，登肯和拉比涅等人也与复制体进行战斗，但是，作为考官的一级魔法师赞泽的复制体的魔法正在大肆挥舞。"
       },
       "title_native": "魔法の高み",
@@ -1742,7 +1748,7 @@
       "sources": {
         "mal": {
           "score": 4.69,
-          "forum_replies": 436,
+          "forum_replies": 437,
           "url": "https://myanimelist.net/anime/52991/Sousou_no_Frieren/episode/27"
         },
         "imdb": {
@@ -1765,7 +1771,7 @@
         }
       },
       "synopsis": {
-        "en": "Fern is upset with Frieren, feeling that Frieren does not comprehend her emotions. Fern confides in Stark that Frieren requested her to replace her staff, which had broken during the second exam. The staff, a gift from Heiter, held great sentimental value for Fern. Kanne comforts Lawine, who laments having to wait another three years before she can attempt the first-class exam again while Denken gives words of encouragement to Richter. Frieren arrives to the shop after Denken leaves and convinces Richter to repair Fern's staff. After Fern and Stark return to the inn, Fern discovers her repaired staff and recalls Heiter telling her about Frieren's deep care for others. The third exam commences, and all participants await instructions. Serie says that she will personally proctor the final exam since Frieren's involvement caused more examinees to pass than intended. Serie decides she will conduct one-on-one interviews to determine who deserves the license. Frieren tells Fern that Serie will judge each candidate based on her own intuition and that her intuition is always correct. Examinees enter one at a time and Serie evaluates them at a glance. She immediately fails Kanne for being weak willed, and later Laufen, Dünste, Ehre and Scharf for similar reasons. After Frieren enters, Serie also fails her, because Frieren is not interested in combat magic. Serie questions Frieren on how someone like her managed to defeat the demon king. Frieren responds that she had exceptional allies and could not have achieved it alone. She also points out that interestingly Flamme's flower spell which Serie hates was what inspired a young Himmel to become a hero and recruit Frieren into his party. Fern then enters and notices that Serie's mana is fluctuating similar to Frieren's mana. Serie sees enormous potential in Fern and asks her to be her student, but Fern rejects the proposal. Unwilling to turn away such a promising mage, Serie relents and passes Fern.",
+        "en": "With the second test behind them, only one remains - but first, Frieren and Fern need to settle an important matter in town. What awaits them in the third test?",
         "zh": "攻破零落的王墓后，以芙莉莲与菲伦为首的12名考生通过了第二次测验。芙莉莲为了修理菲伦在测验中被粉碎的法杖，造访了某个地方……而能否在一级魔法使选拔测验的最终测验中合格的关键，就掌握在弗兰梅的师傅——大陆魔法协会创始人赛莉耶手上。"
       },
       "title_native": "人間の時代",
@@ -1773,7 +1779,7 @@
       "title_cn": "人类的时代",
       "aired": "2024-03-15",
       "heat": {
-        "mal_replies": 436,
+        "mal_replies": 437,
         "bangumi_comments": 313,
         "imdb_votes": 4962
       },
@@ -1787,7 +1793,7 @@
       "sources": {
         "mal": {
           "score": 4.64,
-          "forum_replies": 1190,
+          "forum_replies": 1193,
           "url": "https://myanimelist.net/anime/52991/Sousou_no_Frieren/episode/28"
         },
         "imdb": {
@@ -1810,7 +1816,7 @@
         }
       },
       "synopsis": {
-        "en": "Serie concludes her interviews with the remaining examinees, with Denken, Methode, Wirbel, Land and Übel passing by demonstrating either the requisite resolve or traits that align with her militaristic philosophy on magic. The candidates depart with mixed reactions. Later, Fern and Stark meet Denken and Laufen at a bakery, where Denken talks about his late wife. Meanwhile, Wirbel shares his belief in helping strangers, inspired by the hero Himmel, who assisted villages with everyday tasks because he could not turn a blind eye to those in need. The successful examinees then receive their first-class mage privileges, and a receptionist informs them that Serie has banned Frieren from all mage association buildings for a thousand years. Outside, Lernen challenges Frieren to a duel to secure his legacy, but she declines, noting that Serie remembers all her students' personalities and favourite spells, regardless of their historical impact. The next morning, Frieren's party leaves Äußerst. Fern reveals that she had asked for a spell to clean her clothes, which had greatly annoyed Serie. On the city's bridge, Lawine and Kanne thank Frieren for her assistance before both parties exchange a brief farewell. Fern observes the swiftness of their parting, which triggers a flashback to Himmel. He explains his aversion to tearful goodbyes, stating his belief that he will cross paths with people again and that an emotional farewell would be an embarrassment upon their eventual reunion. Following this, Frieren's party continues its journey toward Ende.",
+        "en": "As the first-class mage exam concludes and the test-takers go their separate ways, farewell leads to departure - but the next stage of Frieren's journey has only just begun.",
         "zh": "一级魔法使测验的最终测验，菲伦从赛莉耶口中得知自己合格。后续的邓肯、威亚贝尔以及尤蓓尔等人的测验结果会是……而在结束测验的考生们之间，产生了测验前所没有的奇妙感情……然后，芙莉莲等人从魔法都市欧伊沙斯特启程的时刻逐渐接近……"
       },
       "title_native": "また会ったときに恥ずかしいからね",
@@ -1818,7 +1824,7 @@
       "title_cn": "因为下次再见时会很难为情",
       "aired": "2024-03-22",
       "heat": {
-        "mal_replies": 1190,
+        "mal_replies": 1193,
         "bangumi_comments": 293,
         "imdb_votes": 5093
       },

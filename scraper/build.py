@@ -30,7 +30,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from paths import content_dir  # noqa: E402
-from sync import sync_one, load_json  # noqa: E402
+from sync import sync_one, load_json, pick_file  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 SHOWS = ROOT / "shows"
@@ -86,12 +86,12 @@ def main():
             print(_buf[-1], flush=True)
 
     src_root = content_dir()
-    slugs = [p.name for p in sorted(src_root.iterdir()) if p.is_dir() and not p.name.startswith("_") and (p / "route.json").exists()]
+    slugs = [p.name for p in sorted(src_root.iterdir()) if p.is_dir() and not p.name.startswith("_") and pick_file(p, "route")]
     log(f"build start — {len(slugs)} show(s) on Drive: {', '.join(slugs) or '-'}")
     failed = []
     for slug in slugs:
         try:
-            content = load_json(src_root / slug / "route.json")
+            content = load_json(pick_file(src_root / slug, "route"))
         except Exception as e:
             log(f"[{slug}] route.json unreadable: {e}"); failed.append(slug); continue
         meta = content.get("meta") if isinstance(content, dict) else None
@@ -105,6 +105,21 @@ def main():
             log(f"[{slug}] fetch rc={r.returncode}: {tail}")
             if r.returncode != 0:
                 log(r.stderr.strip()[-400:]); failed.append(slug); continue
+        built = SHOWS / f"{slug}.json"
+        if built.exists() and not need_fetch:
+            m = load_json(built).get("meta") or {}
+            ids_now = dict(m.get("ids") or {})
+            for k, v in ((meta or {}).get("ids") or {}).items():  # Drive 里后补的 ID（如 bangumi 从 null 改成编号）
+                if v not in (None, "") and str(ids_now.get(k) or "") != str(v):
+                    ids_now[k] = v
+            missing = [k for k, v in ids_now.items() if v not in (None, "") and k not in (m.get("fetched") or {})]
+            if missing:
+                args = [PY, str(ROOT / "scraper" / "fetch.py"), slug, "--only", ",".join(missing)]
+                for k in missing:
+                    args += [f"--{k}", str(ids_now[k])]
+                r = run(args)
+                tail = (r.stdout.strip().splitlines() or [""])[-1]
+                log(f"[{slug}] backfill {missing} rc={r.returncode}: {tail}")
         buf = io.StringIO()
         try:
             with contextlib.redirect_stdout(buf):

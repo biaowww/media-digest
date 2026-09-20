@@ -4,7 +4,7 @@
   'use strict';
   const $app = document.getElementById('app');
   const params = new URLSearchParams(location.search);
-  const slug = params.get('show');
+  let slug = params.get('show');
 
   const h = (tag, attrs, ...kids) => {
     const el = document.createElement(tag);
@@ -58,18 +58,45 @@
     return new Map(pairs.map(([x, y]) => [x, y - (my + b * (x - mx))]));
   }
 
+  // 同一 IP 的多个改编版本（meta.series 相同）并成一组：首页一张卡、剧集页顶部 tab。组内按年份排，第一个是默认版本。
+  function groupShows(shows) {
+    const groups = [], byKey = new Map();
+    for (const s of shows || []) {
+      const key = s.series || ('__' + s.slug);
+      if (!byKey.has(key)) { const g = { key, items: [] }; byKey.set(key, g); groups.push(g); }
+      byKey.get(key).items.push(s);
+    }
+    for (const g of groups) {
+      g.items.sort((a, b) => (a.year || 0) - (b.year || 0));
+      g.title = (g.items.find(x => x.series_title) || {}).series_title || g.items[0].title_cn || g.items[0].title;
+    }
+    return groups;
+  }
+  const vLabel = s => s.version_label || (s.year ? String(s.year) : s.slug);
+  function go(newSlug) {  // 站内切换：不整页刷新
+    if (!newSlug || newSlug === slug) return;
+    history.pushState({}, '', '?show=' + encodeURIComponent(newSlug));
+    slug = newSlug; window.scrollTo(0, 0); start();
+  }
+
   // ---------------- 列表页 ----------------
   async function renderList() {
     const r = await fetch('../shows/index.json?t=' + Date.now());  // 绕过 Pages 10 分钟缓存
     const { shows } = await r.json();
+    const groups = groupShows(shows);
     $app.replaceChildren(
       h('h1', {}, '追剧路线', h('small', { class: 'muted', style: 'font-size:13px;font-weight:400;margin-left:8px' }, 'media-digest')),
       h('p', { class: 'muted small' }, '把几十集的长剧压成一条路线：必看的集全速看，跳过的集读摘要，进度记在手机里。'),
-      h('div', { class: 'list' }, shows.map(s => h('a', { class: 'card', href: '?show=' + encodeURIComponent(s.slug) },
-        h('img', { src: s.cover || '', alt: '' }),
-        h('div', {}, h('h3', {}, s.title_cn || s.title), h('div', { class: 'muted small' }, [s.title_cn ? s.title : null, s.year, s.total_eps + ' ' + (s.unit || '集')].filter(Boolean).join(' · ')),
-          h('div', { class: 'muted small' }, s.watch_eps ? `路线：看 ${s.watch_eps} ${s.unit || '集'} + ${s.bridges} 段桥接` : '路线尚未编写')),
-      ))),
+      h('div', { class: 'list' }, groups.map(g => {
+        const s = g.items[0], multi = g.items.length > 1;
+        return h('a', { class: 'card', href: '?show=' + encodeURIComponent(s.slug) },
+          h('img', { src: s.cover || '', alt: '' }),
+          h('div', {}, h('h3', {}, multi ? g.title : (s.title_cn || s.title)),
+            multi
+              ? h('div', { class: 'chips', style: 'margin:4px 0' }, g.items.map(v => h('span', { class: 'chip' }, vLabel(v), ' · ', String(v.total_eps), v.unit || '集')))
+              : h('div', { class: 'muted small' }, [s.title_cn ? s.title : null, s.year, s.total_eps + ' ' + (s.unit || '集')].filter(Boolean).join(' · ')),
+            h('div', { class: 'muted small' }, multi ? `${g.items.length} 个版本，页内 tab 切换` : (s.watch_eps ? `路线：看 ${s.watch_eps} ${s.unit || '集'} + ${s.bridges} 段桥接` : '路线尚未编写'))));
+      })),
       h('footer', {}, 'media-digest'),
     );
   }
@@ -289,11 +316,20 @@
     if (introSec) introSec.id = 'intro';
     chartSec.id = 'chart'; routeSec.id = 'route';
     const jump = id => ev => { ev.preventDefault(); const el = document.getElementById(id); if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' }); };
-    const switcher = h('select', { class: 'switch', 'aria-label': '切换剧集', onchange: ev => { if (ev.target.value) location.search = '?show=' + encodeURIComponent(ev.target.value); } });
+    const switcher = h('select', { class: 'switch', 'aria-label': '切换剧集', onchange: ev => go(ev.target.value) });
     switcher.hidden = true;
+    const vtabs = h('div', { class: 'vtabs' }); vtabs.hidden = true;   // 版本 tab：同系列 ≥2 个版本才出现
+    const mySlug = slug;
     fetch('../shows/index.json?t=' + Date.now()).then(r => r.json()).then(({ shows }) => {
-      if (!shows || shows.length < 2) return;
-      switcher.replaceChildren(shows.map(s => { const o = h('option', { value: s.slug }, s.title_cn || s.title); o.selected = s.slug === slug; return o; }));
+      if (mySlug !== slug) return;  // 已切走
+      const groups = groupShows(shows);
+      const mine = groups.find(g => g.items.some(s => s.slug === slug));
+      if (mine && mine.items.length > 1) {
+        vtabs.replaceChildren(mine.items.map(v => h('button', { 'aria-pressed': String(v.slug === slug), onclick: () => go(v.slug) }, vLabel(v), h('small', {}, ` ${v.total_eps}${v.unit || '集'}`))));
+        vtabs.hidden = false;
+      }
+      if (groups.length < 2) return;
+      switcher.replaceChildren(groups.map(g => { const cur = g === mine; const o = h('option', { value: cur ? slug : g.items[0].slug }, g.items.length > 1 ? g.title : (g.items[0].title_cn || g.items[0].title)); o.selected = cur; return o; }));
       switcher.hidden = false;
     }).catch(() => {});
     const topbar = h('nav', { class: 'topbar' },
@@ -302,10 +338,12 @@
       switcher);
 
     function rerender() { renderProgress(); renderChart(); renderRoute(); }
-    $app.replaceChildren(topbar, hero, introSec, progress, chartSec, routeSec,
+    $app.replaceChildren(topbar, vtabs, hero, introSec, progress, chartSec, routeSec,
       h('footer', {}, h('a', { href: './' }, '全部剧集'), ` · 数据更新 ${meta.updated || '—'}`, ' · 评分各源并列，不合并'));
     rerender();
   }
 
-  (slug ? renderShow() : renderList()).catch(e => { $app.replaceChildren(h('p', { class: 'empty' }, '加载失败：' + e.message)); console.error(e); });
+  function start() { (slug ? renderShow() : renderList()).catch(e => { $app.replaceChildren(h('p', { class: 'empty' }, '加载失败：' + e.message)); console.error(e); }); }
+  window.addEventListener('popstate', () => { slug = new URLSearchParams(location.search).get('show'); start(); });
+  start();
 })();

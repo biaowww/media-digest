@@ -15,14 +15,23 @@
     "year": 2022,
     "total_eps": 13,
     "primary_kpi": "imdb",
-    "updated": "2026-09-16"
+    "updated": "2026-09-20",
+    "series": "berserk",
+    "series_title": "剑风传奇 Berserk",
+    "version_label": "2022 Memorial",
+    "fetched": {
+      "bangumi": "2026-09-20",
+      "imdb": "2026-09-20",
+      "tmdb": "2026-09-20",
+      "wiki": "2026-09-20"
+    }
   },
   "about": {
     "cover": "https://image.tmdb.org/t/p/w500/7esafbDoMRZsVR7AHZYAMkrOnK7.jpg",
     "backdrop": "https://image.tmdb.org/t/p/w500/d5KadFqzjnT4jkjxcdOkcvaCGLx.jpg",
     "synopsis": {
       "en": "When lone swordsman Guts is defeated in a duel by Griffith, ambitious leader of the Band of the Hawk mercenaries, he now must fight for him. Distrustful of all at first, through hard-fought battles, he soon begins to bond with his new comrades and their leader. As they rise in rank to a full-fledged army, he begins to harbor doubts about a life lived by the blade, unaware a dreadful fate that awaits.",
-      "zh": "孤独的雇佣兵格斯在一片百年战争肆虐的土地上旅行。他在战斗中的凶猛和技巧吸引了格里菲斯的注意，他是一群被称为鹰之团的雇佣兵的领袖。勇者成为格里菲斯最亲密的盟友和知己，但尽管他们取得了所有的胜利，勇者开始质疑自己为什么要为另一个人统治自己王国的梦想而战斗。勇者不知道，格里菲斯不屈不挠的野心即将赋予他们俩可怕的命运。"
+      "zh": "我一直只相信我的剑。没有朋友，没有家人，也没有家可归——格斯，一个孤独的剑客，在一片被百年战争震撼的土地上作为雇佣兵四处奔波。胆量能够驾驭比他身高还长的剑，并轻松击败强大的敌人。\r\n雇佣兵组织“鹰之团”的领导人格里菲斯盯上了他。格里菲斯有着从他美丽的外表和巨大的野心中无法想象的指挥能力，他在一次决斗中赢得了格斯，并把他带入了鹰之团，以实现自己的梦想。当他们一起经历无数次激烈的战斗时，他们的朋友因信任而结合在一起。格里菲斯和格斯之间的联系已经成为一种特殊的东西。\r\n鹰之队最终崛起，成为米德兰王国的正规军，但这只是格里菲斯实现登顶目标的第一步。与此同时，格斯被格里菲斯的”梦想“所吸引，并开始质疑自己仅仅挥舞剑的生活。但格斯还不知道，他们无尽的梦想给他们带来的可怕命运……"
     },
     "genres": [
       "Drama",
@@ -39,16 +48,16 @@
       },
       "bangumi": {
         "score": 7.2,
-        "votes": 650,
-        "rank": 1691
+        "votes": 651,
+        "rank": 1686
       },
       "imdb": {
         "score": 8.3,
         "votes": 2810
       },
       "tmdb": {
-        "score": 8.705,
-        "votes": 139
+        "score": 8.7,
+        "votes": 140
       }
     },
     "links": {
@@ -345,7 +354,7 @@
       "title_native": "黄金時代",
       "title_en": "The Golden Age",
       "title_cn": "黄金时代",
-      "aired": "2022-10-02",
+      "aired": "2022-10-01",
       "heat": {
         "mal_replies": 96,
         "bangumi_comments": 8,
@@ -436,7 +445,7 @@
       "title_native": "不死のゾッド",
       "title_en": "Nosferatu Zodd",
       "title_cn": "不死的索特",
-      "aired": "2022-10-09",
+      "aired": "2022-10-08",
       "heat": {
         "mal_replies": 95,
         "bangumi_comments": 14,
@@ -447,7 +456,7 @@
         "summary": "鹰之团受雇为米德兰王国（Kingdom of Midland）与都铎帝国（Tudor Empire）作战。攻打一座城堡时，格斯与格里菲斯遭遇传说中的怪物剑士「不死者佐德」（Nosferatu Zodd），两人联手重伤佐德、自己也险些丧命。佐德看到格里菲斯佩戴的吊坠贝黑莉特（Behelit）后罢手，临走前警告格斯：若格里菲斯的野心破灭，格斯将面对无法逃脱的死亡。",
         "new": [
           {
-            "name": "Nosferatu Zodd",
+            "name": "Zodd Nosferatu",
             "name_cn": "不死者佐德",
             "kind": "recurring",
             "note": "使徒级怪物剑士"
@@ -489,7 +498,7 @@
       "title_native": "剣の主",
       "title_en": "Master of the Sword",
       "title_cn": "剑之主人",
-      "aired": "2022-10-16",
+      "aired": "2022-10-15",
       "heat": {
         "mal_replies": 57,
         "bangumi_comments": 11,
@@ -500,7 +509,7 @@
         "summary": "鹰之团战功卓著，被收编为米德兰正规军，格里菲斯获封贵族，引来王弟尤利乌斯将军（General Julius）等宫廷势力的嫉恨，并遭暗杀未遂。格里菲斯私下命格斯去刺杀尤利乌斯，格斯得手，却在混乱中误杀了目击的尤利乌斯之子阿多尼斯（Adonis），深受冲击。同一晚，格斯无意中听到格里菲斯对夏洛特公主（Princess Charlotte）说：真正的朋友是拥有自己梦想、与他平起平坐的人，而不是追随他梦想的人——这句话开始在格斯心里发酵。",
         "new": [
           {
-            "name": "Charlotte",
+            "name": "Charlotte Beatrix Marie Rhody Windam",
             "name_cn": "夏洛特",
             "kind": "recurring",
             "note": "米德兰公主"
@@ -565,7 +574,7 @@
       "title_native": "決死行",
       "title_en": "Prepared for Death",
       "title_cn": "敢死之行",
-      "aired": "2022-10-23",
+      "aired": "2022-10-22",
       "heat": {
         "mal_replies": 52,
         "bangumi_comments": 6,
@@ -618,7 +627,7 @@
       "title_native": "夢のかがり火",
       "title_en": "Campfire of Dreams",
       "title_cn": "梦之篝火",
-      "aired": "2022-10-30",
+      "aired": "2022-10-29",
       "heat": {
         "mal_replies": 38,
         "bangumi_comments": 8,
@@ -663,7 +672,7 @@
       "title_native": "ドルドレイ 攻略戦",
       "title_en": "The Battle for Doldrey",
       "title_cn": "多尔多雷攻略战",
-      "aired": "2022-11-06",
+      "aired": "2022-11-05",
       "heat": {
         "mal_replies": 38,
         "bangumi_comments": 8,
@@ -716,7 +725,7 @@
       "title_native": "ある雪の夜に…",
       "title_en": "One Snowy Night",
       "title_cn": "在某个下雪的夜晚...",
-      "aired": "2022-11-13",
+      "aired": "2022-11-12",
       "heat": {
         "mal_replies": 32,
         "bangumi_comments": 10,
@@ -724,7 +733,7 @@
       },
       "notes": {
         "title_cn": "某个雪夜",
-        "summary": "凯旋后鹰之团受王国盛大表彰，格里菲斯地位达到顶点。格斯却在庆典后宣布离团。雪夜里格里菲斯拔剑阻拦，两人决斗——这一次格斯一剑击碎格里菲斯的剑，头也不回地离开。团员们目睹这一幕，卡思嘉在去留之间痛苦挣扎。"
+        "summary": "多尔多雷大捷后，鹰之团作为王国英雄受到盛大表彰，格里菲斯地位达到顶点。在篝火夜下定决心的格斯，选在此时向格里菲斯提出离团。雪夜里格里菲斯拔剑拦下他：想走，就用剑说话——两人对峙，决斗一触即发。"
       }
     },
     {
@@ -761,7 +770,7 @@
       "title_native": "夢の終焉",
       "title_en": "Demise of a Dream",
       "title_cn": "梦的终结",
-      "aired": "2022-11-20",
+      "aired": "2022-11-19",
       "heat": {
         "mal_replies": 46,
         "bangumi_comments": 6,
@@ -769,7 +778,7 @@
       },
       "notes": {
         "title_cn": "梦之终焉",
-        "summary": "失去格斯的格里菲斯心神失控，当夜潜入夏洛特公主的寝宫与她发生关系，随即被国王的卫兵拿下，打入地牢遭受长期酷刑。鹰之团被定为叛贼，遭王国军队围剿，被迫流亡，由卡思嘉接过指挥。离团后的格斯则独自在各地战场上磨练剑术。"
+        "summary": "雪夜决斗：格斯一剑击碎格里菲斯的剑，头也不回地离开，卡思嘉在去留之间痛苦挣扎。这件看似不大的事成了一切崩塌的起点：失去格斯的格里菲斯心神失控，当夜潜入夏洛特公主的寝宫与她发生关系，随即被国王的卫兵拿下，打入地牢遭受长期酷刑。鹰之团被定为叛贼，遭王国军队围剿，被迫流亡，由卡思嘉接过指挥。"
       }
     },
     {
@@ -805,8 +814,8 @@
       },
       "title_native": "傷",
       "title_en": "Wounds",
-      "title_cn": "伤",
-      "aired": "2022-11-27",
+      "title_cn": "伤痕",
+      "aired": "2022-11-26",
       "heat": {
         "mal_replies": 59,
         "bangumi_comments": 9,
@@ -814,7 +823,7 @@
       },
       "notes": {
         "title_cn": "伤",
-        "summary": "一年后。流亡中的鹰之团残部被追杀、日益衰败，卡思嘉独力支撑。格斯得知消息赶回，救下被围的团员，但卡思嘉对他当年离开心存怨恨。两人爆发冲突后终于敞开心扉，关系发展为恋人；亲密时格斯童年在佣兵团里遭人侵犯的创伤被触发，卡思嘉接住了他。另一边，鹰之团得到夏洛特公主方面送来的消息，确认了格里菲斯被关押的地点，准备营救。"
+        "summary": "一年后，独自在各地战场磨练剑术的格斯回到鹰之团，发现他们已沦为被追杀的逃亡者，卡思嘉以团长代理的身份独力支撑。格斯救下被围的团员，但卡思嘉对他当年离开心存怨恨。两人爆发冲突后终于敞开心扉，关系发展为恋人；亲密时格斯童年被佣兵多诺万（Donovan）侵犯的创伤被触发，卡思嘉接住了他。另一边，鹰之团得到夏洛特公主方面送来的消息，确认了格里菲斯被关押的地点，准备营救。"
       }
     },
     {
@@ -851,7 +860,7 @@
       "title_native": "深淵の再会",
       "title_en": "Reunion in the Abyss",
       "title_cn": "深渊的重逢",
-      "aired": "2022-12-04",
+      "aired": "2022-12-03",
       "heat": {
         "mal_replies": 31,
         "bangumi_comments": 3,
@@ -859,10 +868,10 @@
       },
       "notes": {
         "title_cn": "深渊的再会",
-        "summary": "格斯、卡思嘉等人潜入王都地下的「再生之塔」（Tower of Rebirth）营救格里菲斯。他们找到的是被酷刑摧残得不成人形的格里菲斯：肌腱被切断、舌头被割，无法说话、无法站立，更无法再挥剑。众人带他杀出重围。逃亡途中佐德再度出现拦截，一名神秘的骷髅骑士（Skull Knight）介入，并对格斯留下警告：「蚀」（Eclipse）即将来临。",
+        "summary": "格斯、卡思嘉等人潜入王都温德姆（Windham）地下的「再生之塔」（Tower of Rebirth）营救格里菲斯。他们找到的是被酷刑摧残得不成人形的格里菲斯：肌腱被切断、舌头被割，无法说话、无法站立，更无法再挥剑。众人带他杀出重围。逃亡途中佐德再度出现拦截，一名神秘的骷髅骑士（Skull Knight）介入，并对格斯留下警告：「蚀」（Eclipse）即将来临。",
         "new": [
           {
-            "name": "Skull Knight",
+            "name": "The Skull Knight",
             "name_cn": "骷髅骑士",
             "kind": "recurring",
             "note": "神秘的骷髅盔甲骑士"
@@ -904,7 +913,7 @@
       "title_native": "蝕",
       "title_en": "The Eclipse",
       "title_cn": "日蚀",
-      "aired": "2022-12-11",
+      "aired": "2022-12-10",
       "heat": {
         "mal_replies": 29,
         "bangumi_comments": 2,
@@ -975,7 +984,7 @@
       "title_native": "死の嵐",
       "title_en": "Storm of Death",
       "title_cn": "死亡风暴",
-      "aired": "2022-12-18",
+      "aired": "2022-12-17",
       "heat": {
         "mal_replies": 33,
         "bangumi_comments": 3,
@@ -1020,7 +1029,7 @@
       "title_native": "反撃の誓い",
       "title_en": "Vow of Retaliation",
       "title_cn": "反击的誓言",
-      "aired": "2022-12-25",
+      "aired": "2022-12-24",
       "heat": {
         "mal_replies": 54,
         "bangumi_comments": 7,
