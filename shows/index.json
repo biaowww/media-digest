@@ -1,6 +1,18 @@
 {
   "shows": [
     {
+      "slug": "berserk-1997",
+      "title": "Berserk",
+      "title_cn": "剑风传奇（1997 TV版）",
+      "year": 1997,
+      "total_eps": 25,
+      "unit": "集",
+      "updated": "2026-09-20",
+      "cover": "https://cdn.myanimelist.net/images/anime/1384/119988.jpg",
+      "watch_eps": 25,
+      "bridges": 0
+    },
+    {
       "slug": "berserk-golden-age-arc-memorial-edition-2022",
       "title": "Berserk: The Golden Age Arc - Memorial Edition",
       "title_cn": "剑风传奇 黄金时代篇 MEMORIAL EDITION",

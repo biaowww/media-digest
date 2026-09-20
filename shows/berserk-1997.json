@@ -1,0 +1,1279 @@
+{
+  "meta": {
+    "slug": "berserk-1997",
+    "schema_version": 1,
+    "ids": {
+      "mal": "33",
+      "imdb": "tt0318871",
+      "tmdb": "35935",
+      "wiki": "List of Berserk (1997 TV series) episodes"
+    },
+    "title": "Berserk",
+    "title_cn": "剑风传奇（1997 TV版）",
+    "title_native": "剣風伝奇ベルセルク",
+    "year": 1997,
+    "total_eps": 25,
+    "primary_kpi": "imdb",
+    "updated": "2026-09-20"
+  },
+  "about": {
+    "cover": "https://cdn.myanimelist.net/images/anime/1384/119988.jpg",
+    "synopsis": {
+      "en": "Guts, a man who will one day be known as the Black Swordsman, is a young traveling mercenary characterized by the large greatsword he carries. He accepts jobs that offer the most money, but he never stays with one group for long—until he encounters the Band of the Falcon. Ambushed after completing a job, Guts crushes many of its members in combat. Griffith, The Band of the Falcon's leader and founder, takes an interest in Guts and duels him. While the others are no match for Guts, Griffith defeats him in one blow.\n\r\n\n\r\nIncapacitated and taken into the Band of the Falcon's camp to recover, Guts wakes up two days later. He confronts Griffith, and the two duel yet again, only this time with a condition: Guts will join the Band of the Falcon if he loses. Due to his fresh injuries, Guts loses the fight and is inducted by Griffith.\n\r\n\n\r\nIn three years' time, Guts has become one of the Band of the Falcon's commanders. On the battlefield, his combat prowess is second only to Griffith as he takes on large groups of enemies all on his own. With Guts' immense strength and Griffith's leadership, the Band of the Falcon dominate every battle they partake in. But something menacing lurks in the shadows, threatening to change Guts' life forever."
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Drama",
+      "Fantasy",
+      "Horror",
+      "Gore",
+      "Military",
+      "Psychological",
+      "Seinen"
+    ],
+    "studios": [
+      "OLM"
+    ],
+    "scores": {
+      "mal": {
+        "score": 8.61,
+        "votes": 421958,
+        "rank": 111
+      },
+      "imdb": {
+        "score": 8.8,
+        "votes": 83050
+      }
+    },
+    "links": {
+      "mal": "https://myanimelist.net/anime/33",
+      "imdb": "https://www.imdb.com/title/tt0318871/"
+    },
+    "characters": [
+      {
+        "name": "Casca",
+        "role": "Main",
+        "image": "https://cdn.myanimelist.net/images/characters/14/72697.jpg",
+        "mal_id": 423,
+        "favorites": 4971
+      },
+      {
+        "name": "Griffith",
+        "role": "Main",
+        "image": "https://cdn.myanimelist.net/images/characters/9/326322.jpg",
+        "mal_id": 424,
+        "favorites": 16367
+      },
+      {
+        "name": "Guts",
+        "role": "Main",
+        "image": "https://cdn.myanimelist.net/images/characters/13/284125.jpg",
+        "mal_id": 422,
+        "favorites": 86457
+      },
+      {
+        "name": "Judeau",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/7/101985.jpg",
+        "mal_id": 454,
+        "favorites": 1709
+      },
+      {
+        "name": "Zodd Nosferatu",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/13/530030.jpg",
+        "mal_id": 600,
+        "favorites": 431
+      },
+      {
+        "name": "Pippin",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/9/68119.jpg",
+        "mal_id": 597,
+        "favorites": 176
+      },
+      {
+        "name": "Rickert",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/14/214839.jpg",
+        "mal_id": 598,
+        "favorites": 138
+      },
+      {
+        "name": "Slan",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/16/158175.jpg",
+        "mal_id": 605,
+        "favorites": 98
+      },
+      {
+        "name": "Void",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/2/158161.jpg",
+        "mal_id": 604,
+        "favorites": 81
+      },
+      {
+        "name": "Godo",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/14/214837.jpg",
+        "mal_id": 6848,
+        "favorites": 72
+      },
+      {
+        "name": "Rosine",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/12/144657.jpg",
+        "mal_id": 19553,
+        "favorites": 34
+      },
+      {
+        "name": "Corkus",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/6/158163.jpg",
+        "mal_id": 599,
+        "favorites": 24
+      },
+      {
+        "name": "Gaston",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/3/126243.jpg",
+        "mal_id": 611,
+        "favorites": 18
+      },
+      {
+        "name": "Bazuso",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/5/135205.jpg",
+        "mal_id": 49343,
+        "favorites": 17
+      },
+      {
+        "name": "Adon Coborlwitz",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/9/156777.jpg",
+        "mal_id": 57715,
+        "favorites": 13
+      },
+      {
+        "name": "Gambino",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/3/126231.jpg",
+        "mal_id": 602,
+        "favorites": 11
+      },
+      {
+        "name": "Ubik",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/11/158173.jpg",
+        "mal_id": 607,
+        "favorites": 8
+      },
+      {
+        "name": "Conrad",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/12/158171.jpg",
+        "mal_id": 608,
+        "favorites": 7
+      },
+      {
+        "name": "Charlotte Beatrix Marie Rhody Windam",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/11/153201.jpg",
+        "mal_id": 614,
+        "favorites": 6
+      },
+      {
+        "name": "King of Midland",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/7/165489.jpg",
+        "mal_id": 615,
+        "favorites": 5
+      },
+      {
+        "name": "Raban",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/4/331579.jpg",
+        "mal_id": 90341,
+        "favorites": 5
+      },
+      {
+        "name": "Foss",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/15/157295.jpg",
+        "mal_id": 58301,
+        "favorites": 4
+      },
+      {
+        "name": "Erica",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/5/315605.jpg",
+        "mal_id": 73441,
+        "favorites": 2
+      }
+    ]
+  },
+  "intro": {
+    "logline": "同一段黄金时代，用 25 集慢慢讲：文戏、铺垫、人物关系都在这一版里。",
+    "synopsis": "米德兰王国（Kingdom of Midland）与都铎帝国（Tudor Empire）的百年战争打到尾声。孤身佣兵格斯（Guts）除了手里那把比人还高的大剑什么都不信，直到他撞上佣兵团「鹰之团」（Band of the Hawk）和它的团长格里菲斯（Griffith）——一个出身平民、却打算用这支队伍换一个属于自己的国家的年轻人。格斯在决斗中败给他，成了鹰之团的突击队长，也第一次有了能称为同伴的人：女剑士卡思嘉（Casca）、飞刀手裘达（Judeau）、沉默的皮平（Pippin）、少年利凯特（Rickert）。鹰之团靠一场场胜仗从佣兵打进宫廷，而格斯开始想一个此前从未想过的问题：他挥剑，到底是为了谁的梦。第 1 集是时间线更靠后的倒叙，从第 2 集起进入正线。",
+    "characters": [
+      {
+        "name": "Guts",
+        "name_cn": "格斯",
+        "role": "主角 · 佣兵剑士，鹰之团突击队长",
+        "motivation": "从小在战场上长大，只把剑当作活下去的依凭；在鹰之团第一次尝到归属感，也第一次困惑自己是不是别人梦里的一把剑。"
+      },
+      {
+        "name": "Griffith",
+        "name_cn": "格里菲斯",
+        "role": "鹰之团团长",
+        "motivation": "要一个属于自己的王国；为这个梦可以调动一切，包括同伴。随身带着一枚奇特的吊坠「贝黑莉特」（Behelit）。"
+      },
+      {
+        "name": "Casca",
+        "name_cn": "卡思嘉",
+        "role": "鹰之团队长 · 女剑士",
+        "motivation": "被格里菲斯救出困境，把全部忠诚给了他；对半路进来的格斯抱有敌意。"
+      },
+      {
+        "name": "Judeau",
+        "name_cn": "裘达",
+        "role": "鹰之团成员 · 飞刀手",
+        "motivation": "什么都会一点、看人最透，团里的润滑剂。"
+      },
+      {
+        "name": "Pippin",
+        "name_cn": "皮平",
+        "role": "鹰之团成员 · 巨汉",
+        "motivation": "寡言可靠，力量担当。"
+      },
+      {
+        "name": "Rickert",
+        "name_cn": "利凯特",
+        "role": "鹰之团成员 · 少年",
+        "motivation": "团里年纪最小，崇拜格斯和格里菲斯。"
+      },
+      {
+        "name": "Corkus",
+        "name_cn": "寇克斯",
+        "role": "鹰之团成员 · 老兵",
+        "motivation": "嘴碎爱抱怨，从小队时期就在，看不惯格斯这个外来者。"
+      },
+      {
+        "name": "Charlotte",
+        "name_cn": "夏洛特",
+        "role": "米德兰公主",
+        "motivation": "深宫里的公主，被格里菲斯吸引。"
+      },
+      {
+        "name": "Zodd",
+        "name_cn": "不死者佐德",
+        "role": "传说中的怪物剑士",
+        "motivation": "战场上流传三百年的传说，只对强者有兴趣。"
+      }
+    ],
+    "highlights": [
+      "25 集的篇幅把人物铺垫铺满：卡思嘉的过往、格斯的童年、鹰之团日常，剧场版里被压掉的部分都在",
+      "平泽进（Susumu Hirasawa）配乐 + 片尾曲「Waiting So Long」，是很多人心里的动画原声天花板",
+      "画风厚重、分镜克制，靠停格和气氛而不是作画量撑场面，与 2022 版是两种审美",
+      "尺度比剧场版轻：血腥和性暴力都做了削减，蚀的部分尤其收敛"
+    ],
+    "standing": "1997 年 OLM 制作、NTV 播出，改编漫画第 1–13 卷（黑色剑士篇开头 + 黄金时代篇全部）。MAL 约 8.6、IMDb 约 8.6，在三个动画版本里口碑最高的一版。代价是作画时有崩坏、战斗靠静帧，删掉了骷髅骑士（Skull Knight）、黑犬骑士团（Wyald）、巴基拉卡（Bakiraka）等角色与支线，并且结尾停在原作第 13 卷，没有收束就结束了。评价共识是：想要故事和人物，看 97；想要作画和完整度，看 2022 剧场版重剪。",
+    "route_note": "这部也不压缩：25 集约 10 小时，本版的价值恰恰在剧场版砍掉的文戏和铺垫，再桥接就等于把选它的理由删掉，所以全程 watch。分段只标节奏与版本接缝。\n\n【双版本路线】以 97 为主力，2022 Memorial Edition 作补丁，三处接缝：\n① 第 1 集是黑色剑士篇的倒叙，和黄金时代正线不连续，2022 版没有对应内容，可看可不看。\n② 第 22 集营地被袭那段（绿色妖精带队的怪物）是 97 原创改写，原作对应的是黑犬骑士团（Wyald）一整条支线，动画两版都没有：看完第 22 集翻漫画第 10–11 卷。\n③ 第 24–25 集的「蚀」受当年尺度与作画限制，删掉了骷髅骑士救场，结尾停在悬崖上：看完第 25 集后补 2022 版第 12–13 集（约 50 分钟）看完整版，再接漫画第 14 卷，那才是这段故事真正的收尾。\n\n【两版进度对照】97 ep2–3 ≈ 2022 ep1；97 ep4–6 ≈ 2022 ep2；97 ep7–10 ≈ 2022 ep3；97 ep11–14 ≈ 2022 ep4–5；97 ep15–16 ≈ 2022 ep6；97 ep17–19 ≈ 2022 ep7–8；97 ep20–21 ≈ 2022 ep9；97 ep22 ≈ 2022 ep10；97 ep23 ≈ 2022 ep11；97 ep24–25 ≈ 2022 ep12–13。\n\n【97 版专有名词差异】都铎方的追兵在 97 版叫蓝鲸重装骑兵团（Blue Whale Knights，原作为黑羊铁枪重骑兵团）；多尔多雷守将是总督加侬（Gennon）。"
+  },
+  "episodes": [
+    {
+      "n": 1,
+      "sources": {
+        "mal": {
+          "score": 4.13,
+          "forum_replies": 144,
+          "url": "https://myanimelist.net/anime/33/Kenpuu_Denki_Berserk/episode/1"
+        },
+        "imdb": {
+          "rating": 7.7,
+          "votes": 2642,
+          "tconst": "tt1259420",
+          "season": 1,
+          "episode": 1
+        }
+      },
+      "synopsis": {},
+      "title_native": "黒い剣士",
+      "title_en": "The Black Swordsman",
+      "aired": "1997-10-08",
+      "heat": {
+        "mal_replies": 144,
+        "imdb_votes": 2642
+      },
+      "notes": {
+        "title_cn": "黑色剑士",
+        "summary": "时间线靠后的倒叙。自称「黑色剑士」的格斯（Guts）闯进酒馆，杀光正在施暴的打手，只留一个活口让他给主子库卡城的男爵带话。随后格斯找到并杀死男爵，从他颈上取走一枚被称为贝黑莉特（Behelit）的邪物。事毕，他回想起多年前斩杀骑士巴兹索（Bazuso）的那一天——正线由此展开。",
+        "new": [
+          {
+            "name": "Guts",
+            "name_cn": "格斯",
+            "kind": "recurring",
+            "note": "主角，本集为其后期的「黑色剑士」形态"
+          },
+          {
+            "name": "Baron",
+            "name_cn": "库卡城男爵",
+            "kind": "one-off"
+          }
+        ]
+      }
+    },
+    {
+      "n": 2,
+      "sources": {
+        "mal": {
+          "score": 4.22,
+          "forum_replies": 80,
+          "url": "https://myanimelist.net/anime/33/Kenpuu_Denki_Berserk/episode/2"
+        },
+        "imdb": {
+          "rating": 7.7,
+          "votes": 2346,
+          "tconst": "tt1259424",
+          "season": 1,
+          "episode": 2
+        }
+      },
+      "synopsis": {},
+      "title_native": "鷹の団",
+      "title_en": "Band of the Hawk",
+      "aired": "1997-10-15",
+      "heat": {
+        "mal_replies": 80,
+        "imdb_votes": 2346
+      },
+      "notes": {
+        "title_cn": "鹰之团",
+        "summary": "回忆展开：佣兵格斯在攻城战中斩杀敌将巴兹索，战后遇上改变他一生的队伍——鹰之团。寇克斯（Corkus）想抢他的赏钱，格里菲斯（Griffith）派卡思嘉（Casca）出手，反被格斯击败。格斯转而挑战格里菲斯，被重创。格里菲斯让卡思嘉在他养伤期间照看他；数日后伤愈，格里菲斯邀他入团，格斯的回答是再打一场。",
+        "new": [
+          {
+            "name": "Griffith",
+            "name_cn": "格里菲斯",
+            "kind": "recurring",
+            "note": "鹰之团团长"
+          },
+          {
+            "name": "Casca",
+            "name_cn": "卡思嘉",
+            "kind": "recurring",
+            "note": "鹰之团女剑士"
+          },
+          {
+            "name": "Corkus",
+            "name_cn": "寇克斯",
+            "kind": "recurring"
+          },
+          {
+            "name": "Judeau",
+            "name_cn": "裘达",
+            "kind": "recurring"
+          },
+          {
+            "name": "Pippin",
+            "name_cn": "皮平",
+            "kind": "recurring"
+          },
+          {
+            "name": "Rickert",
+            "name_cn": "利凯特",
+            "kind": "recurring"
+          },
+          {
+            "name": "Bazuso",
+            "name_cn": "巴兹索",
+            "kind": "one-off",
+            "note": "被格斯斩杀的敌将"
+          }
+        ]
+      }
+    },
+    {
+      "n": 3,
+      "sources": {
+        "mal": {
+          "score": 4.29,
+          "forum_replies": 90,
+          "url": "https://myanimelist.net/anime/33/Kenpuu_Denki_Berserk/episode/3"
+        },
+        "imdb": {
+          "rating": 7.8,
+          "votes": 2207,
+          "tconst": "tt1259427",
+          "season": 1,
+          "episode": 3
+        }
+      },
+      "synopsis": {},
+      "title_native": "初陣",
+      "title_en": "First Battle",
+      "aired": "1997-10-22",
+      "heat": {
+        "mal_replies": 90,
+        "imdb_votes": 2207
+      },
+      "notes": {
+        "title_cn": "初阵",
+        "summary": "格里菲斯击败格斯，把他收入鹰之团——哲人与狂战士的结盟就此成立。夜袭作战中，格里菲斯把最吃重的殿后位置交给新人格斯，格斯完成任务，全团把他当英雄迎回。"
+      }
+    },
+    {
+      "n": 4,
+      "sources": {
+        "mal": {
+          "score": 4.3,
+          "forum_replies": 66,
+          "url": "https://myanimelist.net/anime/33/Kenpuu_Denki_Berserk/episode/4"
+        },
+        "imdb": {
+          "rating": 7.8,
+          "votes": 2080,
+          "tconst": "tt1259414",
+          "season": 1,
+          "episode": 4
+        }
+      },
+      "synopsis": {},
+      "title_native": "神の手",
+      "title_en": "The Hand of God",
+      "aired": "1997-10-29",
+      "heat": {
+        "mal_replies": 66,
+        "imdb_votes": 2080
+      },
+      "notes": {
+        "title_cn": "神之手",
+        "summary": "格斯渐渐融入鹰之团，格里菲斯把随身的贝黑莉特拿给他看。格斯回想起童年：被养父甘比诺（Gambino）在战场上捡回养大，后来甘比诺把妻子的死迁怒于他、动手要杀他，少年格斯被迫杀死了养父。三年过去，鹰之团壮大成一支可观的力量。",
+        "new": [
+          {
+            "name": "Gambino",
+            "name_cn": "甘比诺",
+            "kind": "one-off",
+            "note": "格斯的养父，回忆出场"
+          }
+        ]
+      }
+    },
+    {
+      "n": 5,
+      "sources": {
+        "mal": {
+          "score": 4.16,
+          "forum_replies": 52,
+          "url": "https://myanimelist.net/anime/33/Kenpuu_Denki_Berserk/episode/5"
+        },
+        "imdb": {
+          "rating": 7.5,
+          "votes": 1993,
+          "tconst": "tt1259416",
+          "season": 1,
+          "episode": 5
+        }
+      },
+      "synopsis": {},
+      "title_native": "剣風",
+      "title_en": "A Wind of Swords",
+      "aired": "1997-11-05",
+      "heat": {
+        "mal_replies": 52,
+        "imdb_votes": 1993
+      },
+      "notes": {
+        "title_cn": "剑风",
+        "summary": "格斯已是鹰之团的指挥官之一，作战方式冒进，虽屡屡奏效却被卡思嘉当面指责。格里菲斯在米德兰宫廷受封子爵，贵族们大为不满。战场上格斯再次救下陷入险境的鹰之团，卡思嘉心情更加复杂。"
+      }
+    },
+    {
+      "n": 6,
+      "sources": {
+        "mal": {
+          "score": 4.43,
+          "forum_replies": 81,
+          "url": "https://myanimelist.net/anime/33/Kenpuu_Denki_Berserk/episode/6"
+        },
+        "imdb": {
+          "rating": 8.6,
+          "votes": 2336,
+          "tconst": "tt1259409",
+          "season": 1,
+          "episode": 6
+        }
+      },
+      "synopsis": {},
+      "title_native": "不死のゾッド",
+      "title_en": "Zodd the Immortal",
+      "aired": "1997-11-12",
+      "heat": {
+        "mal_replies": 81,
+        "imdb_votes": 2336
+      },
+      "notes": {
+        "title_cn": "不死的佐德",
+        "summary": "格斯率队突袭都铎军占据的城堡，部下被一个巨大的怪物战士——「不死者佐德」（Nosferatu Zodd）——屠戮殆尽。格斯在主塔与佐德交手，刺中他后，佐德现出三百年的魔物真身，几乎要了格斯的命。格里菲斯带人赶到也无济于事；佐德正要杀格里菲斯时看见了贝黑莉特，随即收手，生出双翼飞走，临走留下一句话：若格里菲斯的梦想破灭，等着格斯的将是厄运。",
+        "new": [
+          {
+            "name": "Zodd",
+            "name_cn": "不死者佐德",
+            "kind": "recurring",
+            "note": "使徒级怪物剑士"
+          }
+        ]
+      }
+    },
+    {
+      "n": 7,
+      "sources": {
+        "mal": {
+          "score": 4.22,
+          "forum_replies": 72,
+          "url": "https://myanimelist.net/anime/33/Kenpuu_Denki_Berserk/episode/7"
+        },
+        "imdb": {
+          "rating": 7.3,
+          "votes": 1926,
+          "tconst": "tt1259426",
+          "season": 1,
+          "episode": 7
+        }
+      },
+      "synopsis": {},
+      "title_native": "剣の主",
+      "title_en": "The Sword's Owner",
+      "aired": "1997-11-19",
+      "heat": {
+        "mal_replies": 72,
+        "imdb_votes": 1926
+      },
+      "notes": {
+        "title_cn": "剑之主",
+        "summary": "格斯与格里菲斯都还带着佐德留下的伤，格里菲斯却借这场战功进一步接近国王和公主夏洛特（Charlotte）。格斯和几名老团员察觉到，格里菲斯正在离他们越来越远。",
+        "new": [
+          {
+            "name": "Charlotte",
+            "name_cn": "夏洛特",
+            "kind": "recurring",
+            "note": "米德兰公主"
+          },
+          {
+            "name": "King of Midland",
+            "name_cn": "米德兰国王",
+            "kind": "arc"
+          }
+        ]
+      }
+    },
+    {
+      "n": 8,
+      "sources": {
+        "mal": {
+          "score": 4.15,
+          "forum_replies": 51,
+          "url": "https://myanimelist.net/anime/33/Kenpuu_Denki_Berserk/episode/8"
+        },
+        "imdb": {
+          "rating": 7.5,
+          "votes": 1867,
+          "tconst": "tt1259413",
+          "season": 1,
+          "episode": 8
+        }
+      },
+      "synopsis": {},
+      "title_native": "陰謀",
+      "title_en": "Conspiracy",
+      "aired": "1997-11-26",
+      "heat": {
+        "mal_replies": 51,
+        "imdb_votes": 1867
+      },
+      "notes": {
+        "title_cn": "阴谋",
+        "summary": "鹰之团连战连捷，格里菲斯受封伯爵。国王之弟尤利乌斯将军（General Julius）对此暴怒，与佛斯大臣（Minister Foss）密谋在即将举行的狩猎上用毒箭取格里菲斯性命。",
+        "new": [
+          {
+            "name": "Julius",
+            "name_cn": "尤利乌斯",
+            "kind": "arc",
+            "note": "王弟、将军"
+          },
+          {
+            "name": "Foss",
+            "name_cn": "佛斯大臣",
+            "kind": "arc",
+            "note": "宫廷权臣"
+          }
+        ]
+      }
+    },
+    {
+      "n": 9,
+      "sources": {
+        "mal": {
+          "score": 4.34,
+          "forum_replies": 71,
+          "url": "https://myanimelist.net/anime/33/Kenpuu_Denki_Berserk/episode/9"
+        },
+        "imdb": {
+          "rating": 7.7,
+          "votes": 1872,
+          "tconst": "tt1259406",
+          "season": 1,
+          "episode": 9
+        }
+      },
+      "synopsis": {},
+      "title_native": "暗殺",
+      "title_en": "Assassination",
+      "aired": "1997-12-03",
+      "heat": {
+        "mal_replies": 71,
+        "imdb_votes": 1872
+      },
+      "notes": {
+        "title_cn": "暗杀",
+        "summary": "狩猎途中格里菲斯与夏洛特愈发亲近，随即胸口中了一支毒箭——箭正好射在贝黑莉特上，他毫发无伤。格里菲斯推断幕后是尤利乌斯，把秘密除掉他的任务交给格斯。"
+      }
+    },
+    {
+      "n": 10,
+      "sources": {
+        "mal": {
+          "score": 4.61,
+          "forum_replies": 113,
+          "url": "https://myanimelist.net/anime/33/Kenpuu_Denki_Berserk/episode/10"
+        },
+        "imdb": {
+          "rating": 9.0,
+          "votes": 2388,
+          "tconst": "tt1259425",
+          "season": 1,
+          "episode": 10
+        }
+      },
+      "synopsis": {},
+      "title_native": "貴きもの",
+      "title_en": "Noble Man",
+      "aired": "1997-12-10",
+      "heat": {
+        "mal_replies": 113,
+        "imdb_votes": 2388
+      },
+      "notes": {
+        "title_cn": "贵者",
+        "summary": "格斯杀死尤利乌斯，却为了灭口不得不连他的儿子阿多尼斯（Adonis）一并杀掉，心理留下重创。当晚他听见格里菲斯对夏洛特说：真正的朋友应当与他平等，有自己的梦、走自己的路。格斯由此明白，自己离格里菲斯再近，也不是他的朋友。",
+        "new": [
+          {
+            "name": "Adonis",
+            "name_cn": "阿多尼斯",
+            "kind": "one-off",
+            "note": "尤利乌斯之子"
+          }
+        ]
+      }
+    },
+    {
+      "n": 11,
+      "sources": {
+        "mal": {
+          "score": 4.36,
+          "forum_replies": 60,
+          "url": "https://myanimelist.net/anime/33/Kenpuu_Denki_Berserk/episode/11"
+        },
+        "imdb": {
+          "rating": 7.9,
+          "votes": 1879,
+          "tconst": "tt1259415",
+          "season": 1,
+          "episode": 11
+        }
+      },
+      "synopsis": {},
+      "title_native": "合戦",
+      "title_en": "The Battle",
+      "aired": "1997-12-17",
+      "heat": {
+        "mal_replies": 60,
+        "imdb_votes": 1879
+      },
+      "notes": {
+        "title_cn": "合战",
+        "summary": "鹰之团出征迎战都铎的蓝鲸重装骑兵团（Blue Whale Knights）。发着高烧的卡思嘉与敌方指挥阿顿（Adon Coborlwitz）交手后昏厥坠崖，格斯纵身跟下。两人被冲到下游，格斯找到一处洞穴，用体温为失温的卡思嘉取暖。",
+        "new": [
+          {
+            "name": "Adon Coborlwitz",
+            "name_cn": "阿顿",
+            "kind": "arc",
+            "note": "都铎蓝鲸重装骑兵团指挥"
+          }
+        ]
+      }
+    },
+    {
+      "n": 12,
+      "sources": {
+        "mal": {
+          "score": 4.48,
+          "forum_replies": 92,
+          "url": "https://myanimelist.net/anime/33/Kenpuu_Denki_Berserk/episode/12"
+        },
+        "imdb": {
+          "rating": 8.5,
+          "votes": 2006,
+          "tconst": "tt1259410",
+          "season": 1,
+          "episode": 12
+        }
+      },
+      "synopsis": {},
+      "title_native": "ふたり",
+      "title_en": "Together",
+      "aired": "1997-12-24",
+      "heat": {
+        "mal_replies": 92,
+        "imdb_votes": 2006
+      },
+      "notes": {
+        "title_cn": "两人",
+        "summary": "格斯照顾着卡思嘉，她的敌意却没有消。她讲出自己的过往：少女时险遭强暴，是格里菲斯出手救下她、给了她自己做选择的机会，她从此追随他；也讲到格里菲斯为筹措军费，曾冷静地与一名好男色的领主周旋。她说，格斯出现之后，她就知道自己不会是格里菲斯选中的那个「朋友」。",
+        "new": [
+          {
+            "name": "Gennon",
+            "name_cn": "加侬",
+            "kind": "arc",
+            "note": "都铎贵族，与格里菲斯的过往在本集被提及"
+          }
+        ]
+      }
+    },
+    {
+      "n": 13,
+      "sources": {
+        "mal": {
+          "score": 4.34,
+          "forum_replies": 55,
+          "url": "https://myanimelist.net/anime/33/Kenpuu_Denki_Berserk/episode/13"
+        },
+        "imdb": {
+          "rating": 8.4,
+          "votes": 1976,
+          "tconst": "tt1259418",
+          "season": 1,
+          "episode": 13
+        }
+      },
+      "synopsis": {},
+      "title_native": "決死行",
+      "title_en": "Prepared for Death",
+      "aired": "1998-01-07",
+      "heat": {
+        "mal_replies": 55,
+        "imdb_votes": 1976
+      },
+      "notes": {
+        "title_cn": "决死行",
+        "summary": "阿顿与蓝鲸骑士团追到两人藏身处。格斯让卡思嘉先走，自己留下断后，以一敌众。部分追兵追上卡思嘉并将她按倒意图施暴，另一边格斯仍在苦战。"
+      }
+    },
+    {
+      "n": 14,
+      "sources": {
+        "mal": {
+          "score": 4.59,
+          "forum_replies": 67,
+          "url": "https://myanimelist.net/anime/33/Kenpuu_Denki_Berserk/episode/14"
+        },
+        "imdb": {
+          "rating": 8.3,
+          "votes": 1996,
+          "tconst": "tt1259429",
+          "season": 1,
+          "episode": 14
+        }
+      },
+      "synopsis": {},
+      "title_native": "夢のかがり火",
+      "title_en": "Bonfire of Dreams",
+      "aired": "1998-01-14",
+      "heat": {
+        "mal_replies": 67,
+        "imdb_votes": 1996
+      },
+      "notes": {
+        "title_cn": "梦之篝火",
+        "summary": "格斯最终斩杀近百人，其中包括阿顿的弟弟桑森（Samson）；卡思嘉也击退了施暴者，两人一同回到营地。篝火旁，格斯对卡思嘉说，这里每个人都有自己的梦，而他有的只是一把剑——卡思嘉听出他话里的去意。",
+        "new": [
+          {
+            "name": "Samson",
+            "name_cn": "桑森",
+            "kind": "one-off",
+            "note": "阿顿之弟"
+          }
+        ]
+      }
+    },
+    {
+      "n": 15,
+      "sources": {
+        "mal": {
+          "score": 4.31,
+          "forum_replies": 35,
+          "url": "https://myanimelist.net/anime/33/Kenpuu_Denki_Berserk/episode/15"
+        },
+        "imdb": {
+          "rating": 7.8,
+          "votes": 1792,
+          "tconst": "tt1259417",
+          "season": 1,
+          "episode": 15
+        }
+      },
+      "synopsis": {},
+      "title_native": "決戦",
+      "title_en": "The Decisive Battle",
+      "aired": "1998-01-21",
+      "heat": {
+        "mal_replies": 35,
+        "imdb_votes": 1792
+      },
+      "notes": {
+        "title_cn": "决战",
+        "summary": "格里菲斯主动请缨，率鹰之团夺回被视为不可攻陷的多尔多雷要塞（Doldrey），守方是都铎总督加侬（Gennon）与其麾下紫犀骑士团。格斯得知格里菲斯当年与加侬之间那段不堪的往事。鹰之团先攻后撤，自烧战船断掉退路，都铎大军追出要塞。"
+      }
+    },
+    {
+      "n": 16,
+      "sources": {
+        "mal": {
+          "score": 4.45,
+          "forum_replies": 63,
+          "url": "https://myanimelist.net/anime/33/Kenpuu_Denki_Berserk/episode/16"
+        },
+        "imdb": {
+          "rating": 8.3,
+          "votes": 1872,
+          "tconst": "tt1259423",
+          "season": 1,
+          "episode": 16
+        }
+      },
+      "synopsis": {},
+      "title_native": "勝利者",
+      "title_en": "The Conqueror",
+      "aired": "1998-01-28",
+      "heat": {
+        "mal_replies": 63,
+        "imdb_votes": 1872
+      },
+      "notes": {
+        "title_cn": "胜利者",
+        "summary": "撤退是诱敌之计：卡思嘉率队拿下空虚的要塞、击败阿顿；格斯与紫犀骑士团统领波斯康（Boscogn）死战，佩剑折断之际，远处的佐德掷来一把巨剑，格斯用它斩杀波斯康。格里菲斯补上一刀杀死重伤的加侬，胜局落定。",
+        "new": [
+          {
+            "name": "Boscogn",
+            "name_cn": "波斯康",
+            "kind": "one-off",
+            "note": "都铎紫犀骑士团统领"
+          }
+        ]
+      }
+    },
+    {
+      "n": 17,
+      "sources": {
+        "mal": {
+          "score": 4.51,
+          "forum_replies": 65,
+          "url": "https://myanimelist.net/anime/33/Kenpuu_Denki_Berserk/episode/17"
+        },
+        "imdb": {
+          "rating": 7.9,
+          "votes": 1828,
+          "tconst": "tt1259408",
+          "season": 1,
+          "episode": 17
+        }
+      },
+      "synopsis": {},
+      "title_native": "栄光の瞬間",
+      "title_en": "Moment of Glory",
+      "aired": "1998-02-04",
+      "heat": {
+        "mal_replies": 65,
+        "imdb_votes": 1828
+      },
+      "notes": {
+        "title_cn": "荣光的瞬间",
+        "summary": "多尔多雷之捷终结了米德兰与都铎的百年战争，国王为鹰之团设宴。王后——夏洛特的继母、尤利乌斯的情人——与佛斯密谋在宴席上毒杀格里菲斯。宴会前佛斯收到一封令他不安的信。祝酒时，格里菲斯倒地。",
+        "new": [
+          {
+            "name": "Queen of Midland",
+            "name_cn": "王后",
+            "kind": "one-off",
+            "note": "夏洛特的继母"
+          }
+        ]
+      }
+    },
+    {
+      "n": 18,
+      "sources": {
+        "mal": {
+          "score": 4.59,
+          "forum_replies": 53,
+          "url": "https://myanimelist.net/anime/33/Kenpuu_Denki_Berserk/episode/18"
+        },
+        "imdb": {
+          "rating": 8.3,
+          "votes": 1855,
+          "tconst": "tt1259412",
+          "season": 1,
+          "episode": 18
+        }
+      },
+      "synopsis": {},
+      "title_native": "炎の墓標",
+      "title_en": "Tombstone of Flames",
+      "aired": "1998-02-11",
+      "heat": {
+        "mal_replies": 53,
+        "imdb_votes": 1855
+      },
+      "notes": {
+        "title_cn": "炎之墓标",
+        "summary": "阴谋者确信格里菲斯已死，正在庆祝时房门被反锁，整座塔被火吞没。格里菲斯安然无恙地看着他们烧死——他早已绑架佛斯的女儿，逼他倒戈。格斯意识到自己又一次被当成清理对手的工具，决定离团，并对挽留的卡思嘉说：他不想再被卷进格里菲斯的梦里。"
+      }
+    },
+    {
+      "n": 19,
+      "sources": {
+        "mal": {
+          "score": 4.72,
+          "forum_replies": 118,
+          "url": "https://myanimelist.net/anime/33/Kenpuu_Denki_Berserk/episode/19"
+        },
+        "imdb": {
+          "rating": 9.0,
+          "votes": 2342,
+          "tconst": "tt1259428",
+          "season": 1,
+          "episode": 19
+        }
+      },
+      "synopsis": {},
+      "title_native": "別れ",
+      "title_en": "Separation",
+      "aired": "1998-02-18",
+      "heat": {
+        "mal_replies": 118,
+        "imdb_votes": 2342
+      },
+      "notes": {
+        "title_cn": "别离",
+        "summary": "格斯离开时被格里菲斯拦下，两人以剑决胜负，格斯胜出，换得自由离去。格斯的离开击溃了格里菲斯的心防：当夜他与夏洛特共度一晚，翌日清晨走出寝宫时被卫兵当场逮捕。"
+      }
+    },
+    {
+      "n": 20,
+      "sources": {
+        "mal": {
+          "score": 4.43,
+          "forum_replies": 54,
+          "url": "https://myanimelist.net/anime/33/Kenpuu_Denki_Berserk/episode/20"
+        },
+        "imdb": {
+          "rating": 7.8,
+          "votes": 1812,
+          "tconst": "tt1259411",
+          "season": 1,
+          "episode": 20
+        }
+      },
+      "synopsis": {},
+      "title_native": "火花",
+      "title_en": "Sparks",
+      "aired": "1998-02-25",
+      "heat": {
+        "mal_replies": 54,
+        "imdb_votes": 1812
+      },
+      "notes": {
+        "title_cn": "火花",
+        "summary": "一年过去。格斯寄住在铸剑师戈多（Godot）和他孙女艾莉卡（Erica）那里。他得知鹰之团已被通缉、卡思嘉接任团长，赶去找他们时，正撞上鹰之团与外国佣兵交战。",
+        "new": [
+          {
+            "name": "Godot",
+            "name_cn": "戈多",
+            "kind": "arc",
+            "note": "老铸剑师"
+          },
+          {
+            "name": "Erica",
+            "name_cn": "艾莉卡",
+            "kind": "arc",
+            "note": "戈多的孙女"
+          }
+        ]
+      }
+    },
+    {
+      "n": 21,
+      "sources": {
+        "mal": {
+          "score": 4.55,
+          "forum_replies": 98,
+          "url": "https://myanimelist.net/anime/33/Kenpuu_Denki_Berserk/episode/21"
+        },
+        "imdb": {
+          "rating": 8.4,
+          "votes": 1946,
+          "tconst": "tt1259419",
+          "season": 1,
+          "episode": 21
+        }
+      },
+      "synopsis": {},
+      "title_native": "告白",
+      "title_en": "Confession",
+      "aired": "1998-03-04",
+      "heat": {
+        "mal_replies": 98,
+        "imdb_votes": 1946
+      },
+      "notes": {
+        "title_cn": "告白",
+        "summary": "格斯帮鹰之团击退佣兵。卡思嘉已经定下营救计划：格里菲斯被关在温德姆城（Wyndham）的再生之塔（Tower of Rebirth）。她先是把格里菲斯的处境迁怒于格斯，随后承认那不是他的错。两人结合，格斯约她救出格里菲斯之后一起离开。"
+      }
+    },
+    {
+      "n": 22,
+      "sources": {
+        "mal": {
+          "score": 4.63,
+          "forum_replies": 89,
+          "url": "https://myanimelist.net/anime/33/Kenpuu_Denki_Berserk/episode/22"
+        },
+        "imdb": {
+          "rating": 9.0,
+          "votes": 2183,
+          "tconst": "tt1259421",
+          "season": 1,
+          "episode": 22
+        }
+      },
+      "synopsis": {},
+      "title_native": "潜入",
+      "title_en": "Infiltration",
+      "aired": "1998-03-11",
+      "heat": {
+        "mal_replies": 89,
+        "imdb_votes": 2183
+      },
+      "notes": {
+        "title_cn": "潜入",
+        "summary": "格斯与卡思嘉潜入再生之塔的地牢，找到被折磨了整整一年的格里菲斯：不能说话、四肢残废、面目全非。与此同时，留在营地的鹰之团成员被一群怪物屠杀，领头的是一个绿色的妖精。（这段是 97 版的原创改写，原作对应的是黑犬骑士团一整条支线。）",
+        "new": [
+          {
+            "name": "Green fairy",
+            "name_cn": "绿色妖精",
+            "kind": "one-off",
+            "note": "97 版原创，替代原作中的黑犬骑士团桥段"
+          }
+        ]
+      }
+    },
+    {
+      "n": 23,
+      "sources": {
+        "mal": {
+          "score": 4.63,
+          "forum_replies": 86,
+          "url": "https://myanimelist.net/anime/33/Kenpuu_Denki_Berserk/episode/23"
+        },
+        "imdb": {
+          "rating": 8.9,
+          "votes": 2304,
+          "tconst": "tt1259430",
+          "season": 1,
+          "episode": 23
+        }
+      },
+      "synopsis": {},
+      "title_native": "前夜祭",
+      "title_en": "Eve of the Feast",
+      "aired": "1998-03-18",
+      "heat": {
+        "mal_replies": 86,
+        "imdb_votes": 2304
+      },
+      "notes": {
+        "title_cn": "前夜祭",
+        "summary": "营地因格里菲斯的惨状陷入沉默。突击队的人请求跟着格斯走；卡思嘉决定留下照顾格里菲斯，让格斯离开。神志崩溃的格里菲斯独自驾着马车冲出营地，翻落河中，在那里找到了失落的贝黑莉特，并在无意中启动了它——在场所有人被拖入异界。"
+      }
+    },
+    {
+      "n": 24,
+      "sources": {
+        "mal": {
+          "score": 4.61,
+          "forum_replies": 80,
+          "url": "https://myanimelist.net/anime/33/Kenpuu_Denki_Berserk/episode/24"
+        },
+        "imdb": {
+          "rating": 9.2,
+          "votes": 2747,
+          "tconst": "tt1259422",
+          "season": 1,
+          "episode": 24
+        }
+      },
+      "synopsis": {},
+      "title_native": "蝕",
+      "title_en": "The Eclipse",
+      "aired": "1998-03-25",
+      "heat": {
+        "mal_replies": 80,
+        "imdb_votes": 2747
+      },
+      "notes": {
+        "title_cn": "大蚀",
+        "summary": "神之手（God Hand）四位魔神苏醒，告知格里菲斯他被选为最后一位成员；受洗的条件，是把同伴献给使徒。他们向他展示过往的幻象，说服他相信部下的性命相对于他的梦想微不足道。格斯攀上血肉堆成的山想阻止他，格里菲斯接受了。全团被烙上献祭之印。",
+        "new": [
+          {
+            "name": "Void",
+            "name_cn": "瓦伊德",
+            "kind": "arc",
+            "note": "神之手"
+          },
+          {
+            "name": "Slan",
+            "name_cn": "丝兰",
+            "kind": "arc",
+            "note": "神之手"
+          },
+          {
+            "name": "Ubik",
+            "name_cn": "尤比克",
+            "kind": "arc",
+            "note": "神之手"
+          },
+          {
+            "name": "Conrad",
+            "name_cn": "康拉德",
+            "kind": "arc",
+            "note": "神之手"
+          }
+        ]
+      }
+    },
+    {
+      "n": 25,
+      "sources": {
+        "mal": {
+          "score": 4.35,
+          "forum_replies": 542,
+          "url": "https://myanimelist.net/anime/33/Kenpuu_Denki_Berserk/episode/25"
+        },
+        "imdb": {
+          "rating": 9.6,
+          "votes": 4207,
+          "tconst": "tt1259407",
+          "season": 1,
+          "episode": 25
+        }
+      },
+      "synopsis": {},
+      "title_native": "永遠の刻",
+      "title_en": "Time of Eternity",
+      "aired": "1998-04-01",
+      "heat": {
+        "mal_replies": 542,
+        "imdb_votes": 4207
+      },
+      "notes": {
+        "title_cn": "永远之刻",
+        "summary": "使徒们现出真身，开始吞食被烙印的祭品。格里菲斯转生为第五位神之手「费蒙多」（Femto），当着格斯的面侵犯卡思嘉；格斯砍下自己的左前臂想冲过去，仍被按住，右眼被剜出。片尾字幕后有一段：伤愈的格斯离开戈多家，踏上向格里菲斯复仇的路——全剧在这里戛然而止，没有收束。",
+        "new": [
+          {
+            "name": "Femto",
+            "name_cn": "费蒙多",
+            "kind": "recurring",
+            "note": "格里菲斯转生后的神之手之名"
+          }
+        ]
+      }
+    }
+  ],
+  "route": [
+    {
+      "kind": "watch",
+      "eps": [
+        1,
+        1
+      ],
+      "why": "黑色剑士篇的倒叙，时间线在整部黄金时代之后，用来定调。跳过不影响正线。",
+      "optional": true
+    },
+    {
+      "kind": "watch",
+      "eps": [
+        2,
+        6
+      ],
+      "why": "格斯入团、鹰之团成形，直到第 6 集撞上佐德——这一集定下了整个世界的规则，是全剧第一个转折。"
+    },
+    {
+      "kind": "watch",
+      "eps": [
+        7,
+        10
+      ],
+      "why": "战场转宫廷，格里菲斯的另一面开始显形。第 10 集是 IMDb 全剧最高分之一，也是格斯动摇的起点。"
+    },
+    {
+      "kind": "watch",
+      "eps": [
+        11,
+        14
+      ],
+      "why": "卡思嘉的过往和百人斩都在这里，全剧人物铺垫最厚的一段，2022 版把它压成了不到两集。"
+    },
+    {
+      "kind": "watch",
+      "eps": [
+        15,
+        16
+      ],
+      "why": "多尔多雷攻城战，鹰之团的军事巅峰，两集一气呵成。"
+    },
+    {
+      "kind": "watch",
+      "eps": [
+        17,
+        19
+      ],
+      "why": "宫廷阴谋、荣光顶点、然后是雪夜那场决斗。第 17–18 集的王后阴谋线 2022 版整段没有，只有这一版讲完整了。"
+    },
+    {
+      "kind": "watch",
+      "eps": [
+        20,
+        22
+      ],
+      "why": "一年之后重新开始的一段，三个人的关系在这里落到实处。看完第 22 集建议翻漫画第 10–11 卷。"
+    },
+    {
+      "kind": "watch",
+      "eps": [
+        23,
+        25
+      ],
+      "why": "终章三集，连着看、不要中断。看完之后再看 2022 版第 12–13 集补完整度，然后接漫画第 14 卷。"
+    }
+  ]
+}
