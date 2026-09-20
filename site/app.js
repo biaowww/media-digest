@@ -325,11 +325,11 @@
       const groups = groupShows(shows);
       const mine = groups.find(g => g.items.some(s => s.slug === slug));
       if (mine && mine.items.length > 1) {
-        vtabs.replaceChildren(mine.items.map(v => h('button', { 'aria-pressed': String(v.slug === slug), onclick: () => go(v.slug) }, vLabel(v), h('small', {}, ` ${v.total_eps}${v.unit || '集'}`))));
+        vtabs.replaceChildren(...mine.items.map(v => h('button', { 'aria-pressed': String(v.slug === slug), onclick: () => go(v.slug) }, vLabel(v), h('small', {}, ` ${v.total_eps}${v.unit || '集'}`))));
         vtabs.hidden = false;
       }
       if (groups.length < 2) return;
-      switcher.replaceChildren(groups.map(g => { const cur = g === mine; const o = h('option', { value: cur ? slug : g.items[0].slug }, g.items.length > 1 ? g.title : (g.items[0].title_cn || g.items[0].title)); o.selected = cur; return o; }));
+      switcher.replaceChildren(...groups.map(g => { const cur = g === mine; const o = h('option', { value: cur ? slug : g.items[0].slug }, g.items.length > 1 ? g.title : (g.items[0].title_cn || g.items[0].title)); o.selected = cur; return o; }));
       switcher.hidden = false;
     }).catch(() => {});
     const topbar = h('nav', { class: 'topbar' },
