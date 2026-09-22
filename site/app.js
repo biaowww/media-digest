@@ -369,7 +369,7 @@
       switcher.hidden = false;
     }).catch(() => {});
     const topbar = h('nav', { class: 'topbar' },
-      h('a', { class: 'back', href: './' }, '← 全部剧集'),
+      h('a', { class: 'back', href: './' }, '← 全部'),
       syncButton(),
       h('div', { class: 'anchors' }, introSec ? h('a', { href: '#intro', onclick: jump('intro') }, '介绍') : null, h('a', { href: '#chart', onclick: jump('chart') }, '评分'), h('a', { href: '#route', onclick: jump('route') }, '路线')),
       switcher);
