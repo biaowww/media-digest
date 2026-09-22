@@ -58,6 +58,42 @@
     return new Map(pairs.map(([x, y]) => [x, y - (my + b * (x - mx))]));
   }
 
+  // ---------------- 跨端同步：状态按钮 + 设置面板 ----------------
+  function syncButton() {
+    const b = h('button', { class: 'sync', onclick: openSyncDialog });
+    const paint = () => { const st = MD.Sync.state.status; b.className = 'sync ' + st; b.textContent = (st === 'off' ? '未同步' : MD.Sync.statusText()); b.title = MD.Sync.state.detail || ''; };
+    paint(); MD.Sync.onChange(paint);
+    return b;
+  }
+  function openSyncDialog() {
+    document.querySelectorAll('dialog.syncdlg').forEach(d => d.remove());
+    const on = MD.Sync.configured();
+    const tokenIn = h('input', { type: 'password', placeholder: 'github_pat_… 或 ghp_…（只需 gist 权限）', autocomplete: 'off', style: 'width:100%' });
+    const msg = h('p', { class: 'small muted' });
+    const codeIn = h('textarea', { rows: 3, placeholder: '把另一台设备复制的进度码粘到这里', style: 'width:100%' });
+    const btnConnect = h('button', { class: 'btn', onclick: async () => {
+      if (!tokenIn.value.trim()) { msg.textContent = '先贴 token'; return; }
+      msg.textContent = '连接中…'; btnConnect.disabled = true;
+      try { await MD.Sync.connect(tokenIn.value); msg.textContent = '已连接，' + MD.Sync.statusText(); tokenIn.value = ''; setTimeout(() => dlg.close(), 800); }
+      catch (e) { msg.textContent = '失败：' + e.message; } finally { btnConnect.disabled = false; }
+    } }, on ? '换一个 token' : '连接');
+    const dlg = h('dialog', { class: 'syncdlg' },
+      h('div', { class: 'sec-hd' }, h('h3', {}, '跨端同步'), h('button', { class: 'fold', onclick: () => dlg.close() }, '关闭')),
+      h('p', { class: 'small muted' }, on ? '当前：' + MD.Sync.statusText() + '。进度存在你自己的私密 GitHub Gist 里，每台设备贴一次 token 即可。'
+        : '进度存在你自己的私密 GitHub Gist 里。到 GitHub → Settings → Developer settings → Personal access tokens 生成一个只勾 gist 权限的 token，贴到这里；另一台设备贴同一个 token 就同步了。'),
+      h('div', { style: 'display:flex;gap:8px;align-items:center;margin:6px 0' }, tokenIn, btnConnect),
+      on ? h('div', { style: 'display:flex;gap:8px;margin:4px 0' },
+        h('button', { class: 'btn', onclick: async () => { msg.textContent = '同步中…'; await MD.Sync.syncNow(); msg.textContent = MD.Sync.statusText(); } }, '立即同步'),
+        h('button', { class: 'btn', onclick: () => { MD.Sync.disconnect(); dlg.close(); } }, '断开（本机进度保留）')) : null,
+      msg,
+      h('h3', { style: 'margin-top:14px' }, '进度码（不用 token 的手动兜底）'),
+      h('div', { style: 'display:flex;gap:8px;margin:6px 0' },
+        h('button', { class: 'btn', onclick: async () => { const c = await MD.Code.export(); try { await navigator.clipboard.writeText(c); msg.textContent = '进度码已复制到剪贴板，去另一台设备粘贴导入'; } catch (e) { codeIn.value = c; msg.textContent = '已生成在下方文本框，手动复制'; } } }, '复制本机进度码'),
+        h('button', { class: 'btn', onclick: async () => { try { const n = await MD.Code.import(codeIn.value); msg.textContent = `已导入并合并 ${n} 部剧的进度`; codeIn.value = ''; } catch (e) { msg.textContent = '导入失败：' + e.message; } } }, '导入')),
+      codeIn);
+    document.body.append(dlg); dlg.showModal();
+  }
+
   // 同一 IP 的多个改编版本（meta.series 相同）并成一组：首页一张卡、剧集页顶部 tab。组内按年份排，第一个是默认版本。
   function groupShows(shows) {
     const groups = [], byKey = new Map();
@@ -97,7 +133,7 @@
               : h('div', { class: 'muted small' }, [s.title_cn ? s.title : null, s.year, s.total_eps + ' ' + (s.unit || '集')].filter(Boolean).join(' · ')),
             h('div', { class: 'muted small' }, multi ? `${g.items.length} 个版本，页内 tab 切换` : (s.watch_eps ? `路线：看 ${s.watch_eps} ${s.unit || '集'} + ${s.bridges} 段桥接` : '路线尚未编写'))));
       })),
-      h('footer', {}, 'media-digest'),
+      h('footer', {}, 'media-digest · ', syncButton()),
     );
   }
 
@@ -112,9 +148,9 @@
     document.title = (meta.title_cn || meta.title) + ' · 追剧路线';
     const U = meta.unit || '集';
 
-    const K_DONE = `md:${slug}:done`, K_KPI = `md:${slug}:kpi`, K_DET = `md:${slug}:detrend`;
-    let done = new Set(store.get(K_DONE, []));
-    const saveDone = () => store.set(K_DONE, [...done].sort((a, b) => a - b));
+    const K_KPI = `md:${slug}:kpi`, K_DET = `md:${slug}:detrend`;
+    let done = MD.Progress.done(slug);
+    const mark = (n, on) => { MD.Progress.set(slug, n, on); on ? done.add(n) : done.delete(n); };
     let detrendOn = !!store.get(K_DET, false);
 
     const state = new Map(); // n -> 'watch' | 'bridge'
@@ -210,7 +246,7 @@
           h('span', {}, h('span', { class: 'big' }, String(cur)), h('span', { class: 'muted' }, ` / ${total} ${U}已看`)),
           route.length ? h('span', { class: 'muted' }, `桥接已读 ${br} / ${bridges.length}`) : null,
           h('span', { style: 'flex:1' }),
-          h('button', { class: 'link', onclick: () => { if (confirm('清空本机进度？')) { done = new Set(); saveDone(); rerender(); } } }, '重置')),
+          h('button', { class: 'link', onclick: () => { if (confirm('清空这部剧的进度？（已开同步的话另一端也会清）')) { MD.Progress.reset(slug); done = MD.Progress.done(slug); rerender(); } } }, '重置')),
         h('div', { class: 'bar' }, h('i', { style: `width:${total ? (100 * cur / total) : 0}%` })));
     }
 
@@ -272,7 +308,7 @@
     // ---- 路线 ----
     const routeSec = h('section', {});
     function epRow(e) {
-      const cb = h('input', { type: 'checkbox', onchange: ev => { ev.target.checked ? done.add(e.n) : done.delete(e.n); saveDone(); rerender(); } });
+      const cb = h('input', { type: 'checkbox', onchange: ev => { mark(e.n, ev.target.checked); rerender(); } });
       cb.checked = done.has(e.n);
       const v = kpiVal(e);
       return h('label', { class: 'ep' + (done.has(e.n) ? ' done' : ''), title: allScores(e) }, cb, h('span', { class: 'n' }, String(e.n)),
@@ -295,7 +331,7 @@
             h('div', { class: 'eps' }, rows));
         }
         const open = openBridges.has(i), read = bridgeRead(node);
-        const cb = h('input', { type: 'checkbox', onclick: ev => ev.stopPropagation(), onchange: ev => { for (let n = a; n <= b; n++) ev.target.checked ? done.add(n) : done.delete(n); saveDone(); rerender(); } });
+        const cb = h('input', { type: 'checkbox', onclick: ev => ev.stopPropagation(), onchange: ev => { for (let n = a; n <= b; n++) mark(n, ev.target.checked); rerender(); } });
         cb.checked = read;
         const body = h('div', { class: 'body' }, node.paragraphs.map(p => h('p', {}, p)));
         body.hidden = !open;
@@ -334,10 +370,16 @@
     }).catch(() => {});
     const topbar = h('nav', { class: 'topbar' },
       h('a', { class: 'back', href: './' }, '← 全部剧集'),
+      syncButton(),
       h('div', { class: 'anchors' }, introSec ? h('a', { href: '#intro', onclick: jump('intro') }, '介绍') : null, h('a', { href: '#chart', onclick: jump('chart') }, '评分'), h('a', { href: '#route', onclick: jump('route') }, '路线')),
       switcher);
 
     function rerender() { renderProgress(); renderChart(); renderRoute(); }
+    const mySlugForSync = slug;
+    const offSync = MD.Sync.onChange((st, what) => {  // 远端合并进来新进度 → 重画
+      if (what !== 'progress' || mySlugForSync !== slug) { if (mySlugForSync !== slug) offSync(); return; }
+      done = MD.Progress.done(slug); rerender();
+    });
     $app.replaceChildren(topbar, vtabs, hero, introSec, progress, chartSec, routeSec,
       h('footer', {}, h('a', { href: './' }, '全部剧集'), ` · 数据更新 ${meta.updated || '—'}`, ' · 评分各源并列，不合并'));
     rerender();
