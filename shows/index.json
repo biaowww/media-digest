@@ -31,6 +31,21 @@
       "bridges": 0
     },
     {
+      "slug": "berserk-manga-1989",
+      "title": "Berserk (manga)",
+      "title_cn": "剑风传奇（漫画）",
+      "year": 1989,
+      "total_eps": 43,
+      "unit": "卷",
+      "updated": "2026-09-30",
+      "series": "berserk",
+      "series_title": "剑风传奇 Berserk",
+      "version_label": "漫画",
+      "cover": null,
+      "watch_eps": 37,
+      "bridges": 1
+    },
+    {
       "slug": "frieren-2023",
       "title": "Frieren: Beyond Journey's End",
       "title_cn": "葬送的芙莉莲",
