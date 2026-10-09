@@ -70,7 +70,7 @@ run_build.bat                  # 同上，双击即可（留窗显示结果）�
 内容不在仓库里写。**Drive 是唯一真相，仓库的 `shows/<slug>.json` 是 build 产物，不手改。** 每部剧的 `route.json`（含 `intro` 块）由各 Claude 会话写到 Drive：
 
 ```
-<Drive claude根>/domains/personal/media-digest/shows/<slug>/{route.json, intro.json?, cover.jpg?}
+<Drive根 biaoOS>/domains/personal/media-digest/shows/<slug>/{route.json, intro.json?, cover.jpg?}
 ```
 
 `sync.py` 会把 chat 会话的键名归一到 schema（`spoiler_free_summary→synopsis`、`character_motivations→characters`、`eps:[4]→[4,4]`），内容不改。

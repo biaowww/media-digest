@@ -6,7 +6,7 @@
 
 ## 前置
 
-- Google Drive for desktop 已登录同一账号，`claude` 文件夹在 `~/Library/CloudStorage/GoogleDrive-<账号>/My Drive/claude`（或「我的云端硬盘」），`scraper/paths.py` 会自动探测；不对就设 `CLAUDE_DRIVE_ROOT`。
+- Google Drive for desktop 已登录同一账号，`biaoOS` 文件夹（旧名 `claude`，paths.py 两个都认）在 `~/Library/CloudStorage/GoogleDrive-<账号>/My Drive/biaoOS`（或「我的云端硬盘」），`scraper/paths.py` 会自动探测；不对就设 `BIAOOS_DRIVE_ROOT`。
 - `gh auth login`（或 git 凭证）能 push `biaowww/media-digest`。
 - Python 3.10+：`pip3 install -r scraper/requirements.txt`。
 - TMDB 凭证不用配：脚本回退读 Drive `shows/_tmdb_key.txt`。

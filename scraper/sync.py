@@ -2,7 +2,7 @@
 """
 sync.py — 把 Drive 上各会话写的主观内容（intro / route）同步进仓库的 shows/<slug>.json。
 
-内容源（唯一真相）：<Drive claude根>/domains/personal/media-digest/shows/<slug>/
+内容源（唯一真相）：<Drive根 biaoOS>/domains/personal/media-digest/shows/<slug>/
   route.json   路线 + 介绍。两种写法都收：
                  ① 对象 {"intro": {...}, "route": [...], "route_note": "..."}（chat 会话产出的样子）
                  ② 纯数组 [ {kind, eps, ...}, ... ]（只有路线）
