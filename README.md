@@ -63,7 +63,7 @@ run_build.bat                  # 同上，双击即可（留窗显示结果）�
 
 日志 `scraper/logs/build.log`（空转只更新 `logs/last-run.txt`）。某部剧校验不过只跳过它，不影响其余。写内容的会话**不需要任何人通知本机**。第二台巡检机（Mac）见 `DEPLOY.md`。
 
-通用性：多季剧 `meta.season` 只取该季（IMDb/TMDB），不写则按 MAL/Bangumi 声明集数截断；没有评分源的内容（小说）`ids` 留空、给 `meta.total_eps`（+ `unit: 章`）即可建骨架。页面读 json 带时间戳，不受 Pages 10 分钟缓存影响。
+通用性：多季剧 `meta.season` 只取该季（IMDb/TMDB），不写则按 MAL/Bangumi 声明集数截断；漫画挂 `--kind manga`（MAL `/manga/<id>` 给作品信息 + 头像，Bangumi 系列条目给单行本分卷评分，`resolve` 加 `--manga` 搜漫画 ID）；没有评分源的内容（小说）`ids` 留空、给 `meta.total_eps`（+ `unit: 章`）即可建骨架。页面读 json 带时间戳，不受 Pages 10 分钟缓存影响。
 
 ## 内容更新回路（Drive → 仓库）
 
@@ -108,10 +108,10 @@ git push                             # 页面生效
 
 | 源 | 方式 | 给什么 | 限制 |
 |---|---|---|---|
-| MAL | **全部直抓 HTML**，无需 key、不经 Jikan：`/anime/<id>/_/episode`（分集）、`/anime/<id>`（作品）、`/anime/<id>/_/characters`（角色） | 分集两位小数均分 + 论坛回复数（热度）、日/英/罗马标题、首播日；作品简介、封面、总分/票数/排名、类型、制作公司；主角 + 高人气配角头像 | Jikan 只在 `resolve` 搜索里用，它 504 不影响抓取；robots 对普通 UA 不禁 /anime/ |
+| MAL | **全部直抓 HTML**，无需 key、不经 Jikan：`/anime/<id>/_/episode`（分集）、`/anime/<id>`（作品）、`/anime/<id>/_/characters`（角色）；漫画加 `--kind manga` 改走 `/manga/<id>` 同款页面 | 分集两位小数均分 + 论坛回复数（热度）、日/英/罗马标题、首播日；作品简介、封面、总分/票数/排名、类型、制作公司；主角 + 高人气配角头像 | Jikan 只在 `resolve` 搜索里用，它 504 不影响抓取；robots 对普通 UA 不禁 /anime/ /manga/；**漫画无分卷评分**，只取作品级信息 + 头像 |
 | IMDb | 官方数据集 `title.episode` + `title.ratings`（缓存 7 天，~60 MB） | 分集评分 + 票数 | **不爬页面**（robots 禁止）；无季/集号的特别篇记在 `about` 之外的 extras，不进正片 |
 | TMDB | 官方 API v3，免费 key | 分集评分、**中文分集标题与梗概**（`zh-CN`） | 无 key 则跳过；非动画剧集的首选 |
-| Bangumi | v0 API，需自定义 UA | 中文作品名/简介、日文分集名、分集**讨论数**、主角 | **v0 API 没有分集评分**（实测），所以 KPI 是讨论热度；中文分集名视条目而定 |
+| Bangumi | v0 API，需自定义 UA；**漫画（`--kind manga`）改抓系列条目的关联单行本** | 中文作品名/简介、日文分集名、分集**讨论数**、主角；漫画：每卷单行本评分 + 票数 | 动画条目的 v0 API **没有分集评分**（实测），KPI 是讨论热度；漫画分卷评分来自单行本条目，票数少（个位数到几十），只作参考 |
 | Wikipedia(en) | MediaWiki API 取 wikitext，解析 `{{Episode list}}` | 英文分集标题 + ShortSummary（写桥接摘要的原料） | 页面名要对（通常 `List of <Title> episodes`） |
 
 页面 KPI 切换只列有数据的源；柱高按该源 min–max 拉伸（否则窄分布看不出差异）。

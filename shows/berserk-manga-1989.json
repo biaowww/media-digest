@@ -2,20 +2,291 @@
   "meta": {
     "slug": "berserk-manga-1989",
     "schema_version": 1,
-    "ids": {},
+    "ids": {
+      "mal": "2",
+      "bangumi": "9640"
+    },
     "title": "Berserk (manga)",
     "title_cn": "剑风传奇（漫画）",
     "year": 1989,
     "total_eps": 43,
     "unit": "卷",
-    "primary_kpi": "imdb",
-    "updated": "2026-09-30",
+    "primary_kpi": "bangumi",
+    "updated": "2026-10-09",
     "series": "berserk",
     "series_title": "剑风传奇 Berserk",
     "version_label": "漫画",
-    "kind": "novel"
+    "kind": "manga",
+    "title_native": "ベルセルク",
+    "fetched": {
+      "mal": "2026-10-09",
+      "bangumi": "2026-10-09"
+    }
   },
-  "about": {},
+  "about": {
+    "cover": "https://cdn.myanimelist.net/images/manga/1/157897.jpg",
+    "synopsis": {
+      "zh": "本书故事背景设定在类似中古欧洲的时代，国与国之间互相争战，烽火连年，各国都豢养庞大军备，佣兵也成为时兴的行业，一般平民的生活则十分穷苦。在这个以人类为主的世界中，魔法和妖精、地精等奇幻生物种族早已从人们的日常生活中消失，但此时却又出现了称为“使徒”的怪物，他们以人类的形体隐藏在各地人群中，以其超常的能力为世界带来祸乱。\r\n　　此时代的战争技术已经可运用大炮，可以随身携带的火铳却仍十分罕见，因此刀剑、弓矢等仍是战斗的主要武器。奇幻故事中常见的魔法则在故事后期开始登场，但主要是以使役精灵或干涉幽界等间接的手法呈现，与一般日本奇幻漫画火焰雷击乱飞的风格有显著的不同。\r\n　　三浦建太郎所作奇幻漫画，自1989年起在白泉社的『YOUNG ANIMAL』杂志上不定期连载。\r\n　　本书画风厚重阴暗，营造出黑暗的险恶氛围，而动作场面节奏明快且充满魄力。剧情以冒险与战争为主，随着故事推展而逐渐披露出独特的世界观。书中有许多血腥残忍的暴力场面，在许多国家地区因出版法规而有所删改、或列为限制级，但仍广受好评。1997年改编为电视动画，并曾推出电视游戏与交换卡片游戏。2002年获得第6届手冢治虫文化赏的最佳漫画奖。\r\n　　书名「ベルセルク」来自北欧神话中的狂战士（berserker）。"
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Award Winning",
+      "Drama",
+      "Fantasy",
+      "Horror",
+      "Gore",
+      "Military",
+      "Psychological",
+      "Seinen"
+    ],
+    "scores": {
+      "mal": {
+        "score": 9.46,
+        "votes": 405960,
+        "rank": 1
+      },
+      "bangumi": {
+        "score": 9.3,
+        "votes": 3137,
+        "rank": 2
+      }
+    },
+    "links": {
+      "mal": "https://myanimelist.net/manga/2",
+      "bangumi": "https://bgm.tv/subject/9640"
+    },
+    "characters_bangumi": [
+      {
+        "name_native": "キャスカ",
+        "relation": "主角",
+        "image": "https://lain.bgm.tv/pic/crt/g/54/b2/2458_crt_anidb.jpg",
+        "bangumi_id": 2458
+      },
+      {
+        "name_native": "ガッツ",
+        "relation": "主角",
+        "image": "https://lain.bgm.tv/pic/crt/g/01/b9/18158_crt_8ZE4B.jpg",
+        "bangumi_id": 18158
+      },
+      {
+        "name_native": "グリフィス",
+        "relation": "主角",
+        "image": "https://lain.bgm.tv/pic/crt/g/cc/25/18159_crt_XPyMM.jpg?r=1724543399",
+        "bangumi_id": 18159
+      },
+      {
+        "name_native": "パック",
+        "relation": "主角",
+        "image": "https://lain.bgm.tv/pic/crt/g/f9/34/41973_crt_963C6.jpg",
+        "bangumi_id": 41973
+      },
+      {
+        "name_native": "シールケ",
+        "relation": "主角",
+        "image": "https://lain.bgm.tv/pic/crt/g/09/e5/53356_crt_o9RSV.jpg?r=1492181739",
+        "bangumi_id": 53356
+      }
+    ],
+    "characters": [
+      {
+        "name": "Casca",
+        "role": "Main",
+        "image": "https://cdn.myanimelist.net/images/characters/14/72697.jpg",
+        "mal_id": 423,
+        "favorites": 4988
+      },
+      {
+        "name": "Farnese de Vandimion",
+        "role": "Main",
+        "image": "https://cdn.myanimelist.net/images/characters/3/150707.jpg",
+        "mal_id": 7857,
+        "favorites": 1168
+      },
+      {
+        "name": "Griffith",
+        "role": "Main",
+        "image": "https://cdn.myanimelist.net/images/characters/9/326322.jpg",
+        "mal_id": 424,
+        "favorites": 16391
+      },
+      {
+        "name": "Guts",
+        "role": "Main",
+        "image": "https://cdn.myanimelist.net/images/characters/13/284125.jpg",
+        "mal_id": 422,
+        "favorites": 86529
+      },
+      {
+        "name": "Isidro",
+        "role": "Main",
+        "image": "https://cdn.myanimelist.net/images/characters/9/101956.jpg",
+        "mal_id": 7859,
+        "favorites": 325
+      },
+      {
+        "name": "Puck",
+        "role": "Main",
+        "image": "https://cdn.myanimelist.net/images/characters/8/101984.jpg",
+        "mal_id": 5060,
+        "favorites": 1965
+      },
+      {
+        "name": "Schierke",
+        "role": "Main",
+        "image": "https://cdn.myanimelist.net/images/characters/12/530028.jpg",
+        "mal_id": 7864,
+        "favorites": 1617
+      },
+      {
+        "name": "Serpico",
+        "role": "Main",
+        "image": "https://cdn.myanimelist.net/images/characters/15/150923.jpg",
+        "mal_id": 5059,
+        "favorites": 977
+      },
+      {
+        "name": "The Skull Knight",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/8/535379.jpg",
+        "mal_id": 7881,
+        "favorites": 2292
+      },
+      {
+        "name": "Judeau",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/7/101985.jpg",
+        "mal_id": 454,
+        "favorites": 1705
+      },
+      {
+        "name": "Zodd Nosferatu",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/13/530030.jpg",
+        "mal_id": 600,
+        "favorites": 430
+      },
+      {
+        "name": "Donovan",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/16/332470.jpg",
+        "mal_id": 137923,
+        "favorites": 246
+      },
+      {
+        "name": "Pippin",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/9/68119.jpg",
+        "mal_id": 597,
+        "favorites": 177
+      },
+      {
+        "name": "Rickert",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/14/214839.jpg",
+        "mal_id": 598,
+        "favorites": 139
+      },
+      {
+        "name": "Luca",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/5/150769.jpg",
+        "mal_id": 26394,
+        "favorites": 105
+      },
+      {
+        "name": "Chicchi",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/2/187651.jpg",
+        "mal_id": 74513,
+        "favorites": 101
+      },
+      {
+        "name": "Slan",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/16/158175.jpg",
+        "mal_id": 605,
+        "favorites": 98
+      },
+      {
+        "name": "Void",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/2/158161.jpg",
+        "mal_id": 604,
+        "favorites": 81
+      },
+      {
+        "name": "Godo",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/14/214837.jpg",
+        "mal_id": 6848,
+        "favorites": 72
+      },
+      {
+        "name": "Mozgus",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/16/87108.jpg",
+        "mal_id": 32488,
+        "favorites": 47
+      },
+      {
+        "name": "Isma",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/16/101648.jpg",
+        "mal_id": 30669,
+        "favorites": 44
+      },
+      {
+        "name": "Irvine",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/6/153173.jpg",
+        "mal_id": 7871,
+        "favorites": 40
+      },
+      {
+        "name": "Beast of Darkness",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/13/68878.jpg",
+        "mal_id": 27213,
+        "favorites": 36
+      },
+      {
+        "name": "Rosine",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/12/144657.jpg",
+        "mal_id": 19553,
+        "favorites": 34
+      },
+      {
+        "name": "Morda",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/10/307158.jpg",
+        "mal_id": 136922,
+        "favorites": 31
+      },
+      {
+        "name": "Jill",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/4/68223.jpg",
+        "mal_id": 27057,
+        "favorites": 25
+      },
+      {
+        "name": "Corkus",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/6/158163.jpg",
+        "mal_id": 599,
+        "favorites": 24
+      },
+      {
+        "name": "Wyald",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/4/336682.jpg",
+        "mal_id": 19548,
+        "favorites": 23
+      }
+    ]
+  },
   "intro": {
     "logline": "一个被恶魔烙上印记的剑士，用一把太大的剑，向一个成了神的旧友讨债——黑暗奇幻的原点。",
     "synopsis": "战乱不止的中世纪式大陆上，一个独臂、独眼、背着巨剑的男人在各地猎杀一种披着人皮的怪物「使徒」（Apostle），人们叫他「黑色剑士」（Black Swordsman）。他脖子上有一道会在夜里渗血的烙印，引来无数恶灵，所以他几乎不睡。他叫格斯（Guts），身边只跟着一只话多的小精灵帕克（Puck）。他要找的不是随便哪个怪物，而是一个人——曾经与他并肩作战的旧友。故事从他的复仇之路开始，再倒回去讲这笔账是怎么欠下的，然后继续往前走：复仇之外，他还能不能护住身边剩下的东西。",
@@ -87,7 +358,13 @@
   "episodes": [
     {
       "n": 1,
-      "sources": {},
+      "sources": {
+        "bangumi": {
+          "score": 7.7,
+          "votes": 40,
+          "url": "https://bgm.tv/subject/9478"
+        }
+      },
       "synopsis": {},
       "notes": {
         "title_cn": "黑色剑士",
@@ -118,11 +395,19 @@
             "note": "曾是伯爵的御医"
           }
         ]
-      }
+      },
+      "title_native": "ベルセルク (1)",
+      "aired": "1990-12-01"
     },
     {
       "n": 2,
-      "sources": {},
+      "sources": {
+        "bangumi": {
+          "score": 7.7,
+          "votes": 33,
+          "url": "https://bgm.tv/subject/9479"
+        }
+      },
       "synopsis": {},
       "notes": {
         "title_cn": "欲望的守护神（上）",
@@ -141,11 +426,19 @@
             "note": "伯爵之女"
           }
         ]
-      }
+      },
+      "title_native": "ベルセルク (2)",
+      "aired": "1991-03-01"
     },
     {
       "n": 3,
-      "sources": {},
+      "sources": {
+        "bangumi": {
+          "score": 7.9,
+          "votes": 34,
+          "url": "https://bgm.tv/subject/9480"
+        }
+      },
       "synopsis": {},
       "notes": {
         "title_cn": "欲望的守护神（下）· 黄金时代开篇",
@@ -188,11 +481,19 @@
             "note": "格斯的养母"
           }
         ]
-      }
+      },
+      "title_native": "ベルセルク (3)",
+      "aired": "1991-10-01"
     },
     {
       "n": 4,
-      "sources": {},
+      "sources": {
+        "bangumi": {
+          "score": 7.8,
+          "votes": 29,
+          "url": "https://bgm.tv/subject/9481"
+        }
+      },
       "synopsis": {},
       "notes": {
         "title_cn": "黄金时代（二）：鹰之团",
@@ -243,11 +544,19 @@
             "kind": "recurring"
           }
         ]
-      }
+      },
+      "title_native": "ベルセルク (4)",
+      "aired": "1992-02-01"
     },
     {
       "n": 5,
-      "sources": {},
+      "sources": {
+        "bangumi": {
+          "score": 7.8,
+          "votes": 30,
+          "url": "https://bgm.tv/subject/9482"
+        }
+      },
       "synopsis": {},
       "notes": {
         "title_cn": "不死者佐德",
@@ -260,11 +569,19 @@
             "note": "使徒"
           }
         ]
-      }
+      },
+      "title_native": "ベルセルク (5)",
+      "aired": "1993-03-01"
     },
     {
       "n": 6,
-      "sources": {},
+      "sources": {
+        "bangumi": {
+          "score": 8,
+          "votes": 32,
+          "url": "https://bgm.tv/subject/9483"
+        }
+      },
       "synopsis": {},
       "notes": {
         "title_cn": "剑之主",
@@ -295,11 +612,19 @@
             "note": "宫廷大臣"
           }
         ]
-      }
+      },
+      "title_native": "ベルセルク (6)",
+      "aired": "1993-09-01"
     },
     {
       "n": 7,
-      "sources": {},
+      "sources": {
+        "bangumi": {
+          "score": 7.9,
+          "votes": 30,
+          "url": "https://bgm.tv/subject/9484"
+        }
+      },
       "synopsis": {},
       "notes": {
         "title_cn": "决死行 · 梦之篝火",
@@ -318,11 +643,19 @@
             "note": "都铎贵族、多尔多雷守将"
           }
         ]
-      }
+      },
+      "title_native": "ベルセルク (7)",
+      "aired": "1994-03-01"
     },
     {
       "n": 8,
-      "sources": {},
+      "sources": {
+        "bangumi": {
+          "score": 8.4,
+          "votes": 31,
+          "url": "https://bgm.tv/subject/9485"
+        }
+      },
       "synopsis": {},
       "notes": {
         "title_cn": "多尔多雷攻略战 · 荣光的瞬间",
@@ -340,11 +673,19 @@
             "kind": "one-off"
           }
         ]
-      }
+      },
+      "title_native": "ベルセルク (8)",
+      "aired": "1994-09-01"
     },
     {
       "n": 9,
-      "sources": {},
+      "sources": {
+        "bangumi": {
+          "score": 8.4,
+          "votes": 31,
+          "url": "https://bgm.tv/subject/9486"
+        }
+      },
       "synopsis": {},
       "notes": {
         "title_cn": "雪夜 · 梦之终焉",
@@ -357,11 +698,19 @@
             "note": "神秘骑士"
           }
         ]
-      }
+      },
+      "title_native": "ベルセルク (9)",
+      "aired": "1995-03-01"
     },
     {
       "n": 10,
-      "sources": {},
+      "sources": {
+        "bangumi": {
+          "score": 8.2,
+          "votes": 29,
+          "url": "https://bgm.tv/subject/9487"
+        }
+      },
       "synopsis": {},
       "notes": {
         "title_cn": "再生之塔",
@@ -374,11 +723,19 @@
             "note": "巴基拉卡（Bakiraka）刺客一族的首领"
           }
         ]
-      }
+      },
+      "title_native": "ベルセルク (10)",
+      "aired": "1995-09-01"
     },
     {
       "n": 11,
-      "sources": {},
+      "sources": {
+        "bangumi": {
+          "score": 8.2,
+          "votes": 28,
+          "url": "https://bgm.tv/subject/9488"
+        }
+      },
       "synopsis": {},
       "notes": {
         "title_cn": "黑犬骑士团",
@@ -391,20 +748,36 @@
             "note": "使徒 · 黑犬骑士团团长"
           }
         ]
-      }
+      },
+      "title_native": "ベルセルク (11)",
+      "aired": "1996-03-01"
     },
     {
       "n": 12,
-      "sources": {},
+      "sources": {
+        "bangumi": {
+          "score": 8.7,
+          "votes": 33,
+          "url": "https://bgm.tv/subject/9489"
+        }
+      },
       "synopsis": {},
       "notes": {
         "title_cn": "蚀（上）",
         "summary": "格里菲斯驾马车出逃，翻落河中，失落的贝黑莉特回到手里并被启动，鹰之团众人被卷入异界。神之手现身，向格里菲斯展示他的过去与野心，要他献出同伴。格里菲斯说出「我献祭」。全团被烙上献祭之印，使徒的屠杀开始。"
-      }
+      },
+      "title_native": "ベルセルク (12)",
+      "aired": "1996-09-01"
     },
     {
       "n": 13,
-      "sources": {},
+      "sources": {
+        "bangumi": {
+          "score": 8.7,
+          "votes": 34,
+          "url": "https://bgm.tv/subject/9490"
+        }
+      },
       "synopsis": {},
       "notes": {
         "title_cn": "蚀（下）",
@@ -417,11 +790,19 @@
             "note": "格里菲斯转生后的神之手之名"
           }
         ]
-      }
+      },
+      "title_native": "ベルセルク (13)",
+      "aired": "1997-03-01"
     },
     {
       "n": 14,
-      "sources": {},
+      "sources": {
+        "bangumi": {
+          "score": 8.1,
+          "votes": 29,
+          "url": "https://bgm.tv/subject/9491"
+        }
+      },
       "synopsis": {},
       "notes": {
         "title_cn": "黄金时代的终结 · 迷途的孩子开篇",
@@ -457,11 +838,19 @@
             "note": "雾之谷的村女"
           }
         ]
-      }
+      },
+      "title_native": "ベルセルク (14)",
+      "aired": "1997-09-01"
     },
     {
       "n": 15,
-      "sources": {},
+      "sources": {
+        "bangumi": {
+          "score": 8,
+          "votes": 25,
+          "url": "https://bgm.tv/subject/9492"
+        }
+      },
       "synopsis": {},
       "notes": {
         "title_cn": "迷途的孩子",
@@ -474,11 +863,19 @@
             "note": "使徒"
           }
         ]
-      }
+      },
+      "title_native": "ベルセルク (15)",
+      "aired": "1998-01-01"
     },
     {
       "n": 16,
-      "sources": {},
+      "sources": {
+        "bangumi": {
+          "score": 8.3,
+          "votes": 28,
+          "url": "https://bgm.tv/subject/9493"
+        }
+      },
       "synopsis": {},
       "notes": {
         "title_cn": "迷途的孩子（终）· 断罪篇开篇",
@@ -497,20 +894,36 @@
             "note": "圣铁锁骑士团副团长"
           }
         ]
-      }
+      },
+      "title_native": "ベルセルク (16)",
+      "aired": "1998-08-01"
     },
     {
       "n": 17,
-      "sources": {},
+      "sources": {
+        "bangumi": {
+          "score": 8,
+          "votes": 22,
+          "url": "https://bgm.tv/subject/9494"
+        }
+      },
       "synopsis": {},
       "notes": {
         "title_cn": "断罪篇（一）",
         "summary": "帕克趁夜救出格斯，格斯挟持法尔涅泽出逃，赛尔皮克追赶时遭遇附身猎犬的恶灵。被恶灵附身的法尔涅泽整夜纠缠格斯直到天亮。格斯得知卡思嘉已从戈多身边走失。另一边，米德兰老国王在幻象中看到格里菲斯归来后死去，库夏（Kushan）大军逼近。"
-      }
+      },
+      "title_native": "ベルセルク (17)",
+      "aired": "1999-03-01"
     },
     {
       "n": 18,
-      "sources": {},
+      "sources": {
+        "bangumi": {
+          "score": 8,
+          "votes": 21,
+          "url": "https://bgm.tv/subject/9495"
+        }
+      },
       "synopsis": {},
       "notes": {
         "title_cn": "断罪篇（二）",
@@ -545,20 +958,36 @@
             "kind": "one-off"
           }
         ]
-      }
+      },
+      "title_native": "ベルセルク (18)",
+      "aired": "1999-10-01"
     },
     {
       "n": 19,
-      "sources": {},
+      "sources": {
+        "bangumi": {
+          "score": 8.1,
+          "votes": 21,
+          "url": "https://bgm.tv/subject/9496"
+        }
+      },
       "synopsis": {},
       "notes": {
         "title_cn": "断罪篇（三）",
         "summary": "格斯抵达圣阿尔比恩，击退骚扰露卡的圣骑士。妮娜（Nina）带着卡思嘉出走，落入异教徒的夜宴：他们要让卡思嘉嫁给「大山羊」（Great Goat），拿妮娜献祭。格斯斩杀化身魔物的大山羊，但卡思嘉与妮娜被带进了断罪之塔。"
-      }
+      },
+      "title_native": "ベルセルク (19)",
+      "aired": "2000-03-01"
     },
     {
       "n": 20,
-      "sources": {},
+      "sources": {
+        "bangumi": {
+          "score": 8,
+          "votes": 22,
+          "url": "https://bgm.tv/subject/9497"
+        }
+      },
       "synopsis": {},
       "notes": {
         "title_cn": "断罪篇（四）",
@@ -571,29 +1000,53 @@
             "note": "使徒"
           }
         ]
-      }
+      },
+      "title_native": "ベルセルク (20)",
+      "aired": "2000-10-01"
     },
     {
       "n": 21,
-      "sources": {},
+      "sources": {
+        "bangumi": {
+          "score": 8.2,
+          "votes": 25,
+          "url": "https://bgm.tv/subject/9498"
+        }
+      },
       "synopsis": {},
       "notes": {
         "title_cn": "断罪篇（终）",
         "summary": "伊西多罗用滑轮把卡思嘉从火刑架上救下，格斯杀死化身异形的莫兹古斯。亡灵涌满圣阿尔比恩，完美世界之卵完成仪式、牺牲自己，格里菲斯重获肉身，被佐德带走。格斯救回卡思嘉；法尔涅泽舍弃信仰，决定追随格斯。"
-      }
+      },
+      "title_native": "ベルセルク (21)",
+      "aired": "2001-05-01"
     },
     {
       "n": 22,
-      "sources": {},
+      "sources": {
+        "bangumi": {
+          "score": 8.2,
+          "votes": 23,
+          "url": "https://bgm.tv/subject/9499"
+        }
+      },
       "synopsis": {},
       "notes": {
         "title_cn": "千年帝国之鹰篇开篇",
         "summary": "格斯带卡思嘉回到戈多家，戈多已经去世。格里菲斯现身，格斯扑上去，被佐德拦下，两人的死斗毁掉了洞穴；利凯特没有跟格里菲斯走。为了不连累别人，格斯带着卡思嘉、帕克、伊西多罗踏上前往精灵岛（Elfhelm）的路。另一边，格里菲斯击退占据米德兰城堡的库夏军，被奉为「守护天使」。"
-      }
+      },
+      "title_native": "ベルセルク (22)",
+      "aired": "2001-12-01"
     },
     {
       "n": 23,
-      "sources": {},
+      "sources": {
+        "bangumi": {
+          "score": 7.7,
+          "votes": 19,
+          "url": "https://bgm.tv/subject/9500"
+        }
+      },
       "synopsis": {},
       "notes": {
         "title_cn": "新的同行者",
@@ -636,11 +1089,19 @@
             "note": "异形刺客"
           }
         ]
-      }
+      },
+      "title_native": "ベルセルク (23)",
+      "aired": "2002-06-28"
     },
     {
       "n": 24,
-      "sources": {},
+      "sources": {
+        "bangumi": {
+          "score": 7.3,
+          "votes": 18,
+          "url": "https://bgm.tv/subject/9501"
+        }
+      },
       "synopsis": {},
       "notes": {
         "title_cn": "魔女",
@@ -659,29 +1120,53 @@
             "note": "希尔克的老师"
           }
         ]
-      }
+      },
+      "title_native": "ベルセルク (24)",
+      "aired": "2002-12-19"
     },
     {
       "n": 25,
-      "sources": {},
+      "sources": {
+        "bangumi": {
+          "score": 7.7,
+          "votes": 18,
+          "url": "https://bgm.tv/subject/9502"
+        }
+      },
       "synopsis": {},
       "notes": {
         "title_cn": "巨魔之村",
         "summary": "一行人守卫村子对抗巨魔。希尔克的结界在神父的干扰下仍然奏效，她召唤水精击退食人魔与水马（kelpie），却和法尔涅泽一起被卷进幽界的深层，看见被掳村民的惨状。"
-      }
+      },
+      "title_native": "ベルセルク (25)",
+      "aired": "2003-06-27"
     },
     {
       "n": 26,
-      "sources": {},
+      "sources": {
+        "bangumi": {
+          "score": 7.8,
+          "votes": 18,
+          "url": "https://bgm.tv/subject/9503"
+        }
+      },
       "synopsis": {},
       "notes": {
         "title_cn": "库利法特 · 狂战士铠甲",
         "summary": "法尔涅泽护着卡思嘉挡住巨魔，众人赶来会合。在巨魔的巢穴库利法特（Qliphoth）深处，丝兰的化身挡住格斯与骷髅骑士，骷髅骑士以次元之剑脱身。芙罗拉的宅邸被格里菲斯麾下的使徒烧毁；垂死的芙罗拉把危险的狂战士铠甲（Berserker Armor）交给格斯。"
-      }
+      },
+      "title_native": "ベルセルク (26)",
+      "aired": "2003-12-19"
     },
     {
       "n": 27,
-      "sources": {},
+      "sources": {
+        "bangumi": {
+          "score": 7.7,
+          "votes": 18,
+          "url": "https://bgm.tv/subject/9504"
+        }
+      },
       "synopsis": {},
       "notes": {
         "title_cn": "狂战士铠甲",
@@ -694,11 +1179,19 @@
             "note": "库夏皇帝 · 使徒"
           }
         ]
-      }
+      },
+      "title_native": "ベルセルク (27)",
+      "aired": "2004-07-29"
     },
     {
       "n": 28,
-      "sources": {},
+      "sources": {
+        "bangumi": {
+          "score": 7.8,
+          "votes": 17,
+          "url": "https://bgm.tv/subject/9505"
+        }
+      },
       "synopsis": {},
       "notes": {
         "title_cn": "海边",
@@ -711,11 +1204,19 @@
             "note": "来历不明的孩子"
           }
         ]
-      }
+      },
+      "title_native": "ベルセルク (28)",
+      "aired": "2005-02-28"
     },
     {
       "n": 29,
-      "sources": {},
+      "sources": {
+        "bangumi": {
+          "score": 7.7,
+          "votes": 18,
+          "url": "https://bgm.tv/subject/9506"
+        }
+      },
       "synopsis": {},
       "notes": {
         "title_cn": "维利塔尼斯",
@@ -734,11 +1235,19 @@
             "note": "海军将领、法尔涅泽的未婚夫人选"
           }
         ]
-      }
+      },
+      "title_native": "ベルセルク (29)",
+      "aired": "2005-09-29"
     },
     {
       "n": 30,
-      "sources": {},
+      "sources": {
+        "bangumi": {
+          "score": 7.7,
+          "votes": 17,
+          "url": "https://bgm.tv/subject/20191"
+        }
+      },
       "synopsis": {},
       "notes": {
         "title_cn": "舞会",
@@ -751,47 +1260,87 @@
             "note": "米德兰骑士、新鹰之团成员"
           }
         ]
-      }
+      },
+      "title_native": "ベルセルク (30)",
+      "aired": "2006-03-29"
     },
     {
       "n": 31,
-      "sources": {},
+      "sources": {
+        "bangumi": {
+          "score": 7.8,
+          "votes": 16,
+          "url": "https://bgm.tv/subject/20192"
+        }
+      },
       "synopsis": {},
       "notes": {
         "title_cn": "港城之战",
         "summary": "库夏的达卡（Daka）大军攻陷维利塔尼斯，一行人杀向港口。格斯穿上铠甲，希尔克召出火焰之轮，海怪与巨蛇相继出现。加尼修卡以巨大的使徒形态现身，雷电横扫港城，并向格斯提议联手对抗神之手。"
-      }
+      },
+      "title_native": "ベルセルク (31)",
+      "aired": "2006-09-29"
     },
     {
       "n": 32,
-      "sources": {},
+      "sources": {
+        "bangumi": {
+          "score": 7.6,
+          "votes": 15,
+          "url": "https://bgm.tv/subject/20193"
+        }
+      },
       "synopsis": {},
       "notes": {
         "title_cn": "守护天使",
         "summary": "佐德与格斯一起坠入海中，两人合力击溃加尼修卡的灵体，达卡大军撤出维利塔尼斯，昏迷的格斯被抬上罗德利克的战舰。城外，教廷联军面对压倒性的库夏兵力；鹰之团包围皇帝的行宫，加尼修卡碰不到格里菲斯，化作风散去。教皇宣布格里菲斯为米德兰的救世主。"
-      }
+      },
+      "title_native": "ベルセルク (32)",
+      "aired": "2007-11-29"
     },
     {
       "n": 33,
-      "sources": {},
+      "sources": {
+        "bangumi": {
+          "score": 7.7,
+          "votes": 18,
+          "url": "https://bgm.tv/subject/20194"
+        }
+      },
       "synopsis": {},
       "notes": {
         "title_cn": "海马号",
         "summary": "海马号（Seahorse）上，卡思嘉落海，格斯跳下去救她；海盗船来袭被击退。格斯在梦里与内心的「黑暗之兽」（Beast of Darkness）对峙。温德姆一带的人们做着同一个梦。加尼修卡进入人造的贝黑莉特，化为遮天蔽日的巨大肉塔「湿婆」（Shiva）。"
-      }
+      },
+      "title_native": "ベルセルク (33)",
+      "aired": "2008-10-24"
     },
     {
       "n": 34,
-      "sources": {},
+      "sources": {
+        "bangumi": {
+          "score": 8.2,
+          "votes": 21,
+          "url": "https://bgm.tv/subject/20195"
+        }
+      },
       "synopsis": {},
       "notes": {
         "title_cn": "世界的改变",
         "summary": "湿婆无差别地碾压敌我。格里菲斯的使徒军与人类并肩作战，格里菲斯骑在佐德手上攀向湿婆。骷髅骑士挥出次元之剑，斩击落在加尼修卡身上，次元被撕开，加尼修卡毁灭，纯粹的灵力涌入现世。"
-      }
+      },
+      "title_native": "ベルセルク (34)",
+      "aired": "2009-09-25"
     },
     {
       "n": 35,
-      "sources": {},
+      "sources": {
+        "bangumi": {
+          "score": 7.7,
+          "votes": 16,
+          "url": "https://bgm.tv/subject/20196"
+        }
+      },
       "synopsis": {},
       "notes": {
         "title_cn": "幻造世界篇开篇",
@@ -804,38 +1353,70 @@
             "note": "孤岛的少女"
           }
         ]
-      }
+      },
+      "title_native": "ベルセルク (35)",
+      "aired": "2010-09-29"
     },
     {
       "n": 36,
-      "sources": {},
+      "sources": {
+        "bangumi": {
+          "score": 7.5,
+          "votes": 13,
+          "url": "https://bgm.tv/subject/54490"
+        }
+      },
       "synopsis": {},
       "notes": {
         "title_cn": "海神（上）",
         "summary": "希尔克帮格斯夺回对铠甲的控制，卡思嘉从混战中救下那个孩子。格斯冲进海神的口中，在它胃里的沉船坟场与寄生魔物搏斗；法尔涅泽的咒文护住海马号。伊西多罗落海，伊斯玛跳下去救他，化为人鱼加入战斗。"
-      }
+      },
+      "title_native": "ベルセルク (36)",
+      "aired": "2011-09-23"
     },
     {
       "n": 37,
-      "sources": {},
+      "sources": {
+        "bangumi": {
+          "score": 8.2,
+          "votes": 17,
+          "url": "https://bgm.tv/subject/68642"
+        }
+      },
       "synopsis": {},
       "notes": {
         "title_cn": "海神（下）· 抵达精灵岛",
         "summary": "罗德利克指挥炮击海神，伊斯玛与母亲重逢。人鱼之歌压住了海神的心跳，格斯从体内给予致命一击。人鱼护送一行人前往精灵岛；卡思嘉寻找消失的孩子，希尔克猜他是精灵岛派来的使者。另一边，利凯特一行被巨魔追赶，被鹰之团救下。"
-      }
+      },
+      "title_native": "ベルセルク (37)",
+      "aired": "2013-03-29"
     },
     {
       "n": 38,
-      "sources": {},
+      "sources": {
+        "bangumi": {
+          "score": 7.9,
+          "votes": 14,
+          "url": "https://bgm.tv/subject/183415"
+        }
+      },
       "synopsis": {},
       "notes": {
         "title_cn": "法尔科尼亚",
         "summary": "利凯特和艾莉卡进入法尔科尼亚，被城中秩序震撼；露卡在这里照料难民。罗库斯带利凯特看使徒军的驻地。格里菲斯问利凯特是否还会做同一个梦，利凯特扇了他一耳光：他追随的是白鹰，不是光之鹰。利凯特在拉克修斯的袭击后随巴基拉卡的希拉特出逃。格斯一行接近精灵岛，被告知那里的时间流速不同。"
-      }
+      },
+      "title_native": "ベルセルク (38)",
+      "aired": "2016-06-24"
     },
     {
       "n": 39,
-      "sources": {},
+      "sources": {
+        "bangumi": {
+          "score": 7.8,
+          "votes": 13,
+          "url": "https://bgm.tv/subject/214131"
+        }
+      },
       "synopsis": {},
       "notes": {
         "title_cn": "精灵岛",
@@ -860,20 +1441,36 @@
             "note": "魔法师"
           }
         ]
-      }
+      },
+      "title_native": "ベルセルク (39)",
+      "aired": "2017-06-23"
     },
     {
       "n": 40,
-      "sources": {},
+      "sources": {
+        "bangumi": {
+          "score": 8,
+          "votes": 12,
+          "url": "https://bgm.tv/subject/276746"
+        }
+      },
       "synopsis": {},
       "notes": {
         "title_cn": "梦之回廊",
         "summary": "法尔涅泽和希尔克深入卡思嘉记忆的最深处，遭到守护者与铠甲幻影的阻挡，芙罗拉的灵魂为她们开路。她们把找回的碎片放回人偶，卡思嘉醒来，心智恢复。另一边，格里菲斯的军队在战场上迎战巨人。"
-      }
+      },
+      "title_native": "ベルセルク (40)",
+      "aired": "2018-09-28"
     },
     {
       "n": 41,
-      "sources": {},
+      "sources": {
+        "bangumi": {
+          "score": 7.2,
+          "votes": 9,
+          "url": "https://bgm.tv/subject/349061"
+        }
+      },
       "synopsis": {},
       "notes": {
         "title_cn": "三浦亲笔的最后一卷",
@@ -886,20 +1483,36 @@
             "note": "矮人铁匠"
           }
         ]
-      }
+      },
+      "title_native": "ベルセルク (41)",
+      "aired": "2021-12-24"
     },
     {
       "n": 42,
-      "sources": {},
+      "sources": {
+        "bangumi": {
+          "score": 3.5,
+          "votes": 4,
+          "url": "https://bgm.tv/subject/429675"
+        }
+      },
       "synopsis": {},
       "notes": {
         "title_cn": "续作 · 离散",
         "summary": "卡思嘉一见格里菲斯，烙印渗血、崩溃尖叫；格斯发狂般扑上去，剑却碰不到格里菲斯。佐德降临岛上，精灵岛开始崩塌，黑色的魔物从地缝涌出，众人紧急撤离。格里菲斯抱起卡思嘉，站在佐德掌上离去，留下格斯握着剑痛苦不堪。卡思嘉在一间洒满阳光的寝室里醒来，身着红裙。（续作卷，依维基摘要整理，待核）"
-      }
+      },
+      "title_native": "ベルセルク (42)",
+      "aired": "2023-09-29"
     },
     {
       "n": 43,
-      "sources": {},
+      "sources": {
+        "bangumi": {
+          "score": 6.5,
+          "votes": 2,
+          "url": "https://bgm.tv/subject/538021"
+        }
+      },
       "synopsis": {},
       "notes": {
         "title_cn": "续作 · 囚禁",
@@ -912,7 +1525,9 @@
             "note": "库夏将军"
           }
         ]
-      }
+      },
+      "title_native": "ベルセルク (43)",
+      "aired": "2025-08-29"
     }
   ],
   "route": [

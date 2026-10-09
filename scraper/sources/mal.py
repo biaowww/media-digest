@@ -9,6 +9,9 @@ robots.txt 对普通 UA 不禁 /anime/；自用非商用，1 req/s，本地缓�
 URL 里的 "_" 是 slug 占位：没有这一段会被重定向到作品页。
 
 MAL 分集投票是 1–5 分制，分布极窄（Monster 全 74 集 4.3–4.9），仅作参考维度，不做主 KPI。
+
+漫画：`fetch(..., kind="manga")` 走 /manga/<id> 同款页面；MAL 没有分卷评分，episodes 返回空，
+只取作品级信息（封面 / 总分 / 排名）与角色头像。分卷评分看 bangumi 的单行本条目。
 """
 from __future__ import annotations
 
@@ -35,7 +38,7 @@ _RANK = re.compile(r'Ranked <strong>#([\d,]+)</strong>')
 _SYN = re.compile(r'<p itemprop="description">(.*?)</p>', re.S)
 
 _CHAR_ROLE = re.compile(r'js-chara-roll-and-name"[^>]*>\s*([ms])_(.*?)\s*</div>', re.S)
-_CHAR_FAV = re.compile(r'js-anime-character-favorites"[^>]*>\s*([\d,]+)\s*</div>')
+_CHAR_FAV = re.compile(r'js-(?:anime|manga)-character-favorites"[^>]*>\s*([\d,]+)\s*</div>')
 _CHAR_HREF = re.compile(r'href="https://myanimelist\.net/character/(\d+)/[^"]*"')
 _CHAR_IMG = re.compile(r'<img[^>]*data-src="([^"]+)"')
 
@@ -103,16 +106,16 @@ def fetch_episodes_html(mal_id: int | str, http) -> dict[int, dict]:
 
 
 # ---------------- 作品 ----------------
-def fetch_series_html(mal_id: int | str, http) -> dict:
-    page = http.get_text(f"{MAL}/anime/{mal_id}", headers=HTML_HEADERS)
+def fetch_series_html(mal_id: int | str, http, kind: str = "anime") -> dict:
+    page = http.get_text(f"{MAL}/{kind}/{mal_id}", headers=HTML_HEADERS)
     og = dict(_META.findall(page))
     info = {k.strip(): _clean(v) for k, v in _INFO.findall(page)}
     m_score, m_votes, m_rank, m_syn = _SCORE.search(page), _VOTES.search(page), _RANK.search(page), _SYN.search(page)
     synopsis = _clean(m_syn.group(1)) if m_syn else None
     if synopsis:
         synopsis = re.sub(r"\s*\[Written by MAL Rewrite\]\s*$", "", synopsis).strip()
-    year = re.search(r"\d{4}", info.get("Aired") or "")
-    eps = info.get("Episodes") or ""
+    year = re.search(r"\d{4}", info.get("Aired") or info.get("Published") or "")
+    eps = info.get("Episodes") or (info.get("Volumes") if kind == "manga" else "") or ""
     split = lambda s: [x.strip() for x in (s or "").split(",") if x.strip() and x.strip() != "None found"]
     return {
         "title": info.get("English") or og.get("title"),
@@ -125,17 +128,17 @@ def fetch_series_html(mal_id: int | str, http) -> dict:
         "rank": int(m_rank.group(1).replace(",", "")) if m_rank else None,
         "cover": og.get("image"),
         "synopsis_en": synopsis,
-        "genres": list(dict.fromkeys(re.findall(r'<a href="/anime/genre/\d+/[^"]*" title="([^"]+)"', page))),  # 页面里 hidden span + 链接各一份，取链接 title 去重
-        "studios": split(info.get("Studios") or info.get("Studio")),
-        "url": f"{MAL}/anime/{mal_id}",
+        "genres": list(dict.fromkeys(re.findall(rf'<a href="/{kind}/genre/\d+/[^"]*" title="([^"]+)"', page))),  # 页面里 hidden span + 链接各一份，取链接 title 去重
+        "studios": split(info.get("Studios") or info.get("Studio")) if kind == "anime" else [],
+        "url": f"{MAL}/{kind}/{mal_id}",
     }
 
 
 # ---------------- 角色 ----------------
-def fetch_characters_html(mal_id: int | str, http) -> list[dict]:
-    page = http.get_text(f"{MAL}/anime/{mal_id}/_/characters", headers=HTML_HEADERS)
+def fetch_characters_html(mal_id: int | str, http, kind: str = "anime") -> list[dict]:
+    page = http.get_text(f"{MAL}/{kind}/{mal_id}/_/characters", headers=HTML_HEADERS)
     out = []
-    for block in re.split(r'<table[^>]*class="js-anime-character-table">', page)[1:]:
+    for block in re.split(r'<table[^>]*class="js-(?:anime|manga)-character-table">', page)[1:]:
         r = _CHAR_ROLE.search(block)
         if not r:
             continue
@@ -155,24 +158,27 @@ def fetch_characters_html(mal_id: int | str, http) -> list[dict]:
     return main + supp
 
 
-def fetch(mal_id: int | str, http) -> dict:
-    episodes = fetch_episodes_html(mal_id, http)
-    http.log(f"mal: {len(episodes)} episodes (html)")
-    if not episodes:
-        raise RuntimeError("mal: no episodes parsed from HTML — check the id")
-    series = fetch_series_html(mal_id, http)
+def fetch(mal_id: int | str, http, kind: str = "anime") -> dict:
+    # 漫画（kind="manga"）：MAL 没有分卷/分话评分，只取作品级信息 + 角色头像
+    episodes = {} if kind == "manga" else fetch_episodes_html(mal_id, http)
+    if kind != "manga":
+        http.log(f"mal: {len(episodes)} episodes (html)")
+        if not episodes:
+            raise RuntimeError("mal: no episodes parsed from HTML — check the id")
+    series = fetch_series_html(mal_id, http, kind)
     try:
-        series["characters"] = fetch_characters_html(mal_id, http)
+        series["characters"] = fetch_characters_html(mal_id, http, kind)
         http.log(f"mal: {sum(1 for c in series['characters'] if c['role'] == 'Main')} main characters (html)")
     except Exception as e:  # 角色页失败不影响其余
         http.log(f"mal: characters page failed ({str(e)[:80]})")
     return {"series": series, "episodes": episodes}
 
 
-def search(query: str, http) -> list[dict]:
-    d = http.get_json(f"{JIKAN}/anime", params={"q": query, "limit": 8})
+def search(query: str, http, kind: str = "anime") -> list[dict]:
+    d = http.get_json(f"{JIKAN}/{kind}", params={"q": query, "limit": 8})
     return [
         {"id": x["mal_id"], "title": x.get("title"), "title_en": x.get("title_english"),
-         "year": x.get("year"), "eps": x.get("episodes"), "type": x.get("type")}
+         "year": x.get("year") or ((x.get("published") or {}).get("from") or "")[:4] or None,
+         "eps": x.get("episodes") or x.get("volumes"), "type": x.get("type")}
         for x in d.get("data", [])
     ]

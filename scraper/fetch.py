@@ -12,6 +12,7 @@ fetch.py — 抓一部剧的客观数据，写进 shows/<slug>.json 的 meta / a
   py scraper/fetch.py monster-2004
   py scraper/fetch.py monster-2004 --only mal,imdb --no-cache
   py scraper/fetch.py frieren-season-2-2026 --season 2 --mal ... --imdb ...   # 一季一个 slug 的剧
+  py scraper/fetch.py berserk-manga-1989 --kind manga --mal 2 --bangumi 9640  # 漫画：MAL 给作品信息+头像，bangumi 给单行本分卷评分
 
   # 找 ID（Jikan / Bangumi / TMDB 搜索，人工确认后再填）
   py scraper/fetch.py resolve "Monster"
@@ -246,6 +247,8 @@ def cmd_fetch(args):
             sys.exit("no source ids — pass at least one of --mal/--bangumi/--imdb/--tmdb/--wiki, or --total N for content with no rating source (novels)")
         # 无数据源的内容（小说 / 冷门剧）：只建骨架，标题等后面由 episodes.json 的 notes 补
         show["meta"].update({k: v for k, v in (("title", args.title), ("title_cn", args.title_cn)) if v})
+        if args.kind:
+            show["meta"]["kind"] = args.kind
         if args.year:
             show["meta"]["year"] = int(args.year)
         show["meta"]["total_eps"] = int(args.total)
@@ -268,13 +271,21 @@ def cmd_fetch(args):
         return
 
     fetched = {}
+    kind = args.kind or show["meta"].get("kind")
+    if args.kind:
+        show["meta"]["kind"] = args.kind
     for src, mod in SOURCES.items():
         if src not in ids or src not in only:
             continue
         print(f"[{src}] id={ids[src]}")
         try:
             season = args.season or (show["meta"].get("season"))
-            fetched[src] = mod.fetch(ids[src], http, season=int(season)) if src in ("imdb", "tmdb") and season else mod.fetch(ids[src], http)
+            if src in ("mal", "bangumi") and kind == "manga":
+                fetched[src] = mod.fetch(ids[src], http, kind="manga")
+            elif src in ("imdb", "tmdb") and season:
+                fetched[src] = mod.fetch(ids[src], http, season=int(season))
+            else:
+                fetched[src] = mod.fetch(ids[src], http)
         except Exception as e:  # 单源失败不拖垮整体；保留上次数据
             print(f"  !! {src} failed, keeping previous data: {e}")
 
@@ -306,7 +317,12 @@ def cmd_resolve(args):
     http = Http()
     for name, mod in (("mal", mal), ("bangumi", bangumi), ("tmdb", tmdb)):
         try:
-            rows = mod.search(args.query, http)
+            if name == "mal":
+                rows = mod.search(args.query, http, kind="manga" if args.manga else "anime")
+            elif name == "bangumi":
+                rows = mod.search(args.query, http, types=(1,) if args.manga else (2,))
+            else:
+                rows = mod.search(args.query, http)
         except Exception as e:
             print(f"[{name}] search failed: {e}")
             continue
@@ -327,12 +343,15 @@ def main():
     f.add_argument("--title"); f.add_argument("--title-cn", dest="title_cn"); f.add_argument("--year")
     f.add_argument("--primary-kpi", dest="primary_kpi", choices=KPI_ORDER)
     f.add_argument("--season", help="一季一个 slug 时指定季号：imdb/tmdb 只取该季，集号=本季集号")
+    f.add_argument("--kind", choices=["anime", "manga"],
+                   help="内容类型。漫画：mal 只取作品信息+角色头像（无分卷评分），bangumi 取单行本分卷评分")
     f.add_argument("--total", help="没有任何评分源时（小说等）：直接给总数，只建骨架")
     f.add_argument("--unit", help="计数单位，默认「集」；小说写「章」")
     f.add_argument("--only", help="只跑这些源，逗号分隔，如 mal,imdb")
     f.add_argument("--no-cache", action="store_true")
     r = sub.add_parser("resolve", help="按名字搜各源 ID")
     r.add_argument("query")
+    r.add_argument("--manga", action="store_true", help="搜漫画（mal 走 /manga、bangumi 搜书籍条目）")
 
     argv = sys.argv[1:]
     if argv and argv[0] not in ("fetch", "resolve", "-h", "--help"):
