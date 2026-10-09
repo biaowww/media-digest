@@ -85,14 +85,13 @@ git push                             # 页面生效
 
 `fetch.py` 与 `sync.py` 互不越界：前者只写 meta/about/episodes，后者只写 intro/route（+ 复制封面图到 `site/assets/<slug>/`）。多轮迭代 = 改 Drive 文件再 sync。
 
-## 进度跨端同步（无后端）
+## 进度跨端同步
 
-进度存本机 localStorage `md:progress`：每集记「已看/未看 + 最后操作时间」，合并时按集取最新一次操作。跨端走**私密 GitHub Gist**（`site/sync.js`）：页面直接调 GitHub API，没有任何自建服务。
+进度存本机 localStorage `md:progress`：每集记「已看/未看 + 最后操作时间」，合并时按集取最新一次操作。跨端走自建服务器 `https://media-digest.biaotools.site/api/progress`（`server/progress_api.py`，stdlib 单文件，systemd 常驻，Caddy 反代）：打开页面拉一次并合并，勾选后 2 秒内写回；离线先记本地，联网后补。**不用 token、不用账号。**
 
-- 每台设备在页面右上「未同步」→ 贴一次只有 **gist** 权限的 token（存该设备 localStorage `md:sync`）。Gist 由 token 自动发现 / 创建，第二台设备不用抄 id。
-- 打开页面拉一次并合并；勾选后 2 秒内写回；离线先记本地，联网后补。「重置」写成墓碑（未看 @ 现在），会同步到另一端。
-- token 泄露的影响面只有 Gist，GitHub 里随时撤销。
-- 兜底「进度码」：不用 token，把全部进度压成一串文本（`MD1.` 开头），另一台设备粘贴导入，同样按时间合并。
+- 服务端合并与页面同规则（按集取最新），多端各改各的互不覆盖；「重置」写成墓碑（未看 @ 现在），会同步到另一端。
+- 接口带一个公开的反爬虫 key（`X-MD-Key`，随页面 JS 下发）：不防有心人，只挡脚本。数据只有观看进度。
+- 兜底「进度码」：不用网络服务，把全部进度压成一串文本（`MD1.` 开头），另一台设备粘贴导入，同样按时间合并。
 
 ## 评分怎么看（页面 KPI）
 

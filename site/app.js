@@ -67,26 +67,15 @@
   }
   function openSyncDialog() {
     document.querySelectorAll('dialog.syncdlg').forEach(d => d.remove());
-    const on = MD.Sync.configured();
-    const tokenIn = h('input', { type: 'password', placeholder: 'github_pat_… 或 ghp_…（只需 gist 权限）', autocomplete: 'off', style: 'width:100%' });
     const msg = h('p', { class: 'small muted' });
     const codeIn = h('textarea', { rows: 3, placeholder: '把另一台设备复制的进度码粘到这里', style: 'width:100%' });
-    const btnConnect = h('button', { class: 'btn', onclick: async () => {
-      if (!tokenIn.value.trim()) { msg.textContent = '先贴 token'; return; }
-      msg.textContent = '连接中…'; btnConnect.disabled = true;
-      try { await MD.Sync.connect(tokenIn.value); msg.textContent = '已连接，' + MD.Sync.statusText(); tokenIn.value = ''; setTimeout(() => dlg.close(), 800); }
-      catch (e) { msg.textContent = '失败：' + e.message; } finally { btnConnect.disabled = false; }
-    } }, on ? '换一个 token' : '连接');
     const dlg = h('dialog', { class: 'syncdlg' },
       h('div', { class: 'sec-hd' }, h('h3', {}, '跨端同步'), h('button', { class: 'fold', onclick: () => dlg.close() }, '关闭')),
-      h('p', { class: 'small muted' }, on ? '当前：' + MD.Sync.statusText() + '。进度存在你自己的私密 GitHub Gist 里，每台设备贴一次 token 即可。'
-        : '进度存在你自己的私密 GitHub Gist 里。到 GitHub → Settings → Developer settings → Personal access tokens 生成一个只勾 gist 权限的 token，贴到这里；另一台设备贴同一个 token 就同步了。'),
-      h('div', { style: 'display:flex;gap:8px;align-items:center;margin:6px 0' }, tokenIn, btnConnect),
-      on ? h('div', { style: 'display:flex;gap:8px;margin:4px 0' },
-        h('button', { class: 'btn', onclick: async () => { msg.textContent = '同步中…'; await MD.Sync.syncNow(); msg.textContent = MD.Sync.statusText(); } }, '立即同步'),
-        h('button', { class: 'btn', onclick: () => { MD.Sync.disconnect(); dlg.close(); } }, '断开（本机进度保留）')) : null,
+      h('p', { class: 'small muted' }, '进度自动存到自建服务器（media-digest.biaotools.site），打开页面即同步，不用 token。当前：' + MD.Sync.statusText()),
+      h('div', { style: 'display:flex;gap:8px;margin:4px 0' },
+        h('button', { class: 'btn', onclick: async () => { msg.textContent = '同步中…'; await MD.Sync.syncNow(); msg.textContent = MD.Sync.statusText(); } }, '立即同步')),
       msg,
-      h('h3', { style: 'margin-top:14px' }, '进度码（不用 token 的手动兜底）'),
+      h('h3', { style: 'margin-top:14px' }, '进度码（手动兜底）'),
       h('div', { style: 'display:flex;gap:8px;margin:6px 0' },
         h('button', { class: 'btn', onclick: async () => { const c = await MD.Code.export(); try { await navigator.clipboard.writeText(c); msg.textContent = '进度码已复制到剪贴板，去另一台设备粘贴导入'; } catch (e) { codeIn.value = c; msg.textContent = '已生成在下方文本框，手动复制'; } } }, '复制本机进度码'),
         h('button', { class: 'btn', onclick: async () => { try { const n = await MD.Code.import(codeIn.value); msg.textContent = `已导入并合并 ${n} 部剧的进度`; codeIn.value = ''; } catch (e) { msg.textContent = '导入失败：' + e.message; } } }, '导入')),
