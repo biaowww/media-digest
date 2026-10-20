@@ -85,6 +85,12 @@ def main():
             _buf.append(f"{dt.datetime.now():%Y-%m-%d %H:%M:%S} {msg}")
             print(_buf[-1], flush=True)
 
+    try:
+        from intake import pull as intake_pull
+        intake_pull(log)
+    except Exception as e:
+        log(f"intake crashed（不阻断构建）: {e}")
+
     src_root = content_dir()
     slugs = [p.name for p in sorted(src_root.iterdir()) if p.is_dir() and not p.name.startswith("_") and pick_file(p, "route")]
     log(f"build start — {len(slugs)} show(s) on Drive: {', '.join(slugs) or '-'}")
