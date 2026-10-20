@@ -61,7 +61,12 @@
   // ---------------- 跨端同步：状态按钮 + 设置面板 ----------------
   function syncButton() {
     const b = h('button', { class: 'sync', onclick: openSyncDialog });
-    const paint = () => { const st = MD.Sync.state.status; b.className = 'sync ' + st; b.textContent = (st === 'off' ? '未同步' : MD.Sync.statusText()); b.title = MD.Sync.state.detail || ''; };
+    const paint = () => {
+      const st = MD.Sync.state.status, u = MD.Auth.state.user;
+      b.className = 'sync ' + st;
+      b.textContent = u ? u.username : '未登录';
+      b.title = (u ? MD.Sync.statusText() : '进度仅保存在本机，登录后云端同步') + (MD.Sync.state.detail ? ' · ' + MD.Sync.state.detail : '');
+    };
     paint(); MD.Sync.onChange(paint);
     return b;
   }
@@ -69,11 +74,49 @@
     document.querySelectorAll('dialog.syncdlg').forEach(d => d.remove());
     const msg = h('p', { class: 'small muted' });
     const codeIn = h('textarea', { rows: 3, placeholder: '把另一台设备复制的进度码粘到这里', style: 'width:100%' });
+    const user = MD.Auth.state.user;
+    const children = [];
+    if (!user) {
+      const uIn = h('input', { placeholder: '用户名', autocomplete: 'username', style: 'width:100%' });
+      const pIn = h('input', { type: 'password', placeholder: '密码（至少 8 位）', autocomplete: 'current-password', style: 'width:100%' });
+      const iIn = h('input', { placeholder: '邀请码（仅注册需要，如 MD-XXXX-XXXX）', autocomplete: 'off', style: 'width:100%' });
+      const btnL = h('button', { class: 'btn', onclick: async () => {
+        msg.textContent = '登录中…'; btnL.disabled = true;
+        try { await MD.Auth.login(uIn.value.trim(), pIn.value); setTimeout(() => dlg.close(), 600); }
+        catch (e) { msg.textContent = '失败：' + e.message; } finally { btnL.disabled = false; }
+      } }, '登录');
+      const btnR = h('button', { class: 'btn', onclick: async () => {
+        msg.textContent = '注册中…'; btnR.disabled = true;
+        try { await MD.Auth.register(uIn.value.trim(), pIn.value, iIn.value.trim()); setTimeout(() => dlg.close(), 600); }
+        catch (e) { msg.textContent = '失败：' + e.message; } finally { btnR.disabled = false; }
+      } }, '注册');
+      children.push(
+        h('p', { class: 'small muted' }, '未登录时进度只保存在本机；登录后自动云端同步，换设备接着看。注册需要邀请码。'),
+        h('div', { style: 'display:flex;flex-direction:column;gap:8px;margin:6px 0' }, uIn, pIn, iIn),
+        h('div', { style: 'display:flex;gap:8px;margin:4px 0' }, btnL, btnR));
+    } else {
+      children.push(
+        h('p', { class: 'small muted' }, `已登录：${user.username}${user.admin ? '（管理员）' : ''} · ${MD.Sync.statusText()}。进度云端同步，打开页面自动合并。`),
+        h('div', { style: 'display:flex;gap:8px;margin:4px 0' },
+          h('button', { class: 'btn', onclick: async () => { msg.textContent = '同步中…'; await MD.Sync.syncNow(); msg.textContent = MD.Sync.statusText(); } }, '立即同步'),
+          h('button', { class: 'btn', onclick: async () => { await MD.Auth.logout(); dlg.close(); } }, '退出登录')));
+      if (user.admin) {
+        const list = h('div', { class: 'small muted', style: 'white-space:pre-line' });
+        const load = async () => { try { const inv = await MD.Auth.listInvites(); list.textContent = inv.length ? inv.slice(0, 10).map(i => `${i.code}  ${i.used_by ? '→ ' + i.used_by : '（未用）'}`).join('\n') : '还没有邀请码'; } catch (e) { /* ignore */ } };
+        const btnI = h('button', { class: 'btn', onclick: async () => {
+          try {
+            const code = await MD.Auth.createInvite(); msg.textContent = '新邀请码：' + code;
+            try { await navigator.clipboard.writeText(code); msg.textContent += '（已复制）'; } catch (e) { /* ignore */ }
+            load();
+          } catch (e) { msg.textContent = '失败：' + e.message; }
+        } }, '生成邀请码');
+        load();
+        children.push(h('div', { style: 'display:flex;gap:8px;margin:8px 0 2px' }, btnI), list);
+      }
+    }
     const dlg = h('dialog', { class: 'syncdlg' },
-      h('div', { class: 'sec-hd' }, h('h3', {}, '跨端同步'), h('button', { class: 'fold', onclick: () => dlg.close() }, '关闭')),
-      h('p', { class: 'small muted' }, '进度自动存到自建服务器（media-digest.biaotools.site），打开页面即同步，不用 token。当前：' + MD.Sync.statusText()),
-      h('div', { style: 'display:flex;gap:8px;margin:4px 0' },
-        h('button', { class: 'btn', onclick: async () => { msg.textContent = '同步中…'; await MD.Sync.syncNow(); msg.textContent = MD.Sync.statusText(); } }, '立即同步')),
+      h('div', { class: 'sec-hd' }, h('h3', {}, '账号与同步'), h('button', { class: 'fold', onclick: () => dlg.close() }, '关闭')),
+      ...children,
       msg,
       h('h3', { style: 'margin-top:14px' }, '进度码（手动兜底）'),
       h('div', { style: 'display:flex;gap:8px;margin:6px 0' },

@@ -4,17 +4,17 @@
  *   每集记「已看/未看 + 最后操作时间」，合并时按集取最新一次操作——两台设备各改各的也不会互相覆盖。
  *   （旧格式 `md:<slug>:done` 数组首次加载时自动迁入。）
  *
- * 远端：自建服务器 media-digest.biaotools.site /api/progress（server/progress_api.py）。
- *   打开页面拉一次并合并；勾选后 2 秒内写回；离线时先记本地，联网后补。不用 token、不用账号。
- *   X-MD-Key 是公开的反爬虫 key，随本 JS 下发，只挡脚本不防有心人——数据只有观看进度。
+ * 远端：自建服务器 media-digest.biaotools.site /api/*（server/api.py）。
+ *   登录后：打开页面拉一次并合并；勾选后 2 秒内写回；离线时先记本地，联网后补。
+ *   未登录：进度只存本机，功能不受影响。注册走邀请制。
  *
  * 兜底：「进度码」= 全部进度压成一串文本，手动复制到另一台设备导入（同样按时间合并）。
  */
 window.MD = (function () {
   'use strict';
   const K_PROG = 'md:progress', K_SYNC = 'md:sync';
-  const API_URL = 'https://media-digest.biaotools.site/api/progress';
-  const API_KEY = '3d1a7e7237341cbe34615d172b89906f';
+  const API_BASE = 'https://media-digest.biaotools.site';
+  const API_URL = API_BASE + '/api/progress';
 
   const lsGet = (k, d) => { try { const v = localStorage.getItem(k); return v == null ? d : JSON.parse(v); } catch (e) { return d; } };
   const lsSet = (k, v) => { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) { /* 私密模式等 */ } };
@@ -66,24 +66,63 @@ window.MD = (function () {
     return [out, aChanged, bChanged];
   }
 
-  // ---------------- 服务器同步 ----------------
+  // ---------------- 账号 ----------------
   const listeners = new Set();
-  const state = { status: 'idle', detail: '', lastSync: lsGet(K_SYNC, {}).lastSync || null };
+  const state = { status: 'local', detail: '', lastSync: lsGet(K_SYNC, {}).lastSync || null };
   const emit = () => listeners.forEach(f => { try { f(state); } catch (e) { /* ignore */ } });
   const setStatus = (status, detail) => { state.status = status; state.detail = detail || ''; emit(); };
 
+  async function api(path, body) {
+    const r = await fetch(API_BASE + path, {
+      method: body === undefined ? 'GET' : 'POST', cache: 'no-store', credentials: 'include',
+      headers: body === undefined ? {} : { 'Content-Type': 'application/json' },
+      body: body === undefined ? undefined : JSON.stringify(body),
+    });
+    const d = await r.json().catch(() => ({}));
+    if (!r.ok) { const e = new Error(d.error || `server ${r.status}`); e.status = r.status; throw e; }
+    return d;
+  }
+
+  const Auth = {
+    state: { user: null },
+    async me() {
+      try { Auth.state.user = await api('/api/auth/me'); }
+      catch (e) { Auth.state.user = null; }
+      if (!Auth.state.user) setStatus('local'); else if (state.status === 'local') setStatus('idle');
+      emit();
+      return Auth.state.user;
+    },
+    async login(username, password) {
+      Auth.state.user = await api('/api/auth/login', { username, password });
+      dirty = true; emit(); await syncNow();
+    },
+    async register(username, password, invite) {
+      Auth.state.user = await api('/api/auth/register', { username, password, invite });
+      dirty = true; emit(); await syncNow();
+    },
+    async logout() {
+      try { await api('/api/auth/logout', {}); } catch (e) { /* ignore */ }
+      Auth.state.user = null; setStatus('local');
+    },
+    async createInvite() { return (await api('/api/admin/invites', {})).code; },
+    async listInvites() { return (await api('/api/admin/invites')).invites; },
+  };
+
+  // ---------------- 服务器同步 ----------------
   let syncing = null, dirty = lsGet(K_SYNC, {}).dirty || false, timer = null;
   async function syncNow() {
+    if (!Auth.state.user) { setStatus('local'); return; }
     if (syncing) return syncing;
     syncing = (async () => {
       try {
         setStatus('syncing');
         // 一次 POST 同时完成推和拉：服务端按集合并（与 merge 同规则），返回合并后的全量
         const r = await fetch(API_URL, {
-          method: 'POST', cache: 'no-store',
-          headers: { 'Content-Type': 'application/json', 'X-MD-Key': API_KEY },
+          method: 'POST', cache: 'no-store', credentials: 'include',
+          headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify(Object.assign({ version: 1 }, prog)),
         });
+        if (r.status === 401) { Auth.state.user = null; setStatus('local', '登录已过期'); return; }
         if (!r.ok) { const e = new Error('server ' + r.status); e.status = r.status; throw e; }
         const remote = await r.json();
         const [merged, localChanged] = merge(prog, remote);
@@ -100,16 +139,16 @@ window.MD = (function () {
 
   const Sync = {
     state, onChange(f) { listeners.add(f); return () => listeners.delete(f); },
-    configured() { return true; },
-    schedulePush() { dirty = true; lsSet(K_SYNC, { dirty: true, lastSync: state.lastSync }); clearTimeout(timer); timer = setTimeout(syncNow, 2000); },
+    configured() { return !!Auth.state.user; },
+    schedulePush() { if (!Auth.state.user) return; dirty = true; lsSet(K_SYNC, { dirty: true, lastSync: state.lastSync }); clearTimeout(timer); timer = setTimeout(syncNow, 2000); },
     syncNow,
     statusText() {
       const t = state.lastSync ? new Date(state.lastSync).toLocaleString('zh-CN', { hour12: false }).replace(/:\d\d$/, '') : '';
-      return { off: '未同步', idle: '待同步', syncing: '同步中…', ok: '已同步 ' + t, offline: '离线，稍后自动同步', error: '同步失败' }[state.status] || '';
+      return { off: '未同步', local: '未登录·仅本机', idle: '待同步', syncing: '同步中…', ok: '已同步 ' + t, offline: '离线，稍后自动同步', error: '同步失败' }[state.status] || '';
     },
   };
   window.addEventListener('online', () => { if (dirty) syncNow(); });
-  setTimeout(syncNow, 0);
+  Auth.me().then(u => { if (u) syncNow(); });
 
   // ---------------- 进度码（手动兜底） ----------------
   const b64 = { enc: u8 => btoa(String.fromCharCode(...u8)).replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, ''), dec: s => Uint8Array.from(atob(s.replace(/-/g, '+').replace(/_/g, '/')), c => c.charCodeAt(0)) };
@@ -137,5 +176,5 @@ window.MD = (function () {
     },
   };
 
-  return { Progress, Sync, Code };
+  return { Progress, Sync, Code, Auth };
 })();
