@@ -73,27 +73,36 @@
   function openSyncDialog() {
     document.querySelectorAll('dialog.syncdlg').forEach(d => d.remove());
     const msg = h('p', { class: 'small muted' });
-    const codeIn = h('textarea', { rows: 3, placeholder: '把另一台设备复制的进度码粘到这里', style: 'width:100%' });
     const user = MD.Auth.state.user;
     const children = [];
     if (!user) {
-      const uIn = h('input', { placeholder: '用户名', autocomplete: 'username', style: 'width:100%' });
+      let mode = 'login';
+      const uIn = h('input', { placeholder: '用户名或邮箱', autocomplete: 'username', style: 'width:100%' });
       const pIn = h('input', { type: 'password', placeholder: '密码（至少 8 位）', autocomplete: 'current-password', style: 'width:100%' });
-      const iIn = h('input', { placeholder: '邀请码（仅注册需要，如 MD-XXXX-XXXX）', autocomplete: 'off', style: 'width:100%' });
-      const btnL = h('button', { class: 'btn', onclick: async () => {
-        msg.textContent = '登录中…'; btnL.disabled = true;
-        try { await MD.Auth.login(uIn.value.trim(), pIn.value); setTimeout(() => dlg.close(), 600); }
-        catch (e) { msg.textContent = '失败：' + e.message; } finally { btnL.disabled = false; }
-      } }, '登录');
-      const btnR = h('button', { class: 'btn', onclick: async () => {
-        msg.textContent = '注册中…'; btnR.disabled = true;
-        try { await MD.Auth.register(uIn.value.trim(), pIn.value, iIn.value.trim()); setTimeout(() => dlg.close(), 600); }
-        catch (e) { msg.textContent = '失败：' + e.message; } finally { btnR.disabled = false; }
-      } }, '注册');
+      const iIn = h('input', { placeholder: '邀请码（如 MD-XXXX-XXXX）', autocomplete: 'off', style: 'width:100%' });
+      const tabs = h('div', { class: 'vtabs', style: 'margin-bottom:10px' });
+      const body = h('div', {});
+      const renderAuth = () => {
+        tabs.replaceChildren(
+          h('button', { 'aria-pressed': String(mode === 'login'), onclick: () => { mode = 'login'; msg.textContent = ''; renderAuth(); } }, '登录'),
+          h('button', { 'aria-pressed': String(mode === 'register'), onclick: () => { mode = 'register'; msg.textContent = ''; renderAuth(); } }, '注册'));
+        const btn = h('button', { class: 'btn', onclick: async () => {
+          msg.textContent = mode === 'login' ? '登录中…' : '注册中…'; btn.disabled = true;
+          try {
+            if (mode === 'login') await MD.Auth.login(uIn.value.trim(), pIn.value);
+            else await MD.Auth.register(uIn.value.trim(), pIn.value, iIn.value.trim());
+            setTimeout(() => dlg.close(), 600);
+          } catch (e) { msg.textContent = '失败：' + e.message; } finally { btn.disabled = false; }
+        } }, mode === 'login' ? '登录' : '注册');
+        body.replaceChildren(
+          h('div', { style: 'display:flex;flex-direction:column;gap:8px;margin:6px 0' }, uIn, pIn, ...(mode === 'register' ? [iIn] : [])),
+          h('div', { style: 'display:flex;gap:8px;margin:4px 0' }, btn),
+          ...(mode === 'register' ? [h('p', { class: 'small muted' }, '注册需要邀请码（找管理员索取）。')] : []));
+      };
+      renderAuth();
       children.push(
-        h('p', { class: 'small muted' }, '未登录时进度只保存在本机；登录后自动云端同步，换设备接着看。注册需要邀请码。'),
-        h('div', { style: 'display:flex;flex-direction:column;gap:8px;margin:6px 0' }, uIn, pIn, iIn),
-        h('div', { style: 'display:flex;gap:8px;margin:4px 0' }, btnL, btnR));
+        h('p', { class: 'small muted' }, '未登录时进度只保存在本机；登录后自动云端同步，换设备接着看。'),
+        tabs, body);
     } else {
       children.push(
         h('p', { class: 'small muted' }, `已登录：${user.username}${user.admin ? '（管理员）' : ''} · ${MD.Sync.statusText()}。进度云端同步，打开页面自动合并。`),
@@ -117,12 +126,7 @@
     const dlg = h('dialog', { class: 'syncdlg' },
       h('div', { class: 'sec-hd' }, h('h3', {}, '账号与同步'), h('button', { class: 'fold', onclick: () => dlg.close() }, '关闭')),
       ...children,
-      msg,
-      h('h3', { style: 'margin-top:14px' }, '进度码（手动兜底）'),
-      h('div', { style: 'display:flex;gap:8px;margin:6px 0' },
-        h('button', { class: 'btn', onclick: async () => { const c = await MD.Code.export(); try { await navigator.clipboard.writeText(c); msg.textContent = '进度码已复制到剪贴板，去另一台设备粘贴导入'; } catch (e) { codeIn.value = c; msg.textContent = '已生成在下方文本框，手动复制'; } } }, '复制本机进度码'),
-        h('button', { class: 'btn', onclick: async () => { try { const n = await MD.Code.import(codeIn.value); msg.textContent = `已导入并合并 ${n} 部剧的进度`; codeIn.value = ''; } catch (e) { msg.textContent = '导入失败：' + e.message; } } }, '导入')),
-      codeIn);
+      msg);
     document.body.append(dlg); dlg.showModal();
   }
 
@@ -156,16 +160,28 @@
       h('div', { class: 'list-hd' },
         h('h1', {}, h('a', { href: '../', style: 'color:inherit;text-decoration:none', title: '回首页' }, '追剧路线'), h('small', { class: 'muted', style: 'font-size:13px;font-weight:400;margin-left:8px' }, 'media-digest')),
         syncButton()),
-      h('p', { class: 'muted small' }, '把几十集的长剧压成一条路线：必看的集全速看，跳过的集读摘要，进度记在手机里。'),
+      h('p', { class: 'muted small' }, '把几十集的动画、上百话的漫画压成一条路线：必看的集全速看，跳过的集读摘要，进度跨端同步记录。'),
       h('div', { class: 'list' }, groups.map(g => {
         const s = g.items[0], multi = g.items.length > 1;
+        // 进度：有路线按路线必看集（route_eps），没路线按总集数；多版本聚合
+        const pv = g.items.map(v => {
+          const dn = MD.Progress.done(v.slug), eps = (v.route_eps && v.route_eps.length) ? v.route_eps : null;
+          return { total: eps ? eps.length : (v.total_eps || 0), watched: eps ? eps.filter(n => dn.has(n)).length : Math.min(dn.size, v.total_eps || dn.size) };
+        });
+        const wSum = pv.reduce((a, b) => a + b.watched, 0), tSum = pv.reduce((a, b) => a + b.total, 0);
+        const progEl = (tSum > 0 && wSum === tSum)
+          ? h('div', { class: 'lp done' }, '已看完 ✓')
+          : wSum > 0
+            ? h('div', { class: 'lp' }, h('i', { style: `width:${Math.round(100 * wSum / tSum)}%` }), h('span', {}, `已看 ${wSum}/${tSum}`))
+            : null;
         return h('a', { class: 'card', href: '?show=' + encodeURIComponent(s.slug) },
           h('img', { src: s.cover || '', alt: '' }),
           h('div', {}, h('h3', {}, multi ? g.title : (s.title_cn || s.title)),
             multi
               ? h('div', { class: 'chips', style: 'margin:4px 0' }, g.items.map(v => h('span', { class: 'chip' }, vLabel(v), ' · ', String(v.total_eps), v.unit || '集')))
               : h('div', { class: 'muted small' }, [s.title_cn ? s.title : null, s.year, s.total_eps + ' ' + (s.unit || '集')].filter(Boolean).join(' · ')),
-            h('div', { class: 'muted small' }, multi ? `${g.items.length} 个版本，页内 tab 切换` : (s.watch_eps ? `路线：看 ${s.watch_eps} ${s.unit || '集'} + ${s.bridges} 段桥接` : '路线尚未编写'))));
+            h('div', { class: 'muted small' }, multi ? `${g.items.length} 个版本，页内 tab 切换` : (s.watch_eps ? `路线：看 ${s.watch_eps} ${s.unit || '集'} + ${s.bridges} 段桥接` : '路线尚未编写')),
+            progEl));
       })),
       h('footer', {}, 'media-digest · 评分各源并列，不合并'),
     );
@@ -256,7 +272,7 @@
       charsBox.replaceChildren(
         h('h3', { style: 'margin-bottom:8px' }, '主要人物', h('span', { class: 'muted small', style: 'font-weight:400;margin-left:6px' }, `${chars.length} 位`)),
         h('div', { class: 'chars' }, shown.map(charCard)),
-        chars.length > CHARS_SHOWN ? h('button', { class: 'link', style: 'margin-top:8px', onclick: () => { charsOpen = !charsOpen; renderChars(); } }, charsOpen ? '收起' : `展开其余 ${chars.length - CHARS_SHOWN} 位`) : null);
+        ...(chars.length > CHARS_SHOWN ? [h('button', { class: 'link', style: 'margin-top:8px', onclick: () => { charsOpen = !charsOpen; renderChars(); } }, charsOpen ? '收起' : `展开其余 ${chars.length - CHARS_SHOWN} 位`)] : []));
     }
     if (chars.length) { renderChars(); introKids.push(charsBox); }
     if (intro.highlights && intro.highlights.length) introKids.push(h('div', {}, h('h3', { style: 'margin-bottom:6px' }, '亮点'), h('ul', { class: 'hl' }, intro.highlights.map(x => h('li', {}, x)))));
@@ -278,7 +294,7 @@
       progress.replaceChildren(
         h('div', { class: 'progress' },
           h('span', {}, h('span', { class: 'big' }, String(cur)), h('span', { class: 'muted' }, ` / ${total} ${U}已看`)),
-          route.length ? h('span', { class: 'muted' }, `桥接已读 ${br} / ${bridges.length}`) : null,
+          ...(route.length ? [h('span', { class: 'muted' }, `桥接已读 ${br} / ${bridges.length}`)] : []),
           h('span', { style: 'flex:1' }),
           h('button', { class: 'link', onclick: () => { if (confirm('清空这部剧的进度？（已开同步的话另一端也会清）')) { MD.Progress.reset(slug); done = MD.Progress.done(slug); rerender(); } } }, '重置')),
         h('div', { class: 'bar' }, h('i', { style: `width:${total ? (100 * cur / total) : 0}%` })));
@@ -378,7 +394,7 @@
           body);
       });
       routeSec.replaceChildren(h('h2', {}, '路线'),
-        intro.route_note ? h('p', { class: 'muted small route-note' }, intro.route_note) : null,
+        ...(intro.route_note ? [h('p', { class: 'muted small route-note' }, intro.route_note)] : []),
         h('div', { class: 'route' }, nodes));
     }
 

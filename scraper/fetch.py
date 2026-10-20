@@ -227,6 +227,7 @@ def write_index():
             "series": m.get("series"), "series_title": m.get("series_title"), "version_label": m.get("version_label"),
             "cover": (d.get("intro") or {}).get("cover") or (d.get("about") or {}).get("cover"),
             "watch_eps": sum(x["eps"][1] - x["eps"][0] + 1 for x in r if x["kind"] == "watch"),
+            "route_eps": sorted(n for x in r if x["kind"] == "watch" for n in range(x["eps"][0], x["eps"][1] + 1)),
             "bridges": sum(1 for x in r if x["kind"] == "bridge"),
         })
     (SHOWS / "index.json").write_text(json.dumps({"shows": items}, ensure_ascii=False, indent=2) + "\n", encoding="utf-8", newline="\n")

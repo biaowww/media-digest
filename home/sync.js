@@ -7,8 +7,6 @@
  * 远端：自建服务器 media-digest.biaotools.site /api/*（server/api.py）。
  *   登录后：打开页面拉一次并合并；勾选后 2 秒内写回；离线时先记本地，联网后补。
  *   未登录：进度只存本机，功能不受影响。注册走邀请制。
- *
- * 兜底：「进度码」= 全部进度压成一串文本，手动复制到另一台设备导入（同样按时间合并）。
  */
 window.MD = (function () {
   'use strict';
@@ -150,31 +148,5 @@ window.MD = (function () {
   window.addEventListener('online', () => { if (dirty) syncNow(); });
   Auth.me().then(u => { if (u) syncNow(); });
 
-  // ---------------- 进度码（手动兜底） ----------------
-  const b64 = { enc: u8 => btoa(String.fromCharCode(...u8)).replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, ''), dec: s => Uint8Array.from(atob(s.replace(/-/g, '+').replace(/_/g, '/')), c => c.charCodeAt(0)) };
-  async function compress(text) {
-    if (!window.CompressionStream) return 'J' + b64.enc(new TextEncoder().encode(text));
-    const cs = new Blob([text]).stream().pipeThrough(new CompressionStream('deflate-raw'));
-    return 'D' + b64.enc(new Uint8Array(await new Response(cs).arrayBuffer()));
-  }
-  async function decompress(code) {
-    const kind = code[0], body = b64.dec(code.slice(1));
-    if (kind === 'J') return new TextDecoder().decode(body);
-    const ds = new Blob([body]).stream().pipeThrough(new DecompressionStream('deflate-raw'));
-    return await new Response(ds).text();
-  }
-  const Code = {
-    async export() { return 'MD1.' + await compress(JSON.stringify(prog)); },
-    async import(code) {
-      code = String(code || '').trim();
-      if (!code.startsWith('MD1.')) throw new Error('不是有效的进度码');
-      const incoming = JSON.parse(await decompress(code.slice(4)));
-      const [merged] = merge(prog, incoming);
-      prog = merged; saveProg(); Sync.schedulePush();
-      listeners.forEach(f => { try { f(state, 'progress'); } catch (e) { /* ignore */ } });
-      return Object.keys(incoming.shows || {}).length;
-    },
-  };
-
-  return { Progress, Sync, Code, Auth };
+  return { Progress, Sync, Auth };
 })();

@@ -7,7 +7,7 @@ sync.py — 把 Drive 上各会话写的主观内容（intro / route）同步进
                  ① 对象 {"intro": {...}, "route": [...], "route_note": "..."}（chat 会话产出的样子）
                  ② 纯数组 [ {kind, eps, ...}, ... ]（只有路线）
   intro.json   可选，单独的介绍；存在时覆盖 route.json 里的 intro
-  *.jpg/png/webp  可选图片；intro.cover 写文件名即可，同步时复制到 app/assets/<slug>/ 并改写路径
+  *.jpg/png/webp  可选图片；intro.cover 写文件名即可，同步时复制到 home/assets/<slug>/ 并改写路径
 
 键名归一化（内容不改，只改键名）：
   intro.spoiler_free_summary → intro.synopsis
@@ -211,7 +211,7 @@ def sync_one(slug: str, dry_run: bool = False) -> bool:
     if intro is not None:
         cover = intro.get("cover")
         if cover and "://" not in cover and (src / cover).is_file():
-            assets = ROOT / "app" / "assets" / slug
+            assets = ROOT / "home" / "assets" / slug
             if not dry_run:
                 assets.mkdir(parents=True, exist_ok=True)
                 shutil.copy2(src / cover, assets / Path(cover).name)

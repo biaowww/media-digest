@@ -307,8 +307,8 @@ class Handler(BaseHTTPRequestHandler):
         username = str(d.get("username") or "").strip()
         password = str(d.get("password") or "")
         code = str(d.get("invite") or "").strip().upper()
-        if not re.match(r"^[\w-]{2,24}$", username):
-            return self._send(400, {"error": "用户名需 2-24 位字母/数字/下划线/横线"})
+        if not re.match(r"^[\w.@+-]{2,64}$", username):
+            return self._send(400, {"error": "用户名需 2-64 位字母/数字/下划线/横线，或邮箱"})
         if len(password) < 8:
             return self._send(400, {"error": "密码至少 8 位"})
         with db() as c:

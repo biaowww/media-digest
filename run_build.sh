@@ -15,6 +15,6 @@ echo
 if [ $rc -ne 0 ]; then
   echo "*** BUILD HAD ERRORS - see above or scraper/logs/build.log ***"
 else
-  echo "Done. Page updates in about 1 minute: https://biaowww.github.io/media-digest/app/"
+  echo "Done. Page updates in about 1 minute: https://biaowww.github.io/media-digest/home/"
 fi
 exit $rc

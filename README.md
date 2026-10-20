@@ -9,7 +9,7 @@
 ```
 shows/<slug>.json   一部剧一份（数据契约见下）；shows/_schema.json 是 JSON Schema；index.json 由脚本生成
 scraper/            抓取 + 校验（本机跑，只写 meta/about/episodes，绝不碰 intro/route）
-app/                静态应用（GitHub Pages / 自建站 /app/），读 ../shows/<slug>.json，进度存 localStorage
+home/               静态应用（GitHub Pages / 自建站 /home/），读 ../shows/<slug>.json，进度存 localStorage
 ```
 
 ## 环境
@@ -35,7 +35,7 @@ py scraper/fetch.py monster-2004 --only mal --no-cache
 py scraper/validate.py
 
 # 本地看页面
-py -m http.server 8765      # 然后开 http://localhost:8765/app/?show=monster-2004
+py -m http.server 8765      # 然后开 http://localhost:8765/home/?show=monster-2004
 ```
 
 ## 数据契约（`shows/<slug>.json`）
@@ -85,7 +85,7 @@ py scraper/sync.py --all
 git push                             # 页面生效
 ```
 
-`fetch.py` 与 `sync.py` 互不越界：前者只写 meta/about/episodes，后者只写 intro/route（+ 复制封面图到 `app/assets/<slug>/`）。多轮迭代 = 改 Drive 文件再 sync。
+`fetch.py` 与 `sync.py` 互不越界：前者只写 meta/about/episodes，后者只写 intro/route（+ 复制封面图到 `home/assets/<slug>/`）。多轮迭代 = 改 Drive 文件再 sync。
 
 ## 进度跨端同步
 

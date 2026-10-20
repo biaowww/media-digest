@@ -137,7 +137,7 @@ def main():
         if not ok:
             failed.append(slug)
 
-    paths = [x for x in ("shows", "app/assets") if (ROOT / x).exists()]  # 无人值守只提交内容产物，不卷代码改动
+    paths = [x for x in ("shows", "home/assets") if (ROOT / x).exists()]  # 无人值守只提交内容产物，不卷代码改动
     st = run(["git", "status", "--porcelain", "--", *paths]).stdout.strip()
     if not st:
         log("no changes");
@@ -168,7 +168,7 @@ def main():
                     failed.append("push")
     log(f"build end — failed: {failed or 'none'}")
     if not a.no_push and st:
-        log("page: https://biaowww.github.io/media-digest/app/  (GitHub Pages 部署约 1 分钟)")
+        log("page: https://biaowww.github.io/media-digest/home/  (GitHub Pages 部署约 1 分钟)")
     if a.quiet:
         LOG.parent.mkdir(parents=True, exist_ok=True)
         (LOG.parent / "last-run.txt").write_text(f"{dt.datetime.now():%Y-%m-%d %H:%M:%S} failed={failed or 'none'} changes={'yes' if st else 'no'}\n", encoding="utf-8")
