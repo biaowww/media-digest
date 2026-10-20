@@ -12,9 +12,25 @@
       "series_title": null,
       "version_label": null,
       "cover": "https://cdn.myanimelist.net/images/anime/1708/138033.jpg",
-      "watch_eps": 0,
-      "route_eps": [],
-      "bridges": 0
+      "watch_eps": 15,
+      "route_eps": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        10,
+        11,
+        12,
+        17,
+        18,
+        19,
+        20,
+        22,
+        23,
+        24
+      ],
+      "bridges": 4
     },
     {
       "slug": "berserk-1997",
