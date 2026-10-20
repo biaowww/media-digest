@@ -9,7 +9,7 @@
 ```
 shows/<slug>.json   一部剧一份（数据契约见下）；shows/_schema.json 是 JSON Schema；index.json 由脚本生成
 scraper/            抓取 + 校验（本机跑，只写 meta/about/episodes，绝不碰 intro/route）
-site/               静态页（GitHub Pages），读 ../shows/<slug>.json，进度存 localStorage
+app/                静态应用（GitHub Pages / 自建站 /app/），读 ../shows/<slug>.json，进度存 localStorage
 ```
 
 ## 环境
@@ -35,7 +35,7 @@ py scraper/fetch.py monster-2004 --only mal --no-cache
 py scraper/validate.py
 
 # 本地看页面
-py -m http.server 8765      # 然后开 http://localhost:8765/site/?show=monster-2004
+py -m http.server 8765      # 然后开 http://localhost:8765/app/?show=monster-2004
 ```
 
 ## 数据契约（`shows/<slug>.json`）
@@ -83,14 +83,14 @@ py scraper/sync.py --all
 git push                             # 页面生效
 ```
 
-`fetch.py` 与 `sync.py` 互不越界：前者只写 meta/about/episodes，后者只写 intro/route（+ 复制封面图到 `site/assets/<slug>/`）。多轮迭代 = 改 Drive 文件再 sync。
+`fetch.py` 与 `sync.py` 互不越界：前者只写 meta/about/episodes，后者只写 intro/route（+ 复制封面图到 `app/assets/<slug>/`）。多轮迭代 = 改 Drive 文件再 sync。
 
 ## 进度跨端同步
 
-进度存本机 localStorage `md:progress`：每集记「已看/未看 + 最后操作时间」，合并时按集取最新一次操作。跨端走自建服务器 `https://media-digest.biaotools.site/api/progress`（`server/progress_api.py`，stdlib 单文件，systemd 常驻，Caddy 反代）：打开页面拉一次并合并，勾选后 2 秒内写回；离线先记本地，联网后补。**不用 token、不用账号。**
+进度存本机 localStorage `md:progress`：每集记「已看/未看 + 最后操作时间」，合并时按集取最新一次操作。跨端走自建服务器 `https://media-digest.biaotools.site/api/*`（`server/api.py`，stdlib 单文件，systemd 常驻，Caddy 反代）：**登录后**打开页面拉一次并合并，勾选后 2 秒内写回；离线先记本地，联网后补。未登录进度只存本机，功能不受影响。注册走邀请制（管理员在账号对话框里一键生成邀请码）。
 
 - 服务端合并与页面同规则（按集取最新），多端各改各的互不覆盖；「重置」写成墓碑（未看 @ 现在），会同步到另一端。
-- 接口带一个公开的反爬虫 key（`X-MD-Key`，随页面 JS 下发）：不防有心人，只挡脚本。数据只有观看进度。
+- 会话是 HMAC 签名 cookie（30 天）；密码 PBKDF2-SHA256 26 万次加盐。登录/注册按 IP 限流。数据只有观看进度。
 - 兜底「进度码」：不用网络服务，把全部进度压成一串文本（`MD1.` 开头），另一台设备粘贴导入，同样按时间合并。
 
 ## 评分怎么看（页面 KPI）
