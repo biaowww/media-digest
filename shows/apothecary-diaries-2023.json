@@ -1,0 +1,1231 @@
+{
+  "meta": {
+    "slug": "apothecary-diaries-2023",
+    "schema_version": 1,
+    "ids": {
+      "mal": "54492",
+      "bangumi": "420628",
+      "imdb": "tt26743760",
+      "tmdb": "220542",
+      "wiki": "List of The Apothecary Diaries episodes"
+    },
+    "season": 1,
+    "title": "The Apothecary Diaries",
+    "title_cn": "药屋少女的呢喃",
+    "title_native": "薬屋のひとりごと",
+    "year": 2023,
+    "total_eps": 24,
+    "primary_kpi": "imdb",
+    "updated": "2026-10-20",
+    "fetched": {
+      "mal": "2026-10-20",
+      "bangumi": "2026-10-20",
+      "imdb": "2026-10-20",
+      "tmdb": "2026-10-20",
+      "wiki": "2026-10-20"
+    }
+  },
+  "about": {
+    "cover": "https://cdn.myanimelist.net/images/anime/1708/138033.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w500/gffVOVZ2Y9cmVIZ26Gt9ByMGCYH.jpg",
+    "synopsis": {
+      "en": "Maomao, an apothecary's daughter, has been plucked from her peaceful life and sold to the lowest echelons of the imperial court. Now merely a maid, Maomao settles into her new mundane life and hides her extensive knowledge of medicine in order to avoid any unwanted attention.\n\r\n\n\r\nNot long after Maomao's arrival, the emperor's infant children inexplicably begin to experience grave symptoms—almost as if a curse has been cast. The curious Maomao easily solves the mystery and, to remain out of the limelight, attempts to leave an anonymous tip. Unfortunately, the dashing and perceptive eunuch Jinshi sees through it and manages to single her out.\n\r\n\n\r\nIn recognition of her talent, Maomao is promoted to lady-in-waiting for the emperor's favorite concubine, Gyokuyou. As Maomao continues to remedy the numerous ailments afflicting the imperial court, her pharmaceutical expertise quickly proves indispensable.",
+      "zh": "大陆的中央有个大国，在那个国家的后宫之中有一位少女，其名为“猫猫”。她以前在花街做药师，现在在后宫做事。某天，她得知皇子们皆早夭，而现在的两个皇子都因为生病而逐渐衰弱。于是，在好奇心的驱使下，她开始调查事情的真相，就好像在说世上不可能存在诅咒。壬氏是一位外表俊美的宦官，他让猫猫当皇帝宠妃的试毒人。猫猫对人没有兴趣，却异常钟情毒和药，就是这样一位在花街长大的药师，被卷入了宫中的传闻事件。美丽的玫瑰长有刺，女人的庭院里到处都是毒，流言和阴谋更是不缺。虽然不断地被壬氏委托麻烦事，但猫猫还是照常处理。罕见的嗜毒姑娘今天也在后宫里奔走。"
+    },
+    "genres": [
+      "Drama",
+      "Mystery",
+      "Historical",
+      "Medical"
+    ],
+    "studios": [
+      "OLM",
+      "TOHO animation STUDIO"
+    ],
+    "scores": {
+      "mal": {
+        "score": 8.84,
+        "votes": 520321,
+        "rank": 32
+      },
+      "bangumi": {
+        "score": 7.5,
+        "votes": 11961,
+        "rank": 968
+      },
+      "imdb": {
+        "score": 8.6,
+        "votes": 28927
+      },
+      "tmdb": {
+        "score": 8.7,
+        "votes": 670
+      }
+    },
+    "links": {
+      "mal": "https://myanimelist.net/anime/54492",
+      "bangumi": "https://bgm.tv/subject/420628",
+      "imdb": "https://www.imdb.com/title/tt26743760/",
+      "tmdb": "https://www.themoviedb.org/tv/220542",
+      "wiki": "https://en.wikipedia.org/wiki/List_of_The_Apothecary_Diaries_episodes"
+    },
+    "characters": [
+      {
+        "name": "Jinshi",
+        "role": "Main",
+        "image": "https://cdn.myanimelist.net/images/characters/9/511065.jpg",
+        "mal_id": 156096,
+        "favorites": 3339
+      },
+      {
+        "name": "Maomao",
+        "role": "Main",
+        "image": "https://cdn.myanimelist.net/images/characters/16/371204.jpg",
+        "mal_id": 155904,
+        "favorites": 26676
+      },
+      {
+        "name": "Loulan",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/15/468715.jpg",
+        "mal_id": 178872,
+        "favorites": 527
+      },
+      {
+        "name": "Gyokuyou",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/4/468711.jpg",
+        "mal_id": 178869,
+        "favorites": 356
+      },
+      {
+        "name": "Lakan Kan",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/10/589850.jpg",
+        "mal_id": 199476,
+        "favorites": 233
+      },
+      {
+        "name": "Gaoshun",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/9/525777.jpg",
+        "mal_id": 178876,
+        "favorites": 130
+      },
+      {
+        "name": "Xiaolan",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/16/574075.jpg",
+        "mal_id": 178874,
+        "favorites": 114
+      },
+      {
+        "name": "Lihua",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/16/468708.jpg",
+        "mal_id": 178870,
+        "favorites": 106
+      },
+      {
+        "name": "Ah-Duo",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/2/647507.jpg",
+        "mal_id": 178877,
+        "favorites": 86
+      },
+      {
+        "name": "Lishu",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/10/574072.jpg",
+        "mal_id": 178871,
+        "favorites": 39
+      },
+      {
+        "name": "Pairin",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/15/643146.jpg",
+        "mal_id": 199480,
+        "favorites": 39
+      },
+      {
+        "name": "Meimei",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/2/643145.jpg",
+        "mal_id": 199479,
+        "favorites": 29
+      },
+      {
+        "name": "Lihaku",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/14/527810.jpg",
+        "mal_id": 199478,
+        "favorites": 23
+      },
+      {
+        "name": "Suirei",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/9/531714.jpg",
+        "mal_id": 199477,
+        "favorites": 16
+      },
+      {
+        "name": "Fengxian",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/10/551582.jpg",
+        "mal_id": 226187,
+        "favorites": 15
+      },
+      {
+        "name": "Rikuson",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/7/540772.jpg",
+        "mal_id": 224562,
+        "favorites": 14
+      },
+      {
+        "name": "Ruomen Han",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/9/589867.jpg",
+        "mal_id": 199481,
+        "favorites": 8
+      },
+      {
+        "name": "Madam",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/14/525774.jpg",
+        "mal_id": 235417,
+        "favorites": 8
+      },
+      {
+        "name": "Joka",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/8/643147.jpg",
+        "mal_id": 199482,
+        "favorites": 7
+      },
+      {
+        "name": "Basen",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/3/586387.jpg",
+        "mal_id": 236708,
+        "favorites": 5
+      },
+      {
+        "name": "Lingli",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/6/576102.jpg",
+        "mal_id": 262450,
+        "favorites": 5
+      },
+      {
+        "name": "Anshi",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/14/583045.jpg",
+        "mal_id": 244500,
+        "favorites": 4
+      }
+    ],
+    "characters_bangumi": [
+      {
+        "name_native": "猫猫",
+        "relation": "主角",
+        "image": "https://lain.bgm.tv/pic/crt/g/63/84/61330_crt_GRcpk.jpg?r=1738768905",
+        "bangumi_id": 61330
+      },
+      {
+        "name_native": "壬氏",
+        "relation": "主角",
+        "image": "https://lain.bgm.tv/pic/crt/g/ef/15/61331_crt_p75Xe.jpg?r=1692970256",
+        "bangumi_id": 61331
+      }
+    ]
+  },
+  "intro": {},
+  "episodes": [
+    {
+      "n": 1,
+      "sources": {
+        "mal": {
+          "score": 4.3,
+          "forum_replies": 225,
+          "url": "https://myanimelist.net/anime/54492/Kusuriya_no_Hitorigoto/episode/1"
+        },
+        "imdb": {
+          "rating": 7.7,
+          "votes": 1826,
+          "tconst": "tt26743791",
+          "season": 1,
+          "episode": 1
+        },
+        "tmdb": {
+          "vote_average": 7.7,
+          "vote_count": 30,
+          "still": "https://image.tmdb.org/t/p/w500/ggj0UKd4j5uwYPEuuS9KmO76Lcn.jpg",
+          "season": 1,
+          "episode": 1
+        },
+        "bangumi": {
+          "comments": 174,
+          "url": "https://bgm.tv/ep/1244591"
+        }
+      },
+      "synopsis": {
+        "en": "Maomao, daughter of an apothecary on the outskirts of the city, is kidnapped by bandits and sold to the imperial palace as a laundry woman serving the emperor's concubines, eunuchs, and their staffs in the rear palace. She sees a fight three months later between two of the concubines, Lihua and Gyokuyou, as rumors swirl that both their children are getting sick and dying from a curse. Maomao deduces the cause from the symptoms, and leaves an anonymous message on the windowsill of each concubine telling them to stop using lead-based face-powder. Lihua's lady-in-waiting ignores the message, and Lihua's son dies. Gyokuyou heeds the message, and her daughter lives. Jinshi, an attractive eunuch, learns that Maomao is the savior. He introduces her to Gyokuyou to explain how the face powder was linked to her daughter's illness, and Gyokuyou thanks her by making her a lady-in-waiting.",
+        "zh": "在花街经营药店的猫猫，被人贩子拐骗到后宫，做了女仆。有一天，他听到了“皇帝的儿子连续死亡是因为‘诅咒’”的传言。推理出诅咒的真面目的猫猫来到妃子们生活的宫殿，听到了两位上级妃子争吵的声音。好奇心和求知欲旺盛，一听到“药”、“毒”就兴奋起来的猫猫，开始行动起来。"
+      },
+      "title_native": "猫猫",
+      "title_en": "Maomao",
+      "title_cn": "猫猫",
+      "aired": "2023-10-21",
+      "heat": {
+        "mal_replies": 225,
+        "bangumi_comments": 174,
+        "imdb_votes": 1826
+      }
+    },
+    {
+      "n": 2,
+      "sources": {
+        "mal": {
+          "score": 4.36,
+          "forum_replies": 153,
+          "url": "https://myanimelist.net/anime/54492/Kusuriya_no_Hitorigoto/episode/2"
+        },
+        "imdb": {
+          "rating": 7.7,
+          "votes": 1625,
+          "tconst": "tt28765100",
+          "season": 1,
+          "episode": 2
+        },
+        "tmdb": {
+          "vote_average": 7.2,
+          "vote_count": 26,
+          "still": "https://image.tmdb.org/t/p/w500/pYC0kEvnKtVm50uD2rBmtrZZnix.jpg",
+          "season": 1,
+          "episode": 2
+        },
+        "bangumi": {
+          "comments": 129,
+          "url": "https://bgm.tv/ep/1244592"
+        }
+      },
+      "synopsis": {
+        "en": "While soldiers try to pacify an outside village they are mysteriously poisoned during a meal, prompting Jinshi to judge the village leader accused of the act. Maomao begins her new role as a lady-in-waiting to Gyokuyou. The other attendants pity her for her bandaged arm and position as food taster, often finishing her chores. The restless Maomao quickly masters her duties. When Jinshi requests her insight into the soldiers' poisoning, she deduces that the culprit was not the food but toxic fumes from the wood the soldiers burned for kindling. Jinshi assigns her to create an aphrodisiac, giving her access to the court physician's medicinal supplies. Maomao experiments with cocoa, formulating a chocolate-based tonic. While gathering herbs in the garden, she learns that three of Gyokuyou's attendants have already eaten the test chocolates. Alarmed, Maomao says that the concoction's potency is triple that of a standard aphrodisiac. When Gyokuyou later asks if any of it might be used for the emperor, Maomao's warning about its overwhelming effects leaves the consort trembling with unease.",
+        "zh": "猫猫看穿了“诅咒”的真面目，被美貌的宦官壬氏知道，凭借药师的知识成为了上级妃玉叶妃的侍女兼毒见。虽然工资提高了，但同事们担心他是“可怜的毒见角色”，每天都无所事事。就在这时，壬氏拜托猫猫制作一种不可思议的药。"
+      },
+      "title_native": "無愛想な薬師",
+      "title_en": "Chilly Apothecary",
+      "title_cn": "冷漠的药师",
+      "aired": "2023-10-21",
+      "heat": {
+        "mal_replies": 153,
+        "bangumi_comments": 129,
+        "imdb_votes": 1625
+      }
+    },
+    {
+      "n": 3,
+      "sources": {
+        "mal": {
+          "score": 4.46,
+          "forum_replies": 254,
+          "url": "https://myanimelist.net/anime/54492/Kusuriya_no_Hitorigoto/episode/3"
+        },
+        "imdb": {
+          "rating": 8.0,
+          "votes": 1662,
+          "tconst": "tt28765101",
+          "season": 1,
+          "episode": 3
+        },
+        "tmdb": {
+          "vote_average": 7.0,
+          "vote_count": 25,
+          "still": "https://image.tmdb.org/t/p/w500/nfrCtoX4yRh7WyF9unECvML4dyG.jpg",
+          "season": 1,
+          "episode": 3
+        },
+        "bangumi": {
+          "comments": 235,
+          "url": "https://bgm.tv/ep/1244593"
+        }
+      },
+      "synopsis": {
+        "en": "Rumors spread through the palace of a ghostly woman dancing along the eastern wall in the moonlight. When Jinshi's attendant Gaoshun investigates with Maomao they learn that the dancer is Fuyou, a mid-level concubine who sought the emperor's favor but failed to entice him. After losing his attention, she was promised to a military officer in the imperial army. Fuyou appeared to go mad, spending her nights dancing under the moon. The next day Maomao tells Gyokuyou and Jinshi about a courtesan she knew who, overwhelmed with stress before being bought by a wealthy patron, began sleepwalking without remembering it. Maomao reveals the full story: the courtesan feigned insanity to lower her price, ensuring that she would be sold to a man she loved. Maomao concludes that Fuyou intentionally mirrored this behavior. Realizing that the general to whom she would be sold was her beloved from her hometown, Fuyou staged her \"madness\" to fall out of the emperor's favor. What appeared to be madness, Maomao suggests, was a calculated act born of love.",
+        "zh": "“女幽灵在城墙上跳舞”的传闻在后宫传开。因为是常有的幽灵故事而不在意的猫猫，被壬氏问到梦游病的事，用那个眼睛确认幽灵的真面目的事。晚上，壬氏的部下高顺带着他来到城墙上，看到了一个美丽的女子。调查女人情况的猫猫，终于得知了意想不到的理由。"
+      },
+      "title_native": "幽霊騒動",
+      "title_en": "The Unsettling Matter of the Spirit",
+      "title_cn": "幽灵作祟",
+      "aired": "2023-10-21",
+      "heat": {
+        "mal_replies": 254,
+        "bangumi_comments": 235,
+        "imdb_votes": 1662
+      }
+    },
+    {
+      "n": 4,
+      "sources": {
+        "mal": {
+          "score": 4.56,
+          "forum_replies": 267,
+          "url": "https://myanimelist.net/anime/54492/Kusuriya_no_Hitorigoto/episode/4"
+        },
+        "imdb": {
+          "rating": 8.5,
+          "votes": 1684,
+          "tconst": "tt29582848",
+          "season": 1,
+          "episode": 4
+        },
+        "tmdb": {
+          "vote_average": 8.0,
+          "vote_count": 24,
+          "still": "https://image.tmdb.org/t/p/w500/56uZXOtpTuUvyuYGEpSLNJtJOBO.jpg",
+          "season": 1,
+          "episode": 4
+        },
+        "bangumi": {
+          "comments": 277,
+          "url": "https://bgm.tv/ep/1244594"
+        }
+      },
+      "synopsis": {
+        "en": "The emperor asks Maomao to care for Lady Lihua, whose mysterious illness has persisted despite treatment. Lihua's overprotective attendants repeatedly expel Maomao from her chamber, preventing her from helping. Jinshi uses his charm to persuade the attendants to allow Maomao to work uninterrupted. Maomao prescribes a diet to purge Lihua's body of toxins and learns that her lady-in-waiting continued to use the same beauty powder that had been previously identified as poisonous. Maomao slaps the lady-in-waiting and pours the powder over her, reminding her that its poisonous ingredients were responsible for the death of Lihua's son. The woman is detained and reinstated after expressing remorse, and the eunuch who procured the substance is whipped. Maomao asks Jinshi to build a sauna so steam baths can aid Lihua's recovery. After two months, Lihua's health is restored. Before returning to Lady Gyokuyou's service, Maomao discreetly teaches Lihua techniques from her brothel sisters to regain the emperor's favor. The techniques are effective; the emperor's visits to Gyokuyou become less frequent, allowing her a long-awaited reprieve.",
+        "zh": "猫猫虽然解开了帝子连续死亡之谜，但之后梨花妃的病情依然没有好转。某天，猫猫奉皇帝之命去治疗梨花妃。然而，当她想要为妃子准备的食物时，却被侍女们阻挠，致使妃子的状况越来越糟。在这种情况下，猫猫得到了壬氏的帮助，有机会接近梨花妃，但发现被禁止使用的“白粉”竟然还是在使用。"
+      },
+      "title_native": "恫喝",
+      "title_en": "The Threat",
+      "title_cn": "威胁",
+      "aired": "2023-10-29",
+      "heat": {
+        "mal_replies": 267,
+        "bangumi_comments": 277,
+        "imdb_votes": 1684
+      }
+    },
+    {
+      "n": 5,
+      "sources": {
+        "mal": {
+          "score": 4.53,
+          "forum_replies": 196,
+          "url": "https://myanimelist.net/anime/54492/Kusuriya_no_Hitorigoto/episode/5"
+        },
+        "imdb": {
+          "rating": 7.9,
+          "votes": 1486,
+          "tconst": "tt29609530",
+          "season": 1,
+          "episode": 5
+        },
+        "tmdb": {
+          "vote_average": 7.5,
+          "vote_count": 25,
+          "still": "https://image.tmdb.org/t/p/w500/45h60UAouIJHiKRCI8zx6Vb38Nh.jpg",
+          "season": 1,
+          "episode": 5
+        },
+        "bangumi": {
+          "comments": 153,
+          "url": "https://bgm.tv/ep/1244595"
+        }
+      },
+      "synopsis": {
+        "en": "As Maomao and the court doctor enjoy some grilled matsutake mushrooms, someone comes into the clinic asking for a cure to a \"curse\". Maomao gives the patient ointment to heal the rash on the patient's arms. Jinshi asks her opinion on a few substances, since he is also looking for what caused the \"curse\". A garden party is approaching and the emperor's top-tier consorts will be attending, including Lihua and Gyokuyou; Maomao must also attend as Gyokuyou's lady-in-waiting. While applying Maomao's makeup, the other ladies-in-waiting discover that her freckles are painted on; she uses them to make herself less attractive, deterring would-be rapists in the brothel district. Jinshi learns more about Maomao's background and, sympathetic about her hardships, gives her one of his hairpins. Gyokuyou (who \"marked\" her earlier with a necklace) becomes jealous because \"she is no longer hers alone\". The garden party begins.",
+        "zh": "梨花妃恢复了健康，猫猫也回到了玉叶妃的宫中，过上了平常的生活。某天，当猫猫在医局时，一个非常慌张的宦官前来请求“解咒药”。猫猫从宦官的描述中识破了所谓诅咒的真相，并为他开了软膏。不久后，猫猫因为这件事被壬氏传唤。猫猫回到玉叶妃的翡翠宫时，同僚们正兴致冲冲的准备园游会。"
+      },
+      "title_native": "暗躍",
+      "title_en": "Covert Operations",
+      "title_cn": "秘密行动",
+      "aired": "2023-11-05",
+      "heat": {
+        "mal_replies": 196,
+        "bangumi_comments": 153,
+        "imdb_votes": 1486
+      }
+    },
+    {
+      "n": 6,
+      "sources": {
+        "mal": {
+          "score": 4.55,
+          "forum_replies": 192,
+          "url": "https://myanimelist.net/anime/54492/Kusuriya_no_Hitorigoto/episode/6"
+        },
+        "imdb": {
+          "rating": 8.3,
+          "votes": 1556,
+          "tconst": "tt29609533",
+          "season": 1,
+          "episode": 6
+        },
+        "tmdb": {
+          "vote_average": 8.0,
+          "vote_count": 23,
+          "still": "https://image.tmdb.org/t/p/w500/lk1dC3AFErQwPjaKlHHc6f7g7rz.jpg",
+          "season": 1,
+          "episode": 6
+        },
+        "bangumi": {
+          "comments": 193,
+          "url": "https://bgm.tv/ep/1244596"
+        }
+      },
+      "synopsis": {
+        "en": "During the garden party, Maomao is involved in conflict with the concubines' ladies-in-waiting; one of Lihua's ladies criticizes her, not knowing she is in front of her. She receives two more hairpins (one from Lady Lihua) and learns about an alleged rift between consorts Ah-Duo and Lishu. Maomao learns that Gyokuyou's soup is poisoned, and an officer collapses after trying it. Jinshi sees her vomiting, and brings her to the infirmary. Maomao asks Jinshi for Lishu and her food taster, and learns that she is allergic to mackerel. Knowing that the rear palace prepared the food, the vinegar in Lishu's dish may have been accidentally switched with that in Gyokuyou's. Maomao knows that Lishu's food taster may have done it, but does not accuse her and gives her a list of the foods Lishu cannot eat. Jinshi asks Maomao if Lishu is the target of the poisoning.",
+        "zh": "盛大的园游会终于开始了。帝王和四位妃嫔，以及皇族和高官们齐聚一堂。会场上，各种表演接连不断，热闹非凡，同时也是各妃子侍女们纷争的场所。到了用餐时间，猫猫自信满满地照例尝膳试毒。然而，看着毒检过后的菜肴，里树妃却突然面露紧张之色，这引起了猫猫的疑虑。"
+      },
+      "title_native": "園遊会",
+      "title_en": "The Garden Party",
+      "title_cn": "游园会",
+      "aired": "2023-11-12",
+      "heat": {
+        "mal_replies": 192,
+        "bangumi_comments": 193,
+        "imdb_votes": 1556
+      }
+    },
+    {
+      "n": 7,
+      "sources": {
+        "mal": {
+          "score": 4.5,
+          "forum_replies": 158,
+          "url": "https://myanimelist.net/anime/54492/Kusuriya_no_Hitorigoto/episode/7"
+        },
+        "imdb": {
+          "rating": 7.8,
+          "votes": 1419,
+          "tconst": "tt29609534",
+          "season": 1,
+          "episode": 7
+        },
+        "tmdb": {
+          "vote_average": 7.5,
+          "vote_count": 24,
+          "still": "https://image.tmdb.org/t/p/w500/5wBAUmOAlu9z2chOoqke2wwI6G9.jpg",
+          "season": 1,
+          "episode": 7
+        },
+        "bangumi": {
+          "comments": 125,
+          "url": "https://bgm.tv/ep/1244597"
+        }
+      },
+      "synopsis": {
+        "en": "Recovering from her garden-party poisoning, Maomao asks Lady Gyokuyou to use the parlor. At Jinshi's request, Gaoshun delivers the silver bowl that held the poisoned soup (wrapped to avoid contact). Using forensics from her brothel days, Maomao dusts the bowl with powder, cotton, and a brush and finds four fingerprints; one belongs to an outsider. This and with her observation that Lishu's clothing clashed with Gyokuyou's during the party makes Maomao suspect that Lishu is being bullied by her attendants. The poisoned soup was meant for Lishu, but her food taster switched the bowls; Lishu is allergic to mackerel, and Gyokuyou was inadvertently endangered. Maomao learns from Xiaolan that ornamental hairpins are \"tickets\" for earning favors in the palace. Wanting to go outside, she persuades Lihaku (a soldier who once gave her a hairpin) to escort her by promising introductions to the courtesans known as the \"Three Princesses\" from the Verdigris brothel. Maomao visits her father, who says wryly that her employment in the rear palace is a twist of fate.",
+        "zh": "园游会后的第二天，猫猫在高顺的请求下调查被下毒的器皿时，发现里树妃正被侍女们欺负。此外，小兰告诉她“只要使用在园游会中得到的簪子，就能离开后宫”，这让猫猫产生了回家的念头。然而，接连发生的事件让壬氏烦恼不已，完全不知道猫猫已经打算回家……"
+      },
+      "title_native": "里帰り",
+      "title_en": "Homecoming",
+      "title_cn": "返家",
+      "aired": "2023-11-19",
+      "heat": {
+        "mal_replies": 158,
+        "bangumi_comments": 125,
+        "imdb_votes": 1419
+      }
+    },
+    {
+      "n": 8,
+      "sources": {
+        "mal": {
+          "score": 4.56,
+          "forum_replies": 210,
+          "url": "https://myanimelist.net/anime/54492/Kusuriya_no_Hitorigoto/episode/8"
+        },
+        "imdb": {
+          "rating": 8.1,
+          "votes": 1429,
+          "tconst": "tt29609539",
+          "season": 1,
+          "episode": 8
+        },
+        "tmdb": {
+          "vote_average": 7.3,
+          "vote_count": 24,
+          "still": "https://image.tmdb.org/t/p/w500/j9m1E9HOJVl4pjnJRhjH445EYmx.jpg",
+          "season": 1,
+          "episode": 8
+        },
+        "bangumi": {
+          "comments": 155,
+          "url": "https://bgm.tv/ep/1244598"
+        }
+      },
+      "synopsis": {
+        "en": "Returning from a walk through the herb fields, Maomao meets a frantic servant pounding on her door who begs her for help. The girl brings her to a brothel where a courtesan and a well-dressed customer have been poisoned. Maomao purges the toxins from both, identifying the cause as tobacco poisoning (probably from a double-suicide attempt). When the brothel's madam recognizes Maomao and her father, Maomao sees the servant girl preparing to stab the customer and stops her. Another courtesan says that the man (a wealthy merchant's son) had seduced and abandoned many women, including the servant girl's sister. Maomao realizes that the apparent suicide was revenge; the courtesan tricked the man into drinking a poisoned tobacco infusion through a straw hidden among the beverages. Her intervention prevents both deaths and a potential scandal, earning her hush money from the madam. After being pampered by Meimei in the Verdigris baths, Maomao visits a bedridden woman in an annex. Three days later she returns to the palace, where an anxious Jinshi greets her. Her teasing remarks about Lihaku fluster him, amusing Lady Gyokuyou.",
+        "zh": "在久别重返故居的次日，猫猫被一位急匆匆的秃顶药师叫去，紧急赶往一家妓院。在那里，她发现一位因喝毒药而倒地的妓女和一名男子。尽猫猫虽然在各地遭遇事件，但她迅速采取措施，救治了这两人，并与罗门携手为他们疗伤。在确保两人安然无恙后，猫猫离开了妓院。但她对妓女们的叙述和自杀方式的细节产生了怀疑，开始着手揭开事件背后的真相。"
+      },
+      "title_native": "麦藁",
+      "title_en": "Wheat Stalks",
+      "title_cn": "麦秆",
+      "aired": "2023-11-26",
+      "heat": {
+        "mal_replies": 210,
+        "bangumi_comments": 155,
+        "imdb_votes": 1429
+      }
+    },
+    {
+      "n": 9,
+      "sources": {
+        "mal": {
+          "score": 4.43,
+          "forum_replies": 170,
+          "url": "https://myanimelist.net/anime/54492/Kusuriya_no_Hitorigoto/episode/9"
+        },
+        "imdb": {
+          "rating": 7.7,
+          "votes": 1377,
+          "tconst": "tt29609538",
+          "season": 1,
+          "episode": 9
+        },
+        "tmdb": {
+          "vote_average": 7.5,
+          "vote_count": 22,
+          "still": "https://image.tmdb.org/t/p/w500/u9rreY8RcnIsmx8kvCDhEy1BvXz.jpg",
+          "season": 1,
+          "episode": 9
+        },
+        "bangumi": {
+          "comments": 134,
+          "url": "https://bgm.tv/ep/1244599"
+        }
+      },
+      "synopsis": {
+        "en": "Still shaken by Maomao's homecoming, Jinshi struggles until Gyokuyou explains the misunderstanding. A eunuch rushes in to report the death of Kounen, a high-ranking official who collapsed after a night of heavy drinking. Maomao deduces that his death was due to salt poisoning; the salt was probably slipped into his drink by someone at the party, as a prank or for spite. Maomao hints at the culprit's identity, but does not name them. Jinshi jokingly proposes outlawing underage drinking, horrifying the liquor-loving apothecary. The court doctor asks Maomao to perform an autopsy on a drowned servant woman but, as an apothecary, dissecting humans is taboo. She debates between suicide and murder; scaling the palace wall with bound feet would be impossible, and the woman's bloodied fingers suggest a struggle to escape the moat. The discovery of a will rules it suicide, linking her to the garden-party poisoning. Maomao muses about her preferred poison, further unnerving Jinshi. Fengming, Lady Ah-Duo's head attendant, reportedly has mysterious burns connected to the \"curse\" two months earlier.",
+        "zh": "在忙碌的工作之中，壬氏收到了一位武官的死讯。死因据说是在聚会上饮酒过量。但对这位武官非常了解的壬氏对此并不信服，于是向猫猫求证有关酒精致死的事宜。猫猫在了解了那位武官的饮食习惯和深酒的背后原因后，便从酒瓶中推断出了他真正的死因。面对人们的离世，猫猫陷入沉思，并表达出一个愿望：“我希望自己是被毒杀的。”那她真正的意图又是什么呢？"
+      },
+      "title_native": "自殺か他殺か",
+      "title_en": "Suicide or Murder?",
+      "title_cn": "自杀或他杀？",
+      "aired": "2023-12-03",
+      "heat": {
+        "mal_replies": 170,
+        "bangumi_comments": 134,
+        "imdb_votes": 1377
+      }
+    },
+    {
+      "n": 10,
+      "sources": {
+        "mal": {
+          "score": 4.45,
+          "forum_replies": 157,
+          "url": "https://myanimelist.net/anime/54492/Kusuriya_no_Hitorigoto/episode/10"
+        },
+        "imdb": {
+          "rating": 7.8,
+          "votes": 1339,
+          "tconst": "tt29609537",
+          "season": 1,
+          "episode": 10
+        },
+        "tmdb": {
+          "vote_average": 8.0,
+          "vote_count": 18,
+          "still": "https://image.tmdb.org/t/p/w500/brTsGje2MKuCHQuj8UVF1VjTSUv.jpg",
+          "season": 1,
+          "episode": 10
+        },
+        "bangumi": {
+          "comments": 124,
+          "url": "https://bgm.tv/ep/1244600"
+        }
+      },
+      "synopsis": {
+        "en": "Rumors spread through the rear palace about the drowned servant from the Garnet Pavilion accused of poisoning concubine Lishu's food, and gossip hints that concubine Ah-Duo may lose her position to a younger rival; she is connected to the former emperor. During a tea party with Gyokuyou and Lishu, Maomao notices bullying by Lishu's attendants (especially when Lishu hesitates to drink the honeyed tea). Maomao learns that Jinshi orchestrated the tea party for a hidden purpose, and sends her to assist Ah-Duo without explanation. She deduces that Fengming, Ah-Duo's head attendant, may be using colored message plates to communicate secretly. When Jinshi teases Maomao with honey, it triggers a realization linking Lishu's allergy, the servant's drowning, and the Garnet Pavilion tensions. Gyokuyou intervenes before the situation worsens. Maomao senses Lishu's fear at the mention of Fengming, who seems gentle and dutiful. Despite resistance from Lishu's attendants, Maomao uses Jinshi's authority to continue her inquiry. With Gaoshun's help, she uncovers records that Ah-Duo bore the emperor's deceased son who was delivered by a doctor later expelled from the palace: Maomao's father.",
+        "zh": "壬氏不明白溺水女子为何要毒害里树娘娘，这位美丽而慈善的皇后。他让猫猫前往柘榴宫，那里曾是溺水女子的工作之地。猫猫是壬氏的得力助手，也是一位聪明的侦探。她接受了任务，决心查出真相。"
+      },
+      "title_native": "蜂蜜",
+      "title_en": "Honey",
+      "title_cn": "蜂蜜",
+      "aired": "2023-12-10",
+      "heat": {
+        "mal_replies": 157,
+        "bangumi_comments": 124,
+        "imdb_votes": 1339
+      }
+    },
+    {
+      "n": 11,
+      "sources": {
+        "mal": {
+          "score": 4.58,
+          "forum_replies": 190,
+          "url": "https://myanimelist.net/anime/54492/Kusuriya_no_Hitorigoto/episode/11"
+        },
+        "imdb": {
+          "rating": 8.7,
+          "votes": 1523,
+          "tconst": "tt29609540",
+          "season": 1,
+          "episode": 11
+        },
+        "tmdb": {
+          "vote_average": 7.1,
+          "vote_count": 22,
+          "still": "https://image.tmdb.org/t/p/w500/9K1ZNqTYK8ty1Olj2jGJAZ3l4y3.jpg",
+          "season": 1,
+          "episode": 11
+        },
+        "bangumi": {
+          "comments": 178,
+          "url": "https://bgm.tv/ep/1244601"
+        }
+      },
+      "synopsis": {
+        "en": "Maomao confronts Fengming about the tragedies surrounding Ah-Duo's child and the empress dowager's baby. She learns that Ah-Duo underwent a hysterectomy after the birth because the attending physician, Maomao's father, was called away to assist a higher-ranking royal. Fengming unintentionally killed Ah-Duo's son by feeding him honey, but both incidents led to the doctor's expulsion. Fengming learned the truth when Lishu, who had nearly died from honey as an infant, confided in her. Consumed by guilt and fearing Ah-Duo's discovery, Fengming schemed to drive Lishu away and tried to poison her during the garden party. Her devotion to Ah-Duo became desperate acts of protection. Maomao helps her reconcile these motives, keeping the truth hidden to preserve Ah-Duo's dignity. The emperor orders Ah-Duo's retirement, and Fengming is executed. Maomao deduces that the mid-ranking concubine died by suicide, and encounters Ah-Duo atop the wall; Ah-Duo's cryptic words hint at her son's identity. When Maomao climbs down the wall, she is startled and falls on Jinshi when he asks her what she is doing. Jinshi cries on Maomao's shoulder due to Ah-Duo's upcoming departure and his secrets. The next day, Ah-Duo leaves for the southern palace. Watching her farewell with Lishu, Maomao realizes that the babies may have been switched at birth (explaining her father's banishment and Jinshi's turmoil).",
+        "zh": "猫猫通过后宫的书籍，知道了养父罗门，阿多妃和她儿子身上发生的过去的事件。于是，他去找阿多妃的侍女头风明，想要找出皇子的死因，但为敬爱的阿多妃奉献一生的风明，却有一个重大的秘密。猫猫明白了她的想法，心生一计。"
+      },
+      "title_native": "二つを一つに",
+      "title_en": "Reducing Two to One",
+      "title_cn": "减二为一",
+      "aired": "2023-12-17",
+      "heat": {
+        "mal_replies": 190,
+        "bangumi_comments": 178,
+        "imdb_votes": 1523
+      }
+    },
+    {
+      "n": 12,
+      "sources": {
+        "mal": {
+          "score": 4.5,
+          "forum_replies": 194,
+          "url": "https://myanimelist.net/anime/54492/Kusuriya_no_Hitorigoto/episode/12"
+        },
+        "imdb": {
+          "rating": 8.0,
+          "votes": 1356,
+          "tconst": "tt29609541",
+          "season": 1,
+          "episode": 12
+        },
+        "tmdb": {
+          "vote_average": 6.8,
+          "vote_count": 22,
+          "still": "https://image.tmdb.org/t/p/w500/xa9CovqvQIgYENhpHdqun3JTn4A.jpg",
+          "season": 1,
+          "episode": 12
+        },
+        "bangumi": {
+          "comments": 194,
+          "url": "https://bgm.tv/ep/1244602"
+        }
+      },
+      "synopsis": {
+        "en": "After Fengming's execution, her assets are seized and her relatives and associates are punished. Maomao is dismissed in the purge, implicated through Fengming's family's human trafficking ring. Jinshi wonders whether to keep her employed, fearing that forcing her to stay in the palace (which he believes she dislikes) would drive her away. Maomao begs to remain, explaining that she owes the Verdigris madam a large debt and could be sold as a courtesan, but Jinshi refuses. A week later he regrets his decision, realizing that he could have retained her; Gyokuyou's guilt-imposing worsens his remorse. Maomao returns to the Verdigris brothel, working part-time as a courtesan. At a party hosted by a wealthy patron with the \"Three Princess\" sisters Meimei, Joka, and Pairin, she unexpectedly sees Jinshi. Their interaction attracts the sisters' attention, sparking envy and curiosity. Jinshi decides to buy her freedom, completing the purchase days later. Maomao (unaware of the behind-the-scenes scheming) is puzzled, and Gaoshun and Lihaku may have orchestrated the event to reunite them.",
+        "zh": "由于风明事件的处罚，不仅她的亲属受到了波及，甚至连与她有关系的人也未能幸免。这其中包括了当初把猫猫卖去做奴隶的那家商户。猫猫虽然希望能够留在后宫，但由于不善言辞，最终因此而被解雇。重返花街的猫猫回到老地方绿青馆工作。不过某晚，她作为白铃、女华、梅梅三人的随从，去拜访等待客人的屋敷时，却发现那里有一个熟悉的身影……"
+      },
+      "title_native": "宦官と妓女",
+      "title_en": "The Eunuch and the Courtesan",
+      "title_cn": "宦官与妓女",
+      "aired": "2023-12-24",
+      "heat": {
+        "mal_replies": 194,
+        "bangumi_comments": 194,
+        "imdb_votes": 1356
+      }
+    },
+    {
+      "n": 13,
+      "sources": {
+        "mal": {
+          "score": 4.45,
+          "forum_replies": 136,
+          "url": "https://myanimelist.net/anime/54492/Kusuriya_no_Hitorigoto/episode/13"
+        },
+        "imdb": {
+          "rating": 7.8,
+          "votes": 1309,
+          "tconst": "tt30192638",
+          "season": 1,
+          "episode": 13
+        },
+        "tmdb": {
+          "vote_average": 7.5,
+          "vote_count": 19,
+          "still": "https://image.tmdb.org/t/p/w500/wIIuz0ZkiKKdBSUyZfAIH25uPNF.jpg",
+          "season": 1,
+          "episode": 13
+        },
+        "bangumi": {
+          "comments": 122,
+          "url": "https://bgm.tv/ep/1253876"
+        }
+      },
+      "synopsis": {
+        "en": "Maomao returns to the palace to work in the outer palace; Gaoshun explains that they cannot restore her former position after she was laid off. Jinshi asks her to keep using her freckle make-up. Gaoshun introduces Maomao to Suiren (one of Jinshi's assistants), who shows her around Jinshi's residence; Gaoshun shows her the rest of the outer palace and the public and government offices. Jinshi intends her to become a court lady, but she fails the required exams (despite studying) and becomes Jinshi's personal assistant. Maomao must deal with the jealous court ladies. She longs to be an apothecary again, but her request for simpler quarters and a workplace with access to water and a stove is denied. When she wanders into the military wing for medicinal herbs and is scolded by a court lady with a scent of sandalwood mixed with another, bitter smell, someone mysterious is watching her.",
+        "zh": "虽然被后宫解雇，但猫猫被壬氏赎身，得以重返宫廷。在离开绿青馆直到那一刻，她仍受到白铃、女华、梅梅三人的喜爱。然而，这次猫猫是依自己的意愿来到宫廷。不过，她的新工作场所并不是熟悉的后宫，而是外廷壬氏的家。正当猫猫感到困惑时，壬氏却要求她参加成为官女的考试。"
+      },
+      "title_native": "外廷勤務",
+      "title_en": "Serving in the Outer Court",
+      "title_cn": "外廷勤务",
+      "aired": "2024-01-07",
+      "heat": {
+        "mal_replies": 136,
+        "bangumi_comments": 122,
+        "imdb_votes": 1309
+      }
+    },
+    {
+      "n": 14,
+      "sources": {
+        "mal": {
+          "score": 4.42,
+          "forum_replies": 112,
+          "url": "https://myanimelist.net/anime/54492/Kusuriya_no_Hitorigoto/episode/14"
+        },
+        "imdb": {
+          "rating": 7.6,
+          "votes": 1265,
+          "tconst": "tt30192639",
+          "season": 1,
+          "episode": 14
+        },
+        "tmdb": {
+          "vote_average": 7.5,
+          "vote_count": 19,
+          "still": "https://image.tmdb.org/t/p/w500/l3lUDpsjugdQFEn5X44CrLgisx.jpg",
+          "season": 1,
+          "episode": 14
+        },
+        "bangumi": {
+          "comments": 109,
+          "url": "https://bgm.tv/ep/1253877"
+        }
+      },
+      "synopsis": {
+        "en": "Maomao, at Gyokuyou's and Lihua's recommendation, is tasked by Jinshi with educating new Pure Consort Loulan on \"serving\" the emperor. The teaching sessions, attended by the high-ranking concubines, focus on materials from the Old Lady at the Verdigris. While Gyokuyou and Lihua handle the content well, Lishu (and Hongniang) are overwhelmed; Loulan remains nonchalant and snobbish. There is an explosion in a palace building that night, which Lakan investigates. Maomao, wandering near the scene of the incident the following day, investigates and suspects arson. She finds an ivory pipe, and concludes that a smoldering ember from it caused the explosion in the food warehouse when the floating wheat dust ignited. She tells Lihaku (who is investigating the incident) to tell people not to smoke in the food warehouses, but the expensive pipe raises suspicions about the perpetrator's identity.",
+        "zh": "新入后宫的楼兰妃，与上级嫔妃们一同参加王妃教育。由于官女考试落榜，成为壬氏房间侍女的猫猫，得到了玉叶妃和梨花妃的推荐，受托担任讲师。她从绿青馆取来教材，教授寝室中的秘术。那天晚上，猫猫在结束授课后休息时，听到外面传来异常的声音，激起了她的好奇心，但……"
+      },
+      "title_native": "新しい淑妃",
+      "title_en": "The New Pure Consort",
+      "title_cn": "新人淑妃",
+      "aired": "2024-01-14",
+      "heat": {
+        "mal_replies": 112,
+        "bangumi_comments": 109,
+        "imdb_votes": 1265
+      }
+    },
+    {
+      "n": 15,
+      "sources": {
+        "mal": {
+          "score": 4.41,
+          "forum_replies": 129,
+          "url": "https://myanimelist.net/anime/54492/Kusuriya_no_Hitorigoto/episode/15"
+        },
+        "imdb": {
+          "rating": 7.6,
+          "votes": 1253,
+          "tconst": "tt30192642",
+          "season": 1,
+          "episode": 15
+        },
+        "tmdb": {
+          "vote_average": 7.0,
+          "vote_count": 20,
+          "still": "https://image.tmdb.org/t/p/w500/ghhWjMzXRuJ8q4sUFydIzLI1QkH.jpg",
+          "season": 1,
+          "episode": 15
+        },
+        "bangumi": {
+          "comments": 94,
+          "url": "https://bgm.tv/ep/1253878"
+        }
+      },
+      "synopsis": {
+        "en": "Gaoshun enlists Maomao's help in investigating a case involving a bureaucrat who lapses into a coma after consuming raw fugu seasoned with vinegar, similar to an incident ten years earlier. Every detail except one checks out and Gaoshun refers him to a man named Basen, who shows her the kitchen where the food was prepared. Despite interference from the bureaucrat's younger brother, Maomao finds the detail that interested her: the seaweed in the dish, which was imported from the south. She concludes that it was not properly prepared to rid it of poison, causing the bureaucrat's coma. The seaweed's importer is the younger brother, seeking revenge for ill-treatment in their household. Jinshi says that Lakan complained to his office about his appointment of someone connected to the Verdigris as his servant. Lakan mentioned an acquaintance at the Verdigris \"who would sell her skills but never herself\", an attitude similar to Maomao's attitude towards Jinshi. He seeks Jinshi's help in a matter involving Maomao and her problem-solving skills.",
+        "zh": "因为仓库的小火灾而拾到的烟管引起了猫猫的兴趣。正巧此时，高顺向她咨询“有官员因吃河豚而昏迷”的事件，但料理中似乎没有使用河豚。猫猫为了查明真相，与冷淡的年轻武官马闪一同前往该官员的家。在厨房的架子上，有据说是那位官员的最爱——海藻。这种不合季节的食材，被猫猫偷偷拿回了家。"
+      },
+      "title_native": "鱠",
+      "title_en": "Raw Fish",
+      "title_cn": "鱼脍",
+      "aired": "2024-01-21",
+      "heat": {
+        "mal_replies": 129,
+        "bangumi_comments": 94,
+        "imdb_votes": 1253
+      }
+    },
+    {
+      "n": 16,
+      "sources": {
+        "mal": {
+          "score": 4.37,
+          "forum_replies": 118,
+          "url": "https://myanimelist.net/anime/54492/Kusuriya_no_Hitorigoto/episode/16"
+        },
+        "imdb": {
+          "rating": 7.6,
+          "votes": 1233,
+          "tconst": "tt30192643",
+          "season": 1,
+          "episode": 16
+        },
+        "tmdb": {
+          "vote_average": 7.3,
+          "vote_count": 20,
+          "still": "https://image.tmdb.org/t/p/w500/hpzqYrNAhG9sLiAp1pm0oSWDGxf.jpg",
+          "season": 1,
+          "episode": 16
+        },
+        "bangumi": {
+          "comments": 89,
+          "url": "https://bgm.tv/ep/1253879"
+        }
+      },
+      "synopsis": {
+        "en": "Jinshi assigns Maomao to investigate the will of a metalworker known to Lakan who died under mysterious circumstances. The will divides his belongings among his three sons; the eldest inherits the workshop, the second a locked chest with an inaccessible central drawer, and the youngest a glass fishbowl and a note urging them to \"continue their tea parties as usual\". Maomao and Basen examine the shack and chest, and find solder blocking the keyhole of the middle drawer. Using sunlight refracted through the fishbowl, Maomao melts the solder, allowing the second son's key to open it. Inside is another key that unlocks all drawers, revealing tools, trinkets, and a bluish crystal. Initially angered by what seems a prank, the brothers reconcile after the youngest cites their father's wish for unity. They continue their father's business together: the youngest as master craftsman, the eldest managing the accounts, and the second securing clients. Maomao identifies the crystal as the probable cause of the father's death, suspecting solder poisoning, and urges the youngest to consult her father. That evening, Jinshi unexpectedly asks Maomao to put makeup on him.",
+        "zh": "“大家不如像以前一样举行茶会吧”——这是宫廷御用的镶金师，在没有将秘传技艺传授给儿子们就去世后留下的神秘遗言。壬氏请求猫猫调查这一事件，于是她拜访了镶金师的家。猫猫注意到小屋、打不开的柜子、玻璃制的金鱼缸以及留给三兄弟的三件遗物，并发现了小屋奇特布局的谜团。按照他的遗言，猫猫与兄弟们一起举行了一场“茶会”。"
+      },
+      "title_native": "鉛",
+      "title_en": "Lead",
+      "title_cn": "铅",
+      "aired": "2024-01-28",
+      "heat": {
+        "mal_replies": 118,
+        "bangumi_comments": 89,
+        "imdb_votes": 1233
+      }
+    },
+    {
+      "n": 17,
+      "sources": {
+        "mal": {
+          "score": 4.51,
+          "forum_replies": 129,
+          "url": "https://myanimelist.net/anime/54492/Kusuriya_no_Hitorigoto/episode/17"
+        },
+        "imdb": {
+          "rating": 7.9,
+          "votes": 1246,
+          "tconst": "tt30192646",
+          "season": 1,
+          "episode": 17
+        },
+        "tmdb": {
+          "vote_average": 7.8,
+          "vote_count": 19,
+          "still": "https://image.tmdb.org/t/p/w500/wahEWKAq9HFzMLVxBCexHFWLlWd.jpg",
+          "season": 1,
+          "episode": 17
+        },
+        "bangumi": {
+          "comments": 121,
+          "url": "https://bgm.tv/ep/1253880"
+        }
+      },
+      "synopsis": {
+        "en": "Jinshi asks Maomao's help in making him appear less attractive for an incognito stroll through town. Maomao alters his appearance, scent, and voice, dulling his hair and clothing to mask his muscular physique and identity; he is too beautiful to hide his identity with a simple disguise. During their walk, with Basen providing security from a distance, Jinshi (calling himself \"Jinka\") observes Maomao's silence; they then talk about her adoptive father, Luomen. Maomao says that Luomen studied abroad (suggesting privilege), and was made a eunuch by the previous empress dowager. Jinshi, asking if she knows the regulars at the Verdigris, asks how a courtesan's value decreases. Maomao, bound by confidentiality, hints at the brothel's workings and discloses two ways courtesans lose their value: losing purity halves their worth, and pregnancy reduces it to nothing. Jinshi is shocked.",
+        "zh": "拥有令人倾国倾城美貌的壬氏，请求猫猫通过化妆将他变成另一个人。猫猫给他涂上让他看起来像晒黑了一样的粉底，绑上绷带让他的身形显得不太协调，再穿上平民的衣服，壬氏便彻底变身为另一个人。完成了一项工作后，猫猫打算利用难得的休假回家乡，但被水莲和高顺拦下，自己也不得不乔装打扮，最终与壬氏一起走在街上。"
+      },
+      "title_native": "街歩き",
+      "title_en": "A Jaunt Around Town",
+      "title_cn": "游览街市",
+      "aired": "2024-02-04",
+      "heat": {
+        "mal_replies": 129,
+        "bangumi_comments": 121,
+        "imdb_votes": 1246
+      }
+    },
+    {
+      "n": 18,
+      "sources": {
+        "mal": {
+          "score": 4.59,
+          "forum_replies": 159,
+          "url": "https://myanimelist.net/anime/54492/Kusuriya_no_Hitorigoto/episode/18"
+        },
+        "imdb": {
+          "rating": 8.2,
+          "votes": 1308,
+          "tconst": "tt30192651",
+          "season": 1,
+          "episode": 18
+        },
+        "tmdb": {
+          "vote_average": 7.8,
+          "vote_count": 18,
+          "still": "https://image.tmdb.org/t/p/w500/3nVPYisofFOJuLJHf4zx3RvMdMf.jpg",
+          "season": 1,
+          "episode": 18
+        },
+        "bangumi": {
+          "comments": 101,
+          "url": "https://bgm.tv/ep/1253881"
+        }
+      },
+      "synopsis": {
+        "en": "Maomao refuses to accompany Jinshi to his destination because she is well-dressed and does not want to blow his cover, and heads home for a few days off. Back home, she awakens from a nightmare which is a memory from infancy. Her adoptive father, Luomen, sends her on an errand to the Verdigris to tend to a woman at its annex. The woman is Maomao's mother, who has syphilis, and Luomen's medicines are the only treatment; the Verdigris was shamed in the past because of this. Luomen appeared out of nowhere when the disease had not caused symptoms, but it worsened because the brothel hesitated to let him treat her. Longtime customer Lakan visits, and Maomao is told to hide in the room while Meimei distracts him. At the palace, Suiren tells Maomao that dinner will be vegetarian and to fetch a bag of potato flour from the inner-palace pharmacy. There she encounters Suirei, the court lady who caught her wandering around the military wing. Maomao wonders why Jinshi is performing purification rituals (part of it is the vegetarian dinner) every time he is assigned to work for long periods and \"being a eunuch\". Lakan expresses interest in Maomao to Jinshi, causing tension because Lakan is out to get her and gives Jinshi a veiled threat. Jinshi tells Maomao that an official named Lakan will meet her sometime soon, but takes it back when Maomao glares at him. Maomao wanders around the military wing again, gathering medicinal herbs, when Suirei catches her. Suirei says that she planted the medicinal plants for a resurrection medicine, which Maomao desires.",
+        "zh": "与壬某在街上分别回家的猫猫，在罗门的委托下，将药送到了绿青馆的远离处。那里有个卧病不起的妓女，猫猫一边喂它吃药，一边回忆着昔日的绿青馆和当年的妓女们，陷入沉思。另一方面，回到后宫的壬氏，每次有事都会和壬氏缠在一起，和对猫猫感兴趣的军师罗汉说话，就会注意到和猫猫的关系。"
+      },
+      "title_native": "羅漢",
+      "title_en": "Lakan",
+      "title_cn": "罗汉",
+      "aired": "2024-02-11",
+      "heat": {
+        "mal_replies": 159,
+        "bangumi_comments": 101,
+        "imdb_votes": 1308
+      }
+    },
+    {
+      "n": 19,
+      "sources": {
+        "mal": {
+          "score": 4.76,
+          "forum_replies": 305,
+          "url": "https://myanimelist.net/anime/54492/Kusuriya_no_Hitorigoto/episode/19"
+        },
+        "imdb": {
+          "rating": 9.2,
+          "votes": 2086,
+          "tconst": "tt30192654",
+          "season": 1,
+          "episode": 19
+        },
+        "tmdb": {
+          "vote_average": 8.2,
+          "vote_count": 21,
+          "still": "https://image.tmdb.org/t/p/w500/5Y1BHMhhCHwWwxAqNoQYGyZvMWk.jpg",
+          "season": 1,
+          "episode": 19
+        },
+        "bangumi": {
+          "comments": 308,
+          "url": "https://bgm.tv/ep/1253882"
+        }
+      },
+      "synopsis": {
+        "en": "Gaoshun tells Jinshi of the afternoon's activities. Lihaku tells Maomao about a tool theft around the time of the warehouse explosion. She learns that the warehouse manager has been poisoned and Master Kounen, who died of salt poisoning, was his predecessor. Maomao senses a connection to the ivory pipe she found at the warehouse. Lihaku says that a court lady, tall with a medicinal odor, gave the pipe to the guard. Maomao remembers her father's advice not to jump to conclusions and shares her findings with Jinshi, who gives her an ox bezoar from the pharmacy. She learns that the poisoning victim is from the Board of Rites, linking it and the ivory pipe to the tool theft. Connecting the tools to Jinshi's purification ceremonies, she rushes to the Altar of the Sapphire Sky for the ceremony. Maomao accuses a guard of being part of the conspiracy before he hits her with a club. Lakan vouches for her: she rushes inside and pushes Jinshi away from a heavy ornament which would have killed him. Wondering what he is doing there, Maomao passes out and Jinshi carries her to his house.",
+        "zh": "壬氏知道军师罗汉是猫猫的父亲而烦恼。另一方面，猫猫从李白那里听说，趁着前几天的骚乱，祭品被偷了。除了死于酒的浩然以外，对祭品管理者的死亡、倒在海藻毒中的官僚等一连串的事件感到不能说是偶然的奇妙联系的猫，与壬氏商量，开始重新调查事件。"
+      },
+      "title_native": "偶然か必然か",
+      "title_en": "Chance or Something More",
+      "title_cn": "偶然或必然",
+      "aired": "2024-02-18",
+      "heat": {
+        "mal_replies": 305,
+        "bangumi_comments": 308,
+        "imdb_votes": 2086
+      }
+    },
+    {
+      "n": 20,
+      "sources": {
+        "mal": {
+          "score": 4.53,
+          "forum_replies": 137,
+          "url": "https://myanimelist.net/anime/54492/Kusuriya_no_Hitorigoto/episode/20"
+        },
+        "imdb": {
+          "rating": 8.2,
+          "votes": 1255,
+          "tconst": "tt30192657",
+          "season": 1,
+          "episode": 20
+        },
+        "tmdb": {
+          "vote_average": 7.9,
+          "vote_count": 18,
+          "still": "https://image.tmdb.org/t/p/w500/kFOrOTXNY7jhLRpe9PzX7bdPtxA.jpg",
+          "season": 1,
+          "episode": 20
+        },
+        "bangumi": {
+          "comments": 127,
+          "url": "https://bgm.tv/ep/1253883"
+        }
+      },
+      "synopsis": {
+        "en": "Maomao awakens in Jinshi's room, tended by Suiren. She asks her to explain to Basen, Jinshi, and Gaoshun the events linked to the assassination attempt on Jinshi. A ceremonial tool made with a slow-melting lead alloy is tied to the warehouse fire, Kounen's death, the warehouse manager's food poisoning, and the theft of the original ceremonial tools. Maomao learns from Lihaku about Suirei's supposed death by poison, but suspects it was faked with thornapple and pufferfish toxin. Another body is found in Suirei's coffin, confirming that Suirei faked her death. Maomao, impressed and annoyed, wants to learn Suirei's \"resurrection drug\" recipe. Jinshi, burdened by political tensions and his complicated feelings about Maomao (and her father, Lakan), continues to suppress his age and identity as a man to remain in the palace. Gyokuyou asks Maomao for help with her missed periods, probably due to a new pregnancy. Rumors spread that one of the Three Princesses of the Verdigris has been bought out.",
+        "zh": "猫猫说明举行祭祀仪式之前，各个活动之间的关联。稍后，她听闻关于翠苓的事，被点燃了好奇心。"
+      },
+      "title_native": "曼荼羅華",
+      "title_en": "Thornapple",
+      "title_cn": "曼陀罗花",
+      "aired": "2024-02-25",
+      "heat": {
+        "mal_replies": 137,
+        "bangumi_comments": 127,
+        "imdb_votes": 1255
+      }
+    },
+    {
+      "n": 21,
+      "sources": {
+        "mal": {
+          "score": 4.47,
+          "forum_replies": 129,
+          "url": "https://myanimelist.net/anime/54492/Kusuriya_no_Hitorigoto/episode/21"
+        },
+        "imdb": {
+          "rating": 7.8,
+          "votes": 1230,
+          "tconst": "tt30192658",
+          "season": 1,
+          "episode": 21
+        },
+        "tmdb": {
+          "vote_average": 7.7,
+          "vote_count": 18,
+          "still": "https://image.tmdb.org/t/p/w500/u1C8TsL5XhXNdZOJrat2q7coqvX.jpg",
+          "season": 1,
+          "episode": 21
+        },
+        "bangumi": {
+          "comments": 106,
+          "url": "https://bgm.tv/ep/1253884"
+        }
+      },
+      "synopsis": {
+        "en": "Maomao takes charge of cleaning the rear-palace pharmacy to ensure that it will not be sabotaged after the doctor in charge of the inner-court pharmacy received a pay cut for mismanaging it. The rear-palace doctor says that his family supplies paper to the palace, but since the empress dowager banned logging they can only produce poor-quality paper. The doctor became a eunuch to keep his sister out of the rear palace. Maomao helps him improve the paper quality, which involves the water trough used by oxen for papermaking. Lihaku seeks Maomao's advice about buying out a courtesan: Pairin, Maomao's wet nurse as a baby. Maomao evaluates Lihaku's physique, which causes a misunderstanding with Jinshi when he comes in unexpectedly. Jinshi offers double the price to help him, but Lihaku declines; he disapproves of buying out Pairin's contract with someone else's money, opting for a more-traditional pursuit of her love. Pairin writes to Maomao that she is waiting for her Prince Charming, and Lakan's asking about buying someone out sparked the recent rumors (annoying Maomao).",
+        "zh": "可能是因为玉叶妃再次怀孕，猫猫被安排在翡翠宫试毒。在从医局遇见庸医回来的路上，猫猫被李白叫住。他向猫猫咨询关于赎身绿青馆白铃的事。得知三姬中的某人将被赎身的传闻，使得钟情于白铃的李白心神不宁，忧心忡忡。这时，猫猫突然对他说，让他把衣服脱光。"
+      },
+      "title_native": "身請け作戦",
+      "title_en": "How to Buy Out a Contract",
+      "title_cn": "赎身计",
+      "aired": "2024-03-03",
+      "heat": {
+        "mal_replies": 129,
+        "bangumi_comments": 106,
+        "imdb_votes": 1230
+      }
+    },
+    {
+      "n": 22,
+      "sources": {
+        "mal": {
+          "score": 4.52,
+          "forum_replies": 121,
+          "url": "https://myanimelist.net/anime/54492/Kusuriya_no_Hitorigoto/episode/22"
+        },
+        "imdb": {
+          "rating": 7.9,
+          "votes": 1234,
+          "tconst": "tt30192660",
+          "season": 1,
+          "episode": 22
+        },
+        "tmdb": {
+          "vote_average": 7.8,
+          "vote_count": 16,
+          "still": "https://image.tmdb.org/t/p/w500/2g0c1GFAnj6MJkOpnRgcfh5emAP.jpg",
+          "season": 1,
+          "episode": 22
+        },
+        "bangumi": {
+          "comments": 86,
+          "url": "https://bgm.tv/ep/1253885"
+        }
+      },
+      "synopsis": {
+        "en": "As Maomao works for the pregnant Gyokuyou and tends to her daughter, Princess Lingli, Lakan wants Jinshi to produce blue roses by the following spring's party. Jinshi asks Maomao for help. Using Lady Lihua's sauna as a greenhouse, she attempts to accelerate the flowering of 100 rosebushes. Tending to the roses includes all-nighters, but she produces them in time for the party to introduce Consort Loulan. Jinshi sees the roses as a chance to stand his ground in front of the emperor, surrounded by tricky, envious rivals, including Lakan and now Shishou, Loulan's father. Maomao tells Jinshi the secret to the multicolored roses (she also produced roses other than blue): letting the blooms suck dyed water. But she is not done yet, as she is up to catching Lakan off-guard. Lakan sees people as Go and Chinese-chess pieces, with most of them pawns. He remembers the red, manicured nails of the courtesan with whom he used to play Go, and is surprised to see Maomao (fingernails painted) with Jinshi and Gaoshun.",
+        "zh": "玉叶妃的怀孕得到了确认，猫猫在翡翠宫过着平静的日子。有一天，壬氏向猫猫咨询下一个园游会需要蓝玫瑰的事。猫猫察觉到这是罗汉策划的难题，不甘心认输，决定挑战让蓝玫瑰开花。随着园游会的临近，猫猫苦战不已，但由于时节不对，玫瑰连花蕾都未能绽放。"
+      },
+      "title_native": "青い薔薇",
+      "title_en": "Blue Roses",
+      "title_cn": "蓝玫瑰",
+      "aired": "2024-03-10",
+      "heat": {
+        "mal_replies": 121,
+        "bangumi_comments": 86,
+        "imdb_votes": 1234
+      }
+    },
+    {
+      "n": 23,
+      "sources": {
+        "mal": {
+          "score": 4.69,
+          "forum_replies": 243,
+          "url": "https://myanimelist.net/anime/54492/Kusuriya_no_Hitorigoto/episode/23"
+        },
+        "imdb": {
+          "rating": 9.0,
+          "votes": 1541,
+          "tconst": "tt30192663",
+          "season": 1,
+          "episode": 23
+        },
+        "tmdb": {
+          "vote_average": 8.0,
+          "vote_count": 17,
+          "still": "https://image.tmdb.org/t/p/w500/gPYAVIMNiBLLfNlF1VVVi9SiECT.jpg",
+          "season": 1,
+          "episode": 23
+        },
+        "bangumi": {
+          "comments": 221,
+          "url": "https://bgm.tv/ep/1253886"
+        }
+      },
+      "synopsis": {
+        "en": "Maomao challenges Lakan to a game of Chinese chess; she will live with him if he wins, and he will buy an aging courtesan from the Verdigris if he loses. The loser will drink one of three cups of hard liquor spiked with a drug that turns to poison after three sips. Maomao loses twice in a row but then wins. Lakan, who abstains from alcohol, collapses after drinking the cup. He awakens in the Verdigris attended by Meimei, Fengxian's former attendant, with something bitter Maomao made for him. Lakan remembers a carefree life until his uncle taught him to see people as chess and Go pieces. He met Fengxian, a Verdigris courtesan who was a skilled Go player. They bonded, and she gave herself to him before he was unexpectedly sent abroad to study. During his three-year absence, she wrote him about her planned buyout by another man being canceled (ruining her value). When he returns, he finds two severed, mummified fingers: hers and a baby's and realizes that she had been pregnant by him. Fengxian is gone, thinking he abandoned her.",
+        "zh": "完成了蓝色玫瑰的猫猫终于要和亲生父亲罗汉对峙了。罗汉是一位军师，也擅长象棋，猫猫向他提出了一个有条件的象棋比赛。那个条件就是，如果猫猫赢了，罗汉就要买下绿青馆的妓女。在壬氏和高顺紧张地看着比赛的过程中，罗汉一直在赢，但是，猫猫准备了“毒”的酒的策略是……"
+      },
+      "title_native": "鳳仙花と片喰",
+      "title_en": "Balsam and Woodsorrel",
+      "title_cn": "凤仙花与酢浆草",
+      "aired": "2024-03-17",
+      "heat": {
+        "mal_replies": 243,
+        "bangumi_comments": 221,
+        "imdb_votes": 1541
+      }
+    },
+    {
+      "n": 24,
+      "sources": {
+        "mal": {
+          "score": 4.62,
+          "forum_replies": 379,
+          "url": "https://myanimelist.net/anime/54492/Kusuriya_no_Hitorigoto/episode/24"
+        },
+        "imdb": {
+          "rating": 9.0,
+          "votes": 1627,
+          "tconst": "tt30192667",
+          "season": 1,
+          "episode": 24
+        },
+        "tmdb": {
+          "vote_average": 8.1,
+          "vote_count": 17,
+          "still": "https://image.tmdb.org/t/p/w500/7eVCn6wFG1RFqxj0IMpaJFtelKr.jpg",
+          "season": 1,
+          "episode": 24
+        },
+        "bangumi": {
+          "comments": 172,
+          "url": "https://bgm.tv/ep/1253887"
+        }
+      },
+      "synopsis": {
+        "en": "Lakan, bitter about Jinshi's closeness to Maomao and longing for her affection, is summoned by the Old Lady of the Verdigris to choose a courtesan. He initially considers Meimei before hearing a lullaby. Lakan rushes to where Fengxian is, and chooses her despite the cost. Maomao returns from dropping off a hung over Lakan and sees Loulan and her father. She explains that she helped Lakan out of gratitude; Fengxian had chosen not to abort her. Maomao speculates that Lakan may have been manipulated by Fengxian and, when that failed, she sent the severed fingers as a curse. Although she dislikes him, she acknowledges his intelligence and warns Jinshi to not antagonize him. Maomao receives a dress from Meimei for her upcoming wedding. She tries it on atop the rear-palace wall, where Jinshi (alerted by a guard) finds her. She nearly falls off the wall, but he catches her. They share a rare intimate moment, ending with Maomao asking for the ox bezoar he owes her. Days later, Jinshi visits the Jade Pavilion with a new case for her.",
+        "zh": "罗汉输给了猫儿，为绿馆的妓女赎身。当罗汉想要牵起梅梅的手时，从她打开的门里传来了歌声……另一方面，被叫到壬氏家的猫猫讲述了罗汉的烦恼和对猫猫执着的理由，以及对父亲复杂的感情。几天后的夜晚，城墙上出现了一只美丽飞舞的猫儿。"
+      },
+      "title_native": "壬氏と猫猫",
+      "title_en": "Jinshi and Maomao",
+      "title_cn": "壬氏与猫猫",
+      "aired": "2024-03-24",
+      "heat": {
+        "mal_replies": 379,
+        "bangumi_comments": 172,
+        "imdb_votes": 1627
+      }
+    }
+  ],
+  "route": []
+}

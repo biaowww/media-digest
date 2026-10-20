@@ -1,6 +1,21 @@
 {
   "shows": [
     {
+      "slug": "apothecary-diaries-2023",
+      "title": "The Apothecary Diaries",
+      "title_cn": "药屋少女的呢喃",
+      "year": 2023,
+      "total_eps": 24,
+      "unit": "集",
+      "updated": "2026-10-20",
+      "series": null,
+      "series_title": null,
+      "version_label": null,
+      "cover": "https://cdn.myanimelist.net/images/anime/1708/138033.jpg",
+      "watch_eps": 0,
+      "bridges": 0
+    },
+    {
       "slug": "berserk-1997",
       "title": "Berserk",
       "title_cn": "剑风传奇（1997 TV版）",
