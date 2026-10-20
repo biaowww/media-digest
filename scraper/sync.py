@@ -223,7 +223,7 @@ def sync_one(slug: str, dry_run: bool = False) -> bool:
         changed.append("route")
     if not changed:
         print(f"[{slug}] nothing to sync (no route.json / intro.json in {src})")
-        return False
+        return True  # meta-only 骨架（intake 新条目）是正常状态，不算失败
 
     errors, warnings = validate.check(show)
     for w in warnings:
