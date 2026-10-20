@@ -74,21 +74,6 @@
       "cover": "https://cdn.myanimelist.net/images/anime/10/18793.jpg",
       "watch_eps": 28,
       "bridges": 15
-    },
-    {
-      "slug": "test-intake-2099",
-      "title": "Intake Test",
-      "title_cn": "队列测试",
-      "year": 2099,
-      "total_eps": 3,
-      "unit": "章",
-      "updated": "2026-10-20",
-      "series": null,
-      "series_title": null,
-      "version_label": null,
-      "cover": null,
-      "watch_eps": 0,
-      "bridges": 0
     }
   ]
 }
