@@ -53,6 +53,9 @@ def pull(log=print) -> None:
                             added.append(k)
                     if added:
                         route_path.write_text(json.dumps(cur, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+                if isinstance(item.get("notes"), list) and not (d / "episodes.json").exists():
+                    (d / "episodes.json").write_text(json.dumps(item["notes"], ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+                    added.append("notes")
                 _req("/ack", key, {"slug": slug})
                 log(f"intake: {slug} 已存在，并入 {('/'.join(added)) or '无新内容'}，出队")
                 continue
@@ -63,6 +66,8 @@ def pull(log=print) -> None:
                 out["route"] = item["route"]
             d.mkdir(parents=True, exist_ok=True)
             (d / "route.json").write_text(json.dumps(out, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+            if isinstance(item.get("notes"), list):
+                (d / "episodes.json").write_text(json.dumps(item["notes"], ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
             _req("/ack", key, {"slug": slug})
             log(f"intake: {slug} 已写入 Drive route.json")
         except Exception as e:

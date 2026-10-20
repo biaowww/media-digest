@@ -169,6 +169,10 @@ def sanitize_intake(d: dict) -> dict:
         out["intro"] = d["intro"]
     if isinstance(d.get("route"), list):
         out["route"] = d["route"]
+    if isinstance(d.get("notes"), list):  # 分集手册 → episodes.json
+        notes = [x for x in d["notes"] if isinstance(x, dict) and (x.get("n") or x.get("episode"))]
+        if notes:
+            out["notes"] = notes
     return out
 
 

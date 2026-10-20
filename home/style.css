@@ -154,8 +154,9 @@ button.link { background: none; border: 0; color: var(--muted); font: inherit; f
 .list a { display: grid; grid-template-columns: 56px 1fr; gap: 12px; align-items: center; text-decoration: none; }
 .list img { width: 56px; aspect-ratio: 2/3; object-fit: cover; border-radius: 6px; background: var(--none); }
 /* 列表卡进度条 */
-.lp { position: relative; height: 16px; background: var(--none); border-radius: 8px; margin-top: 6px; overflow: hidden; font-size: 11px; color: var(--muted); opacity: .55; }
-.lp i { display: block; height: 100%; background: var(--accent); border-radius: 8px; }
-.lp span { position: absolute; inset: 0; display: flex; align-items: center; padding: 0 8px; color: var(--ink); }
-.lp.done { background: none; height: auto; margin-top: 4px; opacity: 1; color: var(--done); font-weight: 600; font-size: 12px; }
+.lp { display: flex; align-items: center; gap: 8px; margin-top: 6px; }
+.lp .tr { flex: 1; height: 5px; background: var(--line); border-radius: 3px; overflow: hidden; }
+.lp .tr i { display: block; height: 100%; background: var(--accent); border-radius: 3px; }
+.lp span { font-size: 11px; color: var(--muted); white-space: nowrap; }
+.lp.done { margin-top: 4px; color: var(--done); font-weight: 600; font-size: 12px; }
 footer { margin-top: 30px; font-size: 12px; color: var(--muted); text-align: center; }

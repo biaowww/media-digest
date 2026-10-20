@@ -172,7 +172,7 @@
         const progEl = (tSum > 0 && wSum === tSum)
           ? h('div', { class: 'lp done' }, '已看完 ✓')
           : wSum > 0
-            ? h('div', { class: 'lp' }, h('i', { style: `width:${Math.round(100 * wSum / tSum)}%` }), h('span', {}, `已看 ${wSum}/${tSum}`))
+            ? h('div', { class: 'lp' }, h('div', { class: 'tr' }, h('i', { style: `width:${Math.round(100 * wSum / tSum)}%` })), h('span', {}, `已看 ${wSum}/${tSum}`))
             : null;
         return h('a', { class: 'card', href: '?show=' + encodeURIComponent(s.slug) },
           h('img', { src: s.cover || '', alt: '' }),

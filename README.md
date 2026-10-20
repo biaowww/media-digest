@@ -73,7 +73,7 @@ run_build.bat                  # 同上，双击即可（留窗显示结果）�
 <Drive根 biaoOS>/domains/personal/media-digest/shows/<slug>/{route.json, intro.json?, cover.jpg?}
 ```
 
-**新条目也可以走 LibreChat 智能体「media-digest」（chat.biaotools.site）**：对话里给它剧名，它查齐 MAL/Bangumi/IMDb/TMDB/Wiki 的 ID 后调 `POST /api/intake`（`X-Intake-Key` 鉴权，存服务器 `/etc/media-digest-api/intake-key`）投进队列；构建机每次 build 开头跑 `scraper/intake.py`，把队列条目写成 Drive `route.json`（已有骨架则只并入缺失的 intro/route，绝不覆盖），之后走正常 fetch/sync/push 回路。队列只是信箱，Drive 仍是唯一真相。
+**新条目走 LibreChat 智能体「media-digest」（chat.biaotools.site）**：阶段一登记——对话里给剧名，它查齐 MAL/Bangumi/IMDb/TMDB/Wiki 的 ID，调 `POST /api/intake` 投进队列；构建机每次 build 开头跑 `scraper/intake.py`，把队列条目写成 Drive `route.json`（已有骨架则只并入缺失块，绝不覆盖），走正常 fetch/sync/push 回路。阶段二补内容——数据上线后让它「继续写路线」，它读构建产物里的分集评分/简介，生成 intro + route + notes（分集手册）再次提交并入。**AI 起草、人工兜底**：内容随时可以在 Drive 上人工改，sync 以 Drive 为准。队列只是信箱，Drive 仍是唯一真相。
 
 `sync.py` 会把 chat 会话的键名归一到 schema（`spoiler_free_summary→synopsis`、`character_motivations→characters`、`eps:[4]→[4,4]`），内容不改。
 
