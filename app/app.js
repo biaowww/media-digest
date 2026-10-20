@@ -153,7 +153,9 @@
     const { shows } = await r.json();
     const groups = groupShows(shows);
     $app.replaceChildren(
-      h('h1', {}, '追剧路线', h('small', { class: 'muted', style: 'font-size:13px;font-weight:400;margin-left:8px' }, 'media-digest')),
+      h('div', { class: 'list-hd' },
+        h('h1', {}, h('a', { href: '../', style: 'color:inherit;text-decoration:none', title: '回首页' }, '追剧路线'), h('small', { class: 'muted', style: 'font-size:13px;font-weight:400;margin-left:8px' }, 'media-digest')),
+        syncButton()),
       h('p', { class: 'muted small' }, '把几十集的长剧压成一条路线：必看的集全速看，跳过的集读摘要，进度记在手机里。'),
       h('div', { class: 'list' }, groups.map(g => {
         const s = g.items[0], multi = g.items.length > 1;
@@ -165,7 +167,7 @@
               : h('div', { class: 'muted small' }, [s.title_cn ? s.title : null, s.year, s.total_eps + ' ' + (s.unit || '集')].filter(Boolean).join(' · ')),
             h('div', { class: 'muted small' }, multi ? `${g.items.length} 个版本，页内 tab 切换` : (s.watch_eps ? `路线：看 ${s.watch_eps} ${s.unit || '集'} + ${s.bridges} 段桥接` : '路线尚未编写'))));
       })),
-      h('footer', {}, 'media-digest · ', syncButton()),
+      h('footer', {}, 'media-digest · 评分各源并列，不合并'),
     );
   }
 
