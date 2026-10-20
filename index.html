@@ -1,1 +1,120 @@
-<!doctype html><meta charset="utf-8"><meta http-equiv="refresh" content="0; url=app/"><title>media-digest</title><a href="app/">压缩观看路线 →</a>
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>media-digest · 追剧路线 — 长剧集压缩观看</title>
+<meta name="description" content="74 集的剧不必花 30 小时。评分曲线挑出真正的好集，路线只留骨架，跳过的剧情用文字桥接补上。">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@500;700;900&display=swap" rel="stylesheet">
+<style>
+  :root { --pink:#ff6b9d; --orange:#ff9a3d; --ink:#2b2230; --muted:#8a7f92; --card:#ffffff; }
+  * { box-sizing:border-box; margin:0; }
+  body { font-family:-apple-system,"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif; color:var(--ink); background:#fff; line-height:1.7; }
+  h1,h2,h3,.logo-text { font-family:"Zen Maru Gothic","PingFang SC",sans-serif; }
+  .wrap { max-width:960px; margin:0 auto; padding:0 20px; }
+
+  /* Hero */
+  .hero { background:linear-gradient(160deg,#fff0f6 0%,#fff3ea 55%,#fff9f0 100%); padding:72px 0 64px; text-align:center; }
+  .hero img.logo { width:84px; height:84px; border-radius:20px; box-shadow:0 10px 30px rgba(255,107,157,.35); }
+  .hero h1 { font-size:2.6rem; font-weight:900; margin:18px 0 4px; letter-spacing:.02em; }
+  .hero h1 .grad { background:linear-gradient(90deg,var(--pink),var(--orange)); -webkit-background-clip:text; background-clip:text; color:transparent; }
+  .hero .sub { font-size:1.05rem; color:var(--pink); font-weight:700; letter-spacing:.15em; margin-bottom:14px; }
+  .hero p.lead { max-width:620px; margin:0 auto 28px; color:#5d5365; font-size:1.12rem; }
+  .hero p.lead b { color:var(--ink); }
+  .cta { display:inline-flex; gap:14px; flex-wrap:wrap; justify-content:center; }
+  .btn { display:inline-block; padding:13px 30px; border-radius:999px; font-weight:700; font-size:1.02rem; text-decoration:none; transition:transform .15s,box-shadow .15s; }
+  .btn:hover { transform:translateY(-2px); }
+  .btn-primary { background:linear-gradient(90deg,var(--pink),var(--orange)); color:#fff; box-shadow:0 8px 22px rgba(255,120,90,.4); }
+  .btn-ghost { background:#fff; color:var(--ink); border:1.5px solid #f0d9e2; }
+  .invite-note { margin-top:16px; font-size:.85rem; color:var(--muted); }
+
+  /* Sections */
+  section { padding:56px 0; }
+  .sec-title { text-align:center; font-size:1.7rem; font-weight:900; margin-bottom:8px; }
+  .sec-sub { text-align:center; color:var(--muted); margin-bottom:36px; }
+  .cards { display:grid; gap:20px; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); }
+  .card { background:var(--card); border:1.5px solid #f6e4ec; border-radius:22px; padding:26px 24px; box-shadow:0 6px 24px rgba(255,107,157,.07); }
+  .card .emoji { font-size:2rem; }
+  .card h3 { font-size:1.15rem; margin:10px 0 8px; }
+  .card p { color:#5d5365; font-size:.95rem; }
+  .card .shot { margin-top:14px; border-radius:14px; overflow:hidden; border:1px solid #f0e3ea; }
+  .card .shot img { width:100%; display:block; }
+
+  .pills { display:flex; flex-wrap:wrap; gap:12px; justify-content:center; }
+  .pill { background:#fff4f8; border:1.5px solid #ffd9e6; color:#c24a78; border-radius:999px; padding:8px 18px; font-size:.92rem; font-weight:700; }
+
+  footer { background:#fdf6f9; padding:36px 0 44px; text-align:center; color:var(--muted); font-size:.9rem; }
+  footer a { color:var(--pink); text-decoration:none; font-weight:700; }
+  footer .f-logo { width:34px; height:34px; border-radius:9px; vertical-align:-9px; margin-right:6px; }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap">
+    <img class="logo" src="app/assets/logo.svg" alt="media-digest logo">
+    <h1>media<span class="grad">-digest</span></h1>
+    <div class="sub">追 剧 路 线</div>
+    <p class="lead">74 集的剧，不必花 30 小时。<br><b>评分曲线挑出真正的好集，路线只留骨架，跳过的剧情用文字桥接补上</b>——6 小时拿走一部剧的完整价值。</p>
+    <div class="cta">
+      <a class="btn btn-primary" href="app/">进入应用 →</a>
+      <a class="btn btn-ghost" href="https://github.com/biaowww/media-digest">GitHub</a>
+    </div>
+    <div class="invite-note">邀请制小圈子 · 浏览全部公开，登录（需邀请码）后可云端同步观看进度</div>
+  </div>
+</header>
+
+<section>
+  <div class="wrap">
+    <h2 class="sec-title">它是怎么做到的</h2>
+    <p class="sec-sub">不靠"倍速"，靠选择。纯按评分取 top X% 不成立，所以评分只呈现、判断留给人。</p>
+    <div class="cards">
+      <div class="card">
+        <div class="emoji">📊</div>
+        <h3>① 评分曲线挑好集</h3>
+        <p>IMDb / MAL / TMDB / Bangumi 多源评分并排呈现、互不合并；🔥 热度标记剧情爆点；「去趋势」开关扣掉"只有看完的人打后期分"的系统性上浮，中段真高分集一眼可见。</p>
+        <div class="shot"><img src="landing/assets/shot-curve.webp" alt="分集评分曲线" loading="lazy" onerror="this.closest('.shot').style.display='none'"></div>
+      </div>
+      <div class="card">
+        <div class="emoji">🧭</div>
+        <h3>② 路线只留骨架</h3>
+        <p>每部剧一条人工打磨的路线：哪些集是全速必看的主线骨架、哪些是高分独立短篇值得顺路看，剩下的集放心跳过——路线本身会告诉你为什么。</p>
+        <div class="shot"><img src="landing/assets/shot-route.webp" alt="观看路线" loading="lazy" onerror="this.closest('.shot').style.display='none'"></div>
+      </div>
+      <div class="card">
+        <div class="emoji">📖</div>
+        <h3>③ 桥接摘要补剧情</h3>
+        <p>被跳过的集不会变成黑洞：每段跳过区间配一段几百字的桥接摘要，剧情无缝衔接。介绍页无剧透，分集手册含剧透但按进度解锁。</p>
+        <div class="shot"><img src="landing/assets/shot-home.webp" alt="剧集列表" loading="lazy" onerror="this.closest('.shot').style.display='none'"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section style="padding-top:0">
+  <div class="wrap">
+    <div class="pills">
+      <span class="pill">多源评分并存</span>
+      <span class="pill">🔥 热度标记</span>
+      <span class="pill">进度云端同步</span>
+      <span class="pill">无剧透介绍页</span>
+      <span class="pill">TV · 漫画 · 小说</span>
+      <span class="pill">邀请制</span>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <p><img class="f-logo" src="app/assets/logo.svg" alt=""><b>media-digest</b> · 长剧集压缩观看路线</p>
+    <p style="margin-top:8px">邀请码找管理员索取 · 开源于 <a href="https://github.com/biaowww/media-digest">GitHub</a></p>
+  </div>
+</footer>
+
+</body>
+</html>
