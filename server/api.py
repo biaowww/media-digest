@@ -204,13 +204,7 @@ class Handler(BaseHTTPRequestHandler):
             self.wfile.write(body)
 
     def _body(self) -> dict:
-        try:
-            n = int(self.headers.get("Content-Length") or 0)
-        except ValueError:
-            n = 0
-        if n <= 0 or n > MAX_BODY:
-            raise ValueError("bad length")
-        d = json.loads(self.rfile.read(n))
+        d = json.loads(self._raw)
         if not isinstance(d, dict):
             raise ValueError("bad body")
         return d
@@ -263,6 +257,19 @@ class Handler(BaseHTTPRequestHandler):
         self._send(404, {"error": "not found"})
 
     def do_POST(self):
+        # 先一次性读掉 body：keep-alive 连接上，早退（403/429/404）不读 body 会污染下一个请求的请求行
+        try:
+            n = int(self.headers.get("Content-Length") or 0)
+        except ValueError:
+            n = 0
+        if n > MAX_BODY:
+            self.close_connection = True
+            return self._send(413, {"error": "body too large"})
+        try:
+            self._raw = self.rfile.read(n) if n else b"{}"
+        except OSError:
+            self.close_connection = True
+            return
         try:
             if self.path == "/api/auth/register":
                 return self._register()
