@@ -38,9 +38,23 @@ def pull(log=print) -> None:
     for slug, item in items.items():
         try:
             d = content_dir() / slug
-            if (d / "route.json").exists() or (d / "intro.json").exists():
+            route_path = d / "route.json"
+            if route_path.exists() or (d / "intro.json").exists():
+                # 已有骨架：并入缺失的 intro/route（两步投递：先 meta 后内容），绝不覆盖已有内容
+                added = []
+                try:
+                    cur = json.loads(route_path.read_text(encoding="utf-8")) if route_path.exists() else None
+                except ValueError:
+                    cur = None
+                if isinstance(cur, dict):
+                    for k in ("intro", "route"):
+                        if k not in cur and isinstance(item.get(k), (dict, list)):
+                            cur[k] = item[k]
+                            added.append(k)
+                    if added:
+                        route_path.write_text(json.dumps(cur, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
                 _req("/ack", key, {"slug": slug})
-                log(f"intake: {slug} 内容已存在，出队")
+                log(f"intake: {slug} 已存在，并入 {('/'.join(added)) or '无新内容'}，出队")
                 continue
             out = {"meta": item["meta"]}
             if isinstance(item.get("intro"), dict):
