@@ -161,7 +161,9 @@ def merge(show: dict, fetched: dict, args) -> dict:
 
     # 总集数：优先各源声明的集数（mal/bangumi/tmdb），没有才用抓到的最大集号
     declared = pick(fetched, PREFER_SERIES["eps"], "eps")
-    meta["total_eps"] = int(declared) if declared else (meta.get("total_eps") or (episodes[-1]["n"] if episodes else 0))
+    if meta.get("kind") == "manga" and (fetched.get("bangumi") or {}).get("episodes"):
+        declared = None  # 漫画分卷评分存在时按卷数算——系列声明的可能是章节数（如 DEATH NOTE 108 话 → 12 卷）
+    meta["total_eps"] = int(declared) if declared else (episodes[-1]["n"] if episodes else (meta.get("total_eps") or 0))
     # 超出总集数、且本轮没有任何源报告的旧条目 = 上次抓错的残留（如 IMDb 特别篇），清掉
     reported = {n for f in fetched.values() for n in f["episodes"]}
     stale = [e["n"] for e in episodes if e["n"] > meta["total_eps"] and e["n"] not in reported]
