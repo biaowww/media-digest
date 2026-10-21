@@ -54,6 +54,7 @@ MAX_EPS_PER_SHOW = 10000
 # 浏览器跨站（GitHub Pages → biaotools.site）时的允许来源；无 Origin 的服务端调用不受影响
 CORS_ORIGINS = {
     "https://media-digest.biaotools.site",
+    "https://anima-digest.biaotools.site",
     "https://biaowww.github.io",
     "http://localhost:8765",
 }

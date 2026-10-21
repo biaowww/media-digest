@@ -1,17 +1,17 @@
-/* media-digest · 进度存储 + 跨端同步
+/* anima-digest · 进度存储 + 跨端同步
  *
  * 本地：localStorage `md:progress` = { shows: { <slug>: { <n>: { v: 1|0, t: ms } } } }
  *   每集记「已看/未看 + 最后操作时间」，合并时按集取最新一次操作——两台设备各改各的也不会互相覆盖。
  *   （旧格式 `md:<slug>:done` 数组首次加载时自动迁入。）
  *
- * 远端：自建服务器 media-digest.biaotools.site /api/*（server/api.py）。
+ * 远端：自建服务器 anima-digest.biaotools.site /api/*（server/api.py）。
  *   登录后：打开页面拉一次并合并；勾选后 2 秒内写回；离线时先记本地，联网后补。
  *   未登录：进度只存本机，功能不受影响。注册走邀请制。
  */
 window.MD = (function () {
   'use strict';
   const K_PROG = 'md:progress', K_SYNC = 'md:sync';
-  const API_BASE = 'https://media-digest.biaotools.site';
+  const API_BASE = 'https://anima-digest.biaotools.site';
   const API_URL = API_BASE + '/api/progress';
 
   const lsGet = (k, d) => { try { const v = localStorage.getItem(k); return v == null ? d : JSON.parse(v); } catch (e) { return d; } };

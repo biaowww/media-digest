@@ -1,4 +1,4 @@
-# media-digest — 长剧集压缩观看路线
+# anima-digest — 动画/漫画压缩观看路线（追漫路线）
 
 我没有 30 小时看完一部 74 集的剧，但想完整拿到它的价值。方法是三层：**骨架必看 / 高分独立短篇 / 文字桥接摘要**。这个仓库固化的是"抓数据 + 渲染 + 记进度"这层**骨架**；每部剧的路线内容（哪些集全速看、被跳过的集用什么摘要带过）在各自的 session 里人工写，落进 json 即生效。
 
@@ -73,7 +73,7 @@ run_build.bat                  # 同上，双击即可（留窗显示结果）�
 <Drive根 biaoOS>/domains/personal/media-digest/shows/<slug>/{route.json, intro.json?, cover.jpg?}
 ```
 
-**新条目走 LibreChat 智能体「media-digest」（chat.biaotools.site）**：阶段一登记——对话里给剧名，它查齐 MAL/Bangumi/IMDb/TMDB/Wiki 的 ID，调 `POST /api/intake` 投进队列；构建机每次 build 开头跑 `scraper/intake.py`，把队列条目写成 Drive `route.json`（已有骨架则只并入缺失块，绝不覆盖），走正常 fetch/sync/push 回路。阶段二补内容——数据上线后让它「继续写路线」，它读构建产物里的分集评分/简介，生成 intro + route + notes（分集手册）再次提交并入。**AI 起草、人工兜底**：内容随时可以在 Drive 上人工改，sync 以 Drive 为准。队列只是信箱，Drive 仍是唯一真相。
+**新条目走 LibreChat 智能体「anima-digest」（chat.biaotools.site）**：阶段一登记——对话里给剧名，它查齐 MAL/Bangumi/IMDb/TMDB/Wiki 的 ID，调 `POST /api/intake` 投进队列；构建机每次 build 开头跑 `scraper/intake.py`，把队列条目写成 Drive `route.json`（已有骨架则只并入缺失块，绝不覆盖），走正常 fetch/sync/push 回路。阶段二补内容——数据上线后让它「继续写路线」，它读构建产物里的分集评分/简介，生成 intro + route + notes（分集手册）再次提交并入。**AI 起草、人工兜底**：内容随时可以在 Drive 上人工改，sync 以 Drive 为准。队列只是信箱，Drive 仍是唯一真相。
 
 `sync.py` 会把 chat 会话的键名归一到 schema（`spoiler_free_summary→synopsis`、`character_motivations→characters`、`eps:[4]→[4,4]`），内容不改。
 
@@ -89,7 +89,7 @@ git push                             # 页面生效
 
 ## 进度跨端同步
 
-进度存本机 localStorage `md:progress`：每集记「已看/未看 + 最后操作时间」，合并时按集取最新一次操作。跨端走自建服务器 `https://media-digest.biaotools.site/api/*`（`server/api.py`，stdlib 单文件，systemd 常驻，Caddy 反代）：**登录后**打开页面拉一次并合并，勾选后 2 秒内写回；离线先记本地，联网后补。未登录进度只存本机，功能不受影响。注册走邀请制（管理员在账号对话框里一键生成邀请码）。
+进度存本机 localStorage `md:progress`：每集记「已看/未看 + 最后操作时间」，合并时按集取最新一次操作。跨端走自建服务器 `https://anima-digest.biaotools.site/api/*`（`server/api.py`，stdlib 单文件，systemd 常驻，Caddy 反代）：**登录后**打开页面拉一次并合并，勾选后 2 秒内写回；离线先记本地，联网后补。未登录进度只存本机，功能不受影响。注册走邀请制（管理员在账号对话框里一键生成邀请码）。
 
 - 服务端合并与页面同规则（按集取最新），多端各改各的互不覆盖；「重置」写成墓碑（未看 @ 现在），会同步到另一端。
 - 会话是 HMAC 签名 cookie（30 天）；密码 PBKDF2-SHA256 26 万次加盐。登录/注册按 IP 限流。数据只有观看进度。

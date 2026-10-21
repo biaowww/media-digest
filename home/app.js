@@ -1,4 +1,4 @@
-/* media-digest · 路线页。纯静态：读 ../shows/<slug>.json，进度存 localStorage。
+/* anima-digest · 路线页。纯静态：读 ../shows/<slug>.json，进度存 localStorage。
  * 评分各源并存、页面可切、不合并不加权；热度（讨论数 / 票数）是另一个维度：单独一档 + 🔥 标记。 */
 (function () {
   'use strict';
@@ -158,7 +158,7 @@
     const groups = groupShows(shows);
     $app.replaceChildren(
       h('div', { class: 'list-hd' },
-        h('h1', {}, h('a', { href: '../', style: 'color:inherit;text-decoration:none', title: '回首页' }, '追剧路线'), h('small', { class: 'muted', style: 'font-size:13px;font-weight:400;margin-left:8px' }, 'media-digest')),
+        h('h1', {}, h('a', { href: '../', style: 'color:inherit;text-decoration:none', title: '回首页' }, '追漫路线'), h('small', { class: 'muted', style: 'font-size:13px;font-weight:400;margin-left:8px' }, 'anima-digest')),
         syncButton()),
       h('p', { class: 'muted small' }, '把几十集的动画、上百话的漫画压成一条路线：必看的集全速看，跳过的集读摘要，进度跨端同步记录。'),
       h('div', { class: 'list' }, groups.map(g => {
@@ -183,7 +183,7 @@
             h('div', { class: 'muted small' }, multi ? `${g.items.length} 个版本，页内 tab 切换` : (s.watch_eps ? `路线：看 ${s.watch_eps} ${s.unit || '集'} + ${s.bridges} 段桥接` : '路线尚未编写')),
             progEl));
       })),
-      h('footer', {}, 'media-digest · 评分各源并列，不合并'),
+      h('footer', {}, 'anima-digest · 评分各源并列，不合并'),
     );
   }
 
@@ -195,7 +195,7 @@
     const meta = show.meta, about = show.about || {}, intro = show.intro || {};
     const eps = show.episodes || [], route = show.route || [];
     const byN = new Map(eps.map(e => [e.n, e]));
-    document.title = (meta.title_cn || meta.title) + ' · 追剧路线';
+    document.title = (meta.title_cn || meta.title) + ' · 追漫路线';
     const U = meta.unit || '集';
 
     const K_KPI = `md:${slug}:kpi`, K_DET = `md:${slug}:detrend`;

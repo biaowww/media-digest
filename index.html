@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>media-digest · 追剧路线 — 长剧集压缩观看</title>
+<title>anima-digest · 追漫路线 — 动画/漫画压缩观看</title>
 <meta name="description" content="几十集的动画、上百话的漫画，不必全程硬看。评分曲线挑出真正的好集，路线只留骨架，跳过的剧情用文字桥接补上。">
 <link rel="icon" type="image/svg+xml" href="favicon.svg">
 <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
@@ -39,7 +39,15 @@
   .sec-sub { text-align:center; color:var(--muted); margin-bottom:36px; }
   .cards { display:grid; gap:20px; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); }
   .card { background:var(--card); border:1.5px solid #f6e4ec; border-radius:22px; padding:26px 24px; box-shadow:0 6px 24px rgba(255,107,157,.07); }
-  .card .emoji { font-size:2rem; }
+  .card .emoji { height:36px; }
+  .ic { width:34px; height:34px; color:var(--pink); }
+  .ic .bar-pulse { transform-origin:center bottom; animation:barPulse 2.2s ease-in-out infinite; }
+  @keyframes barPulse { 0%,100% { transform:scaleY(1); } 50% { transform:scaleY(.55); } }
+  .ic .march { stroke-dasharray:.5 6.5; animation:march 2.4s linear infinite; }
+  @keyframes march { to { stroke-dashoffset:-14; } }
+  .ic .arc-draw { stroke-dasharray:30; animation:arcDraw 2.6s ease-in-out infinite; }
+  @keyframes arcDraw { 0% { stroke-dashoffset:30; } 55% { stroke-dashoffset:0; } 100% { stroke-dashoffset:-30; } }
+  @media (prefers-reduced-motion:reduce) { .ic * { animation:none !important; } }
   .card h3 { font-size:1.15rem; margin:10px 0 8px; }
   .card p { color:#5d5365; font-size:.95rem; }
   .card .shot { margin-top:14px; border-radius:14px; overflow:hidden; border:1px solid #f0e3ea; }
@@ -57,9 +65,9 @@
 
 <header class="hero">
   <div class="wrap">
-    <img class="logo" src="home/assets/logo.svg" alt="media-digest logo">
-    <h1>media<span class="grad">-digest</span></h1>
-    <div class="sub">追 剧 路 线</div>
+    <img class="logo" src="home/assets/logo.svg" alt="anima-digest logo">
+    <h1>anima<span class="grad">-digest</span></h1>
+    <div class="sub">追 漫 路 线</div>
     <p class="lead">给<b>动画和漫画</b>的压缩观看指引。<br>几十集的番、上百话的漫画不必全程硬看：<b>评分曲线挑出真正的好集，路线只留骨架，跳过的剧情用文字桥接补上。</b><br>6 小时，拿走一部作品的完整价值。</p>
     <div class="cta">
       <a class="btn btn-primary" href="home/">进入应用 →</a>
@@ -75,19 +83,19 @@
     <p class="sec-sub">不靠"倍速"，靠选择。纯按评分取 top X% 不成立，所以评分只呈现、判断留给人。</p>
     <div class="cards">
       <div class="card">
-        <div class="emoji">📊</div>
+        <div class="emoji"><svg class="ic" viewBox="0 0 32 32" fill="currentColor" aria-hidden="true"><rect x="4" y="17" width="6" height="11" rx="1.5" opacity=".45"/><rect class="bar-pulse" x="13" y="7" width="6" height="21" rx="1.5"/><rect x="22" y="12" width="6" height="16" rx="1.5" opacity=".7"/></svg></div>
         <h3>① 评分曲线挑好集</h3>
         <p>IMDb / MAL / TMDB / Bangumi 多源评分并排呈现、互不合并；🔥 热度标记剧情爆点；「去趋势」开关扣掉"只有看完的人打后期分"的系统性上浮，中段真高分集一眼可见。</p>
         <div class="shot"><img src="landing/assets/shot-curve.webp" alt="分集评分曲线" loading="lazy" onerror="this.closest('.shot').style.display='none'"></div>
       </div>
       <div class="card">
-        <div class="emoji">🧭</div>
+        <div class="emoji"><svg class="ic" viewBox="0 0 32 32" fill="none" aria-hidden="true"><path class="march" d="M3 23 C 9 23, 12 17, 16 17 S 23 11, 29 11" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/><path d="M19 6.5 L27 14.5 L19 22.5 Z" fill="currentColor"/></svg></div>
         <h3>② 路线只留骨架</h3>
         <p>每部作品一条人工打磨的路线：哪些集是全速必看的主线骨架、哪些是高分独立短篇值得顺路看，剩下的集放心跳过——路线本身会告诉你为什么。</p>
         <div class="shot"><img src="landing/assets/shot-route.webp" alt="观看路线" loading="lazy" onerror="this.closest('.shot').style.display='none'"></div>
       </div>
       <div class="card">
-        <div class="emoji">📖</div>
+        <div class="emoji"><svg class="ic" viewBox="0 0 32 32" fill="none" aria-hidden="true"><path d="M5 28 V19 M27 28 V19" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/><path class="arc-draw" d="M6 21 Q16 9 26 21" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg></div>
         <h3>③ 桥接摘要补剧情</h3>
         <p>被跳过的集不会变成黑洞：每段跳过区间配一段几百字的桥接摘要，剧情无缝衔接。介绍页无剧透，分集手册含剧透但按进度解锁。</p>
         <div class="shot"><img src="landing/assets/shot-home.webp" alt="剧集列表" loading="lazy" onerror="this.closest('.shot').style.display='none'"></div>
@@ -111,7 +119,7 @@
 
 <footer>
   <div class="wrap">
-    <p><img class="f-logo" src="home/assets/logo.svg" alt=""><b>media-digest</b> · 长剧集压缩观看路线</p>
+    <p><img class="f-logo" src="home/assets/logo.svg" alt=""><b>anima-digest</b> · 动画/漫画压缩观看路线</p>
     <p style="margin-top:8px">邀请码找管理员索取 · 开源于 <a href="https://github.com/biaowww/media-digest">GitHub</a></p>
   </div>
 </footer>

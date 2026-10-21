@@ -12,7 +12,7 @@ import urllib.request
 
 from paths import content_dir  # noqa: E402  (build.py 已把 scraper 加进 sys.path；单跑时 python3 scraper/intake.py 也能 import)
 
-API = "https://media-digest.biaotools.site/api/intake"
+API = "https://anima-digest.biaotools.site/api/intake"
 
 
 def _req(path: str, key: str, body: dict | None = None) -> dict:
