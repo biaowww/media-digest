@@ -1,0 +1,230 @@
+{
+  "meta": {
+    "slug": "death-note-manga-2003",
+    "schema_version": 1,
+    "ids": {
+      "mal": "21",
+      "bangumi": "1674",
+      "wiki": "List of Death Note chapters"
+    },
+    "kind": "manga",
+    "unit": "卷",
+    "title": "Death Note",
+    "title_cn": "死亡笔记",
+    "title_native": "DEATH NOTE",
+    "year": 2003,
+    "total_eps": 108,
+    "primary_kpi": "imdb",
+    "updated": "2026-10-22",
+    "fetched": {
+      "bangumi": "2026-10-22",
+      "wiki": "2026-10-22"
+    },
+    "series": "death-note",
+    "series_title": "死亡笔记 Death Note",
+    "version_label": "漫画"
+  },
+  "about": {
+    "cover": "https://lain.bgm.tv/pic/cover/l/75/7f/1674_iZDEe.jpg",
+    "synopsis": {
+      "zh": "『週刊少年ジャンプ』2003年36号に掲載された読み切りが元になっている。ジャンプ史に残ると評されたヒットを記録し、2006年には2部構成実写映画版が公開(外伝映画は2008年に公開)、日本テレビ系列でTVアニメが放映された。\r\n\r\n人を死なせる力のある死神のノート「デスノート」を使って犯罪者を裁き、新世界の神になろうとする主人公と、主人公を悪と見なし、彼を追う名探偵とその後継者との闘いを描く。\r\n\r\n単行本の初版100万部最速到達記録を持っており、2004年の売り上げは、発売から1年目で年間ベスト10に入った。12巻までの世界累計発行部数は3000万部を突破しており、一巻平均が200万部を越すのは異例とされる。宝島社「このマンガがすごい!」オトコ版では、2006年と2007年に2位を獲得した。\r\n\r\nサブタイトルの多くは漢字2文字でつけられている。"
+    },
+    "scores": {
+      "bangumi": {
+        "score": 8.5,
+        "votes": 2146,
+        "rank": 109
+      }
+    },
+    "links": {
+      "bangumi": "https://bgm.tv/subject/1674",
+      "wiki": "https://en.wikipedia.org/wiki/List_of_Death_Note_chapters"
+    },
+    "characters_bangumi": [
+      {
+        "name_native": "夜神月",
+        "relation": "主角",
+        "image": "https://lain.bgm.tv/pic/crt/g/bd/36/2215_crt_nWAZZ.jpg?r=1720107970",
+        "bangumi_id": 2215
+      },
+      {
+        "name_native": "弥海砂",
+        "relation": "主角",
+        "image": "https://lain.bgm.tv/pic/crt/g/40/ea/15993_crt_n0B4G.jpg?r=1720107996",
+        "bangumi_id": 15993
+      },
+      {
+        "name_native": "L",
+        "relation": "主角",
+        "image": "https://lain.bgm.tv/pic/crt/g/fc/07/16684_crt_3Vfi9.jpg?r=1720108018",
+        "bangumi_id": 16684
+      },
+      {
+        "name_native": "リューク",
+        "relation": "主角",
+        "image": "https://lain.bgm.tv/pic/crt/g/43/8f/16685_crt_4x93X.jpg?r=1658995225",
+        "bangumi_id": 16685
+      }
+    ]
+  },
+  "intro": {},
+  "episodes": [
+    {
+      "n": 1,
+      "sources": {
+        "bangumi": {
+          "score": 8.5,
+          "votes": 84,
+          "url": "https://bgm.tv/subject/1673"
+        }
+      },
+      "synopsis": {},
+      "title_native": "DEATH NOTE (1) 退屈",
+      "aired": "2004-04-02"
+    },
+    {
+      "n": 2,
+      "sources": {
+        "bangumi": {
+          "score": 8.4,
+          "votes": 66,
+          "url": "https://bgm.tv/subject/1675"
+        }
+      },
+      "synopsis": {},
+      "title_native": "DEATH NOTE (2) 合流",
+      "aired": "2004-07-02"
+    },
+    {
+      "n": 3,
+      "sources": {
+        "bangumi": {
+          "score": 8.6,
+          "votes": 64,
+          "url": "https://bgm.tv/subject/1676"
+        }
+      },
+      "synopsis": {},
+      "title_native": "DEATH NOTE (3) 激走",
+      "aired": "2004-09-03"
+    },
+    {
+      "n": 4,
+      "sources": {
+        "bangumi": {
+          "score": 8.4,
+          "votes": 55,
+          "url": "https://bgm.tv/subject/1677"
+        }
+      },
+      "synopsis": {},
+      "title_native": "DEATH NOTE (4) 恋心",
+      "aired": "2004-11-04"
+    },
+    {
+      "n": 5,
+      "sources": {
+        "bangumi": {
+          "score": 8.3,
+          "votes": 56,
+          "url": "https://bgm.tv/subject/1678"
+        }
+      },
+      "synopsis": {},
+      "title_native": "DEATH NOTE (5) 白紙",
+      "aired": "2005-02-04"
+    },
+    {
+      "n": 6,
+      "sources": {
+        "bangumi": {
+          "score": 8.7,
+          "votes": 59,
+          "url": "https://bgm.tv/subject/1679"
+        }
+      },
+      "synopsis": {},
+      "title_native": "DEATH NOTE (6) 交換",
+      "aired": "2005-04-04"
+    },
+    {
+      "n": 7,
+      "sources": {
+        "bangumi": {
+          "score": 8.5,
+          "votes": 58,
+          "url": "https://bgm.tv/subject/1680"
+        }
+      },
+      "synopsis": {},
+      "title_native": "DEATH NOTE (7) 零",
+      "aired": "2005-07-04"
+    },
+    {
+      "n": 8,
+      "sources": {
+        "bangumi": {
+          "score": 7.8,
+          "votes": 41,
+          "url": "https://bgm.tv/subject/1681"
+        }
+      },
+      "synopsis": {},
+      "title_native": "DEATH NOTE (8) 的",
+      "aired": "2005-09-02"
+    },
+    {
+      "n": 9,
+      "sources": {
+        "bangumi": {
+          "score": 7.8,
+          "votes": 39,
+          "url": "https://bgm.tv/subject/1682"
+        }
+      },
+      "synopsis": {},
+      "title_native": "DEATH NOTE (9) 接触",
+      "aired": "2005-12-02"
+    },
+    {
+      "n": 10,
+      "sources": {
+        "bangumi": {
+          "score": 7.9,
+          "votes": 39,
+          "url": "https://bgm.tv/subject/1683"
+        }
+      },
+      "synopsis": {},
+      "title_native": "DEATH NOTE (10) 削除",
+      "aired": "2006-02-03"
+    },
+    {
+      "n": 11,
+      "sources": {
+        "bangumi": {
+          "score": 7.9,
+          "votes": 39,
+          "url": "https://bgm.tv/subject/1684"
+        }
+      },
+      "synopsis": {},
+      "title_native": "DEATH NOTE (11) 同心",
+      "aired": "2006-05-02"
+    },
+    {
+      "n": 12,
+      "sources": {
+        "bangumi": {
+          "score": 8.1,
+          "votes": 43,
+          "url": "https://bgm.tv/subject/1685"
+        }
+      },
+      "synopsis": {},
+      "title_native": "DEATH NOTE (12) 完",
+      "aired": "2006-07-04"
+    }
+  ],
+  "route": []
+}
