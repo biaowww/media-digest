@@ -1,0 +1,2100 @@
+{
+  "meta": {
+    "slug": "death-note-manga-2003",
+    "schema_version": 1,
+    "ids": {
+      "mal": "21",
+      "bangumi": "1674",
+      "wiki": "List of Death Note chapters"
+    },
+    "unit": "话",
+    "title": "Death Note",
+    "title_cn": "死亡笔记",
+    "title_native": "ONE PIECE",
+    "year": 2003,
+    "total_eps": 108,
+    "primary_kpi": "imdb",
+    "updated": "2026-10-21",
+    "fetched": {
+      "mal": "2026-10-21",
+      "bangumi": "2026-10-21",
+      "wiki": "2026-10-21"
+    },
+    "kind": "manga"
+  },
+  "about": {
+    "cover": "https://cdn.myanimelist.net/images/anime/1244/138851.jpg",
+    "synopsis": {
+      "en": "Barely surviving in a barrel after passing through a terrible whirlpool at sea, carefree Monkey D. Luffy ends up aboard a ship under attack by fearsome pirates. Despite being a naive-looking teenager, he is not to be underestimated. Unmatched in battle, Luffy is a pirate himself who resolutely pursues the coveted One Piece treasure and the King of the Pirates title that comes with it.\n\r\n\n\r\nThe late King of the Pirates, Gol D. Roger, stirred up the world before his death by disclosing the whereabouts of his hoard of riches and daring everyone to obtain it. Ever since then, countless powerful pirates have sailed dangerous seas for the prized One Piece only to never return. Although Luffy lacks a crew and a proper ship, he is endowed with a superhuman ability and an unbreakable spirit that make him not only a formidable adversary but also an inspiration to many.\n\r\n\n\r\nAs he faces numerous challenges with a big smile on his face, Luffy gathers one-of-a-kind companions to join him in his ambitious endeavor, together embracing perils and wonders on their once-in-a-lifetime adventure.",
+      "zh": "『週刊少年ジャンプ』2003年36号に掲載された読み切りが元になっている。ジャンプ史に残ると評されたヒットを記録し、2006年には2部構成実写映画版が公開(外伝映画は2008年に公開)、日本テレビ系列でTVアニメが放映された。\r\n\r\n人を死なせる力のある死神のノート「デスノート」を使って犯罪者を裁き、新世界の神になろうとする主人公と、主人公を悪と見なし、彼を追う名探偵とその後継者との闘いを描く。\r\n\r\n単行本の初版100万部最速到達記録を持っており、2004年の売り上げは、発売から1年目で年間ベスト10に入った。12巻までの世界累計発行部数は3000万部を突破しており、一巻平均が200万部を越すのは異例とされる。宝島社「このマンガがすごい!」オトコ版では、2006年と2007年に2位を獲得した。\r\n\r\nサブタイトルの多くは漢字2文字でつけられている。"
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy",
+      "Shounen"
+    ],
+    "studios": [
+      "Toei Animation"
+    ],
+    "scores": {
+      "mal": {
+        "score": 8.72,
+        "votes": 1563879,
+        "rank": 62
+      },
+      "bangumi": {
+        "score": 8.5,
+        "votes": 2146,
+        "rank": 109
+      }
+    },
+    "links": {
+      "mal": "https://myanimelist.net/anime/21",
+      "bangumi": "https://bgm.tv/subject/1674",
+      "wiki": "https://en.wikipedia.org/wiki/List_of_Death_Note_chapters"
+    },
+    "characters": [
+      {
+        "name": "Brook",
+        "role": "Main",
+        "image": "https://cdn.myanimelist.net/images/characters/10/161005.jpg",
+        "mal_id": 5627,
+        "favorites": 11273
+      },
+      {
+        "name": "Franky",
+        "role": "Main",
+        "image": "https://cdn.myanimelist.net/images/characters/13/210053.jpg",
+        "mal_id": 64,
+        "favorites": 6853
+      },
+      {
+        "name": "Jinbe",
+        "role": "Main",
+        "image": "https://cdn.myanimelist.net/images/characters/15/307148.jpg",
+        "mal_id": 18938,
+        "favorites": 4314
+      },
+      {
+        "name": "Luffy Monkey D.",
+        "role": "Main",
+        "image": "https://cdn.myanimelist.net/images/characters/9/310307.jpg",
+        "mal_id": 40,
+        "favorites": 150140
+      },
+      {
+        "name": "Nami",
+        "role": "Main",
+        "image": "https://cdn.myanimelist.net/images/characters/6/59914.jpg",
+        "mal_id": 723,
+        "favorites": 16735
+      },
+      {
+        "name": "Robin Nico",
+        "role": "Main",
+        "image": "https://cdn.myanimelist.net/images/characters/16/363700.jpg",
+        "mal_id": 61,
+        "favorites": 24301
+      },
+      {
+        "name": "Zoro Roronoa",
+        "role": "Main",
+        "image": "https://cdn.myanimelist.net/images/characters/3/100534.jpg",
+        "mal_id": 62,
+        "favorites": 116600
+      },
+      {
+        "name": "Sanji",
+        "role": "Main",
+        "image": "https://cdn.myanimelist.net/images/characters/5/136769.jpg",
+        "mal_id": 305,
+        "favorites": 33639
+      },
+      {
+        "name": "Chopper Tony Tony",
+        "role": "Main",
+        "image": "https://cdn.myanimelist.net/images/characters/3/100536.jpg",
+        "mal_id": 309,
+        "favorites": 17121
+      },
+      {
+        "name": "Usopp",
+        "role": "Main",
+        "image": "https://cdn.myanimelist.net/images/characters/16/188076.jpg",
+        "mal_id": 724,
+        "favorites": 14756
+      },
+      {
+        "name": "Law Trafalgar",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/10/258757.jpg",
+        "mal_id": 13767,
+        "favorites": 22046
+      },
+      {
+        "name": "Ace Portgas D.",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/2/72220.jpg",
+        "mal_id": 2072,
+        "favorites": 11744
+      },
+      {
+        "name": "Katakuri Charlotte",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/8/342776.jpg",
+        "mal_id": 150775,
+        "favorites": 6838
+      },
+      {
+        "name": "Shanks",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/9/307639.jpg",
+        "mal_id": 727,
+        "favorites": 6767
+      },
+      {
+        "name": "Newgate Edward",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/3/100236.jpg",
+        "mal_id": 2751,
+        "favorites": 4803
+      },
+      {
+        "name": "Doflamingo Donquixote",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/5/349513.jpg",
+        "mal_id": 2754,
+        "favorites": 4632
+      },
+      {
+        "name": "Hancock Boa",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/14/146013.jpg",
+        "mal_id": 16342,
+        "favorites": 3926
+      },
+      {
+        "name": "Rosinante Donquixote",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/13/288038.jpg",
+        "mal_id": 113609,
+        "favorites": 3559
+      },
+      {
+        "name": "Yamato",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/14/490104.jpg",
+        "mal_id": 184114,
+        "favorites": 2136
+      },
+      {
+        "name": "Bentham",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/6/146037.jpg",
+        "mal_id": 4875,
+        "favorites": 1959
+      },
+      {
+        "name": "Mihawk Dracule",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/7/69747.jpg",
+        "mal_id": 2064,
+        "favorites": 1868
+      },
+      {
+        "name": "Sabo",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/15/131855.jpg",
+        "mal_id": 32893,
+        "favorites": 1794
+      },
+      {
+        "name": "Carrot",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/8/323766.jpg",
+        "mal_id": 140169,
+        "favorites": 1522
+      },
+      {
+        "name": "Perona",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/15/136777.jpg",
+        "mal_id": 7467,
+        "favorites": 1515
+      },
+      {
+        "name": "Buggy",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/6/69112.jpg",
+        "mal_id": 725,
+        "favorites": 1468
+      },
+      {
+        "name": "Crocodile",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/6/100535.jpg",
+        "mal_id": 2749,
+        "favorites": 1337
+      },
+      {
+        "name": "Kuma Bartholomew",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/2/54820.jpg",
+        "mal_id": 7453,
+        "favorites": 1251
+      },
+      {
+        "name": "Oden Kozuki",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/4/433930.jpg",
+        "mal_id": 166944,
+        "favorites": 1189
+      },
+      {
+        "name": "Garp Monkey D.",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/5/509073.jpg",
+        "mal_id": 8064,
+        "favorites": 908
+      },
+      {
+        "name": "Teach Marshall D.",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/2/109536.jpg",
+        "mal_id": 3331,
+        "favorites": 868
+      }
+    ],
+    "characters_bangumi": [
+      {
+        "name_native": "夜神月",
+        "relation": "主角",
+        "image": "https://lain.bgm.tv/pic/crt/g/bd/36/2215_crt_nWAZZ.jpg?r=1720107970",
+        "bangumi_id": 2215
+      },
+      {
+        "name_native": "弥海砂",
+        "relation": "主角",
+        "image": "https://lain.bgm.tv/pic/crt/g/40/ea/15993_crt_n0B4G.jpg?r=1720107996",
+        "bangumi_id": 15993
+      },
+      {
+        "name_native": "L",
+        "relation": "主角",
+        "image": "https://lain.bgm.tv/pic/crt/g/fc/07/16684_crt_3Vfi9.jpg?r=1720108018",
+        "bangumi_id": 16684
+      },
+      {
+        "name_native": "リューク",
+        "relation": "主角",
+        "image": "https://lain.bgm.tv/pic/crt/g/43/8f/16685_crt_4x93X.jpg?r=1658995225",
+        "bangumi_id": 16685
+      }
+    ]
+  },
+  "intro": {},
+  "episodes": [
+    {
+      "n": 1,
+      "sources": {
+        "mal": {
+          "score": 4.09,
+          "forum_replies": 413,
+          "url": "https://myanimelist.net/anime/21/One_Piece/episode/1"
+        }
+      },
+      "synopsis": {},
+      "title_native": "俺はルフィ！海賊王になる男だ！",
+      "title_en": "I'm Luffy! The Man Who's Gonna Be King of the Pirates!",
+      "aired": "1999-10-20",
+      "heat": {
+        "mal_replies": 413
+      }
+    },
+    {
+      "n": 2,
+      "sources": {
+        "mal": {
+          "score": 4.14,
+          "forum_replies": 147,
+          "url": "https://myanimelist.net/anime/21/One_Piece/episode/2"
+        }
+      },
+      "synopsis": {},
+      "title_native": "大剣豪現る！海賊狩りロロノア・ゾロ",
+      "title_en": "Enter the Great Swordsman! Pirate Hunter Roronoa Zoro!",
+      "aired": "1999-11-17",
+      "heat": {
+        "mal_replies": 147
+      }
+    },
+    {
+      "n": 3,
+      "sources": {
+        "mal": {
+          "score": 4.16,
+          "forum_replies": 114,
+          "url": "https://myanimelist.net/anime/21/One_Piece/episode/3"
+        }
+      },
+      "synopsis": {},
+      "title_native": "モーガンＶＳルフィ！謎の美少女は誰？",
+      "title_en": "Morgan versus Luffy! Who's the Mysterious Pretty Girl?",
+      "aired": "1999-11-24",
+      "heat": {
+        "mal_replies": 114
+      }
+    },
+    {
+      "n": 4,
+      "sources": {
+        "mal": {
+          "score": 4.18,
+          "forum_replies": 107,
+          "url": "https://myanimelist.net/anime/21/One_Piece/episode/4"
+        }
+      },
+      "synopsis": {},
+      "title_native": "ルフィの過去！赤髪のシャンクス登場",
+      "title_en": "Luffy's Past! Enter Red-Haired Shanks!",
+      "aired": "1999-12-08",
+      "heat": {
+        "mal_replies": 107
+      }
+    },
+    {
+      "n": 5,
+      "sources": {
+        "mal": {
+          "score": 4.15,
+          "forum_replies": 94,
+          "url": "https://myanimelist.net/anime/21/One_Piece/episode/5"
+        }
+      },
+      "synopsis": {},
+      "title_native": "恐怖！謎の力・海賊道化バギー船長！",
+      "title_en": "A Terrifying Mysterious Power! Captain Buggy, the Clown Pirate!",
+      "aired": "1999-12-15",
+      "heat": {
+        "mal_replies": 94
+      }
+    },
+    {
+      "n": 6,
+      "sources": {
+        "mal": {
+          "score": 4.16,
+          "forum_replies": 93,
+          "url": "https://myanimelist.net/anime/21/One_Piece/episode/6"
+        }
+      },
+      "synopsis": {},
+      "title_native": "絶体絶命！猛獣使いモージＶＳルフィ！",
+      "title_en": "Desperate Situation! Beast Tamer Mohji vs. Luffy!",
+      "aired": "1999-12-29",
+      "heat": {
+        "mal_replies": 93
+      }
+    },
+    {
+      "n": 7,
+      "sources": {
+        "mal": {
+          "score": 4.11,
+          "forum_replies": 80,
+          "url": "https://myanimelist.net/anime/21/One_Piece/episode/7"
+        }
+      },
+      "synopsis": {},
+      "title_native": "壮絶決闘！剣豪ゾロＶＳ曲芸のカバジ！",
+      "title_en": "Epic Showdown! Swordsman Zoro vs. Acrobat Cabaji!",
+      "aired": "1999-12-29",
+      "heat": {
+        "mal_replies": 80
+      }
+    },
+    {
+      "n": 8,
+      "sources": {
+        "mal": {
+          "score": 4.17,
+          "forum_replies": 83,
+          "url": "https://myanimelist.net/anime/21/One_Piece/episode/8"
+        }
+      },
+      "synopsis": {},
+      "title_native": "勝者はどっち？悪魔の実の能力対決！",
+      "title_en": "Who is the Victor? Devil Fruit Power Showdown!",
+      "aired": "1999-12-29",
+      "heat": {
+        "mal_replies": 83
+      }
+    },
+    {
+      "n": 9,
+      "sources": {
+        "mal": {
+          "score": 4.11,
+          "forum_replies": 76,
+          "url": "https://myanimelist.net/anime/21/One_Piece/episode/9"
+        }
+      },
+      "synopsis": {},
+      "title_native": "正義のうそつき？キャプテンウソップ",
+      "title_en": "The Honorable Liar? Captain Usopp!",
+      "aired": "2000-01-12",
+      "heat": {
+        "mal_replies": 76
+      }
+    },
+    {
+      "n": 10,
+      "sources": {
+        "mal": {
+          "score": 4.06,
+          "forum_replies": 107,
+          "url": "https://myanimelist.net/anime/21/One_Piece/episode/10"
+        }
+      },
+      "synopsis": {},
+      "title_native": "史上最強の変な奴！催眠術師ジャンゴ",
+      "title_en": "The Weirdest Guy Ever! Jango the Hypnotist!",
+      "aired": "2000-01-19",
+      "heat": {
+        "mal_replies": 107
+      }
+    },
+    {
+      "n": 11,
+      "sources": {
+        "mal": {
+          "score": 4.08,
+          "forum_replies": 75,
+          "url": "https://myanimelist.net/anime/21/One_Piece/episode/11"
+        }
+      },
+      "synopsis": {},
+      "title_native": "陰謀を暴け！海賊執事キャプテンクロ",
+      "title_en": "Expose the Plot! Pirate Butler, Captain Kuro!",
+      "aired": "2000-01-26",
+      "heat": {
+        "mal_replies": 75
+      }
+    },
+    {
+      "n": 12,
+      "sources": {
+        "mal": {
+          "score": 4.12,
+          "forum_replies": 65,
+          "url": "https://myanimelist.net/anime/21/One_Piece/episode/12"
+        }
+      },
+      "synopsis": {},
+      "title_native": "激突！クロネコ海賊団坂道の大攻防！",
+      "title_en": "Clash with the Black Cat Pirates! The Great Battle on the Slope!",
+      "aired": "2000-02-02",
+      "heat": {
+        "mal_replies": 65
+      }
+    },
+    {
+      "n": 13,
+      "sources": {
+        "mal": {
+          "score": 4.13,
+          "forum_replies": 58,
+          "url": "https://myanimelist.net/anime/21/One_Piece/episode/13"
+        }
+      },
+      "synopsis": {},
+      "title_native": "恐怖の二人組！ニャーバン兄弟ＶＳゾロ",
+      "title_en": "The Terrifying Duo! Meowban Brothers vs. Zoro!",
+      "aired": "2000-02-09",
+      "heat": {
+        "mal_replies": 58
+      }
+    },
+    {
+      "n": 14,
+      "sources": {
+        "mal": {
+          "score": 4.11,
+          "forum_replies": 76,
+          "url": "https://myanimelist.net/anime/21/One_Piece/episode/14"
+        }
+      },
+      "synopsis": {},
+      "title_native": "ルフィ復活！カヤお嬢様の決死の抵抗",
+      "title_en": "Luffy Back in Action! Miss Kaya's Desperate Resistance!",
+      "aired": "2000-02-16",
+      "heat": {
+        "mal_replies": 76
+      }
+    },
+    {
+      "n": 15,
+      "sources": {
+        "mal": {
+          "score": 4.08,
+          "forum_replies": 64,
+          "url": "https://myanimelist.net/anime/21/One_Piece/episode/15"
+        }
+      },
+      "synopsis": {},
+      "title_native": "クロを倒せ！男ウソップ涙の決意！",
+      "title_en": "Beat Kuro! Usopp the Man's Tearful Resolve!",
+      "aired": "2000-02-23",
+      "heat": {
+        "mal_replies": 64
+      }
+    },
+    {
+      "n": 16,
+      "sources": {
+        "mal": {
+          "score": 4.19,
+          "forum_replies": 67,
+          "url": "https://myanimelist.net/anime/21/One_Piece/episode/16"
+        }
+      },
+      "synopsis": {},
+      "title_native": "カヤを守れ！ウソップ海賊団大活躍！",
+      "title_en": "Protect Kaya! The Usopp Pirates' Great Efforts!",
+      "aired": "2000-03-01",
+      "heat": {
+        "mal_replies": 67
+      }
+    },
+    {
+      "n": 17,
+      "sources": {
+        "mal": {
+          "score": 4.3,
+          "forum_replies": 112,
+          "url": "https://myanimelist.net/anime/21/One_Piece/episode/17"
+        }
+      },
+      "synopsis": {},
+      "title_native": "怒り爆発！クロＶＳルフィ決着の行方！",
+      "title_en": "Angry Explosion! Kuro vs. Luffy! How it Ends!",
+      "aired": "2000-03-08",
+      "heat": {
+        "mal_replies": 112
+      }
+    },
+    {
+      "n": 18,
+      "sources": {
+        "mal": {
+          "score": 3.99,
+          "forum_replies": 77,
+          "url": "https://myanimelist.net/anime/21/One_Piece/episode/18"
+        }
+      },
+      "synopsis": {},
+      "title_native": "あんたが珍獣！ガイモンと奇妙な仲間",
+      "title_en": "You're the Weird Creature! Gaimon and His Strange Friends!",
+      "aired": "2000-03-15",
+      "heat": {
+        "mal_replies": 77
+      }
+    },
+    {
+      "n": 19,
+      "sources": {
+        "mal": {
+          "score": 4.4,
+          "forum_replies": 104,
+          "url": "https://myanimelist.net/anime/21/One_Piece/episode/19"
+        }
+      },
+      "synopsis": {},
+      "title_native": "三刀流の過去！ゾロとくいなの誓い！",
+      "title_en": "The Three-Sword Style's Past! Zoro and Kuina's Vow!",
+      "aired": "2000-03-22",
+      "heat": {
+        "mal_replies": 104
+      }
+    },
+    {
+      "n": 20,
+      "sources": {
+        "mal": {
+          "score": 4.17,
+          "forum_replies": 66,
+          "url": "https://myanimelist.net/anime/21/One_Piece/episode/20"
+        }
+      },
+      "synopsis": {},
+      "title_native": "名物コック！海上レストランのサンジ",
+      "title_en": "Famous Cook! Sanji of the Sea Restaurant!",
+      "aired": "2000-04-12",
+      "heat": {
+        "mal_replies": 66
+      }
+    },
+    {
+      "n": 21,
+      "sources": {
+        "mal": {
+          "score": 4.24,
+          "forum_replies": 57,
+          "url": "https://myanimelist.net/anime/21/One_Piece/episode/21"
+        }
+      },
+      "synopsis": {},
+      "title_native": "招かれざる客！サンジの飯とギンの恩",
+      "title_en": "Unwelcome Customer! Sanji's Food and Gin's Debt!",
+      "aired": "2000-04-12",
+      "heat": {
+        "mal_replies": 57
+      }
+    },
+    {
+      "n": 22,
+      "sources": {
+        "mal": {
+          "score": 4.17,
+          "forum_replies": 55,
+          "url": "https://myanimelist.net/anime/21/One_Piece/episode/22"
+        }
+      },
+      "synopsis": {},
+      "title_native": "最強の海賊艦隊！提督ドン・クリーク",
+      "title_en": "The Strongest Pirate Fleet! Commodore Don Krieg!",
+      "aired": "2000-04-26",
+      "heat": {
+        "mal_replies": 55
+      }
+    },
+    {
+      "n": 23,
+      "sources": {
+        "mal": {
+          "score": 4.24,
+          "forum_replies": 69,
+          "url": "https://myanimelist.net/anime/21/One_Piece/episode/23"
+        }
+      },
+      "synopsis": {},
+      "title_native": "守れバラティエ！大海賊・赫足のゼフ",
+      "title_en": "Protect Baratie! The Great Pirate, Red Foot Zeff!",
+      "aired": "2000-05-03",
+      "heat": {
+        "mal_replies": 69
+      }
+    },
+    {
+      "n": 24,
+      "sources": {
+        "mal": {
+          "score": 4.56,
+          "forum_replies": 104,
+          "url": "https://myanimelist.net/anime/21/One_Piece/episode/24"
+        }
+      },
+      "synopsis": {},
+      "title_native": "鷹の目のミホーク！剣豪ゾロ海に散る",
+      "title_en": "Hawk-Eye Mihawk! The Great Swordsman Zoro Falls At Sea!",
+      "aired": "2000-05-10",
+      "heat": {
+        "mal_replies": 104
+      }
+    },
+    {
+      "n": 25,
+      "sources": {
+        "mal": {
+          "score": 4.17,
+          "forum_replies": 52,
+          "url": "https://myanimelist.net/anime/21/One_Piece/episode/25"
+        }
+      },
+      "synopsis": {},
+      "title_native": "必殺足技炸裂！サンジＶＳ鉄壁のパール",
+      "title_en": "The Deadly Foot Technique Bursts Forth! Sanji vs. The Invincible Pearl!",
+      "aired": "2000-05-17",
+      "heat": {
+        "mal_replies": 52
+      }
+    },
+    {
+      "n": 26,
+      "sources": {
+        "mal": {
+          "score": 4.45,
+          "forum_replies": 77,
+          "url": "https://myanimelist.net/anime/21/One_Piece/episode/26"
+        }
+      },
+      "synopsis": {},
+      "title_native": "ゼフとサンジの夢・幻のオールブルー",
+      "title_en": "Zeff and Sanji's Dream! The Illusory All Blue!",
+      "aired": "2000-05-24",
+      "heat": {
+        "mal_replies": 77
+      }
+    },
+    {
+      "n": 27,
+      "sources": {
+        "mal": {
+          "score": 4.26,
+          "forum_replies": 41,
+          "url": "https://myanimelist.net/anime/21/One_Piece/episode/27"
+        }
+      },
+      "synopsis": {},
+      "title_native": "冷徹非情の鬼人・海賊艦隊総隊長ギン",
+      "title_en": "Cool-headed, Cold-hearted Demon! Pirate Fleet Chief Commander Gin!",
+      "aired": "2000-05-31",
+      "heat": {
+        "mal_replies": 41
+      }
+    },
+    {
+      "n": 28,
+      "sources": {
+        "mal": {
+          "score": 4.25,
+          "forum_replies": 45,
+          "url": "https://myanimelist.net/anime/21/One_Piece/episode/28"
+        }
+      },
+      "synopsis": {},
+      "title_native": "死なねェよ！激闘ルフィＶＳクリーク！",
+      "title_en": "I Won't Die! Fierce Battle, Luffy vs. Krieg!",
+      "aired": "2000-06-07",
+      "heat": {
+        "mal_replies": 45
+      }
+    },
+    {
+      "n": 29,
+      "sources": {
+        "mal": {
+          "score": 4.33,
+          "forum_replies": 80,
+          "url": "https://myanimelist.net/anime/21/One_Piece/episode/29"
+        }
+      },
+      "synopsis": {},
+      "title_native": "決闘の決着！腹にくくった１本の槍！",
+      "title_en": "The Conclusion of the Deadly Battle! A Spear of Blind Determination!",
+      "aired": "2000-06-21",
+      "heat": {
+        "mal_replies": 80
+      }
+    },
+    {
+      "n": 30,
+      "sources": {
+        "mal": {
+          "score": 4.41,
+          "forum_replies": 101,
+          "url": "https://myanimelist.net/anime/21/One_Piece/episode/30"
+        }
+      },
+      "synopsis": {},
+      "title_native": "旅立ち！海のコックはルフィとともに",
+      "title_en": "Set Sail! The Seafaring Cook Sets off With Luffy!",
+      "aired": "2000-06-28",
+      "heat": {
+        "mal_replies": 101
+      }
+    },
+    {
+      "n": 31,
+      "sources": {
+        "mal": {
+          "score": 4.22,
+          "forum_replies": 79,
+          "url": "https://myanimelist.net/anime/21/One_Piece/episode/31"
+        }
+      },
+      "synopsis": {},
+      "title_native": "東の海最悪の男！魚人海賊アーロン！",
+      "title_en": "The Worst Man in the Eastern Seas! Fishman Pirate Arlong!",
+      "aired": "2000-07-12",
+      "heat": {
+        "mal_replies": 79
+      }
+    },
+    {
+      "n": 32,
+      "sources": {
+        "mal": {
+          "score": 4.31,
+          "forum_replies": 66,
+          "url": "https://myanimelist.net/anime/21/One_Piece/episode/32"
+        }
+      },
+      "synopsis": {},
+      "title_native": "ココヤシ村の魔女！アーロンの女幹部",
+      "title_en": "Witch of Cocoyashi Village! Arlong's Female Leader!",
+      "aired": "2000-07-19",
+      "heat": {
+        "mal_replies": 66
+      }
+    },
+    {
+      "n": 33,
+      "sources": {
+        "mal": {
+          "score": 4.23,
+          "forum_replies": 54,
+          "url": "https://myanimelist.net/anime/21/One_Piece/episode/33"
+        }
+      },
+      "synopsis": {},
+      "title_native": "ウソップ死す！？ルフィ上陸はまだ？",
+      "title_en": "Usopp Dead?! When is Luffy Going to Make Landfall?!",
+      "aired": "2000-07-19",
+      "heat": {
+        "mal_replies": 54
+      }
+    },
+    {
+      "n": 34,
+      "sources": {
+        "mal": {
+          "score": 4.29,
+          "forum_replies": 56,
+          "url": "https://myanimelist.net/anime/21/One_Piece/episode/34"
+        }
+      },
+      "synopsis": {},
+      "title_native": "全員集結！ウソップが語るナミの真実",
+      "title_en": "Everyone's Gathered! Usopp Speaks the Truth About Nami!",
+      "aired": "2000-07-26",
+      "heat": {
+        "mal_replies": 56
+      }
+    },
+    {
+      "n": 35,
+      "sources": {
+        "mal": {
+          "score": 4.35,
+          "forum_replies": 62,
+          "url": "https://myanimelist.net/anime/21/One_Piece/episode/35"
+        }
+      },
+      "synopsis": {},
+      "title_native": "秘められた過去！女戦士ベルメール！",
+      "title_en": "Untold Past! Female Warrior Bellemere!",
+      "aired": "2000-08-02",
+      "heat": {
+        "mal_replies": 62
+      }
+    },
+    {
+      "n": 36,
+      "sources": {
+        "mal": {
+          "score": 4.51,
+          "forum_replies": 75,
+          "url": "https://myanimelist.net/anime/21/One_Piece/episode/36"
+        }
+      },
+      "synopsis": {},
+      "title_native": "生き抜け！母ベルメールとナミの絆！",
+      "title_en": "Survive! Mother Bellemere and Nami's Bond!",
+      "aired": "2000-08-09",
+      "heat": {
+        "mal_replies": 75
+      }
+    },
+    {
+      "n": 37,
+      "sources": {
+        "mal": {
+          "score": 4.68,
+          "forum_replies": 105,
+          "url": "https://myanimelist.net/anime/21/One_Piece/episode/37"
+        }
+      },
+      "synopsis": {},
+      "title_native": "ルフィ立つ！裏切られた約束の結末",
+      "title_en": "Luffy Rises! Result of the Broken Promise!",
+      "aired": "2000-08-16",
+      "heat": {
+        "mal_replies": 105
+      }
+    },
+    {
+      "n": 38,
+      "sources": {
+        "mal": {
+          "score": 4.29,
+          "forum_replies": 56,
+          "url": "https://myanimelist.net/anime/21/One_Piece/episode/38"
+        }
+      },
+      "synopsis": {},
+      "title_native": "ルフィ大ピンチ！魚人ＶＳルフィ海賊団",
+      "title_en": "Luffy in Big Trouble! Fishmen vs. the Luffy Pirates!",
+      "aired": "2000-08-23",
+      "heat": {
+        "mal_replies": 56
+      }
+    },
+    {
+      "n": 39,
+      "sources": {
+        "mal": {
+          "score": 4.33,
+          "forum_replies": 62,
+          "url": "https://myanimelist.net/anime/21/One_Piece/episode/39"
+        }
+      },
+      "synopsis": {},
+      "title_native": "ルフィ水没！ゾロＶＳタコのはっちゃん",
+      "title_en": "Luffy Submerged! Zoro vs. Hatchan the Octopus!",
+      "aired": "2000-08-30",
+      "heat": {
+        "mal_replies": 62
+      }
+    },
+    {
+      "n": 40,
+      "sources": {
+        "mal": {
+          "score": 4.31,
+          "forum_replies": 69,
+          "url": "https://myanimelist.net/anime/21/One_Piece/episode/40"
+        }
+      },
+      "synopsis": {},
+      "title_native": "誇り高き戦士！激闘サンジとウソップ",
+      "title_en": "Proud Warriors! Sanji and Usopp's Fierce Battles!",
+      "aired": "2000-09-06",
+      "heat": {
+        "mal_replies": 69
+      }
+    },
+    {
+      "n": 41,
+      "sources": {
+        "mal": {
+          "score": 4.32,
+          "forum_replies": 48,
+          "url": "https://myanimelist.net/anime/21/One_Piece/episode/41"
+        }
+      },
+      "synopsis": {},
+      "title_native": "ルフィ全開！ナミの決意と麦わら帽子",
+      "title_en": "Luffy at Full Power! Nami's Determination and the Straw Hat!",
+      "aired": "2000-09-13",
+      "heat": {
+        "mal_replies": 48
+      }
+    },
+    {
+      "n": 42,
+      "sources": {
+        "mal": {
+          "score": 4.37,
+          "forum_replies": 57,
+          "url": "https://myanimelist.net/anime/21/One_Piece/episode/42"
+        }
+      },
+      "synopsis": {},
+      "title_native": "炸裂！魚人アーロン海からの猛攻撃！",
+      "title_en": "Explosion! Fishman Arlong's Fierce Assault From the Sea!",
+      "aired": "2000-09-27",
+      "heat": {
+        "mal_replies": 57
+      }
+    },
+    {
+      "n": 43,
+      "sources": {
+        "mal": {
+          "score": 4.49,
+          "forum_replies": 79,
+          "url": "https://myanimelist.net/anime/21/One_Piece/episode/43"
+        }
+      },
+      "synopsis": {},
+      "title_native": "魚人帝国の終り！ナミは俺の仲間だ！",
+      "title_en": "End of the Fishman Empire! Nami's My Friend!",
+      "aired": "2000-09-27",
+      "heat": {
+        "mal_replies": 79
+      }
+    },
+    {
+      "n": 44,
+      "sources": {
+        "mal": {
+          "score": 4.54,
+          "forum_replies": 84,
+          "url": "https://myanimelist.net/anime/21/One_Piece/episode/44"
+        }
+      },
+      "synopsis": {},
+      "title_native": "笑顔の旅立ち！さらば故郷ココヤシ村",
+      "title_en": "Setting Out with a Smile! Farewell, Hometown Cocoyashi Village!",
+      "aired": "2000-10-11",
+      "heat": {
+        "mal_replies": 84
+      }
+    },
+    {
+      "n": 45,
+      "sources": {
+        "mal": {
+          "score": 4.35,
+          "forum_replies": 77,
+          "url": "https://myanimelist.net/anime/21/One_Piece/episode/45"
+        }
+      },
+      "synopsis": {},
+      "title_native": "賞金首！麦わらのルフィ世に知れ渡る",
+      "title_en": "Bounty! Straw Hat Luffy Becomes Known to the World!",
+      "aired": "2000-10-25",
+      "heat": {
+        "mal_replies": 77
+      }
+    },
+    {
+      "n": 46,
+      "sources": {
+        "mal": {
+          "score": 3.94,
+          "forum_replies": 77,
+          "url": "https://myanimelist.net/anime/21/One_Piece/episode/46"
+        }
+      },
+      "synopsis": {},
+      "title_native": "麦わらを追え！小さなバギーの大冒険",
+      "title_en": "Chase Straw Hat! Little Buggy's Big Adventure!",
+      "aired": "2000-11-01",
+      "heat": {
+        "mal_replies": 77
+      }
+    },
+    {
+      "n": 47,
+      "sources": {
+        "mal": {
+          "score": 3.9,
+          "forum_replies": 68,
+          "url": "https://myanimelist.net/anime/21/One_Piece/episode/47"
+        }
+      },
+      "synopsis": {},
+      "title_native": "お待ちかね！ああ復活のバギー船長",
+      "title_en": "The Wait is Over! The Return of Captain Buggy!",
+      "aired": "2000-11-08",
+      "heat": {
+        "mal_replies": 68
+      }
+    },
+    {
+      "n": 48,
+      "sources": {
+        "mal": {
+          "score": 4.45,
+          "forum_replies": 84,
+          "url": "https://myanimelist.net/anime/21/One_Piece/episode/48"
+        }
+      },
+      "synopsis": {},
+      "title_native": "始まりと終わりの町・ローグタウン上陸",
+      "title_en": "The Town of the Beginning and the End! Landfall at Logue Town!",
+      "aired": "2000-11-22",
+      "heat": {
+        "mal_replies": 84
+      }
+    },
+    {
+      "n": 49,
+      "sources": {
+        "mal": {
+          "score": 4.41,
+          "forum_replies": 59,
+          "url": "https://myanimelist.net/anime/21/One_Piece/episode/49"
+        }
+      },
+      "synopsis": {},
+      "title_native": "三代鬼徹と雪走！ゾロの新刀と女曹長",
+      "title_en": "Kitetsu III and Yubashiri! Zoro's New Swords and the Woman Sergeant Major!",
+      "aired": "2000-11-22",
+      "heat": {
+        "mal_replies": 59
+      }
+    },
+    {
+      "n": 50,
+      "sources": {
+        "mal": {
+          "score": 4.16,
+          "forum_replies": 74
+        }
+      },
+      "synopsis": {},
+      "aired": "2000-11-29",
+      "heat": {
+        "mal_replies": 74
+      }
+    },
+    {
+      "n": 51,
+      "sources": {
+        "mal": {
+          "score": 4.13,
+          "forum_replies": 57
+        }
+      },
+      "synopsis": {},
+      "aired": "2000-12-06",
+      "heat": {
+        "mal_replies": 57
+      }
+    },
+    {
+      "n": 52,
+      "sources": {
+        "mal": {
+          "score": 4.3,
+          "forum_replies": 72,
+          "url": "https://myanimelist.net/anime/21/One_Piece/episode/52"
+        }
+      },
+      "synopsis": {},
+      "title_native": "バギーのリベンジ！処刑台で笑う男！",
+      "title_en": "Buggy's Revenge! The Man Who Smiles On the Execution Platform!",
+      "aired": "2000-12-13",
+      "heat": {
+        "mal_replies": 72
+      }
+    },
+    {
+      "n": 53,
+      "sources": {
+        "mal": {
+          "score": 4.42,
+          "forum_replies": 68,
+          "url": "https://myanimelist.net/anime/21/One_Piece/episode/53"
+        }
+      },
+      "synopsis": {},
+      "title_native": "伝説は始まった！目指せ偉大なる航路",
+      "title_en": "The Legend Has Started! Head for the Grand Line!",
+      "aired": "2001-01-10",
+      "heat": {
+        "mal_replies": 68
+      }
+    },
+    {
+      "n": 54,
+      "sources": {
+        "mal": {
+          "score": 4.12,
+          "forum_replies": 56
+        }
+      },
+      "synopsis": {},
+      "aired": "2001-01-17",
+      "heat": {
+        "mal_replies": 56
+      }
+    },
+    {
+      "n": 55,
+      "sources": {
+        "mal": {
+          "score": 4.01,
+          "forum_replies": 55
+        }
+      },
+      "synopsis": {},
+      "aired": "2001-01-24",
+      "heat": {
+        "mal_replies": 55
+      }
+    },
+    {
+      "n": 56,
+      "sources": {
+        "mal": {
+          "score": 4.08,
+          "forum_replies": 46
+        }
+      },
+      "synopsis": {},
+      "aired": "2001-01-31",
+      "heat": {
+        "mal_replies": 46
+      }
+    },
+    {
+      "n": 57,
+      "sources": {
+        "mal": {
+          "score": 3.98,
+          "forum_replies": 46
+        }
+      },
+      "synopsis": {},
+      "aired": "2001-02-07",
+      "heat": {
+        "mal_replies": 46
+      }
+    },
+    {
+      "n": 58,
+      "sources": {
+        "mal": {
+          "score": 4.07,
+          "forum_replies": 39
+        }
+      },
+      "synopsis": {},
+      "aired": "2001-02-21",
+      "heat": {
+        "mal_replies": 39
+      }
+    },
+    {
+      "n": 59,
+      "sources": {
+        "mal": {
+          "score": 4.06,
+          "forum_replies": 45
+        }
+      },
+      "synopsis": {},
+      "aired": "2001-02-21",
+      "heat": {
+        "mal_replies": 45
+      }
+    },
+    {
+      "n": 60,
+      "sources": {
+        "mal": {
+          "score": 4.04,
+          "forum_replies": 62
+        }
+      },
+      "synopsis": {},
+      "aired": "2001-02-28",
+      "heat": {
+        "mal_replies": 62
+      }
+    },
+    {
+      "n": 61,
+      "sources": {
+        "mal": {
+          "score": 4.26,
+          "forum_replies": 84,
+          "url": "https://myanimelist.net/anime/21/One_Piece/episode/61"
+        }
+      },
+      "synopsis": {},
+      "title_native": "怒りの決着！赤い大陸を乗り越えろ！",
+      "title_en": "An Angry Showdown! Cross the Red Line!",
+      "aired": "2001-03-07",
+      "heat": {
+        "mal_replies": 84
+      }
+    },
+    {
+      "n": 62,
+      "sources": {
+        "mal": {
+          "score": 4.17,
+          "forum_replies": 64,
+          "url": "https://myanimelist.net/anime/21/One_Piece/episode/62"
+        }
+      },
+      "synopsis": {},
+      "title_native": "最初の砦？巨大クジラ・ラブーン現る",
+      "title_en": "The First Line of Defense? The Giant Whale Laboon Appears!",
+      "aired": "2001-03-21",
+      "heat": {
+        "mal_replies": 64
+      }
+    },
+    {
+      "n": 63,
+      "sources": {
+        "mal": {
+          "score": 4.29,
+          "forum_replies": 63,
+          "url": "https://myanimelist.net/anime/21/One_Piece/episode/63"
+        }
+      },
+      "synopsis": {},
+      "title_native": "男の約束！ルフィとクジラ再会の誓い",
+      "title_en": "A Promise Between Men! Luffy and the Whale Vow to Meet Again!",
+      "aired": "2001-03-21",
+      "heat": {
+        "mal_replies": 63
+      }
+    },
+    {
+      "n": 64,
+      "sources": {
+        "mal": {
+          "score": 4.29,
+          "forum_replies": 63,
+          "url": "https://myanimelist.net/anime/21/One_Piece/episode/64"
+        }
+      },
+      "synopsis": {},
+      "title_native": "海賊歓迎の町？ウイスキーピーク上陸",
+      "title_en": "A Town That Welcomes Pirates? Setting Foot on Whiskey Peak!",
+      "aired": "2001-04-15",
+      "heat": {
+        "mal_replies": 63
+      }
+    },
+    {
+      "n": 65,
+      "sources": {
+        "mal": {
+          "score": 4.36,
+          "forum_replies": 63,
+          "url": "https://myanimelist.net/anime/21/One_Piece/episode/65"
+        }
+      },
+      "synopsis": {},
+      "title_native": "炸裂三刀流！ゾロＶＳバロックワークス",
+      "title_en": "Explosion! The Three Swords Style! Zoro vs. Baroque Works!",
+      "aired": "2001-04-15",
+      "heat": {
+        "mal_replies": 63
+      }
+    },
+    {
+      "n": 66,
+      "sources": {
+        "mal": {
+          "score": 4.23,
+          "forum_replies": 75,
+          "url": "https://myanimelist.net/anime/21/One_Piece/episode/66"
+        }
+      },
+      "synopsis": {},
+      "title_native": "真剣勝負！ルフィＶＳゾロ謎の大決闘！",
+      "title_en": "All Out Battle! Luffy vs. Zoro, Mysterious Grand Duel!",
+      "aired": "2001-04-22",
+      "heat": {
+        "mal_replies": 75
+      }
+    },
+    {
+      "n": 67,
+      "sources": {
+        "mal": {
+          "score": 4.37,
+          "forum_replies": 58,
+          "url": "https://myanimelist.net/anime/21/One_Piece/episode/67"
+        }
+      },
+      "synopsis": {},
+      "title_native": "王女ビビを届けろ！ルフィ海賊団出航",
+      "title_en": "Deliver Princess Vivi! The Luffy Pirates Set Sail!",
+      "aired": "2001-04-29",
+      "heat": {
+        "mal_replies": 58
+      }
+    },
+    {
+      "n": 68,
+      "sources": {
+        "mal": {
+          "score": 4.04,
+          "forum_replies": 62,
+          "url": "https://myanimelist.net/anime/21/One_Piece/episode/68"
+        }
+      },
+      "synopsis": {},
+      "title_native": "頑張れコビー！コビメッポ海軍奮闘記",
+      "title_en": "Try Hard, Coby! Coby and Helmeppo's Struggles in the Marines!",
+      "aired": "2001-05-13",
+      "heat": {
+        "mal_replies": 62
+      }
+    },
+    {
+      "n": 69,
+      "sources": {
+        "mal": {
+          "score": 4.19,
+          "forum_replies": 65,
+          "url": "https://myanimelist.net/anime/21/One_Piece/episode/69"
+        }
+      },
+      "synopsis": {},
+      "title_native": "コビメッポの決意！ガープ中将の親心",
+      "title_en": "Coby and Helmeppo's Resolve! Vice-Admiral Garp's Parental Affection!",
+      "aired": "2001-05-20",
+      "heat": {
+        "mal_replies": 65
+      }
+    },
+    {
+      "n": 70,
+      "sources": {
+        "mal": {
+          "score": 4.21,
+          "forum_replies": 51,
+          "url": "https://myanimelist.net/anime/21/One_Piece/episode/70"
+        }
+      },
+      "synopsis": {},
+      "title_native": "太古の島！リトルガーデンに潜む影！",
+      "title_en": "An Ancient Island! The Shadow Hiding in Little Garden!",
+      "aired": "2001-05-27",
+      "heat": {
+        "mal_replies": 51
+      }
+    },
+    {
+      "n": 71,
+      "sources": {
+        "mal": {
+          "score": 4.23,
+          "forum_replies": 53,
+          "url": "https://myanimelist.net/anime/21/One_Piece/episode/71"
+        }
+      },
+      "synopsis": {},
+      "title_native": "でっかい決闘！巨人ドリーとブロギー",
+      "title_en": "Huge Duel! The Giants Dorry and Brogy!",
+      "aired": "2001-06-03",
+      "heat": {
+        "mal_replies": 53
+      }
+    },
+    {
+      "n": 72,
+      "sources": {
+        "mal": {
+          "score": 4.17,
+          "forum_replies": 45,
+          "url": "https://myanimelist.net/anime/21/One_Piece/episode/72"
+        }
+      },
+      "synopsis": {},
+      "title_native": "ルフィ怒る！聖なる決闘に卑劣な罠",
+      "title_en": "Luffy Gets Angry! A Dirty Trick Violates the Sacred Duel!",
+      "aired": "2001-06-17",
+      "heat": {
+        "mal_replies": 45
+      }
+    },
+    {
+      "n": 73,
+      "sources": {
+        "mal": {
+          "score": 4.17,
+          "forum_replies": 45,
+          "url": "https://myanimelist.net/anime/21/One_Piece/episode/73"
+        }
+      },
+      "synopsis": {},
+      "title_native": "ブロギー勝利の号泣！エルバフの決着",
+      "title_en": "Broggy's Bitter Tears of Victory! The Conclusion of Elbaf!",
+      "aired": "2001-06-24",
+      "heat": {
+        "mal_replies": 45
+      }
+    },
+    {
+      "n": 74,
+      "sources": {
+        "mal": {
+          "score": 4.24,
+          "forum_replies": 70,
+          "url": "https://myanimelist.net/anime/21/One_Piece/episode/74"
+        }
+      },
+      "synopsis": {},
+      "title_native": "魔のキャンドル！無念の涙と怒りの涙",
+      "title_en": "The Devilish Candle! Tears of Regret and Tears of Anger!",
+      "aired": "2001-07-15",
+      "heat": {
+        "mal_replies": 70
+      }
+    },
+    {
+      "n": 75,
+      "sources": {
+        "mal": {
+          "score": 4.13,
+          "forum_replies": 61,
+          "url": "https://myanimelist.net/anime/21/One_Piece/episode/75"
+        }
+      },
+      "synopsis": {},
+      "title_native": "ルフィを襲う魔力！カラーズトラップ",
+      "title_en": "A Hex on Luffy! Colors Trap!",
+      "aired": "2001-08-12",
+      "heat": {
+        "mal_replies": 61
+      }
+    },
+    {
+      "n": 76,
+      "sources": {
+        "mal": {
+          "score": 4.22,
+          "forum_replies": 59,
+          "url": "https://myanimelist.net/anime/21/One_Piece/episode/76"
+        }
+      },
+      "synopsis": {},
+      "title_native": "いざ反撃！ウソップの機転と火炎星！",
+      "title_en": "Time to Fight Back! Usopp's Quick Thinking and Fire Star!",
+      "aired": "2001-08-19",
+      "heat": {
+        "mal_replies": 59
+      }
+    },
+    {
+      "n": 77,
+      "sources": {
+        "mal": {
+          "score": 4.29,
+          "forum_replies": 56,
+          "url": "https://myanimelist.net/anime/21/One_Piece/episode/77"
+        }
+      },
+      "synopsis": {},
+      "title_native": "さらば巨人の島！アラバスタを目指せ",
+      "title_en": "Farewell Giant Island! Head for Alabasta!",
+      "aired": "2001-08-19",
+      "heat": {
+        "mal_replies": 56
+      }
+    },
+    {
+      "n": 78,
+      "sources": {
+        "mal": {
+          "score": 4.14,
+          "forum_replies": 57,
+          "url": "https://myanimelist.net/anime/21/One_Piece/episode/78"
+        }
+      },
+      "synopsis": {},
+      "title_native": "ナミが病気？海に降る雪の向こうに！",
+      "title_en": "Nami's Sick? Beyond the Snow Falling on the Sea!",
+      "aired": "2001-08-26",
+      "heat": {
+        "mal_replies": 57
+      }
+    },
+    {
+      "n": 79,
+      "sources": {
+        "mal": {
+          "score": 4.3,
+          "forum_replies": 55,
+          "url": "https://myanimelist.net/anime/21/One_Piece/episode/79"
+        }
+      },
+      "synopsis": {},
+      "title_native": "奇襲！ブリキング号とブリキのワポル",
+      "title_en": "A Raid! The Bliking and Blik Wapol!",
+      "aired": "2001-09-02",
+      "heat": {
+        "mal_replies": 55
+      }
+    },
+    {
+      "n": 80,
+      "sources": {
+        "mal": {
+          "score": 4.23,
+          "forum_replies": 46,
+          "url": "https://myanimelist.net/anime/21/One_Piece/episode/80"
+        }
+      },
+      "synopsis": {},
+      "title_native": "医者のいない島？名も無き国の冒険！",
+      "title_en": "An Island without Doctors? Adventure in a Nameless Land!",
+      "aired": "2001-09-09",
+      "heat": {
+        "mal_replies": 46
+      }
+    },
+    {
+      "n": 81,
+      "sources": {
+        "mal": {
+          "score": 4.28,
+          "forum_replies": 46,
+          "url": "https://myanimelist.net/anime/21/One_Piece/episode/81"
+        }
+      },
+      "synopsis": {},
+      "title_native": "ハッピーかい？魔女と呼ばれた医者！",
+      "title_en": "Are You Happy? The Doctor Called Witch!",
+      "aired": "2001-09-16",
+      "heat": {
+        "mal_replies": 46
+      }
+    },
+    {
+      "n": 82,
+      "sources": {
+        "mal": {
+          "score": 4.27,
+          "forum_replies": 43,
+          "url": "https://myanimelist.net/anime/21/One_Piece/episode/82"
+        }
+      },
+      "synopsis": {},
+      "title_native": "ドルトンの覚悟！ワポル軍団島に上陸",
+      "title_en": "Dalton's Resolve! Wapol's Corps Lands on the Island!",
+      "aired": "2001-10-07",
+      "heat": {
+        "mal_replies": 43
+      }
+    },
+    {
+      "n": 83,
+      "sources": {
+        "mal": {
+          "score": 4.45,
+          "forum_replies": 79,
+          "url": "https://myanimelist.net/anime/21/One_Piece/episode/83"
+        }
+      },
+      "synopsis": {},
+      "title_native": "雪の住む島！ドラムロッキーを登れ！",
+      "title_en": "The Island Where Snow Lives! Climb the Drum Rockies!",
+      "aired": "2001-10-07",
+      "heat": {
+        "mal_replies": 79
+      }
+    },
+    {
+      "n": 84,
+      "sources": {
+        "mal": {
+          "score": 4.54,
+          "forum_replies": 56,
+          "url": "https://myanimelist.net/anime/21/One_Piece/episode/84"
+        }
+      },
+      "synopsis": {},
+      "title_native": "トナカイは青っ鼻！チョッパーの秘密",
+      "title_en": "Blue-nosed Reindeer! Chopper's Secret!",
+      "aired": "2001-10-21",
+      "heat": {
+        "mal_replies": 56
+      }
+    },
+    {
+      "n": 85,
+      "sources": {
+        "mal": {
+          "score": 4.54,
+          "forum_replies": 55,
+          "url": "https://myanimelist.net/anime/21/One_Piece/episode/85"
+        }
+      },
+      "synopsis": {},
+      "title_native": "はみだし者の夢！やぶ医者ヒルルク！",
+      "title_en": "An Outcast's Dream! Hiluluk the Quack!",
+      "aired": "2001-10-28",
+      "heat": {
+        "mal_replies": 55
+      }
+    },
+    {
+      "n": 86,
+      "sources": {
+        "mal": {
+          "score": 4.65,
+          "forum_replies": 104,
+          "url": "https://myanimelist.net/anime/21/One_Piece/episode/86"
+        }
+      },
+      "synopsis": {},
+      "title_native": "ヒルルクの桜と受け継がれゆく意志！",
+      "title_en": "Hiluluk's Cherry Blossoms and the Will that Gets Carried On!",
+      "aired": "2001-11-04",
+      "heat": {
+        "mal_replies": 104
+      }
+    },
+    {
+      "n": 87,
+      "sources": {
+        "mal": {
+          "score": 4.38,
+          "forum_replies": 46,
+          "url": "https://myanimelist.net/anime/21/One_Piece/episode/87"
+        }
+      },
+      "synopsis": {},
+      "title_native": "ＶＳワポル軍団！バクバクの実の能力！",
+      "title_en": "Fight Wapol's Crew! The Power of the Munch Munch Fruit!",
+      "aired": "2001-11-11",
+      "heat": {
+        "mal_replies": 46
+      }
+    },
+    {
+      "n": 88,
+      "sources": {
+        "mal": {
+          "score": 4.39,
+          "forum_replies": 51,
+          "url": "https://myanimelist.net/anime/21/One_Piece/episode/88"
+        }
+      },
+      "synopsis": {},
+      "title_native": "動物系悪魔の実！チョッパー七段変形",
+      "title_en": "Zoan-type Devil Fruit! Chopper's Seven-form Transformation!",
+      "aired": "2001-11-18",
+      "heat": {
+        "mal_replies": 51
+      }
+    },
+    {
+      "n": 89,
+      "sources": {
+        "mal": {
+          "score": 4.37,
+          "forum_replies": 52,
+          "url": "https://myanimelist.net/anime/21/One_Piece/episode/89"
+        }
+      },
+      "synopsis": {},
+      "title_native": "王国の支配終る時！信念の旗は永遠に",
+      "title_en": "When the Kingdom's Rule Ends! The Flag of Faith Flies Forever!",
+      "aired": "2001-11-25",
+      "heat": {
+        "mal_replies": 52
+      }
+    },
+    {
+      "n": 90,
+      "sources": {
+        "mal": {
+          "score": 4.54,
+          "forum_replies": 100,
+          "url": "https://myanimelist.net/anime/21/One_Piece/episode/90"
+        }
+      },
+      "synopsis": {},
+      "title_native": "ヒルルクの桜！ドラムロッキーの奇跡",
+      "title_en": "Hiluluk's Cherry Blossoms! Miracle in the Drum Rockies!",
+      "aired": "2001-12-02",
+      "heat": {
+        "mal_replies": 100
+      }
+    },
+    {
+      "n": 91,
+      "sources": {
+        "mal": {
+          "score": 4.35,
+          "forum_replies": 60,
+          "url": "https://myanimelist.net/anime/21/One_Piece/episode/91"
+        }
+      },
+      "synopsis": {},
+      "title_native": "さようならドラム島！僕は海へ出る！",
+      "title_en": "Goodbye Drum Island! I'm Going Out to Sea!",
+      "aired": "2001-12-09",
+      "heat": {
+        "mal_replies": 60
+      }
+    },
+    {
+      "n": 92,
+      "sources": {
+        "mal": {
+          "score": 4.27,
+          "forum_replies": 59,
+          "url": "https://myanimelist.net/anime/21/One_Piece/episode/92"
+        }
+      },
+      "synopsis": {},
+      "title_native": "アラバスタの英雄と船上のバレリーナ",
+      "title_en": "Alabasta's Hero and a Ballerina on the Ship!",
+      "aired": "2001-12-09",
+      "heat": {
+        "mal_replies": 59
+      }
+    },
+    {
+      "n": 93,
+      "sources": {
+        "mal": {
+          "score": 4.28,
+          "forum_replies": 57,
+          "url": "https://myanimelist.net/anime/21/One_Piece/episode/93"
+        }
+      },
+      "synopsis": {},
+      "title_native": "いざ砂漠の国へ！雨を呼ぶ粉と反乱軍",
+      "title_en": "Off to the Desert Kingdom! The Rain-Summing Powder and the Rebel Army!",
+      "aired": "2001-12-16",
+      "heat": {
+        "mal_replies": 57
+      }
+    },
+    {
+      "n": 94,
+      "sources": {
+        "mal": {
+          "score": 4.52,
+          "forum_replies": 71,
+          "url": "https://myanimelist.net/anime/21/One_Piece/episode/94"
+        }
+      },
+      "synopsis": {},
+      "title_native": "豪傑達の再会！奴の名は火拳のエース",
+      "title_en": "The Reunion of Heroes! His Name is Fire Fist Ace!",
+      "aired": "2001-12-23",
+      "heat": {
+        "mal_replies": 71
+      }
+    },
+    {
+      "n": 95,
+      "sources": {
+        "mal": {
+          "score": 4.47,
+          "forum_replies": 67,
+          "url": "https://myanimelist.net/anime/21/One_Piece/episode/95"
+        }
+      },
+      "synopsis": {},
+      "title_native": "エースとルフィ！熱き想いと兄弟の絆",
+      "title_en": "Ace and Luffy! Hot Emotions and Brotherly Bonds!",
+      "aired": "2002-01-06",
+      "heat": {
+        "mal_replies": 67
+      }
+    },
+    {
+      "n": 96,
+      "sources": {
+        "mal": {
+          "score": 4.21,
+          "forum_replies": 58,
+          "url": "https://myanimelist.net/anime/21/One_Piece/episode/96"
+        }
+      },
+      "synopsis": {},
+      "title_native": "緑の町エルマルとクンフージュゴン！",
+      "title_en": "Erumalu, the City of Green and the Kung Fu Dugongs!",
+      "aired": "2002-01-13",
+      "heat": {
+        "mal_replies": 58
+      }
+    },
+    {
+      "n": 97,
+      "sources": {
+        "mal": {
+          "score": 4.22,
+          "forum_replies": 60,
+          "url": "https://myanimelist.net/anime/21/One_Piece/episode/97"
+        }
+      },
+      "synopsis": {},
+      "title_native": "砂の国の冒険！炎熱の大地に棲む魔物",
+      "title_en": "Adventure in the Country of Sand! The Monsters that Live in the Scorching Land!",
+      "aired": "2002-01-20",
+      "heat": {
+        "mal_replies": 60
+      }
+    },
+    {
+      "n": 98,
+      "sources": {
+        "mal": {
+          "score": 4.1,
+          "forum_replies": 54
+        }
+      },
+      "synopsis": {},
+      "aired": "2002-01-27",
+      "heat": {
+        "mal_replies": 54
+      }
+    },
+    {
+      "n": 99,
+      "sources": {
+        "mal": {
+          "score": 4.09,
+          "forum_replies": 49
+        }
+      },
+      "synopsis": {},
+      "aired": "2002-02-03",
+      "heat": {
+        "mal_replies": 49
+      }
+    },
+    {
+      "n": 100,
+      "sources": {
+        "mal": {
+          "score": 3.99,
+          "forum_replies": 91,
+          "url": "https://myanimelist.net/anime/21/One_Piece/episode/100"
+        }
+      },
+      "synopsis": {},
+      "title_native": "反乱軍戦士コーザ！ビビに誓った夢！",
+      "title_en": "Rebel Warrior Kohza! The Dream Vowed to Vivi!",
+      "aired": "2002-02-10",
+      "heat": {
+        "mal_replies": 91
+      }
+    },
+    {
+      "n": 101,
+      "sources": {
+        "mal": {
+          "score": 4.01,
+          "forum_replies": 59,
+          "url": "https://myanimelist.net/anime/21/One_Piece/episode/101"
+        }
+      },
+      "synopsis": {},
+      "title_native": "陽炎の決闘！エースＶＳ男スコーピオン",
+      "title_en": "Showdown in a Heat Haze! Ace vs. the Gallant Scorpion!",
+      "aired": "2002-02-17",
+      "heat": {
+        "mal_replies": 59
+      }
+    },
+    {
+      "n": 102,
+      "sources": {
+        "mal": {
+          "score": 4.08,
+          "forum_replies": 57
+        }
+      },
+      "synopsis": {},
+      "aired": "2002-02-24",
+      "heat": {
+        "mal_replies": 57
+      }
+    },
+    {
+      "n": 103,
+      "sources": {
+        "mal": {
+          "score": 4.14,
+          "forum_replies": 53,
+          "url": "https://myanimelist.net/anime/21/One_Piece/episode/103"
+        }
+      },
+      "synopsis": {},
+      "title_native": "スパイダーズカフェに８時敵幹部集合",
+      "title_en": "Spiders Café at 8 o'Clock! The Enemy Leaders Gather!",
+      "aired": "2002-03-03",
+      "heat": {
+        "mal_replies": 53
+      }
+    },
+    {
+      "n": 104,
+      "sources": {
+        "mal": {
+          "score": 4.21,
+          "forum_replies": 77,
+          "url": "https://myanimelist.net/anime/21/One_Piece/episode/104"
+        }
+      },
+      "synopsis": {},
+      "title_native": "ルフィＶＳビビ！仲間に賭ける涙の誓い",
+      "title_en": "Luffy vs. Vivi! The Tearful Vow to Put Friends on the Line!",
+      "aired": "2002-03-10",
+      "heat": {
+        "mal_replies": 77
+      }
+    },
+    {
+      "n": 105,
+      "sources": {
+        "mal": {
+          "score": 4.16,
+          "forum_replies": 55,
+          "url": "https://myanimelist.net/anime/21/One_Piece/episode/105"
+        }
+      },
+      "synopsis": {},
+      "title_native": "アラバスタ戦線！夢の町レインベース",
+      "title_en": "The Battlefront of Alabasta! Rainbase, the City of Dreams!",
+      "aired": "2002-03-17",
+      "heat": {
+        "mal_replies": 55
+      }
+    },
+    {
+      "n": 106,
+      "sources": {
+        "mal": {
+          "score": 4.11,
+          "forum_replies": 55,
+          "url": "https://myanimelist.net/anime/21/One_Piece/episode/106"
+        }
+      },
+      "synopsis": {},
+      "title_native": "絶体絶命の罠！レインディナーズ突入",
+      "title_en": "The Trap of Certain Defeat! Storming Raindinners!",
+      "aired": "2002-03-24",
+      "heat": {
+        "mal_replies": 55
+      }
+    },
+    {
+      "n": 107,
+      "sources": {
+        "mal": {
+          "score": 4.09,
+          "forum_replies": 53,
+          "url": "https://myanimelist.net/anime/21/One_Piece/episode/107"
+        }
+      },
+      "synopsis": {},
+      "title_native": "ユートピア作戦発動！動き出した反乱",
+      "title_en": "Operation Utopia Commences! The Swell of Rebellion Stirs!",
+      "aired": "2002-04-14",
+      "heat": {
+        "mal_replies": 53
+      }
+    },
+    {
+      "n": 108,
+      "sources": {
+        "mal": {
+          "score": 4.15,
+          "forum_replies": 63,
+          "url": "https://myanimelist.net/anime/21/One_Piece/episode/108"
+        }
+      },
+      "synopsis": {},
+      "title_native": "恐怖のバナナワニとミスタープリンス",
+      "title_en": "The Terrifying Banana Gators and Mr. Prince!",
+      "aired": "2002-04-21",
+      "heat": {
+        "mal_replies": 63
+      }
+    }
+  ],
+  "route": []
+}

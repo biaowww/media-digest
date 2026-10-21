@@ -1,0 +1,1569 @@
+{
+  "meta": {
+    "slug": "death-note-2006",
+    "schema_version": 1,
+    "ids": {
+      "mal": "1535",
+      "bangumi": "1777",
+      "imdb": "tt0877057",
+      "tmdb": "13916",
+      "wiki": "List of Death Note episodes"
+    },
+    "title": "DEATH NOTE",
+    "title_cn": "死亡笔记",
+    "title_native": "デスノート",
+    "year": 2006,
+    "total_eps": 37,
+    "primary_kpi": "imdb",
+    "updated": "2026-10-21",
+    "fetched": {
+      "mal": "2026-10-21",
+      "bangumi": "2026-10-21",
+      "imdb": "2026-10-21",
+      "tmdb": "2026-10-21",
+      "wiki": "2026-10-21"
+    }
+  },
+  "about": {
+    "cover": "https://cdn.myanimelist.net/images/anime/1079/138100.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w500/z8IPicmEKXUO4I2UDdMEqw7RqOE.jpg",
+    "synopsis": {
+      "en": "Brutal murders, petty thefts, and senseless violence pollute the human world. In contrast, the realm of death gods is a humdrum, unchanging gambling den. The ingenious 17-year-old Japanese student Light Yagami and sadistic god of death Ryuk share one belief: their worlds are rotten.\n\r\n\n\r\nFor his own amusement, Ryuk drops his Death Note into the human world. Light stumbles upon it, deeming the first of its rules ridiculous: the human whose name is written in this note shall die. However, the temptation is too great, and Light experiments by writing a felon's name, which disturbingly enacts his first murder.\n\r\n\n\r\nAware of the terrifying godlike power that has fallen into his hands, Light—under the alias Kira—follows his wicked sense of justice with the ultimate goal of cleansing the world of all evil-doers. The meticulous mastermind detective L is already on his trail, but as Light's brilliance rivals L's, the grand chase for Kira turns into an intense battle of wits that can only end when one of them is dead.",
+      "zh": "古妮雅在消灭圣都的妖魔后，自己也因为妖力释放过多而开始暴走，然而就在这时……感慨万分的克蕾雅不禁想起了自己小时候的经历，那段和传说中最强的大剑，微笑的迪妮莎度过的时光…神聖なはずの大聖堂内で、妖魔と死闘を展開するクレアと聖都ラボナの兵士達。普段なら一刀両断に斬り捨てるクレアだが、先の戦いで負った傷のため思うように動けない。限界を超え、戦い続けるクレアだが!!"
+    },
+    "genres": [
+      "Supernatural",
+      "Suspense",
+      "Psychological",
+      "Shounen"
+    ],
+    "studios": [
+      "Madhouse"
+    ],
+    "scores": {
+      "mal": {
+        "score": 8.62,
+        "votes": 3060130,
+        "rank": 104
+      },
+      "bangumi": {
+        "score": 8.5,
+        "votes": 40,
+        "rank": 559
+      },
+      "imdb": {
+        "score": 8.9,
+        "votes": 503683
+      },
+      "tmdb": {
+        "score": 8.619,
+        "votes": 5215
+      }
+    },
+    "links": {
+      "mal": "https://myanimelist.net/anime/1535",
+      "bangumi": "https://bgm.tv/subject/1777",
+      "imdb": "https://www.imdb.com/title/tt0877057/",
+      "tmdb": "https://www.themoviedb.org/tv/13916",
+      "wiki": "https://en.wikipedia.org/wiki/List_of_Death_Note_episodes"
+    },
+    "characters": [
+      {
+        "name": "L Lawliet",
+        "role": "Main",
+        "image": "https://cdn.myanimelist.net/images/characters/10/249647.jpg",
+        "mal_id": 71,
+        "favorites": 132225
+      },
+      {
+        "name": "Ryuk",
+        "role": "Main",
+        "image": "https://cdn.myanimelist.net/images/characters/10/59125.jpg",
+        "mal_id": 75,
+        "favorites": 12958
+      },
+      {
+        "name": "Light Yagami",
+        "role": "Main",
+        "image": "https://cdn.myanimelist.net/images/characters/6/63870.jpg",
+        "mal_id": 80,
+        "favorites": 100290
+      },
+      {
+        "name": "Misa Amane",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/5/30971.jpg",
+        "mal_id": 835,
+        "favorites": 7509
+      },
+      {
+        "name": "Nate River",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/13/77339.jpg",
+        "mal_id": 464,
+        "favorites": 3869
+      },
+      {
+        "name": "Mihael Keehl",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/2/31498.jpg",
+        "mal_id": 463,
+        "favorites": 3471
+      },
+      {
+        "name": "Touta Matsuda",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/10/68302.jpg",
+        "mal_id": 1906,
+        "favorites": 1201
+      },
+      {
+        "name": "Teru Mikami",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/14/36951.jpg",
+        "mal_id": 1904,
+        "favorites": 1138
+      },
+      {
+        "name": "Mail Jeevas",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/9/42363.jpg",
+        "mal_id": 2730,
+        "favorites": 913
+      },
+      {
+        "name": "Rem",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/10/28562.jpg",
+        "mal_id": 1905,
+        "favorites": 718
+      },
+      {
+        "name": "Naomi Misora",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/4/146595.jpg",
+        "mal_id": 4959,
+        "favorites": 397
+      },
+      {
+        "name": "Souichirou Yagami",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/2/470067.jpg",
+        "mal_id": 1927,
+        "favorites": 170
+      },
+      {
+        "name": "Shuuichi Aizawa",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/4/55515.jpg",
+        "mal_id": 3767,
+        "favorites": 66
+      },
+      {
+        "name": "Raye Penber",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/16/56933.jpg",
+        "mal_id": 7044,
+        "favorites": 57
+      },
+      {
+        "name": "Quillsh Wammy",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/12/57165.jpg",
+        "mal_id": 2179,
+        "favorites": 56
+      },
+      {
+        "name": "Shidoh",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/13/62331.jpg",
+        "mal_id": 2402,
+        "favorites": 46
+      },
+      {
+        "name": "Jealous",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/13/68291.jpg",
+        "mal_id": 3883,
+        "favorites": 35
+      },
+      {
+        "name": "Stephen Loud",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/15/55516.jpg",
+        "mal_id": 3770,
+        "favorites": 26
+      },
+      {
+        "name": "Reiji Namikawa",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/8/57873.jpg",
+        "mal_id": 1929,
+        "favorites": 24
+      },
+      {
+        "name": "Kiyomi Takada",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/5/36947.jpg",
+        "mal_id": 3765,
+        "favorites": 24
+      },
+      {
+        "name": "Sayu Yagami",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/5/262773.jpg",
+        "mal_id": 8135,
+        "favorites": 19
+      },
+      {
+        "name": "Mary Kenwood",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/5/36923.jpg",
+        "mal_id": 1933,
+        "favorites": 18
+      },
+      {
+        "name": "Halle Bullook",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/16/58404.jpg",
+        "mal_id": 3769,
+        "favorites": 14
+      }
+    ]
+  },
+  "intro": {},
+  "episodes": [
+    {
+      "n": 1,
+      "sources": {
+        "mal": {
+          "score": 4.32,
+          "forum_replies": 255,
+          "url": "https://myanimelist.net/anime/1535/Death_Note/episode/1"
+        },
+        "imdb": {
+          "rating": 8.4,
+          "votes": 12322,
+          "tconst": "tt0885243",
+          "season": 1,
+          "episode": 1
+        },
+        "tmdb": {
+          "vote_average": 8.1,
+          "vote_count": 78,
+          "still": "https://image.tmdb.org/t/p/w500/3DBzrTd2ZUleqKlGOBfMklDySRH.jpg",
+          "season": 1,
+          "episode": 1
+        }
+      },
+      "synopsis": {
+        "en": "Brilliant but bored high school student Light Yagami suddenly finds himself holding the power of life and death in his hands—the power of the Death Note. He decides to rid the world of evil—by killing off criminals one by one. When the murders start to pile up, genius detective L is on the case, and an epic battle of wits unfolds.",
+        "zh": "死神琉克搞丢了他的“死亡笔记本”，被人间界的一个高中生夜神月捡到。夜神月原本不相信这本死亡笔记本，但是看了使用说明后不禁想尝试一下，于是照着说明，将对方的名字写在死亡笔记本上，结果对方真的死了。夜神月十分惊愕，因为自己顿时成了杀人犯，承受着精神上的折磨。接着，死神琉克出现在夜神月的房里…"
+      },
+      "title_native": "新生",
+      "title_en": "Rebirth",
+      "title_cn": "新生",
+      "aired": "2006-10-04",
+      "heat": {
+        "mal_replies": 255,
+        "imdb_votes": 12322
+      }
+    },
+    {
+      "n": 2,
+      "sources": {
+        "mal": {
+          "score": 4.47,
+          "forum_replies": 189,
+          "url": "https://myanimelist.net/anime/1535/Death_Note/episode/2"
+        },
+        "imdb": {
+          "rating": 9.0,
+          "votes": 12164,
+          "tconst": "tt0900488",
+          "season": 1,
+          "episode": 2
+        },
+        "tmdb": {
+          "vote_average": 8.4,
+          "vote_count": 70,
+          "still": "https://image.tmdb.org/t/p/w500/63fCP6HZf5EbP6muq2mcYh6Lvc8.jpg",
+          "season": 1,
+          "episode": 2
+        }
+      },
+      "synopsis": {
+        "en": "While the world’s criminals continue to drop dead, L meets by computer with representatives from various nations. He requests that a task force be set up in Japan, under the direction of none other than Soichiro Yagami, Light’s father.",
+        "zh": "夜神月知道死亡笔记本的威力后，开始大量的使用死亡笔记本杀人，但是他杀的大多是作奸犯科的罪犯，而这些罪犯都突然死于心脏麻痹。由于人数太多，死因太过巧合，引起ICPO国际刑警组织的关注，甚至找来神秘的破案顶尖高手「L」来参与侦办。于是夜神月和L透过电视现场转播展开一场大对决，究竟谁胜谁负呢？"
+      },
+      "title_native": "対決",
+      "title_en": "Confrontation",
+      "title_cn": "对决",
+      "aired": "2006-10-11",
+      "heat": {
+        "mal_replies": 189,
+        "imdb_votes": 12164
+      }
+    },
+    {
+      "n": 3,
+      "sources": {
+        "mal": {
+          "score": 4.32,
+          "forum_replies": 127,
+          "url": "https://myanimelist.net/anime/1535/Death_Note/episode/3"
+        },
+        "imdb": {
+          "rating": 8.4,
+          "votes": 9529,
+          "tconst": "tt0909466",
+          "season": 1,
+          "episode": 3
+        },
+        "tmdb": {
+          "vote_average": 8.1,
+          "vote_count": 67,
+          "still": "https://image.tmdb.org/t/p/w500/k0g0yiL74LSp8JodQVjted6YMJf.jpg",
+          "season": 1,
+          "episode": 3
+        }
+      },
+      "synopsis": {
+        "en": "Ryuk, the Shinigami, or god of death, who dropped the Death Note into the human world, warns Light that someone is on his trail. Light is troubled that he can’t find out the identity of his tracker, and Ryuk suggests an amazing deal...",
+        "zh": "夜神月杀掉出现在电视里的假L之后，L因此推论基拉是和日本警方内部有所关连的人，于是请来美国FBI协助秘密调查。但不久，跟踪夜神月的探员就被死神琉克发现了。但因为夜神月不知道他的名字，无法对他下手。此时琉克告诉夜神月，如果他肯用剩余寿命的一半交换，琉克就能给他死神之眼看到对方的姓名。夜神月会答应这个交易吗？"
+      },
+      "title_native": "取引",
+      "title_en": "Dealings",
+      "title_cn": "交易",
+      "aired": "2006-10-18",
+      "heat": {
+        "mal_replies": 127,
+        "imdb_votes": 9529
+      }
+    },
+    {
+      "n": 4,
+      "sources": {
+        "mal": {
+          "score": 4.51,
+          "forum_replies": 157,
+          "url": "https://myanimelist.net/anime/1535/Death_Note/episode/4"
+        },
+        "imdb": {
+          "rating": 8.8,
+          "votes": 9803,
+          "tconst": "tt0901528",
+          "season": 1,
+          "episode": 4
+        },
+        "tmdb": {
+          "vote_average": 8.4,
+          "vote_count": 65,
+          "still": "https://image.tmdb.org/t/p/w500/bisms0qgIVV8Qa9vGlFnfP9briJ.jpg",
+          "season": 1,
+          "episode": 4
+        }
+      },
+      "synopsis": {
+        "en": "Light—now known to the world as Kira—tests the Death Note to understand the scope of its powers by killing off six convicts in various ways—and confirms he can control his victims’ actions before they die.",
+        "zh": "月利用死亡笔记本能控制死前行为的功能，开始动手计划对付跟踪他的FBI探员…"
+      },
+      "title_native": "追跡",
+      "title_en": "Pursuit",
+      "title_cn": "追踪",
+      "aired": "2006-10-25",
+      "heat": {
+        "mal_replies": 157,
+        "imdb_votes": 9803
+      }
+    },
+    {
+      "n": 5,
+      "sources": {
+        "mal": {
+          "score": 4.49,
+          "forum_replies": 150,
+          "url": "https://myanimelist.net/anime/1535/Death_Note/episode/5"
+        },
+        "imdb": {
+          "rating": 8.5,
+          "votes": 9351,
+          "tconst": "tt0903684",
+          "season": 1,
+          "episode": 5
+        },
+        "tmdb": {
+          "vote_average": 8.1,
+          "vote_count": 64,
+          "still": "https://image.tmdb.org/t/p/w500/m4aiPObgEBrb3w6TPejqX5sg8Nm.jpg",
+          "season": 1,
+          "episode": 5
+        }
+      },
+      "synopsis": {
+        "en": "Soichiro Yagami demands to meet with L in person when he finds out that L has secretly brought FBI agents into Japan. Light, meanwhile, has found a way to get those very FBI agents off the case—permanently...",
+        "zh": "月用计得知其他FBI探员的名字后便大开杀戒，而此时警视厅也弥漫着对L的不信任感…"
+      },
+      "title_native": "駆引",
+      "title_en": "Tactics",
+      "title_cn": "策略",
+      "aired": "2006-11-01",
+      "heat": {
+        "mal_replies": 150,
+        "imdb_votes": 9351
+      }
+    },
+    {
+      "n": 6,
+      "sources": {
+        "mal": {
+          "score": 4.48,
+          "forum_replies": 125,
+          "url": "https://myanimelist.net/anime/1535/Death_Note/episode/6"
+        },
+        "imdb": {
+          "rating": 8.2,
+          "votes": 8901,
+          "tconst": "tt0905451",
+          "season": 1,
+          "episode": 6
+        },
+        "tmdb": {
+          "vote_average": 8.0,
+          "vote_count": 64,
+          "still": "https://image.tmdb.org/t/p/w500/5J62ABo9G1OrTYbLeShozI5uBwg.jpg",
+          "season": 1,
+          "episode": 6
+        }
+      },
+      "synopsis": {
+        "en": "Light meets a woman at the Police Department with an urgent message for the Kira task force. As son of the chief investigator, Light listens to her story, and is startled to discover she may have information that could lead to his arrest.",
+        "zh": "FBI探员们的死亡让调查进陷入胶着。此时，却出现一位自称获有基拉重要线索的女子…"
+      },
+      "title_native": "綻び",
+      "title_en": "Unraveling",
+      "title_cn": "破绽",
+      "aired": "2006-11-08",
+      "heat": {
+        "mal_replies": 125,
+        "imdb_votes": 8901
+      }
+    },
+    {
+      "n": 7,
+      "sources": {
+        "mal": {
+          "score": 4.68,
+          "forum_replies": 269,
+          "url": "https://myanimelist.net/anime/1535/Death_Note/episode/7"
+        },
+        "imdb": {
+          "rating": 9.2,
+          "votes": 12069,
+          "tconst": "tt0919367",
+          "season": 1,
+          "episode": 7
+        },
+        "tmdb": {
+          "vote_average": 8.6,
+          "vote_count": 63,
+          "still": "https://image.tmdb.org/t/p/w500/sYCqCMvO2stQIJewetuUNP78MmG.jpg",
+          "season": 1,
+          "episode": 7
+        }
+      },
+      "synopsis": {
+        "en": "Light uses the Death Note to try to get rid of the woman who could get him captured, and is shocked when it doesn’t work. Realizing she must have given him an alias, he’s only got minutes to find out her real name before she tells her story to the task force.",
+        "zh": "虽然在笔记本上写下了那名女子的姓名，但她却没死。月发觉对方使用假名后，处心积虑的要问出她的真名。"
+      },
+      "title_native": "曇天",
+      "title_en": "Overcast",
+      "title_cn": "阴天",
+      "aired": "2006-11-15",
+      "heat": {
+        "mal_replies": 269,
+        "imdb_votes": 12069
+      }
+    },
+    {
+      "n": 8,
+      "sources": {
+        "mal": {
+          "score": 4.61,
+          "forum_replies": 147,
+          "url": "https://myanimelist.net/anime/1535/Death_Note/episode/8"
+        },
+        "imdb": {
+          "rating": 8.4,
+          "votes": 8589,
+          "tconst": "tt0919369",
+          "season": 1,
+          "episode": 8
+        },
+        "tmdb": {
+          "vote_average": 8.0,
+          "vote_count": 61,
+          "still": "https://image.tmdb.org/t/p/w500/smXhV1fvWJrDtGB1MV8N3lIt5JY.jpg",
+          "season": 1,
+          "episode": 8
+        }
+      },
+      "synopsis": {
+        "en": "L insists on setting up bugs and cameras in the homes of Chief Yagami and Deputy Director Kitamura—whom Raye Penber was tracking. But Light is a step ahead as usual—he knows he’s being watched.",
+        "zh": "月发觉自己的房间受到监视了。为了洗刷自己的嫌疑，他利用摄影机的死角制裁罪犯。"
+      },
+      "title_native": "目線",
+      "title_en": "Glare",
+      "title_cn": "视线",
+      "aired": "2006-11-22",
+      "heat": {
+        "mal_replies": 147,
+        "imdb_votes": 8589
+      }
+    },
+    {
+      "n": 9,
+      "sources": {
+        "mal": {
+          "score": 4.62,
+          "forum_replies": 131,
+          "url": "https://myanimelist.net/anime/1535/Death_Note/episode/9"
+        },
+        "imdb": {
+          "rating": 8.6,
+          "votes": 8764,
+          "tconst": "tt0919370",
+          "season": 1,
+          "episode": 9
+        },
+        "tmdb": {
+          "vote_average": 8.2,
+          "vote_count": 62,
+          "still": "https://image.tmdb.org/t/p/w500/iBRK6viH6YPlD81p6kD7yZlTIrZ.jpg",
+          "season": 1,
+          "episode": 9
+        }
+      },
+      "synopsis": {
+        "en": "The murders continue, and L grows suspicious of Light’s too-perfect behavior and decides to investigate him on his own. In order to get closer to Light, L enrolls at the same university and reveals himself to be L.",
+        "zh": "月和L同时以新生代表进入大学，在观众席上，L对月说：我就是L....."
+      },
+      "title_native": "接触",
+      "title_en": "Encounter",
+      "title_cn": "智慧",
+      "aired": "2006-11-29",
+      "heat": {
+        "mal_replies": 131,
+        "imdb_votes": 8764
+      }
+    },
+    {
+      "n": 10,
+      "sources": {
+        "mal": {
+          "score": 4.42,
+          "forum_replies": 128,
+          "url": "https://myanimelist.net/anime/1535/Death_Note/episode/10"
+        },
+        "imdb": {
+          "rating": 8.2,
+          "votes": 8317,
+          "tconst": "tt0919368",
+          "season": 1,
+          "episode": 10
+        },
+        "tmdb": {
+          "vote_average": 7.8,
+          "vote_count": 59,
+          "still": "https://image.tmdb.org/t/p/w500/iaXRsMzritInUDbQGUXG3ej3sTS.jpg",
+          "season": 1,
+          "episode": 10
+        }
+      },
+      "synopsis": {
+        "en": "L's suspicion of Light deepens, compelling him to invite Light into the investigation. But then a phone call alerts them that Soichiro Yagami has suffered a heart attack!",
+        "zh": "怀疑月是基拉的L，为了分析月的个性而邀他打一场网球赛。此时，樱花电视台却收到了署名为基拉的人寄来的录影带…"
+      },
+      "title_native": "疑惑",
+      "title_en": "Doubt",
+      "title_cn": "疑惑",
+      "aired": "2006-12-06",
+      "heat": {
+        "mal_replies": 128,
+        "imdb_votes": 8317
+      }
+    },
+    {
+      "n": 11,
+      "sources": {
+        "mal": {
+          "score": 4.58,
+          "forum_replies": 142,
+          "url": "https://myanimelist.net/anime/1535/Death_Note/episode/11"
+        },
+        "imdb": {
+          "rating": 8.7,
+          "votes": 8763,
+          "tconst": "tt0919371",
+          "season": 1,
+          "episode": 11
+        },
+        "tmdb": {
+          "vote_average": 8.2,
+          "vote_count": 57,
+          "still": "https://image.tmdb.org/t/p/w500/lgNB5KSLGYHrNgZeb0dYkDseqZX.jpg",
+          "season": 1,
+          "episode": 11
+        }
+      },
+      "synopsis": {
+        "en": "As predicted on the tapes sent to Sakura TV, news anchors and commentators who expressed doubt about Kira die one by one. On further investigation, L concludes that this Kira is not the original—there's a second Kira!",
+        "zh": "录影带中预告的罪犯及不认同基拉的媒体工作者都死了。宇生田急忙赶去阻止电视台继续播放，而夜神局长会！？"
+      },
+      "title_native": "突入",
+      "title_en": "Assault",
+      "title_cn": "闯入",
+      "aired": "2006-12-13",
+      "heat": {
+        "mal_replies": 142,
+        "imdb_votes": 8763
+      }
+    },
+    {
+      "n": 12,
+      "sources": {
+        "mal": {
+          "score": 4.52,
+          "forum_replies": 158,
+          "url": "https://myanimelist.net/anime/1535/Death_Note/episode/12"
+        },
+        "imdb": {
+          "rating": 8.3,
+          "votes": 8111,
+          "tconst": "tt0924022",
+          "season": 1,
+          "episode": 12
+        },
+        "tmdb": {
+          "vote_average": 7.9,
+          "vote_count": 58,
+          "still": "https://image.tmdb.org/t/p/w500/nXhKdqsD4TZb83ZVkqNyYqkRMOX.jpg",
+          "season": 1,
+          "episode": 12
+        }
+      },
+      "synopsis": {
+        "en": "With a second Kira now on the loose, L asks Light to join the task force and pose as the real Kira in order to catch the copycat. Light agrees, hoping to divert suspicion from himself. To his surprise, this new Kira has a special ability even Light lacks…",
+        "zh": "L认为有第二位基拉却故意不告诉月，让他观看录影带以便试探他的反应。而此时，拥有死神之眼的第二基拉海砂则是…"
+      },
+      "title_native": "恋心",
+      "title_en": "Love",
+      "title_cn": "爱意",
+      "aired": "2006-12-27",
+      "heat": {
+        "mal_replies": 158,
+        "imdb_votes": 8111
+      }
+    },
+    {
+      "n": 13,
+      "sources": {
+        "mal": {
+          "score": 0.0,
+          "forum_replies": 140,
+          "url": "https://myanimelist.net/anime/1535/Death_Note/episode/13"
+        },
+        "imdb": {
+          "rating": 8.3,
+          "votes": 7991,
+          "tconst": "tt0924023",
+          "season": 1,
+          "episode": 13
+        },
+        "tmdb": {
+          "vote_average": 7.9,
+          "vote_count": 57,
+          "still": "https://image.tmdb.org/t/p/w500/peEBI9p36VCBgDp6XW8JRjO7Vdt.jpg",
+          "season": 1,
+          "episode": 13
+        }
+      },
+      "synopsis": {
+        "en": "Light goes to Aoyama to discover the identity of the second Kira before L becomes more suspicious. But Misa Amane, the new Kira, uses her unusual gift to find Light before he finds her.",
+        "zh": "月为了跟第二基拉接触而到了青山。没想到却被拥有死神之眼的海砂认出来了。"
+      },
+      "title_native": "告白",
+      "title_en": "Confession",
+      "title_cn": "表白",
+      "aired": "2007-01-10",
+      "heat": {
+        "mal_replies": 140,
+        "imdb_votes": 7991
+      }
+    },
+    {
+      "n": 14,
+      "sources": {
+        "mal": {
+          "score": 0.0,
+          "forum_replies": 144,
+          "url": "https://myanimelist.net/anime/1535/Death_Note/episode/14"
+        },
+        "imdb": {
+          "rating": 8.2,
+          "votes": 7894,
+          "tconst": "tt0947907",
+          "season": 1,
+          "episode": 14
+        },
+        "tmdb": {
+          "vote_average": 7.9,
+          "vote_count": 55,
+          "still": "https://image.tmdb.org/t/p/w500/ztpKA5qn2eggXEH7xVsQPI2wYCW.jpg",
+          "season": 1,
+          "episode": 14
+        }
+      },
+      "synopsis": {
+        "en": "Light and Misa show each other their Death Notes, and Light asks Misa to have her shinigami Rem get rid of L. But Misa asks something of Light in return—to fall in love with her!",
+        "zh": "海砂表明身份后，月决定利用她来查出L的名字。而看完新寄来的录影带后，L推论基拉和第二基拉已经接触了。"
+      },
+      "title_native": "友達",
+      "title_en": "Friend",
+      "title_cn": "朋友",
+      "aired": "2007-01-17",
+      "heat": {
+        "mal_replies": 144,
+        "imdb_votes": 7894
+      }
+    },
+    {
+      "n": 15,
+      "sources": {
+        "mal": {
+          "score": 4.58,
+          "forum_replies": 134,
+          "url": "https://myanimelist.net/anime/1535/Death_Note/episode/15"
+        },
+        "imdb": {
+          "rating": 8.9,
+          "votes": 9100,
+          "tconst": "tt0947906",
+          "season": 1,
+          "episode": 15
+        },
+        "tmdb": {
+          "vote_average": 8.2,
+          "vote_count": 56,
+          "still": "https://image.tmdb.org/t/p/w500/haM3evWcGOKlm2vb4mMiIuOOcqs.jpg",
+          "season": 1,
+          "episode": 15
+        }
+      },
+      "synopsis": {
+        "en": "Evidence turns up that points to Misa Amane as the second Kira. In an effort to spare her, Rem forces Misa to forfeit her ownership of the Death Note.",
+        "zh": "L表示，如果自己在近期内死亡的话，月就是基拉。而正当他回学校找月时，碰巧遇见了在附近出外景的海砂…"
+      },
+      "title_native": "賭け",
+      "title_en": "Wager",
+      "title_cn": "赌注",
+      "aired": "2007-01-24",
+      "heat": {
+        "mal_replies": 134,
+        "imdb_votes": 9100
+      }
+    },
+    {
+      "n": 16,
+      "sources": {
+        "mal": {
+          "score": 4.59,
+          "forum_replies": 126,
+          "url": "https://myanimelist.net/anime/1535/Death_Note/episode/16"
+        },
+        "imdb": {
+          "rating": 8.3,
+          "votes": 7847,
+          "tconst": "tt0950512",
+          "season": 1,
+          "episode": 16
+        },
+        "tmdb": {
+          "vote_average": 7.8,
+          "vote_count": 55,
+          "still": "https://image.tmdb.org/t/p/w500/hjCoHx1bUBWefQpfCbrqGMf3OBU.jpg",
+          "season": 1,
+          "episode": 16
+        }
+      },
+      "synopsis": {
+        "en": "Misa is in confinement, though her memories of the Death Note have been completely wiped away. When Light is confined as well, the murders stop and suspicion of Light grows stronger. Then suddenly, the killings resume.",
+        "zh": "海砂放弃了死亡笔记本的所有权，而月和琉克也作了某项协议。之后，月独自到搜查总部，并表示自己可能就是基拉…"
+      },
+      "title_native": "決断",
+      "title_en": "Decision",
+      "title_cn": "抉择",
+      "aired": "2007-01-31",
+      "heat": {
+        "mal_replies": 126,
+        "imdb_votes": 7847
+      }
+    },
+    {
+      "n": 17,
+      "sources": {
+        "mal": {
+          "score": 4.4,
+          "forum_replies": 151,
+          "url": "https://myanimelist.net/anime/1535/Death_Note/episode/17"
+        },
+        "imdb": {
+          "rating": 8.0,
+          "votes": 7823,
+          "tconst": "tt0950513",
+          "season": 1,
+          "episode": 17
+        },
+        "tmdb": {
+          "vote_average": 7.7,
+          "vote_count": 55,
+          "still": "https://image.tmdb.org/t/p/w500/1FUuh3vBS6nHQrwyo9Mp8uJ7gSm.jpg",
+          "season": 1,
+          "episode": 17
+        }
+      },
+      "synopsis": {
+        "en": "After fifty days of confinement the killings continue, and Misa and Light are released. But L has devised a plan to ensure no more murders occur, and has Light's father, Soichiro, take the two for a ride that may be their last.",
+        "zh": "即使基拉又再度复出制裁罪犯，L也仍旧不愿释放月和海砂。L到底对夜神总一郎提出什么样的释放条件呢？"
+      },
+      "title_native": "執行",
+      "title_en": "Execution",
+      "title_cn": "执行",
+      "aired": "2007-02-07",
+      "heat": {
+        "mal_replies": 151,
+        "imdb_votes": 7823
+      }
+    },
+    {
+      "n": 18,
+      "sources": {
+        "mal": {
+          "score": 4.18,
+          "forum_replies": 123,
+          "url": "https://myanimelist.net/anime/1535/Death_Note/episode/18"
+        },
+        "imdb": {
+          "rating": 7.3,
+          "votes": 7635,
+          "tconst": "tt0954288",
+          "season": 1,
+          "episode": 18
+        },
+        "tmdb": {
+          "vote_average": 7.0,
+          "vote_count": 58,
+          "still": "https://image.tmdb.org/t/p/w500/4TKRHj64fOaPynNP9tX635rqBQq.jpg",
+          "season": 1,
+          "episode": 18
+        }
+      },
+      "synopsis": {
+        "en": "Though L is still suspicious, Light and Misa, their memories of being Kira wiped clean, return to headquarters, where Light notices a strange connection between the recent Kira killings and the Yotsuba Group.",
+        "zh": "加入搜查总部的月开始怀疑因基拉事件而快速成长的公司-四叶集团。不料，却在此时受到了来自警方高层的施压…"
+      },
+      "title_native": "仲間",
+      "title_en": "Ally",
+      "title_cn": "同伴",
+      "aired": "2007-02-14",
+      "heat": {
+        "mal_replies": 123,
+        "imdb_votes": 7635
+      }
+    },
+    {
+      "n": 19,
+      "sources": {
+        "mal": {
+          "score": 4.32,
+          "forum_replies": 116,
+          "url": "https://myanimelist.net/anime/1535/Death_Note/episode/19"
+        },
+        "imdb": {
+          "rating": 7.6,
+          "votes": 7580,
+          "tconst": "tt0961420",
+          "season": 1,
+          "episode": 19
+        },
+        "tmdb": {
+          "vote_average": 7.246,
+          "vote_count": 57,
+          "still": "https://image.tmdb.org/t/p/w500/sF4lBqyCA7XUFnw3GcNyfreTlI4.jpg",
+          "season": 1,
+          "episode": 19
+        }
+      },
+      "synopsis": {
+        "en": "Matsuda, the task force member assigned to watch Misa, is eager to distinguish himself, and while on a job with Misa, he decides to do a little snooping on his own at the Yotsuba Group’s Tokyo headquarters.",
+        "zh": "松田擅自潜入四叶集团总公司，果然被四叶的干部发现了。他以弥海砂经纪人的身份努力松懈对方的警戒心…"
+      },
+      "title_native": "松田",
+      "title_en": "Matsuda",
+      "title_cn": "松田",
+      "aired": "2007-02-21",
+      "heat": {
+        "mal_replies": 116,
+        "imdb_votes": 7580
+      }
+    },
+    {
+      "n": 20,
+      "sources": {
+        "mal": {
+          "score": 4.18,
+          "forum_replies": 152,
+          "url": "https://myanimelist.net/anime/1535/Death_Note/episode/20"
+        },
+        "imdb": {
+          "rating": 7.3,
+          "votes": 7470,
+          "tconst": "tt0966785",
+          "season": 1,
+          "episode": 20
+        },
+        "tmdb": {
+          "vote_average": 7.462,
+          "vote_count": 52,
+          "still": "https://image.tmdb.org/t/p/w500/b92CjZHibPwxHPp4ID6vvaD5WZD.jpg",
+          "season": 1,
+          "episode": 20
+        }
+      },
+      "synopsis": {
+        "en": "L's team discovers that the Yotsuba Group meet in secret to discuss the elimination of individuals who are troublesome to their company, and concludes that Kira must be one of the eight executives. Can Light posing as L ferret out the right one?",
+        "zh": "搜查总部怀疑四叶集团与基拉有关联，而窃听他们开会的内容。月决定先与说话最具影响力、确定不是基拉身份的奈南川接触。"
+      },
+      "title_native": "姑息",
+      "title_en": "Makeshift",
+      "title_cn": "拖延",
+      "aired": "2007-02-28",
+      "heat": {
+        "mal_replies": 152,
+        "imdb_votes": 7470
+      }
+    },
+    {
+      "n": 21,
+      "sources": {
+        "mal": {
+          "score": 4.38,
+          "forum_replies": 116,
+          "url": "https://myanimelist.net/anime/1535/Death_Note/episode/21"
+        },
+        "imdb": {
+          "rating": 7.8,
+          "votes": 7419,
+          "tconst": "tt0972446",
+          "season": 1,
+          "episode": 21
+        },
+        "tmdb": {
+          "vote_average": 7.538,
+          "vote_count": 52,
+          "still": "https://image.tmdb.org/t/p/w500/bRPNU2tc41D44L5C3wuVRq7iYZH.jpg",
+          "season": 1,
+          "episode": 21
+        }
+      },
+      "synopsis": {
+        "en": "The Task Force uses Misa as a way to get closer to the Yotsuba corporation. But things get complicated when Rem tries to communicate with her.",
+        "zh": "如L所计划的，四叶集团决定起用海砂当作企业形象女郎。面试当天，雷姆在海砂面前现身，告诉她基拉的身份以及月的计划。"
+      },
+      "title_native": "活躍",
+      "title_en": "Performance",
+      "title_cn": "活跃",
+      "aired": "2007-03-07",
+      "heat": {
+        "mal_replies": 116,
+        "imdb_votes": 7419
+      }
+    },
+    {
+      "n": 22,
+      "sources": {
+        "mal": {
+          "score": 4.5,
+          "forum_replies": 98,
+          "url": "https://myanimelist.net/anime/1535/Death_Note/episode/22"
+        },
+        "imdb": {
+          "rating": 8.2,
+          "votes": 7492,
+          "tconst": "tt0972447",
+          "season": 1,
+          "episode": 22
+        },
+        "tmdb": {
+          "vote_average": 7.971,
+          "vote_count": 52,
+          "still": "https://image.tmdb.org/t/p/w500/k8XdLNTPvIOVpXn8OXV8pOxksw3.jpg",
+          "season": 1,
+          "episode": 22
+        }
+      },
+      "synopsis": {
+        "en": "Thanks to Misa, the Task Force now knows the identity of the new Kira and L plans an elaborate scheme to smoke him out of hiding.",
+        "zh": "L等人断定火口就是基拉。他们派火口认为已经死亡的松田在樱花电视台节目中露面，表明在节目最后要公开基拉的身份…"
+      },
+      "title_native": "誘導",
+      "title_en": "Guidance",
+      "title_cn": "诱导",
+      "aired": "2007-03-14",
+      "heat": {
+        "mal_replies": 98,
+        "imdb_votes": 7492
+      }
+    },
+    {
+      "n": 23,
+      "sources": {
+        "mal": {
+          "score": 4.67,
+          "forum_replies": 133,
+          "url": "https://myanimelist.net/anime/1535/Death_Note/episode/23"
+        },
+        "imdb": {
+          "rating": 8.9,
+          "votes": 8632,
+          "tconst": "tt0983351",
+          "season": 1,
+          "episode": 23
+        },
+        "tmdb": {
+          "vote_average": 8.192,
+          "vote_count": 52,
+          "still": "https://image.tmdb.org/t/p/w500/zbhauM0ivv4b2IkA20QPuQhEQ7N.jpg",
+          "season": 1,
+          "episode": 23
+        }
+      },
+      "synopsis": {
+        "en": "L, Light and Misa watch from the investigation team building and wonder who he is talking to. L wonders if Higuchi is talking to a shinigami. Rem convinces Higuchi to go to the station, but she has her own selfish motives for doing so.",
+        "zh": "为了杀掉松田，火口终于和雷姆做了“眼睛”的交易。火口像是在跟某人交谈的举动，让月觉得很可疑…"
+      },
+      "title_native": "狂騒",
+      "title_en": "Frenzy",
+      "title_cn": "狂乱",
+      "aired": "2007-03-21",
+      "heat": {
+        "mal_replies": 133,
+        "imdb_votes": 8632
+      }
+    },
+    {
+      "n": 24,
+      "sources": {
+        "mal": {
+          "score": 4.75,
+          "forum_replies": 174,
+          "url": "https://myanimelist.net/anime/1535/Death_Note/episode/24"
+        },
+        "imdb": {
+          "rating": 9.4,
+          "votes": 12213,
+          "tconst": "tt0990612",
+          "season": 1,
+          "episode": 24
+        },
+        "tmdb": {
+          "vote_average": 8.538,
+          "vote_count": 53,
+          "still": "https://image.tmdb.org/t/p/w500/vXoBIHI5u4jn8tieqMtbIPWtu1L.jpg",
+          "season": 1,
+          "episode": 24
+        }
+      },
+      "synopsis": {
+        "en": "While Higuchi is finally captured, Light inadvertently regains his memories as Kira.",
+        "zh": "遭到逮捕的火口说出了死亡笔记本的存在与实情。总一郎和L看到雷姆后大感惊愕，而月也终于摸到笔记本了…"
+      },
+      "title_native": "復活",
+      "title_en": "Revival",
+      "title_cn": "复活",
+      "aired": "2007-03-28",
+      "heat": {
+        "mal_replies": 174,
+        "imdb_votes": 12213
+      }
+    },
+    {
+      "n": 25,
+      "sources": {
+        "mal": {
+          "score": 4.52,
+          "forum_replies": 450,
+          "url": "https://myanimelist.net/anime/1535/Death_Note/episode/25"
+        },
+        "imdb": {
+          "rating": 9.6,
+          "votes": 18140,
+          "tconst": "tt0990611",
+          "season": 1,
+          "episode": 25
+        },
+        "tmdb": {
+          "vote_average": 8.946,
+          "vote_count": 56,
+          "still": "https://image.tmdb.org/t/p/w500/hKsiCNb6cUUmgFPfA5nbZW3Tlpq.jpg",
+          "season": 1,
+          "episode": 25
+        }
+      },
+      "synopsis": {
+        "en": "Light, his memory recovered, orders Misa to begin killing after Higuchi dies. The Shinigami Rem realizes that everything is going according to Light's plan, and that L will arrest Misa as Kira-unless Rem acts quickly.",
+        "zh": "L坚信月就是基拉却苦无证据。为了验证笔记本上13天期限的规定，L寻找愿意用死亡笔记本执行死刑的国家。这个时候雷姆…"
+      },
+      "title_native": "沈黙",
+      "title_en": "Silence",
+      "title_cn": "沉默",
+      "aired": "2007-04-04",
+      "heat": {
+        "mal_replies": 450,
+        "imdb_votes": 18140
+      }
+    },
+    {
+      "n": 26,
+      "sources": {
+        "mal": {
+          "score": 3.96,
+          "forum_replies": 140,
+          "url": "https://myanimelist.net/anime/1535/Death_Note/episode/26"
+        },
+        "imdb": {
+          "rating": 7.0,
+          "votes": 9127,
+          "tconst": "tt0990613",
+          "season": 1,
+          "episode": 26
+        },
+        "tmdb": {
+          "vote_average": 7.3,
+          "vote_count": 49,
+          "still": "https://image.tmdb.org/t/p/w500/znx2F672Ng1QqqVc3EtC5xrm9h9.jpg",
+          "season": 1,
+          "episode": 26
+        }
+      },
+      "synopsis": {
+        "en": "Light has removed everyone in his way and is closer to achieving his perfect world.",
+        "zh": "L死后月继任为第二代L，并杀了亚柏和温蒂以及跟案子有关的四叶干部。这个时候，在某教养机构里的两名少年也被告知了L的死讯…"
+      },
+      "title_native": "再生",
+      "title_en": "Renewal",
+      "title_cn": "再生",
+      "aired": "2007-04-11",
+      "heat": {
+        "mal_replies": 140,
+        "imdb_votes": 9127
+      }
+    },
+    {
+      "n": 27,
+      "sources": {
+        "mal": {
+          "score": 4.0,
+          "forum_replies": 150,
+          "url": "https://myanimelist.net/anime/1535/Death_Note/episode/27"
+        },
+        "imdb": {
+          "rating": 7.2,
+          "votes": 7142,
+          "tconst": "tt1007230",
+          "season": 1,
+          "episode": 27
+        },
+        "tmdb": {
+          "vote_average": 7.4,
+          "vote_count": 48,
+          "still": "https://image.tmdb.org/t/p/w500/5Nj7ueMx7zQyIC9WjLqAGcIVygW.jpg",
+          "season": 1,
+          "episode": 27
+        }
+      },
+      "synopsis": {
+        "en": "A new investigator steps forward-Near, a central figure in the SPK, an organization that is trying to catch Kira without relying on L. Near is aware of the existence of the Death Notes and wants to get his hands on one.",
+        "zh": "L的继承人梅洛与尼亚。教养机构的负责人罗杰希望他们能合力逮捕基拉，梅洛不满意罗杰的主意，便负气离开了教养机构…"
+      },
+      "title_native": "誘拐",
+      "title_en": "Abduction",
+      "title_cn": "绑架",
+      "aired": "2007-04-18",
+      "heat": {
+        "mal_replies": 150,
+        "imdb_votes": 7142
+      }
+    },
+    {
+      "n": 28,
+      "sources": {
+        "mal": {
+          "score": 4.08,
+          "forum_replies": 128,
+          "url": "https://myanimelist.net/anime/1535/Death_Note/episode/28"
+        },
+        "imdb": {
+          "rating": 7.3,
+          "votes": 7015,
+          "tconst": "tt1010095",
+          "season": 1,
+          "episode": 28
+        },
+        "tmdb": {
+          "vote_average": 7.2,
+          "vote_count": 48,
+          "still": "https://image.tmdb.org/t/p/w500/kDCYenlI22Fjzw7a5pR9cUy3ByI.jpg",
+          "season": 1,
+          "episode": 28
+        }
+      },
+      "synopsis": {
+        "en": "Light, acting as L, reveals to Near that his sister Sayu has been kidnapped by someone wanting to trade her for the Death Note. Near finds out that the trade will happen in Los Angeles and promises to help, while secretly planning to steal the Death Note and capture Kira.",
+        "zh": "尼亚以\"N\"为代号，与现任L的月用电话进行接触，也得知了月必须以死亡笔记本赎回被绑架的粧裕。"
+      },
+      "title_native": "焦燥",
+      "title_en": "Impatience",
+      "title_cn": "焦躁",
+      "aired": "2007-04-25",
+      "heat": {
+        "mal_replies": 128,
+        "imdb_votes": 7015
+      }
+    },
+    {
+      "n": 29,
+      "sources": {
+        "mal": {
+          "score": 4.27,
+          "forum_replies": 146,
+          "url": "https://myanimelist.net/anime/1535/Death_Note/episode/29"
+        },
+        "imdb": {
+          "rating": 8.0,
+          "votes": 9386,
+          "tconst": "tt1021402",
+          "season": 1,
+          "episode": 29
+        },
+        "tmdb": {
+          "vote_average": 7.7,
+          "vote_count": 47,
+          "still": "https://image.tmdb.org/t/p/w500/lg9llxpONn5t5GYR2pyIQNpYyPt.jpg",
+          "season": 1,
+          "episode": 29
+        }
+      },
+      "synopsis": {
+        "en": "Mortified over allowing the Death Note to fall into Mello's hands in order to save his daughter, Soichiro puts himself into harm's way in order to get it back.",
+        "zh": "月成功的利用了死亡笔记本的规则找出持有人，并写下梅洛身旁该持有人的名字，以判断他们的据点。"
+      },
+      "title_native": "父親",
+      "title_en": "Father",
+      "title_cn": "父亲",
+      "aired": "2007-05-02",
+      "heat": {
+        "mal_replies": 146,
+        "imdb_votes": 9386
+      }
+    },
+    {
+      "n": 30,
+      "sources": {
+        "mal": {
+          "score": 4.22,
+          "forum_replies": 127,
+          "url": "https://myanimelist.net/anime/1535/Death_Note/episode/30"
+        },
+        "imdb": {
+          "rating": 7.6,
+          "votes": 6821,
+          "tconst": "tt1021404",
+          "season": 1,
+          "episode": 30
+        },
+        "tmdb": {
+          "vote_average": 7.7,
+          "vote_count": 46,
+          "still": "https://image.tmdb.org/t/p/w500/hhNecHn6UEcvGIXaWaSqKfGOBIM.jpg",
+          "season": 1,
+          "episode": 30
+        }
+      },
+      "synopsis": {
+        "en": "Mello busts into SPK headquarters to retrieve a photograph of himself to make sure he won't be killed by Kira. In exchange for Near giving him the picture, Mello drops an important hint about the Death Notes: some of the rules are fake.",
+        "zh": "尼亚对月的怀疑日渐加深。但\"基拉就是正义\"的风气渐起，就连美国总统也宣布不再逮捕基拉。"
+      },
+      "title_native": "正義",
+      "title_en": "Justice",
+      "title_cn": "正义",
+      "aired": "2007-05-09",
+      "heat": {
+        "mal_replies": 127,
+        "imdb_votes": 6821
+      }
+    },
+    {
+      "n": 31,
+      "sources": {
+        "mal": {
+          "score": 4.36,
+          "forum_replies": 128,
+          "url": "https://myanimelist.net/anime/1535/Death_Note/episode/31"
+        },
+        "imdb": {
+          "rating": 7.6,
+          "votes": 6907,
+          "tconst": "tt1021403",
+          "season": 1,
+          "episode": 31
+        },
+        "tmdb": {
+          "vote_average": 7.5,
+          "vote_count": 44,
+          "still": "https://image.tmdb.org/t/p/w500/sXEJqLQvNEAGUJNDHJzfiMK0qV4.jpg",
+          "season": 1,
+          "episode": 31
+        }
+      },
+      "synopsis": {
+        "en": "Near contacts the Japanese task force and determines that Kira is among their members. He asks for insider information, and Aizawa, beginning to doubt Light, responds. Near suspects that the new L is really Light Yagami and that Light is Kira.",
+        "zh": "出目川所煽动的暴徒包围了SPK总部。确定别无他法之后，尼亚决定从大楼上撒下大笔美金，让成员趁乱之际逃离现场。"
+      },
+      "title_native": "移譲",
+      "title_en": "Transfer",
+      "title_cn": "转移",
+      "aired": "2007-05-16",
+      "heat": {
+        "mal_replies": 128,
+        "imdb_votes": 6907
+      }
+    },
+    {
+      "n": 32,
+      "sources": {
+        "mal": {
+          "score": 4.42,
+          "forum_replies": 150,
+          "url": "https://myanimelist.net/anime/1535/Death_Note/episode/32"
+        },
+        "imdb": {
+          "rating": 7.8,
+          "votes": 6967,
+          "tconst": "tt1029789",
+          "season": 1,
+          "episode": 32
+        },
+        "tmdb": {
+          "vote_average": 7.7,
+          "vote_count": 45,
+          "still": "https://image.tmdb.org/t/p/w500/A4v49zTK59PCExMM5tQJUqj0231.jpg",
+          "season": 1,
+          "episode": 32
+        }
+      },
+      "synopsis": {
+        "en": "Star newscaster Kiyomi Takada becomes Kira's spokesperson to the world, after Demegawa is deleted by Mikami, and she just so happens to have been Light's girlfriend in college. Aizawa's suspicions about Light grow.",
+        "zh": "魅上积极地利用死亡笔记本来铲除恶徒，并选择NHN的主播高田清美来担任基拉新的代言人。不过，高田她也正巧是…"
+      },
+      "title_native": "選択",
+      "title_en": "Selection",
+      "title_cn": "选择",
+      "aired": "2007-05-23",
+      "heat": {
+        "mal_replies": 150,
+        "imdb_votes": 6967
+      }
+    },
+    {
+      "n": 33,
+      "sources": {
+        "mal": {
+          "score": 4.2,
+          "forum_replies": 99,
+          "url": "https://myanimelist.net/anime/1535/Death_Note/episode/33"
+        },
+        "imdb": {
+          "rating": 7.1,
+          "votes": 6805,
+          "tconst": "tt1029788",
+          "season": 1,
+          "episode": 33
+        },
+        "tmdb": {
+          "vote_average": 7.0,
+          "vote_count": 48,
+          "still": "https://image.tmdb.org/t/p/w500/lsPwoKFZ7u5BuUOdVc6LAK6RRKf.jpg",
+          "season": 1,
+          "episode": 33
+        }
+      },
+      "synopsis": {
+        "en": "Near goes to Japan, allegedly as bait for Kira. Following Light's instructions, Takada asks Mikami to send her five pages of the Death Note. She tells him that he will continue his work in a fake book made to look like the real one.",
+        "zh": "尼亚为了打倒基拉而来到日本，并向月下了挑战书。另一方面，月将高田找来谈话，为了不被监听，便以笔谈方式要求高田协助。"
+      },
+      "title_native": "嘲笑",
+      "title_en": "Scorn",
+      "title_cn": "嘲笑",
+      "aired": "2007-05-30",
+      "heat": {
+        "mal_replies": 99,
+        "imdb_votes": 6805
+      }
+    },
+    {
+      "n": 34,
+      "sources": {
+        "mal": {
+          "score": 4.21,
+          "forum_replies": 108,
+          "url": "https://myanimelist.net/anime/1535/Death_Note/episode/34"
+        },
+        "imdb": {
+          "rating": 7.2,
+          "votes": 6700,
+          "tconst": "tt1043073",
+          "season": 1,
+          "episode": 34
+        },
+        "tmdb": {
+          "vote_average": 7.2,
+          "vote_count": 46,
+          "still": "https://image.tmdb.org/t/p/w500/pJgzs8RJXFI1TD6Jp5kwbz65kqV.jpg",
+          "season": 1,
+          "episode": 34
+        }
+      },
+      "synopsis": {
+        "en": "Aizawa figures out what's going on and tells Near, who already knows about the notes. Near instructs Aizawa to continue watching Light, and then puts in motion a plan to separate Misa from Light.",
+        "zh": "尼亚等人在解读了魅上的唇语过後，确定他身边没有死神。另一方面，相泽查到了月和高田笔谈的证据，然而…"
+      },
+      "title_native": "虎視",
+      "title_en": "Vigilance",
+      "title_cn": "警觉",
+      "aired": "2007-06-06",
+      "heat": {
+        "mal_replies": 108,
+        "imdb_votes": 6700
+      }
+    },
+    {
+      "n": 35,
+      "sources": {
+        "mal": {
+          "score": 4.45,
+          "forum_replies": 147,
+          "url": "https://myanimelist.net/anime/1535/Death_Note/episode/35"
+        },
+        "imdb": {
+          "rating": 8.0,
+          "votes": 7057,
+          "tconst": "tt1043074",
+          "season": 1,
+          "episode": 35
+        },
+        "tmdb": {
+          "vote_average": 7.6,
+          "vote_count": 46,
+          "still": "https://image.tmdb.org/t/p/w500/2Zb7s6RZ6uvEL8YJ4R7KhEQBCuk.jpg",
+          "season": 1,
+          "episode": 35
+        }
+      },
+      "synopsis": {
+        "en": "Light and Near agree upon a meeting place for the final confrontation. A key player is kidnapped and the end results are shocking.",
+        "zh": "为了解决一切，尼亚要求与月见面。月为了除掉尼亚，对高田下达了最后的指令。然而高田却被梅洛绑架了…"
+      },
+      "title_native": "殺意",
+      "title_en": "Malice",
+      "title_cn": "杀意",
+      "aired": "2007-06-13",
+      "heat": {
+        "mal_replies": 147,
+        "imdb_votes": 7057
+      }
+    },
+    {
+      "n": 36,
+      "sources": {
+        "mal": {
+          "score": 4.67,
+          "forum_replies": 153,
+          "url": "https://myanimelist.net/anime/1535/Death_Note/episode/36"
+        },
+        "imdb": {
+          "rating": 9.0,
+          "votes": 9678,
+          "tconst": "tt1044252",
+          "season": 1,
+          "episode": 36
+        },
+        "tmdb": {
+          "vote_average": 8.3,
+          "vote_count": 47,
+          "still": "https://image.tmdb.org/t/p/w500/5jnmAdjOpeCHN4v4R5XquLICPt5.jpg",
+          "season": 1,
+          "episode": 36
+        }
+      },
+      "synopsis": {
+        "en": "The Japanese Task Force and the SPK finally meet at YellowBox Warehouse on January 28th. However, a third party has come to the warehouse as well, on Kira's orders to kill everyone else there.",
+        "zh": "1月28日，月和尼亚终于见面了。尼亚取下了面具，名字却被在门外偷窥的魅上写进了死亡笔记本…"
+      },
+      "title_native": "1.28",
+      "title_en": "1.28 (January 28)",
+      "aired": "2007-06-20",
+      "heat": {
+        "mal_replies": 153,
+        "imdb_votes": 9678
+      }
+    },
+    {
+      "n": 37,
+      "sources": {
+        "mal": {
+          "score": 4.19,
+          "forum_replies": 1034,
+          "url": "https://myanimelist.net/anime/1535/Death_Note/episode/37"
+        },
+        "imdb": {
+          "rating": 8.8,
+          "votes": 12353,
+          "tconst": "tt1043075",
+          "season": 1,
+          "episode": 37
+        },
+        "tmdb": {
+          "vote_average": 8.4,
+          "vote_count": 52,
+          "still": "https://image.tmdb.org/t/p/w500/85nG6sUrczzZVATIXP9JJvNMuSo.jpg",
+          "season": 1,
+          "episode": 37
+        }
+      },
+      "synopsis": {
+        "en": "Though Mikami has written all the investigators' names in the Death Note, a minute passes and everyone is still alive. Near seizes Mikami's Death Note, and all is at last revealed.",
+        "zh": "魅上将所有人的名字写入死亡笔记本，所有的一切终于结束。新的世界即将来临..."
+      },
+      "title_native": "新世界",
+      "title_en": "New World",
+      "title_cn": "新世界",
+      "aired": "2007-06-27",
+      "heat": {
+        "mal_replies": 1034,
+        "imdb_votes": 12353
+      }
+    }
+  ],
+  "route": []
+}

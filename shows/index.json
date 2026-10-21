@@ -159,6 +159,38 @@
       "bridges": 1
     },
     {
+      "slug": "death-note-2006",
+      "title": "DEATH NOTE",
+      "title_cn": "死亡笔记",
+      "year": 2006,
+      "total_eps": 37,
+      "unit": "集",
+      "updated": "2026-10-21",
+      "series": null,
+      "series_title": null,
+      "version_label": null,
+      "cover": "https://cdn.myanimelist.net/images/anime/1079/138100.jpg",
+      "watch_eps": 0,
+      "route_eps": [],
+      "bridges": 0
+    },
+    {
+      "slug": "death-note-manga-2003",
+      "title": "Death Note",
+      "title_cn": "死亡笔记",
+      "year": 2003,
+      "total_eps": 108,
+      "unit": "话",
+      "updated": "2026-10-21",
+      "series": null,
+      "series_title": null,
+      "version_label": null,
+      "cover": "https://cdn.myanimelist.net/images/anime/1244/138851.jpg",
+      "watch_eps": 0,
+      "route_eps": [],
+      "bridges": 0
+    },
+    {
       "slug": "frieren-2023",
       "title": "Frieren: Beyond Journey's End",
       "title_cn": "葬送的芙莉莲",
