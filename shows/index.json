@@ -170,9 +170,28 @@
       "series_title": null,
       "version_label": null,
       "cover": "https://cdn.myanimelist.net/images/anime/1079/138100.jpg",
-      "watch_eps": 0,
-      "route_eps": [],
-      "bridges": 0
+      "watch_eps": 18,
+      "route_eps": [
+        1,
+        2,
+        5,
+        6,
+        7,
+        8,
+        9,
+        11,
+        15,
+        22,
+        23,
+        24,
+        25,
+        29,
+        32,
+        35,
+        36,
+        37
+      ],
+      "bridges": 9
     },
     {
       "slug": "death-note-manga-2003",
