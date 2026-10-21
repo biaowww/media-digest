@@ -403,7 +403,23 @@ class Handler(BaseHTTPRequestHandler):
         path = os.path.join(INTAKE_DIR, item["slug"] + ".json")
         with _lock:
             if os.path.exists(path):
-                return self._send(409, {"error": f"{item['slug']} 已在队列中"})
+                # 同 slug 再投：并入缺失块（智能体一条龙：先 meta 后内容，中间不等人）
+                try:
+                    with open(path, encoding="utf-8") as f:
+                        cur = json.load(f)
+                except ValueError:
+                    cur = {}
+                added = [k for k in ("intro", "route", "notes") if k not in cur and k in item]
+                for k in added:
+                    cur[k] = item[k]
+                if "meta" in item:  # meta 以最新一次为准（ids 可能后补全）
+                    cur["meta"] = item["meta"]
+                cur["queued_at"] = item.get("queued_at", cur.get("queued_at"))
+                tmp = path + ".tmp"
+                with open(tmp, "w", encoding="utf-8") as f:
+                    json.dump(cur, f, ensure_ascii=False, indent=1)
+                os.replace(tmp, path)
+                return self._send(200, {"ok": True, "slug": item["slug"], "merged": added})
             item["queued_at"] = int(time.time())
             tmp = path + ".tmp"
             with open(tmp, "w", encoding="utf-8") as f:
