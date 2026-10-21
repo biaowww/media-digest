@@ -66,7 +66,7 @@ def fetch_args(slug: str, meta: dict) -> list[str] | None:
             args += [f"--{k}", str(ids[k])]
     if not ids:  # 无评分源（小说等）：按 meta.total_eps 建骨架
         args += ["--total", str(meta["total_eps"])]
-    for k, flag in (("title", "--title"), ("title_cn", "--title-cn"), ("year", "--year"), ("season", "--season"), ("unit", "--unit")):
+    for k, flag in (("title", "--title"), ("title_cn", "--title-cn"), ("year", "--year"), ("season", "--season"), ("unit", "--unit"), ("kind", "--kind")):
         if meta.get(k) not in (None, ""):
             args += [flag, str(meta[k])]
     return args

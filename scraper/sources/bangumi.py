@@ -13,20 +13,33 @@ import re
 API = "https://api.bgm.tv/v0"
 HEADERS = {"User-Agent": "biaowww/media-digest (private research; https://github.com/biaowww)"}
 
-_VOL_NUM = re.compile(r"\((\d+)\)\s*$")
+_VOL_NUM = re.compile(r"\((\d+)\)")
 
 
 def fetch_volumes(subject_id: int | str, http) -> dict[int, dict]:
-    """系列条目的关联单行本 → {卷号: {score, votes, ...}}。每卷一次 API 调用（有缓存）。"""
+    """系列条目的关联单行本 → {卷号: {score, votes, ...}}。每卷一次 API 调用（有缓存）。
+    有的系列条目不回链单行本（如 DEATH NOTE 1674）：回退用搜索按名字找 "<系列名> (N)"。"""
     rel = http.get_json(f"{API}/subjects/{subject_id}/subjects", headers=HEADERS)
-    volumes: dict[int, dict] = {}
+    found: list[tuple[int, int]] = []
     for r in rel:
         m = _VOL_NUM.search(r.get("name") or "")
-        if r.get("relation") != "单行本" or not m:
-            continue
-        v = http.get_json(f"{API}/subjects/{r['id']}", headers=HEADERS)
+        if r.get("relation") == "单行本" and m:
+            found.append((int(m.group(1)), r["id"]))
+    if not found:
+        s = http.get_json(f"{API}/subjects/{subject_id}", headers=HEADERS)
+        base = (s.get("name") or "").strip()
+        if base:
+            pat = re.compile(r"^" + re.escape(base) + r"\s*\((\d+)\)")
+            res = http.get_json(f"{API.replace('/v0', '')}/search/subject/{base}", params={"type": "1", "responseGroup": "small"}, headers=HEADERS)
+            for x in (res or {}).get("list") or []:
+                m = pat.search(x.get("name") or "")
+                if m:
+                    found.append((int(m.group(1)), x["id"]))
+        http.log(f"bangumi: {len(found)} volume subjects (search fallback)")
+    volumes: dict[int, dict] = {}
+    for n, sid in found:
+        v = http.get_json(f"{API}/subjects/{sid}", headers=HEADERS)
         rating = v.get("rating") or {}
-        n = int(m.group(1))
         volumes[n] = {
             "title_native": v.get("name") or None,
             "title_cn": v.get("name_cn") or None,
