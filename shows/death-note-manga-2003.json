@@ -18,14 +18,15 @@
     "updated": "2026-10-22",
     "fetched": {
       "bangumi": "2026-10-22",
-      "wiki": "2026-10-22"
+      "wiki": "2026-10-22",
+      "mal": "2026-10-22"
     },
     "series": "death-note",
     "series_title": "死亡笔记 Death Note",
     "version_label": "漫画"
   },
   "about": {
-    "cover": "https://lain.bgm.tv/pic/cover/l/75/7f/1674_iZDEe.jpg",
+    "cover": "https://cdn.myanimelist.net/images/manga/1/258245.jpg",
     "synopsis": {
       "zh": "『週刊少年ジャンプ』2003年36号に掲載された読み切りが元になっている。ジャンプ史に残ると評されたヒットを記録し、2006年には2部構成実写映画版が公開(外伝映画は2008年に公開)、日本テレビ系列でTVアニメが放映された。\r\n\r\n人を死なせる力のある死神のノート「デスノート」を使って犯罪者を裁き、新世界の神になろうとする主人公と、主人公を悪と見なし、彼を追う名探偵とその後継者との闘いを描く。\r\n\r\n単行本の初版100万部最速到達記録を持っており、2004年の売り上げは、発売から1年目で年間ベスト10に入った。12巻までの世界累計発行部数は3000万部を突破しており、一巻平均が200万部を越すのは異例とされる。宝島社「このマンガがすごい!」オトコ版では、2006年と2007年に2位を獲得した。\r\n\r\nサブタイトルの多くは漢字2文字でつけられている。"
     },
@@ -34,11 +35,17 @@
         "score": 8.5,
         "votes": 2146,
         "rank": 109
+      },
+      "mal": {
+        "score": 8.68,
+        "votes": 247194,
+        "rank": 77
       }
     },
     "links": {
       "bangumi": "https://bgm.tv/subject/1674",
-      "wiki": "https://en.wikipedia.org/wiki/List_of_Death_Note_chapters"
+      "wiki": "https://en.wikipedia.org/wiki/List_of_Death_Note_chapters",
+      "mal": "https://myanimelist.net/manga/21"
     },
     "characters_bangumi": [
       {
@@ -64,6 +71,175 @@
         "relation": "主角",
         "image": "https://lain.bgm.tv/pic/crt/g/43/8f/16685_crt_4x93X.jpg?r=1658995225",
         "bangumi_id": 16685
+      }
+    ],
+    "genres": [
+      "Supernatural",
+      "Suspense",
+      "Psychological",
+      "Shounen"
+    ],
+    "characters": [
+      {
+        "name": "L Lawliet",
+        "role": "Main",
+        "image": "https://cdn.myanimelist.net/images/characters/10/249647.jpg",
+        "mal_id": 71,
+        "favorites": 132229
+      },
+      {
+        "name": "Ryuk",
+        "role": "Main",
+        "image": "https://cdn.myanimelist.net/images/characters/10/59125.jpg",
+        "mal_id": 75,
+        "favorites": 12959
+      },
+      {
+        "name": "Light Yagami",
+        "role": "Main",
+        "image": "https://cdn.myanimelist.net/images/characters/6/63870.jpg",
+        "mal_id": 80,
+        "favorites": 100294
+      },
+      {
+        "name": "Misa Amane",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/5/30971.jpg",
+        "mal_id": 835,
+        "favorites": 7508
+      },
+      {
+        "name": "Nate River",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/13/77339.jpg",
+        "mal_id": 464,
+        "favorites": 3869
+      },
+      {
+        "name": "Mihael Keehl",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/2/31498.jpg",
+        "mal_id": 463,
+        "favorites": 3472
+      },
+      {
+        "name": "Touta Matsuda",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/10/68302.jpg",
+        "mal_id": 1906,
+        "favorites": 1200
+      },
+      {
+        "name": "Teru Mikami",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/14/36951.jpg",
+        "mal_id": 1904,
+        "favorites": 1138
+      },
+      {
+        "name": "Mail Jeevas",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/9/42363.jpg",
+        "mal_id": 2730,
+        "favorites": 913
+      },
+      {
+        "name": "Rem",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/10/28562.jpg",
+        "mal_id": 1905,
+        "favorites": 718
+      },
+      {
+        "name": "Naomi Misora",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/4/146595.jpg",
+        "mal_id": 4959,
+        "favorites": 397
+      },
+      {
+        "name": "Souichirou Yagami",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/2/470067.jpg",
+        "mal_id": 1927,
+        "favorites": 170
+      },
+      {
+        "name": "Shuuichi Aizawa",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/4/55515.jpg",
+        "mal_id": 3767,
+        "favorites": 66
+      },
+      {
+        "name": "Raye Penber",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/16/56933.jpg",
+        "mal_id": 7044,
+        "favorites": 57
+      },
+      {
+        "name": "Quillsh Wammy",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/12/57165.jpg",
+        "mal_id": 2179,
+        "favorites": 56
+      },
+      {
+        "name": "Shidoh",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/13/62331.jpg",
+        "mal_id": 2402,
+        "favorites": 46
+      },
+      {
+        "name": "Jealous",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/13/68291.jpg",
+        "mal_id": 3883,
+        "favorites": 35
+      },
+      {
+        "name": "Stephen Loud",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/15/55516.jpg",
+        "mal_id": 3770,
+        "favorites": 26
+      },
+      {
+        "name": "Reiji Namikawa",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/8/57873.jpg",
+        "mal_id": 1929,
+        "favorites": 24
+      },
+      {
+        "name": "Kiyomi Takada",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/5/36947.jpg",
+        "mal_id": 3765,
+        "favorites": 24
+      },
+      {
+        "name": "Sayu Yagami",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/5/262773.jpg",
+        "mal_id": 8135,
+        "favorites": 19
+      },
+      {
+        "name": "Mary Kenwood",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/5/36923.jpg",
+        "mal_id": 1933,
+        "favorites": 18
+      },
+      {
+        "name": "Halle Bullook",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/16/58404.jpg",
+        "mal_id": 3769,
+        "favorites": 14
       }
     ]
   },
