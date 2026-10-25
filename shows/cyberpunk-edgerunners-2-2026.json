@@ -1,0 +1,905 @@
+{
+  "meta": {
+    "slug": "cyberpunk-edgerunners-2-2026",
+    "schema_version": 1,
+    "ids": {
+      "mal": "61990",
+      "bangumi": "513878",
+      "imdb": "tt12590266",
+      "tmdb": "105248",
+      "wiki": "Cyberpunk: Edgerunners 2"
+    },
+    "season": 2,
+    "unit": "话",
+    "title": "Cyberpunk: Edgerunners 2",
+    "title_cn": "赛博朋克：边缘行者2",
+    "title_native": "サイバーパンク エッジランナーズ2",
+    "year": 2026,
+    "total_eps": 10,
+    "primary_kpi": "imdb",
+    "updated": "2026-10-25",
+    "fetched": {
+      "mal": "2026-10-25",
+      "bangumi": "2026-10-25",
+      "imdb": "2026-10-25",
+      "tmdb": "2026-10-25",
+      "wiki": "2026-10-25"
+    }
+  },
+  "about": {
+    "cover": "https://cdn.myanimelist.net/images/anime/1431/160542.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w500/4NmCfWHzytiKM3riCMcbVYBJhlB.jpg",
+    "synopsis": {
+      "en": "Sequel to Cyberpunk: Edgerunners.",
+      "zh": "《赛博朋克：边缘行者2》把你带回夜之城。在那里，人与人的命运纠缠到了极致。昔日的赛博朋克传奇人物微克如今风光不再，不得不脱离义体活着，在这个对他熟视无睹的世界里寻找人生的意义。与此同时，手段狠辣的流浪者D踏上了复仇之路，也让他触及到了永远不该被外人发现的公司秘密。在这部总共十集的独立动画中，你将了解到一个关于家庭、执念、传承的故事——以及在你的镜头记录下，身边的人又会呈现出一个个怎样的故事。\r\n\r\n\r\n\r\n[简介原文]\r\n『サイバーパンク: エッジランナーズ２』で、再びナイトシティへ。すべてを手に入れるか、すべてを失うか――半端を嫌う街で、新たな物語が始まる。かつて名を馳せた伝説的サイバーパンク、ウィーク。クロームと力を失い、時代に取り残された彼は、自らの存在意義を探す。一方、復讐の道を歩み始めたノーマッドのDは、本来決して明るみに出るはずのなかった企業の秘密に遭遇する。家族。執着。過去の呪縛と未来に託す思い。そして己の“レンズ”が周囲の人々をどのように映し出すのか。10話構成のオリジナルアニメーションシリーズで、新たなエッジランナーズの運命が走り出す。"
+    },
+    "genres": [
+      "Action",
+      "Sci-Fi",
+      "Gore"
+    ],
+    "studios": [
+      "Trigger"
+    ],
+    "scores": {
+      "mal": {
+        "score": 8.27,
+        "votes": 37787,
+        "rank": 363
+      },
+      "bangumi": {
+        "score": 5.5,
+        "votes": 3939,
+        "rank": 9351
+      },
+      "imdb": {
+        "score": 8.3,
+        "votes": 136845
+      },
+      "tmdb": {
+        "score": 8.501,
+        "votes": 2082
+      }
+    },
+    "links": {
+      "mal": "https://myanimelist.net/anime/61990",
+      "bangumi": "https://bgm.tv/subject/513878",
+      "imdb": "https://www.imdb.com/title/tt12590266/",
+      "tmdb": "https://www.themoviedb.org/tv/105248",
+      "wiki": "https://en.wikipedia.org/wiki/Cyberpunk:_Edgerunners_2"
+    },
+    "characters": [
+      {
+        "name": "Roman Carax",
+        "role": "Main",
+        "image": "https://cdn.myanimelist.net/images/characters/2/637270.jpg",
+        "mal_id": 299239,
+        "favorites": 86
+      },
+      {
+        "name": "D",
+        "role": "Main",
+        "image": "https://cdn.myanimelist.net/images/characters/14/638257.jpg",
+        "mal_id": 299240,
+        "favorites": 178
+      },
+      {
+        "name": "Weak Kingsley",
+        "role": "Main",
+        "image": "https://cdn.myanimelist.net/images/characters/9/648636.jpg",
+        "mal_id": 299242,
+        "favorites": 95
+      },
+      {
+        "name": "Talia Yang",
+        "role": "Main",
+        "image": "https://cdn.myanimelist.net/images/characters/4/637273.jpg",
+        "mal_id": 299241,
+        "favorites": 255
+      },
+      {
+        "name": "Capricorn",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/2/648651.jpg",
+        "mal_id": 306076,
+        "favorites": 66
+      },
+      {
+        "name": "Omi",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/13/648619.jpg",
+        "mal_id": 306079,
+        "favorites": 54
+      },
+      {
+        "name": "Jessie",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/13/647307.jpg",
+        "mal_id": 305250,
+        "favorites": 7
+      },
+      {
+        "name": "Yupi",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/10/648670.jpg",
+        "mal_id": 306080,
+        "favorites": 5
+      },
+      {
+        "name": "Emily",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/3/648649.jpg",
+        "mal_id": 305821,
+        "favorites": 3
+      },
+      {
+        "name": "Kyouko",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/6/648684.jpg",
+        "mal_id": 306081,
+        "favorites": 3
+      },
+      {
+        "name": "Meshuga",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/7/648652.jpg",
+        "mal_id": 305822,
+        "favorites": 1
+      },
+      {
+        "name": "Hideyoshi Ooshima",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/10/648682.jpg",
+        "mal_id": 306115,
+        "favorites": 1
+      },
+      {
+        "name": "Alam",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/questionmark_23.gif",
+        "mal_id": 306158,
+        "favorites": 0
+      },
+      {
+        "name": "Sal Bigelow",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/2/647306.jpg",
+        "mal_id": 305249,
+        "favorites": 0
+      },
+      {
+        "name": "Hark",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/questionmark_23.gif",
+        "mal_id": 306157,
+        "favorites": 0
+      },
+      {
+        "name": "Hayakawa",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/questionmark_23.gif",
+        "mal_id": 306159,
+        "favorites": 0
+      },
+      {
+        "name": "Helio",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/16/648686.jpg",
+        "mal_id": 306116,
+        "favorites": 0
+      },
+      {
+        "name": "Kitano",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/16/647309.jpg",
+        "mal_id": 305252,
+        "favorites": 0
+      },
+      {
+        "name": "Miguel",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/6/648653.jpg",
+        "mal_id": 305820,
+        "favorites": 0
+      },
+      {
+        "name": "Kate Miller",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/2/551527.jpg",
+        "mal_id": 250073,
+        "favorites": 0
+      },
+      {
+        "name": "Richard",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/questionmark_23.gif",
+        "mal_id": 305818,
+        "favorites": 0
+      },
+      {
+        "name": "Avida Yang",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/14/647305.jpg",
+        "mal_id": 305248,
+        "favorites": 0
+      },
+      {
+        "name": "Kiril Yang",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/2/648685.jpg",
+        "mal_id": 305819,
+        "favorites": 0
+      }
+    ],
+    "characters_bangumi": [
+      {
+        "name_native": "Weak Kingsley",
+        "relation": "主角",
+        "image": "https://lain.bgm.tv/pic/crt/g/50/1e/215835_crt_rXUJ3.jpg",
+        "bangumi_id": 215835
+      },
+      {
+        "name_native": "D",
+        "relation": "主角",
+        "image": "https://lain.bgm.tv/pic/crt/g/73/39/215836_crt_rbBRB.jpg",
+        "bangumi_id": 215836
+      },
+      {
+        "name_native": "Roman Carax",
+        "relation": "主角",
+        "image": "https://lain.bgm.tv/pic/crt/g/6c/1f/215837_crt_nuGuG.jpg",
+        "bangumi_id": 215837
+      },
+      {
+        "name_native": "Talia Yang",
+        "relation": "主角",
+        "image": "https://lain.bgm.tv/pic/crt/g/d7/7a/215838_crt_r7zO5.jpg",
+        "bangumi_id": 215838
+      }
+    ]
+  },
+  "intro": {
+    "characters": [
+      {
+        "motivation": "在得知塔莉亚可能是自己女儿后，把余生押在救她上",
+        "name": "Weak Kingsley",
+        "name_cn": "微克·金斯利",
+        "role": "昔日传奇边缘行者，赛博精神病后高负荷义体被全部拆除"
+      },
+      {
+        "motivation": "向灭族的公司复仇；拿到卡普里后逐渐分不清复仇和依赖",
+        "name": "D",
+        "name_cn": "D（戴维）",
+        "role": "蛇之国民兵出身的网络行者，全族被灭的唯一幸存者之一"
+      },
+      {
+        "motivation": "先为钱，后为“把故事拍完整”，在危险的成人世界里越陷越深",
+        "name": "Roman Carax",
+        "name_cn": "罗曼·卡拉克斯",
+        "role": "拿着摄像机闯街头的少年，痴迷电影，靠拍下事件卖钱"
+      },
+      {
+        "motivation": "想掌控自己残破的身体和人生，最后以自己的方式讨回公道",
+        "name": "Talia Yang",
+        "name_cn": "塔莉亚·杨",
+        "role": "公司高管之女，违抗家族投身漩涡帮，身患绝症"
+      },
+      {
+        "motivation": "把濒死的女儿从公司和疾病手里抢回来，不惜一切",
+        "name": "Avida Yang",
+        "name_cn": "阿维达·杨",
+        "role": "塔莉亚的母亲，爵士歌手出身的康陶高管之妻"
+      }
+    ],
+    "highlights": [
+      "第一季的镜像结构：一个从失去义体开始的故事，回答“人活着非要燃烧吗”",
+      "双主角线：退役传奇的赎罪与流浪者的复仇，最后三集交汇",
+      "卡普里——寄生于人的人格构造体，本季最迷人也最危险的存在",
+      "五十岚海首执导筒，作画阵容保留今石洋之、吉成曜等第一季核心",
+      "The Cure 的 OP《10:15 Saturday Night》+ 今堀恒雄的爵士味配乐"
+    ],
+    "logline": "昔日传奇被拆掉一身义体后重返夜之城，一个拿摄像机的少年和一个复仇的流浪者，把他的最后一舞拍了下来。",
+    "standing": "第一季播出四年后由原班制作组回归，但评价明显分化：MAL 8.3 分维持了水准认可，Bangumi 仅 5.5 分，中文社区普遍批评其节奏与结局处理。它不再是现象级作品，但作为第一季的镜像故事和夜之城世界观的延伸，仍然值得一看——尤其是如果你想看到这座城市把人逼到墙角之后，还可以有第二种结局。",
+    "synopsis": "故事发生在第一季之后、《赛博朋克 2077》主线之后的夜之城。曾经的传奇边缘行者微克·金斯利在一次任务中赛博精神病发作，队友惨死，自己一身军用义体被强制拆除、财产清空——他活了下来，却成了一个被时代抛下的普通人。与此同时，流浪者网络行者 D 踏上了为灭族之仇讨还血债的路，而这条路的尽头，连着一份永远不该被曝光的公司机密。\n\n把两条线缝在一起的是少年罗曼：一个拿着摄像机、梦想拍电影的街头小孩。他拍下了微克的崩溃，也开始记录 D 的复仇。当一块会“自己做决定”的荒坂数据芯片——人格构造体“卡普里”——进入所有人的命运，关于家庭、执念与传承的十集故事就此展开。这一季问的问题与第一季正好相反：如果不再燃烧自己，人还剩下什么？"
+  },
+  "episodes": [
+    {
+      "n": 1,
+      "sources": {
+        "mal": {
+          "score": 4.27,
+          "forum_replies": 84,
+          "url": "https://myanimelist.net/anime/61990/Cyberpunk__Edgerunners_2/episode/1"
+        },
+        "imdb": {
+          "tconst": "tt37529938",
+          "season": 2,
+          "episode": 1
+        },
+        "tmdb": {
+          "vote_average": 7.2,
+          "vote_count": 10,
+          "still": "https://image.tmdb.org/t/p/w500/sMnzI5Oo01QdxZhjAf48rehrHWy.jpg",
+          "season": 2,
+          "episode": 1
+        },
+        "bangumi": {
+          "comments": 87,
+          "url": "https://bgm.tv/ep/1532450"
+        }
+      },
+      "synopsis": {
+        "en": "In 2078, veteran edgerunner Weak \"King\" Kingsley leads a botched heist to steal a datashard from an Arasaka facility. King succumbs to a cyberpsychosis-induced rampage, forcing MaxTac to incapacitate him, before being evacuated by Trauma Team. Amateur filmmaker Roman Carax captures the rampage on film and sells it to braindance dealer Sal, who appraises it for a paltry sum. Sal reminds Roman that traditional film has fallen out of style in favor of braindances, though he offers to sell a rare 35mm camera in exchange for footage of the Maelstrom gang. King regains consciousness to find that his medical bills have bankrupted him, his implants were forcibly downgraded to prevent another cyberpsychotic episode, and his old crew has abandoned him. Roman sneaks into Maelstrom territory and films Talia Yang, only to be caught by the gang while Talia takes his camera. He is saved by the nomadic netrunner D, who obtains the location of a man named Helio from a Maelstrom member. King contemplates committing suicide when he is suddenly contacted by his ex-lover and Talia's mother, Avida Yang. Elsewhere, Talia is abducted by Kang Tao soldiers.",
+        "zh": "一个处于赛博精神病边缘的前边缘行者与一名有着破碎过往的孤独幸存者分别在夜之城的两端开启了各自的故事。"
+      },
+      "title_native": "瀬戸際のスローダンス",
+      "title_en": "Last Chance for a Slow Dance",
+      "title_cn": "最后一支慢舞",
+      "aired": "2026-10-20",
+      "heat": {
+        "mal_replies": 84,
+        "bangumi_comments": 87
+      },
+      "notes": {
+        "summary": "传奇边缘行者微克带队潜入荒坂工业园偷生物芯片，行动中他看见不存在的女人而僵住，任务崩盘。撤退中队友艾米莉重伤，微克彻底赛博精神病发作屠戮荒坂部队，最终被暴恐机动队制服，艾米莉不治。两个月后他醒来：高负荷义体全被换成低配，积蓄清零。拿摄像机拍下这一切的少年罗曼把素材卖给黑市商人萨尔，之后又被漩涡帮抓住，被网络行者 D 顺手救下。片尾微克在来生酒吧被米格尔一拳打倒——艾米莉死了，活着的是他。",
+        "new": [
+          {
+            "kind": "recurring",
+            "name": "Weak Kingsley",
+            "name_cn": "微克·金斯利",
+            "note": "昔日传奇边缘行者，本集赛博精神病发作"
+          },
+          {
+            "kind": "recurring",
+            "name": "Roman Carax",
+            "name_cn": "罗曼·卡拉克斯",
+            "note": "拿摄像机的少年，拍下全程"
+          },
+          {
+            "kind": "recurring",
+            "name": "D",
+            "name_cn": "D",
+            "note": "流浪者网络行者，从漩涡帮手里救下罗曼"
+          },
+          {
+            "kind": "recurring",
+            "name": "Talia Yang",
+            "name_cn": "塔莉亚·杨",
+            "note": "从康陶医院病房逃出"
+          },
+          {
+            "kind": "one-off",
+            "name": "Emily",
+            "name_cn": "艾米莉",
+            "note": "微克团队的打手，伤重不治"
+          },
+          {
+            "kind": "recurring",
+            "name": "Miguel",
+            "name_cn": "米格尔",
+            "note": "微克团队技师"
+          },
+          {
+            "kind": "recurring",
+            "name": "Meshuga",
+            "name_cn": "梅舒加",
+            "note": "微克团队的网络行者"
+          },
+          {
+            "kind": "recurring",
+            "name": "Sal Bigelow",
+            "name_cn": "萨尔·毕格罗",
+            "note": "收购超梦素材的黑市商人"
+          }
+        ]
+      }
+    },
+    {
+      "n": 2,
+      "sources": {
+        "mal": {
+          "score": 4.34,
+          "forum_replies": 43,
+          "url": "https://myanimelist.net/anime/61990/Cyberpunk__Edgerunners_2/episode/2"
+        },
+        "imdb": {
+          "tconst": "tt37533922",
+          "season": 2,
+          "episode": 2
+        },
+        "tmdb": {
+          "vote_average": 7.611,
+          "vote_count": 9,
+          "still": "https://image.tmdb.org/t/p/w500/cQYGjBr6mtVh2XglfXa8gVvMjDH.jpg",
+          "season": 2,
+          "episode": 2
+        },
+        "bangumi": {
+          "comments": 62,
+          "url": "https://bgm.tv/ep/1532451"
+        }
+      },
+      "synopsis": {
+        "en": "King meets with Avida, who claims Talia is his daughter and wants him to convince her to leave Maelstrom. Roman accompanies D in his raid of Helio's hideout, where D interrogates him about the massacre of his Snake Nation camp. Helio surmises the job was arranged by Arasaka. At the hospital, Avida admits she enlisted Kang Tao to capture Talia and install a GPS tracker in her. Talia flees both Kang Tao and King, though King manages to hack her tracker for his own use. With no leads to follow, Roman suggests to D that they find the missing Arasaka datashard and use it as a bargaining chip to get the information he needs. D and Roman attempt to break into a building housing the datashard but are repelled by its defenses. Talia returns Roman's camera and proposes he record her latest implant surgery. However, D asks Roman to accompany him in seizing the datashard again the next day, forcing Roman to cancel his hangout with Talia. King tracks Talia to Maelstrom's stronghold, where he is held captive.",
+        "zh": "接到一通十万火急的电话后，微克再次以身犯险，去营救一名叛逆少年。D与一位年轻的电影迷结下了友谊，却被痛苦的回忆激起了复仇的欲望。"
+      },
+      "title_native": "明日をください",
+      "title_en": "Give Me Another Day",
+      "title_cn": "再给我一天",
+      "aired": "2026-10-20",
+      "heat": {
+        "mal_replies": 43,
+        "bangumi_comments": 62
+      },
+      "notes": {
+        "summary": "阿维达找到微克，出 5 万欧金雇他找回加入漩涡帮的女儿塔莉亚，并说出重组全局的真相：塔莉亚是微克的女儿。另一边 D 带着罗曼追查灭族惨案最后的活口赫利奥，得知那是公司出钱买的单，凡碰过那块荒坂数据芯片的人全都消失了；D 放过了他。塔莉亚逃出诊所，微克追上她拆掉了腿里的康陶追踪器。塔莉亚把摄像机还给罗曼并想看他拍的更多东西。微克跟踪她走进漩涡帮据点，被擒。",
+        "new": [
+          {
+            "kind": "recurring",
+            "name": "Avida Yang",
+            "name_cn": "阿维达·杨",
+            "note": "塔莉亚的母亲，爵士歌手出身的康陶高管夫人"
+          },
+          {
+            "kind": "one-off",
+            "name": "Helio",
+            "name_cn": "赫利奥",
+            "note": "前佣兵，承认灭族案是公司下单"
+          }
+        ]
+      }
+    },
+    {
+      "n": 3,
+      "sources": {
+        "mal": {
+          "score": 4.36,
+          "forum_replies": 46,
+          "url": "https://myanimelist.net/anime/61990/Cyberpunk__Edgerunners_2/episode/3"
+        },
+        "imdb": {
+          "tconst": "tt37533924",
+          "season": 2,
+          "episode": 3
+        },
+        "tmdb": {
+          "vote_average": 7.375,
+          "vote_count": 8,
+          "still": "https://image.tmdb.org/t/p/w500/u8vsox0soaP2HXWUVSKLxiTMgMR.jpg",
+          "season": 2,
+          "episode": 3
+        },
+        "bangumi": {
+          "comments": 76,
+          "url": "https://bgm.tv/ep/1532452"
+        }
+      },
+      "synopsis": {
+        "en": "Talia is forced to sever ties with Maelstrom after they threaten King. Now socially isolated, Talia suffers a nervous breakdown and shows early symptoms of cyberpsychosis, worrying King. Meanwhile, Arasaka scientist Kyoko, who is revealed to have stolen the datashard during King's heist, lures D and Roman deeper into the building to use them as test subjects. D finds the datashard at Kyoko's lab and impulsively installs it, causing a consciousness named Capri to possess him. With his body and mind being manipulated by Capri, D remotely hacks Night City's electronic system and wreaks havoc, stunning Roman. King arranges Talia to be sent to the hospital, as he privately warns Avida of Talia's cyberpsychosis. Roman apologizes to Talia for not being present at her surgery, while Capri tries to seize full control of D's body but fails.",
+        "zh": "微克试图将塔莉亚从一场危险的手术中救出来，但冲突最终酿成了灾祸。D和罗曼发现了一枚会引发骚乱的混乱芯片。"
+      },
+      "title_native": "0+2=1",
+      "title_en": "0+2=1",
+      "title_cn": "0+2=1",
+      "aired": "2026-10-20",
+      "heat": {
+        "mal_replies": 46,
+        "bangumi_comments": 76
+      },
+      "notes": {
+        "summary": "微克想硬闯带走塔莉亚，但没有战斗义体、没有团队，而塔莉亚自己不想被“救”——漩涡帮让她相信手术是唯一活路，营救彻底失败。另一边罗曼给 D 做采访，D 讲出蛇之国和“蝰蛇”派系的往事：他的族人不是帮派，而是一个被抹掉的游牧共同体。荒坂芯片此时显露出异常活性：腐蚀系统、制造幻觉——它不是普通数据。片名 0+2=1 就是本季的题眼。"
+      }
+    },
+    {
+      "n": 4,
+      "sources": {
+        "mal": {
+          "score": 4.44,
+          "forum_replies": 42,
+          "url": "https://myanimelist.net/anime/61990/Cyberpunk__Edgerunners_2/episode/4"
+        },
+        "imdb": {
+          "tconst": "tt37533923",
+          "season": 2,
+          "episode": 4
+        },
+        "tmdb": {
+          "vote_average": 7.438,
+          "vote_count": 8,
+          "still": "https://image.tmdb.org/t/p/w500/fBLNQdQjOaBlrbK3c1lM80c05Mj.jpg",
+          "season": 2,
+          "episode": 4
+        },
+        "bangumi": {
+          "comments": 62,
+          "url": "https://bgm.tv/ep/1532453"
+        }
+      },
+      "synopsis": {
+        "en": "D wakes up at Roman's home with no memory of his frenzy, and Roman worriedly suggests he remove the datashard. Capri reveals that she is an engram designed as a substitute for a true artificial intelligence, adding she is only effective when installed in a suitable human host. D coerces Capri into helping him and Roman get revenge for the Snake Nation's deaths. With Capri's help, they break into Arasaka Tower and hack its database, beating up an employee named Kitano in the process. They are unable to find out who is behind the attack, though they discover a list that includes D, Talia, and the late David Martinez. Avida's husband Kiril tries to suppress knowledge of Talia's condition and is warned by his superior to find the datashard for Kang Tao. King invites Talia to lunch to talk, revealing he knows she installs cyberware to compensate for a degenerative neural disease. Angered, Talia invites Roman who brings D with him. Sensing that Talia is a more compatible host, Capri forces D to install her datashard inside Talia.",
+        "zh": "D还未完全掌握自己的能力，却已借助摩羯的力量，潜入荒坂塔研究设施。塔莉亚与微克也逐渐找到共同点。"
+      },
+      "title_native": "記憶の痕跡",
+      "title_en": "Someone That I Used to Know",
+      "title_cn": "曾经相识的人",
+      "aired": "2026-11-20",
+      "heat": {
+        "mal_replies": 42,
+        "bangumi_comments": 62
+      },
+      "notes": {
+        "summary": "纠缠 D 的红色幻影有了名字：卡普里，由多个人类人格数字化拼成的武器级构造体，需要一个宿主。D 做了本季第一个真正糟糕的决定——让她留下：她给他力量，他给她身体。借卡普里之力，D 和罗曼潜入荒坂档案馆，发现的并非武器图纸而是人事档案：D、塔莉亚和“大卫·马丁内斯”被编进同一个被掩埋的公司项目。塔莉亚被确诊为赛博精神病前驱、义体耐受耗尽，被漩涡帮榨干价值后抛弃，微克把她接了回来。结尾罗曼牵线让 D 与微克、塔莉亚见面——卡普里对微克露出毫不掩饰的欣喜：她认识他，原因未明。",
+        "new": [
+          {
+            "kind": "recurring",
+            "name": "Capri",
+            "name_cn": "卡普里",
+            "note": "红影真身：由数字化人格拼成的构造体"
+          }
+        ]
+      }
+    },
+    {
+      "n": 5,
+      "sources": {
+        "mal": {
+          "score": 4.44,
+          "forum_replies": 41,
+          "url": "https://myanimelist.net/anime/61990/Cyberpunk__Edgerunners_2/episode/5"
+        },
+        "imdb": {
+          "tconst": "tt37533925",
+          "season": 2,
+          "episode": 5
+        },
+        "tmdb": {
+          "vote_average": 7.688,
+          "vote_count": 8,
+          "still": "https://image.tmdb.org/t/p/w500/6U7XgNsbua4HQOigZysIO4gOmmA.jpg",
+          "season": 2,
+          "episode": 5
+        },
+        "bangumi": {
+          "comments": 56,
+          "url": "https://bgm.tv/ep/1532454"
+        }
+      },
+      "synopsis": {
+        "en": "Talia, under Capri's influence, breaks down and begins lashing out at everything around her. King subdues her long enough for Roman to remove the datashard. D flees with the datashard while Talia is evacuated by Trauma Team. D reinstalls the datashard but Capri becomes completely silent and inert, causing him to become obsessed with getting Capri to speak again. At the hospital, Avida is informed of Talia's shortened lifespan due to her accelerating neural degeneration. King asks Roman to retrieve the datashard for analysis. D tries to tap into the datashard's power without success. Roman eventually tracks D down on the outskirts of the city. D refuses to hand over the datashard as they are attacked by Tyger Claws hired by a vengeful Kitano. D regains the datashard's power after pleading with Capri and brutally murders Kitano and the Tyger Claws, with Roman filming it.",
+        "zh": "一次冲动之举使塔莉亚彻底失控。D对复仇的执念演变成令人不安的暴力状态。"
+      },
+      "title_native": "夢か幻か",
+      "title_en": "Fades (Pass the Distance)",
+      "title_cn": "消逝（跨越距离）",
+      "aired": "2026-10-20",
+      "heat": {
+        "mal_replies": 41,
+        "bangumi_comments": 56
+      },
+      "notes": {
+        "summary": "卡普里毫无预兆地从 D 的芯片涌入塔莉亚体内，拖着她失控上街，磁力扯动金属伤及路人；微克没有义体，用双手和声音硬生生把她拦下，差点赔上性命。诊断随即到来：塔莉亚的绝症已侵入大脑，义体是唯一能撑住她的东西，而每一件新义体都在把她推向崩坏——没有干净的选项。微克求罗曼去偷 D 的芯片救女儿，D 拒绝了：那是他唯一够得着仇人的力量。后半段是 D 最黑暗的时刻：遇伏、与卡普里重新连接，然后在她的低语中把一名俘虏折磨到生不如死。罗曼的镜头一直在转。"
+      }
+    },
+    {
+      "n": 6,
+      "sources": {
+        "mal": {
+          "score": 4.32,
+          "forum_replies": 28,
+          "url": "https://myanimelist.net/anime/61990/Cyberpunk__Edgerunners_2/episode/6"
+        },
+        "imdb": {
+          "tconst": "tt37533931",
+          "season": 2,
+          "episode": 6
+        },
+        "tmdb": {
+          "vote_average": 7.25,
+          "vote_count": 8,
+          "still": "https://image.tmdb.org/t/p/w500/oRaMBmRQDYEGJEEC1wseNLMaiX2.jpg",
+          "season": 2,
+          "episode": 6
+        },
+        "bangumi": {
+          "comments": 55,
+          "url": "https://bgm.tv/ep/1532455"
+        }
+      },
+      "synopsis": {
+        "en": "D asks Roman to edit a video of his declaration of war against Arasaka in return for the datashard. King contacts his netrunner Meshuga for ways to save Talia. Meshuga suggests using Arasaka's Soulkiller technology, which the corporation used in an attempt to transfer a person's digitized soul into another body, though he advises on the project's instability. D uses the datashard to broadcast his declaration all across Night City, and wages a campaign of terrorism against Arasaka while Roman films his exploits. They are then approached by Yupi, a fan willing to contribute her wealth to their cause after sharing her hatred of Arasaka. D's crusade influences several delinquents to join him thanks to Yupi's funding, and Sal offers to distribute Roman's videos of D. Roman grows increasingly disillusioned with D's endless obsession with revenge when he is contacted by Kyoko posing as an anonymous fan. King suggests to Avida that Kiril is their best lead on Soulkiller, while Kiril recognizes the presence of \"Capricorn\" in Roman's videos. At the hospital, Capri makes contact with Talia.",
+        "zh": "D变成了一名反抗企业的义警，并要求罗曼拍下他的一举一动。微克调查一个关于能够转移数字化意识技术的传闻。"
+      },
+      "title_native": "振り撒く憎悪",
+      "title_en": "Everything Hate",
+      "title_cn": "一切皆恨",
+      "aired": "2026-10-20",
+      "heat": {
+        "mal_replies": 28,
+        "bangumi_comments": 55
+      },
+      "notes": {
+        "summary": "塔莉亚短暂好转——体内的卡普里在从内部修复她的身体，但修复同时也是投资。D 和罗曼把复仇做成内容：蒙面袭击荒坂资产、剪辑、发布，夜之城照例把暴力捧成明星，中间人尤皮提供据点。罗曼不只是拍，他在剪——把一个人的悲痛剪成连续剧，而且剪得很好。微克追查唯一可能救塔莉亚的线索：灵魂杀手技术能把意识移植到别的身体，他让阿维达去查自己的丈夫基里尔，直接把她推上了绝路。D 的青梅、灭族案另一位幸存者奥米找上门，直说复仇换不回家人；D 听了，没停。塔莉亚体内，卡普里说出真正目的：与寄在 D 脑中的另一半自己重聚。",
+        "new": [
+          {
+            "kind": "recurring",
+            "name": "Omi",
+            "name_cn": "奥米",
+            "note": "D 的青梅，灭族案另一位幸存者"
+          },
+          {
+            "kind": "one-off",
+            "name": "Yupi",
+            "name_cn": "尤皮",
+            "note": "中间人，为 D 提供据点和扩音器"
+          },
+          {
+            "kind": "recurring",
+            "name": "Jessie",
+            "name_cn": "杰西",
+            "note": "把原始记忆剪成商品的超梦工程师"
+          }
+        ]
+      }
+    },
+    {
+      "n": 7,
+      "sources": {
+        "mal": {
+          "score": 4.39,
+          "forum_replies": 30,
+          "url": "https://myanimelist.net/anime/61990/Cyberpunk__Edgerunners_2/episode/7"
+        },
+        "imdb": {
+          "tconst": "tt37533934",
+          "season": 2,
+          "episode": 7
+        },
+        "tmdb": {
+          "vote_average": 7.313,
+          "vote_count": 8,
+          "still": "https://image.tmdb.org/t/p/w500/l2ewtDsHimpBxKmHBETgDC9CpBy.jpg",
+          "season": 2,
+          "episode": 7
+        },
+        "bangumi": {
+          "comments": 56,
+          "url": "https://bgm.tv/ep/1532456"
+        }
+      },
+      "synopsis": {
+        "en": "Kyoko recalls developing Capri as part of Arasaka's Project Capricorn to create supersoldiers. However, the inability to find suitable hosts led to Arasaka shutting down the project. Capri reveals she implanted her consciousness within Talia's mind and has managed to reverse her neural degeneration. Capri goads Talia to retrieve the datashard to fully restore her capabilities. Still unable to find answers, D escalates his acts of terrorism until he is confronted by fellow Snake Nation survivor Omi, who reprimands him for losing himself in his obsession for revenge. Roman privately meets with Omi, who recounts the events of the massacre and reveals D's real name is David. Talia then invites Roman to watch a movie, and Capri notes they can use him to get close to D. Avida secretly downloads all of Kiril's data on Soulkiller and discovers Kang Tao has their own copy following a backdoor deal with Arasaka. She and King decide to steal Kang Tao's Soulkiller to save Talia, unaware that Kiril is secretly monitoring them.",
+        "zh": "在摩羯的照看下，塔莉亚的病情有了惊人的转变。D与一位老友重新取得联系。微克和阿维达寻求奇迹疗法。"
+      },
+      "title_native": "道連れダイバー",
+      "title_en": "To the Depths with You",
+      "title_cn": "与你一同坠入深渊",
+      "aired": "2026-10-20",
+      "heat": {
+        "mal_replies": 30,
+        "bangumi_comments": 56
+      },
+      "notes": {
+        "summary": "京子揭开卡普里计划全貌：构造体由数字化人格拼成，此前每一任宿主都在融合中死亡，D 是第一个活下来的——这让他珍贵，而非幸运。荒坂因成本叫停项目，康陶一直在暗中试图重启。情感炸弹同时引爆：奥米喊出了 D 的真名——戴维，与第一季的大卫·马丁内斯同名，剧集故意把它放在第七集。D 的袭击越来越表演化，奥米和罗曼都劝不住。阿维达确认灵魂杀手+兼容躯体是塔莉亚唯一的活路，微克与她这对旧情人开始共同策划这场公司级抢劫。最安静的一场戏最重要：塔莉亚约罗曼看电影，想让他安排与 D 见面——卡普里第一次直接否决了宿主的选择。",
+        "new": [
+          {
+            "kind": "arc",
+            "name": "Kyoko",
+            "name_cn": "京子",
+            "note": "卡普里计划的技术负责人"
+          }
+        ]
+      }
+    },
+    {
+      "n": 8,
+      "sources": {
+        "mal": {
+          "score": 4.48,
+          "forum_replies": 35,
+          "url": "https://myanimelist.net/anime/61990/Cyberpunk__Edgerunners_2/episode/8"
+        },
+        "imdb": {
+          "tconst": "tt37533932",
+          "season": 2,
+          "episode": 8
+        },
+        "tmdb": {
+          "vote_average": 7.438,
+          "vote_count": 8,
+          "still": "https://image.tmdb.org/t/p/w500/znrUJWLn0OW76DxZvpglp73fFaq.jpg",
+          "season": 2,
+          "episode": 8
+        },
+        "bangumi": {
+          "comments": 62,
+          "url": "https://bgm.tv/ep/1532457"
+        }
+      },
+      "synopsis": {
+        "en": "Concerned about D's deteriorating mental state, Roman brings Kyoko to diagnose him. Kyoko accidentally divulges her knowledge about the Arasaka list and flees when D attacks her, straining the friendship between D and Roman. D is then contacted by Arasaka intelligence officer Kate Miller, who arranges to trade information about him in exchange for her safety. Kate explains that D was to be used for Project Capricorn upon seeing his compatability, until the scheduled extraction mission to the Snake Nation camp devolved into a massacre of the clan. She also points out that the man who ordered the mission, Tanaka, was already killed by David Martinez's crew.As depicted in the Cyberpunk: Edgerunnners episode \"Girl on Fire\". Blaming himself for the massacre and with Yupi enabling him, a despondent D kills Kate and leads a massive riot. Kyoko proposes to Kang Tao on helping to secure Capri for them. She uses the datashard's failsafe to subdue D, while Kang Tao soldiers kill Yupi and the rioters. King and Avida attempt to break into Kang Tao's Soulkiller facility but are forced to leave after Kiril ambushes them. Avida, who was mortally wounded in the shootout, asks King to protect Talia before dying, devastating him.",
+        "zh": "街头爆发骚乱，而D正深入挖掘摩羯计划的黑暗过往。时间紧迫，阿维达和微克为塔莉亚的未来拼尽全力。"
+      },
+      "title_native": "心臓",
+      "title_en": "Serce",
+      "title_cn": "心",
+      "aired": "2026-10-20",
+      "heat": {
+        "mal_replies": 35,
+        "bangumi_comments": 62
+      },
+      "notes": {
+        "summary": "罗曼带京子见 D，京子一眼认出他就是卡普里计划的兼容体，D 当场失控攻击京子、赶走罗曼，斩断了最后一根把他拉回“人”这一边的线。随后荒坂高管凯特给了他追索多年的答案：灭族不是惩罚，是田中下令的一次失败抓捕——目标就是 D 本人，动手的人早已死光，没有仇可报了。D 还是杀了凯特，并煽动全城暴乱：本季最大的动作场面，也是最空的一场。微克、阿维达、梅舒加趁乱实施灵魂杀手抢劫，被基里尔截住——阿维达中弹身亡。康陶缴获 D 和芯片，卡普里的两半终于都落进公司手里；塔莉亚面对的，是崩坏的身体、死去的母亲和一个准备收网的构造体。",
+        "new": [
+          {
+            "kind": "one-off",
+            "name": "Kate",
+            "name_cn": "凯特",
+            "note": "荒坂高管，说出灭族案真相后被 D 杀死"
+          },
+          {
+            "kind": "recurring",
+            "name": "Kiril Yang",
+            "name_cn": "基里尔·杨",
+            "note": "塔莉亚的父亲，康陶高管，杀死阿维达"
+          }
+        ]
+      }
+    },
+    {
+      "n": 9,
+      "sources": {
+        "mal": {
+          "score": 4.45,
+          "forum_replies": 26,
+          "url": "https://myanimelist.net/anime/61990/Cyberpunk__Edgerunners_2/episode/9"
+        },
+        "imdb": {
+          "tconst": "tt37533935",
+          "season": 2,
+          "episode": 9
+        },
+        "tmdb": {
+          "vote_average": 7.5,
+          "vote_count": 8,
+          "still": "https://image.tmdb.org/t/p/w500/i7Th9qKryIvTkJEBNoCfeXKzgmM.jpg",
+          "season": 2,
+          "episode": 9
+        },
+        "bangumi": {
+          "comments": 49,
+          "url": "https://bgm.tv/ep/1532458"
+        }
+      },
+      "synopsis": {
+        "en": "Kang Tao removes the datashard from D and leaves him for dead, though Omi rescues and helps him recuperate. Talia grows distraught at the discovery of Avida's death from King. Kyoko is frustrated to learn that Capri is not in the datashard, but after gleaning information from Roman, both she and Kiril realize Capri split herself into Talia. Kiril and Kang Tao kidnap Talia and beat down King, with Kiril revealing that Avida lied about Talia being King's daughter. At Kang Tao's headquarters, Kyoko inserts the datashard into Talia to complete Capri's installation, fulfilling Project Capricorn's goal. Before Talia's personality is overwritten, she requests that Kiril be killed as revenge for Avida. Capri takes full control of Talia's body and begins publicly broadcasting her pursuit and torture of Kiril. Seeing this, Roman, D, King, and Kyoko all begin to converge on their location.",
+        "zh": "奥米和D隐匿行踪，而基里尔将塔莉亚拘押。恭子推进了摩羯计划，其后果令人不寒而栗。"
+      },
+      "title_native": "喰う者と喰われる者",
+      "title_en": "Strictly Reserved for You",
+      "title_cn": "专属于你",
+      "aired": "2026-10-20",
+      "heat": {
+        "mal_replies": 26,
+        "bangumi_comments": 49
+      },
+      "notes": {
+        "summary": "康陶以为 D 已死，但缴获的芯片几乎是空壳——卡普里仍分裂在 D 和塔莉亚两边。微克亲口告诉塔莉亚她母亲死了。得知女儿时日无多、病灶入脑、完整植入卡普里将彻底覆盖她的意识，基里尔签了同意书，告诉自己“她反正要死了”。塔莉亚没有被动接受——她谈条件：让卡普里以最惨烈的方式杀死她父亲，为母亲抵命。卡普里近乎愉快地答应了，穿着濒死少女的身体把猎杀当成游戏，全程直播。D 在奥米帮助下活下来，承认复仇是空的，坦言现在唯一想要的只剩卡普里——他追的不再是仇人，而是那个让他觉得自己还活着的东西。基里尔还随口戳破：微克根本不是塔莉亚的生父。微克什么都没说，行为没有任何改变——这就是答案。",
+        "new": [
+          {
+            "kind": "one-off",
+            "name": "Richard",
+            "name_cn": "理查德",
+            "note": "康陶高管，参与对塔莉亚的处置决策"
+          },
+          {
+            "kind": "arc",
+            "name": "Kitano",
+            "name_cn": "北野",
+            "note": "荒坂高管，把忠诚当资产类别"
+          }
+        ]
+      }
+    },
+    {
+      "n": 10,
+      "sources": {
+        "mal": {
+          "score": 4.31,
+          "forum_replies": 144,
+          "url": "https://myanimelist.net/anime/61990/Cyberpunk__Edgerunners_2/episode/10"
+        },
+        "imdb": {
+          "tconst": "tt37533936",
+          "season": 2,
+          "episode": 10
+        },
+        "tmdb": {
+          "vote_average": 7.8,
+          "vote_count": 8,
+          "still": "https://image.tmdb.org/t/p/w500/lMYYI8BzJk90iKfem7MGvkXEO9T.jpg",
+          "season": 2,
+          "episode": 10
+        },
+        "bangumi": {
+          "comments": 165,
+          "url": "https://bgm.tv/ep/1532459"
+        }
+      },
+      "synopsis": {
+        "en": "Capri continues pursuing Kiril, with King and D giving chase. Roman and Omi follow D, as Kyoko lends her help after hearing D only aims to see Capri again. Kang Tao expends their resources to eliminate Capri, culminating in a full-scale airstrike. Learning this, Kyoko sacrifices herself to trigger an EMP and thwart the airstrike, killing Kiril in the resulting destruction. D retrieves the datashard following a brief fight with Talia, reinstalling Capri back in himself and accepting to coexist with her. A dying Kyoko warns D that Arasaka and Militech have scrambled teams to collect Capri for their own ends, prompting D to make a last stand against the corporations that ends with both him and Capri presumably dying. In the aftermath, Talia's condition regresses. After having all of her cyberware removed, she decides to leave Night City with King and bids farewell to Roman, encouraging him to keep filming and promising they will reunite one day to watch his films. Roman, King, and Talia resolve to continue living and keep pushing forward.",
+        "zh": "一场骇人的巨变将城市变成了战区，激烈的冲突随之爆发。"
+      },
+      "title_native": "それぞれの居場所へ",
+      "title_en": "Then Everyone Went Home",
+      "title_cn": "然后大家都回家了",
+      "aired": "2026-10-20",
+      "heat": {
+        "mal_replies": 144,
+        "bangumi_comments": 165
+      },
+      "notes": {
+        "summary": "完全融合卡普里的塔莉亚在夜之城街头猎杀基里尔，金属如铠甲缠身。微克追上来想替她动手——不为复仇，为让她不必亲手弑父——塔莉亚却转向他，康陶开火，装着阿维达骨灰的骨灰盒替微克挡下子弹。康陶把塔莉亚诱入恶土并呼叫空袭，京子带着便携电磁脉冲赶到，与导弹同归于尽，临终警告 D：荒坂和军用科技已经在路上。基里尔死于坠机。D 从塔莉亚头上拔出芯片，卡普里两半合一，为 D 重塑手臂与腿，两人并肩迎向公司大军；D 撕开第一波攻势后，卡普里指向天上的一点光，他对着罗曼的镜头笑了笑，跃向那束光——画面戛然而止。尾声异常安静：塔莉亚活下来但被拆除大部分义体，微克带她离开夜之城去康复诊所，临走她告诉罗曼“你有天赋，我们还会再见”。微克说，他想活下去。罗曼扛起摄像机跑向新的故事，最后一个镜头摇向天空中唯一的光点。"
+      }
+    }
+  ],
+  "route": [
+    {
+      "eps": [
+        1,
+        2
+      ],
+      "kind": "watch",
+      "why": "开局两集定调：微克的崩溃是全季的地基，“塔莉亚是他女儿”的反转则把雇佣合同变成家庭命题，必须亲眼看"
+    },
+    {
+      "eps": [
+        3,
+        3
+      ],
+      "kind": "bridge",
+      "paragraphs": [
+        "微克试图硬闯漩涡帮救塔莉亚，但没有义体的他失败了——塔莉亚自己不想被救，漩涡帮让她相信手术是唯一活路。",
+        "罗曼给 D 做了一场采访，D 第一次说出蛇之国的往事：那是被抹掉的游牧共同体，不是帮派。两人手里的荒坂芯片开始显露出诡异的“活性”——它会腐蚀系统、制造幻觉，像活物一样。",
+        "微克空手而归，但看清了一件事：女儿已经陷得比他想象深得多。"
+      ],
+      "title": "营救失败与会说话的芯片"
+    },
+    {
+      "eps": [
+        4,
+        5
+      ],
+      "kind": "watch",
+      "why": "季内口碑最高的两集：卡普里正式登场并与 D 共生，档案馆揭开“大卫·马丁内斯同名档案”的悬念，随后芯片流入塔莉亚体内、她的绝症诊断把一切推入倒计时"
+    },
+    {
+      "eps": [
+        6,
+        6
+      ],
+      "kind": "bridge",
+      "paragraphs": [
+        "体内的卡普里在修复塔莉亚的身体，她短暂好转——但修复同时是投资。D 和罗曼把复仇做成了“内容”：蒙面袭击荒坂、剪辑发布，夜之城照例把暴力捧成明星。",
+        "微克查到灵魂杀手技术可能是塔莉亚唯一的活路，让阿维达去调查她的丈夫基里尔——这个决定把她推向危险。D 的青梅奥米找上门，直说复仇换不回家人；D 听了，没停。",
+        "卡普里在塔莉亚体内说出真正的目的：她想与寄在 D 脑中的另一半自己重聚。"
+      ],
+      "title": "复仇变成流量"
+    },
+    {
+      "eps": [
+        7,
+        8
+      ],
+      "kind": "watch",
+      "why": "真相三连击的前两击：卡普里计划的吃人本质、D 真名“戴维”的炸弹，以及第 8 话阿维达之死——全季最痛的一刀，暴乱与抢劫交叉剪辑是全季制作顶点"
+    },
+    {
+      "eps": [
+        9,
+        10
+      ],
+      "kind": "watch",
+      "why": "终局：塔莉亚与卡普里融合后猎杀生父，恶土决战与“然后大家都回家了”的安静结局——它给出与第一季完全相反的答案，看完才能评判这一季的价值"
+    }
+  ]
+}

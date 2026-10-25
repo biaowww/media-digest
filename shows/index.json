@@ -159,6 +159,57 @@
       "bridges": 1
     },
     {
+      "slug": "cyberpunk-edgerunners-2-2026",
+      "title": "Cyberpunk: Edgerunners 2",
+      "title_cn": "赛博朋克：边缘行者2",
+      "year": 2026,
+      "total_eps": 10,
+      "unit": "话",
+      "updated": "2026-10-25",
+      "series": null,
+      "series_title": null,
+      "version_label": null,
+      "cover": "https://cdn.myanimelist.net/images/anime/1431/160542.jpg",
+      "watch_eps": 8,
+      "route_eps": [
+        1,
+        2,
+        4,
+        5,
+        7,
+        8,
+        9,
+        10
+      ],
+      "bridges": 2
+    },
+    {
+      "slug": "cyberpunk-edgerunners-2022",
+      "title": "Cyberpunk: Edgerunners",
+      "title_cn": "赛博朋克：边缘行者",
+      "year": 2022,
+      "total_eps": 10,
+      "unit": "话",
+      "updated": "2026-10-25",
+      "series": null,
+      "series_title": null,
+      "version_label": null,
+      "cover": "https://cdn.myanimelist.net/images/anime/1818/126435.jpg",
+      "watch_eps": 9,
+      "route_eps": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "bridges": 1
+    },
+    {
       "slug": "death-note-2006",
       "title": "DEATH NOTE",
       "title_cn": "死亡笔记",
@@ -205,9 +256,19 @@
       "series_title": "死亡笔记 Death Note",
       "version_label": "漫画",
       "cover": "https://cdn.myanimelist.net/images/manga/1/258245.jpg",
-      "watch_eps": 0,
-      "route_eps": [],
-      "bridges": 0
+      "watch_eps": 9,
+      "route_eps": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        9,
+        11,
+        12
+      ],
+      "bridges": 3
     },
     {
       "slug": "frieren-2023",

@@ -1,0 +1,890 @@
+{
+  "meta": {
+    "slug": "cyberpunk-edgerunners-2022",
+    "schema_version": 1,
+    "ids": {
+      "mal": "42310",
+      "bangumi": "309311",
+      "imdb": "tt12590266",
+      "tmdb": "105248",
+      "wiki": "Cyberpunk: Edgerunners"
+    },
+    "season": 1,
+    "unit": "话",
+    "title": "Cyberpunk: Edgerunners",
+    "title_cn": "赛博朋克：边缘行者",
+    "title_native": "サイバーパンク エッジランナーズ",
+    "year": 2022,
+    "total_eps": 10,
+    "primary_kpi": "imdb",
+    "updated": "2026-10-25",
+    "fetched": {
+      "mal": "2026-10-25",
+      "bangumi": "2026-10-25",
+      "imdb": "2026-10-25",
+      "tmdb": "2026-10-25",
+      "wiki": "2026-10-25"
+    }
+  },
+  "about": {
+    "cover": "https://cdn.myanimelist.net/images/anime/1818/126435.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w500/4NmCfWHzytiKM3riCMcbVYBJhlB.jpg",
+    "synopsis": {
+      "en": "Dreams are doomed to die in Night City, a futuristic Californian metropolis. As a teenager living in the city's slums, David Martinez is trying to fulfill his mother's lifelong wish for him to reach the top of Arasaka, the world's leading security corporation. To this end, he attends the prestigious Arasaka Academy while his mother works tirelessly to keep their family afloat.\n\r\n\n\r\nWhen an incident with a street gang leaves David's life in tatters, he stumbles upon Sandevistan cyberware—a prosthetic that grants its wearer superhuman speed. Fueled by rage, David implants the device in his back, using it to exact revenge on one of his tormentors. This gets him expelled from the academy, shattering his hopes of ever making his mother proud.\n\r\n\n\r\nAfter witnessing David's newfound abilities, the beautiful data thief Lucyna \"Lucy\" Kushinada offers to team up with him, handing him a ticket to salvation. However, associating with Lucy introduces David to the world of Edgerunners—cyborg criminals who will break any law for money. Edgerunners often lose their lives, if the cyberware does not break their minds first; but in his fight for survival inside a corrupt system, David is ready to risk it all.",
+      "zh": "在遭遇不幸悲剧之后，大卫·马丁内斯选择成为一名边缘行者，投身夜之城的地下犯罪世界，掌控属于自己的人生。 《赛博朋克：边缘行者》探讨的是肉体和情感的极限，以及在草菅人命的贪婪城市中，想要出人头地的下场是什么。"
+    },
+    "genres": [
+      "Action",
+      "Sci-Fi",
+      "Gore",
+      "Organized Crime"
+    ],
+    "studios": [
+      "Trigger"
+    ],
+    "scores": {
+      "mal": {
+        "score": 8.63,
+        "votes": 769440,
+        "rank": 96
+      },
+      "bangumi": {
+        "score": 8.3,
+        "votes": 28203,
+        "rank": 98
+      },
+      "imdb": {
+        "score": 8.3,
+        "votes": 136845
+      },
+      "tmdb": {
+        "score": 8.501,
+        "votes": 2082
+      }
+    },
+    "links": {
+      "mal": "https://myanimelist.net/anime/42310",
+      "bangumi": "https://bgm.tv/subject/309311",
+      "imdb": "https://www.imdb.com/title/tt12590266/",
+      "tmdb": "https://www.themoviedb.org/tv/105248",
+      "wiki": "https://en.wikipedia.org/wiki/Cyberpunk:_Edgerunners"
+    },
+    "characters": [
+      {
+        "name": "Lucy",
+        "role": "Main",
+        "image": "https://cdn.myanimelist.net/images/characters/11/486620.jpg",
+        "mal_id": 213159,
+        "favorites": 8402
+      },
+      {
+        "name": "David Martinez",
+        "role": "Main",
+        "image": "https://cdn.myanimelist.net/images/characters/11/483437.jpg",
+        "mal_id": 213390,
+        "favorites": 4256
+      },
+      {
+        "name": "Rebecca",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/16/547499.jpg",
+        "mal_id": 215035,
+        "favorites": 5281
+      },
+      {
+        "name": "Maine",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/12/489196.jpg",
+        "mal_id": 215031,
+        "favorites": 472
+      },
+      {
+        "name": "Adam Smasher",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/8/488106.jpg",
+        "mal_id": 217484,
+        "favorites": 211
+      },
+      {
+        "name": "Falco",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/5/487919.jpg",
+        "mal_id": 217544,
+        "favorites": 150
+      },
+      {
+        "name": "Kiwi",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/7/487744.jpg",
+        "mal_id": 215033,
+        "favorites": 133
+      },
+      {
+        "name": "Gloria Martinez",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/13/487922.jpg",
+        "mal_id": 215037,
+        "favorites": 55
+      },
+      {
+        "name": "Ripperdoc",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/15/487798.jpg",
+        "mal_id": 215038,
+        "favorites": 47
+      },
+      {
+        "name": "Dorio",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/5/487857.jpg",
+        "mal_id": 215032,
+        "favorites": 31
+      },
+      {
+        "name": "Faraday",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/7/487797.jpg",
+        "mal_id": 215036,
+        "favorites": 18
+      },
+      {
+        "name": "Pilar",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/5/487783.jpg",
+        "mal_id": 215034,
+        "favorites": 17
+      },
+      {
+        "name": "Julio",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/8/488208.jpg",
+        "mal_id": 217645,
+        "favorites": 9
+      },
+      {
+        "name": "Delamain A.I.",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/7/551599.jpg",
+        "mal_id": 250132,
+        "favorites": 5
+      },
+      {
+        "name": "Katsuo Tanaka",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/8/487779.jpg",
+        "mal_id": 217466,
+        "favorites": 3
+      },
+      {
+        "name": "A.I Teacher",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/12/551525.jpg",
+        "mal_id": 250071,
+        "favorites": 1
+      },
+      {
+        "name": "Douglas",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/5/502416.jpg",
+        "mal_id": 224664,
+        "favorites": 1
+      },
+      {
+        "name": "Maxim Kuznetsov",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/11/488967.jpg",
+        "mal_id": 217933,
+        "favorites": 1
+      },
+      {
+        "name": "James Norris",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/2/599811.jpg",
+        "mal_id": 275278,
+        "favorites": 1
+      },
+      {
+        "name": "School Principal",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/16/488176.jpg",
+        "mal_id": 217455,
+        "favorites": 1
+      },
+      {
+        "name": "Yumiko",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/9/551594.jpg",
+        "mal_id": 250128,
+        "favorites": 1
+      },
+      {
+        "name": "Aldo",
+        "role": "Supporting",
+        "image": "https://cdn.myanimelist.net/images/characters/9/524065.jpg",
+        "mal_id": 234363,
+        "favorites": 0
+      }
+    ],
+    "characters_bangumi": [
+      {
+        "name_native": "David Martinez",
+        "relation": "主角",
+        "image": "https://lain.bgm.tv/pic/crt/g/ba/ac/116352_crt_K2TE2.jpg",
+        "bangumi_id": 116352
+      },
+      {
+        "name_native": "Lucy",
+        "relation": "主角",
+        "image": "https://lain.bgm.tv/pic/crt/g/39/b7/116353_crt_5V44D.jpg",
+        "bangumi_id": 116353
+      }
+    ]
+  },
+  "intro": {
+    "characters": [
+      {
+        "motivation": "先为母亲活下去，后为露西和团队，最终在“成为传奇”里迷失",
+        "name": "David Martinez",
+        "name_cn": "大卫·马丁内斯",
+        "role": "植入军用级沙德威斯坦的荒坂学院辍学生，后加入曼恩团队成为边缘行者"
+      },
+      {
+        "motivation": "攒够钱逃离夜之城、登月，后期变成不惜一切保护大卫",
+        "name": "Lucy",
+        "name_cn": "露西",
+        "role": "天才网络行者，荒坂出身的数据深潜者，梦想去月球"
+      },
+      {
+        "motivation": "不断加装义体证明自己够格当老大，直到心智被义体吞没",
+        "name": "Maine",
+        "name_cn": "曼恩",
+        "role": "街头佣兵团队领袖，大卫的师父"
+      },
+      {
+        "motivation": "跟着哥哥皮拉混街头，后来把全部感情押在大卫身上",
+        "name": "Rebecca",
+        "name_cn": "丽贝卡",
+        "role": "暴躁双枪萝莉体型佣兵，对大卫一往情深"
+      },
+      {
+        "motivation": "在荒坂与军用科技的夹缝里把自己卖个好价钱",
+        "name": "Faraday",
+        "name_cn": "法拉第",
+        "role": "夜之城中间人，给团队派活的掮客"
+      },
+      {
+        "motivation": "抹掉知情者，把大卫改造成荒坂的实验武器",
+        "name": "Adam Smasher",
+        "name_cn": "亚当·重锤",
+        "role": "荒坂的终极杀人机器"
+      }
+    ],
+    "highlights": [
+      "TRIGGER（今石洋之×吉成曜）的作画爆发力，动作场面是本世代最强一档",
+      "夜之城还原度：玩过 2077 会认出每一条街的杀机",
+      "大卫×露西的月下约定，游戏改动画里罕见的真挚爱情线",
+      "10 话一口气放出的完美节奏，没有任何注水",
+      "原声：Franz Ferdinand 的 OP《This Fffire》与 Dawid Podsiadło 的 ED《Let You Down》"
+    ],
+    "logline": "夜之城贫民窟少年装上军用义体，用身体一寸寸烧成灰烬的代价，换一个成为传奇的机会。",
+    "standing": "播出后让《赛博朋克 2077》在线人数暴涨十倍、直接挽救了游戏口碑的“游改奇迹”。MAL 8.63 分（历史前 100）、Bangumi 8.3 分，并拿下 2023 年 Crunchyroll 动画大赏年度动画提名，被普遍视为 2022 年最佳动画之一和游戏改编动画的天花板。",
+    "synopsis": "夜之城，一座被巨型企业统治、人人痴迷义体改造的未来都市。贫民窟少年大卫·马丁内斯靠母亲打黑工供他读荒坂学院，一场突如其来的街头火并夺走了母亲，也碾碎了他原本的人生轨迹。走投无路之际，他把母亲留下的军用级“沙德威斯坦”脊椎义体装进了自己体内。\n\n这副义体让他跻身地下世界的佣兵——“边缘行者”的行列。在领袖曼恩的团队里，他结识了神秘的网络行者露西、火爆萝莉丽贝卡等人，一边接活挣钱，一边越陷越深。但在夜之城，义体装得越多，心智崩坏得越近，而荒坂公司的目光已经盯上了这个“特殊适格者”。所有人都告诉他：这座城市会把你嚼碎了吐出来。他偏不信。"
+  },
+  "episodes": [
+    {
+      "n": 1,
+      "sources": {
+        "mal": {
+          "score": 4.26,
+          "forum_replies": 254,
+          "url": "https://myanimelist.net/anime/42310/Cyberpunk__Edgerunners/episode/1"
+        },
+        "imdb": {
+          "rating": 7.8,
+          "votes": 9006,
+          "tconst": "tt12650832",
+          "season": 1,
+          "episode": 1
+        },
+        "tmdb": {
+          "vote_average": 8.8,
+          "vote_count": 212,
+          "still": "https://image.tmdb.org/t/p/w500/egBHU73t79tMg2qrqj3aJof1ibS.jpg",
+          "season": 1,
+          "episode": 1
+        },
+        "bangumi": {
+          "comments": 185,
+          "url": "https://bgm.tv/ep/960324"
+        }
+      },
+      "synopsis": {
+        "en": "In 2075, David Martinez lives in Night City with his mother Gloria, an overworked paramedic, and attends the prestigious Arasaka Academy despite their financial struggles. David illegally modifies his visor to avoid paying for an academic update and crashes the academy's system. Gloria scolds David for squandering her sacrifices and compromising her dream for him to join the Arasaka Corporation until they are caught in the crossfire of a gang drive-by shooting. The Trauma Team arrives but David and Gloria are denied first aid as they cannot afford the service, and Gloria ultimately dies of her wounds in hospital. David finds a military-grade Sandevistan spinal implant at home and discovers that Gloria had been harvesting and selling cyberware on the black market to pay for his tuition. With nothing left to lose, David has Doc, a local ripperdoc, install the Sandevistan in his body.",
+        "zh": "在非法脑舞之夜后，大卫醒来面对现实：破旧的公寓、坏掉的洗衣机和劳累过度的母亲。"
+      },
+      "title_native": "期待を背に",
+      "title_en": "Let You Down",
+      "title_cn": "令人失望",
+      "aired": "2022-09-13",
+      "heat": {
+        "mal_replies": 254,
+        "bangumi_comments": 185,
+        "imdb_votes": 9006
+      },
+      "notes": {
+        "summary": "大卫·马丁内斯是荒坂学院的奖学金学生，与当急救队员的母亲相依为命。一场街头火并让母亲重伤，却因保险等级不够被医院拒收而死。崩溃的大卫发现母亲留下的军用级“沙德威斯坦”义体，决定装进自己体内。",
+        "new": [
+          {
+            "kind": "recurring",
+            "name": "David Martinez",
+            "name_cn": "大卫·马丁内斯",
+            "note": "主角，贫民窟出身的荒坂学院学生"
+          },
+          {
+            "kind": "recurring",
+            "name": "Gloria Martinez",
+            "name_cn": "格洛丽亚·马丁内斯",
+            "note": "大卫的母亲，急救队队员"
+          },
+          {
+            "kind": "recurring",
+            "name": "Katsuo Tanaka",
+            "name_cn": "田中胜男",
+            "note": "霸凌大卫的同班同学，荒坂高管之子"
+          },
+          {
+            "kind": "recurring",
+            "name": "Ripperdoc",
+            "name_cn": "义体医生",
+            "note": "大卫日后的专属义体医生"
+          }
+        ]
+      }
+    },
+    {
+      "n": 2,
+      "sources": {
+        "mal": {
+          "score": 4.36,
+          "forum_replies": 201,
+          "url": "https://myanimelist.net/anime/42310/Cyberpunk__Edgerunners/episode/2"
+        },
+        "imdb": {
+          "rating": 8.2,
+          "votes": 8462,
+          "tconst": "tt12650834",
+          "season": 1,
+          "episode": 2
+        },
+        "tmdb": {
+          "vote_average": 8.4,
+          "vote_count": 81,
+          "still": "https://image.tmdb.org/t/p/w500/i441OHe2TUiBMbhO9RZpF7Te1v9.jpg",
+          "season": 1,
+          "episode": 2
+        },
+        "bangumi": {
+          "comments": 165,
+          "url": "https://bgm.tv/ep/960325"
+        }
+      },
+      "synopsis": {
+        "en": "David uses the Sandevistan, which gives him bursts of super-speed, to beat his school bully Katsuo Tanaka and is expelled from the academy. Katsuo's father, Arasaka executive Mr. Tanaka, takes an interest in David's ability to use the Sandevistan without succumbing to cyberpsychosis—a mental illness caused by an overload of cyberware. David encounters a young data thief named Lucy, who agrees to take him on as a partner. After using the Sandevistan to commit a series of robberies on the metro, David collapses and Lucy brings him to Doc, who prescribes immunoblockers and warns David not to overuse his implant regardless of his unusually high tolerance. Lucy confides in David that her dream is to escape to the Moon and invites him into a braindance (BD) simulation of the Moon's surface, but this turns out to be a distraction to sell David out to a gang of edgerunners.",
+        "zh": "大卫带着他变强大的身体前往学院，报复欺负他的人。随后，他遇到一名想要与他合作的神秘女子。"
+      },
+      "title_native": "少年は何を思う",
+      "title_en": "Like a Boy",
+      "title_cn": "假小子",
+      "aired": "2022-09-13",
+      "heat": {
+        "mal_replies": 201,
+        "bangumi_comments": 165,
+        "imdb_votes": 8462
+      },
+      "notes": {
+        "summary": "装上义体的大卫回校痛打了霸凌他的田中胜男，被退学。他在街头偶遇偷芯片的网络行者露西，两人合作行窃；露西发现他的沙德威斯坦后，把他带到曼恩的佣兵团队面前。",
+        "new": [
+          {
+            "kind": "recurring",
+            "name": "Lucy",
+            "name_cn": "露西",
+            "note": "神秘网络行者，本集登场"
+          },
+          {
+            "kind": "recurring",
+            "name": "Maine",
+            "name_cn": "曼恩",
+            "note": "佣兵团队领袖"
+          },
+          {
+            "kind": "recurring",
+            "name": "Dorio",
+            "name_cn": "多莉欧",
+            "note": "曼恩的搭档"
+          },
+          {
+            "kind": "recurring",
+            "name": "Pilar",
+            "name_cn": "皮拉",
+            "note": "团队里的改造狂"
+          }
+        ]
+      }
+    },
+    {
+      "n": 3,
+      "sources": {
+        "mal": {
+          "score": 4.34,
+          "forum_replies": 179,
+          "url": "https://myanimelist.net/anime/42310/Cyberpunk__Edgerunners/episode/3"
+        },
+        "imdb": {
+          "rating": 7.8,
+          "votes": 7953,
+          "tconst": "tt12650836",
+          "season": 1,
+          "episode": 3
+        },
+        "tmdb": {
+          "vote_average": 7.853,
+          "vote_count": 68,
+          "still": "https://image.tmdb.org/t/p/w500/bfqnjIZal7sgnjnI3rQzC6GpoIL.jpg",
+          "season": 1,
+          "episode": 3
+        },
+        "bangumi": {
+          "comments": 126,
+          "url": "https://bgm.tv/ep/960326"
+        }
+      },
+      "synopsis": {
+        "en": "David learns that the gang's leader, Maine, was Gloria's friend who had purchased the Sandevistan from her prior to her death. Maine agrees to give David a chance to prove himself and join the crew, which consists of Lucy, Dorio, Pilar, Rebecca, Kiwi, and Falco. When a job to obtain information on Mr. Tanaka's movements by stealing navigation data from his driver Maxim Kuznetsov goes awry, David uses his Sandevistan to help him and Lucy escape from Maxim and Tyger Claw bikers. Although the gang's fixer, Faraday, chides them for the bungled heist, Maine is impressed by David's performance and officially inducts him into the crew. David receives a call from Arasaka Academy and rejects their offer to let him return.",
+        "zh": "在一群粗暴的边缘人的包围下，大卫请求加入他们的队伍。与此同时，邪恶势力密谋将他引回荒坂学院。"
+      },
+      "title_native": "裏稼業",
+      "title_en": "Smooth Criminal",
+      "title_cn": "犯罪高手",
+      "aired": "2022-09-13",
+      "heat": {
+        "mal_replies": 179,
+        "bangumi_comments": 126,
+        "imdb_votes": 7953
+      },
+      "notes": {
+        "summary": "大卫在团队聚会上请求入伙，曼恩考验他。与此同时，荒坂学院校长与法拉第密谋，想把拥有特殊义体的大卫弄回学校；大卫经历第一次任务，正式成为边缘行者。",
+        "new": [
+          {
+            "kind": "recurring",
+            "name": "Rebecca",
+            "name_cn": "丽贝卡",
+            "note": "皮拉的妹妹，双枪佣兵"
+          },
+          {
+            "kind": "recurring",
+            "name": "Kiwi",
+            "name_cn": "琦薇",
+            "note": "团队另一位网络行者"
+          },
+          {
+            "kind": "recurring",
+            "name": "Faraday",
+            "name_cn": "法拉第",
+            "note": "派活的中间人"
+          },
+          {
+            "kind": "recurring",
+            "name": "Maxim Kuznetsov",
+            "name_cn": "马克西姆",
+            "note": "盯上大卫的出租车司机"
+          }
+        ]
+      }
+    },
+    {
+      "n": 4,
+      "sources": {
+        "mal": {
+          "score": 4.48,
+          "forum_replies": 201,
+          "url": "https://myanimelist.net/anime/42310/Cyberpunk__Edgerunners/episode/4"
+        },
+        "imdb": {
+          "rating": 8.6,
+          "votes": 8312,
+          "tconst": "tt12650838",
+          "season": 1,
+          "episode": 4
+        },
+        "tmdb": {
+          "vote_average": 8.5,
+          "vote_count": 66,
+          "still": "https://image.tmdb.org/t/p/w500/n1IW5dtwLGdn0dDR5Z5vwyOvDEQ.jpg",
+          "season": 1,
+          "episode": 4
+        },
+        "bangumi": {
+          "comments": 232,
+          "url": "https://bgm.tv/ep/960327"
+        }
+      },
+      "synopsis": {
+        "en": "David is mentored and assigned various tasks by the other crew members, including running errands for Pilar, target practice with Rebecca, driving lessons with Maine, combat training with Dorio, and night jogging and railway larceny with Lucy. Maine advises David to use his job earnings to take on more cyberware in order to level up as an edgerunner. As the gang leaves a bar one night, Pilar begins harassing a homeless man urinating on the street. The homeless man is revealed to have cyberpsychosis and kills Pilar with a concealed arm cannon. When Lucy is next targeted, David uses his Sandevistan to subdue the cyberpsycho and Maine delivers the final blow. David takes Lucy home, where she confesses that what she told him on the night they met was genuine. David promises to take Lucy to the Moon, and they kiss.",
+        "zh": "大卫迫切想要学习如何做一名边缘人，于是他缠着梅因给他分配新任务，而梅因却让露西训练他。"
+      },
+      "title_native": "ツキが回って",
+      "title_en": "Lucky You",
+      "title_cn": "算你“走”运",
+      "aired": "2022-09-13",
+      "heat": {
+        "mal_replies": 201,
+        "bangumi_comments": 232,
+        "imdb_votes": 8312
+      },
+      "notes": {
+        "summary": "曼恩让露西负责训练大卫。两人在夜之城屋顶奔跑、在深潜仓里训练，露西向大卫透露自己想去月球的梦想，月下约定成为全剧最重要的情感锚点。团队气氛渐入佳境。",
+        "new": [
+          {
+            "kind": "recurring",
+            "name": "Falco",
+            "name_cn": "法尔科",
+            "note": "团队车手"
+          },
+          {
+            "kind": "arc",
+            "name": "Aldo",
+            "name_cn": "奥尔多",
+            "note": "义体医生圈的前辈"
+          }
+        ]
+      }
+    },
+    {
+      "n": 5,
+      "sources": {
+        "mal": {
+          "score": 4.35,
+          "forum_replies": 105,
+          "url": "https://myanimelist.net/anime/42310/Cyberpunk__Edgerunners/episode/5"
+        },
+        "imdb": {
+          "rating": 8.0,
+          "votes": 7533,
+          "tconst": "tt12650840",
+          "season": 1,
+          "episode": 5
+        },
+        "tmdb": {
+          "vote_average": 7.894,
+          "vote_count": 66,
+          "still": "https://image.tmdb.org/t/p/w500/Ar2jz0uKUrUVKC3r9KEaonTzOFr.jpg",
+          "season": 1,
+          "episode": 5
+        },
+        "bangumi": {
+          "comments": 90,
+          "url": "https://bgm.tv/ep/960328"
+        }
+      },
+      "synopsis": {
+        "en": "As the gang tries to find more leads on Tanaka, Kiwi learns that he secretly indulges in illicit braindances created by \"JK\". David recognizes the initials as the handle of Jimmy Kurosaki, a famous snuff director who provides an in-person service custom-tuning BDs for special clients. Seeing an opportunity to ambush Tanaka, the gang attempts to kidnap JK but he outwits them, captures David, and flees the scene with Lucy and Dorio in pursuit. David is subjected by JK to traumatic BDs before being rescued by Lucy and Dorio. JK agrees to help the gang set a trap for Tanaka while cautioning David that the Sandevistan will inevitably make him succumb to cyberpsychosis. Tanaka arrives and the gang captures him but JK is killed in the crossfire. The gang quickly evacuates with Tanaka while David remains troubled by JK's warning.",
+        "zh": "在团队为下一个任务制定战略时，大卫提出一个明智的建议。然而，他很快就意识到他们的目标不容小觑。"
+      },
+      "title_native": "刺さる目線",
+      "title_en": "All Eyez on Me",
+      "title_cn": "众目睽睽",
+      "aired": "2022-09-13",
+      "heat": {
+        "mal_replies": 105,
+        "bangumi_comments": 90,
+        "imdb_votes": 7533
+      },
+      "notes": {
+        "summary": "团队策划绑架荒坂高管田中，大卫出了关键主意却低估了目标。行动中大卫险些丧命，皮拉也在任务中惨死，丽贝卡目睹哥哥死亡。夜之城的残酷第一次砸到大卫脸上。",
+        "new": [
+          {
+            "kind": "one-off",
+            "name": "Jimmy Kurosaki",
+            "name_cn": "黑崎吉米",
+            "note": "超梦剪辑师，本集客串"
+          }
+        ]
+      }
+    },
+    {
+      "n": 6,
+      "sources": {
+        "mal": {
+          "score": 4.57,
+          "forum_replies": 235,
+          "url": "https://myanimelist.net/anime/42310/Cyberpunk__Edgerunners/episode/6"
+        },
+        "imdb": {
+          "rating": 9.2,
+          "votes": 9994,
+          "tconst": "tt12650842",
+          "season": 1,
+          "episode": 6
+        },
+        "tmdb": {
+          "vote_average": 8.6,
+          "vote_count": 70,
+          "still": "https://image.tmdb.org/t/p/w500/hZW2QGWUYN0LxtFxbn6YGAxsGHY.jpg",
+          "season": 1,
+          "episode": 6
+        },
+        "bangumi": {
+          "comments": 268,
+          "url": "https://bgm.tv/ep/960329"
+        }
+      },
+      "synopsis": {
+        "en": "Maine begins exhibiting signs of cyberpsychosis, including blacks outs, hallucinations and mood swings, causing him to lose control and injure Kiwi as she tries to hack into Tanaka's cyberware. Lucy takes Kiwi's place and is troubled by what she uncovers after successfully breaching Tanaka's mind. Tanaka briefly regains consciousness and pleads with David to let him go before fatally short circuiting, disabling the gang's jammer and alerting law enforcement of his death. With Trauma Team, NCPD and MaxTac forces en route, David and Lucy prepare the gang's escape vehicle while Maine and Dorio retrieve Tanaka's corpse. David turns back to help but Maine succumbs to cyberpsychosis and inadvertently kills Dorio. Realizing what he has done, Maine tells David to run and blows himself up to provide a distraction, and David returns to Lucy with Maine's cybernetic arms in his grasp.",
+        "zh": "梅因状态不佳。而团队却有更重要的事情要做：他们必须争分夺秒地从囚犯那里提取重要信息。"
+      },
+      "title_native": "炎に包まれて",
+      "title_en": "Girl on Fire",
+      "title_cn": "烈火之女",
+      "aired": "2022-09-13",
+      "heat": {
+        "mal_replies": 235,
+        "bangumi_comments": 268,
+        "imdb_votes": 9994
+      },
+      "notes": {
+        "summary": "曼恩出现赛博精神病前兆，团队却要抢时间从俘虏脑里挖情报。曼恩彻底失控杀死同伴多莉欧，随后自爆身亡。大卫接过曼恩的义体手臂和团队，也接过了那条通往毁灭的路。"
+      }
+    },
+    {
+      "n": 7,
+      "sources": {
+        "mal": {
+          "score": 4.31,
+          "forum_replies": 118,
+          "url": "https://myanimelist.net/anime/42310/Cyberpunk__Edgerunners/episode/7"
+        },
+        "imdb": {
+          "rating": 8.0,
+          "votes": 7347,
+          "tconst": "tt12650844",
+          "season": 1,
+          "episode": 7
+        },
+        "tmdb": {
+          "vote_average": 8.0,
+          "vote_count": 61,
+          "still": "https://image.tmdb.org/t/p/w500/dBU8l0esjACL5ESSdsHbQNuAmnq.jpg",
+          "season": 1,
+          "episode": 7
+        },
+        "bangumi": {
+          "comments": 113,
+          "url": "https://bgm.tv/ep/960330"
+        }
+      },
+      "synopsis": {
+        "en": "Months later in 2076, David has assumed leadership of Maine's crew, taken on more cyberware—including Maine's arm implants—and become a renowned edgerunner, though he is unable to convince Lucy to rejoin the gang despite the two still being in a relationship. Faraday approaches David to test if he is worthy of fulfilling Maine's contract to obtain Tanaka's data, a job that is revealed to have come from Arasaka's main competitor Militech. Lucy tells David about her past as a child netrunner raised and trained by Arasaka to dive into the Old Net to recover lost data; exposure to rogue AIs and malware killed most of her peers, and Lucy was the sole survivor who managed to escape to Night City. Later that night, Lucy kills an Arasaka agent attempting to recover data about a test subject that was erased from Tanaka's records.",
+        "zh": "大卫现在是一名装备了更多义体的明星边缘人，他带领团队执行一项新任务。一位旧相识因为一项重要任务来找他。"
+      },
+      "title_native": "もっと強く",
+      "title_en": "Stronger",
+      "title_cn": "更加强大",
+      "aired": "2022-09-13",
+      "heat": {
+        "mal_replies": 118,
+        "bangumi_comments": 113,
+        "imdb_votes": 7347
+      },
+      "notes": {
+        "summary": "时间跳跃后，大卫已加装更多义体成为独当一面的领队，带着丽贝卡、法尔科和新成员胡里奥接活。法拉第找上门来，开出一个“大活”——实际上是把大卫一步步卖给荒坂的陷阱。",
+        "new": [
+          {
+            "kind": "arc",
+            "name": "Julio",
+            "name_cn": "胡里奥",
+            "note": "新入队的年轻佣兵，本集登场"
+          }
+        ]
+      }
+    },
+    {
+      "n": 8,
+      "sources": {
+        "mal": {
+          "score": 4.34,
+          "forum_replies": 121,
+          "url": "https://myanimelist.net/anime/42310/Cyberpunk__Edgerunners/episode/8"
+        },
+        "imdb": {
+          "rating": 8.2,
+          "votes": 7327,
+          "tconst": "tt12650846",
+          "season": 1,
+          "episode": 8
+        },
+        "tmdb": {
+          "vote_average": 8.115,
+          "vote_count": 61,
+          "still": "https://image.tmdb.org/t/p/w500/83LC8gPjcmg4gMeVkvKOegjA8gf.jpg",
+          "season": 1,
+          "episode": 8
+        },
+        "bangumi": {
+          "comments": 136,
+          "url": "https://bgm.tv/ep/960331"
+        }
+      },
+      "synopsis": {
+        "en": "Taking on Faraday's job, David kills an Arasaka lab director but begins showing signs of cyberpsychosis when he suffers a breakdown and murders an innocent lab worker. Believing Militech to be involved, Arasaka Counterintelligence orders a hit on Faraday, who escapes but is denied protection by Militech due to his failure to obtain Tanaka's information on Arasaka's experimental Cyberskeleton project. Faraday betrays Militech and strikes a deal with Arasaka, promising to find the netrunner responsible for erasing Tanaka's data and killing their agents in exchange for a chance to join their ranks. Although David's mind continues to deteriorate, Lucy and Doc are unsuccessful in persuading him to scale back on his implants. David questions Lucy's distant demeanor but she refuses to disclose what is troubling her and heads off when she detects another Arasaka agent searching for Tanaka's erased records. This turns out to be a trap and Lucy is captured by Kiwi, who has joined Faraday.",
+        "zh": "法拉第被夹在荒坂和军用科技之间。露西和丽贝卡因为大卫在行为上的转变而质问他，但他却不听劝。"
+      },
+      "title_native": "いかないで",
+      "title_en": "Stay",
+      "title_cn": "留下",
+      "aired": "2022-09-13",
+      "heat": {
+        "mal_replies": 121,
+        "bangumi_comments": 136,
+        "imdb_votes": 7327
+      },
+      "notes": {
+        "summary": "法拉第被夹在荒坂与军用科技之间两头受压。露西和丽贝卡都察觉大卫行为越来越偏执、义体负荷逼近极限，劝他收手，大卫拒绝倾听。露西暗中清除与大卫有关的数据，独自扛下危险。"
+      }
+    },
+    {
+      "n": 9,
+      "sources": {
+        "mal": {
+          "score": 4.42,
+          "forum_replies": 117,
+          "url": "https://myanimelist.net/anime/42310/Cyberpunk__Edgerunners/episode/9"
+        },
+        "imdb": {
+          "rating": 8.6,
+          "votes": 7559,
+          "tconst": "tt12650850",
+          "season": 1,
+          "episode": 9
+        },
+        "tmdb": {
+          "vote_average": 8.2,
+          "vote_count": 62,
+          "still": "https://image.tmdb.org/t/p/w500/fxrDyzUGAXAHF5nyTUTd8LicVnG.jpg",
+          "season": 1,
+          "episode": 9
+        },
+        "bangumi": {
+          "comments": 113,
+          "url": "https://bgm.tv/ep/960332"
+        }
+      },
+      "synopsis": {
+        "en": "Faraday and Kiwi learn that Lucy intentionally killed Tanaka when she dove into his mind as she discovered that he intended to use David as a test subject for Arasaka's Cyberskeleton; Lucy erased all traces of David from Tanaka's records and has since been killing Arasaka agents attempting to recover this data. Faraday assigns David's crew a botched mission to assault an Arasaka convoy transporting the Cyberskeleton prototype, and uses the captive Lucy to blackmail David into installing it and destroying Militech's forces as a field test to demonstrate its power. Despite the massive toll the Cyberskeleton takes on his body, David tells Rebecca and Falco that they will rescue Lucy and get revenge on Faraday.",
+        "zh": "俘虏露西的人得知她的秘密任务和黑暗的过去。大卫和他的团队前去完成法拉第的工作，但意识到情况有些不对劲。"
+      },
+      "title_native": "人間らしさ",
+      "title_en": "Humanity",
+      "title_cn": "人性",
+      "aired": "2022-09-13",
+      "heat": {
+        "mal_replies": 117,
+        "bangumi_comments": 113,
+        "imdb_votes": 7559
+      },
+      "notes": {
+        "summary": "露西被法拉第一方抓获，她的秘密任务和荒坂出身曝光。大卫带队执行法拉第的任务时察觉不对，为救露西决定装上军用级“义体金刚”骨架，赛博精神病症状全面爆发，开始无差别杀戮。"
+      }
+    },
+    {
+      "n": 10,
+      "sources": {
+        "mal": {
+          "score": 4.54,
+          "forum_replies": 1166,
+          "url": "https://myanimelist.net/anime/42310/Cyberpunk__Edgerunners/episode/10"
+        },
+        "imdb": {
+          "rating": 9.4,
+          "votes": 12964,
+          "tconst": "tt12650854",
+          "season": 1,
+          "episode": 10
+        },
+        "tmdb": {
+          "vote_average": 8.8,
+          "vote_count": 80,
+          "still": "https://image.tmdb.org/t/p/w500/AsqWkwR2BCmh7s7sDnxyGsMbVaq.jpg",
+          "season": 1,
+          "episode": 10
+        },
+        "bangumi": {
+          "comments": 326,
+          "url": "https://bgm.tv/ep/960333"
+        }
+      },
+      "synopsis": {
+        "en": "A deteriorating David fights through Militech, Arasaka and MaxTac forces alongside Rebecca and Falco to reach Arasaka Tower. Faraday betrays Kiwi and has her killed as a loose end, but not before Kiwi informs David of Lucy's location. Arasaka deploys their fully-cybernetic enforcer Adam Smasher to kill David and contain the situation. David rescues Lucy but runs out of immunoblockers and begins succumbing to cyberpsychosis until Lucy kisses him, restoring his sanity. Smasher kills Faraday and Rebecca in the ensuing firefight. David tells Falco to get Lucy to safety and split the crew's reward money with her while he stays behind to hold off Smasher, who ultimately executes him. Later, Lucy fulfills her dream of traveling to the Moon but is heartbroken as David is not with her.",
+        "zh": "处于赛博疯子边缘的大卫冲进夜之城，决心营救露西。另一边，荒坂密谋部署他们的终极致命武器。"
+      },
+      "title_native": "私の月, 私の恋",
+      "title_en": "My Moon My Man",
+      "title_cn": "得偿所愿",
+      "aired": "2022-09-13",
+      "heat": {
+        "mal_replies": 1166,
+        "bangumi_comments": 326,
+        "imdb_votes": 12964
+      },
+      "notes": {
+        "summary": "大卫强撑着最后的理智杀入荒坂塔救露西，荒坂放出亚当·重锤迎战。丽贝卡战死，法尔科带露西逃走，大卫在与重锤的对决中被碾碎，以传奇之身死去。露西最终独自登上月球，想起大卫失声痛哭。",
+        "new": [
+          {
+            "kind": "recurring",
+            "name": "Adam Smasher",
+            "name_cn": "亚当·重锤",
+            "note": "荒坂的最终兵器，本集正式登场"
+          }
+        ]
+      }
+    }
+  ],
+  "route": [
+    {
+      "eps": [
+        1,
+        4
+      ],
+      "kind": "watch",
+      "why": "建置四连集，一口气看完：母亲之死、装上沙德威斯坦、入伙曼恩团队、月下约定——全部情感地基都在这四集里"
+    },
+    {
+      "eps": [
+        5,
+        5
+      ],
+      "kind": "bridge",
+      "paragraphs": [
+        "团队接了法拉第的活：绑架荒坂高管田中，逼他交出数据。大卫出的主意奏效了，但行动远比想象凶险——目标身边的护卫不是吃素的。",
+        "这单活让团队第一次尝到代价：皮拉在任务中惨死，丽贝卡亲眼看着哥哥没了。大卫也开始明白，曼恩反复说的“夜之城会嚼碎你”不是吓唬新人。",
+        "同时荒坂内部已经盯上了大卫——他身上的沙德威斯坦，是被列为机密的实验型号。"
+      ],
+      "title": "绑架田中：第一滴血"
+    },
+    {
+      "eps": [
+        6,
+        7
+      ],
+      "kind": "watch",
+      "why": "全季转折点：曼恩的赛博精神病爆发是夜之城规则的血淋淋示范，第 7 话大卫全面接棒、义体升级，悲剧齿轮开始转动"
+    },
+    {
+      "eps": [
+        8,
+        10
+      ],
+      "kind": "watch",
+      "why": "终局三连集零尿点：法拉第的背叛、大卫装上义体金刚、荒坂塔之战与月球结局——2022 年动画最著名的高潮段落，一集都不能跳"
+    }
+  ]
+}
