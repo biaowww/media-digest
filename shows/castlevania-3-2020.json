@@ -1,0 +1,563 @@
+{
+  "meta": {
+    "slug": "castlevania-3-2020",
+    "schema_version": 1,
+    "ids": {
+      "bangumi": "265712",
+      "imdb": "tt6517102",
+      "tmdb": "71024",
+      "wiki": "Castlevania (TV series)"
+    },
+    "kind": "manga",
+    "season": 3,
+    "unit": "集",
+    "title": "Castlevania Season 3",
+    "title_cn": "恶魔城 第三季",
+    "title_native": "Castlevania Season 3",
+    "year": 2020,
+    "total_eps": 10,
+    "primary_kpi": "imdb",
+    "updated": "2026-10-26",
+    "fetched": {
+      "bangumi": "2026-10-26",
+      "imdb": "2026-10-26",
+      "tmdb": "2026-10-26"
+    }
+  },
+  "about": {
+    "cover": "https://image.tmdb.org/t/p/w500/WzFHnJY44uDERER0xi1jOdoafT.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w500/jLE5bsPA9xOKzBWOaOmKbp1DWQS.jpg",
+    "synopsis": {
+      "en": "A vampire hunter fights to save a besieged city from an army of otherworldly beasts controlled by Dracula himself.",
+      "zh": "贝尔蒙特和赛法尔在一个藏有邪恶秘密的村庄里安顿下来。阿鲁卡多为一对仰慕者提供指导。艾萨克开始寻找赫克托的下落。"
+    },
+    "genres": [
+      "Animation",
+      "Sci-Fi & Fantasy",
+      "Drama"
+    ],
+    "scores": {
+      "bangumi": {
+        "score": 6.6,
+        "votes": 283,
+        "rank": 4580
+      },
+      "imdb": {
+        "score": 8.3,
+        "votes": 97115
+      },
+      "tmdb": {
+        "score": 8.27,
+        "votes": 1632
+      }
+    },
+    "links": {
+      "bangumi": "https://bgm.tv/subject/265712",
+      "imdb": "https://www.imdb.com/title/tt6517102/",
+      "tmdb": "https://www.themoviedb.org/tv/71024"
+    },
+    "characters_bangumi": [
+      {
+        "name_native": "アルカード",
+        "relation": "主角",
+        "image": "https://lain.bgm.tv/pic/crt/g/bb/e7/10834_crt_A061S.jpg",
+        "bangumi_id": 10834
+      },
+      {
+        "name_native": "ラルフ・Ｃ・ベルモンド",
+        "relation": "主角",
+        "image": "https://lain.bgm.tv/pic/crt/g/6b/12/99037_crt_mM8Pp.jpg",
+        "bangumi_id": 99037
+      },
+      {
+        "name_native": "サイファ・ヴェルナンデス",
+        "relation": "主角",
+        "image": "https://lain.bgm.tv/pic/crt/g/71/0d/111040_crt_vjZ39.jpg",
+        "bangumi_id": 111040
+      }
+    ]
+  },
+  "intro": {
+    "logline": "战争结束了，仇恨却没有——四条故事线在灰烬上各自滋长。",
+    "synopsis": "德古拉已死，瓦拉几亚却没有迎来和平。特雷弗与西法一路清剿残余魔物，流浪到林登菲尔德——一座表面虔诚、处处透着诡异的小镇，镇上的修道院里藏着某个正在成形的阴谋。\n\n另外三条线同时展开：阿鲁卡多独守空城，迎来两位慕名而来的日本吸血鬼猎人；艾萨克带着他的军团横跨大陆，一步步从复仇者变成别的什么；被押往斯蒂里亚的赫克托，则落入了卡蜜拉姐妹会最危险的一张网——丽诺尔的温柔里。\n\n这是全剧最黑暗、也最「权力的游戏」的一季：没有绝对的主角光环，所有人都在为自己相信的东西付出代价。",
+    "characters": [
+      {
+        "name": "Trevor Belmont",
+        "name_cn": "特雷弗·贝尔蒙特",
+        "role": "战后继续清剿魔物的猎人",
+        "motivation": "弄明白林登菲尔德到底哪里不对劲"
+      },
+      {
+        "name": "Sypha Belnades",
+        "name_cn": "西法·贝尔纳德斯",
+        "role": "特雷弗的搭档与恋人",
+        "motivation": "同上——而且她通常比特雷弗先看出问题"
+      },
+      {
+        "name": "Alucard",
+        "name_cn": "阿鲁卡多",
+        "role": "独守城堡的弑父者",
+        "motivation": "在孤独中重新学习与「人」相处"
+      },
+      {
+        "name": "Isaac",
+        "name_cn": "艾萨克",
+        "role": "率军团远征的锻造师",
+        "motivation": "找到赫克托，完成他对「人性」的清算"
+      },
+      {
+        "name": "Hector",
+        "name_cn": "赫克托",
+        "role": "斯蒂里亚的阶下囚",
+        "motivation": "在囚禁中寻找活路——戒心却一点点瓦解"
+      },
+      {
+        "name": "Lenore",
+        "name_cn": "丽诺尔",
+        "role": "卡蜜拉姐妹会的外交官",
+        "motivation": "用温柔手腕把赫克托变成姐妹会的棋子"
+      },
+      {
+        "name": "Saint Germain",
+        "name_cn": "圣日耳曼",
+        "role": "来到林登菲尔德查探的学者",
+        "motivation": "穷尽一生寻找迷失在「无尽回廊」中的爱人"
+      },
+      {
+        "name": "Sumi & Taka",
+        "name_cn": "苏米与塔卡",
+        "role": "慕名而来的日本吸血鬼猎人",
+        "motivation": "学成屠龙之术，解放被吸血鬼统治的故乡"
+      }
+    ],
+    "highlights": [
+      "口碑最分裂也最黑暗的一季：四线并行的后战争群像剧",
+      "丽诺尔与赫克托的博弈是教科书级的心理操控",
+      "E9三线同时引爆：地狱开门、背叛之夜、枕边魔戒（8.9分）",
+      "本季埋的每一颗雷，都在第四季精准引爆"
+    ],
+    "standing": "第三季把格局从「讨伐魔王」拉成「后战争群像」，争议与赞誉并存；但正是这一季对人性的狠辣刻画，撑起了终季的情感重量——看懂它，才看得懂第四季。"
+  },
+  "episodes": [
+    {
+      "n": 1,
+      "sources": {
+        "imdb": {
+          "rating": 7.7,
+          "votes": 2249,
+          "tconst": "tt9217782",
+          "season": 3,
+          "episode": 1
+        },
+        "tmdb": {
+          "vote_average": 7.444,
+          "vote_count": 36,
+          "still": "https://image.tmdb.org/t/p/w500/ejiedyGj4q4EpKwaj9mWosu8t8g.jpg",
+          "season": 3,
+          "episode": 1
+        }
+      },
+      "synopsis": {
+        "en": "Alucard adjusts to his lonely new life, Belmont and Sypha pay a visit to an eerie and unusual town, and Carmilla returns home with a prize.",
+        "zh": "阿鲁卡多适应着他孤独的新生活。贝尔蒙特和赛法尔造访一个阴森怪异的小镇。卡米拉带了一个战利品回家。"
+      },
+      "title_en": "Bless Your Dead Little Hearts",
+      "title_cn": "祝福你们死去的幼小心灵",
+      "aired": "2020-03-05",
+      "heat": {
+        "imdb_votes": 2249
+      },
+      "notes": {
+        "summary": "战后数周：特雷弗与西法流浪到诡异的林登菲尔德镇，热情的法官接待了他们，镇上修道院的僧侣却行迹可疑；学者圣日耳曼也来到镇上查探。孤独的阿鲁卡多开始对着木偶自言自语；卡蜜拉押着赫克托回到斯蒂里亚，与她的姐妹会会合。",
+        "new": [
+          {
+            "name": "The Judge",
+            "name_cn": "法官",
+            "kind": "arc",
+            "note": "林登菲尔德的掌权者，热情好客背后另有面目"
+          },
+          {
+            "name": "Sala",
+            "name_cn": "萨拉",
+            "kind": "arc",
+            "note": "修道院僧侣首领，总在遮掩什么"
+          },
+          {
+            "name": "Saint Germain",
+            "name_cn": "圣日耳曼",
+            "kind": "recurring",
+            "note": "追查修道院的神秘学者"
+          },
+          {
+            "name": "Lenore",
+            "name_cn": "丽诺尔",
+            "kind": "recurring",
+            "note": "姐妹会的外交官，全剧最危险的一张软刀子"
+          },
+          {
+            "name": "Morana & Striga",
+            "name_cn": "莫拉娜与斯特里加",
+            "kind": "arc",
+            "note": "姐妹会的智囊与战将"
+          }
+        ]
+      }
+    },
+    {
+      "n": 2,
+      "sources": {
+        "imdb": {
+          "rating": 7.6,
+          "votes": 2131,
+          "tconst": "tt9217786",
+          "season": 3,
+          "episode": 2
+        },
+        "tmdb": {
+          "vote_average": 7.4,
+          "vote_count": 36,
+          "still": "https://image.tmdb.org/t/p/w500/8IMoaqAFCqLXRlwRmvGGhcJdYL0.jpg",
+          "season": 3,
+          "episode": 2
+        }
+      },
+      "synopsis": {
+        "en": "Isaac gets some unexpected help in his search for Hector. Meanwhile, Carmilla plots a land grab and Alucard meets some fans.",
+        "zh": "艾萨克在寻找赫克托的过程中得到了意想不到的帮助。同时，卡米拉计划圈占一片土地，而阿鲁卡多遇到了两个追随他的人。"
+      },
+      "title_en": "The Reparation of My Heart",
+      "title_cn": "我心之安慰",
+      "aired": "2020-03-05",
+      "heat": {
+        "imdb_votes": 2131
+      },
+      "notes": {
+        "summary": "艾萨克在旅途中意外得到一位店主的善意相助，获赠能定位赫克托的魔镜。卡蜜拉向姐妹会抛出领土扩张的宏图。两位日本吸血鬼猎人——苏米与塔卡登门拜访阿鲁卡多，恳求他传授猎魔之术。",
+        "new": [
+          {
+            "name": "Sumi",
+            "name_cn": "苏米",
+            "kind": "arc",
+            "note": "日本吸血鬼猎人，阿鲁卡多的学徒"
+          },
+          {
+            "name": "Taka",
+            "name_cn": "塔卡",
+            "kind": "arc",
+            "note": "苏米的同伴，同样拜师阿鲁卡多"
+          }
+        ]
+      }
+    },
+    {
+      "n": 3,
+      "sources": {
+        "imdb": {
+          "rating": 8.1,
+          "votes": 2118,
+          "tconst": "tt9217788",
+          "season": 3,
+          "episode": 3
+        },
+        "tmdb": {
+          "vote_average": 7.583,
+          "vote_count": 36,
+          "still": "https://image.tmdb.org/t/p/w500/7B013xpn4qwhTkXa0Xj2MiLTinF.jpg",
+          "season": 3,
+          "episode": 3
+        }
+      },
+      "synopsis": {
+        "en": "Belmont and Sypha's plan to leave Lindenfeld hits a snag. Isaac and the Captain debate the merits of humanity. Hector tries to get a read on Lenore.",
+        "zh": "贝尔蒙特和赛法尔计划离开林登费尔德，但遇到了障碍。艾萨克和船长争论人类的优点。赫克托试图了解丽诺尔。"
+      },
+      "title_en": "Investigators",
+      "title_cn": "调查员",
+      "aired": "2020-03-05",
+      "heat": {
+        "imdb_votes": 2118
+      },
+      "notes": {
+        "summary": "特雷弗与西法本想离开林登菲尔德，却被圣日耳曼拖进修道院的谜团。艾萨克在船上与船长激辩人性的善恶；赫克托试图揣摩前来探视他的丽诺尔，却完全不是对手。",
+        "new": [
+          {
+            "name": "The Captain",
+            "name_cn": "船长",
+            "kind": "one-off",
+            "note": "与艾萨克辩论人性的开明船长"
+          }
+        ]
+      }
+    },
+    {
+      "n": 4,
+      "sources": {
+        "imdb": {
+          "rating": 7.8,
+          "votes": 2052,
+          "tconst": "tt9217792",
+          "season": 3,
+          "episode": 4
+        },
+        "tmdb": {
+          "vote_average": 7.229,
+          "vote_count": 35,
+          "still": "https://image.tmdb.org/t/p/w500/gJdO63ZsDupBG9FcjnW0toVZPu.jpg",
+          "season": 3,
+          "episode": 4
+        }
+      },
+      "synopsis": {
+        "en": "Sumi and Taka share their history with Alucard. Also, Saint Germain gains entrance to the priory, and Isaac receives an icy welcome in Genoa.",
+        "zh": "泉和隆向阿鲁卡多讲述了他们的过去。圣日耳曼进入修道院，而艾萨克在热那亚受到冷遇。"
+      },
+      "title_en": "I Have a Scheme",
+      "title_cn": "我有个诡计",
+      "aired": "2020-03-05",
+      "heat": {
+        "imdb_votes": 2052
+      },
+      "notes": {
+        "summary": "苏米与塔卡向阿鲁卡多讲述过去：她们曾是日本吸血鬼女王蝶的俘虏，立誓学成后返乡屠龙。圣日耳曼设法进入了戒备森严的修道院；艾萨克抵达热那亚，遭到城卫队的冰冷「迎接」。"
+      }
+    },
+    {
+      "n": 5,
+      "sources": {
+        "imdb": {
+          "rating": 7.6,
+          "votes": 2024,
+          "tconst": "tt11867664",
+          "season": 3,
+          "episode": 5
+        },
+        "tmdb": {
+          "vote_average": 7.265,
+          "vote_count": 34,
+          "still": "https://image.tmdb.org/t/p/w500/zA15HRuqj6cssuXiZHmKtnj1aVn.jpg",
+          "season": 3,
+          "episode": 5
+        }
+      },
+      "synopsis": {
+        "en": "Belmont and the Judge discover an ominous symbol, Saint Germain's treasure hunt is cut short, and Alucard's bond with Sumi and Taka continues to grow.",
+        "zh": "贝尔蒙特和法官发现了一个不祥的符号。圣日耳曼的寻宝行动被打断。阿鲁卡多与泉和隆的关系日益密切。"
+      },
+      "title_en": "A Seat of Civilisation and Refinement",
+      "title_cn": "文明与精致之地",
+      "aired": "2020-03-05",
+      "heat": {
+        "imdb_votes": 2024
+      },
+      "notes": {
+        "summary": "特雷弗与法官发现了意味不祥的炼金符号；圣日耳曼在修道院内的寻宝之旅意外中断；阿鲁卡多与两位学徒日渐亲密，倾囊相授。"
+      }
+    },
+    {
+      "n": 6,
+      "sources": {
+        "imdb": {
+          "rating": 8.1,
+          "votes": 2137,
+          "tconst": "tt11867668",
+          "season": 3,
+          "episode": 6
+        },
+        "tmdb": {
+          "vote_average": 7.5,
+          "vote_count": 35,
+          "still": "https://image.tmdb.org/t/p/w500/nO22uv6My2nG9nsWvHdDvaO3T29.jpg",
+          "season": 3,
+          "episode": 6
+        }
+      },
+      "synopsis": {
+        "en": "Lenore continues to spend time with Hector, slowly earning his trust. Saint Germain experiences a telling nightmare about the Infinite Corridor.",
+        "zh": "丽诺尔继续与赫克托相处，渐渐赢得了他的信任。圣日耳曼经历了一场生动逼真、有关无限回廊的噩梦。"
+      },
+      "title_en": "The Good Dream",
+      "title_cn": "美梦",
+      "aired": "2020-03-05",
+      "heat": {
+        "imdb_votes": 2137
+      },
+      "notes": {
+        "summary": "丽诺尔持续经营赫克托的信任，向他描绘「美好梦境」般的未来蓝图。圣日耳曼的噩梦揭示了他的执念：挚爱之人迷失在「无尽回廊」中，他穷尽半生只为寻回她。"
+      }
+    },
+    {
+      "n": 7,
+      "sources": {
+        "imdb": {
+          "rating": 7.7,
+          "votes": 1988,
+          "tconst": "tt11867672",
+          "season": 3,
+          "episode": 7
+        },
+        "tmdb": {
+          "vote_average": 7.364,
+          "vote_count": 33,
+          "still": "https://image.tmdb.org/t/p/w500/q6OPCflU8LZaPXCPKAsy09FDPHb.jpg",
+          "season": 3,
+          "episode": 7
+        }
+      },
+      "synopsis": {
+        "en": "As Saint Germain makes unsettling discoveries, Isaac marches toward a showdown. Meanwhile, Belmont and Sypha question a monk — aggressively.",
+        "zh": "圣日耳曼有了令人不安的发现。艾萨克准备迎接一场对决。同时，贝尔蒙特和赛法尔咄咄逼人地质问一名僧侣。"
+      },
+      "title_en": "Worse Things Than Betrayal",
+      "title_cn": "比背叛更糟的东西",
+      "aired": "2020-03-05",
+      "heat": {
+        "imdb_votes": 1988
+      },
+      "notes": {
+        "summary": "圣日耳曼在修道院深处发现了令人不安的秘密；特雷弗与西法对萨拉和尚动了粗，仍一无所获。艾萨克率着在热那亚铸造的夜魔大军拔营启程。"
+      }
+    },
+    {
+      "n": 8,
+      "sources": {
+        "imdb": {
+          "rating": 8.1,
+          "votes": 2012,
+          "tconst": "tt11867674",
+          "season": 3,
+          "episode": 8
+        },
+        "tmdb": {
+          "vote_average": 7.618,
+          "vote_count": 34,
+          "still": "https://image.tmdb.org/t/p/w500/ibUKYIAf71dqAS158ThHLDolmLc.jpg",
+          "season": 3,
+          "episode": 8
+        }
+      },
+      "synopsis": {
+        "en": "Something is alive in the priory's basement, and for Belmont and Sypha, time is of the essence. Lenore opens up to Hector about Carmilla's plans.",
+        "zh": "修道院的地下室关着一个活物，对于贝尔蒙特和赛法尔来说，时间至关重要。丽诺尔向赫克托坦白了卡米拉的计划。"
+      },
+      "title_en": "What the Night Brings",
+      "title_cn": "晚上的情况",
+      "aired": "2020-03-05",
+      "heat": {
+        "imdb_votes": 2012
+      },
+      "notes": {
+        "summary": "修道院地下室里锁着一头活着的巨大夜魔——僧侣们的图谋昭然若揭。丽诺尔向赫克托揭开卡蜜拉计划的真相：不是征服，而是把人类圈养为食粮。"
+      }
+    },
+    {
+      "n": 9,
+      "sources": {
+        "imdb": {
+          "rating": 9.4,
+          "votes": 3516,
+          "tconst": "tt11867678",
+          "season": 3,
+          "episode": 9
+        },
+        "tmdb": {
+          "vote_average": 8.0,
+          "vote_count": 39,
+          "still": "https://image.tmdb.org/t/p/w500/p9zevWOSX5ciCfzhbXljJmeulvV.jpg",
+          "season": 3,
+          "episode": 9
+        }
+      },
+      "synopsis": {
+        "en": "Night falls on Lindenfeld and all manner of hell breaks loose. Also, Isaac meets the Magician, Hector makes a pledge, and Sumi and Taka make a move.",
+        "zh": "夜幕下的林登费尔德爆发一场大混乱。艾萨克与魔法师见面，赫克托做出承诺，泉和隆采取行动。"
+      },
+      "title_en": "The Harvest",
+      "title_cn": "收割灵魂",
+      "aired": "2020-03-05",
+      "heat": {
+        "imdb_votes": 3516
+      },
+      "notes": {
+        "summary": "夜幕降临林登菲尔德，萨拉的教团以全镇性命为祭品撕开地狱之门。艾萨克攻陷魔术师的塔楼；苏米与塔卡在缠绵之际对阿鲁卡多痛下杀手，双双毙命；丽诺尔在枕边将魔戒套上赫克托的手指。",
+        "new": [
+          {
+            "name": "The Magician",
+            "name_cn": "魔术师",
+            "kind": "one-off",
+            "note": "奴役一城人的魔术师，被艾萨克击杀"
+          }
+        ]
+      }
+    },
+    {
+      "n": 10,
+      "sources": {
+        "imdb": {
+          "rating": 9.2,
+          "votes": 2881,
+          "tconst": "tt11871636",
+          "season": 3,
+          "episode": 10
+        },
+        "tmdb": {
+          "vote_average": 8.079,
+          "vote_count": 38,
+          "still": "https://image.tmdb.org/t/p/w500/j1TxNegEsjNyAg5HZErzUE3WHzy.jpg",
+          "season": 3,
+          "episode": 10
+        }
+      },
+      "synopsis": {
+        "en": "With the portal to hell open, Trevor and Sypha must battle an onslaught. Meanwhile, the Judge shares a disturbing legacy, and Hector learns his fate.",
+        "zh": "地狱之门打开，拉尔夫和赛法尔不得不迎接一场猛烈的进攻。同时，法官留下了令人不安的遗物，而赫克托知晓了自己的命运。"
+      },
+      "title_en": "Abandon All Hope",
+      "title_cn": "放弃一切希望",
+      "aired": "2020-03-05",
+      "heat": {
+        "imdb_votes": 2881
+      },
+      "notes": {
+        "summary": "回廊洞开，特雷弗与西法死战魔潮；圣日耳曼追着爱人的身影踏入回廊，消失其中。法官的「遗产」曝光——镇上失踪的孩子都死于他手，特雷弗亲手处决了他。赫克托得知自己铸的军团已归姐妹会所有；阿鲁卡多将苏米与塔卡的尸体钉在城堡门前——越来越像他的父亲。"
+      }
+    }
+  ],
+  "route": [
+    {
+      "kind": "watch",
+      "eps": [
+        1,
+        4
+      ],
+      "why": "四线并行铺雷：小镇谜团、城堡学徒、艾萨克远征、斯蒂里亚囚笼——本季所有引爆点都在这四集装药"
+    },
+    {
+      "kind": "bridge",
+      "eps": [
+        5,
+        5
+      ],
+      "title": "各线暗流",
+      "paragraphs": [
+        "林登菲尔德：特雷弗与法官发现了意味不祥的炼金符号，镇上僧侣的嫌疑越来越重；圣日耳曼设法深入修道院寻找某样东西，却在里面撞见了超乎预期的状况，寻宝被迫中断。",
+        "斯蒂里亚：丽诺尔的「友好攻势」继续奏效，赫克托的戒备一点点松动。城堡：阿鲁卡多与苏米、塔卡日渐亲密，开始倾囊相授——空荡的城堡里久违地有了生气。"
+      ]
+    },
+    {
+      "kind": "watch",
+      "eps": [
+        6,
+        8
+      ],
+      "why": "慢燃加压段：丽诺尔的心理战、圣日耳曼的执念、修道院地下室的真相——看懂这三集才接得住后面的引爆"
+    },
+    {
+      "kind": "watch",
+      "eps": [
+        9,
+        10
+      ],
+      "why": "三线同时引爆的双高潮（8.9分）：本季所有伏笔一次结清，也是第四季的总开关"
+    }
+  ]
+}

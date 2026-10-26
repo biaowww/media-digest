@@ -1,0 +1,445 @@
+{
+  "meta": {
+    "slug": "castlevania-2-2018",
+    "schema_version": 1,
+    "ids": {
+      "bangumi": "208709",
+      "imdb": "tt6517102",
+      "tmdb": "71024",
+      "wiki": "Castlevania (TV series)"
+    },
+    "kind": "manga",
+    "season": 2,
+    "unit": "集",
+    "title": "Castlevania Season 2",
+    "title_cn": "恶魔城 第二季",
+    "title_native": "Castlevania Season 2",
+    "year": 2018,
+    "total_eps": 8,
+    "primary_kpi": "imdb",
+    "updated": "2026-10-26",
+    "fetched": {
+      "bangumi": "2026-10-26",
+      "imdb": "2026-10-26",
+      "tmdb": "2026-10-26"
+    }
+  },
+  "about": {
+    "cover": "https://image.tmdb.org/t/p/w500/WzFHnJY44uDERER0xi1jOdoafT.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w500/jLE5bsPA9xOKzBWOaOmKbp1DWQS.jpg",
+    "synopsis": {
+      "en": "A vampire hunter fights to save a besieged city from an army of otherworldly beasts controlled by Dracula himself.",
+      "zh": "德古拉伯爵和他的吸血鬼军团打算消灭人类，但三名令人意想不到的英雄敢于阻止他们的恶行。"
+    },
+    "genres": [
+      "Animation",
+      "Sci-Fi & Fantasy",
+      "Drama"
+    ],
+    "scores": {
+      "bangumi": {
+        "score": 6.8,
+        "votes": 459,
+        "rank": 3403
+      },
+      "imdb": {
+        "score": 8.3,
+        "votes": 97115
+      },
+      "tmdb": {
+        "score": 8.27,
+        "votes": 1632
+      }
+    },
+    "links": {
+      "bangumi": "https://bgm.tv/subject/208709",
+      "imdb": "https://www.imdb.com/title/tt6517102/",
+      "tmdb": "https://www.themoviedb.org/tv/71024"
+    },
+    "characters_bangumi": [
+      {
+        "name_native": "アルカード",
+        "relation": "主角",
+        "image": "https://lain.bgm.tv/pic/crt/g/bb/e7/10834_crt_A061S.jpg",
+        "bangumi_id": 10834
+      },
+      {
+        "name_native": "ラルフ・Ｃ・ベルモンド",
+        "relation": "主角",
+        "image": "https://lain.bgm.tv/pic/crt/g/6b/12/99037_crt_mM8Pp.jpg",
+        "bangumi_id": 99037
+      },
+      {
+        "name_native": "サイファ・ヴェルナンデス",
+        "relation": "主角",
+        "image": "https://lain.bgm.tv/pic/crt/g/71/0d/111040_crt_vjZ39.jpg",
+        "bangumi_id": 111040
+      }
+    ]
+  },
+  "intro": {
+    "logline": "人类最后的希望只有三个人；而德古拉的宫廷里，野心与忠诚同样在互相厮杀。",
+    "synopsis": "格雷西特之战后，特雷弗、西法与阿鲁卡多踏上了寻找制胜之法的旅途——答案藏在贝尔蒙特家族祖宅地下的猎魔档案馆里，那里沉睡着这个家族数代人对抗黑暗的全部积累。\n\n与此同时，德古拉的战争机器内部正在生锈：他把统帅魔物大军的重任交给了赫克托与艾萨克两个人类，引来吸血鬼将领们的嫉恨；姗姗来迟的吸血鬼女王卡蜜拉当面质疑德古拉的战略，暗地里开始编织自己的网。\n\n第二季是全剧剧本最扎实的一季：主角线与反派宫廷线双线咬合，最终在「For Love」一集的决战中同时引爆。",
+    "characters": [
+      {
+        "name": "Trevor Belmont",
+        "name_cn": "特雷弗·贝尔蒙特",
+        "role": "三人组的先锋，正在学着扛起家族之名",
+        "motivation": "证明贝尔蒙特家不只是「被放逐的怪物猎人」"
+      },
+      {
+        "name": "Sypha Belnades",
+        "name_cn": "西法·贝尔纳德斯",
+        "role": "团队的大脑与火力",
+        "motivation": "在档案馆中找到克制移动城堡的方法"
+      },
+      {
+        "name": "Alucard",
+        "name_cn": "阿鲁卡多",
+        "role": "德古拉之子，此行是为了弑父",
+        "motivation": "替母亲终结父亲的痛苦"
+      },
+      {
+        "name": "Dracula",
+        "name_cn": "德古拉",
+        "role": "发动灭世战争的吸血鬼之王，正在一点点枯萎",
+        "motivation": "战争既是复仇，也是一场慢性自杀"
+      },
+      {
+        "name": "Hector",
+        "name_cn": "赫克托",
+        "role": "德古拉麾下的人类恶魔锻造师",
+        "motivation": "厌恶人类的残酷，天真地以为灭世能换来公正"
+      },
+      {
+        "name": "Isaac",
+        "name_cn": "艾萨克",
+        "role": "德古拉最忠诚的人类锻造师",
+        "motivation": "以灭世报答德古拉当年的救赎之恩"
+      },
+      {
+        "name": "Carmilla",
+        "name_cn": "卡蜜拉",
+        "role": "斯蒂里亚的吸血鬼女王",
+        "motivation": "厌倦被男人统治，要夺取权力与领地"
+      }
+    ],
+    "highlights": [
+      "吸血鬼宫廷内斗线与主角线并行，反派群像全面抢戏",
+      "艾萨克——全剧对「忠诚」最有魅力的诠释",
+      "E7「For Love」决战德古拉：全剧公认的最高峰之一（8.9分）",
+      "卡蜜拉的夺权阴谋为后两季埋下全部伏笔"
+    ],
+    "standing": "第二季常年被视为全剧最佳：双线咬合的群像剧结构、动画史上排得上号的弑父决战，让它成为各类「最佳单集」「最佳季」榜单的常客。"
+  },
+  "episodes": [
+    {
+      "n": 1,
+      "sources": {
+        "imdb": {
+          "rating": 7.7,
+          "votes": 2782,
+          "tconst": "tt7119132",
+          "season": 2,
+          "episode": 1
+        },
+        "tmdb": {
+          "vote_average": 7.444,
+          "vote_count": 45,
+          "still": "https://image.tmdb.org/t/p/w500/hUO9VuXIVdLxz4BW38VmZrIatoI.jpg",
+          "season": 2,
+          "episode": 1
+        }
+      },
+      "synopsis": {
+        "en": "Dracula entrusts a deadly -- and personal -- mission with two humans who truly hate humanity, not knowing that he himself has become a target.",
+        "zh": "德古拉伯爵委托二名痛恨人类的凡人，替自己执行私人性质的致命任务，却不知他已成为目标。"
+      },
+      "title_en": "War Council",
+      "title_cn": "战争委员会",
+      "aired": "2018-10-26",
+      "heat": {
+        "imdb_votes": 2782
+      },
+      "notes": {
+        "summary": "德古拉的战争会议上，人类锻造师赫克托与艾萨克被委以统帅魔物大军之任，引来吸血鬼将领们的不满；卡蜜拉姗姗来迟，当面质疑德古拉的战略。三人组离开格雷西特，踏上寻找制胜之法的旅途。",
+        "new": [
+          {
+            "name": "Hector",
+            "name_cn": "赫克托",
+            "kind": "recurring",
+            "note": "人类恶魔锻造师，天真而危险"
+          },
+          {
+            "name": "Isaac",
+            "name_cn": "艾萨克",
+            "kind": "recurring",
+            "note": "德古拉最忠诚的人类将领"
+          },
+          {
+            "name": "Carmilla",
+            "name_cn": "卡蜜拉",
+            "kind": "recurring",
+            "note": "斯蒂里亚的吸血鬼女王，野心家"
+          },
+          {
+            "name": "Godbrand",
+            "name_cn": "戈德布兰德",
+            "kind": "arc",
+            "note": "嗜血的维京吸血鬼将领，德古拉军中的刺头"
+          }
+        ]
+      }
+    },
+    {
+      "n": 2,
+      "sources": {
+        "imdb": {
+          "rating": 7.8,
+          "votes": 2621,
+          "tconst": "tt9149870",
+          "season": 2,
+          "episode": 2
+        },
+        "tmdb": {
+          "vote_average": 7.409,
+          "vote_count": 44,
+          "still": "https://image.tmdb.org/t/p/w500/DZmt4SJpaXYBuPXKlMPH6Yb3CN.jpg",
+          "season": 2,
+          "episode": 2
+        }
+      },
+      "synopsis": {
+        "en": "As Belmont shares a bold strategy with Alucard and Sypha, Dracula addresses a conflict within his ranks. Isaac recalls a painful encounter.",
+        "zh": "贝尔蒙特向阿鲁卡多和赛法尔提出大胆的策略。德古拉伯爵处理部下间的冲突。艾萨克回忆起一次痛苦的遭遇。"
+      },
+      "title_en": "Old Homes",
+      "title_cn": "老宅",
+      "aired": "2018-10-26",
+      "heat": {
+        "imdb_votes": 2621
+      },
+      "notes": {
+        "summary": "特雷弗带阿鲁卡多与西法来到已成废墟的贝尔蒙特祖宅——宅邸地下沉睡着家族数代积累的猎魔档案馆。城堡内，德古拉亲自弹压对人类将领的质疑；艾萨克回忆起自己被旧主奴役鞭打、最终被德古拉拯救的过去。"
+      }
+    },
+    {
+      "n": 3,
+      "sources": {
+        "imdb": {
+          "rating": 7.9,
+          "votes": 2544,
+          "tconst": "tt9149876",
+          "season": 2,
+          "episode": 3
+        },
+        "tmdb": {
+          "vote_average": 7.537,
+          "vote_count": 41,
+          "still": "https://image.tmdb.org/t/p/w500/eRkDLE6mLHZDz5QSzKhDwEc1WWq.jpg",
+          "season": 2,
+          "episode": 3
+        }
+      },
+      "synopsis": {
+        "en": "Belmont travels to his family's archives, along with Sypha and a cynical Alucard. Godbrand voices a suspicion about Dracula's motives.",
+        "zh": "贝尔蒙特带着赛法尔和愤世嫉俗的阿鲁卡多前往家族档案库。葛德布兰对德古拉伯爵的动机表示怀疑。"
+      },
+      "title_en": "Shadow Battles",
+      "title_cn": "暗战",
+      "aired": "2018-10-26",
+      "heat": {
+        "imdb_votes": 2544
+      },
+      "notes": {
+        "summary": "三人在档案馆中翻找武器与典籍：西法研读法术，特雷弗整修装备，阿鲁卡多在祖先的战利品前心情复杂。戈德布兰德开始公开怀疑——德古拉打这场仗究竟是为了胜利，还是为了慢性自杀。"
+      }
+    },
+    {
+      "n": 4,
+      "sources": {
+        "imdb": {
+          "rating": 8.1,
+          "votes": 2531,
+          "tconst": "tt9153100",
+          "season": 2,
+          "episode": 4
+        },
+        "tmdb": {
+          "vote_average": 7.9,
+          "vote_count": 41,
+          "still": "https://image.tmdb.org/t/p/w500/4qR6jwFPhoFJkAMwsjM7sMmw1iw.jpg",
+          "season": 2,
+          "episode": 4
+        }
+      },
+      "synopsis": {
+        "en": "As Godbrand's thirst grows stronger, Carmilla tries to recruit Hector. Isaac shows his loyalty, and Belmont shares a family story with Sypha.",
+        "zh": "随着葛德布兰的噬血渴望愈加强烈，卡米拉试图招募赫克托。艾萨克表现出自己的忠心。贝尔蒙特与赛法尔分享了一则家族故事。"
+      },
+      "title_en": "Broken Mast",
+      "title_cn": "折断的桅杆",
+      "aired": "2018-10-26",
+      "heat": {
+        "imdb_votes": 2531
+      },
+      "notes": {
+        "summary": "卡蜜拉开始向赫克托灌输疑虑、拉拢人心。戈德布兰德的不满到达顶点、意图对德古拉不利，被艾萨克亲手格杀——用性命证明了忠诚。特雷弗向西法讲起贝尔蒙特家族被教会与世人驱逐的往事。"
+      }
+    },
+    {
+      "n": 5,
+      "sources": {
+        "imdb": {
+          "rating": 7.8,
+          "votes": 2457,
+          "tconst": "tt9150520",
+          "season": 2,
+          "episode": 5
+        },
+        "tmdb": {
+          "vote_average": 7.487,
+          "vote_count": 39,
+          "still": "https://image.tmdb.org/t/p/w500/2jNbQaPH4smF1jSEdfn6iYR566S.jpg",
+          "season": 2,
+          "episode": 5
+        }
+      },
+      "synopsis": {
+        "en": "Carmilla presses forward with her plan despite Godbrand's disappearance. Sypha makes a startling discovery while combing the archives.",
+        "zh": "尽管葛德布兰失去踪影，卡米拉仍要推进她的计划。在查阅档案库时，赛法尔有了一个惊人的发现。"
+      },
+      "title_en": "Last Spell",
+      "title_cn": "最后的咒语",
+      "aired": "2018-10-26",
+      "heat": {
+        "imdb_votes": 2457
+      },
+      "notes": {
+        "summary": "戈德布兰德「失踪」后，卡蜜拉不动声色地继续推进她的夺权计划。西法在档案馆深处发现了关键：能锁定并牵制德古拉移动城堡的咒语——三人第一次看到了胜利的可能。"
+      }
+    },
+    {
+      "n": 6,
+      "sources": {
+        "imdb": {
+          "rating": 8.5,
+          "votes": 2625,
+          "tconst": "tt9150544",
+          "season": 2,
+          "episode": 6
+        },
+        "tmdb": {
+          "vote_average": 8.209,
+          "vote_count": 43,
+          "still": "https://image.tmdb.org/t/p/w500/qUnz4ZBv9Tlp8f7vPAdXjLX1QjY.jpg",
+          "season": 2,
+          "episode": 6
+        }
+      },
+      "synopsis": {
+        "en": "Does he really have what it takes to live up to his family's reputation? It's time for Belmont to pick his fate. Also, Dracula prepares for the fight.",
+        "zh": "他是否真有能力不辱家族声誉？贝尔蒙特选择自己命运的时候到了。另一方面，德古拉伯爵准备开战。"
+      },
+      "title_en": "The River",
+      "title_cn": "河",
+      "aired": "2018-10-26",
+      "heat": {
+        "imdb_votes": 2625
+      },
+      "notes": {
+        "summary": "城堡经水路转移，卡蜜拉的伏兵在河畔发难，内乱爆发，赫克托这才看清自己被卷入了怎样的棋局。大战将至，德古拉强行把艾萨克传送远离战场——他不忍这个忠诚的人类陪自己送死；特雷弗则下定决心，扛起贝尔蒙特之名。"
+      }
+    },
+    {
+      "n": 7,
+      "sources": {
+        "imdb": {
+          "rating": 9.4,
+          "votes": 4000,
+          "tconst": "tt9150550",
+          "season": 2,
+          "episode": 7
+        },
+        "tmdb": {
+          "vote_average": 8.9,
+          "vote_count": 47,
+          "still": "https://image.tmdb.org/t/p/w500/tcbwgTAlI1z9TMkfnfwdPhEr6CE.jpg",
+          "season": 2,
+          "episode": 7
+        }
+      },
+      "synopsis": {
+        "en": "With nothing less than the future of humanity at stake, Belmont, Alucard and Sypha do battle with their immortal enemy: Dracula.",
+        "zh": "人类的未来岌岌可危，贝尔蒙特、阿鲁卡多和赛法尔与不死宿敌德古拉伯爵展开了战斗。"
+      },
+      "title_en": "For Love",
+      "title_cn": "为了爱",
+      "aired": "2018-10-26",
+      "heat": {
+        "imdb_votes": 4000
+      },
+      "notes": {
+        "summary": "三人攻入城堡，一路斩杀吸血鬼将领；阿鲁卡多在自己童年房间前与父亲对决。德古拉在即将杀死亲生儿子的瞬间清醒，任由阿鲁卡多的木桩穿心——特雷弗斩首、西法焚躯，一代魔王死于心碎。"
+      }
+    },
+    {
+      "n": 8,
+      "sources": {
+        "imdb": {
+          "rating": 8.3,
+          "votes": 2611,
+          "tconst": "tt9150560",
+          "season": 2,
+          "episode": 8
+        },
+        "tmdb": {
+          "vote_average": 7.805,
+          "vote_count": 41,
+          "still": "https://image.tmdb.org/t/p/w500/mkCb8JCQ5l9EeSsYMGHVu8rCcuw.jpg",
+          "season": 2,
+          "episode": 8
+        }
+      },
+      "synopsis": {
+        "en": "With the war between humans and vampires seemingly settled, the survivors -- both good and evil -- look toward the future.",
+        "zh": "人类与吸血鬼之间的战争似已尘埃落定。正邪双方的幸存者都把眼光投向了未来。"
+      },
+      "title_en": "End Times",
+      "title_cn": "终结",
+      "aired": "2018-10-26",
+      "heat": {
+        "imdb_votes": 2611
+      },
+      "notes": {
+        "summary": "战争落幕：卡蜜拉带着沦为阶下囚的赫克托返回斯蒂里亚，谋划下一步；艾萨克在沙漠中开始铸造属于自己的军团；特雷弗与西法结伴远行。阿鲁卡多独自留在空荡的城堡里，在父亲的遗物间失声痛哭。"
+      }
+    }
+  ],
+  "route": [
+    {
+      "kind": "watch",
+      "eps": [
+        1,
+        2
+      ],
+      "why": "反派阵营开箱：赫克托、艾萨克、卡蜜拉的登场比主角线更抢戏，是看懂后两季的地基"
+    },
+    {
+      "kind": "watch",
+      "eps": [
+        3,
+        6
+      ],
+      "why": "档案馆线与宫廷内斗双线咬合——每集都在为终局上膛，没有一颗哑弹"
+    },
+    {
+      "kind": "watch",
+      "eps": [
+        7,
+        8
+      ],
+      "why": "决战德古拉+战后格局重排：前两季全部铺垫在此引爆，8.9分的全剧名场面"
+    }
+  ]
+}

@@ -1,0 +1,519 @@
+{
+  "meta": {
+    "slug": "castlevania-4-2021",
+    "schema_version": 1,
+    "ids": {
+      "bangumi": "329407",
+      "imdb": "tt6517102",
+      "tmdb": "71024",
+      "wiki": "Castlevania (TV series)"
+    },
+    "kind": "manga",
+    "season": 4,
+    "unit": "集",
+    "title": "Castlevania Season 4",
+    "title_cn": "恶魔城 第四季",
+    "title_native": "Castlevania Season 4",
+    "year": 2021,
+    "total_eps": 10,
+    "primary_kpi": "imdb",
+    "updated": "2026-10-26",
+    "fetched": {
+      "bangumi": "2026-10-26",
+      "imdb": "2026-10-26",
+      "tmdb": "2026-10-26"
+    }
+  },
+  "about": {
+    "cover": "https://image.tmdb.org/t/p/w500/WzFHnJY44uDERER0xi1jOdoafT.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w500/jLE5bsPA9xOKzBWOaOmKbp1DWQS.jpg",
+    "synopsis": {
+      "en": "A vampire hunter fights to save a besieged city from an army of otherworldly beasts controlled by Dracula himself.",
+      "zh": "德古拉伯爵的势力越来越大，贝尔蒙特和赛法尔研究复活臭名昭著的吸血鬼的计划。阿鲁卡多难以接受自己的人性。"
+    },
+    "genres": [
+      "Animation",
+      "Sci-Fi & Fantasy",
+      "Drama"
+    ],
+    "scores": {
+      "bangumi": {
+        "score": 7.1,
+        "votes": 246,
+        "rank": 2401
+      },
+      "imdb": {
+        "score": 8.3,
+        "votes": 97115
+      },
+      "tmdb": {
+        "score": 8.27,
+        "votes": 1632
+      }
+    },
+    "links": {
+      "bangumi": "https://bgm.tv/subject/329407",
+      "imdb": "https://www.imdb.com/title/tt6517102/",
+      "tmdb": "https://www.themoviedb.org/tv/71024"
+    },
+    "characters_bangumi": [
+      {
+        "name_native": "アルカード",
+        "relation": "主角",
+        "image": "https://lain.bgm.tv/pic/crt/g/bb/e7/10834_crt_A061S.jpg",
+        "bangumi_id": 10834
+      },
+      {
+        "name_native": "ラルフ・Ｃ・ベルモンド",
+        "relation": "主角",
+        "image": "https://lain.bgm.tv/pic/crt/g/6b/12/99037_crt_mM8Pp.jpg",
+        "bangumi_id": 99037
+      },
+      {
+        "name_native": "サイファ・ヴェルナンデス",
+        "relation": "主角",
+        "image": "https://lain.bgm.tv/pic/crt/g/71/0d/111040_crt_vjZ39.jpg",
+        "bangumi_id": 111040
+      }
+    ]
+  },
+  "intro": {
+    "logline": "有人想让德古拉死而复生——挡在地狱门前的，是三个已经遍体鳞伤的人。",
+    "synopsis": "战后六周，瓦拉几亚仍被残余魔物撕咬。特雷弗与西法疲于奔命地四处救火，线索却都指向同一个地方：塔尔戈维斯特——那座烧死莉莎的王都废墟里，一场复活德古拉的仪式正在成形。\n\n各线同时收束：阿鲁卡多走出城堡，敞开大门收留流离失所的村民，学着成为母亲希望他成为的那种人；艾萨克兵临卡蜜拉城下，与过去做个了断；从无尽回廊归来的圣日耳曼，正被人一步步引向某个他完全没看透的局。\n\n这是罕见的「善终」式收官季：每个角色——包括反派——都拿到了完整的谢幕弧线，悲情开场的全剧，最终以温柔落幕。",
+    "characters": [
+      {
+        "name": "Trevor Belmont",
+        "name_cn": "特雷弗·贝尔蒙特",
+        "role": "疲惫但不再逃避的猎人",
+        "motivation": "查清塔尔戈维斯特的异动，然后想过点正常日子"
+      },
+      {
+        "name": "Sypha Belnades",
+        "name_cn": "西法·贝尔纳德斯",
+        "role": "特雷弗的搭档与恋人",
+        "motivation": "同上——以及一个她还说不出口的秘密"
+      },
+      {
+        "name": "Alucard",
+        "name_cn": "阿鲁卡多",
+        "role": "敞开城堡的守护者",
+        "motivation": "克服对人性的戒备，成为母亲期望中的人"
+      },
+      {
+        "name": "Isaac",
+        "name_cn": "艾萨克",
+        "role": "兵临斯蒂里亚的复仇者",
+        "motivation": "与过去清算，然后决定自己到底要成为毁灭者还是别的什么"
+      },
+      {
+        "name": "Hector",
+        "name_cn": "赫克托",
+        "role": "戴着魔戒的囚徒",
+        "motivation": "在牢笼里暗中完成自己的救赎"
+      },
+      {
+        "name": "Lenore",
+        "name_cn": "丽诺尔",
+        "role": "帝国将倾的外交官",
+        "motivation": "在崩塌的棋局里保住最后一点东西"
+      },
+      {
+        "name": "Saint Germain",
+        "name_cn": "圣日耳曼",
+        "role": "从回廊归来的学者",
+        "motivation": "找回爱人——这份执念正被人利用"
+      },
+      {
+        "name": "Varney",
+        "name_cn": "瓦尔内",
+        "role": "来自伦敦的吸血鬼，满嘴恭维地搅弄各方",
+        "motivation": "在废墟间推进一桩不可告人的「伟大事业」"
+      }
+    ],
+    "highlights": [
+      "收官季口碑巅峰：E9/E10双双9.4分，全剧评分之巅",
+      "E6艾萨克攻城战——「你不配得到我的血」（9.1分）",
+      "每个角色都有完整的谢幕弧线，包括反派",
+      "悲情开场、温柔落幕：动画史上罕见的「善终」结局"
+    ],
+    "standing": "第四季以两季罕见的完整闭环收官，单集评分屡破9分，被视为游戏改编动画至今的标杆结局之一；也为后来的续作《恶魔城：夜曲》铺好了舞台（本条目不含夜曲）。"
+  },
+  "episodes": [
+    {
+      "n": 1,
+      "sources": {
+        "imdb": {
+          "rating": 8.1,
+          "votes": 2091,
+          "tconst": "tt14471348",
+          "season": 4,
+          "episode": 1
+        },
+        "tmdb": {
+          "vote_average": 7.9,
+          "vote_count": 31,
+          "still": "https://image.tmdb.org/t/p/w500/vFAq2gAG5RidCBJyWbo7NxfSYWX.jpg",
+          "season": 4,
+          "episode": 1
+        }
+      },
+      "synopsis": {
+        "en": "Belmont and Sypha continue to battle beasts loyal to Dracula, but it's getting a little old. Meanwhile, Alucard receives a guest.",
+        "zh": "贝尔蒙特和赛法尔继续对战忠于德古拉伯爵的野兽，但方法有些老套。与此同时，阿鲁卡多迎来了一位访客。"
+      },
+      "title_en": "Murder Wakes It Up",
+      "title_cn": "用杀人唤醒魔咒",
+      "aired": "2021-05-13",
+      "heat": {
+        "imdb_votes": 2091
+      },
+      "notes": {
+        "summary": "战后六周，特雷弗与西法疲于奔命地清剿各地残余魔物，开始厌倦这种看不到头的日子。达内什蒂的战士格蕾塔冒死来到城堡求援——她的村庄正被夜魔围困，阿鲁卡多久违地走出了大门。",
+        "new": [
+          {
+            "name": "Greta",
+            "name_cn": "格蕾塔",
+            "kind": "arc",
+            "note": "达内什蒂的女战士，让阿鲁卡多重新走向世界的人"
+          }
+        ]
+      }
+    },
+    {
+      "n": 2,
+      "sources": {
+        "imdb": {
+          "rating": 7.8,
+          "votes": 1969,
+          "tconst": "tt14552240",
+          "season": 4,
+          "episode": 2
+        },
+        "tmdb": {
+          "vote_average": 7.516,
+          "vote_count": 31,
+          "still": "https://image.tmdb.org/t/p/w500/9lCKiL9nI41n4TRuD9j55KESg5C.jpg",
+          "season": 4,
+          "episode": 2
+        }
+      },
+      "synopsis": {
+        "en": "Lenore urges Hector to not test Carmilla's patience. Belmont and Sypha cross paths with Zamfir, a fearsome guard with a suspicious mind.",
+        "zh": "丽诺尔让赫克托不要考验卡米拉的耐心。贝尔蒙特和赛法尔与多疑的警卫扎姆菲尔相遇。"
+      },
+      "title_en": "Having the World",
+      "title_cn": "拥有全世界",
+      "aired": "2021-05-13",
+      "heat": {
+        "imdb_votes": 1969
+      },
+      "notes": {
+        "summary": "丽诺尔警告赫克托别去试探卡蜜拉的耐心。特雷弗与西法抵达废墟王都塔尔戈维斯特，遇上疑心病极重的王室卫队长扎姆菲尔——她声称王室成员还活着，藏在地下。",
+        "new": [
+          {
+            "name": "Zamfir",
+            "name_cn": "扎姆菲尔",
+            "kind": "arc",
+            "note": "塔尔戈维斯特王室卫队长，活在执念里"
+          }
+        ]
+      }
+    },
+    {
+      "n": 3,
+      "sources": {
+        "imdb": {
+          "rating": 8.0,
+          "votes": 1958,
+          "tconst": "tt14607182",
+          "season": 4,
+          "episode": 3
+        },
+        "tmdb": {
+          "vote_average": 7.655,
+          "vote_count": 29,
+          "still": "https://image.tmdb.org/t/p/w500/pFGhpOeKf2el36ATSVN9yAaHEuq.jpg",
+          "season": 4,
+          "episode": 3
+        }
+      },
+      "synopsis": {
+        "en": "Isaac gets under Varney's skin. Vampires Morana and Striga receive an urgent message from Carmilla. Belmont and Sypha get a look at Targoviste.",
+        "zh": "艾萨克惹恼了瓦尼。吸血鬼莫兰娜和斯锐格收到了卡米拉发来的紧急信息。贝尔蒙特和赛法尔对特尔戈维什泰有所了解。"
+      },
+      "title_en": "Walk Away",
+      "title_cn": "走吧",
+      "aired": "2021-05-13",
+      "heat": {
+        "imdb_votes": 1958
+      },
+      "notes": {
+        "summary": "伦敦来的吸血鬼瓦尔内凑到艾萨克营中套近乎，反被艾萨克的气场压得难受。莫拉娜与斯特里加收到卡蜜拉的紧急召回令。特雷弗与西法看清了塔尔戈维斯特的惨状——这座烧死莉莎的城市已被魔物啃成空壳。",
+        "new": [
+          {
+            "name": "Varney",
+            "name_cn": "瓦尔内",
+            "kind": "arc",
+            "note": "伦敦来的吸血鬼，嘴碎又神秘，真身是终季最大底牌"
+          },
+          {
+            "name": "Ratko",
+            "name_cn": "拉特科",
+            "kind": "arc",
+            "note": "瓦尔内的同伙，务实的杀手"
+          }
+        ]
+      }
+    },
+    {
+      "n": 4,
+      "sources": {
+        "imdb": {
+          "rating": 7.9,
+          "votes": 1917,
+          "tconst": "tt14607180",
+          "season": 4,
+          "episode": 4
+        },
+        "tmdb": {
+          "vote_average": 7.607,
+          "vote_count": 28,
+          "still": "https://image.tmdb.org/t/p/w500/7Kc0le80f4OPwkw8s6V4VGBW0ZO.jpg",
+          "season": 4,
+          "episode": 4
+        }
+      },
+      "synopsis": {
+        "en": "Alucard travels to Danesti, where he makes a dramatic entrance in the nick of time. Also, the scholar Saint Germain reflects on his own twisted path.",
+        "zh": "阿鲁卡多来到达内斯蒂，并在紧要关头出现在众人面前。另一边，学者圣日耳曼回顾了自己曲折的道路。"
+      },
+      "title_en": "You Must Sacrifice",
+      "title_cn": "你要做出牺牲",
+      "aired": "2021-05-13",
+      "heat": {
+        "imdb_votes": 1917
+      },
+      "notes": {
+        "summary": "阿鲁卡多神兵天降般杀入达内什蒂，在最后一刻救下被夜魔围攻的村民。圣日耳曼的回忆揭示了他离开回廊后走过的扭曲道路——他正被人一步步引向塔尔戈维斯特。"
+      }
+    },
+    {
+      "n": 5,
+      "sources": {
+        "imdb": {
+          "rating": 8.1,
+          "votes": 1900,
+          "tconst": "tt14607192",
+          "season": 4,
+          "episode": 5
+        },
+        "tmdb": {
+          "vote_average": 7.7,
+          "vote_count": 28,
+          "still": "https://image.tmdb.org/t/p/w500/9bUbwLtlxxYZLmDdqF9X6Gck2tB.jpg",
+          "season": 4,
+          "episode": 5
+        }
+      },
+      "synopsis": {
+        "en": "With Greta's help, Alucard sets out to guide the villagers to his castle for protection. Sypha pushes back on Zamfir's leadership. Isaac makes a move.",
+        "zh": "在格丽塔的帮助下，阿鲁卡多带领村民前往他的城堡避难。赛法尔推翻扎姆菲尔的领导权。艾萨克开始采取行动。"
+      },
+      "title_en": "Back in the World",
+      "title_cn": "重返人间",
+      "aired": "2021-05-13",
+      "heat": {
+        "imdb_votes": 1900
+      },
+      "notes": {
+        "summary": "在格蕾塔协助下，阿鲁卡多领着村民迁往自己的城堡避难。西法对扎姆菲尔的「领导」越来越不买账。艾萨克兵临斯蒂里亚城下——清算的时刻到了。"
+      }
+    },
+    {
+      "n": 6,
+      "sources": {
+        "imdb": {
+          "rating": 9.4,
+          "votes": 3224,
+          "tconst": "tt14607188",
+          "season": 4,
+          "episode": 6
+        },
+        "tmdb": {
+          "vote_average": 8.606,
+          "vote_count": 33,
+          "still": "https://image.tmdb.org/t/p/w500/f6v1Z8sVj8JzcX7FB5X76AW28Xo.jpg",
+          "season": 4,
+          "episode": 6
+        }
+      },
+      "synopsis": {
+        "en": "As Isaac and his army of night creatures descend on Carmilla's castle, Hector rushes to finish his preparations before the bloody reunion begins.",
+        "zh": "艾萨克和他的黑暗生物突袭卡米拉的城堡，赫克托在血腥重聚开始之前，匆忙完成他的准备工作。"
+      },
+      "title_en": "You Don't Deserve My Blood",
+      "title_cn": "你们不配让我流血",
+      "aired": "2021-05-13",
+      "heat": {
+        "imdb_votes": 3224
+      },
+      "notes": {
+        "summary": "艾萨克的夜魔大军强攻卡蜜拉的城堡，赫克托从内部完成了准备多时的破坏。被艾萨克逼入绝境的卡蜜拉宁可自爆而亡，也绝不沦为他人棋子；艾萨克与赫克托在废墟中冰释前嫌，丽诺尔束手就擒。"
+      }
+    },
+    {
+      "n": 7,
+      "sources": {
+        "imdb": {
+          "rating": 7.9,
+          "votes": 1892,
+          "tconst": "tt14607186",
+          "season": 4,
+          "episode": 7
+        },
+        "tmdb": {
+          "vote_average": 7.563,
+          "vote_count": 32,
+          "still": "https://image.tmdb.org/t/p/w500/6LavOPYGZDwl5v1qCv2TjD6M50d.jpg",
+          "season": 4,
+          "episode": 7
+        }
+      },
+      "synopsis": {
+        "en": "Varney and Ratko discover their plan is working — but who gets the credit? Also, Zamfir finally takes Belmont and Sypha underground.",
+        "zh": "瓦尼和拉科发现他们的计划起作用了，但这是谁的功劳？另一边，扎姆菲尔终于把贝尔蒙特和赛法尔带到了地下。"
+      },
+      "title_en": "The Great Work",
+      "title_cn": "伟大的事业",
+      "aired": "2021-05-13",
+      "heat": {
+        "imdb_votes": 1892
+      },
+      "notes": {
+        "summary": "瓦尔内与拉特科的仪式进展顺利——塔尔戈维斯特地底正在汇聚某种「伟大造物」。扎姆菲尔终于带特雷弗与西法进入地下王宫：她誓死守护的王室，早已是一地白骨。"
+      }
+    },
+    {
+      "n": 8,
+      "sources": {
+        "imdb": {
+          "rating": 8.8,
+          "votes": 2174,
+          "tconst": "tt14607196",
+          "season": 4,
+          "episode": 8
+        },
+        "tmdb": {
+          "vote_average": 8.233,
+          "vote_count": 30,
+          "still": "https://image.tmdb.org/t/p/w500/9snLeQUb8TO7Dkp0lefOCoQmnzf.jpg",
+          "season": 4,
+          "episode": 8
+        }
+      },
+      "synopsis": {
+        "en": "Belmont, Sypha and Zamfir battle Varney, Ratko and their unholy army. Alucard's castle falls under attack, and Saint Germain shares his scheme.",
+        "zh": "贝尔蒙特、赛法尔和扎姆菲尔对抗瓦尼、拉科及其邪恶军队。阿鲁卡多的城堡遭到攻击，圣日耳曼说出了他的计划。"
+      },
+      "title_en": "Death Magic",
+      "title_cn": "死亡魔法",
+      "aired": "2021-05-13",
+      "heat": {
+        "imdb_votes": 2174
+      },
+      "notes": {
+        "summary": "特雷弗、西法与扎姆菲尔死战瓦尔内和拉特科的魔物大军，扎姆菲尔战死；阿鲁卡多的城堡同样遇袭，被他庇护的村民们并肩守住。圣日耳曼完成了仪式，却在最后一刻看清自己被人利用——融合着德古拉与莉莎的「双魂魔体」破廊而出。"
+      }
+    },
+    {
+      "n": 9,
+      "sources": {
+        "imdb": {
+          "rating": 9.7,
+          "votes": 4414,
+          "tconst": "tt14607194",
+          "season": 4,
+          "episode": 9
+        },
+        "tmdb": {
+          "vote_average": 8.9,
+          "vote_count": 35,
+          "still": "https://image.tmdb.org/t/p/w500/oYU5w73Gvxv5h3k1VKlEXTh7iUb.jpg",
+          "season": 4,
+          "episode": 9
+        }
+      },
+      "synopsis": {
+        "en": "Belmont and Sypha join forces with their old friend Alucard — and not a moment too soon. As the battle rages, Varney reveals his true form.",
+        "zh": "贝尔蒙特和赛法尔与老朋友阿鲁卡多联手行动，但时间已剩不多。酣战之时，瓦尼展现了他的真实形态。"
+      },
+      "title_en": "The Endings",
+      "title_cn": "终结",
+      "aired": "2021-05-13",
+      "heat": {
+        "imdb_votes": 4414
+      },
+      "notes": {
+        "summary": "阿鲁卡多驰援塔尔戈维斯特，三人再度并肩，合力摧毁双魂魔体，德古拉与莉莎的灵魂得以解脱。瓦尔内现出真身——死神本尊；特雷弗支开同伴独战死神，以附魔匕首与其同归于尽。战后，西法告诉阿鲁卡多：她怀了特雷弗的孩子。"
+      }
+    },
+    {
+      "n": 10,
+      "sources": {
+        "imdb": {
+          "rating": 9.1,
+          "votes": 3029,
+          "tconst": "tt14607200",
+          "season": 4,
+          "episode": 10
+        },
+        "tmdb": {
+          "vote_average": 8.303,
+          "vote_count": 33,
+          "still": "https://image.tmdb.org/t/p/w500/aQphltNKc8pmE2128iybtMHoVm8.jpg",
+          "season": 4,
+          "episode": 10
+        }
+      },
+      "synopsis": {
+        "en": "Not content to live in a cage, Lenore chooses another fate. Alucard opens his castle. Sypha wonders if she's lost Belmont for good.",
+        "zh": "不甘心被关在笼中的丽诺尔选择了另一种命运。阿鲁卡多打开他的城堡。赛法尔不知道她是否会永远失去贝尔蒙特。"
+      },
+      "title_en": "It's Been a Strange Ride",
+      "title_cn": "一段奇特的旅程",
+      "aired": "2021-05-13",
+      "heat": {
+        "imdb_votes": 3029
+      },
+      "notes": {
+        "summary": "丽诺尔不愿在笼中苟活，迎着朝阳化作飞灰；艾萨克决定留在斯蒂里亚，从毁灭者变成建设者。圣日耳曼用最后的魔力救了特雷弗一命；德古拉与莉莎奇迹般重获新生，携手远行。阿鲁卡多敞开城堡收留流民，特雷弗与西法重逢——「这一路，可真够离奇的。」"
+      }
+    }
+  ],
+  "route": [
+    {
+      "kind": "watch",
+      "eps": [
+        1,
+        3
+      ],
+      "why": "战后洗牌：废墟王都、瓦尔内登场、各线向塔尔戈维斯特收拢——终季的棋局在这里摆开"
+    },
+    {
+      "kind": "watch",
+      "eps": [
+        4,
+        6
+      ],
+      "why": "达内什蒂救援到艾萨克攻城三连升压，E6「你不配得到我的血」9.1分是全季第一个爆点"
+    },
+    {
+      "kind": "watch",
+      "eps": [
+        7,
+        10
+      ],
+      "why": "收官四连：复活仪式、死神现身、终局与谢幕——E9/E10双9.4分是全剧之巅，一集都不能省"
+    }
+  ]
+}

@@ -1,0 +1,327 @@
+{
+  "meta": {
+    "slug": "castlevania-2017",
+    "schema_version": 1,
+    "ids": {
+      "bangumi": "208708",
+      "imdb": "tt6517102",
+      "tmdb": "71024",
+      "wiki": "Castlevania (TV series)"
+    },
+    "kind": "manga",
+    "season": 1,
+    "unit": "集",
+    "title": "Castlevania",
+    "title_cn": "恶魔城",
+    "title_native": "Castlevania Season 1",
+    "year": 2017,
+    "total_eps": 4,
+    "primary_kpi": "imdb",
+    "updated": "2026-10-26",
+    "fetched": {
+      "bangumi": "2026-10-26",
+      "imdb": "2026-10-26",
+      "tmdb": "2026-10-26"
+    }
+  },
+  "about": {
+    "cover": "https://image.tmdb.org/t/p/w500/WzFHnJY44uDERER0xi1jOdoafT.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w500/jLE5bsPA9xOKzBWOaOmKbp1DWQS.jpg",
+    "synopsis": {
+      "en": "A vampire hunter fights to save a besieged city from an army of otherworldly beasts controlled by Dracula himself.",
+      "zh": "吸血鬼猎人英勇作战，解救被德古拉控制的怪兽围困的城市。本剧由经典电子游戏改编。"
+    },
+    "genres": [
+      "Animation",
+      "Sci-Fi & Fantasy",
+      "Drama"
+    ],
+    "scores": {
+      "bangumi": {
+        "score": 6.9,
+        "votes": 763,
+        "rank": 3135
+      },
+      "imdb": {
+        "score": 8.3,
+        "votes": 97115
+      },
+      "tmdb": {
+        "score": 8.27,
+        "votes": 1632
+      }
+    },
+    "links": {
+      "bangumi": "https://bgm.tv/subject/208708",
+      "imdb": "https://www.imdb.com/title/tt6517102/",
+      "tmdb": "https://www.themoviedb.org/tv/71024"
+    },
+    "characters_bangumi": [
+      {
+        "name_native": "アルカード",
+        "relation": "主角",
+        "image": "https://lain.bgm.tv/pic/crt/g/bb/e7/10834_crt_A061S.jpg",
+        "bangumi_id": 10834
+      },
+      {
+        "name_native": "ラルフ・Ｃ・ベルモンド",
+        "relation": "主角",
+        "image": "https://lain.bgm.tv/pic/crt/g/6b/12/99037_crt_mM8Pp.jpg",
+        "bangumi_id": 99037
+      },
+      {
+        "name_native": "サイファ・ヴェルナンデス",
+        "relation": "主角",
+        "image": "https://lain.bgm.tv/pic/crt/g/71/0d/111040_crt_vjZ39.jpg",
+        "bangumi_id": 111040
+      }
+    ]
+  },
+  "intro": {
+    "logline": "妻子被教会烧死后，德古拉向全人类宣战——末代怪物猎人不得不捡起祖传的鞭子。",
+    "synopsis": "1476年的瓦拉几亚。德古拉的人类妻子莉莎因「巫术」罪名被狂热的主教当众烧死，游历归来的德古拉给了全国一年忏悔期——期限一到，地狱大军倾巢而出，王国沦为人间炼狱。\n\n特雷弗·贝尔蒙特，被放逐的猎魔家族最后的传人，此刻正穷困潦倒地在各地流浪。他流浪到恐慌弥漫的格雷西特城，卷入教会、暴民与被追猎的「吟游者」一族的冲突，并听闻了一个传说：城市地下沉睡着一位能对抗德古拉的「士兵」。\n\n只有4集的第一季更像一部紧凑的序章电影：从酒馆斗殴到地下墓穴，从恶魔夜袭到三人成军，没有一分钟废戏。",
+    "characters": [
+      {
+        "name": "Trevor Belmont",
+        "name_cn": "特雷弗·贝尔蒙特",
+        "role": "贝尔蒙特猎魔家族的最后传人，落魄浪子",
+        "motivation": "本想混吃等死，终究还是捡起了家族的鞭子与使命"
+      },
+      {
+        "name": "Sypha Belnades",
+        "name_cn": "西法·贝尔纳德斯",
+        "role": "吟游者一族的元素法师",
+        "motivation": "找到传说中的「沉睡的士兵」，拯救瓦拉几亚"
+      },
+      {
+        "name": "Alucard",
+        "name_cn": "阿鲁卡多",
+        "role": "德古拉与莉莎之子，半人半吸血鬼",
+        "motivation": "为完成母亲的遗愿，阻止父亲的灭世之战"
+      },
+      {
+        "name": "Dracula",
+        "name_cn": "德古拉",
+        "role": "瓦拉几亚的吸血鬼之王",
+        "motivation": "挚爱被人类烧死，要全人类为她陪葬"
+      },
+      {
+        "name": "Lisa Tepes",
+        "name_cn": "莉莎·采佩什",
+        "role": "追求科学与医学的人类女性，德古拉的妻子",
+        "motivation": "用知识改善世人的生活——她的死是一切悲剧的起点"
+      }
+    ],
+    "highlights": [
+      "沃伦·埃利斯执笔，改编自游戏《恶魔城III：德古拉的诅咒》",
+      "4×25分钟讲完「讨伐小队集结」，零废戏的序章电影",
+      "酒馆斗殴、恶魔开口宣判主教「神也厌弃你」——名场面密集",
+      "哥特画风+流畅暴力美学，Netflix成人动画的开门一炮"
+    ],
+    "standing": "作为史上第一部真正成功的游戏改编剧集，《恶魔城》第一季以4集的体量证明了「游戏改编必烂」不是铁律，为后来的《双城之战》《最后生还者》们蹚平了路。"
+  },
+  "episodes": [
+    {
+      "n": 1,
+      "sources": {
+        "imdb": {
+          "rating": 8.1,
+          "votes": 4148,
+          "tconst": "tt6942612",
+          "season": 1,
+          "episode": 1
+        },
+        "tmdb": {
+          "vote_average": 7.838,
+          "vote_count": 68,
+          "still": "https://image.tmdb.org/t/p/w500/182GWr0iCfxi0T7a3vPBBSpVO6l.jpg",
+          "season": 1,
+          "episode": 1
+        }
+      },
+      "synopsis": {
+        "en": "A headstrong young woman seeks out forbidden knowledge, and a corrupt bishop courts disaster by enraging a legend.",
+        "zh": "一名性情固执的年轻女性希望获取禁忌的知识；一名腐败的主教触怒传说中的人物，招致灾难。"
+      },
+      "title_en": "Witchbottle",
+      "title_cn": "女巫瓶",
+      "aired": "2017-07-07",
+      "heat": {
+        "imdb_votes": 4148
+      },
+      "notes": {
+        "summary": "1455年，莉莎·采佩什慕名来到德古拉的城堡求学科学，二人相恋成婚。二十年后，塔尔戈维斯特的主教以「巫术」罪名将她烧死；归来的德古拉给了瓦拉几亚一年忏悔期，期限一到，地狱大军倾巢而出。",
+        "new": [
+          {
+            "name": "Lisa Tepes",
+            "name_cn": "莉莎·采佩什",
+            "kind": "arc",
+            "note": "德古拉的人类妻子，她的死是全剧一切悲剧的起点"
+          },
+          {
+            "name": "Dracula",
+            "name_cn": "德古拉",
+            "kind": "recurring",
+            "note": "吸血鬼之王，本剧核心反派兼最大悲剧人物"
+          },
+          {
+            "name": "The Bishop",
+            "name_cn": "主教",
+            "kind": "arc",
+            "note": "狂热腐败的塔尔戈维斯特主教，烧死莉莎的元凶"
+          }
+        ]
+      }
+    },
+    {
+      "n": 2,
+      "sources": {
+        "imdb": {
+          "rating": 7.4,
+          "votes": 3496,
+          "tconst": "tt7112604",
+          "season": 1,
+          "episode": 2
+        },
+        "tmdb": {
+          "vote_average": 7.407,
+          "vote_count": 54,
+          "still": "https://image.tmdb.org/t/p/w500/1qB1sg8rDFD3gzSuQyjBwjyL6jD.jpg",
+          "season": 1,
+          "episode": 2
+        }
+      },
+      "synopsis": {
+        "en": "Trevor Belmont drifts into the panicked city of Gresit, where he learns of an ancient evil and makes a surprising vow.",
+        "zh": "四处漂泊的拉尔夫·贝尔蒙特来到弥漫着恐慌情绪的格瑞西特城，他在这里了解到一种古老的邪恶力量，并立下令人意想不到的誓言。"
+      },
+      "title_en": "Necropolis",
+      "title_cn": "墓地",
+      "aired": "2017-07-07",
+      "heat": {
+        "imdb_votes": 3496
+      },
+      "notes": {
+        "summary": "1476年，没落的贝尔蒙特家族末裔特雷弗流浪到恐慌中的格雷西特城，一场酒馆斗殴显露了他的身手。他遇到被教会追猎的吟游者一族，得知「沉睡的士兵」传说；入夜，魔物再度来袭。",
+        "new": [
+          {
+            "name": "Trevor Belmont",
+            "name_cn": "特雷弗·贝尔蒙特",
+            "kind": "recurring",
+            "note": "主角，猎魔家族最后传人"
+          },
+          {
+            "name": "The Elder",
+            "name_cn": "长老",
+            "kind": "arc",
+            "note": "吟游者领袖，西法的外祖父"
+          },
+          {
+            "name": "Sypha Belnades",
+            "name_cn": "西法·贝尔纳德斯",
+            "kind": "recurring",
+            "note": "吟游者法师，后来的三人组核心"
+          }
+        ]
+      }
+    },
+    {
+      "n": 3,
+      "sources": {
+        "imdb": {
+          "rating": 7.8,
+          "votes": 3365,
+          "tconst": "tt7112606",
+          "season": 1,
+          "episode": 3
+        },
+        "tmdb": {
+          "vote_average": 7.596,
+          "vote_count": 52,
+          "still": "https://image.tmdb.org/t/p/w500/7kOqylr7KkSWlYY5EcSM7qE22vx.jpg",
+          "season": 1,
+          "episode": 3
+        }
+      },
+      "synopsis": {
+        "en": "Belmont explores the catacombs of Gresit and makes a disturbing discovery. As night falls on the city, the beasts return for blood.",
+        "zh": "贝尔蒙特探索了格瑞西特的地下墓穴，发现了可怕的事情。黑夜笼罩城市，嗜血野兽归来。"
+      },
+      "title_en": "Labyrinth",
+      "title_cn": "迷宫",
+      "aired": "2017-07-07",
+      "heat": {
+        "imdb_votes": 3365
+      },
+      "notes": {
+        "summary": "特雷弗跟随西法潜入格雷西特地下的墓穴，在机关深处找到了传说中的「沉睡的士兵」——德古拉之子阿鲁卡多。一场交手后双方确认彼此不是敌人；地面上，魔物群在夜色中再临格雷西特。",
+        "new": [
+          {
+            "name": "Alucard",
+            "name_cn": "阿鲁卡多",
+            "kind": "recurring",
+            "note": "德古拉之子，沉睡的士兵本人"
+          }
+        ]
+      }
+    },
+    {
+      "n": 4,
+      "sources": {
+        "imdb": {
+          "rating": 8.4,
+          "votes": 3612,
+          "tconst": "tt7112610",
+          "season": 1,
+          "episode": 4
+        },
+        "tmdb": {
+          "vote_average": 8.0,
+          "vote_count": 55,
+          "still": "https://image.tmdb.org/t/p/w500/e58Nqb7aJ57fiWQdewsKrEGmUgm.jpg",
+          "season": 1,
+          "episode": 4
+        }
+      },
+      "synopsis": {
+        "en": "Belmont strives to save Gresit from certain doom and comes face to face with a shocking truth.",
+        "zh": "在这季大结局中，贝尔蒙特努力从厄运的魔爪下拯救格瑞西特，并直面令人震惊的真相。"
+      },
+      "title_en": "Monument",
+      "title_cn": "丰碑",
+      "aired": "2017-07-07",
+      "heat": {
+        "imdb_votes": 3612
+      },
+      "notes": {
+        "summary": "主教煽动暴民欲烧死吟游者，特雷弗挺身而出，恶魔大军也在此刻总攻格雷西特。主教被他侍奉的「神」抛弃、命丧魔物之口；三人并肩击退魔潮，结成讨伐德古拉的小队出发。",
+        "new": [
+          {
+            "name": "Blue Fangs",
+            "name_cn": "蓝牙恶魔",
+            "kind": "one-off",
+            "note": "开口说话的高阶恶魔，亲手了结主教"
+          }
+        ]
+      }
+    }
+  ],
+  "route": [
+    {
+      "kind": "watch",
+      "eps": [
+        1,
+        1
+      ],
+      "why": "全剧缘起：莉莎之死与一年之约——德古拉这个「悲情反派」的全部动机都在这25分钟里，跳过它后面一切都不成立"
+    },
+    {
+      "kind": "watch",
+      "eps": [
+        2,
+        4
+      ],
+      "why": "组队三连：特雷弗登场、地下墓穴与三人成军一气呵成，4集体量没有一分钟可省"
+    }
+  ]
+}
