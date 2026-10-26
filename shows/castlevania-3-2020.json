@@ -15,7 +15,7 @@
     "title_cn": "恶魔城 第三季",
     "title_native": "Castlevania Season 3",
     "year": 2020,
-    "total_eps": 32,
+    "total_eps": 10,
     "primary_kpi": "imdb",
     "updated": "2026-10-26",
     "fetched": {
@@ -48,7 +48,7 @@
       },
       "imdb": {
         "score": 8.3,
-        "votes": 97115
+        "votes": 97013
       },
       "tmdb": {
         "score": 8.27,
@@ -149,7 +149,7 @@
       "sources": {
         "imdb": {
           "rating": 7.7,
-          "votes": 2249,
+          "votes": 2242,
           "tconst": "tt9217782",
           "season": 3,
           "episode": 1
@@ -168,9 +168,9 @@
       },
       "title_en": "Witchbottle",
       "title_cn": "祝福你们死去的幼小心灵",
-      "aired": "2017-07-07",
+      "aired": "2020-03-05",
       "heat": {
-        "imdb_votes": 2249
+        "imdb_votes": 2242
       },
       "notes": {
         "summary": "战后数周：特雷弗与西法流浪到诡异的林登菲尔德镇，热情的法官接待了他们，镇上修道院的僧侣却行迹可疑；学者圣日耳曼也来到镇上查探。孤独的阿鲁卡多开始对着木偶自言自语；卡蜜拉押着赫克托回到斯蒂里亚，与她的姐妹会会合。",
@@ -213,7 +213,7 @@
       "sources": {
         "imdb": {
           "rating": 7.6,
-          "votes": 2131,
+          "votes": 2125,
           "tconst": "tt9217786",
           "season": 3,
           "episode": 2
@@ -232,9 +232,9 @@
       },
       "title_en": "Necropolis",
       "title_cn": "我心之安慰",
-      "aired": "2017-07-07",
+      "aired": "2020-03-05",
       "heat": {
-        "imdb_votes": 2131
+        "imdb_votes": 2125
       },
       "notes": {
         "summary": "艾萨克在旅途中意外得到一位店主的善意相助，获赠能定位赫克托的魔镜。卡蜜拉向姐妹会抛出领土扩张的宏图。两位日本吸血鬼猎人——苏米与塔卡登门拜访阿鲁卡多，恳求他传授猎魔之术。",
@@ -259,7 +259,7 @@
       "sources": {
         "imdb": {
           "rating": 8.1,
-          "votes": 2118,
+          "votes": 2111,
           "tconst": "tt9217788",
           "season": 3,
           "episode": 3
@@ -278,9 +278,9 @@
       },
       "title_en": "Labyrinth",
       "title_cn": "调查员",
-      "aired": "2017-07-07",
+      "aired": "2020-03-05",
       "heat": {
-        "imdb_votes": 2118
+        "imdb_votes": 2111
       },
       "notes": {
         "summary": "特雷弗与西法本想离开林登菲尔德，却被圣日耳曼拖进修道院的谜团。艾萨克在船上与船长激辩人性的善恶；赫克托试图揣摩前来探视他的丽诺尔，却完全不是对手。",
@@ -299,7 +299,7 @@
       "sources": {
         "imdb": {
           "rating": 7.8,
-          "votes": 2052,
+          "votes": 2042,
           "tconst": "tt9217792",
           "season": 3,
           "episode": 4
@@ -318,9 +318,9 @@
       },
       "title_en": "Monument",
       "title_cn": "我有个诡计",
-      "aired": "2017-07-07",
+      "aired": "2020-03-05",
       "heat": {
-        "imdb_votes": 2052
+        "imdb_votes": 2042
       },
       "notes": {
         "summary": "苏米与塔卡向阿鲁卡多讲述过去：她们曾是日本吸血鬼女王蝶的俘虏，立誓学成后返乡屠龙。圣日耳曼设法进入了戒备森严的修道院；艾萨克抵达热那亚，遭到城卫队的冰冷「迎接」。"
@@ -331,7 +331,7 @@
       "sources": {
         "imdb": {
           "rating": 7.6,
-          "votes": 2024,
+          "votes": 2016,
           "tconst": "tt11867664",
           "season": 3,
           "episode": 5
@@ -350,9 +350,9 @@
       },
       "title_en": "War Council",
       "title_cn": "文明与精致之地",
-      "aired": "2018-10-26",
+      "aired": "2020-03-05",
       "heat": {
-        "imdb_votes": 2024
+        "imdb_votes": 2016
       },
       "notes": {
         "summary": "特雷弗与法官发现了意味不祥的炼金符号；圣日耳曼在修道院内的寻宝之旅意外中断；阿鲁卡多与两位学徒日渐亲密，倾囊相授。"
@@ -363,7 +363,7 @@
       "sources": {
         "imdb": {
           "rating": 8.1,
-          "votes": 2137,
+          "votes": 2130,
           "tconst": "tt11867668",
           "season": 3,
           "episode": 6
@@ -382,9 +382,9 @@
       },
       "title_en": "Old Homes",
       "title_cn": "美梦",
-      "aired": "2018-10-26",
+      "aired": "2020-03-05",
       "heat": {
-        "imdb_votes": 2137
+        "imdb_votes": 2130
       },
       "notes": {
         "summary": "丽诺尔持续经营赫克托的信任，向他描绘「美好梦境」般的未来蓝图。圣日耳曼的噩梦揭示了他的执念：挚爱之人迷失在「无尽回廊」中，他穷尽半生只为寻回她。"
@@ -395,7 +395,7 @@
       "sources": {
         "imdb": {
           "rating": 7.7,
-          "votes": 1988,
+          "votes": 1981,
           "tconst": "tt11867672",
           "season": 3,
           "episode": 7
@@ -414,9 +414,9 @@
       },
       "title_en": "Shadow Battles",
       "title_cn": "比背叛更糟的东西",
-      "aired": "2018-10-26",
+      "aired": "2020-03-05",
       "heat": {
-        "imdb_votes": 1988
+        "imdb_votes": 1981
       },
       "notes": {
         "summary": "圣日耳曼在修道院深处发现了令人不安的秘密；特雷弗与西法对萨拉和尚动了粗，仍一无所获。艾萨克率着在热那亚铸造的夜魔大军拔营启程。"
@@ -427,7 +427,7 @@
       "sources": {
         "imdb": {
           "rating": 8.1,
-          "votes": 2012,
+          "votes": 2004,
           "tconst": "tt11867674",
           "season": 3,
           "episode": 8
@@ -446,9 +446,9 @@
       },
       "title_en": "Broken Mast",
       "title_cn": "晚上的情况",
-      "aired": "2018-10-26",
+      "aired": "2020-03-05",
       "heat": {
-        "imdb_votes": 2012
+        "imdb_votes": 2004
       },
       "notes": {
         "summary": "修道院地下室里锁着一头活着的巨大夜魔——僧侣们的图谋昭然若揭。丽诺尔向赫克托揭开卡蜜拉计划的真相：不是征服，而是把人类圈养为食粮。"
@@ -459,7 +459,7 @@
       "sources": {
         "imdb": {
           "rating": 9.4,
-          "votes": 3516,
+          "votes": 3507,
           "tconst": "tt11867678",
           "season": 3,
           "episode": 9
@@ -478,9 +478,9 @@
       },
       "title_en": "Last Spell",
       "title_cn": "收割灵魂",
-      "aired": "2018-10-26",
+      "aired": "2020-03-05",
       "heat": {
-        "imdb_votes": 3516
+        "imdb_votes": 3507
       },
       "notes": {
         "summary": "夜幕降临林登菲尔德，萨拉的教团以全镇性命为祭品撕开地狱之门。艾萨克攻陷魔术师的塔楼；苏米与塔卡在缠绵之际对阿鲁卡多痛下杀手，双双毙命；丽诺尔在枕边将魔戒套上赫克托的手指。",
@@ -499,7 +499,7 @@
       "sources": {
         "imdb": {
           "rating": 9.2,
-          "votes": 2881,
+          "votes": 2873,
           "tconst": "tt11871636",
           "season": 3,
           "episode": 10
@@ -518,211 +518,13 @@
       },
       "title_en": "The River",
       "title_cn": "放弃一切希望",
-      "aired": "2018-10-26",
+      "aired": "2020-03-05",
       "heat": {
-        "imdb_votes": 2881
+        "imdb_votes": 2873
       },
       "notes": {
         "summary": "回廊洞开，特雷弗与西法死战魔潮；圣日耳曼追着爱人的身影踏入回廊，消失其中。法官的「遗产」曝光——镇上失踪的孩子都死于他手，特雷弗亲手处决了他。赫克托得知自己铸的军团已归姐妹会所有；阿鲁卡多将苏米与塔卡的尸体钉在城堡门前——越来越像他的父亲。"
       }
-    },
-    {
-      "n": 11,
-      "sources": {},
-      "synopsis": {
-        "en": "Emerging from the library, Trevor, Sypha and Alucard storm the castle and defeat the remaining vampires in the main hall. Dracula retreats to his study with Isaac, whom he sends through his magic mirror back to the desert to save him from the conflict. Alucard reaches the study and attacks Dracula, backed by Trevor and Sypha. The group is ultimately overpowered by Dracula, who engages in hand-to-hand combat with Alucard, moving through the castle as they battle until they eventually arrive to Alucard's childhood room. Realizing the gravity of his actions and that he was trying to kill his own son, Dracula breaks down in remorse before allowing Alucard to stake him through the heart, killing him. Trevor then arrives to decapitate Dracula while Sypha comes to burn the remains, leaving only his wedding ring intact. Alucard is upset about having killed his father, but Trevor and Sypha reassure him it was the right thing to do. They all exit the castle as morning dawns."
-      },
-      "title_en": "For Love",
-      "aired": "2018-10-26"
-    },
-    {
-      "n": 12,
-      "sources": {},
-      "synopsis": {
-        "en": "Alucard intends to make Dracula's now-deserted castle his grave, but Trevor gifts him the Belmont library along with encouragement to protect both their ancestral homes while using their collective knowledge to help people. Meanwhile, Isaac murders a group of raiders and turns them into night creatures, plotting to create an army for himself. In Brăila, Carmilla decides to return to Styria, enslaving Hector for his skills to quickly rebuild her forces and take advantage of the power vacuum left by Dracula's demise. Sypha convinces Trevor to stay with her and join her on new adventures battling monsters, and they part ways with Alucard. Left alone in the castle, Alucard reflects on the loss of his parents, is overcome by grief and breaks down crying."
-      },
-      "title_en": "End Times",
-      "aired": "2018-10-26"
-    },
-    {
-      "n": 13,
-      "sources": {},
-      "synopsis": {
-        "en": "A month after Dracula's death, Alucard tries to adjust to his loneliness, but he misses Trevor and Sypha and fears he is going insane. Meanwhile, after dispatching rogue night creatures, Trevor and Sypha arrive in the small town of Lindenfeld, where a local priory sympathizes with Dracula's cause and wish to punish those responsible for his death. Carmilla returns to her castle in Styria with Hector to reunite with her Council of Sisters, which consists of herself, Lenore, Striga and Morana. Hector is then imprisoned in her castle."
-      },
-      "title_en": "Bless Your Dead Little Hearts",
-      "aired": "2020-03-05"
-    },
-    {
-      "n": 14,
-      "sources": {},
-      "synopsis": {
-        "en": "In Tunis, Isaac, seeking revenge on Hector for his betrayal, is gifted a distance mirror from an elderly collector, which he then uses to locate Hector at Carmilla's castle. After slaughtering the people of Tunis when he is refused peaceful passage, Isaac and his creatures depart for Genoa on a boat belonging to a man known as the Captain. In Styria, Carmilla shares her plans to make Hector create an army of night creatures and use them dominate the area between their castle and Brăila, turning all the humans in the region into livestock. However, when Morgana and Striga point out how Hector will refuse or use the night creatures to betray them, Lenore volunteers to convince him otherwise. In Lindenfeld, Trevor meets the mysterious Saint Germain, who recognizes him as a Belmont. Germain persuades the priory leader, Sala, to grant him access into their library. At the Belmont hold, Alucard is visited by a pair of vampire hunters from Japan, Sumi and Taka, who wish to be trained by him in order to defend their people, which he accepts."
-      },
-      "title_en": "The Reparation of My Heart",
-      "aired": "2020-03-05"
-    },
-    {
-      "n": 15,
-      "sources": {},
-      "synopsis": {
-        "en": "Befriending the Judge of Lindenfeld, Trevor and Sypha learn how one of Dracula's night creatures, nicknamed the Visitor, crashed into the priory and began communicating with the monks. Since then, Sala began refusing town folk into the priory's monastery and allowed disturbed strangers in; Trevor and Sypha agree to investigate what the priory is up to. On the open seas, the Captain and Isaac debate the merits of humanity. When Isaac says he wishes to continue Dracula's ambitions and eradicate humanity, the Captain challenges him to instead use his skills to teach humanity how to be kinder. At Carmilla's castle, Lenore brings food to an unclothed and battered Hector. Wary of her intentions, he threatens Lenore in an attempt to escape, only to be beaten down by her."
-      },
-      "title_en": "Investigators",
-      "aired": "2020-03-05"
-    },
-    {
-      "n": 16,
-      "sources": {},
-      "synopsis": {
-        "en": "At Dracula's castle, Taka and Sumi reveal that they were once enslaved by one of Dracula's council members, Chō, until slaughtering her guards and escaping when she left to assist Dracula. Although Chō later died in the battle against Dracula, Taka and Sumi know another vampire will one day succeed her, and ask Alucard to teach them to be better vampire hunters. In Styria, Striga and Morgana debate over the costs of Carmilla's plan, concluding that, if successful, they will rule an empire. Meanwhile, Lenore provides Hector with foods and clothes, and questions his relationship with Dracula. At Lindenfeld, Germain gains entrance to the monastery, revealing to Sala that the symbol given to them by the Visitor is the alchemical sign for sulfur used by philosophers to denote hell. Isaac arrives in Genoa, where he is refused entry despite offering to pass through town quietly; this causes him to slaughter its people as in Tunis."
-      },
-      "title_en": "I Have a Scheme",
-      "aired": "2020-03-05"
-    },
-    {
-      "n": 17,
-      "sources": {},
-      "synopsis": {
-        "en": "While reflecting upon his life choices, Trevor meets the Judge and notices that the monks have carved alchemical signs throughout the town. Saint Germain continues to investigate inside the monastery and encounters the entrance to the basement, which Sala refuses to let him enter. Outside he meets Sypha, who knows he is a magician. Joined with Trevor at the local tavern, Saint Germain tells them that he is in search of a portal to the \"Infinite Corridor\", an alternate realm that grants access to infinite worlds across space and time. Saint Germain further explains that he once lost someone dear to him in the Corridor, and that a portal to it lies underneath the priory. Near Dracula's castle, Alucard begins training Sumi and Taka, bonding with them in the process."
-      },
-      "title_en": "A Seat of Civilisation and Refinement",
-      "aired": "2020-03-05"
-    },
-    {
-      "n": 18,
-      "sources": {},
-      "synopsis": {
-        "en": "Lenore takes Hector for a walk around Carmilla's castle, further questioning Dracula's plans and how they would have benefited Hector, and he gradually starts to fall for her charms. In Lindenfeld, Trevor and Sypha decide to trust Germain. Germain has a nightmare of falling through the Infinite Corridor, witnessing numerous worlds and strange beings. The nightmare ends as Germain sees a woman in another portal, who throws him a crystal which he catches in his hand. At his campfire outside Genoa, Isaac converses with one of his night creatures, Flyseyes, about what his life was like before he was transported to hell and reborn. Flyseyes reveals that he was a philosopher in Athens during a time when philosophy was outlawed by Christians. When faced with death, he betrayed his fellow philosophers, only to be killed anyway and end up in hell for his treachery. Having learned to like sin, he thanks Isaac for his revival; this appears to deeply disturb the forgemaster."
-      },
-      "title_en": "The Good Dream",
-      "aired": "2020-03-05"
-    },
-    {
-      "n": 19,
-      "sources": {},
-      "synopsis": {
-        "en": "Alucard takes Sumi and Taka to the Belmont hold, stating that they must start small. Returning to the monastery in Lindenfeld, Saint Germain discovers a book that shows how to bring back the dead from hell. Trevor fights with some of the monks, capturing one and bringing him back to meet the Judge and Sypha. Germain heads towards the monastery basement, where he finds the still-living Visitor impaled to the walls. Beyond Genoa and a two weeks' ride away from Styria, Isaac finds himself in an abandoned town and meets a blind woman named Miranda. Deducing Isaac to be a fellow forgemaster, Miranda informs him that a Magician captured townsfolk from several nearby towns, enslaving them in order to construct a great city. She also tells him that the Magician owns a transmission mirror that can transport Isaac and his army to Styria."
-      },
-      "title_en": "Worse Things Than Betrayal",
-      "aired": "2020-03-05"
-    },
-    {
-      "n": 20,
-      "sources": {},
-      "synopsis": {
-        "en": "While Striga, Morgana and eventually Carmilla strategize, Lenore meets with Hector again, offering him the chance to leave and be with her. Germain escapes from the basement and leaves the monastery, meeting with Trevor, Sypha and the Judge as they are interrogating the captured monk. The group devises a plan to fight the monks and help Germain open the Infinite Corridor; both the Judge's forces and the priory monks begin preparing for battle. In the Belmont hold, Alucard bonds with Taka and Sumi during their training, but they are both suspicious that Alucard is hiding something from them."
-      },
-      "title_en": "What the Night Brings",
-      "aired": "2020-03-05"
-    },
-    {
-      "n": 21,
-      "sources": {},
-      "synopsis": {
-        "en": "At sundown, the houses of Lindenfeld that bear the alchemical carvings combust into flames, killing the people. A battle between the monks and the Judge's men begins, as countless night creatures emerge from the Priory. Trevor, Sypha, and Saint Germain enter the monastery, where the Visitor harnesses the souls of the dead, using them to control the Infinite Corridor, thereby opening a portal to hell and revealing Dracula embracing Lisa. In Styria, Lenore has sex with Hector, tricking him into allowing a magical slave ring to slip onto his finger. Isaac and his night creatures enter the Magician's city and battle against his lifeless slaves and Legion, an amalgamation of countless human bodies. Isaac kills the Magician, releasing the corpses under his control. Taka and Sumi enter Alucard's room and proceed to have sex with him, then trap him with magical restraints."
-      },
-      "title_en": "The Harvest",
-      "aired": "2020-03-05"
-    },
-    {
-      "n": 22,
-      "sources": {},
-      "synopsis": {
-        "en": "Taka and Sumi accuse Alucard of withholding his knowledge of magic from them and not teaching them how to operate the castle. Before they can stake him, he uses his sword to slit their throats. In the monastery basement, Trevor and Sypha battle the night creatures while Germain tries closing the portal, forcing the Visitor to help him control it. Trevor destroys the Visitor, and Germain thanks him and Sypha before vanishing into the Infinite Corridor. After being stabbed by Sala, the Judge tells him of a secret path he can use to escape. The secret path is revealed to lead to a pit of spikes, which kills Sala. Investigating the pit and the Judge's house, Trevor and Sypha realize that the Judge had secretly been killing children by luring them to the pit. Emotionally distressed, they burn the Judge's house down and depart from Lindenfeld. At Carmilla's castle, Lenore presents the sisters with their own slave rings, which will force Hector, and by extension his night creatures, to be loyal to them. A grieving Alucard leaves Sumi and Taka's impaled bodies outside of Dracula's castle as a warning to future visitors, just as Dracula had before him."
-      },
-      "title_en": "Abandon All Hope",
-      "aired": "2020-03-05"
-    },
-    {
-      "n": 23,
-      "sources": {},
-      "synopsis": {
-        "en": "Six weeks after the Battle of Lindenfeld, Trevor and Sypha are exhausted from continually traveling the land, slaying night creatures and cultists who seek to resurrect Dracula. During these battles, they learn about an elemental spirit named Death who eats the souls of the dead. The two arrive at Târgoviște, where Dracula's campaign against humanity began. Exploring the ruins, Trevor finds a magical dagger. A pair of vampires named Varney and Ratko watch over the two, with Varney annoyed at their interference. Meanwhile Alucard, having since added numerous corpses outside of Dracula's castle, encounters a horse with a dead messenger carrying a map and summons to the village of Danesti, which requires his aid. After burying the corpse of the messenger, Alucard looks in a mirror and realizes that he is \"turning into Belmont\" in feeling a need to meddle in other's affairs."
-      },
-      "title_en": "Murder Wakes It Up",
-      "aired": "2021-05-13"
-    },
-    {
-      "n": 24,
-      "sources": {},
-      "synopsis": {
-        "en": "Hector, no longer imprisoned and engaged in a proper relationship with Lenore, attempts to create a new forging hammer while secretly placing magic stones in the castle walls. While asking Carmilla to be patient with Hector, Lenore learns that she seeks dominion over the entire world, wishing to take everything from those that have taken from her. Hector finishes work on the hammer. While attempting to rest, Trevor and Sypha are ambushed by Varney and Ratko's night creatures but are saved by Zamfir, the head guard of Târgoviște's Underground Court. Zamfir wishes to recruit the pair to the local resistance, provided that she and the Underground Court earn their trust. As Zamfir pursues Varney and Ratko, Trevor pockets a glowing stone on the corpse of a resistance soldier in hopes it will prove useful."
-      },
-      "title_en": "Having the World",
-      "aired": "2021-05-13"
-    },
-    {
-      "n": 25,
-      "sources": {},
-      "synopsis": {
-        "en": "The night creatures bury corpses and rebuild the Magician's city under Isaac's direction. Flyseyes questions Isaac about his orders; Isaac explains that he wants them to do more than they were intended for, deciding to live his own life from now on. Varney contacts Isaac through a magic mirror and requests his help in resurrecting Dracula, but is rejected. At their campsite, Morana and Striga are ambushed by commonfolk seeking to drive them off. After she and her soldiers kill their attackers, Striga laments that she and Morana will be fighting and planning Carmilla's war forever, leaving them unsure. Carmilla contacts her sisters and urges them to come home. Back in Târgoviște, Trevor and Sypha witness how the remaining people are malnourished and they opt to investigate the city, hoping to earn Zamfir's trust by aiding others in her place. Trevor also discovers that the magic dagger can be energized by the glowing stone."
-      },
-      "title_en": "Walk Away",
-      "aired": "2021-05-13"
-    },
-    {
-      "n": 26,
-      "sources": {},
-      "synopsis": {
-        "en": "While Trevor and Sypha discuss the situation in Târgoviște, Alucard arrives at Danesti and defends it from the attacking night creatures. Accepting the village leader Greta's request to act as its protector, Alucard also meets Saint Germain. In flashbacks, Germain is shown meeting his lover and with her researching the Infinite Corridor until she went missing. Within the Infinite Corridor, Germain meets an Alchemist who gives him a key to the Corridor so he can find his beloved—so long as he sacrifices everything he ever had, including his morals—also informing him that the only way to truly control the Corridor is to create a Rebis, an artificial body that is both man and woman, infused with two souls. Returning to earth, Germain embarks upon a dark path to collect necessary items and information until being recruited by Varney to aid in resurrecting Dracula, allying with him and the vampire warrior Dragan to orchestrate the attacks on Danesti and other villages. Back in the present, Germain proposes moving the people of Danesti into Dracula's castle for protection, to which Alucard agrees."
-      },
-      "title_en": "You Must Sacrifice",
-      "aired": "2021-05-13"
-    },
-    {
-      "n": 27,
-      "sources": {},
-      "synopsis": {
-        "en": "Alucard, Greta, and Germain escort the villagers out of Danesti, but are ambushed by night creatures in the forest, although they are able to kill them and lead the people to the castle. While he is creating night creatures, Lenore informs Hector of Carmilla's scheme to dominate the world, confessing that Carmilla used her the same way Dracula used Hector. Back in Târgoviște, Sypha expresses outrage at Zamfir's taking food from the already-starved townsfolk to keep her own people nourished. Despite their differences, Sypha saves Zamfir from a night creature as they cannot afford to lose able fighters—however, the creature covertly plants a magical tracking stone onto the back of Zamfir's neck before being killed. Back in the Magician's city, Isaac and the night creatures move to attack Carmilla's castle, with Isaac ordering them to destroy everyone except for Hector, whom he plans to kill himself."
-      },
-      "title_en": "Back in the World",
-      "aired": "2021-05-13"
-    },
-    {
-      "n": 28,
-      "sources": {},
-      "synopsis": {
-        "en": "The Battle of Styria begins as Isaac and his army of night creatures clash with Carmilla's own. Lenore tries to drag Hector out of the castle, only to be trapped by Hector's magical barrier. Isaac meets Hector again and moves to kill Lenore, but decides to spare both after seeing Hector offer his life for Lenore's safety. Hector cuts off his own finger to remove the binding ring, while Isaac activates the barrier from the stones placed by Hector earlier, trapping Carmilla in her throne room. Isaac overwhelms Carmilla with his night creatures but, refusing to be killed by her enemies, Carmilla commits suicide before Isaac can finish her. Morana and Striga retreat with their forces after sensing Carmilla's death, while Hector and Isaac discuss how they were both used as tools for leverage. Isaac establishes his own kingdom in Styria, while Hector decides to stay with Lenore. Hector is also revealed to have been secretly working with Saint Germain and Varney to resurrect Dracula."
-      },
-      "title_en": "You Don't Deserve My Blood",
-      "aired": "2021-05-13"
-    },
-    {
-      "n": 29,
-      "sources": {},
-      "synopsis": {
-        "en": "The tracking stone planted on Zamfir allows Ratko and Varney to discover the Underground Court's location. As they plan their next move, Ratko mocks Varney as being a mere criminal and not a \"perfect\" vampire like himself, but Varney cryptically suggests that he's not who Ratko thinks he is. Trevor and Sypha finally meet with the Underground Court itself, only to discover it consists of the Royal Family's decaying corpses - and that Zamfir, having deluded herself into believing that the royals are merely sleeping, has been preparing for their \"awakening\" at the expense of her people's well-being. While Sypha and Zamfir argue, Trevor finds more magic artifacts and realizes they all go together. The Court is then invaded by a horde of night creatures led by Varney and Ratko. Meanwhile, as Alucard and Greta look after the refugees in Dracula's castle, Saint Germain secretly signals for Dragan's hidden army in the forest to march upon the castle, bringing with them a Rebis stitched together from the pieces of multiple corpses."
-      },
-      "title_en": "The Great Work",
-      "aired": "2021-05-13"
-    },
-    {
-      "n": 30,
-      "sources": {},
-      "synopsis": {
-        "en": "Trevor, Sypha and Zamfir try to defend the survivors of Târgoviște. Zamfir sacrifices herself to save a mother and child from Ratko, who is subsequently killed by Trevor using a special cross-shaped blade he took from the Underground Court. Meanwhile, Alucard and Greta lead the refugees in a desperate fight against Dragan's forces, but are eventually forced back into Dracula's castle. Confronting Germain inside Alucard's childhood room, where Dracula had died, Alucard and Greta learn Germain is using the souls of those killed in the ongoing battle to open the Infinite Corridor - through which he will raise both Dracula and Lisa to fuse their souls into the Rebis, whose power will enable Germain to safely search the Corridor for his missing lover while also giving him unlimited access to the Corridor's infinite dimensions. Alucard tries to stop him, but Germain creates a magic barrier to protect himself. Back at Târgoviște, Varney finds a magic mirror that can teleport him to Dracula's castle and uses it to join Saint Germain. Seeing Varney flee into the mirror, Trevor and Sypha chase after him."
-      },
-      "title_en": "Death Magic",
-      "aired": "2021-05-13"
-    },
-    {
-      "n": 31,
-      "sources": {},
-      "synopsis": {
-        "en": "Trevor and Sypha arrive at Dracula's castle, reunite with Alucard and fight through the invaders. Dragan's forces bring the Rebis to Germain, while Varney gives him Hector's forging sequences to fuse Dracula and Lisa's souls into it. As Germain prepares the ritual, Varney reveals that he was the Alchemist who gave Germain the key before transforming into his true identity, the ancient elemental spirit Death. Forcing Germain to compete the ritual, Death admits that he manipulated Germain to unleash an insane Dracula upon the world again and feast on the endless death it causes. Trevor, Sypha and Alucard kill Dragan and his generals, reaching Germain just as he summons Dracula and Lisa into the Rebis. Trevor uses the Morning Star whip to break the magical barrier. Germain distracts Death long enough for Trevor to destroy the Rebis with holy water and the cross-shaped blade, freeing Dracula and Lisa's souls. However, the resulting explosion kills Germain. Enraged, Death consumes the key to strengthen himself. After telling Sypha that he loves her, Trevor fights against Death alone. He combines the artifacts recovered from the Court with the magic dagger and stabs Death with it, destroying him. The resulting explosion engulfs Trevor."
-      },
-      "title_en": "The Endings",
-      "aired": "2021-05-13"
-    },
-    {
-      "n": 32,
-      "sources": {},
-      "synopsis": {
-        "en": "Two weeks after Trevor's apparent death, Lenore, disillusioned with being a vampire and unwilling to live as Isaac's prisoner, makes her peace with Hector before walking out into the sunlight and dying. At Dracula's castle, the refugees are establishing a permanent settlement under Alucard and Greta's leadership, while Sypha reveals that she is pregnant with Trevor's child. A horse then appears carrying an injured Trevor, who had been transported to safety through the Infinite Corridor by Saint Germain just before the latter died. The weapon Trevor used was originally created by a wizard-turned-blacksmith as part of a \"very one-sided\" murder-suicide pact with God, hence why it had the power to slay Death. Meanwhile, it is revealed that Dracula and Lisa were successfully resurrected by the ritual and have settled into an inn disguised as commoners. They have no idea how they came back but decide to remain in hiding, allowing their son to live his own life while promising to visit him someday. The series ends with Dracula and Lisa together in bed, where they affirm their mutual love before promising to build their new future, with Dracula suggesting they travel to Whitby, England.This is a nod to the novel Dracula."
-      },
-      "title_en": "It's Been a Strange Ride",
-      "aired": "2021-05-13"
     }
   ],
   "route": [
