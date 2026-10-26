@@ -33,7 +33,7 @@
     "backdrop": "https://image.tmdb.org/t/p/w500/jLE5bsPA9xOKzBWOaOmKbp1DWQS.jpg",
     "synopsis": {
       "en": "A vampire hunter fights to save a besieged city from an army of otherworldly beasts controlled by Dracula himself.",
-      "zh": "吸血鬼猎人英勇作战，解救被德古拉控制的怪兽围困的城市。本剧由经典电子游戏改编。"
+      "zh": "吸血鬼猎人英勇作战，解救被德古拉控制的怪兽围困的城市。本剧由经典电子游戏《恶魔城》系列改编。"
     },
     "genres": [
       "Animation",
@@ -52,7 +52,7 @@
       },
       "tmdb": {
         "score": 8.27,
-        "votes": 1632
+        "votes": 1633
       }
     },
     "links": {
@@ -79,6 +79,68 @@
         "relation": "主角",
         "image": "https://lain.bgm.tv/pic/crt/g/71/0d/111040_crt_vjZ39.jpg",
         "bangumi_id": 111040
+      }
+    ],
+    "characters": [
+      {
+        "name": "Trevor Belmont (voice)",
+        "image": "https://image.tmdb.org/t/p/w500/oNoKjTOUNUiJ01UNQSCQDkt5EHi.jpg",
+        "order": 0
+      },
+      {
+        "name": "Adrian Tepes / Alucard (voice)",
+        "image": "https://image.tmdb.org/t/p/w500/dLmmQU5hA0J6Jxi20aS8kdN6k3o.jpg",
+        "order": 1
+      },
+      {
+        "name": "Sypha Belnades (voice)",
+        "image": "https://image.tmdb.org/t/p/w500/gm7XINyvpA47khrAVGx9QNzxKB1.jpg",
+        "order": 2
+      },
+      {
+        "name": "Isaac (voice)",
+        "image": "https://image.tmdb.org/t/p/w500/p8yvhgwB1L9JlKf2mhRjgwIQsei.jpg",
+        "order": 11
+      },
+      {
+        "name": "Carmilla (voice)",
+        "image": "https://image.tmdb.org/t/p/w500/viqfbECKPLI8nRO6sya8YFu8yc2.jpg",
+        "order": 13
+      },
+      {
+        "name": "Saint Germain (voice)",
+        "image": "https://image.tmdb.org/t/p/w500/ixFI2YCGNGJfwlpI8iyhvVZRg8C.jpg",
+        "order": 7
+      },
+      {
+        "name": "Hector (voice)",
+        "image": "https://image.tmdb.org/t/p/w500/g4yeW1EgIpyht0fy1stv7EXUmPC.jpg",
+        "order": 14
+      },
+      {
+        "name": "Lenore (voice)",
+        "image": "https://image.tmdb.org/t/p/w500/5wNnhFn9hixduXa60Nqygl0Sgev.jpg",
+        "order": 15
+      },
+      {
+        "name": "Striga (voice)",
+        "image": "https://image.tmdb.org/t/p/w500/3bWPeAnqRwuCAoYBDig3E3cFx5m.jpg",
+        "order": 8
+      },
+      {
+        "name": "Morana (voice)",
+        "image": "https://image.tmdb.org/t/p/w500/aXeuXplDxA0fmG0R6BpbbQRSNI8.jpg",
+        "order": 9
+      },
+      {
+        "name": "Vlad Dracula Tepes (voice)",
+        "image": "https://image.tmdb.org/t/p/w500/qpKVz46PkKVaXzthcJO4ldFPdM9.jpg",
+        "order": 10
+      },
+      {
+        "name": "Varney of London (voice)",
+        "image": "https://image.tmdb.org/t/p/w500/hL8ep4Hqj6izX7IlzE7Bbcfq62w.jpg",
+        "order": 4
       }
     ]
   },
@@ -145,7 +207,7 @@
         }
       },
       "synopsis": {
-        "en": "In Wallachia in 1455, a young woman named Lisa who wishes to be a doctor seeks out Vlad Dracula Tepes, a vampire with advanced scientific knowledge. Intrigued by her courage and ambition, Dracula agrees to teach her, while she in turn offers to help him reconnect with humanity. The two eventually fall in love and marry. Twenty years later (1475), in the town of Târgoviște, Lisa is burned at the stake after a bishop discovers scientific equipment in her home and accuses her of witchcraft. Devastated after learning of Lisa's death, Dracula declares to the people that they have one year to make their peace, after which every human in Wallachia will die by his hand. His son Adrian tells him to go after the man responsible instead of all of humanity, but Dracula refuses to listen and attacks him. One year later, the archbishop hosts a celebration in defiance of Dracula. As promised, Dracula kills the archbishop, destroys the church and orders his army of demonic Night Creatures to kill every person left in Wallachia. As the army spreads across the land, the people place the blame on the kingdom's noble families, including the Belmonts.",
+        "en": "A headstrong young woman seeks out forbidden knowledge, and a corrupt bishop courts disaster by enraging a legend.",
         "zh": "一名性情固执的年轻女性希望获取禁忌的知识；一名腐败的主教触怒传说中的人物，招致灾难。"
       },
       "title_en": "Witchbottle",
@@ -197,7 +259,7 @@
         }
       },
       "synopsis": {
-        "en": "Following an altercation at a pub, Trevor Belmont seeks food and respite in the city of Gresit, which has been besieged by Dracula's forces every night. As he passes through town, he learns that the townspeople blame a group of nomadic scholars known as the Speakers for Dracula's assault. He saves their Elder from a pair of corrupt priests, who brings him back to the Speakers' home. Trevor insists they leave the city for their own safety, but the Elder refuses, as his grandchild has gone missing after venturing into the catacombs below the city in search of the \"sleeping soldier\", a legendary hero who they believe can defeat Dracula. Begrudgingly, Trevor agrees to retrieve the missing grandchild.",
+        "en": "Trevor Belmont drifts into the panicked city of Gresit, where he learns of an ancient evil and makes a surprising vow.",
         "zh": "四处漂泊的拉尔夫·贝尔蒙特来到弥漫着恐慌情绪的格瑞西特城，他在这里了解到一种古老的邪恶力量，并立下令人意想不到的誓言。"
       },
       "title_en": "Necropolis",
@@ -249,7 +311,7 @@
         }
       },
       "synopsis": {
-        "en": "Exploring the catacombs, Trevor realizes that they have been unusually constructed and contain devices matching old family descriptions of devices within Dracula's castle. Finding a stone statue in the visage of a Speaker, Trevor is attacked by a giant cyclops. He defeats the creature, releasing its curse, and rescues the Elder's grandchild, Sypha Belnades. After returning Sypha to her grandfather, Trevor is summoned to the church by the local bishop, the same bishop who ordered Lisa's execution. He orders Trevor to leave Gresit before sundown, as the priests plan to lead a mob to kill the Speakers, offering to spare Trevor and restore his family name in exchange. With the Speakers refusing to retreat, Trevor has them hidden in the cyclops' chamber and takes on the priests leading the mob before escaping into the city.",
+        "en": "Belmont explores the catacombs of Gresit and makes a disturbing discovery. As night falls on the city, the beasts return for blood.",
         "zh": "贝尔蒙特探索了格瑞西特的地下墓穴，发现了可怕的事情。黑夜笼罩城市，嗜血野兽归来。"
       },
       "title_en": "Labyrinth",
@@ -289,7 +351,7 @@
         }
       },
       "synopsis": {
-        "en": "Night falls as Dracula's army descends upon Gresit. Night Creatures invade the church as it has become so full of corruption that God's presence is no longer felt there. The creatures taunt the bishop by calling out his hypocrisy and false authority before killing him. While Trevor continues his escape, Sypha appears to aid him, revealing herself as a powerful magic user. Trevor exposes the clergy's actions as the true reason for Dracula's invasion and assists the people in mounting a defense against the demons. During the battle, the floor crumbles beneath Trevor and Sypha and they fall deep into the submerged catacombs of the city. Making their way in deeper, they find the \"sleeping soldier\", revealed to be Adrian, who has spent a year healing from his last fight with Dracula. Adrian, now going by Alucard, engages Trevor in battle, but after seeing his and Sypha's resolve, he relents. Alucard reveals that the myth of the \"sleeping soldier\" was actually from the future and foretold his meeting with Belmont and Sypha, and that he was testing their abilities. The three prepare to challenge Dracula and end the conflict for good.",
+        "en": "Belmont strives to save Gresit from certain doom and comes face to face with a shocking truth.",
         "zh": "在这季大结局中，贝尔蒙特努力从厄运的魔爪下拯救格瑞西特，并直面令人震惊的真相。"
       },
       "title_en": "Monument",

@@ -87,6 +87,16 @@ def fetch(tv_id: int | str, http, season: int | None = None) -> dict:
                 "episode": e.get("episode_number"),
             }
     http.log(f"tmdb: {len(episodes)} episodes across {len(seasons)} season(s)")
+    # 角色（英文名+头像）：MAL 不收的剧（如 Castlevania 这类美漫改）靠它给 intro 人物卡供头像
+    cr = get(f"/tv/{tv_id}/aggregate_credits", "en-US")
+    cast = sorted(cr.get("cast", []),
+                  key=lambda c: sum(r.get("episode_count") or 0 for r in c.get("roles", [])), reverse=True)
+    chars = []
+    for c in cast[:12]:
+        name = next((r.get("character") for r in c.get("roles", []) if r.get("character")), None)
+        if name:
+            chars.append({"name": name, "image": _img(c.get("profile_path")), "order": c.get("order")})
+    series["characters"] = chars
     return {"series": series, "episodes": episodes}
 
 

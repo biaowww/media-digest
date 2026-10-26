@@ -33,7 +33,7 @@
     "backdrop": "https://image.tmdb.org/t/p/w500/jLE5bsPA9xOKzBWOaOmKbp1DWQS.jpg",
     "synopsis": {
       "en": "A vampire hunter fights to save a besieged city from an army of otherworldly beasts controlled by Dracula himself.",
-      "zh": "德古拉伯爵的势力越来越大，贝尔蒙特和赛法尔研究复活臭名昭著的吸血鬼的计划。阿鲁卡多难以接受自己的人性。"
+      "zh": "吸血鬼猎人英勇作战，解救被德古拉控制的怪兽围困的城市。本剧由经典电子游戏《恶魔城》系列改编。"
     },
     "genres": [
       "Animation",
@@ -52,7 +52,7 @@
       },
       "tmdb": {
         "score": 8.27,
-        "votes": 1632
+        "votes": 1633
       }
     },
     "links": {
@@ -79,6 +79,68 @@
         "relation": "主角",
         "image": "https://lain.bgm.tv/pic/crt/g/71/0d/111040_crt_vjZ39.jpg",
         "bangumi_id": 111040
+      }
+    ],
+    "characters": [
+      {
+        "name": "Trevor Belmont (voice)",
+        "image": "https://image.tmdb.org/t/p/w500/oNoKjTOUNUiJ01UNQSCQDkt5EHi.jpg",
+        "order": 0
+      },
+      {
+        "name": "Adrian Tepes / Alucard (voice)",
+        "image": "https://image.tmdb.org/t/p/w500/dLmmQU5hA0J6Jxi20aS8kdN6k3o.jpg",
+        "order": 1
+      },
+      {
+        "name": "Sypha Belnades (voice)",
+        "image": "https://image.tmdb.org/t/p/w500/gm7XINyvpA47khrAVGx9QNzxKB1.jpg",
+        "order": 2
+      },
+      {
+        "name": "Isaac (voice)",
+        "image": "https://image.tmdb.org/t/p/w500/p8yvhgwB1L9JlKf2mhRjgwIQsei.jpg",
+        "order": 11
+      },
+      {
+        "name": "Carmilla (voice)",
+        "image": "https://image.tmdb.org/t/p/w500/viqfbECKPLI8nRO6sya8YFu8yc2.jpg",
+        "order": 13
+      },
+      {
+        "name": "Saint Germain (voice)",
+        "image": "https://image.tmdb.org/t/p/w500/ixFI2YCGNGJfwlpI8iyhvVZRg8C.jpg",
+        "order": 7
+      },
+      {
+        "name": "Hector (voice)",
+        "image": "https://image.tmdb.org/t/p/w500/g4yeW1EgIpyht0fy1stv7EXUmPC.jpg",
+        "order": 14
+      },
+      {
+        "name": "Lenore (voice)",
+        "image": "https://image.tmdb.org/t/p/w500/5wNnhFn9hixduXa60Nqygl0Sgev.jpg",
+        "order": 15
+      },
+      {
+        "name": "Striga (voice)",
+        "image": "https://image.tmdb.org/t/p/w500/3bWPeAnqRwuCAoYBDig3E3cFx5m.jpg",
+        "order": 8
+      },
+      {
+        "name": "Morana (voice)",
+        "image": "https://image.tmdb.org/t/p/w500/aXeuXplDxA0fmG0R6BpbbQRSNI8.jpg",
+        "order": 9
+      },
+      {
+        "name": "Vlad Dracula Tepes (voice)",
+        "image": "https://image.tmdb.org/t/p/w500/qpKVz46PkKVaXzthcJO4ldFPdM9.jpg",
+        "order": 10
+      },
+      {
+        "name": "Varney of London (voice)",
+        "image": "https://image.tmdb.org/t/p/w500/hL8ep4Hqj6izX7IlzE7Bbcfq62w.jpg",
+        "order": 4
       }
     ]
   },
@@ -163,10 +225,10 @@
         }
       },
       "synopsis": {
-        "en": "In Wallachia in 1455, a young woman named Lisa who wishes to be a doctor seeks out Vlad Dracula Tepes, a vampire with advanced scientific knowledge. Intrigued by her courage and ambition, Dracula agrees to teach her, while she in turn offers to help him reconnect with humanity. The two eventually fall in love and marry. Twenty years later (1475), in the town of Târgoviște, Lisa is burned at the stake after a bishop discovers scientific equipment in her home and accuses her of witchcraft. Devastated after learning of Lisa's death, Dracula declares to the people that they have one year to make their peace, after which every human in Wallachia will die by his hand. His son Adrian tells him to go after the man responsible instead of all of humanity, but Dracula refuses to listen and attacks him. One year later, the archbishop hosts a celebration in defiance of Dracula. As promised, Dracula kills the archbishop, destroys the church and orders his army of demonic Night Creatures to kill every person left in Wallachia. As the army spreads across the land, the people place the blame on the kingdom's noble families, including the Belmonts.",
+        "en": "Belmont and Sypha continue to battle beasts loyal to Dracula, but it's getting a little old. Meanwhile, Alucard receives a guest.",
         "zh": "贝尔蒙特和赛法尔继续对战忠于德古拉伯爵的野兽，但方法有些老套。与此同时，阿鲁卡多迎来了一位访客。"
       },
-      "title_en": "Witchbottle",
+      "title_en": "Murder Wakes It Up",
       "title_cn": "用杀人唤醒魔咒",
       "aired": "2021-05-13",
       "heat": {
@@ -203,10 +265,10 @@
         }
       },
       "synopsis": {
-        "en": "Following an altercation at a pub, Trevor Belmont seeks food and respite in the city of Gresit, which has been besieged by Dracula's forces every night. As he passes through town, he learns that the townspeople blame a group of nomadic scholars known as the Speakers for Dracula's assault. He saves their Elder from a pair of corrupt priests, who brings him back to the Speakers' home. Trevor insists they leave the city for their own safety, but the Elder refuses, as his grandchild has gone missing after venturing into the catacombs below the city in search of the \"sleeping soldier\", a legendary hero who they believe can defeat Dracula. Begrudgingly, Trevor agrees to retrieve the missing grandchild.",
+        "en": "Lenore urges Hector to not test Carmilla's patience. Belmont and Sypha cross paths with Zamfir, a fearsome guard with a suspicious mind.",
         "zh": "丽诺尔让赫克托不要考验卡米拉的耐心。贝尔蒙特和赛法尔与多疑的警卫扎姆菲尔相遇。"
       },
-      "title_en": "Necropolis",
+      "title_en": "Having the World",
       "title_cn": "拥有全世界",
       "aired": "2021-05-13",
       "heat": {
@@ -243,10 +305,10 @@
         }
       },
       "synopsis": {
-        "en": "Exploring the catacombs, Trevor realizes that they have been unusually constructed and contain devices matching old family descriptions of devices within Dracula's castle. Finding a stone statue in the visage of a Speaker, Trevor is attacked by a giant cyclops. He defeats the creature, releasing its curse, and rescues the Elder's grandchild, Sypha Belnades. After returning Sypha to her grandfather, Trevor is summoned to the church by the local bishop, the same bishop who ordered Lisa's execution. He orders Trevor to leave Gresit before sundown, as the priests plan to lead a mob to kill the Speakers, offering to spare Trevor and restore his family name in exchange. With the Speakers refusing to retreat, Trevor has them hidden in the cyclops' chamber and takes on the priests leading the mob before escaping into the city.",
+        "en": "Isaac gets under Varney's skin. Vampires Morana and Striga receive an urgent message from Carmilla. Belmont and Sypha get a look at Targoviste.",
         "zh": "艾萨克惹恼了瓦尼。吸血鬼莫兰娜和斯锐格收到了卡米拉发来的紧急信息。贝尔蒙特和赛法尔对特尔戈维什泰有所了解。"
       },
-      "title_en": "Labyrinth",
+      "title_en": "Walk Away",
       "title_cn": "走吧",
       "aired": "2021-05-13",
       "heat": {
@@ -289,10 +351,10 @@
         }
       },
       "synopsis": {
-        "en": "Night falls as Dracula's army descends upon Gresit. Night Creatures invade the church as it has become so full of corruption that God's presence is no longer felt there. The creatures taunt the bishop by calling out his hypocrisy and false authority before killing him. While Trevor continues his escape, Sypha appears to aid him, revealing herself as a powerful magic user. Trevor exposes the clergy's actions as the true reason for Dracula's invasion and assists the people in mounting a defense against the demons. During the battle, the floor crumbles beneath Trevor and Sypha and they fall deep into the submerged catacombs of the city. Making their way in deeper, they find the \"sleeping soldier\", revealed to be Adrian, who has spent a year healing from his last fight with Dracula. Adrian, now going by Alucard, engages Trevor in battle, but after seeing his and Sypha's resolve, he relents. Alucard reveals that the myth of the \"sleeping soldier\" was actually from the future and foretold his meeting with Belmont and Sypha, and that he was testing their abilities. The three prepare to challenge Dracula and end the conflict for good.",
+        "en": "Alucard travels to Danesti, where he makes a dramatic entrance in the nick of time. Also, the scholar Saint Germain reflects on his own twisted path.",
         "zh": "阿鲁卡多来到达内斯蒂，并在紧要关头出现在众人面前。另一边，学者圣日耳曼回顾了自己曲折的道路。"
       },
-      "title_en": "Monument",
+      "title_en": "You Must Sacrifice",
       "title_cn": "你要做出牺牲",
       "aired": "2021-05-13",
       "heat": {
@@ -321,10 +383,10 @@
         }
       },
       "synopsis": {
-        "en": "A flashback depicts Lisa's home in Lupu being raided by the Bishop and his men while Dracula is away, resulting in her arrest to be tried before an inquisition. In the present, Dracula assembles his war council, made up of vampire overlords from across the world, and places human necromancers Hector and Isaac in charge of the war on humanity. The Norse vampire Godbrand objects, believing they should rely on vampires instead of humans for leadership, but Dracula believes Hector and Isaac's hatred of their own kind (Hector being an unwanted child and Isaac being an abused former slave) makes them more trustworthy. As Gresit rebuilds after the battle, Sypha and Trevor see off the other Speakers while Alucard comes to terms with the decision to kill his father. At the castle, Godbrand laments to Hector that their war is fought with no strategy other than wanton destruction. Hector implies that Dracula wants all humans dead no matter the methods used, to Godbrand's disappointment. Dracula teleports the castle to a different location.",
+        "en": "With Greta's help, Alucard sets out to guide the villagers to his castle for protection. Sypha pushes back on Zamfir's leadership. Isaac makes a move.",
         "zh": "在格丽塔的帮助下，阿鲁卡多带领村民前往他的城堡避难。赛法尔推翻扎姆菲尔的领导权。艾萨克开始采取行动。"
       },
-      "title_en": "War Council",
+      "title_en": "Back in the World",
       "title_cn": "重返人间",
       "aired": "2021-05-13",
       "heat": {
@@ -353,10 +415,10 @@
         }
       },
       "synopsis": {
-        "en": "Trevor and Sypha reunite with Alucard and ask how to locate Dracula's castle when it can move from place to place. Trevor recommends revisiting his old family estate, as the hold beneath the ruins contains information on the castle and tools for monster-hunting. The vampire mistress Carmilla arrives at the castle and causes further discord among the council by criticizing Dracula's approach and inquiring why he did not turn Lisa into a vampire. While traveling to the Belmont estate, Trevor's party is attacked by Dracula's forces; the group slays all the attackers, save one injured demon who escapes. At the castle, Isaac reminisces on his past, having killed his previous abusive master in a moment that shaped his ideals. Godbrand brings Isaac the injured demon, now dead, to extract information from it with his necromancy. At another assembly, the generals argue whether to continue their attack on Argeș or move the siege towards Brăila at Carmilla's suggestion. Isaac informs everyone of his findings, believing Alucard is working with a Belmont. Carmilla urges Dracula to keep watch on the Belmont estate, believing it may contain something that could destroy them.",
+        "en": "As Isaac and his army of night creatures descend on Carmilla's castle, Hector rushes to finish his preparations before the bloody reunion begins.",
         "zh": "艾萨克和他的黑暗生物突袭卡米拉的城堡，赫克托在血腥重聚开始之前，匆忙完成他的准备工作。"
       },
-      "title_en": "Old Homes",
+      "title_en": "You Don't Deserve My Blood",
       "title_cn": "你们不配让我流血",
       "aired": "2021-05-13",
       "heat": {
@@ -385,10 +447,10 @@
         }
       },
       "synopsis": {
-        "en": "Carmilla tries to convince Hector to create creatures to send to the Belmont house while encouraging Dracula to select Brăila as their next target. Hector reminisces on how Dracula found him in the east of Rhodes and recruited him to raise an army, though Hector asked for a cull of humans rather than a cruel genocide. Trevor, Sypha and Alucard reach the ruins of the Belmont estate and open a sealed door leading to a massive underground library. Sypha begins researching and Trevor locates several monster-hunting weapons, including the Morning Star whip, while Alucard is left uneasy by the various vampire remains preserved there. Godbrand expresses dissatisfaction with Dracula's plan, believing vampires will be left hungry without human blood to consume, but Dracula rebukes him. Carmilla tells Godbrand that Dracula must take the castle to Brăila, revealing how she killed the vampire who sired her after he became old and mad, deeming Dracula has become the same.",
+        "en": "Varney and Ratko discover their plan is working — but who gets the credit? Also, Zamfir finally takes Belmont and Sypha underground.",
         "zh": "瓦尼和拉科发现他们的计划起作用了，但这是谁的功劳？另一边，扎姆菲尔终于把贝尔蒙特和赛法尔带到了地下。"
       },
-      "title_en": "Shadow Battles",
+      "title_en": "The Great Work",
       "title_cn": "伟大的事业",
       "aired": "2021-05-13",
       "heat": {
@@ -417,10 +479,10 @@
         }
       },
       "synopsis": {
-        "en": "Godbrand comes to agree with Carmilla that Dracula is not fit to lead and that something must be done to change his plans. At the Belmont library, Trevor discovers a magical mirror which allows them to see things far away, and he bonds with Sypha. Carmilla continues to try to recruit Hector, intending to unseat Dracula if the castle is moved to Brăila. In a flashback, Isaac recalls how Dracula saved his life and recruited him to create his army. Godbrand and the other vampire generals grow tired of living without human blood and set out on demonic horses to a nearby village, slaughtering the people. Dracula speaks to Isaac about the war hall's turning against him and confesses he lied to Hector about his intent to spare a few humans. Godbrand privately approaches Isaac and suggests that they should pursue the war without Dracula. Isaac kills Godbrand for his treasonous intentions.",
+        "en": "Belmont, Sypha and Zamfir battle Varney, Ratko and their unholy army. Alucard's castle falls under attack, and Saint Germain shares his scheme.",
         "zh": "贝尔蒙特、赛法尔和扎姆菲尔对抗瓦尼、拉科及其邪恶军队。阿鲁卡多的城堡遭到攻击，圣日耳曼说出了他的计划。"
       },
-      "title_en": "Broken Mast",
+      "title_en": "Death Magic",
       "title_cn": "死亡魔法",
       "aired": "2021-05-13",
       "heat": {
@@ -449,10 +511,10 @@
         }
       },
       "synopsis": {
-        "en": "Isaac releases Godbrand's ashes from the castle rooftop while Carmilla commands her troops to assemble at Brăila. Hector convinces Isaac to agree to the attack on Brăila. Hector shares this with Carmilla and informs her that his night creatures have nearly reached the Belmont estate. Isaac discusses Hector's request with Dracula, but asserts that there is no betrayal to be concerned about. Dracula reminisces about a time when he savored killing humans, but admits he is tired and cares only for results instead of the details. Carmilla and Hector approach Dracula and he approves the attack on Brăila. Afterwards, Carmilla turns on Hector, explaining he is now implicated in her impending betrayal of Dracula and cannot turn back on her plan now. At the Belmont library, Sypha discovers an unfinished locking spell that could be used to trap the castle in one place. The library starts to shake as Hector's night creatures arrive and attempt to break in.",
+        "en": "Belmont and Sypha join forces with their old friend Alucard — and not a moment too soon. As the battle rages, Varney reveals his true form.",
         "zh": "贝尔蒙特和赛法尔与老朋友阿鲁卡多联手行动，但时间已剩不多。酣战之时，瓦尼展现了他的真实形态。"
       },
-      "title_en": "Last Spell",
+      "title_en": "The Endings",
       "title_cn": "终结",
       "aired": "2021-05-13",
       "heat": {
@@ -481,10 +543,10 @@
         }
       },
       "synopsis": {
-        "en": "Trevor fights off the demons as Alucard uses the distance mirror to locate Dracula's castle so Sypha can attempt to complete the locking spell. Dracula moves the castle to Brăila, and most of the vampire generals lead troops across the bridge to attack the town. At Carmilla's behest, Hector reanimates the Bishop and makes him bless the river. Carmilla's troops reveal themselves and bring down the bridge, dropping many of Dracula's soldiers to be destroyed by the now-holy water. Dracula's remaining forces retreat to the castle whilst Carmilla's soldiers cross the river on makeshift bridges. The two armies begin to battle in the castle's main hall, while Carmilla and Hector move elsewhere. Sypha finishes the spell just as Trevor defeats the last of the demons, her struggle against the castle's mechanisms causing the castle to teleport within Brăila, landing in the river and killing most of the two vampire factions. Sypha succeeds, disabling the castle's mechanisms while relocating it above the Belmont library.",
+        "en": "Not content to live in a cage, Lenore chooses another fate. Alucard opens his castle. Sypha wonders if she's lost Belmont for good.",
         "zh": "不甘心被关在笼中的丽诺尔选择了另一种命运。阿鲁卡多打开他的城堡。赛法尔不知道她是否会永远失去贝尔蒙特。"
       },
-      "title_en": "The River",
+      "title_en": "It's Been a Strange Ride",
       "title_cn": "一段奇特的旅程",
       "aired": "2021-05-13",
       "heat": {
