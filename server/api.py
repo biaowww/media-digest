@@ -166,6 +166,11 @@ def sanitize_intake(d: dict) -> dict:
         raise ValueError("need ids or total_eps")
     meta = dict(meta, ids=ids)
     out = {"slug": d["slug"], "meta": meta}
+    warn = None
+    # 防呆：标题带季号/版本却没收进 series 的，提交成功但回警告，让智能体当场补上
+    title_text = f"{meta.get('title') or ''} {meta.get('title_cn') or ''}"
+    if not meta.get("series") and re.search(r"season\s*\d|第[一二三四五六七八九十\d]+季|\bS\d{1,2}\b", title_text, re.I):
+        warn = "标题像多季剧但 meta 缺 series/series_title/version_label——前端会显示成独立条目，请补上后重新提交（会并入队列）"
     if isinstance(d.get("intro"), dict):
         out["intro"] = d["intro"]
     if isinstance(d.get("route"), list):
@@ -174,7 +179,7 @@ def sanitize_intake(d: dict) -> dict:
         notes = [x for x in d["notes"] if isinstance(x, dict) and (x.get("n") or x.get("episode"))]
         if notes:
             out["notes"] = notes
-    return out
+    return out, warn
 
 
 class Handler(BaseHTTPRequestHandler):
@@ -399,7 +404,7 @@ class Handler(BaseHTTPRequestHandler):
     def _intake_post(self):
         if not self._intake_ok():
             return self._send(403, {"error": "bad key"})
-        item = sanitize_intake(self._body())
+        item, warn = sanitize_intake(self._body())
         path = os.path.join(INTAKE_DIR, item["slug"] + ".json")
         with _lock:
             if os.path.exists(path):
@@ -419,13 +424,13 @@ class Handler(BaseHTTPRequestHandler):
                 with open(tmp, "w", encoding="utf-8") as f:
                     json.dump(cur, f, ensure_ascii=False, indent=1)
                 os.replace(tmp, path)
-                return self._send(200, {"ok": True, "slug": item["slug"], "merged": added})
+                return self._send(200, {"ok": True, "slug": item["slug"], "merged": added, **({"warn": warn} if warn else {})})
             item["queued_at"] = int(time.time())
             tmp = path + ".tmp"
             with open(tmp, "w", encoding="utf-8") as f:
                 json.dump(item, f, ensure_ascii=False, indent=1)
             os.replace(tmp, path)
-        self._send(200, {"ok": True, "slug": item["slug"]})
+        self._send(200, {"ok": True, "slug": item["slug"], **({"warn": warn} if warn else {})})
 
     def _intake_pending(self):
         if not self._intake_ok():
