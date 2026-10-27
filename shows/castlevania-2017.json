@@ -73,6 +73,16 @@
         "role": "Main"
       },
       {
+        "name_native": "ドラキュラ",
+        "relation": "配角",
+        "image": "https://lain.bgm.tv/pic/crt/g/ba/9f/10845_crt_OGLit.jpg",
+        "bangumi_id": 10845,
+        "name_cn": "德古拉",
+        "name_en": "Dracula",
+        "name": "Dracula",
+        "role": "Supporting"
+      },
+      {
         "name_native": "ラルフ・Ｃ・ベルモンド",
         "relation": "主角",
         "image": "https://lain.bgm.tv/pic/crt/g/6b/12/99037_crt_mM8Pp.jpg",
@@ -81,6 +91,16 @@
         "name_en": "Trevor C. Belmont",
         "name": "Trevor C. Belmont",
         "role": "Main"
+      },
+      {
+        "name_native": "リサ",
+        "relation": "配角",
+        "image": "https://lain.bgm.tv/pic/crt/g/34/07/101472_crt_wNZV9.jpg",
+        "bangumi_id": 101472,
+        "name_cn": "丽莎",
+        "name_en": "Lisa",
+        "name": "Lisa",
+        "role": "Supporting"
       },
       {
         "name_native": "サイファ・ヴェルナンデス",
@@ -104,6 +124,16 @@
         "role": "Main"
       },
       {
+        "name_native": "ドラキュラ",
+        "relation": "配角",
+        "image": "https://lain.bgm.tv/pic/crt/g/ba/9f/10845_crt_OGLit.jpg",
+        "bangumi_id": 10845,
+        "name_cn": "德古拉",
+        "name_en": "Dracula",
+        "name": "Dracula",
+        "role": "Supporting"
+      },
+      {
         "name_native": "ラルフ・Ｃ・ベルモンド",
         "relation": "主角",
         "image": "https://lain.bgm.tv/pic/crt/g/6b/12/99037_crt_mM8Pp.jpg",
@@ -112,6 +142,16 @@
         "name_en": "Trevor C. Belmont",
         "name": "Trevor C. Belmont",
         "role": "Main"
+      },
+      {
+        "name_native": "リサ",
+        "relation": "配角",
+        "image": "https://lain.bgm.tv/pic/crt/g/34/07/101472_crt_wNZV9.jpg",
+        "bangumi_id": 101472,
+        "name_cn": "丽莎",
+        "name_en": "Lisa",
+        "name": "Lisa",
+        "role": "Supporting"
       },
       {
         "name_native": "サイファ・ヴェルナンデス",

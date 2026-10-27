@@ -97,7 +97,7 @@ def fetch(subject_id: int | str, http, kind: str = "anime") -> dict:
     chars = http.get_json(f"{API}/subjects/{subject_id}/characters", headers=HEADERS)
     out_chars = []
     for c in chars:
-        if c.get("relation") != "主角":
+        if c.get("relation") not in ("主角", "配角"):
             continue
         entry = {"name_native": c.get("name"), "relation": c.get("relation"),
                  "image": (c.get("images") or {}).get("grid"), "bangumi_id": c.get("id")}
@@ -113,7 +113,7 @@ def fetch(subject_id: int | str, http, kind: str = "anime") -> dict:
         except Exception:
             pass
         entry["name"] = entry.get("name_en") or entry["name_native"]  # findAuto/渲染统一用 name
-        entry["role"] = "Main"
+        entry["role"] = "Main" if c.get("relation") == "主角" else "Supporting"
         out_chars.append(entry)
     series["characters"] = out_chars
     return {"series": series, "episodes": episodes}

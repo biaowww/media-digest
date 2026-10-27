@@ -73,6 +73,16 @@
         "role": "Main"
       },
       {
+        "name_native": "ドラキュラ",
+        "relation": "配角",
+        "image": "https://lain.bgm.tv/pic/crt/g/ba/9f/10845_crt_OGLit.jpg",
+        "bangumi_id": 10845,
+        "name_cn": "德古拉",
+        "name_en": "Dracula",
+        "name": "Dracula",
+        "role": "Supporting"
+      },
+      {
         "name_native": "ラルフ・Ｃ・ベルモンド",
         "relation": "主角",
         "image": "https://lain.bgm.tv/pic/crt/g/6b/12/99037_crt_mM8Pp.jpg",
@@ -81,6 +91,43 @@
         "name_en": "Trevor C. Belmont",
         "name": "Trevor C. Belmont",
         "role": "Main"
+      },
+      {
+        "name_native": "ヘクター",
+        "relation": "配角",
+        "image": "https://lain.bgm.tv/pic/crt/g/19/05/100135_crt_90pk8.jpg",
+        "bangumi_id": 100135,
+        "name_cn": "赫克托",
+        "name_en": "Hector",
+        "name": "Hector",
+        "role": "Supporting"
+      },
+      {
+        "name_native": "Lenore",
+        "relation": "配角",
+        "image": "https://lain.bgm.tv/pic/crt/g/82/cd/101237_crt_Upcdz.jpg",
+        "bangumi_id": 101237,
+        "name_cn": "丽诺尔",
+        "name": "Lenore",
+        "role": "Supporting"
+      },
+      {
+        "name_native": "Sumi",
+        "relation": "配角",
+        "image": "https://lain.bgm.tv/pic/crt/g/dd/1c/110106_crt_HVoq3.jpg",
+        "bangumi_id": 110106,
+        "name": "Sumi",
+        "role": "Supporting"
+      },
+      {
+        "name_native": "カーミラ",
+        "relation": "配角",
+        "image": "https://lain.bgm.tv/pic/crt/g/3f/d0/111039_crt_00e1D.jpg",
+        "bangumi_id": 111039,
+        "name_cn": "卡蜜拉",
+        "name_en": "Carmilla",
+        "name": "Carmilla",
+        "role": "Supporting"
       },
       {
         "name_native": "サイファ・ヴェルナンデス",
@@ -104,6 +151,16 @@
         "role": "Main"
       },
       {
+        "name_native": "ドラキュラ",
+        "relation": "配角",
+        "image": "https://lain.bgm.tv/pic/crt/g/ba/9f/10845_crt_OGLit.jpg",
+        "bangumi_id": 10845,
+        "name_cn": "德古拉",
+        "name_en": "Dracula",
+        "name": "Dracula",
+        "role": "Supporting"
+      },
+      {
         "name_native": "ラルフ・Ｃ・ベルモンド",
         "relation": "主角",
         "image": "https://lain.bgm.tv/pic/crt/g/6b/12/99037_crt_mM8Pp.jpg",
@@ -112,6 +169,43 @@
         "name_en": "Trevor C. Belmont",
         "name": "Trevor C. Belmont",
         "role": "Main"
+      },
+      {
+        "name_native": "ヘクター",
+        "relation": "配角",
+        "image": "https://lain.bgm.tv/pic/crt/g/19/05/100135_crt_90pk8.jpg",
+        "bangumi_id": 100135,
+        "name_cn": "赫克托",
+        "name_en": "Hector",
+        "name": "Hector",
+        "role": "Supporting"
+      },
+      {
+        "name_native": "Lenore",
+        "relation": "配角",
+        "image": "https://lain.bgm.tv/pic/crt/g/82/cd/101237_crt_Upcdz.jpg",
+        "bangumi_id": 101237,
+        "name_cn": "丽诺尔",
+        "name": "Lenore",
+        "role": "Supporting"
+      },
+      {
+        "name_native": "Sumi",
+        "relation": "配角",
+        "image": "https://lain.bgm.tv/pic/crt/g/dd/1c/110106_crt_HVoq3.jpg",
+        "bangumi_id": 110106,
+        "name": "Sumi",
+        "role": "Supporting"
+      },
+      {
+        "name_native": "カーミラ",
+        "relation": "配角",
+        "image": "https://lain.bgm.tv/pic/crt/g/3f/d0/111039_crt_00e1D.jpg",
+        "bangumi_id": 111039,
+        "name_cn": "卡蜜拉",
+        "name_en": "Carmilla",
+        "name": "Carmilla",
+        "role": "Supporting"
       },
       {
         "name_native": "サイファ・ヴェルナンデス",
