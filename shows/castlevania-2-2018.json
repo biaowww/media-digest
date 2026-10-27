@@ -17,9 +17,9 @@
     "year": 2018,
     "total_eps": 8,
     "primary_kpi": "imdb",
-    "updated": "2026-10-26",
+    "updated": "2026-10-27",
     "fetched": {
-      "bangumi": "2026-10-26",
+      "bangumi": "2026-10-27",
       "imdb": "2026-10-26",
       "tmdb": "2026-10-26",
       "wiki": "2026-10-26"
@@ -29,11 +29,11 @@
     "version_label": "第二季"
   },
   "about": {
-    "cover": "https://image.tmdb.org/t/p/w500/WzFHnJY44uDERER0xi1jOdoafT.jpg",
+    "cover": "https://lain.bgm.tv/pic/cover/l/f3/18/208709_jylLn.jpg",
     "backdrop": "https://image.tmdb.org/t/p/w500/jLE5bsPA9xOKzBWOaOmKbp1DWQS.jpg",
     "synopsis": {
       "en": "A vampire hunter fights to save a besieged city from an army of otherworldly beasts controlled by Dracula himself.",
-      "zh": "吸血鬼猎人英勇作战，解救被德古拉控制的怪兽围困的城市。本剧由经典电子游戏《恶魔城》系列改编。"
+      "zh": "德古拉伯爵和他的吸血鬼军团打算消灭人类，但三名令人意想不到的英雄敢于阻止他们的恶行。"
     },
     "genres": [
       "Animation",
@@ -44,7 +44,7 @@
       "bangumi": {
         "score": 6.8,
         "votes": 459,
-        "rank": 3403
+        "rank": 3404
       },
       "imdb": {
         "score": 8.3,
@@ -66,81 +66,61 @@
         "name_native": "アルカード",
         "relation": "主角",
         "image": "https://lain.bgm.tv/pic/crt/g/bb/e7/10834_crt_A061S.jpg",
-        "bangumi_id": 10834
+        "bangumi_id": 10834,
+        "name_cn": "阿鲁卡多",
+        "name_en": "Alucard",
+        "name": "Alucard",
+        "role": "Main"
       },
       {
         "name_native": "ラルフ・Ｃ・ベルモンド",
         "relation": "主角",
         "image": "https://lain.bgm.tv/pic/crt/g/6b/12/99037_crt_mM8Pp.jpg",
-        "bangumi_id": 99037
+        "bangumi_id": 99037,
+        "name_cn": "特雷弗·贝尔蒙特",
+        "name_en": "Trevor C. Belmont",
+        "name": "Trevor C. Belmont",
+        "role": "Main"
       },
       {
         "name_native": "サイファ・ヴェルナンデス",
         "relation": "主角",
         "image": "https://lain.bgm.tv/pic/crt/g/71/0d/111040_crt_vjZ39.jpg",
-        "bangumi_id": 111040
+        "bangumi_id": 111040,
+        "name_en": "Sypha Belnades",
+        "name": "Sypha Belnades",
+        "role": "Main"
       }
     ],
     "characters": [
       {
-        "name": "Trevor Belmont (voice)",
-        "image": "https://image.tmdb.org/t/p/w500/oNoKjTOUNUiJ01UNQSCQDkt5EHi.jpg",
-        "order": 0
+        "name_native": "アルカード",
+        "relation": "主角",
+        "image": "https://lain.bgm.tv/pic/crt/g/bb/e7/10834_crt_A061S.jpg",
+        "bangumi_id": 10834,
+        "name_cn": "阿鲁卡多",
+        "name_en": "Alucard",
+        "name": "Alucard",
+        "role": "Main"
       },
       {
-        "name": "Adrian Tepes / Alucard (voice)",
-        "image": "https://image.tmdb.org/t/p/w500/dLmmQU5hA0J6Jxi20aS8kdN6k3o.jpg",
-        "order": 1
+        "name_native": "ラルフ・Ｃ・ベルモンド",
+        "relation": "主角",
+        "image": "https://lain.bgm.tv/pic/crt/g/6b/12/99037_crt_mM8Pp.jpg",
+        "bangumi_id": 99037,
+        "name_cn": "特雷弗·贝尔蒙特",
+        "name_en": "Trevor C. Belmont",
+        "name": "Trevor C. Belmont",
+        "role": "Main"
       },
       {
-        "name": "Sypha Belnades (voice)",
-        "image": "https://image.tmdb.org/t/p/w500/gm7XINyvpA47khrAVGx9QNzxKB1.jpg",
-        "order": 2
-      },
-      {
-        "name": "Isaac (voice)",
-        "image": "https://image.tmdb.org/t/p/w500/p8yvhgwB1L9JlKf2mhRjgwIQsei.jpg",
-        "order": 11
-      },
-      {
-        "name": "Carmilla (voice)",
-        "image": "https://image.tmdb.org/t/p/w500/viqfbECKPLI8nRO6sya8YFu8yc2.jpg",
-        "order": 13
-      },
-      {
-        "name": "Saint Germain (voice)",
-        "image": "https://image.tmdb.org/t/p/w500/ixFI2YCGNGJfwlpI8iyhvVZRg8C.jpg",
-        "order": 7
-      },
-      {
-        "name": "Hector (voice)",
-        "image": "https://image.tmdb.org/t/p/w500/g4yeW1EgIpyht0fy1stv7EXUmPC.jpg",
-        "order": 14
-      },
-      {
-        "name": "Lenore (voice)",
-        "image": "https://image.tmdb.org/t/p/w500/5wNnhFn9hixduXa60Nqygl0Sgev.jpg",
-        "order": 15
-      },
-      {
-        "name": "Striga (voice)",
-        "image": "https://image.tmdb.org/t/p/w500/3bWPeAnqRwuCAoYBDig3E3cFx5m.jpg",
-        "order": 8
-      },
-      {
-        "name": "Morana (voice)",
-        "image": "https://image.tmdb.org/t/p/w500/aXeuXplDxA0fmG0R6BpbbQRSNI8.jpg",
-        "order": 9
-      },
-      {
-        "name": "Vlad Dracula Tepes (voice)",
-        "image": "https://image.tmdb.org/t/p/w500/qpKVz46PkKVaXzthcJO4ldFPdM9.jpg",
-        "order": 10
-      },
-      {
-        "name": "Varney of London (voice)",
-        "image": "https://image.tmdb.org/t/p/w500/hL8ep4Hqj6izX7IlzE7Bbcfq62w.jpg",
-        "order": 4
+        "name_native": "サイファ・ヴェルナンデス",
+        "relation": "主角",
+        "image": "https://lain.bgm.tv/pic/crt/g/71/0d/111040_crt_vjZ39.jpg",
+        "bangumi_id": 111040,
+        "name_en": "Sypha Belnades",
+        "name": "Sypha Belnades",
+        "role": "Main"
       }
     ]
   },

@@ -207,8 +207,8 @@ def merge(show: dict, fetched: dict, args) -> dict:
     about["scores"], about["links"] = scores, links
     if fetched.get("mal", {}).get("series", {}).get("characters"):
         about["characters"] = fetched["mal"]["series"]["characters"]
-    elif fetched.get("tmdb", {}).get("series", {}).get("characters"):
-        about["characters"] = fetched["tmdb"]["series"]["characters"]  # MAL 不收的剧（美漫改等）回退 TMDB
+    elif fetched.get("bangumi", {}).get("series", {}).get("characters"):
+        about["characters"] = fetched["bangumi"]["series"]["characters"]  # MAL 不收的剧（美漫改等）回退 Bangumi（角色图+英文名/中文名）
     if fetched.get("bangumi", {}).get("series", {}).get("characters"):
         about["characters_bangumi"] = fetched["bangumi"]["series"]["characters"]
     show["about"] = about

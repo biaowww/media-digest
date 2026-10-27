@@ -95,11 +95,27 @@ def fetch(subject_id: int | str, http, kind: str = "anime") -> dict:
         http.log(f"bangumi: {len(episodes)} episodes")
 
     chars = http.get_json(f"{API}/subjects/{subject_id}/characters", headers=HEADERS)
-    series["characters"] = [
-        {"name_native": c.get("name"), "relation": c.get("relation"),
-         "image": (c.get("images") or {}).get("grid"), "bangumi_id": c.get("id")}
-        for c in chars if c.get("relation") == "主角"
-    ]
+    out_chars = []
+    for c in chars:
+        if c.get("relation") != "主角":
+            continue
+        entry = {"name_native": c.get("name"), "relation": c.get("relation"),
+                 "image": (c.get("images") or {}).get("grid"), "bangumi_id": c.get("id")}
+        try:  # 角色详情里有 简体中文名 / 英文名——非日系剧（MAL 不收的）靠它跟人工写的英文名对上
+            det = http.get_json(f"{API}/characters/{c['id']}", headers=HEADERS, min_interval=0.3)
+            for box in det.get("infobox") or []:
+                if box.get("key") == "简体中文名":
+                    entry["name_cn"] = box.get("value")
+                if box.get("key") == "别名":
+                    for a in box.get("value") or []:
+                        if isinstance(a, dict) and a.get("k") == "英文名":
+                            entry["name_en"] = a.get("v")
+        except Exception:
+            pass
+        entry["name"] = entry.get("name_en") or entry["name_native"]  # findAuto/渲染统一用 name
+        entry["role"] = "Main"
+        out_chars.append(entry)
+    series["characters"] = out_chars
     return {"series": series, "episodes": episodes}
 
 
